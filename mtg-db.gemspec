@@ -4,6 +4,7 @@ Gem::Specification.new do |s|
   s.name    = "mtg-db"
   s.version = Mtg::Db::VERSION
   s.summary = "A JSON database of Magic: The Gathering cards and sets."
+  s.license = 'MIT'
 
   s.authors     = ["Gabe Smith"]
   s.email       = ["sgt.floydpepper@gmail.com"]
