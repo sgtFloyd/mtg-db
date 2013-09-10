@@ -1,10 +1,10 @@
+# encoding: UTF-8
 require 'multi_json'
 require 'nokogiri'
 require 'open-uri'
 
 FILE_PATH = File.expand_path('../../data/sets.json', __FILE__)
-
-def get(url); Nokogiri::HTML( open(url) ); end
+def get(url); puts "getting #{url}"; Nokogiri::HTML(open(url)); end
 
 def extract_data(link)
   href = link.attributes['href'].value
