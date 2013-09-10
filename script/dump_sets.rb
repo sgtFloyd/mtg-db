@@ -5,7 +5,7 @@ require 'open-uri'
 
 FILE_PATH = File.expand_path('../../data/sets.json', __FILE__)
 def get(url); puts "getting #{url}"; Nokogiri::HTML(open(url)); end
-
+def key(set_json); set_json['mgci_code']; end
 def extract_data(link)
   href = link.attributes['href'].value
   {
@@ -15,9 +15,9 @@ def extract_data(link)
 end
 
 def merge(data)
-  existing = Hash[read.map{|s| [s['mgci_code'], s]}]
+  existing = Hash[read.map{|s| [key(s), s]}]
   data.each do |set|
-    existing[set['mgci_code']] = (existing[set['mgci_code']] || {}).merge(set)
+    existing[key(set)] = (existing[key(set)] || {}).merge(set)
   end
   existing.values
 end
