@@ -5,7 +5,6 @@ require 'open-uri'
 
 FILE_PATH = File.expand_path('../../data/cards.json', __FILE__)
 def get(url); puts "getting #{url}"; Nokogiri::HTML(open(url)); end
-
 def key(card_json); [card_json['set_name'], card_json['collector_num']]; end
 
 def merge(data)
