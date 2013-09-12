@@ -17,7 +17,7 @@ def sets
 end
 def get_set(name)
   (@_sets ||= {})[name] ||= ( # memoize return value
-    puts name unless @_sets[name];
+    puts "\n"+name unless @_sets[name];
     sets.find{|s| s['name'] == name}
   )
 end
@@ -25,11 +25,12 @@ end
 raw_cards.each do |card|
   next unless set = get_set(card['set_name'])
   next if ARGV[0] && ARGV[0] != set['mgci_code']
-  puts uri = "http://magiccards.info/scans/en/#{set['mgci_code']}/#{card['collector_num']}.jpg"
+  uri = "http://magiccards.info/scans/en/#{set['mgci_code']}/#{card['collector_num']}.jpg"
   begin; data = open(uri).read
     FileUtils.mkdir_p dir = File.join('data', 'images', 'mgci (312x445)', set['mgci_code'])
-    File.open(File.join(dir, File.basename(uri)), 'wb'){|f| f.write(data)}
+    File.open(File.join(dir, File.basename(uri)), 'wb'){|f| f.write(data)}; print '.'
   rescue OpenURI::HTTPError => e
-    puts "FAILED: #{set['mgci_code']}/#{card['collector_num']}.jpg - #{e}"
+    puts "\nFAILED: #{set['mgci_code']}/#{card['collector_num']}.jpg - #{e}"
   end
 end
+puts "Finished"
