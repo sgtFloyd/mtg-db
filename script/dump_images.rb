@@ -24,6 +24,7 @@ end
 
 raw_cards.each do |card|
   next unless set = get_set(card['set_name'])
+  next if ARGV[0] && ARGV[0] != set['mgci_code']
   puts uri = "http://magiccards.info/scans/en/#{set['mgci_code']}/#{card['collector_num']}.jpg"
   FileUtils.mkdir_p dir = File.join('data', 'images', '312x445', set['gatherer_code'])
   File.open(File.join(dir, File.basename(uri)), 'wb'){|f| f.write(open(uri).read)}
