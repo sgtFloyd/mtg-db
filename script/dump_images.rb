@@ -25,6 +25,6 @@ end
 cards.each do |card|
   next unless set_code = mgci_code(card['set_name'])
   puts uri = "http://magiccards.info/scans/en/#{set_code}/#{card['collector_num']}.jpg"
-  FileUtils.mkdir_p dir = File.join('data', 'images', set_code)
+  FileUtils.mkdir_p dir = File.join('data', 'images', '312x445', set_code)
   File.open(File.join(dir, File.basename(uri)), 'wb'){|f| f.write(open(uri).read)}
 end
