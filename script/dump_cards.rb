@@ -194,6 +194,4 @@ sets.each do |set|
   cnums = extract_cnums( set['mgci_code'] )
   cards << cnums.map{|n| CardPage.new(set, n).as_json}
 end
-write merge(cards.flatten).sort_by{|card|
-        card['set_name']
-      }
+write merge(cards.flatten)
