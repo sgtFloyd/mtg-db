@@ -1,10 +1,7 @@
 # encoding: UTF-8
-require 'multi_json'
-require 'nokogiri'
-require 'open-uri'
+require_relative '../script_util.rb'
 
 FILE_PATH = File.expand_path('../../../data/mgci/sets.json', __FILE__)
-def get(url); puts "getting #{url}"; Nokogiri::HTML(open(url)); end
 def key(set_json); set_json['mgci_code']; end
 
 def extract_data(link)
@@ -16,29 +13,15 @@ def extract_data(link)
 end
 
 def merge(data)
-  existing = Hash[read.map{|s| [key(s), s]}]
+  existing = Hash[read(FILE_PATH).map{|s| [key(s), s]}]
   data.each do |set|
     existing[key(set)] = (existing[key(set)] || {}).merge(set)
   end
   existing.values
 end
 
-def read
-  File.open(FILE_PATH, 'r') do |file|
-    return MultiJson.load(file.read)
-  end
-rescue
-  []
-end
-
-def write(data)
-  File.open(FILE_PATH, 'w') do |file|
-    file.puts MultiJson.dump(data, pretty: true)
-  end
-end
-
 page = get 'http://magiccards.info/sitemap.html'
 links = page.css('li a[href$="en.html"]')
-write merge(
+write FILE_PATH, merge(
         links.map(&method(:extract_data))
       ).sort_by{|set| set['name']}

@@ -26,6 +26,6 @@ end
 def write(path, data)
   puts "writing #{path}"
   File.open(path, 'w') do |file|
-    file.puts MultiJson.dump(data, pretty: true)
+    file.puts MultiJson.dump(data, pretty: true).gsub(/\[\s+\]/, '[]')
   end
 end

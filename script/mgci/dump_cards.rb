@@ -1,43 +1,19 @@
 # encoding: UTF-8
-require 'multi_json'
-require 'nokogiri'
-require 'open-uri'
+require_relative '../script_util.rb'
 
 FILE_PATH = File.expand_path('../../../data/mgci/cards.json', __FILE__)
-def get(url); puts "getting #{url}"; Nokogiri::HTML(open(url)); end
 def key(card_json); [card_json['set_name'], card_json['collector_num']]; end
 
 def merge(data)
-  existing = Hash[read.map{|c| [key(c), c]}]
+  existing = Hash[read(FILE_PATH).map{|c| [key(c), c]}]
   data.each do |card|
     existing[key(card)] = (existing[key(card)] || {}).merge(card)
   end
   existing.values
 end
 
-def read
-  File.open(FILE_PATH, 'r') do |file|
-    return MultiJson.load(file.read)
-  end
-rescue
-  []
-end
-
-def write(data)
-  File.open(FILE_PATH, 'w') do |file|
-    file.puts pretty_generate(data)
-  end
-end
-
-def pretty_generate(json)
-  MultiJson.dump(json, pretty: true).gsub(/\[\s+\]/, '[]')
-end
-
 def sets
-  path = File.expand_path('../../../data/mgci/sets.json', __FILE__)
-  File.open(path, 'r') do |file|
-    return MultiJson.load(file.read)
-  end
+  read File.expand_path('../../../data/mgci/sets.json', __FILE__)
 end
 
 def extract_cnums(set_code)
@@ -194,4 +170,4 @@ sets.each do |set|
   cnums = extract_cnums( set['mgci_code'] )
   cards << cnums.map{|n| CardPage.new(set, n).as_json}
 end
-write merge(cards.flatten)
+write FILE_PATH, merge(cards.flatten)
