@@ -2,17 +2,17 @@ require 'json'
 
 module Mtg
   module Db
-    VERSION = '0.1.4'
+    VERSION = '0.2.0'
 
     class << self
       def cards(reload=false)
         @cards = nil if reload
-        @cards ||= load_json File.expand_path('../../data/cards.json', __FILE__)
+        @cards ||= load_json File.expand_path('../../data/mgci/cards.json', __FILE__)
       end
 
       def sets(reload=false)
         @sets = nil if reload
-        @sets ||= load_json File.expand_path('../../data/sets.json', __FILE__)
+        @sets ||= load_json File.expand_path('../../data/mgci/sets.json', __FILE__)
       end
 
     private
