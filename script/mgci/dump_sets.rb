@@ -3,7 +3,7 @@ require 'multi_json'
 require 'nokogiri'
 require 'open-uri'
 
-FILE_PATH = File.expand_path('../../../data/sets.json', __FILE__)
+FILE_PATH = File.expand_path('../../../data/mgci/sets.json', __FILE__)
 def get(url); puts "getting #{url}"; Nokogiri::HTML(open(url)); end
 def key(set_json); set_json['mgci_code']; end
 
