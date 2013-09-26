@@ -3,7 +3,7 @@ require 'multi_json'
 require 'nokogiri'
 require 'open-uri'
 
-FILE_PATH = File.expand_path('../../data/cards.json', __FILE__)
+FILE_PATH = File.expand_path('../../../data/cards.json', __FILE__)
 def get(url); puts "getting #{url}"; Nokogiri::HTML(open(url)); end
 def key(card_json); [card_json['set_name'], card_json['collector_num']]; end
 
@@ -34,7 +34,7 @@ def pretty_generate(json)
 end
 
 def sets
-  path = File.expand_path('../../data/sets.json', __FILE__)
+  path = File.expand_path('../../../data/sets.json', __FILE__)
   File.open(path, 'r') do |file|
     return MultiJson.load(file.read)
   end

@@ -4,11 +4,11 @@ require 'multi_json'
 require 'open-uri'
 
 def raw_sets
-  path = File.expand_path('../../data/sets.json', __FILE__)
+  path = File.expand_path('../../../data/sets.json', __FILE__)
   File.open(path, 'r'){|file| MultiJson.load(file.read)}
 end
 def raw_cards
-  path = File.expand_path('../../data/cards.json', __FILE__)
+  path = File.expand_path('../../../data/cards.json', __FILE__)
   File.open(path, 'r'){|file| MultiJson.load(file.read)}
 end
 
