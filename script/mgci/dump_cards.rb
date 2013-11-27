@@ -107,6 +107,12 @@ class CardPage
   def rarity
     @_set_rarity ||= page.css('u:contains("Editions:") ~ b').first.text
     @rarity ||= @_set_rarity.match(/\((.+)\)/)[1]
+
+    # Urza's Lands in MTGO Masters Edition IV are incorrectly marked as
+    # having Basic Land rarity. They should be "Common"
+    @rarity = 'Common' if @rarity == 'Land' && name.match("Urza's")
+
+    @rarity
   end
 
   def type_str
