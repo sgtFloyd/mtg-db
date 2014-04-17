@@ -1,5 +1,6 @@
 # encoding: UTF-8
 require_relative '../script_util.rb'
+require_relative './dump_images.rb'
 
 FILE_PATH = File.expand_path('../../../data/mgci/cards.json', __FILE__)
 def key(card_json); [card_json['set_name'], card_json['collector_num']]; end
@@ -175,5 +176,6 @@ sets.each do |set|
   next if ARGV[0] && ARGV[0] != set['mgci_code']
   cnums = extract_cnums( set['mgci_code'] )
   cards << cnums.map{|n| CardPage.new(set, n).as_json}
+  ImageDumper.new(set['mgci_code']).run
 end
 write FILE_PATH, merge(cards.flatten)

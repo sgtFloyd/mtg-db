@@ -1,4 +1,5 @@
 require 'cgi'
+require 'fileutils'
 require 'multi_json'
 require 'nokogiri'
 require 'open-uri'
