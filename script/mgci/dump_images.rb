@@ -13,18 +13,19 @@ def raw_cards
 end
 
 def sets
-  @sets ||= raw_sets.select{|set| set['mgci_code']}
+  @sets ||= raw_sets.select{|set|
+    next if ARGV[0] && ARGV[0] != set['mgci_code']
+    set['mgci_code']
+  }
 end
+@_set_cache = {}
 def get_set(name)
-  (@_sets ||= {})[name] ||= ( # memoize return value
-    puts "\n"+name unless @_sets[name];
-    sets.find{|s| s['name'] == name}
-  )
+  @_set_cache[name] ||= sets.find{|s| s['name'] == name}
+                            .tap{|s| puts "\n"+name if s}
 end
 
 raw_cards.each do |card|
   next unless set = get_set(card['set_name'])
-  next if ARGV[0] && ARGV[0] != set['mgci_code']
   uri = "http://magiccards.info/scans/en/#{set['mgci_code']}/#{card['collector_num']}.jpg"
   begin; data = open(uri).read
     FileUtils.mkdir_p dir = File.join('data', 'images', 'mgci_312x445', set['mgci_code'])
