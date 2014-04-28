@@ -176,6 +176,11 @@ sets.each do |set|
   next if ARGV[0] && ARGV[0] != set['mgci_code']
   cnums = extract_cnums( set['mgci_code'] )
   cards << cnums.map{|n| CardPage.new(set, n).as_json}
+end
+
+write FILE_PATH, merge(cards.flatten)
+
+sets.each do |set|
+  next if ARGV[0] && ARGV[0] != set['mgci_code']
   ImageDumper.new(set['mgci_code']).run
 end
-write FILE_PATH, merge(cards.flatten)
