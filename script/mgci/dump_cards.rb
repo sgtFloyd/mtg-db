@@ -33,6 +33,14 @@ class CardPage
     @collector_num = num
   end
 
+  def collector_num
+    # ZEN lands paired using the official 246/246a numbering rather than mgci's 246/266
+    if @set_name == 'Zendikar' && @collector_num.to_i > 249
+      "#{@collector_num.to_i-20}a"
+    else
+      @collector_num
+    end
+  end
   def mana_cost
     @_center_p_first ||= center_div.css('p:first').first.text rescue nil
     @mana_cost ||= @_center_p_first.to_s.split("\n").map{|s| s.strip.chomp(',')}[1].strip rescue nil
@@ -136,7 +144,7 @@ class CardPage
     {
       'name' => name,                     # Shouldn't be nil
       'set_name' => @set_name,            # Shouldn't be nil
-      'collector_num' => @collector_num,  # Shouldn't be nil
+      'collector_num' => collector_num,   # Shouldn't be nil
       'illustrator' => illustrator,       # Shouldn't be nil
       'types' => types,                   # Can't be nil. Can't be empty []
       'supertypes' => supertypes,         # Can't be nil. Can be empty []
