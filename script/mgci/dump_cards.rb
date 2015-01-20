@@ -104,7 +104,7 @@ class CardPage
     @illustrator.empty? ? nil : @illustrator
   end
   def other_part
-    right_div.css('u:contains("The other part is") ~ a').first.text rescue nil
+    page.css('u:contains("The other part is") ~ a').first.text rescue nil
   end
   def color_ind
     @_center_p_first ||= center_div.css('p:first').text rescue nil
@@ -114,6 +114,10 @@ class CardPage
     nil
   end
   def rarity
+    # Override for bad mgci data.
+    return "Uncommon" if multiverse_id == 220502
+    return "Special" if multiverse_id == 109704
+
     @_set_rarity ||= page.css('u:contains("Editions:") ~ b').first.text
     @rarity ||= @_set_rarity.match(/\((.+)\)/)[1]
 
