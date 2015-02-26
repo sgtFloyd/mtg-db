@@ -65,7 +65,10 @@ class CardPage
     @multiverse_id == '0' ? nil : @multiverse_id.to_i
   end
   def name
-    @name ||= center_div.css("a[href=\"/#{@set_code}/en/#{@collector_num}.html\"]").first.text
+    @_name ||= center_div.css("a[href=\"/#{@set_code}/en/#{@collector_num}.html\"]").first.text
+    # Override for bad mgci data.
+    return "Lim-Dûl's High Guard" if @_name == "Lim-Dul's High Guard"
+    @_name
   end
   def power
     @power ||= p_t_str ? p_t_str.split('/')[0] : nil
