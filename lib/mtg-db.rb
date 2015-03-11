@@ -2,7 +2,7 @@ require 'json'
 
 module Mtg
   module Db
-    VERSION = '0.5.2'
+    VERSION = '0.5.3'
 
     class << self
       def cards(reload=false)

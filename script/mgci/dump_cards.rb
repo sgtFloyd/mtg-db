@@ -148,6 +148,7 @@ class CardPage
   end
 
   def as_json
+    return if types.include?('Token')
     {
       'name' => name,                     # Shouldn't be nil
       'set_name' => @set_name,            # Shouldn't be nil
@@ -190,7 +191,7 @@ cards = []
 sets.each do |set|
   next if ARGV[0] && ARGV[0] != set['mgci_code']
   cnums = extract_cnums( set['mgci_code'] )
-  cards << cnums.map{|n| CardPage.new(set, n).as_json}
+  cards << cnums.map{|n| CardPage.new(set, n).as_json}.compact
 end
 
 write FILE_PATH, merge(cards.flatten)
