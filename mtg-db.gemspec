@@ -13,5 +13,7 @@ Gem::Specification.new do |s|
   s.description = "An up-to-date database of Magic: The Gathering cards and sets in JSON format."
 
   s.require_paths = ["lib"]
-  s.files         = Dir['lib/**/*.rb'] + Dir['data/**/*.json']
+  s.files         = Dir['lib/**/*.rb'] +
+                    Dir['data/**/*.json'] +
+                    Dir['data/**/*.png']
 end
