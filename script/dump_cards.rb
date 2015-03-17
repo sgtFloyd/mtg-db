@@ -1,8 +1,8 @@
 # encoding: UTF-8
-require_relative '../script_util.rb'
+require_relative './script_util.rb'
 require_relative './dump_images.rb'
 
-FILE_PATH = File.expand_path('../../../data/mgci/cards.json', __FILE__)
+FILE_PATH = File.expand_path('../../data/cards.json', __FILE__)
 def key(card_json); [card_json['set_name'], card_json['collector_num']]; end
 
 def merge(data)
@@ -14,7 +14,7 @@ def merge(data)
 end
 
 def sets
-  read File.expand_path('../../../data/mgci/sets.json', __FILE__)
+  read File.expand_path('../../data/sets.json', __FILE__)
 end
 
 def extract_cnums(set_code)

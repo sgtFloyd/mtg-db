@@ -1,15 +1,15 @@
 # encoding: UTF-8
 $ran_as_script = __FILE__==$0
 
-require_relative '../script_util.rb'
+require_relative './script_util.rb'
 
 class ImageDumper
   def self.raw_sets
-    @_raw_sets ||= read(File.expand_path('../../../data/mgci/sets.json', __FILE__))
+    @_raw_sets ||= read(File.expand_path('../../data/sets.json', __FILE__))
   end
 
   def self.raw_cards
-    @_raw_cards ||= read(File.expand_path('../../../data/mgci/cards.json', __FILE__))
+    @_raw_cards ||= read(File.expand_path('../../data/cards.json', __FILE__))
   end
 
   def initialize(import_set=nil)

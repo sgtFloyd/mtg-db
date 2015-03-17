@@ -1,13 +1,16 @@
 # encoding: UTF-8
-require_relative '../script_util.rb'
+require_relative './script_util.rb'
 
-FILE_PATH = File.expand_path('../../../data/mgci/sets.json', __FILE__)
+FILE_PATH = File.expand_path('../../data/sets.json', __FILE__)
 def key(set_json); set_json['mgci_code']; end
 
+SET_NAME_OVERRIDES = {
+  "Magic 2014 Core Set" => "Magic 2014"
+}
 def extract_data(link)
   href = link.attributes['href'].value
   {
-    'name' => link.text,
+    'name' => SET_NAME_OVERRIDES[link.text] || link.text,
     'mgci_code' => href.split('/')[1]
   }
 end
