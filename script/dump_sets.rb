@@ -5,7 +5,8 @@ FILE_PATH = File.expand_path('../../data/sets.json', __FILE__)
 def key(set_json); set_json['mgci_code']; end
 
 SET_NAME_OVERRIDES = {
-  "Magic 2014 Core Set" => "Magic 2014"
+  "Magic 2014 Core Set" => "Magic 2014",
+  "Modern Masters 2015 Edition" => "Modern Masters 2015"
 }
 def extract_data(link)
   href = link.attributes['href'].value
