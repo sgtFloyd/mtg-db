@@ -2,10 +2,9 @@ require 'json'
 
 module Mtg
   module Db
-    VERSION = '0.7.6'
+    VERSION = '0.8.0'
     CARDS_PATH = File.expand_path('../../data/cards.json', __FILE__)
     SETS_PATH = File.expand_path('../../data/sets.json', __FILE__)
-    SET_IMAGES = File.expand_path('../../data/images/**/*.png', __FILE__)
 
     class << self
       def cards
@@ -14,16 +13,6 @@ module Mtg
 
       def sets
         @sets ||= load_json SETS_PATH
-      end
-
-      def images
-        base = Hash.new{|h,k|h[k]={}}
-        @images ||=
-          Dir[SET_IMAGES].inject(base) do |h, path|
-            set = File.basename(File.dirname(path))
-            version = File.basename(path, '.png')
-            h[set][version.to_sym] = path; h
-          end
       end
 
     private
