@@ -93,11 +93,18 @@ class CardPage
     @_super_and_types ||= type_str.split("—").map(&:strip)[0].split(' ')
     @supertypes ||= (@_super_and_types & SUPERTYPES) || []
   end
+
+  PLANESWALKER_TEXT_OVERRIDES = [398423, 398429, 398432, 398435, 398442]
   def oracle_text
     @_ctext ||= center_div.css('.ctext')
     @_ctext.css('br').each{|node| node.replace("\n")}
     @oracle_text ||= (@_ctext.text || "").strip.split("\n\n")
-    @oracle_text.empty? ? [] : @oracle_text
+    return [] if @oracle_text.empty?
+    # Slice Planeswalker abilities into multiple lines
+    if PLANESWALKER_TEXT_OVERRIDES.include?(multiverse_id)
+      @oracle_text = @oracle_text.join.gsub('−','-').split(/(?=[-+0][\dX]*:\s)/)
+    end
+    @oracle_text
   end
   def flavor_text
     @flavor_text ||= center_div.css('p')[-3].text
