@@ -18,16 +18,23 @@ class ImageDumper
     self.class.raw_cards; self.class.raw_sets # preload json cache
   end
 
+  def read_and_write(uri, set)
+    data = open(uri).read
+    FileUtils.mkdir_p dir = File.join('data', 'images', 'mgci_312x445', set['mgci_code'])
+    File.open(File.join(dir, File.basename(uri)), 'wb'){|f| f.write(data)}
+    print '.'
+  end
+
   def run
     print "Dumping images "
     self.class.raw_cards.each do |card|
       next unless set = get_set(card['set_name'])
       uri = "http://magiccards.info/scans/en/#{set['mgci_code']}/#{card['collector_num']}.jpg"
-      begin; data = open(uri).read
-        FileUtils.mkdir_p dir = File.join('data', 'images', 'mgci_312x445', set['mgci_code'])
-        File.open(File.join(dir, File.basename(uri)), 'wb'){|f| f.write(data)}; print '.'
+      begin
+        read_and_write(uri, set)
       rescue OpenURI::HTTPError => e
         puts "\nFAILED: #{set['mgci_code']}/#{card['collector_num']}.jpg - #{e}"
+        puts "Retrying in one second..."; sleep 1; read_and_write(uri, set)
       end
     end
     puts
