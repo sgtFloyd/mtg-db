@@ -35,7 +35,13 @@ class CardPage
     @collector_num = num
   end
 
+  COLLECTOR_NUM_OVERRIDES = {
+    407693 => '183a',
+    407695 => '184a'
+  }
   def collector_num
+    return COLLECTOR_NUM_OVERRIDES[multiverse_id] if COLLECTOR_NUM_OVERRIDES.include?(multiverse_id)
+
     # ZEN lands paired using the official 246/246a numbering rather than mgci's 246/266
     if @set_name == 'Zendikar' && @collector_num.to_i > 249
       "#{@collector_num.to_i-20}a"
