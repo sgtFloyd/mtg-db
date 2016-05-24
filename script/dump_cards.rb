@@ -214,13 +214,7 @@ sets.each do |set|
   next if ARGV[0] && ARGV[0] != set['mgci_code']
   cnums = extract_cnums( set['mgci_code'] )
   cards << cnums.map{|n|
-    begin
-      CardPage.new(set, n).as_json
-    rescue => e
-      puts "#{e}. Retrying in one second ..."
-      sleep 1
-      CardPage.new(set, n).as_json
-    end
+    CardPage.new(set, n).as_json
   }.compact
   if MISSING_JSON.include?(set['mgci_code'])
     cards << MISSING_JSON[set['mgci_code']]

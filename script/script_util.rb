@@ -13,6 +13,9 @@ end
 def get(url)
   puts "getting #{url}"
   Nokogiri::HTML(open(URI.escape url))
+rescue => e
+  puts "#{e}. Retrying in 500ms ..."; sleep 0.5
+  Nokogiri::HTML(open(URI.escape url))
 end
 
 def read(path)
