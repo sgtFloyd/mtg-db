@@ -45,6 +45,9 @@ class CardPage
     # ZEN lands paired using the official 246/246a numbering rather than mgci's 246/266
     if @set_name == 'Zendikar' && @collector_num.to_i > 249
       "#{@collector_num.to_i-20}a"
+    # BFZ lands using  250/250a numbering rather than mgci's 250a/250b
+    elsif @set_name == 'Battle for Zendikar' && @collector_num.to_i > 249
+      @collector_num.gsub('b', '')
     else
       @collector_num
     end
