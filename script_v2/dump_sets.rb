@@ -1,9 +1,13 @@
 require_relative './script_util.rb'
 require 'celluloid/current'
+require 'yaml'
 
 FILE_PATH = File.expand_path('../../data_v2/sets.json', __FILE__)
-EXCLUDED_SETS = %w[Vanguard]
 THREAD_POOL_SIZE = 25
+
+EXCLUDED_SETS = YAML.load_file(File.join File.dirname(__FILE__), 'data', 'excluded_sets.yml')
+SET_CODE_OVERRIDES = YAML.load_file(File.join File.dirname(__FILE__), 'data', 'set_code_overrides.yml')
+SET_NAME_OVERRIDES =  YAML.load_file(File.join File.dirname(__FILE__), 'data', 'set_name_overrides.yml')
 
 class CelluloidWorker
   include Celluloid
@@ -12,7 +16,10 @@ class CelluloidWorker
     set_page = get "http://gatherer.wizards.com/Pages/Search/Default.aspx?set=[%22#{set_name}%22]"
     set_img = set_page.css('img[src^="../../Handlers/Image.ashx?type=symbol&set="]').first
     set_code = set_img.attr(:src)[/set=(\w+)/, 1].downcase
-    { 'name' => set_name, 'gatherer_code' => set_code }
+    {
+      'name' => SET_NAME_OVERRIDES[set_name] || set_name,
+      'gatherer_code' => SET_CODE_OVERRIDES[set_code] || set_code
+    }
   end
 end
 
