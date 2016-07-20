@@ -15,7 +15,7 @@ class CelluloidWorker
     set_img = set_page.css('img[src^="../../Handlers/Image.ashx?type=symbol&set="]').first
     set_code = set_img.attr(:src)[/set=(\w+)/, 1].downcase
     { 'name' => SET_NAME_OVERRIDES[set_name] || set_name,
-      'gatherer_code' => SET_CODE_OVERRIDES[set_code] || set_code }
+      'code' => SET_CODE_OVERRIDES[set_code] || set_code }
   end
 end
 
