@@ -1,11 +1,4 @@
 require_relative './script_util.rb'
-require 'celluloid/current'
-require 'yaml'
-
-SET_JSON_FILE_PATH =  File.expand_path('../../data_v2/sets.json', __FILE__)
-EXCLUDED_SETS =       YAML.load_file(File.expand_path '../data/excluded_sets.yml', __FILE__)
-SET_CODE_OVERRIDES =  YAML.load_file(File.expand_path '../data/set_code_overrides.yml', __FILE__)
-SET_NAME_OVERRIDES =  YAML.load_file(File.expand_path '../data/set_name_overrides.yml', __FILE__)
 
 class CelluloidWorker
   include Celluloid

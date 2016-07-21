@@ -1,8 +1,15 @@
+require 'celluloid/current'
 require 'cgi'
 require 'fileutils'
 require 'multi_json'
 require 'nokogiri'
 require 'open-uri'
+require 'yaml'
+
+SET_JSON_FILE_PATH =  File.expand_path('../../data_v2/sets.json', __FILE__)
+EXCLUDED_SETS =       YAML.load_file(File.expand_path '../data/excluded_sets.yml', __FILE__)
+SET_CODE_OVERRIDES =  YAML.load_file(File.expand_path '../data/set_code_overrides.yml', __FILE__)
+SET_NAME_OVERRIDES =  YAML.load_file(File.expand_path '../data/set_name_overrides.yml', __FILE__)
 
 class Object
   def try(*a, &b)
@@ -27,6 +34,7 @@ def read(path)
     return MultiJson.load(file.read)
   end
 rescue
+  puts "#{e}. Failed to read #{path}"
   []
 end
 
