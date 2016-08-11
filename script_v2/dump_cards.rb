@@ -21,8 +21,17 @@ class CardScraper
   end
 
   def parse_oracle_text
-    # TODO: Replace mana symbols with encoded values.
-    container.css('[id$="textRow"] .cardtextbox').map(&:text).map(&:strip)
+    textboxes = container.css('[id$="textRow"] .cardtextbox')
+    textboxes.map do |textbox|
+      if textbox.css('img').present?
+        textbox.inner_html.gsub(//) do |match|
+          # TODO: Find and replace <img> elements with mana symbols
+        end
+        require 'pry'; binding.pry
+      else
+        textbox.text.strip
+      end
+    end
   end
 
   memo def parse_pt
@@ -88,8 +97,7 @@ class CelluloidWorker
   include Celluloid
 
   def fetch_data(multiverse_id)
-    card = CardScraper.new(multiverse_id)
-    card.as_json
+    CardScraper.new(multiverse_id).as_json
   end
 end
 
