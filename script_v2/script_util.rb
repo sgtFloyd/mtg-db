@@ -30,6 +30,9 @@ class Object
   def presence
     self if present?
   end
+  def exclude?(obj)
+    !include?(obj)
+  end
 end
 
 def get(url, headers={})

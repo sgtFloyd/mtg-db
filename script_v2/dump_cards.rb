@@ -16,6 +16,19 @@ class CardScraper
     page.css('[id$="subtitleDisplay"]').text.strip
   end
 
+  COLLECTOR_NUM_OVERRIDES = {
+    # Gatherer's misnumbered Sixth Edition printings.
+    15358 => '14',  14472 => '15',  11530 => '289', 14777 => '290', 14761 => '291',
+    14759 => '292', 11355 => '293', 14778 => '294', 14780 => '295', 15407 => '296',
+    15439 => '297', 15441 => '298', 14781 => '299', 14782 => '300', 15442 => '301',
+    15435 => '302', 15401 => '303', 14767 => '304', 15408 => '305', 14784 => '306',
+    15436 => '307', 11454 => '308', 14768 => '309', 11503 => '310', 15443 => '311',
+    15409 => '312', 14769 => '313', 15402 => '314', 15410 => '315'
+  }
+  memo def parse_collector_num
+    COLLECTOR_NUM_OVERRIDES[multiverse_id] || labeled_row(:number)
+  end
+
   SUPERTYPES = %w[Basic Legendary World Snow]
   memo def parse_types
     { types:      labeled_row(:type).split("—").map(&:strip)[0].split(' ') - SUPERTYPES,
@@ -23,7 +36,7 @@ class CardScraper
       subtypes:   (labeled_row(:type).split("—").map(&:strip)[1].split(' ') rescue []) }
   end
 
-  def parse_mana_cost
+  memo def parse_mana_cost
     container.css('[id$="manaRow"] .value img').map do |symbol|
       symbol_key = symbol.attr(:alt).strip
       MANA_COST_SYMBOLS[symbol_key] || symbol_key
@@ -62,13 +75,13 @@ class CardScraper
   end
 
   ILLUSTRATOR_REPLACEMENTS = {"Brian Snoddy" => "Brian Snõddy"}
-  def parse_illustrator
+  memo def parse_illustrator
     artist_str = labeled_row(:artist)
     ILLUSTRATOR_REPLACEMENTS[artist_str] || artist_str
   end
 
   RARITY_REPLACEMENTS = {'Basic Land' => 'Land'}
-  def parse_rarity
+  memo def parse_rarity
     rarity_str = labeled_row(:rarity)
     RARITY_REPLACEMENTS[rarity_str] || rarity_str
   end
@@ -77,7 +90,7 @@ class CardScraper
     {
       'name'                => parse_name,
       'set_name'            => labeled_row(:set),
-      'collector_num'       => labeled_row(:number),
+      'collector_num'       => parse_collector_num,
       'illustrator'         => parse_illustrator,
       'types'               => parse_types[:types],
       'supertypes'          => parse_types[:supertypes],

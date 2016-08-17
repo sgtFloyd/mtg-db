@@ -16,13 +16,13 @@ SETS_TO_VALIDATE.each do |set|
       case key
       when 'oracle_text'
         # Replace instances of ({C})+ in new text with backwards-compatible {1}, {2}
-        new_text = new_card[key].map{|l| l.gsub(/({C})+/){|m| "{#{m.scan('{C}').count}}"}}
+        new_text = new_card[key].map{|l| l.gsub(/({C})+/){|_| "{#{_.scan('{C}').count}}"}}
 
         # Ignore mismatch when only reminder text is different.
-        (old_card[key].join.gsub(/\([^(]+\)/,'').strip !=
-          new_text.join.gsub(/\([^(]+\)/,'').strip) &&
+        (old_card[key].map{|line| line.gsub(/\([^(]+\)/,'').strip} !=
+          new_text.map{|line| line.gsub(/\([^(]+\)/,'').strip}) &&
         # Ignore mismatch if newly-introduced Menace keyword is present.
-        new_text.join.include?('Menace')
+        new_text.join.exclude?('Menace')
 
       # Known issue: gatherer is missing punctuation on many cards' flavor_text.
       when 'flavor_text' then next
