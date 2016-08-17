@@ -2,7 +2,7 @@ require_relative './script_util.rb'
 
 ALL_SETS = read(SET_JSON_FILE_PATH)
 SETS_TO_DUMP = ARGV.any? ? ALL_SETS.select{|s| s['code'].in? ARGV} : ALL_SETS
-WORKER_POOL_SIZE = 1
+WORKER_POOL_SIZE = 25
 
 class CardScraper
   extend Memoizer
@@ -71,7 +71,6 @@ class CardScraper
       'other_part'          => nil,
       'color_indicator'     => labeledRow(:colorIndicator).presence,
     }
-    require 'pry'; binding.pry
   end
 
 private
@@ -116,4 +115,7 @@ SETS_TO_DUMP.each do |set|
   card_json = multiverse_ids.map do |multiverse_id|
     worker_pool.future.fetch_data(multiverse_id)
   end.map(&:value)
+
+  # Output is sorted the same as search results, by collector num.
+  write File.join(CARD_JSON_FILE_PATH, "#{set['code']}.json"), card_json
 end
