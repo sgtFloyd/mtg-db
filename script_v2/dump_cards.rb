@@ -20,17 +20,16 @@ class CardScraper
       subtypes:   (type_str.split("—").map(&:strip)[1].split(' ') rescue []) }
   end
 
-  def parse_oracle_text
+  memo def parse_oracle_text
     textboxes = container.css('[id$="textRow"] .cardtextbox')
     textboxes.map do |textbox|
-      if textbox.css('img').present?
-        textbox.inner_html.gsub(//) do |match|
-          # TODO: Find and replace <img> elements with mana symbols
-        end
-        require 'pry'; binding.pry
-      else
-        textbox.text.strip
+      textbox.css(:img).each do |img|
+        img_alt = img.attr(:alt).strip
+        symbol = MANA_COST_SYMBOLS[img_alt] || img_alt
+        symbol = "{#{symbol}}" unless symbol.match(/^{/)
+        img.replace(symbol)
       end
+      textbox.text.strip
     end
   end
 
