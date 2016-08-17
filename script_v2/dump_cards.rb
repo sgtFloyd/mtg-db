@@ -107,7 +107,7 @@ SETS_TO_DUMP.each do |set|
   cookie = "CardDatabaseSettings=0=1&1=28&2=0&14=1&3=13&4=0&5=1&6=15&7=0&8=1&9=1&10=19&11=7&12=8&15=1&16=0&13=;"
   response = get(set_url, "Cookie" => cookie)
 
-  multiverse_ids = response.css('.cardItem [id$="cardTitle"]').map do |link|
+  multiverse_ids = response.css('.cardItem [id$="cardPrintings"] a').map do |link|
     link.attr(:href)[/multiverseid=(\d+)/, 1].to_i
   end
 
