@@ -4,6 +4,7 @@ require 'fileutils'
 require 'multi_json'
 require 'nokogiri'
 require 'open-uri'
+require 'pp'
 require 'yaml'
 
 SET_JSON_FILE_PATH =  File.expand_path('../../data_v2/sets.json', __FILE__)

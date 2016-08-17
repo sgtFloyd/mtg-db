@@ -12,35 +12,15 @@ class CardScraper
     self.multiverse_id = multiverse_id
   end
 
+  memo def parse_name
+    page.css('[id$="subtitleDisplay"]').text.strip
+  end
+
   SUPERTYPES = %w[Basic Legendary World Snow]
   memo def parse_types
-    { types:      labeledRow(:type).split("—").map(&:strip)[0].split(' ') - SUPERTYPES,
-      supertypes: labeledRow(:type).split("—").map(&:strip)[0].split(' ') & SUPERTYPES,
-      subtypes:   (labeledRow(:type).split("—").map(&:strip)[1].split(' ') rescue []) }
-  end
-
-  memo def parse_oracle_text
-    textboxes = container.css('[id$="textRow"] .cardtextbox')
-    textboxes.map do |textbox|
-      textbox.css(:img).each do |img|
-        img_alt = img.attr(:alt).strip
-        symbol = MANA_COST_SYMBOLS[img_alt] || img_alt
-        symbol = "{#{symbol}}" unless symbol.match(/^{/)
-        img.replace(symbol)
-      end
-      textbox.text.strip
-    end
-  end
-
-  memo def parse_pt
-    if parse_types[:types].include?('Planeswalker')
-      { loyalty: labeledRow(:pt) }
-    elsif parse_types[:types].include?('Creature')
-      { power:     labeledRow(:pt).split('/')[0].strip,
-        toughness: labeledRow(:pt).split('/')[1].strip }
-    else
-      {}
-    end
+    { types:      labeled_row(:type).split("—").map(&:strip)[0].split(' ') - SUPERTYPES,
+      supertypes: labeled_row(:type).split("—").map(&:strip)[0].split(' ') & SUPERTYPES,
+      subtypes:   (labeled_row(:type).split("—").map(&:strip)[1].split(' ') rescue []) }
   end
 
   def parse_mana_cost
@@ -50,26 +30,69 @@ class CardScraper
     end.join
   end
 
+  BASIC_LAND_SYMBOL = {'Plains'   => '{W}', 'Island' => '{U}', 'Swamp'  => '{B}',
+                       'Mountain' => '{R}', 'Forest' => '{G}', 'Wastes' => '{C}'}
+  memo def parse_oracle_text
+    # Override oracle text for basic lands.
+    if parse_types[:supertypes].include?('Basic')
+      return  ["({T}: Add #{BASIC_LAND_SYMBOL[parse_name]} to your mana pool.)"]
+    end
+
+    textboxes = container.css('[id$="textRow"] .cardtextbox')
+    textboxes.map do |textbox|
+      textbox.css(:img).each do |img|
+        img_alt = img.attr(:alt).strip
+        symbol = MANA_COST_SYMBOLS[img_alt] || img_alt
+        symbol = "{#{symbol}}" unless symbol.match(/^{/)
+        img.replace(symbol)
+      end
+      textbox.text.strip
+    end.select(&:present?)
+  end
+
+  memo def parse_pt
+    if parse_types[:types].include?('Planeswalker')
+      { loyalty: labeled_row(:pt) }
+    elsif parse_types[:types].include?('Creature')
+      { power:     labeled_row(:pt).split('/')[0].strip,
+        toughness: labeled_row(:pt).split('/')[1].strip }
+    else
+      {}
+    end
+  end
+
+  ILLUSTRATOR_REPLACEMENTS = {"Brian Snoddy" => "Brian Snõddy"}
+  def parse_illustrator
+    artist_str = labeled_row(:artist)
+    ILLUSTRATOR_REPLACEMENTS[artist_str] || artist_str
+  end
+
+  RARITY_REPLACEMENTS = {'Basic Land' => 'Land'}
+  def parse_rarity
+    rarity_str = labeled_row(:rarity)
+    RARITY_REPLACEMENTS[rarity_str] || rarity_str
+  end
+
   def as_json(options={})
     {
-      'name'                => page.css('[id$="subtitleDisplay"]').text.strip,
-      'set_name'            => labeledRow(:set),
-      'collector_num'       => labeledRow(:number),
-      'illustrator'         => labeledRow(:artist),
+      'name'                => parse_name,
+      'set_name'            => labeled_row(:set),
+      'collector_num'       => labeled_row(:number),
+      'illustrator'         => parse_illustrator,
       'types'               => parse_types[:types],
       'supertypes'          => parse_types[:supertypes],
       'subtypes'            => parse_types[:subtypes],
-      'rarity'              => labeledRow(:rarity),
-      'mana_cost'           => parse_mana_cost,
-      'converted_mana_cost' => labeledRow(:cmc).to_i,
+      'rarity'              => parse_rarity,
+      'mana_cost'           => parse_mana_cost.presence,
+      'converted_mana_cost' => labeled_row(:cmc).to_i,
       'oracle_text'         => parse_oracle_text,
-      'flavor_text'         => labeledRow(:flavor).presence,
+      'flavor_text'         => labeled_row(:flavor).presence,
       'power'               => parse_pt[:power],
       'toughness'           => parse_pt[:toughness],
       'loyalty'             => parse_pt[:loyalty],
       'multiverse_id'       => multiverse_id,
       'other_part'          => nil,
-      'color_indicator'     => labeledRow(:colorIndicator).presence,
+      'color_indicator'     => labeled_row(:colorIndicator).presence,
     }
   end
 
@@ -87,7 +110,7 @@ private
     end
   end
 
-  memo def labeledRow(label)
+  memo def labeled_row(label)
     container.css("[id$=\"#{label}Row\"] .value").text.strip
   end
 end
