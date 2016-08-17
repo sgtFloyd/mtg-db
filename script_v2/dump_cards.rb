@@ -14,10 +14,9 @@ class CardScraper
 
   SUPERTYPES = %w[Basic Legendary World Snow]
   memo def parse_types
-    type_str = container.css('[id$="typeRow"] .value').text.strip
-    { types:      type_str.split("—").map(&:strip)[0].split(' ') - SUPERTYPES,
-      supertypes: type_str.split("—").map(&:strip)[0].split(' ') & SUPERTYPES,
-      subtypes:   (type_str.split("—").map(&:strip)[1].split(' ') rescue []) }
+    { types:      labeledRow(:type).split("—").map(&:strip)[0].split(' ') - SUPERTYPES,
+      supertypes: labeledRow(:type).split("—").map(&:strip)[0].split(' ') & SUPERTYPES,
+      subtypes:   (labeledRow(:type).split("—").map(&:strip)[1].split(' ') rescue []) }
   end
 
   memo def parse_oracle_text
@@ -34,12 +33,11 @@ class CardScraper
   end
 
   memo def parse_pt
-    pt_str = container.css('[id$="ptRow"] .value').text.strip
     if parse_types[:types].include?('Planeswalker')
-      { loyalty: pt_str }
+      { loyalty: labeledRow(:pt) }
     elsif parse_types[:types].include?('Creature')
-      { power:     pt_str.split('/')[0].strip,
-        toughness: pt_str.split('/')[1].strip }
+      { power:     labeledRow(:pt).split('/')[0].strip,
+        toughness: labeledRow(:pt).split('/')[1].strip }
     else
       {}
     end
@@ -55,23 +53,23 @@ class CardScraper
   def as_json(options={})
     {
       'name'                => page.css('[id$="subtitleDisplay"]').text.strip,
-      'set_name'            => container.css('[id$="setRow"] .value').text.strip,
-      'collector_num'       => container.css('[id$="numberRow"] .value').text.strip,
-      'illustrator'         => container.css('[id$="artistRow"] .value').text.strip,
+      'set_name'            => labeledRow(:set),
+      'collector_num'       => labeledRow(:number),
+      'illustrator'         => labeledRow(:artist),
       'types'               => parse_types[:types],
       'supertypes'          => parse_types[:supertypes],
       'subtypes'            => parse_types[:subtypes],
-      'rarity'              => container.css('[id$="rarityRow"] .value').text.strip,
+      'rarity'              => labeledRow(:rarity),
       'mana_cost'           => parse_mana_cost,
-      'converted_mana_cost' => container.css('[id$="cmcRow"] .value').text.strip.to_i,
+      'converted_mana_cost' => labeledRow(:cmc).to_i,
       'oracle_text'         => parse_oracle_text,
-      'flavor_text'         => container.css('[id$="flavorRow"] .value').text.strip.presence,
+      'flavor_text'         => labeledRow(:flavor).presence,
       'power'               => parse_pt[:power],
       'toughness'           => parse_pt[:toughness],
       'loyalty'             => parse_pt[:loyalty],
       'multiverse_id'       => multiverse_id,
       'other_part'          => nil,
-      'color_indicator'     => container.css('[id$="colorIndicatorRow"] .value').text.strip.presence,
+      'color_indicator'     => labeledRow(:colorIndicator).presence,
     }
     require 'pry'; binding.pry
   end
@@ -89,6 +87,10 @@ private
         page.css('[id$="subtitleDisplay"]').text.strip
     end
   end
+
+  memo def labeledRow(label)
+    container.css("[id$=\"#{label}Row\"] .value").text.strip
+  end
 end
 
 
@@ -101,6 +103,7 @@ class CelluloidWorker
 end
 
 SETS_TO_DUMP.each do |set|
+  # Cookie contains setting to retrieve all results in a single page, instead of the default 100 results per page.
   set_url = "http://gatherer.wizards.com/Pages/Search/Default.aspx?sort=cn+&output=compact&set=[%22#{set['name']}%22]"
   cookie = "CardDatabaseSettings=0=1&1=28&2=0&14=1&3=13&4=0&5=1&6=15&7=0&8=1&9=1&10=19&11=7&12=8&15=1&16=0&13=;"
   response = get(set_url, "Cookie" => cookie)
