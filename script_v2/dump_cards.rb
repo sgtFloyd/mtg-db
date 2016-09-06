@@ -64,7 +64,9 @@ class CardScraper
   end
 
   memo def parse_flavor_text
-    FLAVOR_TEXT_OVERRIDES[multiverse_id] || labeled_row(:flavor).presence
+    return FLAVOR_TEXT_OVERRIDES[multiverse_id] if FLAVOR_TEXT_OVERRIDES[multiverse_id]
+    textboxes = container.css('[id$="flavorRow"] .flavortextbox')
+    textboxes.map{|t| t.text.strip}.select(&:present?).join("\n").presence
   end
 
   memo def parse_pt

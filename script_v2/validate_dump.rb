@@ -37,14 +37,16 @@ SETS_TO_VALIDATE.each do |set|
 
       # Known issue: gatherer is missing punctuation on many cards' flavor_text.
       when 'flavor_text'
-        if old_card[key] != new_card[key]
+        if old_card[key].to_s != new_card[key].to_s.gsub("\n—", "—")
           next false if flavor_text_override_match?(new_card) # Override already processed
+          mixed_text = old_card[key].sub("—", "\n—")
           puts "Flavor text mismatch on #{set['code']}##{old_card['collector_num']} (#{old_card['multiverse_id']}):"
-          puts "  Old text (1): #{old_card[key]}"
-          puts "  New text (2): #{new_card[key]}"
+          puts "  Old   (1): #{old_card[key]}"
+          puts "  New   (2): #{new_card[key]}"
+          puts "  Mixed (3): #{mixed_text}"
           response = STDIN.gets.strip
-          if response.in?(['1', '2'])
-            selected_text = [old_card[key], new_card[key]][response.to_i - 1]
+          if response.in? ['1', '2', '3']
+            selected_text = [old_card[key], new_card[key], mixed_text][response.to_i - 1]
             record_flavor_text(old_card['multiverse_id'], selected_text)
           end
         end
