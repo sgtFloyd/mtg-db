@@ -63,6 +63,10 @@ class CardScraper
     end.select(&:present?)
   end
 
+  memo def parse_flavor_text
+    FLAVOR_TEXT_OVERRIDES[multiverse_id] || labeled_row(:flavor).presence
+  end
+
   memo def parse_pt
     if parse_types[:types].include?('Planeswalker')
       { loyalty: labeled_row(:pt) }
@@ -99,7 +103,7 @@ class CardScraper
       'mana_cost'           => parse_mana_cost.presence,
       'converted_mana_cost' => labeled_row(:cmc).to_i,
       'oracle_text'         => parse_oracle_text,
-      'flavor_text'         => labeled_row(:flavor).presence,
+      'flavor_text'         => parse_flavor_text,
       'power'               => parse_pt[:power],
       'toughness'           => parse_pt[:toughness],
       'loyalty'             => parse_pt[:loyalty],

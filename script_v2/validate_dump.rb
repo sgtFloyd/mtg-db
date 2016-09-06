@@ -4,6 +4,17 @@ ALL_SETS = read SET_JSON_FILE_PATH
 SETS_TO_VALIDATE = ARGV.any? ? ALL_SETS.select{|s| s['code'].in? ARGV} : ALL_SETS
 OLD_CARD_JSON = read File.expand_path('../../data/cards.json', __FILE__)
 
+def record_flavor_text(multiverse_id, flavor_text)
+  overrides = read(FLAVOR_TEXT_FILE_PATH, parser: YAML, silent: true)
+  overrides[multiverse_id] = flavor_text
+  File.open(FLAVOR_TEXT_FILE_PATH, 'w'){|f| f.write overrides.to_yaml}
+end
+
+def flavor_text_override_match?(card_attrs)
+  overrides = read(FLAVOR_TEXT_FILE_PATH, parser: YAML, silent: true)
+  overrides[card_attrs['multiverse_id']] == card_attrs['flavor_text']
+end
+
 SETS_TO_VALIDATE.each do |set|
   old_json = OLD_CARD_JSON.select{|card| card['set_name'] == set['name']}
   new_json = read File.join(CARD_JSON_FILE_PATH, "#{set['code']}.json")
@@ -25,14 +36,25 @@ SETS_TO_VALIDATE.each do |set|
         new_text.join.exclude?('Menace')
 
       # Known issue: gatherer is missing punctuation on many cards' flavor_text.
-      when 'flavor_text' then next
+      when 'flavor_text'
+        if old_card[key] != new_card[key]
+          next false if flavor_text_override_match?(new_card) # Override already processed
+          puts "Flavor text mismatch on #{set['code']}##{old_card['collector_num']} (#{old_card['multiverse_id']}):"
+          puts "  Old text (1): #{old_card[key]}"
+          puts "  New text (2): #{new_card[key]}"
+          response = STDIN.gets.strip
+          if response.in?(['1', '2'])
+            selected_text = [old_card[key], new_card[key]][response.to_i - 1]
+            record_flavor_text(old_card['multiverse_id'], selected_text)
+          end
+        end
       else
         old_card[key] != new_card[key]
       end
     end
     if mismatches.any?
       puts "#{set['code']}##{old_card['collector_num']}: Mismatch: #{mismatches.join(', ')}"
-      print "Old:"; pp old_card; print "New:"; pp new_card; STDIN.gets
+      # print "Old:"; pp old_card; print "New:"; pp new_card; STDIN.gets
     end
   end
 

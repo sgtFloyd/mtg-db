@@ -7,8 +7,10 @@ require 'open-uri'
 require 'pp'
 require 'yaml'
 
-SET_JSON_FILE_PATH =  File.expand_path('../../data_v2/sets.json', __FILE__)
-CARD_JSON_FILE_PATH = File.expand_path('../../data_v2/sets', __FILE__)
+SET_JSON_FILE_PATH =    File.expand_path('../../data_v2/sets.json', __FILE__)
+CARD_JSON_FILE_PATH =   File.expand_path('../../data_v2/sets', __FILE__)
+FLAVOR_TEXT_FILE_PATH = File.expand_path('../data/flavor_text_overrides.yml', __FILE__)
+FLAVOR_TEXT_OVERRIDES = YAML.load_file(FLAVOR_TEXT_FILE_PATH)
 EXCLUDED_SETS =       YAML.load_file(File.expand_path '../data/excluded_sets.yml', __FILE__)
 SET_CODE_OVERRIDES =  YAML.load_file(File.expand_path '../data/set_code_overrides.yml', __FILE__)
 SET_NAME_OVERRIDES =  YAML.load_file(File.expand_path '../data/set_name_overrides.yml', __FILE__)
@@ -43,18 +45,18 @@ rescue => e
   Nokogiri::HTML( open(URI.escape(url), headers) )
 end
 
-def read(path)
-  puts "reading #{path}"
+def read(path, parser: MultiJson, silent: false)
+  puts "reading #{path}" unless silent
   File.open(path, 'r') do |file|
-    return MultiJson.load(file.read)
+    return parser.load(file.read)
   end
 rescue
   puts "#{e}. Failed to read #{path}"
   []
 end
 
-def write(path, data)
-  puts "writing #{path}"
+def write(path, data, silent: false)
+  puts "writing #{path}" unless silent
   File.open(path, 'w') do |file|
     file.puts MultiJson.dump(data, pretty: true).gsub(/\[\s+\]/, '[]')
   end
