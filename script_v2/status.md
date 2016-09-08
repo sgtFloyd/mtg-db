@@ -72,9 +72,9 @@ exo 'Exodus'
 ~~7ed 'Seventh Edition'~~  
 ~~6ed 'Classic Sixth Edition'~~  
 
-pd3 'Premium Deck Series: Graveborn'  
-pd2 'Premium Deck Series: Fire and Lightning'  
-h09 'Premium Deck Series: Slivers'  
+~~pd3 'Premium Deck Series: Graveborn'~~  
+~~pd2 'Premium Deck Series: Fire and Lightning'~~  
+~~h09 'Premium Deck Series: Slivers'~~  
 
 v15 'From the Vault: Angels'  
 v14 'From the Vault: Annihilation'  
