@@ -45,10 +45,9 @@ SETS_TO_VALIDATE.each do |set|
         # Ignore mismatch if newly-introduced Menace keyword is present.
         new_text.join.exclude?('Menace') && new_text.join.exclude?('menace')
 
-      # Known issue: gatherer is missing punctuation on many cards' flavor_text.
       when 'flavor_text'
-        if old_card[key].to_s != new_card[key].to_s.gsub("\n—", "—")
-          next false if flavor_text_override_match?(new_card) # Override already processed
+        # Ignore discrepancies where old flavor text is only missing line breaks
+        if old_card[key].to_s != new_card[key].to_s.gsub("\n", "")
           mixed_text = old_card[key].sub("—", "\n—")
           contains_exclamation = old_card[key].include?('!')
           puts "Flavor text mismatch on #{set['code']}##{old_card['collector_num']} (#{old_card['multiverse_id']})#{" !!!!!" if contains_exclamation}:"
@@ -61,6 +60,8 @@ SETS_TO_VALIDATE.each do |set|
             record_flavor_text(old_card['multiverse_id'], selected_text, set: set)
           end
         end
+      when 'illustrator'
+        next false if old_card[key] == 'Brian Snoddy' && new_card[key] == 'Brian Snõddy'
       else
         old_card[key] != new_card[key]
       end
