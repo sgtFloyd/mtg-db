@@ -66,8 +66,8 @@ m13 'Magic 2013'
 m12 'Magic 2012'  
 m11 'Magic 2011'  
 m10 'Magic 2010'  
-10e 'Tenth Edition'  
-9ed 'Ninth Edition'  
+~~10e 'Tenth Edition'~~  
+~~9ed 'Ninth Edition'~~  
 ~~8ed 'Eighth Edition'~~  
 ~~7ed 'Seventh Edition'~~  
 ~~6ed 'Classic Sixth Edition'~~  
