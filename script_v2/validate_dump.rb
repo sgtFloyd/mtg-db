@@ -1,13 +1,23 @@
 require_relative './script_util.rb'
 
 ALL_SETS = read SET_JSON_FILE_PATH
+VERBOSE_MODE = ARGV.delete('-v')
 SETS_TO_VALIDATE = ARGV.any? ? ALL_SETS.select{|s| s['code'].in? ARGV} : ALL_SETS
 OLD_CARD_JSON = read File.expand_path('../../data/cards.json', __FILE__)
 
-def record_flavor_text(multiverse_id, flavor_text)
+def record_flavor_text(multiverse_id, flavor_text, set: nil)
+  # Insert override into flavor_text_overrides.yml
   overrides = read(FLAVOR_TEXT_FILE_PATH, parser: YAML, silent: true)
   overrides[multiverse_id] = flavor_text
   File.open(FLAVOR_TEXT_FILE_PATH, 'w'){|f| f.write overrides.to_yaml}
+
+  # Update set json with new flavor text, if necessary
+  set_json = read File.join(CARD_JSON_FILE_PATH, "#{set['code']}.json"), silent: true
+  card_index = set_json.index{|card| card['multiverse_id'] == multiverse_id}
+  if set_json[card_index]['flavor_text'] != flavor_text
+    set_json[card_index]['flavor_text'] = flavor_text
+    write File.join(CARD_JSON_FILE_PATH, "#{set['code']}.json"), set_json
+  end
 end
 
 def flavor_text_override_match?(card_attrs)
@@ -33,21 +43,22 @@ SETS_TO_VALIDATE.each do |set|
         (old_card[key].map{|line| line.gsub(/\([^(]+\)/,'').strip} !=
           new_text.map{|line| line.gsub(/\([^(]+\)/,'').strip}) &&
         # Ignore mismatch if newly-introduced Menace keyword is present.
-        new_text.join.exclude?('Menace')
+        new_text.join.exclude?('Menace') && new_text.join.exclude?('menace')
 
       # Known issue: gatherer is missing punctuation on many cards' flavor_text.
       when 'flavor_text'
         if old_card[key].to_s != new_card[key].to_s.gsub("\n—", "—")
           next false if flavor_text_override_match?(new_card) # Override already processed
           mixed_text = old_card[key].sub("—", "\n—")
-          puts "Flavor text mismatch on #{set['code']}##{old_card['collector_num']} (#{old_card['multiverse_id']}):"
-          puts "  Old   (1): #{old_card[key]}"
-          puts "  New   (2): #{new_card[key]}"
-          puts "  Mixed (3): #{mixed_text}"
+          contains_exclamation = old_card[key].include?('!')
+          puts "Flavor text mismatch on #{set['code']}##{old_card['collector_num']} (#{old_card['multiverse_id']})#{" !!!!!" if contains_exclamation}:"
+          puts "  Old   (1): #{old_card[key].gsub("\n", '\n')}"
+          puts "  New   (2): #{new_card[key].gsub("\n", '\n')}"
+          puts "  Mixed (3): #{mixed_text.gsub("\n", '\n')}"
           response = STDIN.gets.strip
           if response.in? ['1', '2', '3']
             selected_text = [old_card[key], new_card[key], mixed_text][response.to_i - 1]
-            record_flavor_text(old_card['multiverse_id'], selected_text)
+            record_flavor_text(old_card['multiverse_id'], selected_text, set: set)
           end
         end
       else
@@ -56,7 +67,7 @@ SETS_TO_VALIDATE.each do |set|
     end
     if mismatches.any?
       puts "#{set['code']}##{old_card['collector_num']}: Mismatch: #{mismatches.join(', ')}"
-      # print "Old:"; pp old_card; print "New:"; pp new_card; STDIN.gets
+      (print "Old:"; pp old_card; print "New:"; pp new_card; STDIN.gets) if VERBOSE_MODE
     end
   end
 
