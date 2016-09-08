@@ -31,9 +31,10 @@ class CardScraper
 
   SUPERTYPES = %w[Basic Legendary World Snow]
   memo def parse_types
-    { types:      labeled_row(:type).split("—").map(&:strip)[0].split(' ') - SUPERTYPES,
-      supertypes: labeled_row(:type).split("—").map(&:strip)[0].split(' ') & SUPERTYPES,
-      subtypes:   (labeled_row(:type).split("—").map(&:strip)[1].split(' ') rescue []) }
+    types = labeled_row(:type).split("—").map(&:strip)[0].split(' ') - SUPERTYPES
+    supertypes = labeled_row(:type).split("—").map(&:strip)[0].split(' ') & SUPERTYPES
+    subtypes = labeled_row(:type).split("—").map(&:strip)[1].gsub("’", "'").split(' ') rescue []
+    { types: types, supertypes: supertypes, subtypes: subtypes }
   end
 
   memo def parse_mana_cost
