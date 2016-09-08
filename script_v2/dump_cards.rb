@@ -37,6 +37,11 @@ class CardScraper
     { types: types, supertypes: supertypes, subtypes: subtypes }
   end
 
+  memo def parse_set_name
+    set_name_str = labeled_row(:set)
+    SET_NAME_OVERRIDES[set_name_str] || set_name_str
+  end
+
   memo def parse_mana_cost
     container.css('[id$="manaRow"] .value img').map do |symbol|
       symbol_key = symbol.attr(:alt).strip
@@ -96,7 +101,7 @@ class CardScraper
   def as_json(options={})
     {
       'name'                => parse_name,
-      'set_name'            => labeled_row(:set),
+      'set_name'            => parse_set_name,
       'collector_num'       => parse_collector_num,
       'illustrator'         => parse_illustrator,
       'types'               => parse_types[:types],
@@ -146,7 +151,8 @@ end
 
 SETS_TO_DUMP.each do |set|
   # Cookie contains setting to retrieve all results in a single page, instead of the default 100 results per page.
-  set_url = "http://gatherer.wizards.com/Pages/Search/Default.aspx?sort=cn+&output=compact&set=[%22#{set['name']}%22]"
+  gatherer_set_name = SET_NAME_OVERRIDES.invert[set['name']] || set['name']
+  set_url = "http://gatherer.wizards.com/Pages/Search/Default.aspx?sort=cn+&output=compact&set=[%22#{gatherer_set_name}%22]"
   cookie = "CardDatabaseSettings=0=1&1=28&2=0&14=1&3=13&4=0&5=1&6=15&7=0&8=1&9=1&10=19&11=7&12=8&15=1&16=0&13=;"
   response = get(set_url, "Cookie" => cookie)
 

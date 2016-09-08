@@ -2,6 +2,7 @@ require_relative './script_util.rb'
 
 ALL_SETS = read SET_JSON_FILE_PATH
 VERBOSE_MODE = ARGV.delete('-v')
+INTERACTIVE_MODE = ARGV.delete('-i')
 SETS_TO_VALIDATE = ARGV.any? ? ALL_SETS.select{|s| s['code'].in? ARGV} : ALL_SETS
 OLD_CARD_JSON = read File.expand_path('../../data/cards.json', __FILE__)
 
@@ -47,7 +48,9 @@ SETS_TO_VALIDATE.each do |set|
 
       when 'flavor_text'
         # Ignore discrepancies where old flavor text is only missing line breaks
-        if old_card[key].to_s != new_card[key].to_s.gsub("\n", "")
+        mismatch = old_card[key].to_s != new_card[key].to_s.gsub("\n", "")
+        next mismatch unless INTERACTIVE_MODE
+        if mismatch
           mixed_text = old_card[key].sub("—", "\n—")
           contains_exclamation = old_card[key].include?('!')
           puts "Flavor text mismatch on #{set['code']}##{old_card['collector_num']} (#{old_card['multiverse_id']})#{" !!!!!" if contains_exclamation}:"
@@ -61,7 +64,11 @@ SETS_TO_VALIDATE.each do |set|
           end
         end
       when 'illustrator'
-        next false if old_card[key] == 'Brian Snoddy' && new_card[key] == 'Brian Snõddy'
+        if old_card[key] == 'Brian Snoddy' && new_card[key] == 'Brian Snõddy'
+          next false
+        else
+          old_card[key] != new_card[key]
+        end
       else
         old_card[key] != new_card[key]
       end
