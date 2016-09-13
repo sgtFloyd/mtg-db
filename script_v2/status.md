@@ -56,9 +56,9 @@ mmq 'Mercadian Masques'
 s99 'Starter 1999'  
 ptk 'Portal Three Kingdoms'  
 uds 'Urza's Destiny'  
-ulg 'Urza's Legacy'  
+~~ulg 'Urza's Legacy'~~  
 usg 'Urza's Saga'  
-exo 'Exodus'  
+~~exo 'Exodus'~~  
 
 ~~m15 'Magic 2015'~~  
 ~~m14 'Magic 2014'~~  
@@ -76,14 +76,14 @@ exo 'Exodus'
 ~~pd2 'Premium Deck Series: Fire and Lightning'~~  
 ~~h09 'Premium Deck Series: Slivers'~~  
 
-v15 'From the Vault: Angels'  
-v14 'From the Vault: Annihilation'  
-v13 'From the Vault: Twenty'  
-v12 'From the Vault: Realms'  
-v11 'From the Vault: Legends'  
-v10 'From the Vault: Relics'  
-v09 'From the Vault: Exiled'  
-drb 'From the Vault: Dragons'  
+~~v15 'From the Vault: Angels'~~  
+~~v14 'From the Vault: Annihilation'~~  
+~~v13 'From the Vault: Twenty'~~  
+~~v12 'From the Vault: Realms'~~  
+~~v11 'From the Vault: Legends'~~  
+~~v10 'From the Vault: Relics'~~  
+~~v09 'From the Vault: Exiled'~~  
+~~drb 'From the Vault: Dragons'~~  
 
 ddq 'Duel Decks: Blessed vs. Cursed'  
 ddp 'Duel Decks: Zendikar vs. Eldrazi'  

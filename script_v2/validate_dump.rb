@@ -63,6 +63,12 @@ SETS_TO_VALIDATE.each do |set|
             record_flavor_text(old_card['multiverse_id'], selected_text, set: set)
           end
         end
+      when 'mana_cost'
+        old_symbols = old_card[key].to_s.split('').sort
+        new_symbols = new_card[key].to_s.split('').sort
+        # If the mismatch is simply in the mana cost's order, trust the version
+        # from Gatherer. The old data has been notoriously incorrect.
+        next old_symbols != new_symbols
       when 'illustrator'
         if old_card[key] == 'Brian Snoddy' && new_card[key] == 'Brian Snõddy'
           next false

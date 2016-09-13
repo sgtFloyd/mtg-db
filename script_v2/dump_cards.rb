@@ -65,7 +65,8 @@ class CardScraper
         symbol = "{#{symbol}}" unless symbol.match(/^{/)
         img.replace(symbol)
       end
-      textbox.text.strip
+      # Gatherer messes up {10} formatting, resulting in {1}0
+      textbox.text.strip.gsub('{1}0', '{10}')
     end.select(&:present?)
   end
 
