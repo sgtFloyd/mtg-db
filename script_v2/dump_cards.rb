@@ -86,7 +86,10 @@ class CardScraper
     end
   end
 
-  ILLUSTRATOR_REPLACEMENTS = {"Brian Snoddy" => "Brian Snõddy"}
+  ILLUSTRATOR_REPLACEMENTS = {
+    "Brian Snoddy" => "Brian Snõddy",
+    "ROn Spencer" => "Ron Spencer"
+  }
   memo def parse_illustrator
     artist_str = labeled_row(:artist)
     ILLUSTRATOR_REPLACEMENTS[artist_str] || artist_str
