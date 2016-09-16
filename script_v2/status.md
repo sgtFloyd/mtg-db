@@ -1,4 +1,4 @@
-ogw 'Oath of the Gatewatch'  
+~~ogw 'Oath of the Gatewatch'~~  
 c15 'Commander 2015'  
 bfz 'Battle for Zendikar'  
 exp 'Zendikar Expeditions'  
@@ -48,7 +48,6 @@ dkm 'Deckmasters'
 ody 'Odyssey'  
 pls 'Planeshift'  
 btd 'Beatdown Box Set'  
-s00 'Starter 2000'  
 pcy 'Prophecy'  
 nem 'Nemesis'  
 brb 'Battle Royale Box Set'  
@@ -123,6 +122,7 @@ sok 'Saviors of Kamigawa'
 tsb 'Time Spiral "Timeshifted"'  
 
 ##### Requires manual numbers:
+s00 'Starter 2000'  
 ath 'Anthologies'  
 po2 'Portal Second Age'  
 sth 'Stronghold'  

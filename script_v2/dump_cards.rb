@@ -27,7 +27,9 @@ class CardScraper
     # Misnumbered Urza's Saga printings
     5660 => '214', 5562 => '215', 5721 => '216', 8865 => '305',
     # Misnumbered Portal: Three Kingdoms printing
-    10571 => '156'
+    10571 => '156',
+    # Oath of the Gatewatch full-art Wastes
+    407693 => '183a', 407695 => '184a'
   }
   memo def parse_collector_num
     COLLECTOR_NUM_OVERRIDES[multiverse_id] || labeled_row(:number)

@@ -44,7 +44,9 @@ SETS_TO_VALIDATE.each do |set|
         (old_card[key].map{|line| line.gsub(/\([^(]+\)/,'').strip} !=
           new_text.map{|line| line.gsub(/\([^(]+\)/,'').strip}) &&
         # Ignore mismatch if newly-introduced Menace keyword is present.
-        new_text.join.exclude?('Menace') && new_text.join.exclude?('menace')
+        new_text.join.exclude?('Menace') && new_text.join.exclude?('menace') &&
+        # Ignore mismatch if newly-worded "additional creature" is present.
+        new_text.join.exclude?('additional creature each combat')
 
       when 'flavor_text'
         # Ignore discrepancies where old flavor text is only missing line breaks
