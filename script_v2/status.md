@@ -57,7 +57,7 @@ s99 'Starter 1999'
 ptk 'Portal Three Kingdoms'  
 uds 'Urza's Destiny'  
 ~~ulg 'Urza's Legacy'~~  
-usg 'Urza's Saga'  
+~~usg 'Urza's Saga'~~  
 ~~exo 'Exodus'~~  
 
 ~~m15 'Magic 2015'~~  
