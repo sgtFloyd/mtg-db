@@ -25,7 +25,9 @@ class CardScraper
     15436 => '307', 11454 => '308', 14768 => '309', 11503 => '310', 15443 => '311',
     15409 => '312', 14769 => '313', 15402 => '314', 15410 => '315',
     # Misnumbered Urza's Saga printings
-    5660 => '214', 5562 => '215', 5721 => '216', 8865 => '305'
+    5660 => '214', 5562 => '215', 5721 => '216', 8865 => '305',
+    # Misnumbered Portal: Three Kingdoms printing
+    10571 => '156'
   }
   memo def parse_collector_num
     COLLECTOR_NUM_OVERRIDES[multiverse_id] || labeled_row(:number)
@@ -91,7 +93,8 @@ class CardScraper
 
   ILLUSTRATOR_REPLACEMENTS = {
     "Brian Snoddy" => "Brian Snõddy",
-    "ROn Spencer" => "Ron Spencer"
+    "ROn Spencer" => "Ron Spencer",
+    "s/b Lie Tiu" => "Lie Tiu"
   }
   memo def parse_illustrator
     artist_str = labeled_row(:artist)

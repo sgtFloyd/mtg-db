@@ -54,8 +54,8 @@ nem 'Nemesis'
 brb 'Battle Royale Box Set'  
 mmq 'Mercadian Masques'  
 s99 'Starter 1999'  
-ptk 'Portal Three Kingdoms'  
-uds 'Urza's Destiny'  
+~~ptk 'Portal Three Kingdoms'~~  
+~~uds 'Urza's Destiny'~~  
 ~~ulg 'Urza's Legacy'~~  
 ~~usg 'Urza's Saga'~~  
 ~~exo 'Exodus'~~  
