@@ -5,13 +5,13 @@ bfz 'Battle for Zendikar'
 ~~mm2 'Modern Masters 2015'~~  
 ~~dtk 'Dragons of Tarkir'~~  
 ~~frf 'Fate Reforged'~~  
-c14 'Commander 2014 Edition'  
-ktk 'Khans of Tarkir'  
+~~c14 'Commander 2014 Edition'~~  
+~~ktk 'Khans of Tarkir'~~  
 cns 'Conspiracy'  
-md1 'Modern Event Deck'  
-jou 'Journey into Nyx'  
-bng 'Born of the Gods'  
-ths 'Theros'  
+~~md1 'Modern Event Deck'~~  
+~~jou 'Journey into Nyx'~~  
+~~bng 'Born of the Gods'~~  
+~~ths 'Theros'~~  
 mma 'Modern Masters'  
 gtc 'Gatecrash'  
 cm1 'Commander's Arsenal'  

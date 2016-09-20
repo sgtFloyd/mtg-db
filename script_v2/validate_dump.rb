@@ -77,6 +77,9 @@ SETS_TO_VALIDATE.each do |set|
         else
           old_card[key] != new_card[key]
         end
+      when 'set_name'
+        expected_name = SET_NAME_OVERRIDES[old_card[key]] || old_card[key]
+        expected_name != new_card[key]
       else
         old_card[key] != new_card[key]
       end
@@ -89,6 +92,9 @@ SETS_TO_VALIDATE.each do |set|
 
   new_json.each do |new_card|
     old_card = old_json.find{|old_card| old_card['collector_num'] == new_card['collector_num']}
-    puts "#{set['code']}##{new_card['collector_num']}: Unexpected." if old_card.blank?
+    if old_card.blank?
+      puts "#{set['code']}##{new_card['collector_num']}: Unexpected."
+      require 'pry'; binding.pry
+    end
   end
 end

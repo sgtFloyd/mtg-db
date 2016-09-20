@@ -50,7 +50,7 @@ def read(path, parser: MultiJson, silent: false)
   File.open(path, 'r') do |file|
     return parser.load(file.read)
   end
-rescue
+rescue => e
   puts "#{e}. Failed to read #{path}"
   []
 end
