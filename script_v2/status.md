@@ -1,10 +1,10 @@
 ~~ogw 'Oath of the Gatewatch'~~  
 ~~c15 'Commander 2015'~~  
 bfz 'Battle for Zendikar'  
-exp 'Zendikar Expeditions'  
-mm2 'Modern Masters 2015'  
-dtk 'Dragons of Tarkir'  
-frf 'Fate Reforged'  
+~~exp 'Zendikar Expeditions'~~  
+~~mm2 'Modern Masters 2015'~~  
+~~dtk 'Dragons of Tarkir'~~  
+~~frf 'Fate Reforged'~~  
 c14 'Commander 2014 Edition'  
 ktk 'Khans of Tarkir'  
 cns 'Conspiracy'  
