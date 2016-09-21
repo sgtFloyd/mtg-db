@@ -14,8 +14,8 @@ cns 'Conspiracy'
 ~~ths 'Theros'~~  
 mma 'Modern Masters'  
 gtc 'Gatecrash'  
-cm1 'Commander's Arsenal'  
-rtr 'Return to Ravnica'  
+~~cm1 'Commander's Arsenal'~~  
+~~rtr 'Return to Ravnica'~~  
 pc2 'Planechase 2012 Edition'  
 avr 'Avacyn Restored'  
 nph 'New Phyrexia'  

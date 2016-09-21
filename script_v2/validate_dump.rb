@@ -45,6 +45,8 @@ SETS_TO_VALIDATE.each do |set|
           new_text.map{|line| line.gsub(/\([^(]+\)/,'').strip}) &&
         # Ignore mismatch if newly-introduced Menace keyword is present.
         new_text.join.exclude?('Menace') && new_text.join.exclude?('menace') &&
+        # Ignore mismatch if newly-worded "create" is present.
+        new_text.join.exclude?('Create') && new_text.join.exclude?('create') &&
         # Ignore mismatch if newly-worded "additional creature" is present.
         new_text.join.exclude?('additional creature each combat')
 
