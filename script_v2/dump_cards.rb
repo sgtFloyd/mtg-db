@@ -95,6 +95,7 @@ class CardScraper
 
   ILLUSTRATOR_REPLACEMENTS = {
     "Brian Snoddy" => "Brian Snõddy",
+    "Parente & Brian Snoddy" => "Parente & Brian Snõddy",
     "ROn Spencer" => "Ron Spencer",
     "s/b Lie Tiu" => "Lie Tiu"
   }

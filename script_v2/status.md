@@ -20,17 +20,17 @@ gtc 'Gatecrash'
 ~~avr 'Avacyn Restored'~~  
 ~~nph 'New Phyrexia'~~  
 ~~mbs 'Mirrodin Besieged'~~  
-som 'Scars of Mirrodin'  
-roe 'Rise of the Eldrazi'  
-wwk 'Worldwake'  
+~~som 'Scars of Mirrodin'~~  
+~~roe 'Rise of the Eldrazi'~~  
+~~wwk 'Worldwake'~~  
 zen 'Zendikar'  
-arb 'Alara Reborn'  
-con 'Conflux'  
-ala 'Shards of Alara'  
-eve 'Eventide'  
-shm 'Shadowmoor'  
-mor 'Morningtide'  
-lrw 'Lorwyn'  
+~~arb 'Alara Reborn'~~  
+~~con 'Conflux'~~  
+~~ala 'Shards of Alara'~~  
+~~eve 'Eventide'~~  
+~~shm 'Shadowmoor'~~  
+~~mor 'Morningtide'~~  
+~~lrw 'Lorwyn'~~  
 fut 'Future Sight'  
 tsp 'Time Spiral'  
 csp 'Coldsnap'  
