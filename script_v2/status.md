@@ -16,10 +16,10 @@ mma 'Modern Masters'
 gtc 'Gatecrash'  
 ~~cm1 'Commander's Arsenal'~~  
 ~~rtr 'Return to Ravnica'~~  
-pc2 'Planechase 2012 Edition'  
-avr 'Avacyn Restored'  
-nph 'New Phyrexia'  
-mbs 'Mirrodin Besieged'  
+~~pc2 'Planechase 2012 Edition'~~  
+~~avr 'Avacyn Restored'~~  
+~~nph 'New Phyrexia'~~  
+~~mbs 'Mirrodin Besieged'~~  
 som 'Scars of Mirrodin'  
 roe 'Rise of the Eldrazi'  
 wwk 'Worldwake'  
