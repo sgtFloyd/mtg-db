@@ -99,9 +99,18 @@ class CardScraper
     "ROn Spencer" => "Ron Spencer",
     "s/b Lie Tiu" => "Lie Tiu"
   }
+  ILLUSTRATOR_OVERRIDES = {
+    # "Dave Dorman" is illustrator printed on card. "John Howe" is attributed in
+    # Gatherer. Art style closely matches Dave Dorman. Assuming Gatherer error.
+    31787 => 'Dave Dorman',
+    # Printed as "Don Hazeltine," and matches art style. Illustrator listed as
+    # (none) in Gatherer.
+    29896 => 'Don Hazeltine'
+  }
   memo def parse_illustrator
     artist_str = labeled_row(:artist)
-    ILLUSTRATOR_REPLACEMENTS[artist_str] || artist_str
+    ILLUSTRATOR_OVERRIDES[multiverse_id] ||
+      ILLUSTRATOR_REPLACEMENTS[artist_str] || artist_str
   end
 
   RARITY_REPLACEMENTS = {'Basic Land' => 'Land'}

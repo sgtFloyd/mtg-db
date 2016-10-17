@@ -43,15 +43,13 @@ zen 'Zendikar'
 ~~lgn 'Legions'~~  
 ~~ons 'Onslaught'~~  
 ~~jud 'Judgment'~~  
-tor 'Torment'  
+~~tor 'Torment'~~  
 dkm 'Deckmasters'  
-ody 'Odyssey'  
+~~ody 'Odyssey'~~  
 pls 'Planeshift'  
-btd 'Beatdown Box Set'  
-pcy 'Prophecy'  
-nem 'Nemesis'  
-brb 'Battle Royale Box Set'  
-mmq 'Mercadian Masques'  
+~~pcy 'Prophecy'~~  
+~~nem 'Nemesis'~~  
+~~mmq 'Mercadian Masques'~~  
 s99 'Starter 1999'  
 ~~ptk 'Portal Three Kingdoms'~~  
 ~~uds 'Urza's Destiny'~~  
@@ -122,6 +120,8 @@ sok 'Saviors of Kamigawa'
 tsb 'Time Spiral "Timeshifted"'  
 
 ##### Requires manual numbers:
+btd 'Beatdown Box Set'  
+brb 'Battle Royale Box Set'  
 s00 'Starter 2000'  
 ath 'Anthologies'  
 po2 'Portal Second Age'  
