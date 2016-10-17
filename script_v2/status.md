@@ -31,18 +31,18 @@ zen 'Zendikar'
 ~~shm 'Shadowmoor'~~  
 ~~mor 'Morningtide'~~  
 ~~lrw 'Lorwyn'~~  
-fut 'Future Sight'  
-tsp 'Time Spiral'  
-csp 'Coldsnap'  
-gpt 'Guildpact'  
-rav 'Ravnica: City of Guilds'  
-5dn 'Fifth Dawn'  
-dst 'Darksteel'  
-mrd 'Mirrodin'  
-scg 'Scourge'  
-lgn 'Legions'  
-ons 'Onslaught'  
-jud 'Judgment'  
+~~fut 'Future Sight'~~  
+~~tsp 'Time Spiral'~~  
+~~csp 'Coldsnap'~~  
+~~gpt 'Guildpact'~~  
+~~rav 'Ravnica: City of Guilds'~~  
+~~5dn 'Fifth Dawn'~~  
+~~dst 'Darksteel'~~  
+~~mrd 'Mirrodin'~~  
+~~scg 'Scourge'~~  
+~~lgn 'Legions'~~  
+~~ons 'Onslaught'~~  
+~~jud 'Judgment'~~  
 tor 'Torment'  
 dkm 'Deckmasters'  
 ody 'Odyssey'  
