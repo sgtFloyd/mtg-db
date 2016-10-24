@@ -44,7 +44,7 @@ zen 'Zendikar'
 ~~ons 'Onslaught'~~  
 ~~jud 'Judgment'~~  
 ~~tor 'Torment'~~  
-dkm 'Deckmasters'  
+~~dkm 'Deckmasters'~~  
 ~~ody 'Odyssey'~~  
 ~~pls 'Planeshift'~~  
 ~~pcy 'Prophecy'~~  
