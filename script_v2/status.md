@@ -23,7 +23,7 @@ gtc 'Gatecrash'
 ~~som 'Scars of Mirrodin'~~  
 ~~roe 'Rise of the Eldrazi'~~  
 ~~wwk 'Worldwake'~~  
-zen 'Zendikar'  
+~~zen 'Zendikar'~~  
 ~~arb 'Alara Reborn'~~  
 ~~con 'Conflux'~~  
 ~~ala 'Shards of Alara'~~  
