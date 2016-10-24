@@ -2,6 +2,7 @@ require_relative './script_util.rb'
 
 ALL_SETS = read(SET_JSON_FILE_PATH)
 SETS_TO_DUMP = ARGV.any? ? ALL_SETS.select{|s| s['code'].in? ARGV} : ALL_SETS
+EXCLUDED_TOKEN_NAMES = ['Goblin', 'Soldier', 'Kraken', 'Spirit']
 WORKER_POOL_SIZE = 25
 
 class CardScraper
@@ -120,6 +121,8 @@ class CardScraper
   end
 
   def as_json(options={})
+    return if parse_types[:types].include?('Token') ||
+                parse_name.in?(EXCLUDED_TOKEN_NAMES)
     {
       'name'                => parse_name,
       'set_name'            => parse_set_name,
@@ -184,7 +187,7 @@ SETS_TO_DUMP.each do |set|
   worker_pool = CelluloidWorker.pool(size: WORKER_POOL_SIZE)
   card_json = multiverse_ids.map do |multiverse_id|
     worker_pool.future.fetch_data(multiverse_id)
-  end.map(&:value)
+  end.map(&:value).compact
 
   # Output is sorted the same as search results, by collector num.
   write File.join(CARD_JSON_FILE_PATH, "#{set['code']}.json"), card_json

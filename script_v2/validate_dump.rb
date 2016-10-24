@@ -27,8 +27,10 @@ def flavor_text_override_match?(card_attrs)
 end
 
 SETS_TO_VALIDATE.each do |set|
-  gatherer_set_name = SET_NAME_OVERRIDES.invert[set['name']] || set['name']
-  old_json = OLD_CARD_JSON.select{|card| card['set_name'] == gatherer_set_name}
+  old_json = OLD_CARD_JSON.select{|card|
+    card['set_name'] == SET_NAME_OVERRIDES.invert[set['name']] ||
+      card['set_name'] == set['name']
+  }
   new_json = read File.join(CARD_JSON_FILE_PATH, "#{set['code']}.json")
 
   old_json.each do |old_card|

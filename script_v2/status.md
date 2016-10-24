@@ -82,17 +82,17 @@ s99 'Starter 1999'
 ~~v09 'From the Vault: Exiled'~~  
 ~~drb 'From the Vault: Dragons'~~  
 
-ddq 'Duel Decks: Blessed vs. Cursed'  
-ddp 'Duel Decks: Zendikar vs. Eldrazi'  
-ddo 'Duel Decks: Kiora vs. Elspeth'  
-ddn 'Duel Decks: Speed vs. Cunning'  
+~~ddq 'Duel Decks: Blessed vs. Cursed'~~  
+~~ddp 'Duel Decks: Zendikar vs. Eldrazi'~~  
+~~ddo 'Duel Decks: Kiora vs. Elspeth'~~  
+~~ddn 'Duel Decks: Speed vs. Cunning'~~  
 ~~ddm 'Duel Decks: Jace vs. Vraska'~~  
 ~~ddl 'Duel Decks: Heroes vs. Monsters'~~  
 ~~ddk 'Duel Decks: Sorin vs. Tibalt'~~  
 ~~ddi 'Duel Decks: Venser vs. Koth'~~  
 ~~ddg 'Duel Decks: Knights vs. Dragons'~~  
 ~~ddf 'Duel Decks: Elspeth vs. Tezzeret'~~  
-dde 'Duel Decks: Phyrexia vs. The Coalition'  
+~~dde 'Duel Decks: Phyrexia vs. The Coalition'~~  
 ddd 'Duel Decks: Garruk vs. Liliana'  
 ~~ddc 'Duel Decks: Divine vs. Demonic'~~  
 ~~dd2 'Duel Decks: Jace vs. Chandra'~~  
