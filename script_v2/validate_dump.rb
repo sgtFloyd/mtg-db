@@ -91,6 +91,7 @@ SETS_TO_VALIDATE.each do |set|
     end
     if mismatches.any?
       puts "#{set['code']}##{old_card['collector_num']}: Mismatch: #{mismatches.join(', ')}"
+      puts "  old name: #{old_card['name']}, new name: #{new_card['name']}" if mismatches.count > 1
       (print "Old:"; pp old_card; print "New:"; pp new_card; STDIN.gets) if VERBOSE_MODE
     end
   end

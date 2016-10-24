@@ -30,7 +30,12 @@ class CardScraper
     # Misnumbered Portal: Three Kingdoms printing
     10571 => '156',
     # Oath of the Gatewatch full-art Wastes
-    407693 => '183a', 407695 => '184a'
+    407693 => '183a', 407695 => '184a',
+    # Misnumbered Starter 1999 basic lands
+    21789 => '154', 21790 => '155', 21791 => '156', 21792 => '157', 21796 => '165',
+    21797 => '163', 21798 => '164', 21799 => '162', 21801 => '166', 21802 => '167',
+    21803 => '168', 21804 => '169', 21805 => '170', 21806 => '171', 21807 => '172',
+    21808 => '173'
   }
   memo def parse_collector_num
     COLLECTOR_NUM_OVERRIDES[multiverse_id] || labeled_row(:number)
@@ -106,7 +111,9 @@ class CardScraper
     31787 => 'Dave Dorman',
     # Printed as "Don Hazeltine," and matches art style. Illustrator listed as
     # (none) in Gatherer.
-    29896 => 'Don Hazeltine'
+    29896 => 'Don Hazeltine',
+    # Printed as "Cliff Nielsen," and matches art style. Assuming Gatherer error.
+    20373 => 'Cliff Nielsen'
   }
   memo def parse_illustrator
     artist_str = labeled_row(:artist)
