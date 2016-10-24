@@ -93,7 +93,7 @@ s99 'Starter 1999'
 ~~ddg 'Duel Decks: Knights vs. Dragons'~~  
 ~~ddf 'Duel Decks: Elspeth vs. Tezzeret'~~  
 ~~dde 'Duel Decks: Phyrexia vs. The Coalition'~~  
-ddd 'Duel Decks: Garruk vs. Liliana'  
+~~ddd 'Duel Decks: Garruk vs. Liliana'~~  
 ~~ddc 'Duel Decks: Divine vs. Demonic'~~  
 ~~dd2 'Duel Decks: Jace vs. Chandra'~~  
 ~~evg 'Duel Decks: Elves vs. Goblins'~~  
