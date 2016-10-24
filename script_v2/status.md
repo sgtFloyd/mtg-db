@@ -46,7 +46,7 @@ zen 'Zendikar'
 ~~tor 'Torment'~~  
 dkm 'Deckmasters'  
 ~~ody 'Odyssey'~~  
-pls 'Planeshift'  
+~~pls 'Planeshift'~~  
 ~~pcy 'Prophecy'~~  
 ~~nem 'Nemesis'~~  
 ~~mmq 'Mercadian Masques'~~  
