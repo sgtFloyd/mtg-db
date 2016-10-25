@@ -7,12 +7,12 @@ bfz 'Battle for Zendikar'
 ~~frf 'Fate Reforged'~~  
 ~~c14 'Commander 2014 Edition'~~  
 ~~ktk 'Khans of Tarkir'~~  
-cns 'Conspiracy'  
+~~cns 'Conspiracy'~~  
 ~~md1 'Modern Event Deck'~~  
 ~~jou 'Journey into Nyx'~~  
 ~~bng 'Born of the Gods'~~  
 ~~ths 'Theros'~~  
-mma 'Modern Masters'  
+~~mma 'Modern Masters'~~  
 ~~gtc 'Gatecrash'~~  
 ~~cm1 'Commander's Arsenal'~~  
 ~~rtr 'Return to Ravnica'~~  
