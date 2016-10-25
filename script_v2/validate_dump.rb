@@ -55,13 +55,16 @@ SETS_TO_VALIDATE.each do |set|
 
       when 'flavor_text'
         # Ignore discrepancies where old flavor text is only missing line breaks
-        mismatch = old_card[key].to_s != new_card[key].to_s.gsub("\n", "")
+        old_card[key] = old_card[key].to_s.gsub("\r", "\n")
+        # Many old Gatherer entries are missing line breaks in their flavor text.
+        mismatch = old_card[key] != new_card[key] &&
+          old_card[key] != new_card[key].to_s.gsub("\n", "")
         next mismatch unless INTERACTIVE_MODE
         if mismatch
-          mixed_text = old_card[key].to_s.sub("—", "\n—")
-          contains_exclamation = old_card[key].to_s.include?('!')
+          mixed_text = old_card[key].sub("—", "\n—")
+          contains_exclamation = old_card[key].include?('!')
           puts "Flavor text mismatch on #{set['code']}##{old_card['collector_num']} (#{old_card['multiverse_id']})#{" !!!!!" if contains_exclamation}:"
-          puts "  Old   (1): #{old_card[key].to_s.gsub("\n", '\n')}"
+          puts "  Old   (1): #{old_card[key].gsub("\n", '\n')}"
           puts "  New   (2): #{new_card[key].to_s.gsub("\n", '\n')}"
           puts "  Mixed (3): #{mixed_text.gsub("\n", '\n')}"
           response = STDIN.gets.strip

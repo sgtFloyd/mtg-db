@@ -13,7 +13,7 @@ cns 'Conspiracy'
 ~~bng 'Born of the Gods'~~  
 ~~ths 'Theros'~~  
 mma 'Modern Masters'  
-gtc 'Gatecrash'  
+~~gtc 'Gatecrash'~~  
 ~~cm1 'Commander's Arsenal'~~  
 ~~rtr 'Return to Ravnica'~~  
 ~~pc2 'Planechase 2012 Edition'~~  
