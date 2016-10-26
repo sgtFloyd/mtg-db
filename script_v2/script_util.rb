@@ -10,11 +10,17 @@ require 'yaml'
 SET_JSON_FILE_PATH =    File.expand_path('../../data_v2/sets.json', __FILE__)
 CARD_JSON_FILE_PATH =   File.expand_path('../../data_v2/sets', __FILE__)
 FLAVOR_TEXT_FILE_PATH = File.expand_path('../data/flavor_text_overrides.yml', __FILE__)
+
 FLAVOR_TEXT_OVERRIDES = YAML.load_file(FLAVOR_TEXT_FILE_PATH)
-EXCLUDED_SETS =       YAML.load_file(File.expand_path '../data/excluded_sets.yml', __FILE__)
 SET_CODE_OVERRIDES =  YAML.load_file(File.expand_path '../data/set_code_overrides.yml', __FILE__)
 SET_NAME_OVERRIDES =  YAML.load_file(File.expand_path '../data/set_name_overrides.yml', __FILE__)
+COLLECTOR_NUM_OVERRIDES = YAML.load_file(File.expand_path '../data/collector_num_overrides.yml', __FILE__)
+
 MANA_COST_SYMBOLS =   YAML.load_file(File.expand_path '../data/mana_cost_symbols.yml', __FILE__)
+EXCLUDED_SETS =       YAML.load_file(File.expand_path '../data/excluded_sets.yml', __FILE__)
+EXCLUDED_TOKEN_NAMES = ['Goblin', 'Soldier', 'Kraken', 'Spirit']
+BASIC_LAND_SYMBOL = {'Plains'   => '{W}', 'Island' => '{U}', 'Swamp'  => '{B}',
+                     'Mountain' => '{R}', 'Forest' => '{G}', 'Wastes' => '{C}'}
 
 class Object
   def try(*a, &b)
