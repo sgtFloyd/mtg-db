@@ -1,6 +1,6 @@
 ~~ogw 'Oath of the Gatewatch'~~  
 ~~c15 'Commander 2015'~~  
-bfz 'Battle for Zendikar'  
+~~bfz 'Battle for Zendikar'~~  
 ~~exp 'Zendikar Expeditions'~~  
 ~~mm2 'Modern Masters 2015'~~  
 ~~dtk 'Dragons of Tarkir'~~  
