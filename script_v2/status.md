@@ -99,7 +99,7 @@
 ~~evg 'Duel Decks: Elves vs. Goblins'~~  
 
 ##### Contains flip or transform cards:
-apc 'Apocalypse'  
+~~apc 'Apocalypse'~~  
 arc 'Archenemy'  
 bok 'Betrayers of Kamigawa'  
 chk 'Champions of Kamigawa'  

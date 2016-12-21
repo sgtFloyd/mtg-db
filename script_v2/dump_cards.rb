@@ -183,8 +183,20 @@ class SplitCardScraper < CardScraper
     expected_name == first_name ? "#{cnum}a" : "#{cnum}b"
   end
 
+  # Alter full name, replacing expected_name with other_name
+  def parse_other_part
+    both_names = parse_name.scan(/\(([^)]+)\)/).flatten.first
+    other_name = both_names.gsub(expected_name, '').gsub(/\//, '')
+    "#{other_name} (#{both_names})"
+  end
+
+  def as_json(options={})
+    super.merge('other_part' => parse_other_part)
+  end
+
 private
 
+  # Remove split name from parse_name, "Fire (Fire/Ice)" => "Fire"
   memo def expected_name
     parse_name.gsub(/\s+\([^)]*\)/, '')
   end
