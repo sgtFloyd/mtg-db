@@ -162,6 +162,13 @@ class SplitCardScraper < CardScraper
 
 private
 
+  # Most sets assign the same multiverse_id to both halves of a split card,
+  # "overloading" the id. Others assign a unique multiverse_id to each half.
+  SETS_WITHOUT_OVERLOADED_MULTIVERSE_IDS = ['Apocalypse', 'Invastion']
+  memo def overload_multiverse_id?
+    !parse_set_name.in? SETS_WITHOUT_OVERLOADED_MULTIVERSE_IDS
+  end
+
   # Remove split name from parse_name, "Fire (Fire/Ice)" => "Fire"
   memo def expected_name
     parse_name.gsub(/\s+\([^)]*\)/, '')

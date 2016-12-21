@@ -1,9 +1,3 @@
-# puts Mtg::Set.find(:apc).card_printings.
-#       select{|p| p.card.name.match('/')}.
-#       sort_by(&:multiverse_id).
-#       map{|p| "#{p.multiverse_id} => '#{p.card.name}',"}.
-#       join("\n")
-
 ---
 # apc
 26276: Night (Night/Day)
@@ -16,3 +10,14 @@
 27166: Fire (Fire/Ice)
 27167: Order (Order/Chaos)
 27168: Chaos (Order/Chaos)
+# inv
+20573: Stand (Stand/Deliver)
+20574: Deliver (Stand/Deliver)
+20575: Spite (Spite/Malice)
+20576: Malice (Spite/Malice)
+20577: Pain (Pain/Suffering)
+20578: Suffering (Pain/Suffering)
+20579: Assault (Assault/Battery)
+20580: Battery (Assault/Battery)
+20581: Wax (Wax/Wane)
+20582: Wane (Wax/Wane)
