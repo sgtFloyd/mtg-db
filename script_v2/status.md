@@ -100,15 +100,15 @@
 
 ##### Contains only split cards:
 ~~apc 'Apocalypse'~~  
-arc 'Archenemy'  
+~~arc 'Archenemy'~~  
 ~~c13 'Commander 2013 Edition'~~  
 dis 'Dissension'  
-dgm 'Dragon's Maze'  
-ddh 'Duel Decks: Ajani vs. Nicol Bolas'  
-ddj 'Duel Decks: Izzet vs. Golgari'  
+~~dgm 'Dragon's Maze'~~  
+~~ddh 'Duel Decks: Ajani vs. Nicol Bolas'~~  
+~~ddj 'Duel Decks: Izzet vs. Golgari'~~  
 ~~inv 'Invasion'~~  
-plc 'Planar Chaos'  
-hop 'Planechase'  
+~~plc 'Planar Chaos'~~  
+~~hop 'Planechase'~~  
 tsb 'Time Spiral "Timeshifted"'  
 
 ##### Contains flip or transform cards:
