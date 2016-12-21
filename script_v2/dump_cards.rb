@@ -6,10 +6,11 @@ WORKER_POOL_SIZE = 25
 
 class CardScraper
   extend Memoizer
-  attr_accessor :multiverse_id
+  attr_accessor :multiverse_id, :page
 
-  def initialize(multiverse_id)
+  def initialize(multiverse_id, page)
     self.multiverse_id = multiverse_id
+    self.page = page
   end
 
   memo def parse_name
@@ -90,7 +91,13 @@ class CardScraper
     # (none) in Gatherer.
     29896 => 'Don Hazeltine',
     # Printed as "Cliff Nielsen," and matches art style. Assuming Gatherer error.
-    20373 => 'Cliff Nielsen'
+    20373 => 'Cliff Nielsen',
+
+    # Split cards incorrectly display the same illustrator for both halves
+    26276 => 'Christopher Moeller',
+    27161 => 'Edward P. Beard, Jr.',
+    27163 => 'David Martin',
+    27165 => 'Franz Vohwinkel',
   }
   memo def parse_illustrator
     artist_str = labeled_row(:artist)
@@ -130,12 +137,10 @@ class CardScraper
   end
 
 private
-  memo def page
-    get("http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=#{self.multiverse_id}")
-  end
 
   # Grab the .cardComponentContainer that corresponds with this card. Flip,
-  # split, and transform cards can have multiple containers on the page.
+  # split, and transform cards can have multiple containers on the page and
+  # may need to be handled differently
   memo def container
     page.css('.cardComponentContainer').find do |container|
       container.css('[id$="nameRow"] .value').text.strip ==
@@ -148,12 +153,62 @@ private
   end
 end
 
+# puts Mtg::Set.find(:apc).card_printings.
+#       select{|p| p.card.name.match('/')}.
+#       sort_by(&:multiverse_id).
+#       map{|p| "#{p.multiverse_id} => '#{p.card.name}',"}.
+#       join("\n")
+SPLIT_CARD_NAMES = {
+  # apc
+  26276 => 'Night (Night/Day)',
+  26691 => 'Day (Night/Day)',
+  27161 => 'Death (Life/Death)',
+  27162 => 'Life (Life/Death)',
+  27163 => 'Reality (Illusion/Reality)',
+  27164 => 'Illusion (Illusion/Reality)',
+  27165 => 'Ice (Fire/Ice)',
+  27166 => 'Fire (Fire/Ice)',
+  27167 => 'Order (Order/Chaos)',
+  27168 => 'Chaos (Order/Chaos)',
+}
+class SplitCardScraper < CardScraper
+
+  memo def parse_name
+    SPLIT_CARD_NAMES[multiverse_id] || (raise "Unknown split card: #{multiverse_id}")
+  end
+
+  memo def parse_collector_num
+    cnum = labeled_row(:number).gsub(/[^\d]/, '')
+    first_name = parse_name.scan(/\(([^\/]+)/).flatten.first
+    expected_name == first_name ? "#{cnum}a" : "#{cnum}b"
+  end
+
+private
+
+  memo def expected_name
+    parse_name.gsub(/\s+\([^)]*\)/, '')
+  end
+
+  # Grab the .cardComponentContainer that corresponds with this card. Ensure
+  # the name displayed in the container matches the name in SPLIT_CARD_NAMES.
+  memo def container
+    page.css('.cardComponentContainer').find do |container|
+      container.css('[id$="nameRow"] .value').text.strip == expected_name
+    end
+  end
+end
 
 class CelluloidWorker
   include Celluloid
 
   def fetch_data(multiverse_id)
-    CardScraper.new(multiverse_id).as_json
+    page = get("http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=#{multiverse_id}")
+    scraper = CardScraper.new(multiverse_id, page)
+    # Split cards are displayed as "Fire // Ice"
+    if scraper.parse_name.include?('//')
+      scraper = SplitCardScraper.new(multiverse_id, page)
+    end
+    scraper.as_json
   end
 end
 
@@ -166,7 +221,7 @@ SETS_TO_DUMP.each do |set|
 
   multiverse_ids = response.css('.cardItem [id$="cardPrintings"] a').map do |link|
     link.attr(:href)[/multiverseid=(\d+)/, 1].to_i
-  end
+  end.uniq
 
   worker_pool = CelluloidWorker.pool(size: WORKER_POOL_SIZE)
   card_json = multiverse_ids.map do |multiverse_id|
