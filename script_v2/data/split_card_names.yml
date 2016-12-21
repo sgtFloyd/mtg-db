@@ -1,0 +1,18 @@
+# puts Mtg::Set.find(:apc).card_printings.
+#       select{|p| p.card.name.match('/')}.
+#       sort_by(&:multiverse_id).
+#       map{|p| "#{p.multiverse_id} => '#{p.card.name}',"}.
+#       join("\n")
+
+---
+# apc
+26276: Night (Night/Day)
+26691: Day (Night/Day)
+27161: Death (Life/Death)
+27162: Life (Life/Death)
+27163: Reality (Illusion/Reality)
+27164: Illusion (Illusion/Reality)
+27165: Ice (Fire/Ice)
+27166: Fire (Fire/Ice)
+27167: Order (Order/Chaos)
+27168: Chaos (Order/Chaos)

@@ -83,22 +83,6 @@ class CardScraper
     "ROn Spencer" => "Ron Spencer",
     "s/b Lie Tiu" => "Lie Tiu"
   }
-  ILLUSTRATOR_OVERRIDES = {
-    # "Dave Dorman" is illustrator printed on card. "John Howe" is attributed in
-    # Gatherer. Art style closely matches Dave Dorman. Assuming Gatherer error.
-    31787 => 'Dave Dorman',
-    # Printed as "Don Hazeltine," and matches art style. Illustrator listed as
-    # (none) in Gatherer.
-    29896 => 'Don Hazeltine',
-    # Printed as "Cliff Nielsen," and matches art style. Assuming Gatherer error.
-    20373 => 'Cliff Nielsen',
-
-    # Split cards incorrectly display the same illustrator for both halves
-    26276 => 'Christopher Moeller',
-    27161 => 'Edward P. Beard, Jr.',
-    27163 => 'David Martin',
-    27165 => 'Franz Vohwinkel',
-  }
   memo def parse_illustrator
     artist_str = labeled_row(:artist)
     ILLUSTRATOR_OVERRIDES[multiverse_id] ||
@@ -153,24 +137,6 @@ private
   end
 end
 
-# puts Mtg::Set.find(:apc).card_printings.
-#       select{|p| p.card.name.match('/')}.
-#       sort_by(&:multiverse_id).
-#       map{|p| "#{p.multiverse_id} => '#{p.card.name}',"}.
-#       join("\n")
-SPLIT_CARD_NAMES = {
-  # apc
-  26276 => 'Night (Night/Day)',
-  26691 => 'Day (Night/Day)',
-  27161 => 'Death (Life/Death)',
-  27162 => 'Life (Life/Death)',
-  27163 => 'Reality (Illusion/Reality)',
-  27164 => 'Illusion (Illusion/Reality)',
-  27165 => 'Ice (Fire/Ice)',
-  27166 => 'Fire (Fire/Ice)',
-  27167 => 'Order (Order/Chaos)',
-  27168 => 'Chaos (Order/Chaos)',
-}
 class SplitCardScraper < CardScraper
 
   memo def parse_name

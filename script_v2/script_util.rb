@@ -15,6 +15,8 @@ FLAVOR_TEXT_OVERRIDES = YAML.load_file(FLAVOR_TEXT_FILE_PATH)
 SET_CODE_OVERRIDES =  YAML.load_file(File.expand_path '../data/set_code_overrides.yml', __FILE__)
 SET_NAME_OVERRIDES =  YAML.load_file(File.expand_path '../data/set_name_overrides.yml', __FILE__)
 COLLECTOR_NUM_OVERRIDES = YAML.load_file(File.expand_path '../data/collector_num_overrides.yml', __FILE__)
+ILLUSTRATOR_OVERRIDES = YAML.load_file(File.expand_path '../data/illustrator_overrides.yml', __FILE__)
+SPLIT_CARD_NAMES = YAML.load_file(File.expand_path '../data/split_card_names.yml', __FILE__)
 
 MANA_COST_SYMBOLS =   YAML.load_file(File.expand_path '../data/mana_cost_symbols.yml', __FILE__)
 EXCLUDED_SETS =       YAML.load_file(File.expand_path '../data/excluded_sets.yml', __FILE__)

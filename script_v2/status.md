@@ -98,26 +98,28 @@
 ~~dd2 'Duel Decks: Jace vs. Chandra'~~  
 ~~evg 'Duel Decks: Elves vs. Goblins'~~  
 
-##### Contains flip or transform cards:
+##### Contains only split cards:
 ~~apc 'Apocalypse'~~  
 arc 'Archenemy'  
-bok 'Betrayers of Kamigawa'  
-chk 'Champions of Kamigawa'  
 c13 'Commander 2013 Edition'  
-cmd 'Commander'  
+dis 'Dissension'  
+dgm 'Dragon's Maze'  
 ddh 'Duel Decks: Ajani vs. Nicol Bolas'  
 ddj 'Duel Decks: Izzet vs. Golgari'  
-dgm 'Dragon's Maze'  
-dis 'Dissension'  
-dka 'Dark Ascension'  
-hop 'Planechase'  
 inv 'Invasion'  
+plc 'Planar Chaos'  
+hop 'Planechase'  
+tsb 'Time Spiral "Timeshifted"'  
+
+##### Contains flip or transform cards:
+bok 'Betrayers of Kamigawa'  
+chk 'Champions of Kamigawa'  
+cmd 'Commander'  
+dka 'Dark Ascension'  
 isd 'Innistrad'  
 ori 'Magic Origins'  
-plc 'Planar Chaos'  
 soi 'Shadows over Innistrad'  
 sok 'Saviors of Kamigawa'  
-tsb 'Time Spiral "Timeshifted"'  
 
 ##### Requires manual numbers:
 btd 'Beatdown Box Set'  
