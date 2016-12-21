@@ -101,6 +101,11 @@ class CardScraper
     RARITY_REPLACEMENTS[rarity_str] || rarity_str
   end
 
+  def parse_color_indicator
+    color_indicator_str = labeled_row(:colorIndicator).presence
+    color_indicator_str.split(', ').join(' ') if color_indicator_str
+  end
+
   def as_json(options={})
     return if parse_types[:types].include?('Token') ||
                 parse_name.in?(EXCLUDED_TOKEN_NAMES)
@@ -122,7 +127,7 @@ class CardScraper
       'loyalty'             => parse_pt[:loyalty],
       'multiverse_id'       => multiverse_id,
       'other_part'          => nil,
-      'color_indicator'     => labeled_row(:colorIndicator).presence,
+      'color_indicator'     => parse_color_indicator,
     }
   end
 
