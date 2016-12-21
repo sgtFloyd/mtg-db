@@ -13,8 +13,14 @@ class CardScraper
     self.page = page
   end
 
+  SUBTITLE_DISPLAY_OVERRIDES = {
+    # Bizarre Gatherer bug, prepending 'XX' to some card names
+    106628 => 'Valor',
+    109672 => 'Call of the Herd',
+  }
   memo def parse_name
-    page.css('[id$="subtitleDisplay"]').text.strip
+    name_str = page.css('[id$="subtitleDisplay"]').text.strip
+    SUBTITLE_DISPLAY_OVERRIDES[multiverse_id] || name_str
   end
 
   memo def parse_collector_num
@@ -125,11 +131,16 @@ private
   # Grab the .cardComponentContainer that corresponds with this card. Flip,
   # split, and transform cards can have multiple containers on the page and
   # may need to be handled differently
-  memo def container
-    page.css('.cardComponentContainer').find do |container|
-      container.css('[id$="nameRow"] .value').text.strip ==
-        page.css('[id$="subtitleDisplay"]').text.strip
+  def container
+    containers.find do |container|
+      subtitleDisplay = SUBTITLE_DISPLAY_OVERRIDES[multiverse_id] ||
+                          page.css('[id$="subtitleDisplay"]').text.strip
+      container.css('[id$="nameRow"] .value').text.strip == subtitleDisplay
     end
+  end
+
+  def containers
+    page.css('.cardComponentContainer')
   end
 
   memo def labeled_row(label)
@@ -202,10 +213,6 @@ private
     containers.find do |container|
       container.css('[id$="nameRow"] .value').text.strip == expected_name
     end
-  end
-
-  def containers
-    page.css('.cardComponentContainer')
   end
 end
 

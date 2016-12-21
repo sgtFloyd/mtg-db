@@ -109,7 +109,7 @@ dis 'Dissension'
 ~~inv 'Invasion'~~  
 ~~plc 'Planar Chaos'~~  
 ~~hop 'Planechase'~~  
-tsb 'Time Spiral "Timeshifted"'  
+~~tsb 'Time Spiral "Timeshifted"'~~  
 
 ##### Contains flip or transform cards:
 bok 'Betrayers of Kamigawa'  
