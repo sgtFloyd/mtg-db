@@ -42,9 +42,12 @@ class CardScraper
 
   memo def parse_mana_cost
     container.css('[id$="manaRow"] .value img').map do |symbol|
-      symbol_key = symbol.attr(:alt).strip
-      MANA_COST_SYMBOLS[symbol_key] || symbol_key
+      self.class.translate_mana_symbol(symbol)
     end.join
+  end
+  def self.translate_mana_symbol(symbol)
+    symbol_key = symbol.attr(:alt).strip
+    MANA_COST_SYMBOLS[symbol_key] || symbol_key
   end
 
   memo def parse_oracle_text
@@ -131,8 +134,6 @@ class CardScraper
     }
   end
 
-private
-
   # Grab the .cardComponentContainer that corresponds with this card. Flip,
   # split, and transform cards can have multiple containers on the page and
   # may need to be handled differently
@@ -197,8 +198,6 @@ class SplitCardScraper < CardScraper
     end
   end
 
-private
-
   # Most sets assign the same multiverse_id to both halves of a split card,
   # "overloading" the id. Others assign a unique multiverse_id to each half.
   SETS_WITHOUT_OVERLOADED_MULTIVERSE_IDS = ['Apocalypse', 'Invasion']
@@ -248,12 +247,35 @@ class FlipCardScraper < CardScraper
     end
   end
 
-private
-
   def container
     # We shouldn't be trying to access the container until we've selected a
     # side (via container_index), so don't worry about a fallback.
     containers[self.container_index]
+  end
+end
+
+class DoubleFacedCardScraper < CardScraper
+  memo def parse_other_part
+    containers.each do |container|
+      container_name = container.css("[id$=\"nameRow\"] .value").text.strip
+      return container_name if container_name != parse_name
+    end
+  end
+
+  memo def parse_flavor_text
+    return FLAVOR_TEXT_OVERRIDES[multiverse_id] if FLAVOR_TEXT_OVERRIDES[multiverse_id]
+    textboxes = container.css('[id$="flavorRow"] .cardtextbox')
+    textboxes.map{|t| t.text.strip}.select(&:present?).join("\n").presence
+  end
+
+  def as_json(options={})
+    super.merge('other_part' => parse_other_part)
+  end
+
+  memo def container
+    containers.find do |container|
+      container.css('[id$="nameRow"] .value').text.strip == parse_name
+    end
   end
 end
 
@@ -264,13 +286,27 @@ class CelluloidWorker
     return CARD_JSON_OVERRIDES[multiverse_id] if multiverse_id.in?(CARD_JSON_OVERRIDES)
     page = get("http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=#{multiverse_id}")
     scraper = CardScraper.new(multiverse_id, page)
+
     # Split cards are displayed as "Fire // Ice"
     if scraper.parse_name.include?('//')
       scraper = SplitCardScraper.new(multiverse_id, page, set)
-    # Otherwise look for two card images displayed on a single page.
+
+    # Both Flip and DoubleFaced cards will display two images on the pages
     elsif page.css('img[id$="cardImage"]').count > 1
-      scraper = FlipCardScraper.new(multiverse_id, page)
+      mana_costs = scraper.containers.map do |container|
+        container.css('[id$="manaRow"] .value img').map do |symbol|
+          CardScraper.translate_mana_symbol(symbol)
+        end.join
+      end
+      # Only one side of a DoubleFaced card will have a mana cost.
+      # ... or zero, in the case of Westvale Abbey.
+      if mana_costs.select(&:present?).count < 2
+        scraper = DoubleFacedCardScraper.new(multiverse_id, page)
+      else
+        scraper = FlipCardScraper.new(multiverse_id, page)
+      end
     end
+
     scraper.as_json
   end
 end

@@ -114,12 +114,14 @@
 ##### Contains flip or transform cards:
 ~~bok 'Betrayers of Kamigawa'~~  
 ~~chk 'Champions of Kamigawa'~~  
-cmd 'Commander'  
-dka 'Dark Ascension'  
-isd 'Innistrad'  
-ori 'Magic Origins'  
-soi 'Shadows over Innistrad'  
+~~cmd 'Commander'~~  
 ~~sok 'Saviors of Kamigawa'~~  
+
+##### Contains double-faced cards:
+~~dka 'Dark Ascension'~~  
+~~isd 'Innistrad'~~  
+~~ori 'Magic Origins'~~  
+~~soi 'Shadows over Innistrad'~~  
 
 ##### Requires manual numbers:
 btd 'Beatdown Box Set'  
