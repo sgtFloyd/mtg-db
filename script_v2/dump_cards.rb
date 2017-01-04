@@ -221,15 +221,55 @@ private
   end
 end
 
+class FlipCardScraper < CardScraper
+  attr_accessor :container_index
+
+  def initialize(multiverse_id, page, container_index=nil)
+    super(multiverse_id, page)
+    self.container_index = container_index
+  end
+
+  memo def parse_name
+    labeled_row(:name)
+  end
+
+  memo def parse_other_part
+    # Use xor to get the "other" container
+    containers[1^self.container_index].css("[id$=\"nameRow\"] .value").text.strip
+  end
+
+  def as_json(options={})
+    if !self.container_index.present?
+      containers.map.with_index do |_, i|
+        FlipCardScraper.new(multiverse_id, page, i).as_json
+      end
+    else
+      super.merge('other_part' => parse_other_part)
+    end
+  end
+
+private
+
+  def container
+    # We shouldn't be trying to access the container until we've selected a
+    # side (via container_index), so don't worry about a fallback.
+    containers[self.container_index]
+  end
+end
+
 class CelluloidWorker
   include Celluloid
 
   def fetch_data(multiverse_id, set)
+    return CARD_JSON_OVERRIDES[multiverse_id] if multiverse_id.in?(CARD_JSON_OVERRIDES)
     page = get("http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=#{multiverse_id}")
     scraper = CardScraper.new(multiverse_id, page)
     # Split cards are displayed as "Fire // Ice"
     if scraper.parse_name.include?('//')
       scraper = SplitCardScraper.new(multiverse_id, page, set)
+    # Otherwise look for two card images displayed on a single page.
+    elsif page.css('img[id$="cardImage"]').count > 1
+      scraper = FlipCardScraper.new(multiverse_id, page)
     end
     scraper.as_json
   end

@@ -112,7 +112,7 @@
 ~~tsb 'Time Spiral "Timeshifted"'~~  
 
 ##### Contains flip or transform cards:
-bok 'Betrayers of Kamigawa'  
+~~bok 'Betrayers of Kamigawa'~~  
 chk 'Champions of Kamigawa'  
 cmd 'Commander'  
 dka 'Dark Ascension'  

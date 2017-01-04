@@ -103,7 +103,6 @@ SETS_TO_VALIDATE.each do |set|
     old_card = old_json.find{|old_card| old_card['collector_num'] == new_card['collector_num']}
     if old_card.blank?
       puts "#{set['code']}##{new_card['collector_num']}: Unexpected."
-      require 'pry'; binding.pry
     end
   end
 end

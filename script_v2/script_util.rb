@@ -11,6 +11,7 @@ SET_JSON_FILE_PATH =    File.expand_path('../../data_v2/sets.json', __FILE__)
 CARD_JSON_FILE_PATH =   File.expand_path('../../data_v2/sets', __FILE__)
 FLAVOR_TEXT_FILE_PATH = File.expand_path('../data/flavor_text_overrides.yml', __FILE__)
 
+CARD_JSON_OVERRIDES = YAML.load_file(File.expand_path '../data/card_json_overrides.yml', __FILE__)
 FLAVOR_TEXT_OVERRIDES = YAML.load_file(FLAVOR_TEXT_FILE_PATH)
 SET_CODE_OVERRIDES =  YAML.load_file(File.expand_path '../data/set_code_overrides.yml', __FILE__)
 SET_NAME_OVERRIDES =  YAML.load_file(File.expand_path '../data/set_name_overrides.yml', __FILE__)
