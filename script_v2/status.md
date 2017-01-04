@@ -113,7 +113,7 @@
 
 ##### Contains flip or transform cards:
 ~~bok 'Betrayers of Kamigawa'~~  
-chk 'Champions of Kamigawa'  
+~~chk 'Champions of Kamigawa'~~  
 cmd 'Commander'  
 dka 'Dark Ascension'  
 isd 'Innistrad'  
