@@ -119,7 +119,7 @@ dka 'Dark Ascension'
 isd 'Innistrad'  
 ori 'Magic Origins'  
 soi 'Shadows over Innistrad'  
-sok 'Saviors of Kamigawa'  
+~~sok 'Saviors of Kamigawa'~~  
 
 ##### Requires manual numbers:
 btd 'Beatdown Box Set'  
