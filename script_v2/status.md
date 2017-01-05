@@ -150,5 +150,5 @@
 ~~lea 'Limited Edition Alpha'~~  
 
 ##### Not present in Gatherer (all of ath, s00#13)
-ath 'Anthologies'  
+~~ath 'Anthologies'~~  
 ~~s00 'Starter 2000'~~  

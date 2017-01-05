@@ -337,6 +337,8 @@ class CelluloidWorker
 end
 
 SETS_TO_DUMP.each do |set|
+  if set['code'] == 'ath'; multiverse_ids = ([*1..87]-[18,80]).map{|i| "ath##{i}"}; else
+
   # Cookie contains setting to retrieve all results in a single page, instead of the default 100 results per page.
   gatherer_set_name = SET_NAME_OVERRIDES.invert[set['name']] || set['name']
   set_url = "http://gatherer.wizards.com/Pages/Search/Default.aspx?sort=cn+&output=compact&set=[%22#{gatherer_set_name}%22]"
@@ -345,7 +347,7 @@ SETS_TO_DUMP.each do |set|
 
   multiverse_ids = response.css('.cardItem [id$="cardPrintings"] a').map do |link|
     link.attr(:href)[/multiverseid=(\d+)/, 1].to_i
-  end.uniq - EXCLUDED_MULTIVERSE_IDS
+  end.uniq - EXCLUDED_MULTIVERSE_IDS; end # end ath exception
 
   # s00#13 is missing from Gatherer. This will pull the data from CARD_JSON_OVERRIDES
   multiverse_ids << 's00#13' if set['code'] == 's00'

@@ -48,7 +48,7 @@ class Object
 end
 
 def get(url, headers={})
-  # puts "getting #{url}"
+  puts "getting #{url}"
   Nokogiri::HTML( open(URI.escape(url), headers) )
 rescue => e
   puts "#{e}. Retrying in 500ms ..."; sleep 0.5
