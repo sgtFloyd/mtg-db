@@ -139,11 +139,11 @@ hml 'Homelands'
 chr 'Chronicles'  
 ice 'Ice Age'  
 ~~4ed 'Fourth Edition'~~  
-fem 'Fallen Empires'  
-drk 'The Dark'  
-leg 'Legends'  
+~~fem 'Fallen Empires'~~  
+~~drk 'The Dark'~~  
+~~leg 'Legends'~~  
 ~~3ed 'Revised Edition'~~  
-atq 'Antiquities'  
+~~atq 'Antiquities'~~  
 ~~2ed 'Unlimited Edition'~~  
 ~~arn 'Arabian Nights'~~  
 ~~leb 'Limited Edition Beta'~~  

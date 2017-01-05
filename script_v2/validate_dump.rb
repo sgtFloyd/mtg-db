@@ -54,8 +54,8 @@ SETS_TO_VALIDATE.each do |set|
         new_text.join.exclude?('additional creature each combat')
 
       when 'rarity'
-        # Ignore Arabian Nights rarity inconsistencies. Common (C4) vs. Common
-        if set['code'] == 'arn'
+        # These sets have rarity inconsistencies. ex: Common (C4) vs. Common
+        if set['code'].in?(%w[arn atq leg drk fem])
           false
         else
           old_card[key] != new_card[key]

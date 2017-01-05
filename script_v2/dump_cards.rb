@@ -14,6 +14,8 @@ class CardScraper
   end
 
   SUBTITLE_DISPLAY_OVERRIDES = {
+    1557 => 'Ærathi Berserker',
+    1436 => 'Evil Eye of Orms-by-Gore',
     # Fix inconsistent capitalization
     91 => 'Will-o\'-the-Wisp',
     386 => 'Will-o\'-the-Wisp',
