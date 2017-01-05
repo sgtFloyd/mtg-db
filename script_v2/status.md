@@ -151,4 +151,4 @@
 
 ##### Not present in Gatherer (all of ath, s00#13)
 ath 'Anthologies'  
-s00 'Starter 2000'  
+~~s00 'Starter 2000'~~  

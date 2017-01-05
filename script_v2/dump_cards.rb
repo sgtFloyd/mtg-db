@@ -345,7 +345,10 @@ SETS_TO_DUMP.each do |set|
 
   multiverse_ids = response.css('.cardItem [id$="cardPrintings"] a').map do |link|
     link.attr(:href)[/multiverseid=(\d+)/, 1].to_i
-  end.uniq
+  end.uniq - EXCLUDED_MULTIVERSE_IDS
+
+  # s00#13 is missing from Gatherer. This will pull the data from CARD_JSON_OVERRIDES
+  multiverse_ids << 's00#13' if set['code'] == 's00'
 
   worker_pool = CelluloidWorker.pool(size: WORKER_POOL_SIZE)
   card_json = multiverse_ids.map do |multiverse_id|

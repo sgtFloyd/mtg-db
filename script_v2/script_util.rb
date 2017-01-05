@@ -21,6 +21,7 @@ SPLIT_CARD_NAMES = YAML.load_file(File.expand_path '../data/split_card_names.yml
 
 MANA_COST_SYMBOLS =   YAML.load_file(File.expand_path '../data/mana_cost_symbols.yml', __FILE__)
 EXCLUDED_SETS =       YAML.load_file(File.expand_path '../data/excluded_sets.yml', __FILE__)
+EXCLUDED_MULTIVERSE_IDS = YAML.load_file(File.expand_path '../data/excluded_multiverse_ids.yml', __FILE__)
 EXCLUDED_TOKEN_NAMES = ['Goblin', 'Soldier', 'Kraken', 'Spirit']
 BASIC_LAND_SYMBOL = {'Plains'   => '{W}', 'Island' => '{U}', 'Swamp'  => '{B}',
                      'Mountain' => '{R}', 'Forest' => '{G}', 'Wastes' => '{C}'}

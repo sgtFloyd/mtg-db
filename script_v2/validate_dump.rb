@@ -55,7 +55,7 @@ SETS_TO_VALIDATE.each do |set|
 
       when 'rarity'
         # These sets have rarity inconsistencies. ex: Common (C4) vs. Common or "Special"
-        if set['code'].in?(%w[arn atq leg drk fem chr hml brb btd])
+        if set['code'].in?(%w[arn atq leg drk fem chr hml brb btd s00])
           false
         else
           old_card[key] != new_card[key]
@@ -109,7 +109,7 @@ SETS_TO_VALIDATE.each do |set|
   new_json.each do |new_card|
     old_card = old_json.find{|old_card| old_card['collector_num'] == new_card['collector_num']}
     if old_card.blank?
-      puts "#{set['code']}##{new_card['collector_num']}: Unexpected."
+      puts "#{set['code']}##{new_card['collector_num']} (#{new_card['multiverse_id']}): Unexpected."
     end
   end
 end
