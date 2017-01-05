@@ -55,7 +55,7 @@ SETS_TO_VALIDATE.each do |set|
 
       when 'rarity'
         # These sets have rarity inconsistencies. ex: Common (C4) vs. Common
-        if set['code'].in?(%w[arn atq leg drk fem])
+        if set['code'].in?(%w[arn atq leg drk fem chr hml])
           false
         else
           old_card[key] != new_card[key]

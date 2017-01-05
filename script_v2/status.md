@@ -131,13 +131,13 @@ sth 'Stronghold'
 tmp 'Tempest'  
 por 'Portal'  
 wth 'Weatherlight'  
-5ed 'Fifth Edition'  
-vis 'Visions'  
-mir 'Mirage'  
-all 'Alliances'  
-hml 'Homelands'  
-chr 'Chronicles'  
-ice 'Ice Age'  
+~~5ed 'Fifth Edition'~~  
+~~vis 'Visions'~~  
+~~mir 'Mirage'~~  
+~~all 'Alliances'~~  
+~~hml 'Homelands'~~  
+~~chr 'Chronicles'~~  
+~~ice 'Ice Age'~~  
 ~~4ed 'Fourth Edition'~~  
 ~~fem 'Fallen Empires'~~  
 ~~drk 'The Dark'~~  
