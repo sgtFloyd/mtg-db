@@ -54,8 +54,8 @@ SETS_TO_VALIDATE.each do |set|
         new_text.join.exclude?('additional creature each combat')
 
       when 'rarity'
-        # These sets have rarity inconsistencies. ex: Common (C4) vs. Common
-        if set['code'].in?(%w[arn atq leg drk fem chr hml])
+        # These sets have rarity inconsistencies. ex: Common (C4) vs. Common or "Special"
+        if set['code'].in?(%w[arn atq leg drk fem chr hml brb btd])
           false
         else
           old_card[key] != new_card[key]

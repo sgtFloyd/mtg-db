@@ -124,13 +124,13 @@
 ~~soi 'Shadows over Innistrad'~~  
 
 ##### Requires manual numbers:
-btd 'Beatdown Box Set'  
-brb 'Battle Royale Box Set'  
-po2 'Portal Second Age'  
-sth 'Stronghold'  
-tmp 'Tempest'  
-por 'Portal'  
-wth 'Weatherlight'  
+~~btd 'Beatdown Box Set'~~  
+~~brb 'Battle Royale Box Set'~~  
+~~po2 'Portal Second Age'~~  
+~~sth 'Stronghold'~~  
+~~tmp 'Tempest'~~  
+~~por 'Portal'~~  
+~~wth 'Weatherlight'~~  
 ~~5ed 'Fifth Edition'~~  
 ~~vis 'Visions'~~  
 ~~mir 'Mirage'~~  

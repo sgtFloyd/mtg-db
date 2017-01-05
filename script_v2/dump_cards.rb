@@ -14,14 +14,17 @@ class CardScraper
   end
 
   SUBTITLE_DISPLAY_OVERRIDES = {
+    # Fix missing Æ in subtitle
     1557 => 'Ærathi Berserker',
-    1436 => 'Evil Eye of Orms-by-Gore',
     # Fix inconsistent capitalization
     91 => 'Will-o\'-the-Wisp',
     386 => 'Will-o\'-the-Wisp',
     688 => 'Will-o\'-the-Wisp',
     1187 => 'Will-o\'-the-Wisp',
     2138 => 'Will-o\'-the-Wisp',
+    1436 => 'Evil Eye of Orms-by-Gore',
+    4596 => 'Altar of Dementia',
+    4883 => 'Knight of Dawn',
     # Bizarre Gatherer bug, prepending 'XX' to some card names
     106628 => 'Valor',
     109672 => 'Call of the Herd',
