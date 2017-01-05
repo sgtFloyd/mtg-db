@@ -14,9 +14,15 @@ class CardScraper
   end
 
   SUBTITLE_DISPLAY_OVERRIDES = {
+    91 => 'Will-o\'-the-Wisp',
     # Bizarre Gatherer bug, prepending 'XX' to some card names
     106628 => 'Valor',
     109672 => 'Call of the Herd',
+    # Fix incorrect spacing around colon
+    241 => 'Circle of Protection: Blue',
+    242 => 'Circle of Protection: Green',
+    243 => 'Circle of Protection: Red',
+    244 => 'Circle of Protection: White',
   }
   memo def parse_name
     name_str = page.css('[id$="subtitleDisplay"]').text.strip
@@ -109,11 +115,14 @@ class CardScraper
     color_indicator_str.split(', ').join(' ') if color_indicator_str
   end
 
+  CARD_NAME_OVERRIDES = {
+    91 => 'Will-O\'-The-Wisp',
+  }
   def as_json(options={})
     return if parse_types[:types].include?('Token') ||
                 parse_name.in?(EXCLUDED_TOKEN_NAMES)
     {
-      'name'                => parse_name,
+      'name'                => CARD_NAME_OVERRIDES[multiverse_id] || parse_name,
       'set_name'            => parse_set_name,
       'collector_num'       => parse_collector_num,
       'illustrator'         => parse_illustrator,

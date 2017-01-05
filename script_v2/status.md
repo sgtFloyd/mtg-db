@@ -126,8 +126,6 @@
 ##### Requires manual numbers:
 btd 'Beatdown Box Set'  
 brb 'Battle Royale Box Set'  
-s00 'Starter 2000'  
-ath 'Anthologies'  
 po2 'Portal Second Age'  
 sth 'Stronghold'  
 tmp 'Tempest'  
@@ -149,4 +147,8 @@ atq 'Antiquities'
 2ed 'Unlimited Edition'  
 arn 'Arabian Nights'  
 leb 'Limited Edition Beta'  
-lea 'Limited Edition Alpha'  
+~~lea 'Limited Edition Alpha'~~  
+
+##### Not present in Gatherer (all of ath, s00#13)
+ath 'Anthologies'  
+s00 'Starter 2000'  
