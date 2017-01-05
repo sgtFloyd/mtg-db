@@ -2,7 +2,7 @@ require_relative './script_util.rb'
 
 ALL_SETS = read(SET_JSON_FILE_PATH)
 SETS_TO_DUMP = ARGV.any? ? ALL_SETS.select{|s| s['code'].in? ARGV} : ALL_SETS
-WORKER_POOL_SIZE = 25
+WORKER_POOL_SIZE = 50
 
 class CardScraper
   extend Memoizer
