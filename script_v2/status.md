@@ -138,15 +138,15 @@ all 'Alliances'
 hml 'Homelands'  
 chr 'Chronicles'  
 ice 'Ice Age'  
-4ed 'Fourth Edition'  
+~~4ed 'Fourth Edition'~~  
 fem 'Fallen Empires'  
 drk 'The Dark'  
 leg 'Legends'  
-3ed 'Revised Edition'  
+~~3ed 'Revised Edition'~~  
 atq 'Antiquities'  
-2ed 'Unlimited Edition'  
-arn 'Arabian Nights'  
-leb 'Limited Edition Beta'  
+~~2ed 'Unlimited Edition'~~  
+~~arn 'Arabian Nights'~~  
+~~leb 'Limited Edition Beta'~~  
 ~~lea 'Limited Edition Alpha'~~  
 
 ##### Not present in Gatherer (all of ath, s00#13)

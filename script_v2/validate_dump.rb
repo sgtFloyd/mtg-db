@@ -53,6 +53,13 @@ SETS_TO_VALIDATE.each do |set|
         # Ignore mismatch if newly-worded "additional creature" is present.
         new_text.join.exclude?('additional creature each combat')
 
+      when 'rarity'
+        # Ignore Arabian Nights rarity inconsistencies. Common (C4) vs. Common
+        if set['code'] == 'arn'
+          false
+        else
+          old_card[key] != new_card[key]
+        end
       when 'flavor_text'
         # Ignore discrepancies where old flavor text is only missing line breaks
         old_card[key] = old_card[key].to_s.gsub("\r", "\n")

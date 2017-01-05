@@ -14,7 +14,12 @@ class CardScraper
   end
 
   SUBTITLE_DISPLAY_OVERRIDES = {
+    # Fix inconsistent capitalization
     91 => 'Will-o\'-the-Wisp',
+    386 => 'Will-o\'-the-Wisp',
+    688 => 'Will-o\'-the-Wisp',
+    1187 => 'Will-o\'-the-Wisp',
+    2138 => 'Will-o\'-the-Wisp',
     # Bizarre Gatherer bug, prepending 'XX' to some card names
     106628 => 'Valor',
     109672 => 'Call of the Herd',
@@ -117,6 +122,10 @@ class CardScraper
 
   CARD_NAME_OVERRIDES = {
     91 => 'Will-O\'-The-Wisp',
+    386 => 'Will-O\'-The-Wisp',
+    688 => 'Will-O\'-The-Wisp',
+    1187 => 'Will-O\'-The-Wisp',
+    2138 => 'Will-O\'-The-Wisp',
   }
   def as_json(options={})
     return if parse_types[:types].include?('Token') ||
@@ -317,6 +326,8 @@ class CelluloidWorker
     end
 
     scraper.as_json
+  rescue => e
+    puts "FAILED ON #{multiverse_id}: #{e}"
   end
 end
 
