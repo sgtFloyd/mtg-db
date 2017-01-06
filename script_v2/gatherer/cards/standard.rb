@@ -1,4 +1,4 @@
-class GathererStandardCard
+class StandardCard
   extend Memoizer
   attr_accessor :multiverse_id, :page
 

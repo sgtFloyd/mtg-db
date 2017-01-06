@@ -1,4 +1,4 @@
-class GathererFlipCard < GathererStandardCard
+class FlipCard < StandardCard
   attr_accessor :container_index
 
   def initialize(multiverse_id, page, container_index=nil)
@@ -18,7 +18,7 @@ class GathererFlipCard < GathererStandardCard
   def as_json(options={})
     if !self.container_index.present?
       containers.map.with_index do |_, i|
-        GathererFlipCard.new(multiverse_id, page, i).as_json
+        FlipCard.new(multiverse_id, page, i).as_json
       end
     else
       super.merge('other_part' => parse_other_part)

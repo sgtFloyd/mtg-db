@@ -1,4 +1,4 @@
-class GathererDoubleFacedCard < GathererStandardCard
+class DoubleFacedCard < StandardCard
   memo def parse_other_part
     containers.each do |container|
       container_name = container.css("[id$=\"nameRow\"] .value").text.strip

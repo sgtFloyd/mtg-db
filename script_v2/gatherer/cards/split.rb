@@ -1,4 +1,4 @@
-class GathererSplitCard < GathererStandardCard
+class SplitCard < StandardCard
   attr_accessor :overload_id, :container_index
 
   def initialize(multiverse_id, page, overload_id, container_index=nil)
@@ -35,7 +35,7 @@ class GathererSplitCard < GathererStandardCard
   def as_json(options={})
     if self.overload_id && !self.container_index.present?
       containers.map.with_index do |_, i|
-        GathererSplitCard.new(multiverse_id, page, self.overload_id, i).as_json
+        SplitCard.new(multiverse_id, page, self.overload_id, i).as_json
       end
     else
       super.merge('other_part' => parse_other_part)
