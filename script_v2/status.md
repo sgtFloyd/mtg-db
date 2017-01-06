@@ -3,59 +3,59 @@
 ~~bfz 'Battle for Zendikar'~~  
 ~~exp 'Zendikar Expeditions'~~  
 ~~mm2 'Modern Masters 2015'~~  
-dtk 'Dragons of Tarkir'  
-frf 'Fate Reforged'  
+~~dtk 'Dragons of Tarkir'~~  
+~~frf 'Fate Reforged'~~  
 c14 'Commander 2014 Edition'  
-ktk 'Khans of Tarkir'  
-cns 'Conspiracy'  
-md1 'Modern Event Deck'  
-jou 'Journey into Nyx'  
-bng 'Born of the Gods'  
-ths 'Theros'  
-mma 'Modern Masters'  
-gtc 'Gatecrash'  
-cm1 'Commander's Arsenal'  
-rtr 'Return to Ravnica'  
-pc2 'Planechase 2012 Edition'  
-avr 'Avacyn Restored'  
-nph 'New Phyrexia'  
-mbs 'Mirrodin Besieged'  
-som 'Scars of Mirrodin'  
-roe 'Rise of the Eldrazi'  
-wwk 'Worldwake'  
-zen 'Zendikar'  
-arb 'Alara Reborn'  
-con 'Conflux'  
-ala 'Shards of Alara'  
-eve 'Eventide'  
-shm 'Shadowmoor'  
-mor 'Morningtide'  
-lrw 'Lorwyn'  
-fut 'Future Sight'  
-tsp 'Time Spiral'  
-csp 'Coldsnap'  
-gpt 'Guildpact'  
-rav 'Ravnica: City of Guilds'  
-5dn 'Fifth Dawn'  
-dst 'Darksteel'  
-mrd 'Mirrodin'  
-scg 'Scourge'  
-lgn 'Legions'  
-ons 'Onslaught'  
-jud 'Judgment'  
-tor 'Torment'  
+~~ktk 'Khans of Tarkir'~~  
+~~cns 'Conspiracy'~~  
+~~md1 'Modern Event Deck'~~  
+~~jou 'Journey into Nyx'~~  
+~~bng 'Born of the Gods'~~  
+~~ths 'Theros'~~  
+~~mma 'Modern Masters'~~  
+~~gtc 'Gatecrash'~~  
+~~cm1 'Commander's Arsenal'~~  
+~~rtr 'Return to Ravnica'~~  
+~~pc2 'Planechase 2012 Edition'~~  
+~~avr 'Avacyn Restored'~~  
+~~nph 'New Phyrexia'~~  
+~~mbs 'Mirrodin Besieged'~~  
+~~som 'Scars of Mirrodin'~~  
+~~roe 'Rise of the Eldrazi'~~  
+~~wwk 'Worldwake'~~  
+~~zen 'Zendikar'~~  
+~~arb 'Alara Reborn'~~  
+~~con 'Conflux'~~  
+~~ala 'Shards of Alara'~~  
+~~eve 'Eventide'~~  
+~~shm 'Shadowmoor'~~  
+~~mor 'Morningtide'~~  
+~~lrw 'Lorwyn'~~  
+~~fut 'Future Sight'~~  
+~~tsp 'Time Spiral'~~  
+~~csp 'Coldsnap'~~  
+~~gpt 'Guildpact'~~  
+~~rav 'Ravnica: City of Guilds'~~  
+~~5dn 'Fifth Dawn'~~  
+~~dst 'Darksteel'~~  
+~~mrd 'Mirrodin'~~  
+~~scg 'Scourge'~~  
+~~lgn 'Legions'~~  
+~~ons 'Onslaught'~~  
+~~jud 'Judgment'~~  
+~~tor 'Torment'~~  
 dkm 'Deckmasters'  
-ody 'Odyssey'  
-pls 'Planeshift'  
-pcy 'Prophecy'  
-nem 'Nemesis'  
-mmq 'Mercadian Masques'  
-s99 'Starter 1999'  
-ptk 'Portal Three Kingdoms'  
-uds 'Urza's Destiny'  
-ulg 'Urza's Legacy'  
-usg 'Urza's Saga'  
-exo 'Exodus'  
+~~ody 'Odyssey'~~  
+~~pls 'Planeshift'~~  
+~~pcy 'Prophecy'~~  
+~~nem 'Nemesis'~~  
+~~mmq 'Mercadian Masques'~~  
+~~s99 'Starter 1999'~~  
+~~ptk 'Portal Three Kingdoms'~~  
+~~uds 'Urza's Destiny'~~  
+~~ulg 'Urza's Legacy'~~  
+~~usg 'Urza's Saga'~~  
+~~exo 'Exodus'~~  
 
 m15 'Magic 2015'  
 m14 'Magic 2014'  
