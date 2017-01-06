@@ -1,4 +1,4 @@
-require_relative './script_util.rb'
+Dir.glob(File.expand_path(File.join('..', 'util', '*.rb'), __FILE__), &method(:require))
 
 ALL_SETS = read SET_JSON_FILE_PATH
 VERBOSE_MODE = ARGV.delete('-v')
