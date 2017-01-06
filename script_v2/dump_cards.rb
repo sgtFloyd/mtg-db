@@ -16,6 +16,7 @@ class CardScraper
   SUBTITLE_DISPLAY_OVERRIDES = {
     # Fix missing Æ in subtitle
     1557 => 'Ærathi Berserker',
+    417611 => 'Æther Tradewinds',
     # Fix inconsistent capitalization
     91 => 'Will-o\'-the-Wisp',
     386 => 'Will-o\'-the-Wisp',

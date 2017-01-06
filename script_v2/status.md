@@ -1,3 +1,13 @@
+##### New sets:
+~~c16~~  
+~~cn2~~  
+~~ddr~~  
+~~emn~~  
+~~ema~~  
+~~v16~~  
+~~kld~~  
+~~pca~~  
+
 ~~ogw 'Oath of the Gatewatch'~~  
 ~~c15 'Commander 2015'~~  
 ~~bfz 'Battle for Zendikar'~~  
