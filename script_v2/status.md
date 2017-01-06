@@ -5,7 +5,7 @@
 ~~mm2 'Modern Masters 2015'~~  
 ~~dtk 'Dragons of Tarkir'~~  
 ~~frf 'Fate Reforged'~~  
-c14 'Commander 2014 Edition'  
+~~c14 'Commander 2014 Edition'~~  
 ~~ktk 'Khans of Tarkir'~~  
 ~~cns 'Conspiracy'~~  
 ~~md1 'Modern Event Deck'~~  
@@ -44,7 +44,6 @@ c14 'Commander 2014 Edition'
 ~~ons 'Onslaught'~~  
 ~~jud 'Judgment'~~  
 ~~tor 'Torment'~~  
-dkm 'Deckmasters'  
 ~~ody 'Odyssey'~~  
 ~~pls 'Planeshift'~~  
 ~~pcy 'Prophecy'~~  
@@ -149,6 +148,7 @@ dkm 'Deckmasters'
 ~~leb 'Limited Edition Beta'~~  
 ~~lea 'Limited Edition Alpha'~~  
 
-##### Not present in Gatherer (all of ath, s00#13)
+##### Not present in Gatherer (all of ath, dkm, s00#13)
 ~~ath 'Anthologies'~~  
 ~~s00 'Starter 2000'~~  
+~~dkm 'Deckmasters'~~  

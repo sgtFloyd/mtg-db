@@ -68,7 +68,7 @@
     "mana_cost": "3W",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Choose an opponent. You and that player each put three 1/1 white Spirit creature tokens with flying onto the battlefield.",
+      "Choose an opponent. You and that player each create three 1/1 white Spirit creature tokens with flying.",
       "Choose an opponent. You gain 2 life for each creature you control and that player gains 2 life for each creature he or she controls."
     ],
     "flavor_text": null,
@@ -145,7 +145,7 @@
     "mana_cost": "5WW",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "Put X 1/1 white Soldier creature tokens onto the battlefield, where X is the number of creatures on the battlefield."
+      "Create X 1/1 white Soldier creature tokens, where X is the number of creatures on the battlefield."
     ],
     "flavor_text": "\"We will descend upon you like a plague of locusts to purge you from our lands!\"\n—Hirov, commander of the Thousand Swords",
     "power": null,
@@ -196,7 +196,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Vigilance",
-      "When Hallowed Spiritkeeper dies, put X 1/1 white Spirit creature tokens with flying onto the battlefield, where X is the number of creature cards in your graveyard."
+      "When Hallowed Spiritkeeper dies, create X 1/1 white Spirit creature tokens with flying, where X is the number of creature cards in your graveyard."
     ],
     "flavor_text": null,
     "power": "3",
@@ -252,9 +252,9 @@
     "mana_cost": "3WW",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "+2: Put a 1/1 white Kor Soldier creature token onto the battlefield. You may attach an Equipment you control to it.",
+      "+2: Create a 1/1 white Kor Soldier creature token. You may attach an Equipment you control to it.",
       "−2: You may put an Equipment card from your hand or graveyard onto the battlefield.",
-      "−10: Put a colorless Equipment artifact token named Stoneforged Blade onto the battlefield. It has indestructible, \"Equipped creature gets +5/+5 and has double strike,\" and equip {0}.",
+      "−10: Create a colorless Equipment artifact token named Stoneforged Blade. It has indestructible, \"Equipped creature gets +5/+5 and has double strike,\" and equip {0}.",
       "Nahiri, the Lithomancer can be your commander."
     ],
     "flavor_text": null,
@@ -407,7 +407,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Reef Worm dies, put a 3/3 blue Fish creature token onto the battlefield with \"When this creature dies, put a 6/6 blue Whale creature token onto the battlefield with ‘When this creature dies, put a 9/9 blue Kraken creature token onto the battlefield.'\""
+      "When Reef Worm dies, create a 3/3 blue Fish creature token with \"When this creature dies, create a 6/6 blue Whale creature token with ‘When this creature dies, create a 9/9 blue Kraken creature token.'\""
     ],
     "flavor_text": null,
     "power": "0",
@@ -436,7 +436,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{2}{U}, {T}: Each player puts the top three cards of his or her library into his or her graveyard. Exile up to two creature cards put into graveyards this way. Put an X/X blue Zombie creature token onto the battlefield, where X is the total power of the cards exiled this way."
+      "{2}{U}, {T}: Each player puts the top three cards of his or her library into his or her graveyard. Exile up to two creature cards put into graveyards this way. Create an X/X blue Zombie creature token, where X is the total power of the cards exiled this way."
     ],
     "flavor_text": null,
     "power": "3",
@@ -574,7 +574,7 @@
     "oracle_text": [
       "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)",
       "{1}{B}, Sacrifice another creature: Put two +1/+1 counters on Flesh Carver.",
-      "When Flesh Carver dies, put an X/X black Horror creature token onto the battlefield, where X is Flesh Carver's power."
+      "When Flesh Carver dies, create an X/X black Horror creature token, where X is Flesh Carver's power."
     ],
     "flavor_text": "\"Just a taste?\"",
     "power": "2",
@@ -603,7 +603,7 @@
     "mana_cost": "3BB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{B}, {T}, Sacrifice another creature: Put X 2/2 black Zombie creature tokens onto the battlefield, where X is the sacrificed creature's power."
+      "{B}, {T}, Sacrifice another creature: Create X 2/2 black Zombie creature tokens, where X is the sacrificed creature's power."
     ],
     "flavor_text": "\"Geralf, must you always whine? I agreed to nothing. I'll raise ghouls anytime I wish.\"",
     "power": "3",
@@ -704,7 +704,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "+2: Each opponent loses 1 life. You gain life equal to the life lost this way.",
-      "−2: Put a 5/5 black Demon creature token with flying onto the battlefield. You lose 2 life.",
+      "−2: Create a 5/5 black Demon creature token with flying. You lose 2 life.",
       "−8: You get an emblem with \"{1}{B}, Sacrifice a creature: You gain X life and draw X cards, where X is the sacrificed creature's power.\"",
       "Ob Nixilis of the Black Oath can be your commander."
     ],
@@ -734,7 +734,7 @@
     "oracle_text": [
       "Flying",
       "When Overseer of the Damned enters the battlefield, you may destroy target creature.",
-      "Whenever a nontoken creature an opponent controls dies, put a 2/2 black Zombie creature token onto the battlefield tapped."
+      "Whenever a nontoken creature an opponent controls dies, create a tapped 2/2 black Zombie creature token."
     ],
     "flavor_text": null,
     "power": "5",
@@ -786,7 +786,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Put an X/X black Horror creature token onto the battlefield, where X is the number of creatures that died this turn."
+      "Create an X/X black Horror creature token, where X is the number of creatures that died this turn."
     ],
     "flavor_text": "\"There are always leftovers.\"\n—Derecht, flesh carver",
     "power": null,
@@ -922,7 +922,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{2}{R}, {T}: Put a token onto the battlefield that's a copy of target creature card in your graveyard, except it's an artifact in addition to its other types. It gains haste. Sacrifice it at the beginning of the next end step."
+      "{2}{R}, {T}: Create a token that's a copy of target creature card in your graveyard, except it's an artifact in addition to its other types. It gains haste. Sacrifice it at the beginning of the next end step."
     ],
     "flavor_text": "\"She will come back to me.\"",
     "power": "2",
@@ -1128,7 +1128,7 @@
     "mana_cost": "3GG",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "+2: Put a 1/1 green Elf Druid creature token onto the battlefield with \"{T}: Add {G} to your mana pool.\"",
+      "+2: Create a 1/1 green Elf Druid creature token with \"{T}: Add {G} to your mana pool.\"",
       "−2: Destroy target artifact or enchantment.",
       "−6: Draw a card for each green creature you control.",
       "Freyalise, Llanowar's Fury can be your commander."
@@ -1264,8 +1264,8 @@
     "mana_cost": "XG",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Choose an opponent. You and that player each put an X/X green Treefolk creature token onto the battlefield.",
-      "Choose an opponent. You and that player each put X 1/1 green Elf Warrior creature tokens onto the battlefield."
+      "Choose an opponent. You and that player each create an X/X green Treefolk creature token.",
+      "Choose an opponent. You and that player each create X 1/1 green Elf Warrior creature tokens."
     ],
     "flavor_text": null,
     "power": null,
@@ -1321,7 +1321,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "When Titania, Protector of Argoth enters the battlefield, return target land card from your graveyard to the battlefield.",
-      "Whenever a land you control is put into a graveyard from the battlefield, put a 5/3 green Elemental creature token onto the battlefield."
+      "Whenever a land you control is put into a graveyard from the battlefield, create a 5/3 green Elemental creature token."
     ],
     "flavor_text": null,
     "power": "5",
@@ -1369,7 +1369,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "At the beginning of your upkeep, put X 2/2 green Wolf creature tokens onto the battlefield, where X is the number of your opponents with four or more cards in hand."
+      "At the beginning of your upkeep, create X 2/2 green Wolf creature tokens, where X is the number of your opponents with four or more cards in hand."
     ],
     "flavor_text": "\"Knowledge is a stain that only instinct and ferocity can cleanse.\"\n—Drarg, wolfcaller",
     "power": null,
@@ -1679,7 +1679,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Destroy target creature. It can't be regenerated. Its controller puts a 1/1 white Spirit creature token with flying onto the battlefield."
+      "Destroy target creature. It can't be regenerated. Its controller creates a 1/1 white Spirit creature token with flying."
     ],
     "flavor_text": null,
     "power": null,
@@ -1828,9 +1828,9 @@
     "mana_cost": "XX2WW",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Put X 4/4 white Angel creature tokens with flying onto the battlefield.",
+      "Create X 4/4 white Angel creature tokens with flying.",
       "Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)",
-      "When you cycle Decree of Justice, you may pay {X}. If you do, put X 1/1 white Soldier creature tokens onto the battlefield."
+      "When you cycle Decree of Justice, you may pay {X}. If you do, create X 1/1 white Soldier creature tokens."
     ],
     "flavor_text": null,
     "power": null,
@@ -1886,7 +1886,7 @@
     "oracle_text": [
       "Vigilance",
       "Geist-Honored Monk's power and toughness are each equal to the number of creatures you control.",
-      "When Geist-Honored Monk enters the battlefield, put two 1/1 white Spirit creature tokens with flying onto the battlefield."
+      "When Geist-Honored Monk enters the battlefield, create two 1/1 white Spirit creature tokens with flying."
     ],
     "flavor_text": null,
     "power": "*",
@@ -1966,7 +1966,7 @@
     "mana_cost": "1WW",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "At the beginning of your upkeep, put a 2/2 white Cat creature token onto the battlefield for each Equipment attached to Kemba, Kha Regent."
+      "At the beginning of your upkeep, create a 2/2 white Cat creature token for each Equipment attached to Kemba, Kha Regent."
     ],
     "flavor_text": "\"I am not Raksha. I never will be. But I refuse to be the kha who watched her pride be torn asunder.\"",
     "power": "2",
@@ -2044,7 +2044,7 @@
     "mana_cost": "XWW",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Put X 1/1 white Soldier creature tokens onto the battlefield. If X is 5 or more, destroy all other creatures."
+      "Create X 1/1 white Soldier creature tokens. If X is 5 or more, destroy all other creatures."
     ],
     "flavor_text": "Their war forgotten, the nations of Bant stood united in the face of a common threat.",
     "power": null,
@@ -2095,7 +2095,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Put two 1/1 white Spirit creature tokens with flying onto the battlefield."
+      "Create two 1/1 white Spirit creature tokens with flying."
     ],
     "flavor_text": "The path back to the world of the living is murky and bewildering. A geist may not even realize that it's terrifying its own loved ones.",
     "power": null,
@@ -2120,7 +2120,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Soldier creatures have vigilance.",
-      "{2}{W}: Put a 1/1 white Soldier creature token onto the battlefield."
+      "{2}{W}: Create a 1/1 white Soldier creature token."
     ],
     "flavor_text": "Wars are won with strength, valor, and numbers—especially numbers.",
     "power": null,
@@ -2144,7 +2144,7 @@
     "mana_cost": "4WW",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Put a 1/1 white Kor Soldier creature token onto the battlefield for each creature you control.",
+      "Create a 1/1 white Kor Soldier creature token for each creature you control.",
       "Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)"
     ],
     "flavor_text": null,
@@ -2196,7 +2196,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "Whenever another non-Spirit creature you control dies, put a 1/1 white Spirit creature token with flying onto the battlefield."
+      "Whenever another non-Spirit creature you control dies, create a 1/1 white Spirit creature token with flying."
     ],
     "flavor_text": "When angels despair, what hope can remain for mortals?",
     "power": "5",
@@ -2245,7 +2245,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "At the beginning of your upkeep, sacrifice Sacred Mesa unless you sacrifice a Pegasus.",
-      "{1}{W}: Put a 1/1 white Pegasus creature token with flying onto the battlefield."
+      "{1}{W}: Create a 1/1 white Pegasus creature token with flying."
     ],
     "flavor_text": null,
     "power": null,
@@ -2351,7 +2351,7 @@
     "mana_cost": "{2/W}{2/W}{2/W}",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Put three 1/1 white Spirit creature tokens with flying onto the battlefield."
+      "Create three 1/1 white Spirit creature tokens with flying."
     ],
     "flavor_text": "\"The dead have it easy. They suffer no more. If breaking their rest helps the living, so be it.\"\n—Olka, mistmeadow witch",
     "power": null,
@@ -2481,7 +2481,7 @@
     "mana_cost": "XWWW",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Put X 2/2 white Cat creature tokens onto the battlefield. Shuffle White Sun's Zenith into its owner's library."
+      "Create X 2/2 white Cat creature tokens. Shuffle White Sun's Zenith into its owner's library."
     ],
     "flavor_text": "After the Battle of Liet Field, the white sun crested above Taj-Nar, bringing hope to all who survived the carnage.",
     "power": null,
@@ -2611,7 +2611,7 @@
     "mana_cost": "1UU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Put a token onto the battlefield that's a copy of target creature you control.",
+      "Create a token that's a copy of target creature you control.",
       "Flashback {5}{U}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     ],
     "flavor_text": null,
@@ -3134,7 +3134,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Destroy target creature. It can't be regenerated. Its controller puts a 3/3 green Ape creature token onto the battlefield."
+      "Destroy target creature. It can't be regenerated. Its controller creates a 3/3 green Ape creature token."
     ],
     "flavor_text": "Some spellcrafting mistakes go on to become spells of their own.",
     "power": null,
@@ -3187,7 +3187,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Kicker {5} (You may pay an additional {5} as you cast this spell.)",
-      "Put a token onto the battlefield that's a copy of target creature. If Rite of Replication was kicked, put five of those tokens onto the battlefield instead."
+      "Create a token that's a copy of target creature. If Rite of Replication was kicked, create five of those tokens instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -3789,7 +3789,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Deathtouch",
-      "Whenever Grave Titan enters the battlefield or attacks, put two 2/2 black Zombie creature tokens onto the battlefield."
+      "Whenever Grave Titan enters the battlefield or attacks, create two 2/2 black Zombie creature tokens."
     ],
     "flavor_text": "Death in form and function.",
     "power": "6",
@@ -3842,7 +3842,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Deathtouch",
-      "Whenever Liliana's Reaver deals combat damage to a player, that player discards a card and you put a 2/2 black Zombie creature token onto the battlefield tapped."
+      "Whenever Liliana's Reaver deals combat damage to a player, that player discards a card and you create a tapped 2/2 black Zombie creature token."
     ],
     "flavor_text": null,
     "power": "4",
@@ -4109,7 +4109,7 @@
     "oracle_text": [
       "Choose one —",
       "• You draw five cards and you lose 5 life.",
-      "• Put an X/X black Demon creature token with flying onto the battlefield, where X is the number of cards in your hand.",
+      "• Create an X/X black Demon creature token with flying, where X is the number of cards in your hand.",
       "Entwine {4} (Choose both if you pay the entwine cost.)"
     ],
     "flavor_text": null,
@@ -4265,7 +4265,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Morbid — {T}, Tap two untapped creatures you control: Put a 5/5 black Demon creature token with flying onto the battlefield. Activate this ability only if a creature died this turn."
+      "Morbid — {T}, Tap two untapped creatures you control: Create a 5/5 black Demon creature token with flying. Activate this ability only if a creature died this turn."
     ],
     "flavor_text": "\"Thraben's pleas fall on deaf ears. Ours do not.\"",
     "power": "1",
@@ -4469,7 +4469,7 @@
     "mana_cost": "2RR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Beetleback Chief enters the battlefield, put two 1/1 red Goblin creature tokens onto the battlefield."
+      "When Beetleback Chief enters the battlefield, create two 1/1 red Goblin creature tokens."
     ],
     "flavor_text": "Whether trained, ridden, or eaten, few goblin military innovations have rivaled the bug.",
     "power": "2",
@@ -4783,7 +4783,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Haste",
-      "When Tuktuk the Explorer dies, put a legendary 5/5 colorless Goblin Golem artifact creature token named Tuktuk the Returned onto the battlefield."
+      "When Tuktuk the Explorer dies, create a legendary 5/5 colorless Goblin Golem artifact creature token named Tuktuk the Returned."
     ],
     "flavor_text": "Remade by Eldrazi magic, Tuktuk inspired an entire clan of misguided goblins.",
     "power": "1",
@@ -5149,7 +5149,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Put a 3/3 green Beast creature token onto the battlefield for each creature put into your graveyard from the battlefield this turn."
+      "Create a 3/3 green Beast creature token for each creature put into your graveyard from the battlefield this turn."
     ],
     "flavor_text": "A scavenger's favorite appetizer is death.",
     "power": null,
@@ -5225,7 +5225,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Put three 1/1 green Elf Warrior creature tokens onto the battlefield.",
+      "Create three 1/1 green Elf Warrior creature tokens.",
       "Reinforce 3—{3}{G} ({3}{G}, Discard this card: Put three +1/+1 counters on target creature.)"
     ],
     "flavor_text": "\"Eyeblights are easy to track. Just follow the imperfections.\"",
@@ -5281,7 +5281,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Other Elf creatures you control get +1/+1.",
-      "{G}, {T}: Put a 1/1 green Elf Warrior creature token onto the battlefield."
+      "{G}, {T}: Create a 1/1 green Elf Warrior creature token."
     ],
     "flavor_text": "In a culture of beauty, the most beautiful are worshipped as gods.",
     "power": "2",
@@ -5364,7 +5364,7 @@
     "mana_cost": "2GG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever you cast an Elf spell, you may put a 1/1 green Elf Warrior creature token onto the battlefield."
+      "Whenever you cast an Elf spell, you may create a 1/1 green Elf Warrior creature token."
     ],
     "flavor_text": "From the highest tiers of Dawn's Light Palace to the deepest shade of Wren's Run, the silver notes of the horn shimmer through the air, and all who hear it feel its pull.",
     "power": "3",
@@ -5544,7 +5544,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Trample",
-      "Landfall — Whenever a land enters the battlefield under your control, you may put a 4/4 green Beast creature token onto the battlefield."
+      "Landfall — Whenever a land enters the battlefield under your control, you may create a 4/4 green Beast creature token."
     ],
     "flavor_text": "\"When the land is angry, so are they.\"\n—Nissa Revane",
     "power": "6",
@@ -5705,7 +5705,7 @@
     "mana_cost": "6GG",
     "converted_mana_cost": 8,
     "oracle_text": [
-      "When Terastodon enters the battlefield, you may destroy up to three target noncreature permanents. For each permanent put into a graveyard this way, its controller puts a 3/3 green Elephant creature token onto the battlefield."
+      "When Terastodon enters the battlefield, you may destroy up to three target noncreature permanents. For each permanent put into a graveyard this way, its controller creates a 3/3 green Elephant creature token."
     ],
     "flavor_text": null,
     "power": "9",
@@ -5890,7 +5890,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Multikicker {G} (You may pay an additional {G} any number of times as you cast this spell.)",
-      "When Wolfbriar Elemental enters the battlefield, put a 2/2 green Wolf creature token onto the battlefield for each time it was kicked."
+      "When Wolfbriar Elemental enters the battlefield, create a 2/2 green Wolf creature token for each time it was kicked."
     ],
     "flavor_text": null,
     "power": "4",
@@ -5945,7 +5945,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Champion an Elf (When this creature enters the battlefield, sacrifice it unless you exile another Elf you control. When this creature leaves the battlefield, that card returns to the battlefield.)",
-      "{2}{G}: Put a 2/2 green Wolf creature token onto the battlefield.",
+      "{2}{G}: Create a 2/2 green Wolf creature token.",
       "Wolves you control have deathtouch."
     ],
     "flavor_text": null,
@@ -6000,7 +6000,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Living weapon (When this Equipment enters the battlefield, put a 0/0 black Germ creature token onto the battlefield, then attach this to it.)",
+      "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)",
       "Equipped creature gets +X/+X, where X is the number of creature cards in all graveyards.",
       "Equip {2}"
     ],
@@ -6418,7 +6418,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Living weapon (When this Equipment enters the battlefield, put a 0/0 black Germ creature token onto the battlefield, then attach this to it.)",
+      "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)",
       "Equipped creature gets +1/+1 for each Swamp you control.",
       "Equip {BP}{BP} ({BP} can be paid with either {B} or 2 life.)"
     ],
@@ -6575,7 +6575,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Equipped creature has first strike.",
-      "Whenever equipped creature attacks, put a 4/4 white Angel creature token with flying onto the battlefield.",
+      "Whenever equipped creature attacks, create a 4/4 white Angel creature token with flying.",
       "Equip {4}"
     ],
     "flavor_text": null,
@@ -6653,7 +6653,7 @@
     "mana_cost": "7",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "When Myr Battlesphere enters the battlefield, put four 1/1 colorless Myr artifact creature tokens onto the battlefield.",
+      "When Myr Battlesphere enters the battlefield, create four 1/1 colorless Myr artifact creature tokens.",
       "Whenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If you do, Myr Battlesphere gets +X/+0 until end of turn and deals X damage to defending player."
     ],
     "flavor_text": null,
@@ -6708,7 +6708,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Myr Sire dies, put a 1/1 colorless Myr artifact creature token onto the battlefield."
+      "When Myr Sire dies, create a 1/1 colorless Myr artifact creature token."
     ],
     "flavor_text": "For the Phyrexians, death is not an end, nor a one-time occurrence.",
     "power": "1",
@@ -6837,7 +6837,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Pentavus enters the battlefield with five +1/+1 counters on it.",
-      "{1}, Remove a +1/+1 counter from Pentavus: Put a 1/1 colorless Pentavite artifact creature token with flying onto the battlefield.",
+      "{1}, Remove a +1/+1 counter from Pentavus: Create a 1/1 colorless Pentavite artifact creature token with flying.",
       "{1}, Sacrifice a Pentavite: Put a +1/+1 counter on Pentavus."
     ],
     "flavor_text": null,
@@ -7303,7 +7303,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "{1}, {T}, Discard a card: You gain 4 life.",
-      "{1}, {T}, Pay 1 life: Put a 0/1 white Goat creature token onto the battlefield.",
+      "{1}, {T}, Pay 1 life: Create a 0/1 white Goat creature token.",
       "{1}, {T}, Sacrifice a creature: Return target artifact card from your graveyard to your hand.",
       "{1}, {T}, Sacrifice an artifact: Draw a card."
     ],
@@ -7406,7 +7406,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Deathtouch, lifelink",
-      "When Wurmcoil Engine dies, put a 3/3 colorless Wurm artifact creature token with deathtouch and a 3/3 colorless Wurm artifact creature token with lifelink onto the battlefield."
+      "When Wurmcoil Engine dies, create a 3/3 colorless Wurm artifact creature token with deathtouch and a 3/3 colorless Wurm artifact creature token with lifelink."
     ],
     "flavor_text": null,
     "power": "6",
@@ -7585,7 +7585,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Indestructible (Effects that say \"destroy\" don't destroy this land.)",
+      "Indestructible",
       "{T}: Add {C} to your mana pool."
     ],
     "flavor_text": "Structures built from darksteel yield to neither assault nor age.",
@@ -7765,7 +7765,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "{T}: Add {C} to your mana pool.",
-      "{5}, {T}, Sacrifice Gargoyle Castle: Put a 3/4 colorless Gargoyle artifact creature token with flying onto the battlefield."
+      "{5}, {T}, Sacrifice Gargoyle Castle: Create a 3/4 colorless Gargoyle artifact creature token with flying."
     ],
     "flavor_text": "Most knew of the tower's wizard and gargoyle. Few realized which was guardian and which was master.",
     "power": null,

@@ -341,6 +341,7 @@ SETS_TO_DUMP.each do |set|
 
   # Cookie contains setting to retrieve all results in a single page, instead of the default 100 results per page.
   gatherer_set_name = SET_NAME_OVERRIDES.invert[set['name']] || set['name']
+  gatherer_set_name = 'Commander 2014' if gatherer_set_name == 'Commander 2014 Edition' # hardcoded so it works. lazy.
   set_url = "http://gatherer.wizards.com/Pages/Search/Default.aspx?sort=cn+&output=compact&set=[%22#{gatherer_set_name}%22]"
   cookie = "CardDatabaseSettings=0=1&1=28&2=0&14=1&3=13&4=0&5=1&6=15&7=0&8=1&9=1&10=19&11=7&12=8&15=1&16=0&13=;"
   response = get(set_url, "Cookie" => cookie)
