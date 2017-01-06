@@ -1,4 +1,4 @@
-class GathererCardScraper
+class GathererStandardCard
   extend Memoizer
   attr_accessor :multiverse_id, :page
 
@@ -30,12 +30,8 @@ class GathererCardScraper
 
   memo def parse_mana_cost
     container.css('[id$="manaRow"] .value img').map do |symbol|
-      self.class.translate_mana_symbol(symbol)
+      Gatherer.translate_mana_symbol(symbol)
     end.join
-  end
-  def self.translate_mana_symbol(symbol)
-    symbol_key = symbol.attr(:alt).strip
-    MANA_COST_SYMBOLS[symbol_key] || symbol_key
   end
 
   memo def parse_oracle_text
@@ -137,7 +133,7 @@ class GathererCardScraper
       subtitleDisplay = SUBTITLE_DISPLAY_OVERRIDES[multiverse_id] ||
                           page.css('[id$="subtitleDisplay"]').text.strip
       container.css('[id$="nameRow"] .value').text.strip == subtitleDisplay
-    end
+    end || containers.first
   end
 
   def containers

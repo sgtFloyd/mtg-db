@@ -1,3 +1,6 @@
+<!-- Covers all card layouts -->
+<!-- ruby ./script_v2/dump_cards.rb apc ddj dka sok -->
+
 ##### New sets:
 ~~c16~~  
 ~~cn2~~  

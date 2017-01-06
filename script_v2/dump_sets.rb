@@ -1,5 +1,5 @@
 Dir.glob(File.expand_path(File.join('..', 'util', '*.rb'), __FILE__), &method(:require))
-require_relative './scrapers/gatherer_set_scraper.rb'
+require_relative './card_layouts/gatherer_set.rb'
 
-set_json = GathererSetScraper.run
+set_json = GathererSet.run
 write SET_JSON_FILE_PATH, set_json

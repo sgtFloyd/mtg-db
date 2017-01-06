@@ -1,14 +1,14 @@
-class GathererSplitCardScraper < GathererCardScraper
-  attr_accessor :given_set, :container_index
+class GathererSplitCard < GathererStandardCard
+  attr_accessor :overload_id, :container_index
 
-  def initialize(multiverse_id, page, given_set, container_index=nil)
+  def initialize(multiverse_id, page, overload_id, container_index=nil)
     super(multiverse_id, page)
-    self.given_set = given_set
+    self.overload_id = overload_id
     self.container_index = container_index
   end
 
   memo def parse_name
-    if overload_multiverse_id?
+    if self.overload_id
       # Coerce gatherer naming scheme "Fire // Ice" into ours "Fire (Fire/Ice)"
       # using container_index to determine which half we're dealing with
       gatherer_name = page.css('[id$="subtitleDisplay"]').text.strip
@@ -33,20 +33,13 @@ class GathererSplitCardScraper < GathererCardScraper
   end
 
   def as_json(options={})
-    if overload_multiverse_id? && !self.container_index.present?
+    if self.overload_id && !self.container_index.present?
       containers.map.with_index do |_, i|
-        GathererSplitCardScraper.new(multiverse_id, page, given_set, i).as_json
+        GathererSplitCard.new(multiverse_id, page, self.overload_id, i).as_json
       end
     else
       super.merge('other_part' => parse_other_part)
     end
-  end
-
-  # Most sets assign the same multiverse_id to both halves of a split card,
-  # "overloading" the id. Others assign a unique multiverse_id to each half.
-  SETS_WITHOUT_OVERLOADED_MULTIVERSE_IDS = ['Apocalypse', 'Invasion']
-  memo def overload_multiverse_id?
-    !self.given_set['name'].in? SETS_WITHOUT_OVERLOADED_MULTIVERSE_IDS
   end
 
   # Remove split name from parse_name, "Fire (Fire/Ice)" => "Fire"

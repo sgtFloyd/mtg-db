@@ -19,38 +19,16 @@ class CelluloidWorker
       'code' => SET_CODE_OVERRIDES[set_code] || set_code }
   end
 
-  def fetch_card_data(multiverse_id, set)
+  def fetch_card_data(multiverse_id)
     return CARD_JSON_OVERRIDES[multiverse_id] if multiverse_id.in?(CARD_JSON_OVERRIDES)
-    page = get("http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=#{multiverse_id}")
-    scraper = GathererCardScraper.new(multiverse_id, page)
-
-    # Split cards are displayed as "Fire // Ice"
-    if scraper.parse_name.include?('//')
-      scraper = GathererSplitCardScraper.new(multiverse_id, page, set)
-
-    # Both Flip and DoubleFaced cards will display two images on the pages
-    elsif page.css('img[id$="cardImage"]').count > 1
-      mana_costs = scraper.containers.map do |container|
-        container.css('[id$="manaRow"] .value img').map do |symbol|
-          GathererCardScraper.translate_mana_symbol(symbol)
-        end.join
-      end
-      # Only one side of a DoubleFaced card will have a mana cost.
-      # ... or zero, in the case of Westvale Abbey.
-      if mana_costs.select(&:present?).count < 2
-        scraper = GathererDoubleFacedCardScraper.new(multiverse_id, page)
-      else
-        scraper = GathererFlipCardScraper.new(multiverse_id, page)
-      end
-    end
-
-    scraper.as_json
+    Gatherer.card_for(multiverse_id).as_json
   rescue => e
     puts "FAILED ON #{multiverse_id}: #{e}"
+    puts e.backtrace.join("\n\t")
   end
 end
 
-class GathererSetScraper
+class GathererSet
   attr_accessor :set
   def initialize(set); self.set = set; end
 
@@ -75,11 +53,8 @@ class GathererSetScraper
       puts "No multiverse_ids found for #{gatherer_set_name}"
       return false
     else
-      worker_pool = CelluloidWorker.pool(size: WORKER_POOL_SIZE)
-      card_json = multiverse_ids.map do |multiverse_id|
-        worker_pool.future.fetch_card_data(multiverse_id, set)
-      end.map(&:value).flatten.compact
-      return card_json
+      card_json = CelluloidWorker.distribute(multiverse_ids, :fetch_card_data)
+      return card_json.flatten.compact
     end
   end
 
