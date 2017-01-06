@@ -57,17 +57,17 @@ dkm 'Deckmasters'
 ~~usg 'Urza's Saga'~~  
 ~~exo 'Exodus'~~  
 
-m15 'Magic 2015'  
-m14 'Magic 2014'  
-m13 'Magic 2013'  
-m12 'Magic 2012'  
-m11 'Magic 2011'  
-m10 'Magic 2010'  
-10e 'Tenth Edition'  
-9ed 'Ninth Edition'  
-8ed 'Eighth Edition'  
-7ed 'Seventh Edition'  
-6ed 'Classic Sixth Edition'  
+~~m15 'Magic 2015'~~  
+~~m14 'Magic 2014'~~  
+~~m13 'Magic 2013'~~  
+~~m12 'Magic 2012'~~  
+~~m11 'Magic 2011'~~  
+~~m10 'Magic 2010'~~  
+~~10e 'Tenth Edition'~~  
+~~9ed 'Ninth Edition'~~  
+~~8ed 'Eighth Edition'~~  
+~~7ed 'Seventh Edition'~~  
+~~6ed 'Classic Sixth Edition'~~  
 
 ~~pd3 'Premium Deck Series: Graveborn'~~  
 ~~pd2 'Premium Deck Series: Fire and Lightning'~~  
@@ -99,56 +99,56 @@ m10 'Magic 2010'
 ~~evg 'Duel Decks: Elves vs. Goblins'~~  
 
 ##### Contains only split cards:
-apc 'Apocalypse'  
-arc 'Archenemy'  
-c13 'Commander 2013 Edition'  
-dis 'Dissension'  
-dgm 'Dragon's Maze'  
-ddh 'Duel Decks: Ajani vs. Nicol Bolas'  
-ddj 'Duel Decks: Izzet vs. Golgari'  
-inv 'Invasion'  
-plc 'Planar Chaos'  
-hop 'Planechase'  
-tsb 'Time Spiral "Timeshifted"'  
+~~apc 'Apocalypse'~~  
+~~arc 'Archenemy'~~  
+~~c13 'Commander 2013 Edition'~~  
+~~dis 'Dissension'~~  
+~~dgm 'Dragon's Maze'~~  
+~~ddh 'Duel Decks: Ajani vs. Nicol Bolas'~~  
+~~ddj 'Duel Decks: Izzet vs. Golgari'~~  
+~~inv 'Invasion'~~  
+~~plc 'Planar Chaos'~~  
+~~hop 'Planechase'~~  
+~~tsb 'Time Spiral "Timeshifted"'~~  
 
 ##### Contains flip or transform cards:
-bok 'Betrayers of Kamigawa'  
-chk 'Champions of Kamigawa'  
-cmd 'Commander'  
-sok 'Saviors of Kamigawa'  
+~~bok 'Betrayers of Kamigawa'~~  
+~~chk 'Champions of Kamigawa'~~  
+~~cmd 'Commander'~~  
+~~sok 'Saviors of Kamigawa'~~  
 
 ##### Contains double-faced cards:
-dka 'Dark Ascension'  
-isd 'Innistrad'  
-ori 'Magic Origins'  
-soi 'Shadows over Innistrad'  
+~~dka 'Dark Ascension'~~  
+~~isd 'Innistrad'~~  
+~~ori 'Magic Origins'~~  
+~~soi 'Shadows over Innistrad'~~  
 
 ##### Requires manual numbers:
-btd 'Beatdown Box Set'  
-brb 'Battle Royale Box Set'  
-po2 'Portal Second Age'  
-sth 'Stronghold'  
-tmp 'Tempest'  
-por 'Portal'  
-wth 'Weatherlight'  
-5ed 'Fifth Edition'  
-vis 'Visions'  
-mir 'Mirage'  
-all 'Alliances'  
-hml 'Homelands'  
-chr 'Chronicles'  
-ice 'Ice Age'  
-4ed 'Fourth Edition'  
-fem 'Fallen Empires'  
-drk 'The Dark'  
-leg 'Legends'  
-3ed 'Revised Edition'  
-atq 'Antiquities'  
-2ed 'Unlimited Edition'  
-arn 'Arabian Nights'  
-leb 'Limited Edition Beta'  
-lea 'Limited Edition Alpha'  
+~~btd 'Beatdown Box Set'~~  
+~~brb 'Battle Royale Box Set'~~  
+~~po2 'Portal Second Age'~~  
+~~sth 'Stronghold'~~  
+~~tmp 'Tempest'~~  
+~~por 'Portal'~~  
+~~wth 'Weatherlight'~~  
+~~5ed 'Fifth Edition'~~  
+~~vis 'Visions'~~  
+~~mir 'Mirage'~~  
+~~all 'Alliances'~~  
+~~hml 'Homelands'~~  
+~~chr 'Chronicles'~~  
+~~ice 'Ice Age'~~  
+~~4ed 'Fourth Edition'~~  
+~~fem 'Fallen Empires'~~  
+~~drk 'The Dark'~~  
+~~leg 'Legends'~~  
+~~3ed 'Revised Edition'~~  
+~~atq 'Antiquities'~~  
+~~2ed 'Unlimited Edition'~~  
+~~arn 'Arabian Nights'~~  
+~~leb 'Limited Edition Beta'~~  
+~~lea 'Limited Edition Alpha'~~  
 
 ##### Not present in Gatherer (all of ath, s00#13)
-ath 'Anthologies'  
-s00 'Starter 2000'  
+~~ath 'Anthologies'~~  
+~~s00 'Starter 2000'~~  

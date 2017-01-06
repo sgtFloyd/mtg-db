@@ -308,7 +308,7 @@
     "mana_cost": "3W",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "At the beginning of each upkeep, if you lost life last turn, put a 1/1 white Soldier creature token onto the battlefield."
+      "At the beginning of each upkeep, if you lost life last turn, create a 1/1 white Soldier creature token."
     ],
     "flavor_text": "\"There's never a good time for a disaster or an attack. That's why we're here.\"\n—Oren, militia captain",
     "power": null,
@@ -387,7 +387,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Flash (You may cast this spell any time you could cast an instant.)",
+      "Flash",
       "Flying",
       "Creatures entering the battlefield don't cause abilities to trigger."
     ],
@@ -676,7 +676,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Put two 1/1 white Soldier creature tokens onto the battlefield."
+      "Create two 1/1 white Soldier creature tokens."
     ],
     "flavor_text": "Like blinking or breathing, responding to an alarm is an involuntary reflex.",
     "power": null,
@@ -964,7 +964,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever a nontoken creature enters the battlefield under your control, you may pay {W}. If you do, put a 1/1 white Spirit creature token with flying onto the battlefield.",
+      "Whenever a nontoken creature enters the battlefield under your control, you may pay {W}. If you do, create a 1/1 white Spirit creature token with flying.",
       "{1}{W}, Sacrifice a Spirit: Target non-Spirit creature gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)"
     ],
     "flavor_text": "Designed by Justin Gary",
@@ -1044,7 +1044,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)",
-      "Put three 1/1 white Spirit creature tokens with flying onto the battlefield. (They can't be blocked except by creatures with flying or reach.)"
+      "Create three 1/1 white Spirit creature tokens with flying. (They can't be blocked except by creatures with flying or reach.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1205,7 +1205,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Whenever you draw a card, put a +1/+1 counter on Chasm Skulker.",
-      "When Chasm Skulker dies, put X 1/1 blue Squid creature tokens with islandwalk onto the battlefield, where X is the number of +1/+1 counters on Chasm Skulker. (They can't be blocked as long as defending player controls an Island.)"
+      "When Chasm Skulker dies, create X 1/1 blue Squid creature tokens with islandwalk, where X is the number of +1/+1 counters on Chasm Skulker. (They can't be blocked as long as defending player controls an Island.)"
     ],
     "flavor_text": "Designed by Mike Neumann",
     "power": "1",
@@ -1283,7 +1283,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Defender (This creature can't attack.)",
-      "When Coral Barrier enters the battlefield, put a 1/1 blue Squid creature token with islandwalk onto the battlefield. (It can't be blocked as long as defending player controls an Island.)"
+      "When Coral Barrier enters the battlefield, create a 1/1 blue Squid creature token with islandwalk. (It can't be blocked as long as defending player controls an Island.)"
     ],
     "flavor_text": null,
     "power": "1",
@@ -1781,7 +1781,7 @@
     "mana_cost": "4U",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "You may have Mercurial Pretender enter the battlefield as a copy of any creature you control except it gains \"{2}{U}{U}: Return this creature to its owner's hand.\""
+      "You may have Mercurial Pretender enter the battlefield as a copy of any creature you control, except it gains \"{2}{U}{U}: Return this creature to its owner's hand.\""
     ],
     "flavor_text": "The king went off to find himself. Imagine his terror when he succeeded.",
     "power": "0",
@@ -2813,7 +2813,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}{B}, Discard a creature card: Draw a card. If the discarded card was a Zombie card, put a 2/2 black Zombie creature token onto the battlefield tapped."
+      "{1}{B}, Discard a creature card: Draw a card. If the discarded card was a Zombie card, create a tapped 2/2 black Zombie creature token."
     ],
     "flavor_text": "The experiments decided to perform some research of their own.",
     "power": null,
@@ -3184,7 +3184,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever an opponent discards a creature card, put a 2/2 black Zombie creature token onto the battlefield.",
+      "Whenever an opponent discards a creature card, create a 2/2 black Zombie creature token.",
       "Whenever an opponent discards a land card, add {B}{B} to your mana pool.",
       "Whenever an opponent discards a noncreature, nonland card, draw a card."
     ],
@@ -3444,7 +3444,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever an Aura becomes attached to Brood Keeper, put a 2/2 red Dragon creature token with flying onto the battlefield. It has \"{R}: This creature gets +1/+0 until end of turn.\""
+      "Whenever an Aura becomes attached to Brood Keeper, create a 2/2 red Dragon creature token with flying. It has \"{R}: This creature gets +1/+0 until end of turn.\""
     ],
     "flavor_text": "\"Come, little one. Unfurl your wings, fill your lungs, and release your first fiery breath.\"",
     "power": "2",
@@ -3753,7 +3753,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "At the beginning of your upkeep, put a colorless artifact token named Land Mine onto the battlefield with \"{R}, Sacrifice this artifact: This artifact deals 2 damage to target attacking creature without flying.\" Then flip a coin. If you lose the flip, Goblin Kaboomist deals 2 damage to itself."
+      "At the beginning of your upkeep, create a colorless artifact token named Land Mine with \"{R}, Sacrifice this artifact: This artifact deals 2 damage to target attacking creature without flying.\" Then flip a coin. If you lose the flip, Goblin Kaboomist deals 2 damage to itself."
     ],
     "flavor_text": "Designed by Stone Librande",
     "power": "1",
@@ -3781,7 +3781,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Other Goblin creatures you control attack each turn if able.",
-      "At the beginning of combat on your turn, put a 1/1 red Goblin creature token with haste onto the battlefield.",
+      "At the beginning of combat on your turn, create a 1/1 red Goblin creature token with haste.",
       "Whenever Goblin Rabblemaster attacks, it gets +1/+0 until end of turn for each other attacking Goblin."
     ],
     "flavor_text": null,
@@ -4543,7 +4543,7 @@
     "converted_mana_cost": 9,
     "oracle_text": [
       "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)",
-      "Put three 3/3 green Beast creature tokens onto the battlefield."
+      "Create three 3/3 green Beast creature tokens."
     ],
     "flavor_text": "Nature is itself wild—in all its forms.",
     "power": null,
@@ -4623,7 +4623,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Defender (This creature can't attack.)",
-      "Whenever Hornet Nest is dealt damage, put that many 1/1 green Insect creature tokens with flying and deathtouch onto the battlefield. (Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.)"
+      "Whenever Hornet Nest is dealt damage, create that many 1/1 green Insect creature tokens with flying and deathtouch. (Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.)"
     ],
     "flavor_text": null,
     "power": "0",
@@ -4651,7 +4651,7 @@
     "oracle_text": [
       "Flying",
       "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
-      "When Hornet Queen enters the battlefield, put four 1/1 green Insect creature tokens with flying and deathtouch onto the battlefield."
+      "When Hornet Queen enters the battlefield, create four 1/1 green Insect creature tokens with flying and deathtouch."
     ],
     "flavor_text": null,
     "power": "2",
@@ -4753,7 +4753,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Kalonian Twingrove's power and toughness are each equal to the number of Forests you control.",
-      "When Kalonian Twingrove enters the battlefield, put a green Treefolk Warrior creature token onto the battlefield with \"This creature's power and toughness are each equal to the number of Forests you control.\""
+      "When Kalonian Twingrove enters the battlefield, create a green Treefolk Warrior creature token with \"This creature's power and toughness are each equal to the number of Forests you control.\""
     ],
     "flavor_text": null,
     "power": "*",
@@ -5246,8 +5246,8 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Reach",
-      "{3}{G}{G}: Put a 3/3 green Beast creature token onto the battlefield.",
-      "{3}{G}{G}, Exile Soul of Zendikar from your graveyard: Put a 3/3 green Beast creature token onto the battlefield."
+      "{3}{G}{G}: Create a 3/3 green Beast creature token.",
+      "{3}{G}{G}, Exile Soul of Zendikar from your graveyard: Create a 3/3 green Beast creature token."
     ],
     "flavor_text": null,
     "power": "6",
@@ -5491,7 +5491,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "+1: Destroy another target planeswalker.",
-      "+1: Put a 3/3 black Beast creature token with deathtouch onto the battlefield.",
+      "+1: Create a 3/3 black Beast creature token with deathtouch.",
       "−3: Destroy target creature. You gain life equal to its toughness.",
       "−8: Target opponent gets an emblem with \"Whenever a creature attacks you, it gets +5/+5 and gains trample until end of turn.\""
     ],
@@ -5548,7 +5548,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Equipped creature gets +2/+0 and has vigilance and \"At the beginning of your upkeep, draw a card.\"",
-      "When equipped creature dies, target opponent gains control of Avarice Amulet.",
+      "Whenever equipped creature dies, target opponent gains control of Avarice Amulet.",
       "Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"
     ],
     "flavor_text": "Designed by Penny Arcade",
@@ -6324,7 +6324,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Indestructible (Effects that say \"destroy\" don't destroy this land.)",
+      "Indestructible",
       "{T}: Add {C} to your mana pool."
     ],
     "flavor_text": "Structures built from darksteel yield to neither assault nor age.",
@@ -6450,7 +6450,7 @@
     "oracle_text": [
       "{T}: Add {C} to your mana pool.",
       "{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a Sliver spell.",
-      "{5}, {T}: Put a 1/1 colorless Sliver creature token onto the battlefield. Activate this ability only if you control a Sliver."
+      "{5}, {T}: Create a 1/1 colorless Sliver creature token. Activate this ability only if you control a Sliver."
     ],
     "flavor_text": null,
     "power": null,
