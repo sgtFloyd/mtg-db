@@ -2,13 +2,15 @@ require 'json'
 
 module Mtg
   module Db
-    VERSION = '0.8.11'
-    CARDS_PATH = File.expand_path('../../data/cards.json', __FILE__)
-    SETS_PATH = File.expand_path('../../data/sets.json', __FILE__)
+    VERSION = '1.0.0'
+    CARDS_PATH = File.expand_path('../../data_v2/sets/%s.json', __FILE__)
+    SETS_PATH = File.expand_path('../../data_v2/sets.json', __FILE__)
 
     class << self
       def cards
-        @cards ||= load_json CARDS_PATH
+        @cards ||= sets.inject([]) do |cards, set|
+          cards + load_json(CARDS_PATH % set['code'])
+        end
       end
 
       def sets
@@ -18,8 +20,12 @@ module Mtg
     private
 
       def load_json(path)
-        File.open(path, 'r') do |f|
-          JSON.parse(f.read)
+        if File.exists?(path)
+          File.open(path, 'r') do |f|
+            JSON.parse(f.read)
+          end
+        else
+          []
         end
       end
 
