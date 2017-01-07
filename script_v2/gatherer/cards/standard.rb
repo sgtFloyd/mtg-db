@@ -8,24 +8,20 @@ class StandardCard
   end
 
   memo def parse_name
-    name_str = page.css('[id$="subtitleDisplay"]').text.strip
-    SUBTITLE_DISPLAY_OVERRIDES[multiverse_id] || name_str
+    name_str = self.page.css('[id$="subtitleDisplay"]').text.strip
+    SUBTITLE_DISPLAY_OVERRIDES[self.multiverse_id] || name_str
   end
 
   memo def parse_collector_num
-    COLLECTOR_NUM_OVERRIDES[multiverse_id] || labeled_row(:number)
+    COLLECTOR_NUM_OVERRIDES[self.multiverse_id] || labeled_row(:number)
   end
 
   memo def parse_types
-    types = labeled_row(:type).split("—").map(&:strip)[0].split(' ') - SUPERTYPES
-    supertypes = labeled_row(:type).split("—").map(&:strip)[0].split(' ') & SUPERTYPES
-    subtypes = labeled_row(:type).split("—").map(&:strip)[1].gsub("’", "'").split(' ') rescue []
-    { types: types, supertypes: supertypes, subtypes: subtypes }
+    Gatherer.translate_card_types labeled_row(:type)
   end
 
   memo def parse_set_name
-    set_name_str = labeled_row(:set)
-    SET_NAME_OVERRIDES[set_name_str] || set_name_str
+    SET_NAME_OVERRIDES[labeled_row(:set)] || labeled_row(:set)
   end
 
   memo def parse_mana_cost
@@ -37,24 +33,14 @@ class StandardCard
   memo def parse_oracle_text
     # Override oracle text for basic lands.
     if parse_types[:supertypes].include?('Basic')
-      return  ["({T}: Add #{BASIC_LAND_SYMBOLS[parse_name]} to your mana pool.)"]
+      return ["({T}: Add #{BASIC_LAND_SYMBOLS[parse_name]} to your mana pool.)"]
     end
-
     textboxes = container.css('[id$="textRow"] .cardtextbox')
-    textboxes.map do |textbox|
-      textbox.css(:img).each do |img|
-        img_alt = img.attr(:alt).strip
-        symbol = MANA_COST_SYMBOLS[img_alt] || img_alt
-        symbol = "{#{symbol}}" unless symbol.match(/^{/)
-        img.replace(symbol)
-      end
-      # Gatherer messes up {10} formatting, resulting in {1}0
-      textbox.text.strip.gsub('{1}0', '{10}')
-    end.select(&:present?)
+    Gatherer.translate_oracle_text textboxes
   end
 
   memo def parse_flavor_text
-    return FLAVOR_TEXT_OVERRIDES[multiverse_id] if FLAVOR_TEXT_OVERRIDES[multiverse_id]
+    return FLAVOR_TEXT_OVERRIDES[self.multiverse_id] if FLAVOR_TEXT_OVERRIDES[self.multiverse_id]
     textboxes = container.css('[id$="flavorRow"] .flavortextbox')
     textboxes.map{|t| t.text.strip}.select(&:present?).join("\n").presence
   end
@@ -70,6 +56,7 @@ class StandardCard
     end
   end
 
+  # Rather than overriding based on multiverse_id, correct any obvious typos
   ILLUSTRATOR_REPLACEMENTS = {
     "Brian Snoddy" => "Brian Snõddy",
     "Parente & Brian Snoddy" => "Parente & Brian Snõddy",
@@ -78,7 +65,7 @@ class StandardCard
   }
   memo def parse_illustrator
     artist_str = labeled_row(:artist)
-    ILLUSTRATOR_OVERRIDES[multiverse_id] ||
+    ILLUSTRATOR_OVERRIDES[self.multiverse_id] ||
       ILLUSTRATOR_REPLACEMENTS[artist_str] || artist_str
   end
 
@@ -104,7 +91,7 @@ class StandardCard
     return if parse_types[:types].include?('Token') ||
                 parse_name.in?(EXCLUDED_TOKEN_NAMES)
     {
-      'name'                => CARD_NAME_OVERRIDES[multiverse_id] || parse_name,
+      'name'                => CARD_NAME_OVERRIDES[self.multiverse_id] || parse_name,
       'set_name'            => parse_set_name,
       'collector_num'       => parse_collector_num,
       'illustrator'         => parse_illustrator,
@@ -119,25 +106,25 @@ class StandardCard
       'power'               => parse_pt[:power],
       'toughness'           => parse_pt[:toughness],
       'loyalty'             => parse_pt[:loyalty],
-      'multiverse_id'       => multiverse_id,
-      'other_part'          => nil,
+      'multiverse_id'       => self.multiverse_id,
+      'other_part'          => nil, # only relevant for split, flip, etc.
       'color_indicator'     => parse_color_indicator,
     }
   end
 
   # Grab the .cardComponentContainer that corresponds with this card. Flip,
-  # split, and transform cards can have multiple containers on the page and
-  # may need to be handled differently
+  # split, and transform cards override this method. It's possible we can
+  # replace the whole thing with `containers.first` for StandardCards?
   def container
     containers.find do |container|
-      subtitleDisplay = SUBTITLE_DISPLAY_OVERRIDES[multiverse_id] ||
-                          page.css('[id$="subtitleDisplay"]').text.strip
-      container.css('[id$="nameRow"] .value').text.strip == subtitleDisplay
+      subtitle_display = SUBTITLE_DISPLAY_OVERRIDES[self.multiverse_id] ||
+                          self.page.css('[id$="subtitleDisplay"]').text.strip
+      container.css('[id$="nameRow"] .value').text.strip == subtitle_display
     end || containers.first
   end
 
   def containers
-    page.css('.cardComponentContainer')
+    self.page.css('.cardComponentContainer')
   end
 
   memo def labeled_row(label)

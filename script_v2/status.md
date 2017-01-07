@@ -123,7 +123,7 @@
 ~~hop 'Planechase'~~  
 ~~tsb 'Time Spiral "Timeshifted"'~~  
 
-##### Contains flip or transform cards:
+##### Contains flip cards:
 ~~bok 'Betrayers of Kamigawa'~~  
 ~~chk 'Champions of Kamigawa'~~  
 ~~cmd 'Commander'~~  

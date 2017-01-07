@@ -11,15 +11,16 @@ class FlipCard < StandardCard
   end
 
   memo def parse_other_part
-    # Use xor to get the "other" container
-    containers[1^self.container_index].css("[id$=\"nameRow\"] .value").text.strip
+    # Use XOR to get the "other container"'s index
+    other_container = containers[1^self.container_index]
+    other_container.css("[id$=\"nameRow\"] .value").text.strip
   end
 
   def as_json(options={})
-    if !self.container_index.present?
-      containers.map.with_index do |_, i|
-        FlipCard.new(multiverse_id, page, i).as_json
-      end
+    if self.container_index.blank?
+      # Assumes flip cards will only ever have two parts.
+      [ self.class.new(self.multiverse_id, self.page, 0),
+        self.class.new(self.multiverse_id, self.page, 1) ].map(&:as_json)
     else
       super.merge('other_part' => parse_other_part)
     end

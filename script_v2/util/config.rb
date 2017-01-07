@@ -21,7 +21,15 @@ FLAVOR_TEXT_FILE_PATH = File.expand_path('../../data/flavor_text_overrides.yml',
   self.class.const_set config.upcase, YAML.load_file(path)
 end
 
+# Hardcoded list of supertypes, allows us to differentiate between types and
+# supertypes when parsing a card's type line.
+CARD_SUPERTYPES = ['Basic', 'Legendary', 'World', 'Snow']
+
+# Some tokens are missing the "Token" type. Check for these exact names instead.
 EXCLUDED_TOKEN_NAMES = ['Goblin', 'Soldier', 'Kraken', 'Spirit']
-SUPERTYPES = ['Basic', 'Legendary', 'World', 'Snow']
-BASIC_LAND_SYMBOLS = {'Plains'   => '{W}', 'Island' => '{U}', 'Swamp'  => '{B}',
-                      'Mountain' => '{R}', 'Forest' => '{G}', 'Wastes' => '{C}'}
+
+# Used to override the oracle text of each Basic Land type.
+BASIC_LAND_SYMBOLS = {
+  'Plains'   => '{W}', 'Island' => '{U}', 'Swamp'  => '{B}',
+  'Mountain' => '{R}', 'Forest' => '{G}', 'Wastes' => '{C}'
+}
