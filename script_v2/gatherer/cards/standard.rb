@@ -81,17 +81,21 @@ class StandardCard
   end
 
   CARD_NAME_OVERRIDES = {
-    91 => 'Will-O\'-The-Wisp',
-    386 => 'Will-O\'-The-Wisp',
-    688 => 'Will-O\'-The-Wisp',
+    91   => 'Will-O\'-The-Wisp',
+    386  => 'Will-O\'-The-Wisp',
+    688  => 'Will-O\'-The-Wisp',
     1187 => 'Will-O\'-The-Wisp',
     2138 => 'Will-O\'-The-Wisp',
+  }
+  CARD_NAME_REPLACEMENTS = {
+    'Kongming, "Sleeping Dragon"' => 'Kongming, “Sleeping Dragon”',
+    'Pang Tong, "Young Phoenix"' => 'Pang Tong, “Young Phoenix”'
   }
   def as_json(options={})
     return if parse_types[:types].include?('Token') ||
                 parse_name.in?(EXCLUDED_TOKEN_NAMES)
     {
-      'name'                => CARD_NAME_OVERRIDES[self.multiverse_id] || parse_name,
+      'name'                => CARD_NAME_OVERRIDES[self.multiverse_id] || CARD_NAME_REPLACEMENTS[parse_name] || parse_name,
       'set_name'            => parse_set_name,
       'collector_num'       => parse_collector_num,
       'illustrator'         => parse_illustrator,
