@@ -26,7 +26,9 @@ end
 CARD_SUPERTYPES = ['Basic', 'Legendary', 'World', 'Snow']
 
 # Some tokens are missing the "Token" type. Check for these exact names instead.
-EXCLUDED_TOKEN_NAMES = ['Goblin', 'Soldier', 'Kraken', 'Spirit']
+EXCLUDED_TOKEN_NAMES = ['Goblin', 'Soldier', 'Kraken', 'Spirit', 'Demon',
+  'Elemental', 'Thrull', 'Elf Warrior', 'Beast', 'Elephant', 'Elemental Shaman',
+  'Minion', 'Saproling', 'Hornet']
 
 # Used to override the oracle text of each Basic Land type.
 BASIC_LAND_SYMBOLS = {
