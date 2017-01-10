@@ -52,6 +52,12 @@ class Gatherer
 
     # s00#13 is missing from Gatherer. This will pull the data from CARD_JSON_OVERRIDES
     multiverse_ids << 's00#13' if set_name == 'Starter 2000'
+
+    # CNS 1-13 (Conspiracies) missing from Gatherer search, but multiverse_ids exist
+    if set_name == 'Magic: The Gathering—Conspiracy'
+      multiverse_ids += [382222, 382253, 382289, 382315, 382360, 382393, 382411,
+                          382356, 382206, 382292, 382355, 382216, 382332]
+    end
     multiverse_ids
   end
 
