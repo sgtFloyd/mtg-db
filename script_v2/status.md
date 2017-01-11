@@ -9,8 +9,7 @@
 emn  
 ~~ema~~  
 ~~v16~~  
-<!-- KLD#38 Missing, Vehicle P/T incorrect -->
-kld  
+~~kld~~  
 ~~pca~~  
 
 ~~ogw 'Oath of the Gatewatch'~~  

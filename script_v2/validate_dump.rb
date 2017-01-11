@@ -43,9 +43,11 @@ SETS_TO_VALIDATE.each do |set|
       when 'oracle_text'
         # Replace instances of ({C})+ in new text with backwards-compatible {1}, {2}
         new_text = new_card[key] #.map{|l| l.gsub(/({C})+/){|_| "{#{_.scan('{C}').count}}"}}
+        # Replace instanced of MGCI's {e} with our preferred {e}
+        old_text = old_card[key].map{|line| line.gsub('{e}', '{E}')}
 
         # Ignore mismatch when only reminder text is different.
-        (old_card[key].map{|line| line.gsub(/\([^(]+\)/,'').strip} !=
+        (old_text.map{|line| line.gsub(/\([^(]+\)/,'').strip} !=
           new_text.map{|line| line.gsub(/\([^(]+\)/,'').strip}) &&
         # Ignore mismatch if newly-introduced Menace keyword is present.
         new_text.join.exclude?('Menace') && new_text.join.exclude?('menace') &&

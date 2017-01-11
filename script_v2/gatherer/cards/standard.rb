@@ -48,7 +48,8 @@ class StandardCard
   memo def parse_pt
     if parse_types[:types].include?('Planeswalker')
       { loyalty: labeled_row(:pt).strip.presence }
-    elsif parse_types[:types].include?('Creature')
+    elsif parse_types[:types].include?('Creature') ||
+            parse_types[:subtypes].include?('Vehicle')
       { power:     labeled_row(:pt).split('/')[0].strip,
         toughness: labeled_row(:pt).split('/')[1].strip }
     else

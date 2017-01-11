@@ -68,8 +68,8 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Flying",
-      "Whenever Aetherstorm Roc or another creature enters the battlefield under your control, you get {Energy} (an energy counter).",
-      "Whenever Aetherstorm Roc attacks, you may pay {Energy}{Energy}. If you do, put a +1/+1 counter on it and tap up to one target creature defending player controls."
+      "Whenever Aetherstorm Roc or another creature enters the battlefield under your control, you get {E} (an energy counter).",
+      "Whenever Aetherstorm Roc attacks, you may pay {E}{E}. If you do, put a +1/+1 counter on it and tap up to one target creature defending player controls."
     ],
     "flavor_text": null,
     "power": "3",
@@ -253,8 +253,8 @@
     "mana_cost": "3W",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Consulate Surveillance enters the battlefield, you get {Energy}{Energy}{Energy}{Energy} (four energy counters).",
-      "Pay {Energy}{Energy}: Prevent all damage that would be dealt to you this turn by a source of your choice."
+      "When Consulate Surveillance enters the battlefield, you get {E}{E}{E}{E} (four energy counters).",
+      "Pay {E}{E}: Prevent all damage that would be dealt to you this turn by a source of your choice."
     ],
     "flavor_text": null,
     "power": null,
@@ -281,8 +281,8 @@
     "mana_cost": "3W",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Consul's Shieldguard enters the battlefield, you get {Energy}{Energy} (two energy counters).",
-      "Whenever Consul's Shieldguard attacks, you may pay {Energy}. If you do, another target attacking creature gains indestructible until end of turn."
+      "When Consul's Shieldguard enters the battlefield, you get {E}{E} (two energy counters).",
+      "Whenever Consul's Shieldguard attacks, you may pay {E}. If you do, another target attacking creature gains indestructible until end of turn."
     ],
     "flavor_text": null,
     "power": "3",
@@ -309,8 +309,8 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Flying",
-      "When Eddytrail Hawk enters the battlefield, you get {Energy}{Energy} (two energy counters).",
-      "Whenever Eddytrail Hawk attacks, you may pay {Energy}. If you do, another target attacking creature gains flying until end of turn."
+      "When Eddytrail Hawk enters the battlefield, you get {E}{E} (two energy counters).",
+      "Whenever Eddytrail Hawk attacks, you may pay {E}. If you do, another target attacking creature gains flying until end of turn."
     ],
     "flavor_text": null,
     "power": "1",
@@ -797,8 +797,8 @@
     "mana_cost": "3W",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Thriving Ibex enters the battlefield, you get {Energy}{Energy} (two energy counters).",
-      "Whenever Thriving Ibex attacks, you may pay {Energy}{Energy}. If you do, put a +1/+1 counter on it."
+      "When Thriving Ibex enters the battlefield, you get {E}{E} (two energy counters).",
+      "Whenever Thriving Ibex attacks, you may pay {E}{E}. If you do, put a +1/+1 counter on it."
     ],
     "flavor_text": "Textiles at the Inventors' Fair feature threads from every corner of Kaladesh.",
     "power": "2",
@@ -934,7 +934,7 @@
     "oracle_text": [
       "Flash (You may cast this spell any time you could cast an instant.)",
       "Enchant creature or Vehicle",
-      "When Aether Meltdown enters the battlefield, you get {Energy}{Energy} (two energy counters).",
+      "When Aether Meltdown enters the battlefield, you get {E}{E} (two energy counters).",
       "Enchanted permanent gets -4/-0."
     ],
     "flavor_text": null,
@@ -962,14 +962,38 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Aether Theorist enters the battlefield, you get {Energy}{Energy}{Energy} (three energy counters).",
-      "{T}, Pay {Energy}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"
+      "When Aether Theorist enters the battlefield, you get {E}{E}{E} (three energy counters).",
+      "{T}, Pay {E}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"
     ],
     "flavor_text": null,
     "power": "1",
     "toughness": "3",
     "loyalty": null,
     "multiverse_id": 417610,
+    "other_part": null,
+    "color_indicator": null
+  },
+  {
+    "name": "Aether Tradewinds",
+    "set_name": "Kaladesh",
+    "collector_num": "38",
+    "illustrator": "Lius Lasahido",
+    "types": [
+      "Instant"
+    ],
+    "supertypes": [],
+    "subtypes": [],
+    "rarity": "Common",
+    "mana_cost": "2U",
+    "converted_mana_cost": 3,
+    "oracle_text": [
+      "Return target permanent you control and target permanent you don't control to their owners' hands."
+    ],
+    "flavor_text": "Consulate engineers have developed safe methods of harvesting aether, but renegades aren't always so careful.",
+    "power": null,
+    "toughness": null,
+    "loyalty": null,
+    "multiverse_id": 417611,
     "other_part": null,
     "color_indicator": null
   },
@@ -990,8 +1014,8 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Flying",
-      "At the beginning of your upkeep, you get {Energy}{Energy}{Energy} (three energy counters).",
-      "Pay {Energy}{Energy}{Energy}{Energy}{Energy}{Energy}{Energy}{Energy}: Return all other creatures to their owners' hands. Activate this ability only any time you could cast a sorcery."
+      "At the beginning of your upkeep, you get {E}{E}{E} (three energy counters).",
+      "Pay {E}{E}{E}{E}{E}{E}{E}{E}: Return all other creatures to their owners' hands. Activate this ability only any time you could cast a sorcery."
     ],
     "flavor_text": null,
     "power": "6",
@@ -1039,7 +1063,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Choose target artifact or creature. You get {Energy}{Energy}{Energy}{Energy} (four energy counters), then you may pay an amount of {Energy} equal to that permanent's converted mana cost. If you do, gain control of it."
+      "Choose target artifact or creature. You get {E}{E}{E}{E} (four energy counters), then you may pay an amount of {E} equal to that permanent's converted mana cost. If you do, gain control of it."
     ],
     "flavor_text": "\"Citizens, do not resist. This is for your safety. Tezzeret bids you to surrender your inventions. Now.\"",
     "power": null,
@@ -1136,8 +1160,8 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever an artifact or Artificer enters the battlefield under your control, you may pay {1}. If you do, you get {Energy}{Energy} (two energy counters).",
-      "Pay {Energy}{Energy}{Energy}{Energy}{Energy}{Energy}, Sacrifice Era of Innovation: Draw three cards."
+      "Whenever an artifact or Artificer enters the battlefield under your control, you may pay {1}. If you do, you get {E}{E} (two energy counters).",
+      "Pay {E}{E}{E}{E}{E}{E}, Sacrifice Era of Innovation: Draw three cards."
     ],
     "flavor_text": null,
     "power": null,
@@ -1240,7 +1264,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Scry 2, then draw two cards. You get {Energy}{Energy} (two energy counters)."
+      "Scry 2, then draw two cards. You get {E}{E} (two energy counters)."
     ],
     "flavor_text": "Creators live for that moment of inspiration: precious, profound, perfect.",
     "power": null,
@@ -1294,8 +1318,8 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Defender",
-      "When Hightide Hermit enters the battlefield, you get {Energy}{Energy}{Energy}{Energy} (four energy counters).",
-      "Pay {Energy}{Energy}: Hightide Hermit can attack this turn as though it didn't have defender."
+      "When Hightide Hermit enters the battlefield, you get {E}{E}{E}{E} (four energy counters).",
+      "Pay {E}{E}: Hightide Hermit can attack this turn as though it didn't have defender."
     ],
     "flavor_text": null,
     "power": "4",
@@ -1349,8 +1373,8 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Janjeet Sentry enters the battlefield, you get {Energy}{Energy} (two energy counters).",
-      "{T}, Pay {Energy}{Energy}: You may tap or untap target artifact or creature."
+      "When Janjeet Sentry enters the battlefield, you get {E}{E} (two energy counters).",
+      "{T}, Pay {E}{E}: You may tap or untap target artifact or creature."
     ],
     "flavor_text": "Janjeet Observatory is open to the public, but access to the adjoining laboratories is restricted.",
     "power": "2",
@@ -1457,8 +1481,8 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "When Minister of Inquiries enters the battlefield, you get {Energy}{Energy} (two energy counters).",
-      "{T}, Pay {Energy}: Target player puts the top three cards of his or her library into his or her graveyard."
+      "When Minister of Inquiries enters the battlefield, you get {E}{E} (two energy counters).",
+      "{T}, Pay {E}: Target player puts the top three cards of his or her library into his or her graveyard."
     ],
     "flavor_text": "\"This research violates Consulate law.\"",
     "power": "1",
@@ -1687,8 +1711,8 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "When Thriving Turtle enters the battlefield, you get {Energy}{Energy} (two energy counters).",
-      "Whenever Thriving Turtle attacks, you may pay {Energy}{Energy}. If you do, put a +1/+1 counter on it."
+      "When Thriving Turtle enters the battlefield, you get {E}{E} (two energy counters).",
+      "Whenever Thriving Turtle attacks, you may pay {E}{E}. If you do, put a +1/+1 counter on it."
     ],
     "flavor_text": "Aether shapes everything on Kaladesh, from the sky to the sea.",
     "power": "0",
@@ -1879,8 +1903,8 @@
     "oracle_text": [
       "Flying",
       "When Demon of Dark Schemes enters the battlefield, all other creatures get -2/-2 until end of turn.",
-      "Whenever another creature dies, you get {Energy} (an energy counter).",
-      "{2}{B}, Pay {Energy}{Energy}{Energy}{Energy}: Put target creature card from a graveyard onto the battlefield under your control tapped."
+      "Whenever another creature dies, you get {E} (an energy counter).",
+      "{2}{B}, Pay {E}{E}{E}{E}: Put target creature card from a graveyard onto the battlefield under your control tapped."
     ],
     "flavor_text": null,
     "power": "5",
@@ -1955,7 +1979,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Choose target creature. You get {Energy}{Energy} (two energy counters), then you may pay any amount of {Energy}. The creature gets -1/-1 until end of turn for each {Energy} paid this way."
+      "Choose target creature. You get {E}{E} (two energy counters), then you may pay any amount of {E}. The creature gets -1/-1 until end of turn for each {E} paid this way."
     ],
     "flavor_text": "\"When the time comes, let go. Nothing lasts forever.\"",
     "power": null,
@@ -2243,7 +2267,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "You draw two cards, lose 2 life, and get {Energy}{Energy} (two energy counters)."
+      "You draw two cards, lose 2 life, and get {E}{E} (two energy counters)."
     ],
     "flavor_text": "\"When you have the chance, take it. Laugh, sing, dance. Don't allow the night to end.\"",
     "power": null,
@@ -2633,8 +2657,8 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Thriving Rats enters the battlefield, you get {Energy}{Energy} (two energy counters).",
-      "Whenever Thriving Rats attacks, you may pay {Energy}{Energy}. If you do, put a +1/+1 counter on it."
+      "When Thriving Rats enters the battlefield, you get {E}{E} (two energy counters).",
+      "Whenever Thriving Rats attacks, you may pay {E}{E}. If you do, put a +1/+1 counter on it."
     ],
     "flavor_text": "In Ghirapur, even the lowliest residents live in lavish surroundings.",
     "power": "1",
@@ -2737,9 +2761,9 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Aethertorch Renegade enters the battlefield, you get {Energy}{Energy}{Energy}{Energy} (four energy counters).",
-      "{T}, Pay {Energy}{Energy}: Aethertorch Renegade deals 1 damage to target creature.",
-      "{T}, Pay {Energy}{Energy}{Energy}{Energy}{Energy}{Energy}{Energy}{Energy}: Aethertorch Renegade deals 6 damage to target player."
+      "When Aethertorch Renegade enters the battlefield, you get {E}{E}{E}{E} (four energy counters).",
+      "{T}, Pay {E}{E}: Aethertorch Renegade deals 1 damage to target creature.",
+      "{T}, Pay {E}{E}{E}{E}{E}{E}{E}{E}: Aethertorch Renegade deals 6 damage to target player."
     ],
     "flavor_text": null,
     "power": "1",
@@ -3018,7 +3042,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Choose target creature. You get {Energy}{Energy}{Energy} (three energy counters), then you may pay any amount of {Energy}. Harnessed Lightning deals that much damage to that creature."
+      "Choose target creature. You get {E}{E}{E} (three energy counters), then you may pay any amount of {E}. Harnessed Lightning deals that much damage to that creature."
     ],
     "flavor_text": null,
     "power": null,
@@ -3121,8 +3145,8 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Haste",
-      "When Lathnu Hellion enters the battlefield, you get {Energy}{Energy} (two energy counters).",
-      "At the beginning of your end step, sacrifice Lathnu Hellion unless you pay {Energy}{Energy}."
+      "When Lathnu Hellion enters the battlefield, you get {E}{E} (two energy counters).",
+      "At the beginning of your end step, sacrifice Lathnu Hellion unless you pay {E}{E}."
     ],
     "flavor_text": null,
     "power": "4",
@@ -3173,8 +3197,8 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Maulfist Doorbuster enters the battlefield, you get {Energy}{Energy} (two energy counters).",
-      "Whenever Maulfist Doorbuster attacks, you may pay {Energy}. If you do, target creature can't block this turn."
+      "When Maulfist Doorbuster enters the battlefield, you get {E}{E} (two energy counters).",
+      "Whenever Maulfist Doorbuster attacks, you may pay {E}. If you do, target creature can't block this turn."
     ],
     "flavor_text": "\"Knock, knock . . . too late.\"",
     "power": "4",
@@ -3471,8 +3495,8 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Spontaneous Artist enters the battlefield, you get {Energy} (an energy counter).",
-      "Pay {Energy}: Target creature gains haste until end of turn."
+      "When Spontaneous Artist enters the battlefield, you get {E} (an energy counter).",
+      "Pay {E}: Target creature gains haste until end of turn."
     ],
     "flavor_text": "Graffiti of the \"leaking spire\" symbol is found wherever the renegades have been.",
     "power": "3",
@@ -3523,7 +3547,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Trample",
-      "Whenever you get one or more {Energy} (energy counters), Territorial Gorger gets +2/+2 until end of turn."
+      "Whenever you get one or more {E} (energy counters), Territorial Gorger gets +2/+2 until end of turn."
     ],
     "flavor_text": "Inventors have been known to capture gremlins with the intent to release them in a rival's workshop. More often than not, that plan backfires.",
     "power": "2",
@@ -3573,8 +3597,8 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Thriving Grubs enters the battlefield, you get {Energy}{Energy} (two energy counters).",
-      "Whenever Thriving Grubs attacks, you may pay {Energy}{Energy}. If you do, put a +1/+1 counter on it."
+      "When Thriving Grubs enters the battlefield, you get {E}{E} (two energy counters).",
+      "Whenever Thriving Grubs attacks, you may pay {E}{E}. If you do, put a +1/+1 counter on it."
     ],
     "flavor_text": "Some passengers ride without tickets.",
     "power": "2",
@@ -3703,8 +3727,8 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever a land enters the battlefield under your control, you get {Energy} (an energy counter).",
-      "Pay {Energy}{Energy}{Energy}{Energy}{Energy}{Energy}{Energy}{Energy}: Create a 6/6 colorless Beast artifact creature token."
+      "Whenever a land enters the battlefield under your control, you get {E} (an energy counter).",
+      "Pay {E}{E}{E}{E}{E}{E}{E}{E}: Create a 6/6 colorless Beast artifact creature token."
     ],
     "flavor_text": "Next to her designs, life seems like a pale imitation.",
     "power": "2",
@@ -3755,7 +3779,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library. You get {Energy}{Energy} (two energy counters)."
+      "Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library. You get {E}{E} (two energy counters)."
     ],
     "flavor_text": "\"I've never seen a world where aether weaves through every aspect of nature.\"",
     "power": null,
@@ -3805,8 +3829,8 @@
     "mana_cost": "2GG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Bristling Hydra enters the battlefield, you get {Energy}{Energy}{Energy} (three energy counters).",
-      "Pay {Energy}{Energy}{Energy}: Put a +1/+1 counter on Bristling Hydra. It gains hexproof until end of turn."
+      "When Bristling Hydra enters the battlefield, you get {E}{E}{E} (three energy counters).",
+      "Pay {E}{E}{E}: Put a +1/+1 counter on Bristling Hydra. It gains hexproof until end of turn."
     ],
     "flavor_text": null,
     "power": "4",
@@ -4165,8 +4189,8 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever Longtusk Cub deals combat damage to a player, you get {Energy}{Energy} (two energy counters).",
-      "Pay {Energy}{Energy}: Put a +1/+1 counter on Longtusk Cub."
+      "Whenever Longtusk Cub deals combat damage to a player, you get {E}{E} (two energy counters).",
+      "Pay {E}{E}: Put a +1/+1 counter on Longtusk Cub."
     ],
     "flavor_text": "It won't be small forever.",
     "power": "2",
@@ -4327,8 +4351,8 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Trample",
-      "When Riparian Tiger enters the battlefield, you get {Energy}{Energy} (two energy counters).",
-      "Whenever Riparian Tiger attacks, you may pay {Energy}{Energy}. If you do, it gets +2/+2 until end of turn."
+      "When Riparian Tiger enters the battlefield, you get {E}{E} (two energy counters).",
+      "Whenever Riparian Tiger attacks, you may pay {E}{E}. If you do, it gets +2/+2 until end of turn."
     ],
     "flavor_text": null,
     "power": "4",
@@ -4355,7 +4379,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Sage of Shaila's Claim enters the battlefield, you get {Energy}{Energy}{Energy} (three energy counters)."
+      "When Sage of Shaila's Claim enters the battlefield, you get {E}{E}{E} (three energy counters)."
     ],
     "flavor_text": "Even now, Shaila's descendants proudly occupy the greenway that she refused to relinquish to the Consulate.",
     "power": "2",
@@ -4382,8 +4406,8 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Servant of the Conduit enters the battlefield, you get {Energy}{Energy} (two energy counters).",
-      "{T}, Pay {Energy}: Add one mana of any color to your mana pool."
+      "When Servant of the Conduit enters the battlefield, you get {E}{E} (two energy counters).",
+      "{T}, Pay {E}: Add one mana of any color to your mana pool."
     ],
     "flavor_text": "\"Creation without connection to nature is just manufacture.\"",
     "power": "2",
@@ -4435,8 +4459,8 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Thriving Rhino enters the battlefield, you get {Energy}{Energy} (two energy counters).",
-      "Whenever Thriving Rhino attacks, you may pay {Energy}{Energy}. If you do, put a +1/+1 counter on it."
+      "When Thriving Rhino enters the battlefield, you get {E}{E} (two energy counters).",
+      "Whenever Thriving Rhino attacks, you may pay {E}{E}. If you do, put a +1/+1 counter on it."
     ],
     "flavor_text": "As unpredictable as aether, and just as hard to contain.",
     "power": "2",
@@ -4685,7 +4709,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Flying, trample",
-      "Whenever Empyreal Voyager deals combat damage to a player, you get that many {Energy} (energy counters)."
+      "Whenever Empyreal Voyager deals combat damage to a player, you get that many {E} (energy counters)."
     ],
     "flavor_text": "\"For years, I studied the aethersphere from afar, but it was not until I touched the aether for myself that I came to know the power contained in the swirling sky.\"",
     "power": "2",
@@ -4927,8 +4951,8 @@
     "mana_cost": "RG",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Voltaic Brawler enters the battlefield, you get {Energy}{Energy} (two energy counters).",
-      "Whenever Voltaic Brawler attacks, you may pay {Energy}. If you do, it gets +1/+1 and gains trample until end of turn."
+      "When Voltaic Brawler enters the battlefield, you get {E}{E} (two energy counters).",
+      "Whenever Voltaic Brawler attacks, you may pay {E}. If you do, it gets +1/+1 and gains trample until end of turn."
     ],
     "flavor_text": null,
     "power": "3",
@@ -4955,8 +4979,8 @@
     "mana_cost": "1UR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Whirler Virtuoso enters the battlefield, you get {Energy}{Energy}{Energy} (three energy counters).",
-      "Pay {Energy}{Energy}{Energy}: Create a 1/1 colorless Thopter artifact creature token with flying."
+      "When Whirler Virtuoso enters the battlefield, you get {E}{E}{E} (three energy counters).",
+      "Pay {E}{E}{E}: Create a 1/1 colorless Thopter artifact creature token with flying."
     ],
     "flavor_text": "The first tentative flaps are like a song to his soul.",
     "power": "2",
@@ -5034,8 +5058,8 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever a permanent you control is put into a graveyard, you get {Energy} (an energy counter).",
-      "{T}, Pay {Energy}{Energy}{Energy}{Energy}{Energy}{Energy}: Look at the top six cards of your library. You may cast a card from among them without paying its mana cost. Put the rest on the bottom of your library in a random order."
+      "Whenever a permanent you control is put into a graveyard, you get {E} (an energy counter).",
+      "{T}, Pay {E}{E}{E}{E}{E}{E}: Look at the top six cards of your library. You may cast a card from among them without paying its mana cost. Put the rest on the bottom of your library in a random order."
     ],
     "flavor_text": null,
     "power": null,
@@ -5090,8 +5114,8 @@
       "Crew 4 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)"
     ],
     "flavor_text": "It glides around the city, a sublime combination of elegance and utility.",
-    "power": null,
-    "toughness": null,
+    "power": "8",
+    "toughness": "6",
     "loyalty": null,
     "multiverse_id": 417768,
     "other_part": null,
@@ -5117,8 +5141,8 @@
       "Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)"
     ],
     "flavor_text": null,
-    "power": null,
-    "toughness": null,
+    "power": "6",
+    "toughness": "6",
     "loyalty": null,
     "multiverse_id": 417769,
     "other_part": null,
@@ -5171,8 +5195,8 @@
       "Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)"
     ],
     "flavor_text": null,
-    "power": null,
-    "toughness": null,
+    "power": "5",
+    "toughness": "5",
     "loyalty": null,
     "multiverse_id": 417771,
     "other_part": null,
@@ -5307,8 +5331,8 @@
       "Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)"
     ],
     "flavor_text": null,
-    "power": null,
-    "toughness": null,
+    "power": "5",
+    "toughness": "5",
     "loyalty": null,
     "multiverse_id": 417776,
     "other_part": null,
@@ -5329,8 +5353,8 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Deadlock Trap enters the battlefield tapped.",
-      "When Deadlock Trap enters the battlefield, you get {Energy}{Energy} (two energy counters).",
-      "{T}, Pay {Energy}: Tap target creature or planeswalker. Its activated abilities can't be activated this turn."
+      "When Deadlock Trap enters the battlefield, you get {E}{E} (two energy counters).",
+      "{T}, Pay {E}: Tap target creature or planeswalker. Its activated abilities can't be activated this turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -5354,7 +5378,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever a creature enters the battlefield under your control, you get {Energy} (an energy counter).",
+      "Whenever a creature enters the battlefield under your control, you get {E} (an energy counter).",
       "{4}, {T}: Return target creature you control to its owner's hand."
     ],
     "flavor_text": "Progress leads to inspiration.",
@@ -5385,8 +5409,8 @@
       "Crew 5 (Tap any number of creatures you control with total power 5 or more: This Vehicle becomes an artifact creature until end of turn.)"
     ],
     "flavor_text": null,
-    "power": null,
-    "toughness": null,
+    "power": "10",
+    "toughness": "7",
     "loyalty": null,
     "multiverse_id": 417779,
     "other_part": null,
@@ -5433,8 +5457,8 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever you cast an instant or sorcery spell, you get {Energy}{Energy} (two energy counters).",
-      "{T}, Pay {Energy}{Energy}{Energy}{Energy}{Energy}: Dynavolt Tower deals 3 damage to target creature or player."
+      "Whenever you cast an instant or sorcery spell, you get {E}{E} (two energy counters).",
+      "{T}, Pay {E}{E}{E}{E}{E}: Dynavolt Tower deals 3 damage to target creature or player."
     ],
     "flavor_text": "\"I like that Tezzeret. He has vision the other judges don't. He sees the potential in what we're making here.\"\n—Faiz, inventor",
     "power": null,
@@ -5488,8 +5512,8 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Electrostatic Pummeler enters the battlefield, you get {Energy}{Energy}{Energy} (three energy counters).",
-      "Pay {Energy}{Energy}{Energy}: Electrostatic Pummeler gets +X/+X until end of turn, where X is its power."
+      "When Electrostatic Pummeler enters the battlefield, you get {E}{E}{E} (three energy counters).",
+      "Pay {E}{E}{E}: Electrostatic Pummeler gets +X/+X until end of turn, where X is its power."
     ],
     "flavor_text": null,
     "power": "1",
@@ -5513,8 +5537,8 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever you get one or more {Energy} (energy counters), put a +1/+1 counter on target creature you control.",
-      "{4}, {T}: You get {Energy}."
+      "Whenever you get one or more {E} (energy counters), put a +1/+1 counter on target creature you control.",
+      "{4}, {T}: You get {E}."
     ],
     "flavor_text": "Inspiration leads to design.",
     "power": null,
@@ -5598,8 +5622,8 @@
       "Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)"
     ],
     "flavor_text": null,
-    "power": null,
-    "toughness": null,
+    "power": "5",
+    "toughness": "3",
     "loyalty": null,
     "multiverse_id": 417787,
     "other_part": null,
@@ -5671,8 +5695,8 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Glassblower's Puzzleknot enters the battlefield, scry 2, then you get {Energy}{Energy}. (You get two energy counters. To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
-      "{2}{U}, Sacrifice Glassblower's Puzzleknot: Scry 2, then you get {Energy}{Energy}."
+      "When Glassblower's Puzzleknot enters the battlefield, scry 2, then you get {E}{E}. (You get two energy counters. To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+      "{2}{U}, Sacrifice Glassblower's Puzzleknot: Scry 2, then you get {E}{E}."
     ],
     "flavor_text": null,
     "power": null,
@@ -5833,9 +5857,9 @@
     "mana_cost": "5",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "When Multiform Wonder enters the battlefield, you get {Energy}{Energy}{Energy} (three energy counters).",
-      "Pay {Energy}: Multiform Wonder gains your choice of flying, vigilance, or lifelink until end of turn.",
-      "Pay {Energy}: Multiform Wonder gets +2/-2 or -2/+2 until end of turn."
+      "When Multiform Wonder enters the battlefield, you get {E}{E}{E} (three energy counters).",
+      "Pay {E}: Multiform Wonder gains your choice of flying, vigilance, or lifelink until end of turn.",
+      "Pay {E}: Multiform Wonder gets +2/-2 or -2/+2 until end of turn."
     ],
     "flavor_text": null,
     "power": "3",
@@ -5892,8 +5916,8 @@
       "Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)"
     ],
     "flavor_text": "It'll either crash or win the race. Possibly both.",
-    "power": null,
-    "toughness": null,
+    "power": "6",
+    "toughness": "1",
     "loyalty": null,
     "multiverse_id": 417798,
     "other_part": null,
@@ -6020,8 +6044,8 @@
       "Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)"
     ],
     "flavor_text": null,
-    "power": null,
-    "toughness": null,
+    "power": "4",
+    "toughness": "3",
     "loyalty": null,
     "multiverse_id": 417803,
     "other_part": null,
@@ -6102,8 +6126,8 @@
       "Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)"
     ],
     "flavor_text": null,
-    "power": null,
-    "toughness": null,
+    "power": "2",
+    "toughness": "3",
     "loyalty": null,
     "multiverse_id": 417806,
     "other_part": null,
@@ -6132,8 +6156,8 @@
       "Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)"
     ],
     "flavor_text": null,
-    "power": null,
-    "toughness": null,
+    "power": "6",
+    "toughness": "5",
     "loyalty": null,
     "multiverse_id": 417807,
     "other_part": null,
@@ -6160,8 +6184,8 @@
       "Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)"
     ],
     "flavor_text": null,
-    "power": null,
-    "toughness": null,
+    "power": "3",
+    "toughness": "3",
     "loyalty": null,
     "multiverse_id": 417808,
     "other_part": null,
@@ -6286,8 +6310,8 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Woodweaver's Puzzleknot enters the battlefield, you gain 3 life and get {Energy}{Energy}{Energy} (three energy counters).",
-      "{2}{G}, Sacrifice Woodweaver's Puzzleknot: You gain 3 life and get {Energy}{Energy}{Energy}."
+      "When Woodweaver's Puzzleknot enters the battlefield, you gain 3 life and get {E}{E}{E} (three energy counters).",
+      "{2}{G}, Sacrifice Woodweaver's Puzzleknot: You gain 3 life and get {E}{E}{E}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6338,9 +6362,9 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "When Aether Hub enters the battlefield, you get {Energy} (an energy counter).",
+      "When Aether Hub enters the battlefield, you get {E} (an energy counter).",
       "{T}: Add {C} to your mana pool.",
-      "{T}, Pay {Energy}: Add one mana of any color to your mana pool."
+      "{T}, Pay {E}: Add one mana of any color to your mana pool."
     ],
     "flavor_text": "It powers the dreams of Ghirapur.",
     "power": null,
