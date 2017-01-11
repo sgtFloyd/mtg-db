@@ -1,4 +1,5 @@
 Dir.glob(File.expand_path(File.join('..', 'util', '*.rb'), __FILE__), &method(:require))
+require 'pp'
 
 ALL_SETS = read SET_JSON_FILE_PATH
 VERBOSE_MODE = ARGV.delete('-v')
@@ -41,7 +42,7 @@ SETS_TO_VALIDATE.each do |set|
       case key
       when 'oracle_text'
         # Replace instances of ({C})+ in new text with backwards-compatible {1}, {2}
-        new_text = new_card[key].map{|l| l.gsub(/({C})+/){|_| "{#{_.scan('{C}').count}}"}}
+        new_text = new_card[key] #.map{|l| l.gsub(/({C})+/){|_| "{#{_.scan('{C}').count}}"}}
 
         # Ignore mismatch when only reminder text is different.
         (old_card[key].map{|line| line.gsub(/\([^(]+\)/,'').strip} !=

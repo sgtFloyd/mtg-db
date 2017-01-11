@@ -5,10 +5,12 @@
 ~~c16~~  
 ~~cn2~~  
 ~~ddr~~  
-~~emn~~  
+<!-- EMN transform/meld cards incorrect -->
+emn  
 ~~ema~~  
 ~~v16~~  
-~~kld~~  
+<!-- KLD#38 Missing, Vehicle P/T incorrect -->
+kld  
 ~~pca~~  
 
 ~~ogw 'Oath of the Gatewatch'~~  
