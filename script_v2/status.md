@@ -5,8 +5,7 @@
 ~~c16~~  
 ~~cn2~~  
 ~~ddr~~  
-<!-- EMN transform/meld cards incorrect -->
-emn  
+~~emn~~  
 ~~ema~~  
 ~~v16~~  
 ~~kld~~  

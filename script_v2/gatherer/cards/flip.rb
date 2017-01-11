@@ -11,8 +11,6 @@ class FlipCard < StandardCard
   end
 
   memo def parse_other_part
-    # Use XOR to get the "other container"'s index
-    other_container = containers[1^self.container_index]
     other_container.css("[id$=\"nameRow\"] .value").text.strip
   end
 
@@ -30,5 +28,10 @@ class FlipCard < StandardCard
     # We shouldn't be trying to access the container until we've selected a
     # side (via container_index), so don't worry about a fallback.
     containers[self.container_index]
+  end
+
+  def other_container
+    # XOR to get the "other container's" index
+    other_container = containers[1^self.container_index]
   end
 end

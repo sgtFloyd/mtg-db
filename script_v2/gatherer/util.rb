@@ -1,6 +1,7 @@
 require_relative 'cards/standard.rb'
 require_relative 'cards/double_faced.rb'
 require_relative 'cards/flip.rb'
+require_relative 'cards/meld.rb'
 require_relative 'cards/split.rb'
 require_relative 'card_identifier.rb'
 
@@ -28,12 +29,14 @@ class Gatherer
 
     if card.split?
       SplitCard.new(multiverse_id, page, card.split_overload?)
+    elsif card.meld?
+      MeldCard.new(multiverse_id, page)
     elsif card.double_faced?
       DoubleFacedCard.new(multiverse_id, page)
     elsif card.flip?
       FlipCard.new(multiverse_id, page)
     else
-      StandardCard.new(multiverse_id, page)
+      card.default_card
     end
   end
 

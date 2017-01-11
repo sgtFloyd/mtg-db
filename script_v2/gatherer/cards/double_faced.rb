@@ -6,9 +6,9 @@ class DoubleFacedCard < StandardCard
     end
   end
 
-  # For some reason, the markdown flavor text on double-faced cards is formatted
+  # For some reason, the flavor text on double-faced cards is formatted
   # differently from every other card.
-  memo def parse_flavor_text
+  def parse_flavor_text
     return FLAVOR_TEXT_OVERRIDES[self.multiverse_id] if FLAVOR_TEXT_OVERRIDES[self.multiverse_id]
     textboxes = container.css('[id$="flavorRow"] .cardtextbox')
     textboxes.map{|t| t.text.strip}.select(&:present?).join("\n").presence

@@ -98,6 +98,13 @@ SETS_TO_VALIDATE.each do |set|
       when 'set_name'
         expected_name = SET_NAME_OVERRIDES[old_card[key]] || old_card[key]
         expected_name != new_card[key]
+      when 'other_part'
+        # MGCI doesn't have correct "Other Part" data for EMN transform/meld cards
+        if old_card['set_name'] == 'Eldritch Moon'
+          false
+        else
+          old_card[key] != new_card[key]
+        end
       else
         old_card[key] != new_card[key]
       end

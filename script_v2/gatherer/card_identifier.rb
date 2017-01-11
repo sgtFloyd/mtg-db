@@ -27,6 +27,11 @@ class CardIdentifier
     two_up? && mana_costs_shown.select(&:present?).count == 2
   end
 
+  # Meld cards look like double-faced cards, but a "Linked Card" is present
+  def meld?
+    double_faced? && linked_card_present?
+  end
+
 private
 
   # Split, flip, and double-faced cards will display two images on the pages
@@ -40,6 +45,12 @@ private
       container.css('[id$="manaRow"] .value img').map do |symbol|
         Gatherer.translate_mana_symbol(symbol)
       end.join
+    end
+  end
+
+  def linked_card_present?
+    self.default_card.containers.any? do |container|
+      container.css('[id$="linkedRow"] .value').present?
     end
   end
 end
