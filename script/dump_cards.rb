@@ -233,6 +233,6 @@ end
 write CARD_JSON, merge(cards.flatten)
 
 sets.each do |set|
-  next if ARGV[0] && ARGV[0] != set['mgci_code']
+  next unless ARGV.include?( set['mgci_code'] )
   ImageDumper.new(set['mgci_code']).run
 end
