@@ -220,7 +220,7 @@ end
 
 cards = []
 sets.each do |set|
-  next if ARGV[0] && ARGV[0] != set['mgci_code']
+  next unless ARGV.include?( set['mgci_code'] )
   cnums = extract_cnums( set['mgci_code'] )
   cards << cnums.map{|n|
     CardPage.new(set, n).as_json
