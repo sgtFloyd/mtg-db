@@ -14,5 +14,5 @@ Gem::Specification.new do |s|
 
   s.require_paths = ["lib"]
   s.files         = Dir['lib/**/*.rb'] +
-                    Dir['data_v2/**/*.json']
+                    Dir['data/**/*.json']
 end
