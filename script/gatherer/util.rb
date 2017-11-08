@@ -97,8 +97,8 @@ class Gatherer
         symbol = "{#{symbol}}" unless symbol.match(/^{/)
         img.replace(symbol)
       end
-      # Gatherer messes up {10} formatting, resulting in {1}0
-      textbox.text.strip.gsub('{1}0', '{10}')
+      # Gatherer messes double-digit costs in oracle text, resulting in {1}0, {2}0, etc.
+      textbox.text.strip.gsub(/\{(\d)\}0/, '{\10}')
     end.select(&:present?)
   end
 
