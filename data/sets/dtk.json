@@ -4116,7 +4116,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Sprinting Warbrute attacks each turn if able.",
+      "Sprinting Warbrute attacks each combat if able.",
       "Dash {3}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)"
     ],
     "flavor_text": null,
@@ -4713,7 +4713,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Lizard",
+      "Dinosaur",
       "Beast"
     ],
     "rarity": "Mythic Rare",
@@ -5846,7 +5846,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "Whenever one or more +1/+1 counters are placed on another creature you control, you may put a +1/+1 counter on Enduring Scalelord."
+      "Whenever one or more +1/+1 counters are put on another creature you control, you may put a +1/+1 counter on Enduring Scalelord."
     ],
     "flavor_text": "Only the sun that beats down upon Arashin's walls could shine more brightly.",
     "power": "4",
@@ -5920,7 +5920,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Narset"
     ],
@@ -6057,7 +6059,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Sarkhan"
     ],
@@ -6538,7 +6542,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library."
+      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library."
     ],
     "flavor_text": "The land is ever resilient. Should it die, it will be reborn.",
     "power": null,

@@ -7,7 +7,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Sorin"
     ],
@@ -315,9 +317,7 @@
     "mana_cost": "1BB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Flying",
-      "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
-      "Lifelink (Damage dealt by this creature also causes you to gain that much life.)"
+      "Flying, deathtouch, lifelink"
     ],
     "flavor_text": null,
     "power": "2",
@@ -749,7 +749,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Enchant creature",
-      "Enchanted creature gets +2/+2 and has lifelink. (Damage dealt by the creature also causes its controller to gain that much life.)"
+      "Enchanted creature gets +2/+2 and has lifelink."
     ],
     "flavor_text": "\"My ‘condition' is a trial. The weak are consumed by it. The strong transcend it.\"\n—Sorin Markov",
     "power": null,
@@ -846,7 +846,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library."
+      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library."
     ],
     "flavor_text": "Without the interfering hands of civilization, nature will always shape itself to its own needs.",
     "power": null,
@@ -973,7 +973,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Tibalt"
     ],

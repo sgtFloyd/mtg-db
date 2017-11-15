@@ -13,7 +13,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.)",
+      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly choose a card name. You may turn this conspiracy face up any time and reveal that name.)",
       "Spells with the chosen name you cast cost {1} less to cast."
     ],
     "flavor_text": null,
@@ -38,7 +38,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.)",
+      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly choose a card name. You may turn this conspiracy face up any time and reveal that name.)",
       "Whenever you cast an instant or sorcery spell with the chosen name, you may copy it. You may choose new targets for the copy."
     ],
     "flavor_text": null,
@@ -63,7 +63,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.)",
+      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly choose a card name. You may turn this conspiracy face up any time and reveal that name.)",
       "Creatures you control with the chosen name have haste."
     ],
     "flavor_text": null,
@@ -88,7 +88,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.)",
+      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly choose a card name. You may turn this conspiracy face up any time and reveal that name.)",
       "Each creature you control with the chosen name enters the battlefield with an additional +1/+1 counter on it."
     ],
     "flavor_text": null,
@@ -138,7 +138,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.)",
+      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly choose a card name. You may turn this conspiracy face up any time and reveal that name.)",
       "You may spend mana as though it were mana of any color to cast spells with the chosen name."
     ],
     "flavor_text": null,
@@ -188,7 +188,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.)",
+      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly choose a card name. You may turn this conspiracy face up any time and reveal that name.)",
       "Creatures you control with the chosen name have \"{T}: Add one mana of any color to your mana pool.\""
     ],
     "flavor_text": null,
@@ -238,7 +238,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.)",
+      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly choose a card name. You may turn this conspiracy face up any time and reveal that name.)",
       "Whenever you cast an instant or sorcery spell with the chosen name, you may draw a card."
     ],
     "flavor_text": null,
@@ -263,7 +263,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.)",
+      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly choose a card name. You may turn this conspiracy face up any time and reveal that name.)",
       "Whenever a creature with the chosen name enters the battlefield under your control, you may search your library for any number of cards with that name, reveal them, put them into your hand, then shuffle your library."
     ],
     "flavor_text": null,
@@ -1073,7 +1073,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Dack"
     ],
@@ -1581,8 +1583,8 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Reveal Cogwork Tracker as you draft it and note the player who passed it to you.",
-      "Cogwork Tracker attacks each turn if able.",
-      "Cogwork Tracker attacks a player you noted for cards named Cogwork Tracker each turn if able."
+      "Cogwork Tracker attacks each combat if able.",
+      "Cogwork Tracker attacks a player you noted for cards named Cogwork Tracker each combat if able."
     ],
     "flavor_text": null,
     "power": "4",
@@ -4081,7 +4083,7 @@
     "oracle_text": [
       "Flash (You may cast this spell any time you could cast an instant.)",
       "Enchant creature",
-      "Enchanted creature gets +2/+2 and attacks each turn if able."
+      "Enchanted creature gets +2/+2 and attacks each combat if able."
     ],
     "flavor_text": null,
     "power": null,
@@ -5111,7 +5113,7 @@
     "mana_cost": "GU",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Name a creature card. Reveal the top four cards of your library and put all of them with that name into your hand. Put the rest into your graveyard."
+      "{T}: Choose a creature card name. Reveal the top four cards of your library and put all of them with that name into your hand. Put the rest into your graveyard."
     ],
     "flavor_text": null,
     "power": "1",
@@ -5244,7 +5246,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Galvanic Juggernaut attacks each turn if able.",
+      "Galvanic Juggernaut attacks each combat if able.",
       "Galvanic Juggernaut doesn't untap during your untap step.",
       "Whenever another creature dies, untap Galvanic Juggernaut."
     ],

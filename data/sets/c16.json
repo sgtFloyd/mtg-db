@@ -3263,7 +3263,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Daretti"
     ],
@@ -4029,7 +4031,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "If one or more +1/+1 counters would be placed on a creature you control, that many plus one +1/+1 counters are placed on it instead."
+      "If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead."
     ],
     "flavor_text": "\"Naga shed their scales. We wear ours with pride.\"\n—Golran, dragonscale captain",
     "power": null,
@@ -5032,7 +5034,7 @@
     "mana_cost": "2BG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "If one or more +1/+1 counters would be placed on a creature you control, twice that many +1/+1 counters are placed on it instead."
+      "If one or more +1/+1 counters would be put on a creature you control, twice that many +1/+1 counters are put on it instead."
     ],
     "flavor_text": "Weakness is not in the nature of the Swarm.",
     "power": "4",
@@ -5187,7 +5189,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "Whenever one or more +1/+1 counters are placed on another creature you control, you may put a +1/+1 counter on Enduring Scalelord."
+      "Whenever one or more +1/+1 counters are put on another creature you control, you may put a +1/+1 counter on Enduring Scalelord."
     ],
     "flavor_text": "Only the sun that beats down upon Arashin's walls could shine more brightly.",
     "power": "4",
@@ -5244,7 +5246,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)",
-      "Whenever a +1/+1 counter is placed on Fathom Mage, you may draw a card."
+      "Whenever a +1/+1 counter is put on Fathom Mage, you may draw a card."
     ],
     "flavor_text": null,
     "power": "1",
@@ -6344,30 +6346,6 @@
     "color_indicator": null
   },
   {
-    "name": "Error (Trial/Error)",
-    "set_name": "Commander 2016",
-    "collector_num": "239b",
-    "illustrator": "Ron Spears & Wayne Reynolds",
-    "types": [
-      "Instant"
-    ],
-    "supertypes": [],
-    "subtypes": [],
-    "rarity": "Uncommon",
-    "mana_cost": "UB",
-    "converted_mana_cost": 2,
-    "oracle_text": [
-      "Counter target multicolored spell."
-    ],
-    "flavor_text": null,
-    "power": null,
-    "toughness": null,
-    "loyalty": null,
-    "multiverse_id": 420856,
-    "other_part": "Trial (Trial/Error)",
-    "color_indicator": null
-  },
-  {
     "name": "Trial (Trial/Error)",
     "set_name": "Commander 2016",
     "collector_num": "239a",
@@ -6392,27 +6370,27 @@
     "color_indicator": null
   },
   {
-    "name": "Chaos (Order/Chaos)",
+    "name": "Error (Trial/Error)",
     "set_name": "Commander 2016",
-    "collector_num": "240b",
-    "illustrator": "Tim Hildebrandt",
+    "collector_num": "239b",
+    "illustrator": "Ron Spears & Wayne Reynolds",
     "types": [
       "Instant"
     ],
     "supertypes": [],
     "subtypes": [],
     "rarity": "Uncommon",
-    "mana_cost": "2R",
-    "converted_mana_cost": 3,
+    "mana_cost": "UB",
+    "converted_mana_cost": 2,
     "oracle_text": [
-      "Creatures can't block this turn."
+      "Counter target multicolored spell."
     ],
     "flavor_text": null,
     "power": null,
     "toughness": null,
     "loyalty": null,
-    "multiverse_id": 420857,
-    "other_part": "Order (Order/Chaos)",
+    "multiverse_id": 420856,
+    "other_part": "Trial (Trial/Error)",
     "color_indicator": null
   },
   {
@@ -6437,6 +6415,30 @@
     "loyalty": null,
     "multiverse_id": 420857,
     "other_part": "Chaos (Order/Chaos)",
+    "color_indicator": null
+  },
+  {
+    "name": "Chaos (Order/Chaos)",
+    "set_name": "Commander 2016",
+    "collector_num": "240b",
+    "illustrator": "Tim Hildebrandt",
+    "types": [
+      "Instant"
+    ],
+    "supertypes": [],
+    "subtypes": [],
+    "rarity": "Uncommon",
+    "mana_cost": "2R",
+    "converted_mana_cost": 3,
+    "oracle_text": [
+      "Creatures can't block this turn."
+    ],
+    "flavor_text": null,
+    "power": null,
+    "toughness": null,
+    "loyalty": null,
+    "multiverse_id": 420857,
+    "other_part": "Order (Order/Chaos)",
     "color_indicator": null
   },
   {
@@ -7822,7 +7824,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library."
+      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library."
     ],
     "flavor_text": "Without the interfering hands of civilization, nature will always shape itself to its own needs.",
     "power": null,

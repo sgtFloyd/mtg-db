@@ -303,7 +303,7 @@
     "oracle_text": [
       "Equipped creature gets +3/+3.",
       "Whenever equipped creature blocks or becomes blocked by one or more creatures, you may exile one of those creatures.",
-      "Opponents can't cast cards with the same name as cards exiled with Godsend.",
+      "Your opponents can't cast spells with the same name as a card exiled with Godsend.",
       "Equip {3}"
     ],
     "flavor_text": null,
@@ -1596,7 +1596,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Heroic — Whenever you cast a spell that targets Bloodcrazed Hoplite, put a +1/+1 counter on it.",
-      "Whenever a +1/+1 counter is placed on Bloodcrazed Hoplite, remove a +1/+1 counter from target creature an opponent controls."
+      "Whenever a +1/+1 counter is put on Bloodcrazed Hoplite, remove a +1/+1 counter from target creature an opponent controls."
     ],
     "flavor_text": null,
     "power": "2",
@@ -2710,8 +2710,8 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Bestow {2}{R} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)",
-      "Mogis's Warhound attacks each turn if able.",
-      "Enchanted creature gets +2/+2 and attacks each turn if able."
+      "Mogis's Warhound attacks each combat if able.",
+      "Enchanted creature gets +2/+2 and attacks each combat if able."
     ],
     "flavor_text": null,
     "power": "2",
@@ -3698,8 +3698,8 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Bestow {4}{G} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)",
-      "Spirespine blocks each turn if able.",
-      "Enchanted creature gets +4/+1 and blocks each turn if able."
+      "Spirespine blocks each combat if able.",
+      "Enchanted creature gets +4/+1 and blocks each combat if able."
     ],
     "flavor_text": null,
     "power": "4",
@@ -3769,7 +3769,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Ajani"
     ],

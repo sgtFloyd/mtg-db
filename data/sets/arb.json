@@ -208,8 +208,8 @@
     "mana_cost": "WU",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As Meddling Mage enters the battlefield, name a nonland card.",
-      "The named card can't be cast."
+      "As Meddling Mage enters the battlefield, choose a nonland card name.",
+      "Spells with the chosen name can't be cast."
     ],
     "flavor_text": "\"This violent wasteland is an indictment of its people. These cowards lack the will to oppose disorder.\"",
     "power": "2",
@@ -1138,7 +1138,7 @@
     "mana_cost": "3BR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Monstrous Carabid attacks each turn if able.",
+      "Monstrous Carabid attacks each combat if able.",
       "Cycling {B/R} ({B/R}, Discard this card: Draw a card.)"
     ],
     "flavor_text": "What happens when a plane of predators collides with four planes of prey?",
@@ -1240,7 +1240,7 @@
     "mana_cost": "2BR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Name a nonland card. Target player reveals his or her hand. Thought Hemorrhage deals 3 damage to that player for each card with that name revealed this way. Search that player's graveyard, hand, and library for all cards with that name and exile them. Then that player shuffles his or her library."
+      "Choose a nonland card name. Target player reveals his or her hand. Thought Hemorrhage deals 3 damage to that player for each card with the chosen name revealed this way. Search that player's graveyard, hand, and library for all cards with that name and exile them. Then that player shuffles his or her library."
     ],
     "flavor_text": null,
     "power": null,
@@ -1710,7 +1710,7 @@
     "mana_cost": "1GW",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Equipped creature gets +2/+2 and has lifelink and trample.",
+      "Equipped creature gets +2/+2 and has trample and lifelink.",
       "Equip {3}"
     ],
     "flavor_text": "Those who worship the great gargantuans could hardly be expected to fight with a subtle weapon.",

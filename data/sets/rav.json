@@ -1866,7 +1866,7 @@
     "mana_cost": "5U",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Name a card. Target player reveals cards from the top of his or her library until the named card is revealed. If it is, that player puts the rest of the revealed cards into his or her graveyard and puts the named card on top of his or her library. Otherwise, the player shuffles his or her library."
+      "Choose a card name. Target player reveals cards from the top of his or her library until a card with that name is revealed. If it is, that player puts the rest of the revealed cards into his or her graveyard and puts the card with the chosen name on top of his or her library. Otherwise, the player shuffles his or her library."
     ],
     "flavor_text": null,
     "power": null,
@@ -3637,7 +3637,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Sabertooth Alley Cat attacks each turn if able.",
+      "Sabertooth Alley Cat attacks each combat if able.",
       "{1}{R}: Creatures without defender can't block Sabertooth Alley Cat this turn."
     ],
     "flavor_text": "It has eight lives' worth of hunger to satisfy.",
@@ -4109,7 +4109,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.",
-      "If an effect would place one or more counters on a permanent you control, it places twice that many of those counters on that permanent instead."
+      "If an effect would put one or more counters on a permanent you control, it puts twice that many of those counters on that permanent instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -5115,7 +5115,7 @@
     "oracle_text": [
       "Whenever you cast a blue spell, exile the top card of target library.",
       "Whenever you cast a black spell, exile the top card of target library.",
-      "Your opponents can't cast nonland cards with the same name as a card exiled with Circu, Dimir Lobotomist."
+      "Your opponents can't cast spells with the same name as a card exiled with Circu, Dimir Lobotomist."
     ],
     "flavor_text": null,
     "power": "2",

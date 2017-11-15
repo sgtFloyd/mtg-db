@@ -7,7 +7,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Ajani"
     ],
@@ -1473,7 +1475,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Jace"
     ],
@@ -1867,7 +1871,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Flying",
-      "Whenever Sphinx Ambassador deals combat damage to a player, search that player's library for a card, then that player names a card. If you searched for a creature card that isn't the named card, you may put it onto the battlefield under your control. Then that player shuffles his or her library."
+      "Whenever Sphinx Ambassador deals combat damage to a player, search that player's library for a card, then that player chooses a card name. If you searched for a creature card that doesn't have that name, you may put it onto the battlefield under your control. Then that player shuffles his or her library."
     ],
     "flavor_text": null,
     "power": "5",
@@ -2037,7 +2041,7 @@
     "mana_cost": "1UU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Defender (This creature can't attack.)",
+      "Defender",
       "Whenever Wall of Frost blocks a creature, that creature doesn't untap during its controller's next untap step."
     ],
     "flavor_text": "\"I welcome it. The pasture is cleared of weeds and the wolves are frozen solid.\"\n—Lumi, goatherd",
@@ -2594,7 +2598,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Liliana"
     ],
@@ -3222,7 +3228,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Berserkers of Blood Ridge attacks each turn if able."
+      "Berserkers of Blood Ridge attacks each combat if able."
     ],
     "flavor_text": "They take a blood oath to die in battle. So far none have failed to fulfill the promise.",
     "power": "4",
@@ -3367,7 +3373,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Chandra"
     ],
@@ -3656,7 +3664,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Jackal"
     ],
     "rarity": "Common",
     "mana_cost": "R",
@@ -4682,7 +4690,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Garruk"
     ],
@@ -5528,7 +5538,7 @@
     "mana_cost": "0",
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
+      "Flying"
     ],
     "flavor_text": "Regardless of the century, plane, or species, developing artificers never fail to invent the ornithopter.",
     "power": "0",
@@ -5552,7 +5562,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As Pithing Needle enters the battlefield, name a card.",
+      "As Pithing Needle enters the battlefield, choose a card name.",
       "Activated abilities of sources with the chosen name can't be activated unless they're mana abilities."
     ],
     "flavor_text": "It disables with pinpoint accuracy.",

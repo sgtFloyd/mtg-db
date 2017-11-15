@@ -628,7 +628,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Gideon"
     ],
@@ -646,7 +648,7 @@
     "loyalty": "3",
     "multiverse_id": 398429,
     "other_part": "Kytheon, Hero of Akros",
-    "color_indicator": null
+    "color_indicator": "White"
   },
   {
     "name": "Kytheon's Irregulars",
@@ -1624,7 +1626,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Jace"
     ],
@@ -1642,7 +1646,7 @@
     "loyalty": "5",
     "multiverse_id": 398435,
     "other_part": "Jace, Vryn's Prodigy",
-    "color_indicator": null
+    "color_indicator": "Blue"
   },
   {
     "name": "Jace's Sanctum",
@@ -2770,7 +2774,7 @@
     "mana_cost": "1BB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Name a creature card. Search target opponent's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library."
+      "Choose a creature card name. Search target opponent's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library."
     ],
     "flavor_text": null,
     "power": null,
@@ -2871,7 +2875,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Liliana"
     ],
@@ -2889,7 +2895,7 @@
     "loyalty": "3",
     "multiverse_id": 398442,
     "other_part": "Liliana, Heretical Healer",
-    "color_indicator": null
+    "color_indicator": "Black"
   },
   {
     "name": "Macabre Waltz",
@@ -3659,7 +3665,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Chandra"
     ],
@@ -3677,7 +3685,7 @@
     "loyalty": "4",
     "multiverse_id": 398423,
     "other_part": "Chandra, Fire of Kaladesh",
-    "color_indicator": null
+    "color_indicator": "Red"
   },
   {
     "name": "Chandra's Fury",
@@ -4103,7 +4111,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Enchant creature",
-      "Enchanted creature gets +2/+1, has haste, and attacks each turn if able.",
+      "Enchanted creature gets +2/+1, has haste, and attacks each combat if able.",
       "When enchanted creature dies, you may search your library for a card named Infectious Bloodlust, reveal it, put it into your hand, then shuffle your library."
     ],
     "flavor_text": null,
@@ -4156,7 +4164,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
-      "Mage-Ring Bully attacks each turn if able."
+      "Mage-Ring Bully attacks each combat if able."
     ],
     "flavor_text": "\"Don't be rude, Beleren. We just want to enjoy the view with you.\"",
     "power": "2",
@@ -5093,7 +5101,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Nissa"
     ],
@@ -5111,7 +5121,7 @@
     "loyalty": "3",
     "multiverse_id": 398432,
     "other_part": "Nissa, Vastwood Seer",
-    "color_indicator": null
+    "color_indicator": "Green"
   },
   {
     "name": "Nissa's Pilgrimage",
@@ -6368,7 +6378,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Ramroller attacks each turn if able.",
+      "Ramroller attacks each combat if able.",
       "Ramroller gets +2/+0 as long as you control another artifact."
     ],
     "flavor_text": "As unstoppable as it is unsteerable.",
@@ -6606,7 +6616,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library."
+      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library."
     ],
     "flavor_text": "Without the interfering hands of civilization, nature will always shape itself to its own needs.",
     "power": null,

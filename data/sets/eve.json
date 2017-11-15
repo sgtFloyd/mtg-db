@@ -3783,7 +3783,7 @@
     "mana_cost": "2{R/W}",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target player can't play land cards this turn if {R} was spent to cast Moonhold and can't play creature cards this turn if {W} was spent to cast it. (Do both if {R}{W} was spent.)"
+      "Target player can't play lands this turn if {R} was spent to cast Moonhold and can't cast creature spells this turn if {W} was spent to cast it. (Do both if {R}{W} was spent.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4612,7 +4612,8 @@
     "mana_cost": "6",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Each opponent who controls more creatures than you can't play creature cards. The same is true for artifacts, enchantments, and lands."
+      "Each opponent who controls more creatures than you can't cast creature spells. The same is true for artifacts and enchantments.",
+      "Each opponent who controls more lands than you can't play lands."
     ],
     "flavor_text": "Mages dare not attempt magic in its grotesque presence.",
     "power": null,

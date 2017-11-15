@@ -7,7 +7,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Ajani"
     ],
@@ -120,7 +122,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "First strike (This creature deals combat damage before creatures without first strike.)",
+      "First strike",
       "When Attended Knight enters the battlefield, create a 1/1 white Soldier creature token."
     ],
     "flavor_text": null,
@@ -1446,7 +1448,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Jace"
     ],
@@ -2501,7 +2505,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Liliana"
     ],
@@ -2565,7 +2571,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Enchant creature",
-      "Enchanted creature gets +2/+2 and has lifelink. (Damage dealt by the creature also causes its controller to gain that much life.)"
+      "Enchanted creature gets +2/+2 and has lifelink."
     ],
     "flavor_text": "\"My ‘condition' is a trial. The weak are consumed by it. The strong transcend it.\"\n—Sorin Markov",
     "power": null,
@@ -2900,9 +2906,7 @@
     "mana_cost": "1BB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Flying",
-      "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
-      "Lifelink (Damage dealt by this creature also causes you to gain that much life.)"
+      "Flying, deathtouch, lifelink"
     ],
     "flavor_text": null,
     "power": "2",
@@ -3176,7 +3180,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Chandra"
     ],
@@ -3724,7 +3730,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Haste (This creature can attack and {T} as soon as it comes under your control.)",
-      "Reckless Brute attacks each turn if able."
+      "Reckless Brute attacks each combat if able."
     ],
     "flavor_text": "His mind knows no fear, registering only the burning impulse to destroy.",
     "power": "3",
@@ -4486,7 +4492,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Garruk"
     ],
@@ -5132,7 +5140,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Bolas"
     ],
@@ -5789,7 +5799,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library."
+      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library."
     ],
     "flavor_text": "Without the interfering hands of civilization, nature will always shape itself to its own needs.",
     "power": null,

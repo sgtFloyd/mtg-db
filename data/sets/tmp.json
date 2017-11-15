@@ -574,9 +574,9 @@
     "mana_cost": "6",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "As Booby Trap enters the battlefield, name a card other than a basic land card and choose an opponent.",
+      "As Booby Trap enters the battlefield, choose an opponent and a card name other than a basic land card name.",
       "The chosen player reveals each card he or she draws.",
-      "When the chosen player draws the named card, sacrifice Booby Trap. If you do, Booby Trap deals 10 damage to that player."
+      "When the chosen player draws a card with the chosen name, sacrifice Booby Trap. If you do, Booby Trap deals 10 damage to that player."
     ],
     "flavor_text": null,
     "power": null,
@@ -1423,7 +1423,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{3}, {T}: Name a card. Reveal a card at random from your hand. If it's the named card, Cursed Scroll deals 2 damage to target creature or player."
+      "{3}, {T}: Choose a card name, then reveal a card at random from your hand. If that card has the chosen name, Cursed Scroll deals 2 damage to target creature or player."
     ],
     "flavor_text": null,
     "power": null,
@@ -1691,7 +1691,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Shadow (This creature can block or be blocked by only creatures with shadow.)",
-      "Dauthi Slayer attacks each turn if able."
+      "Dauthi Slayer attacks each combat if able."
     ],
     "flavor_text": "\"They have knives for every soul.\"\n—Lyna, Soltari emissary",
     "power": "2",
@@ -3821,7 +3821,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Jackal"
     ],
     "rarity": "Uncommon",
     "mana_cost": "R",
@@ -4304,7 +4304,7 @@
     "supertypes": [],
     "subtypes": [
       "Elemental",
-      "Lizard"
+      "Dinosaur"
     ],
     "rarity": "Rare",
     "mana_cost": "3RR",
@@ -5222,7 +5222,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Target opponent chooses any number of creatures he or she controls. During that player's next turn, the chosen creatures attack if able, and other creatures can't attack. At the beginning of that turn's end step, destroy each of the chosen creatures that didn't attack. Activate this ability only during your turn."
+      "{T}: Target opponent chooses any number of creatures he or she controls. During that player's next turn, the chosen creatures attack if able, and other creatures can't attack. At the beginning of that turn's end step, destroy each of the chosen creatures that didn't attack this turn. Activate this ability only during your turn."
     ],
     "flavor_text": null,
     "power": "1",
@@ -8775,7 +8775,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Watchdog blocks each turn if able.",
+      "Watchdog blocks each combat if able.",
       "As long as Watchdog is untapped, all creatures attacking you get -1/-0."
     ],
     "flavor_text": "Its growl is a long, rumbling grind of gears and clockwork, its bark a blast of hissing steam.",
@@ -9006,7 +9006,7 @@
     "mana_cost": "GU",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Name a creature card. Reveal the top four cards of your library and put all of them with that name into your hand. Put the rest into your graveyard."
+      "{T}: Choose a creature card name. Reveal the top four cards of your library and put all of them with that name into your hand. Put the rest into your graveyard."
     ],
     "flavor_text": null,
     "power": "1",

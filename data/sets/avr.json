@@ -2049,7 +2049,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Tamiyo"
     ],
@@ -3553,7 +3555,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Enchant creature",
-      "Enchanted creature gets +1/-1 and attacks each turn if able."
+      "Enchanted creature gets +1/-1 and attacks each combat if able."
     ],
     "flavor_text": "\"Fire will eventually destroy a zombie, but a fiery zombie destroys a lot of other things first.\"\n—Rem Karolus, Blade of the Inquisitors",
     "power": null,
@@ -4177,7 +4179,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Tibalt"
     ],
@@ -5197,7 +5201,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{1}{G}, {T}: Target creature you control fights another target creature. (Each deals damage equal to its power to the other.)"
+      "{1}{G}, {T}: Target creature you control fights another target creature."
     ],
     "flavor_text": "\"Peace will come to Innistrad, but only after all abominations have been dealt with, one by one.\"",
     "power": "1",
@@ -5777,7 +5781,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Equipped creature gets +3/+0 and attacks each turn if able.",
+      "Equipped creature gets +3/+0 and attacks each combat if able.",
       "Equip {3}"
     ],
     "flavor_text": "To a demon there is no such thing as restraint.",

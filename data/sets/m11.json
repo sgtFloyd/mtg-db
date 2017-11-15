@@ -7,7 +7,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Ajani"
     ],
@@ -1313,7 +1315,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Flying",
-      "Whenever Conundrum Sphinx attacks, each player names a card. Then each player reveals the top card of his or her library. If the card a player revealed is the card he or she named, that player puts it into his or her hand. If it's not, that player puts it on the bottom of his or her library."
+      "Whenever Conundrum Sphinx attacks, each player chooses a card name. Then each player reveals the top card of his or her library. If the card a player revealed has the name he or she chose, that player puts it into his or her hand. If it doesn't, that player puts it on the bottom of his or her library."
     ],
     "flavor_text": null,
     "power": "4",
@@ -1485,7 +1487,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Jace"
     ],
@@ -2023,7 +2027,7 @@
     "mana_cost": "1UU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Defender (This creature can't attack.)",
+      "Defender",
       "Whenever Wall of Frost blocks a creature, that creature doesn't untap during its controller's next untap step."
     ],
     "flavor_text": "\"I welcome it. The pasture is cleared of weeds and the wolves are frozen solid.\"\n—Lumi, goatherd",
@@ -2598,7 +2602,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Liliana"
     ],
@@ -3183,7 +3189,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Berserkers of Blood Ridge attacks each turn if able."
+      "Berserkers of Blood Ridge attacks each combat if able."
     ],
     "flavor_text": "They take a blood oath to die in battle. So far none have failed to fulfill the promise.",
     "power": "4",
@@ -3253,7 +3259,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Chandra"
     ],
@@ -4495,7 +4503,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Garruk"
     ],
@@ -5371,7 +5381,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Juggernaut attacks each turn if able.",
+      "Juggernaut attacks each combat if able.",
       "Juggernaut can't be blocked by Walls."
     ],
     "flavor_text": "The mighty city of An Karras, with its rich history, built over thousands of years, fell in three hours.",
@@ -5423,7 +5433,7 @@
     "mana_cost": "0",
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
+      "Flying"
     ],
     "flavor_text": "Regardless of the century, plane, or species, developing artificers never fail to invent the ornithopter.",
     "power": "0",

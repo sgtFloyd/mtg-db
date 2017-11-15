@@ -1079,7 +1079,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Flying",
-      "Whenever Conundrum Sphinx attacks, each player names a card. Then each player reveals the top card of his or her library. If the card a player revealed is the card he or she named, that player puts it into his or her hand. If it's not, that player puts it on the bottom of his or her library."
+      "Whenever Conundrum Sphinx attacks, each player chooses a card name. Then each player reveals the top card of his or her library. If the card a player revealed has the name he or she chose, that player puts it into his or her hand. If it doesn't, that player puts it on the bottom of his or her library."
     ],
     "flavor_text": null,
     "power": "4",
@@ -2752,9 +2752,7 @@
     "mana_cost": "1BB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Flying",
-      "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
-      "Lifelink (Damage dealt by this creature also causes you to gain that much life.)"
+      "Flying, deathtouch, lifelink"
     ],
     "flavor_text": null,
     "power": "2",
@@ -2893,7 +2891,7 @@
     "mana_cost": "6RR",
     "converted_mana_cost": 8,
     "oracle_text": [
-      "All creatures have double strike and attack each turn if able."
+      "All creatures have double strike and attack each combat if able."
     ],
     "flavor_text": "\"Diplomacy has solved nothing. Only bloodspill can end this now. Call forth the warbringer.\"\n—Basandra, Battle Seraph",
     "power": "8",
@@ -4071,7 +4069,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Garruk"
     ],
@@ -5170,6 +5170,30 @@
     "color_indicator": null
   },
   {
+    "name": "Fire (Fire/Ice)",
+    "set_name": "Commander",
+    "collector_num": "198a",
+    "illustrator": "David Martin",
+    "types": [
+      "Instant"
+    ],
+    "supertypes": [],
+    "subtypes": [],
+    "rarity": "Uncommon",
+    "mana_cost": "1R",
+    "converted_mana_cost": 2,
+    "oracle_text": [
+      "Fire deals 2 damage divided as you choose among one or two target creatures and/or players."
+    ],
+    "flavor_text": null,
+    "power": null,
+    "toughness": null,
+    "loyalty": null,
+    "multiverse_id": 247159,
+    "other_part": "Ice (Fire/Ice)",
+    "color_indicator": null
+  },
+  {
     "name": "Ice (Fire/Ice)",
     "set_name": "Commander",
     "collector_num": "198b",
@@ -5192,30 +5216,6 @@
     "loyalty": null,
     "multiverse_id": 247159,
     "other_part": "Fire (Fire/Ice)",
-    "color_indicator": null
-  },
-  {
-    "name": "Fire (Fire/Ice)",
-    "set_name": "Commander",
-    "collector_num": "198a",
-    "illustrator": "David Martin",
-    "types": [
-      "Instant"
-    ],
-    "supertypes": [],
-    "subtypes": [],
-    "rarity": "Uncommon",
-    "mana_cost": "1R",
-    "converted_mana_cost": 2,
-    "oracle_text": [
-      "Fire deals 2 damage divided as you choose among one or two target creatures and/or players."
-    ],
-    "flavor_text": null,
-    "power": null,
-    "toughness": null,
-    "loyalty": null,
-    "multiverse_id": 247159,
-    "other_part": "Ice (Fire/Ice)",
     "color_indicator": null
   },
   {
@@ -7175,7 +7175,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library."
+      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library."
     ],
     "flavor_text": "Every world is an organism, able to grow new lands. Some just do it faster than others.",
     "power": null,

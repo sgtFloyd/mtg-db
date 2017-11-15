@@ -1128,7 +1128,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Lands you control are Plains.",
-      "Nonland cards you own that aren't on the battlefield, spells you control, and nonland permanents you control are white.",
+      "Nonland permanents you control are white. The same is true for spells you control and nonland cards you own that aren't on the battlefield.",
       "You may spend white mana as though it were mana of any color. You may spend other mana only as though it were colorless mana."
     ],
     "flavor_text": null,
@@ -2285,7 +2285,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Flying, trample",
-      "Emberwilde Caliph attacks each turn if able.",
+      "Emberwilde Caliph attacks each combat if able.",
       "Whenever Emberwilde Caliph deals damage, you lose that much life."
     ],
     "flavor_text": "The fire breathes while the air burns.",
@@ -5384,8 +5384,8 @@
     "mana_cost": "3W",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "As Null Chamber enters the battlefield, you and an opponent each name a card other than a basic land card.",
-      "The named cards can't be played."
+      "As Null Chamber enters the battlefield, you and an opponent each choose a card name other than a basic land card name.",
+      "Spells with the chosen names can't be cast and lands with the chosen names can't be played."
     ],
     "flavor_text": "Discovered by Femeref mages, the Null Chamber is the ultimate testing ground for the uncreative.",
     "power": null,

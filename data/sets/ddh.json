@@ -7,7 +7,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Ajani"
     ],
@@ -732,7 +734,7 @@
     "mana_cost": "1GW",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Equipped creature gets +2/+2 and has lifelink and trample.",
+      "Equipped creature gets +2/+2 and has trample and lifelink.",
       "Equip {3}"
     ],
     "flavor_text": "\"May this grant you all the strength of the behemoths and none of their serenity.\"\n—Ajani",
@@ -809,7 +811,7 @@
     "mana_cost": "RRGGGWW",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "Until end of turn, creatures you control get +5/+5 and gain first strike, lifelink, and trample."
+      "Until end of turn, creatures you control get +5/+5 and gain first strike, trample, and lifelink."
     ],
     "flavor_text": "\"Retribution is best delivered by claws and rage, with both magnified.\"\n—Ajani",
     "power": null,
@@ -833,7 +835,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library."
+      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library."
     ],
     "flavor_text": "Every world is an organism, able to grow new lands. Some just do it faster than others.",
     "power": null,
@@ -1065,7 +1067,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Bolas"
     ],
@@ -1864,30 +1868,6 @@
     "color_indicator": null
   },
   {
-    "name": "Suffering (Pain/Suffering)",
-    "set_name": "Duel Decks: Ajani vs. Nicol Bolas",
-    "collector_num": "72b",
-    "illustrator": "David Martin",
-    "types": [
-      "Sorcery"
-    ],
-    "supertypes": [],
-    "subtypes": [],
-    "rarity": "Uncommon",
-    "mana_cost": "3R",
-    "converted_mana_cost": 4,
-    "oracle_text": [
-      "Destroy target land."
-    ],
-    "flavor_text": null,
-    "power": null,
-    "toughness": null,
-    "loyalty": null,
-    "multiverse_id": 259281,
-    "other_part": "Pain (Pain/Suffering)",
-    "color_indicator": null
-  },
-  {
     "name": "Pain (Pain/Suffering)",
     "set_name": "Duel Decks: Ajani vs. Nicol Bolas",
     "collector_num": "72a",
@@ -1909,6 +1889,30 @@
     "loyalty": null,
     "multiverse_id": 259281,
     "other_part": "Suffering (Pain/Suffering)",
+    "color_indicator": null
+  },
+  {
+    "name": "Suffering (Pain/Suffering)",
+    "set_name": "Duel Decks: Ajani vs. Nicol Bolas",
+    "collector_num": "72b",
+    "illustrator": "David Martin",
+    "types": [
+      "Sorcery"
+    ],
+    "supertypes": [],
+    "subtypes": [],
+    "rarity": "Uncommon",
+    "mana_cost": "3R",
+    "converted_mana_cost": 4,
+    "oracle_text": [
+      "Destroy target land."
+    ],
+    "flavor_text": null,
+    "power": null,
+    "toughness": null,
+    "loyalty": null,
+    "multiverse_id": 259281,
+    "other_part": "Pain (Pain/Suffering)",
     "color_indicator": null
   },
   {

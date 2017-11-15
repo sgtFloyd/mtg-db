@@ -829,7 +829,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library."
+      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library."
     ],
     "flavor_text": "Every world is an organism, able to grow new lands. Some just do it faster than others.",
     "power": null,
@@ -1182,7 +1182,7 @@
     "converted_mana_cost": 8,
     "oracle_text": [
       "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)",
-      "Ulamog's Crusher attacks each turn if able."
+      "Ulamog's Crusher attacks each combat if able."
     ],
     "flavor_text": "\"Whatever the Eldrazi's purpose is, it has nothing to do with something so insignificant as us.\"\n—Nirthu, lone missionary",
     "power": "8",
@@ -1547,9 +1547,7 @@
     "mana_cost": "1BB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Flying",
-      "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
-      "Lifelink (Damage dealt by this creature also causes you to gain that much life.)"
+      "Flying, deathtouch, lifelink"
     ],
     "flavor_text": null,
     "power": "2",

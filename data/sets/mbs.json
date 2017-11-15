@@ -1809,7 +1809,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)",
-      "Kuldotha Ringleader attacks each turn if able."
+      "Kuldotha Ringleader attacks each combat if able."
     ],
     "flavor_text": "Being surrounded by goblins is less objectionable when they're fighting for you.",
     "power": "4",
@@ -2136,7 +2136,7 @@
     "mana_cost": "4G",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Melira's Keepers can't have counters placed on it."
+      "Melira's Keepers can't have counters put on it."
     ],
     "flavor_text": "Her warriors are the last defense against the coming storm.",
     "power": "4",
@@ -2497,7 +2497,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Tezzeret"
     ],
@@ -3145,7 +3147,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",
-      "Phyrexian Juggernaut attacks each turn if able."
+      "Phyrexian Juggernaut attacks each combat if able."
     ],
     "flavor_text": "Where nature impedes, Phyrexians overcome.",
     "power": "5",
@@ -3172,7 +3174,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As Phyrexian Revoker enters the battlefield, name a nonland card.",
+      "As Phyrexian Revoker enters the battlefield, choose a nonland card name.",
       "Activated abilities of sources with the chosen name can't be activated."
     ],
     "flavor_text": "Basic senses like sight and taste are reserved for those in power.",

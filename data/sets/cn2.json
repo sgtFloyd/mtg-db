@@ -13,7 +13,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.)",
+      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly choose a card name. You may turn this conspiracy face up any time and reveal that name.)",
       "Whenever a creature you control with the chosen name attacks, you may pay {W}. If you do, that creature gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)"
     ],
     "flavor_text": null,
@@ -38,7 +38,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.)",
+      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly choose a card name. You may turn this conspiracy face up any time and reveal that name.)",
       "Creatures you control with the chosen name have \"When this creature dies, you may pay {B}. If you do, create a tapped 2/2 black Zombie creature token.\""
     ],
     "flavor_text": null,
@@ -63,7 +63,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.)",
+      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly choose a card name. You may turn this conspiracy face up any time and reveal that name.)",
       "Whenever you cast an instant or sorcery spell, if it targets a creature you control with the chosen name, you may copy that spell and may choose new targets for the copy."
     ],
     "flavor_text": null,
@@ -114,7 +114,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.)",
+      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly choose a card name. You may turn this conspiracy face up any time and reveal that name.)",
       "Whenever a creature you control with the chosen name deals combat damage to a player, you may pay {U}. If you do, draw a card."
     ],
     "flavor_text": null,
@@ -191,7 +191,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.)",
+      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly choose a card name. You may turn this conspiracy face up any time and reveal that name.)",
       "Creatures you control with the chosen name have \"{R}: This creature gets +1/+0 until end of turn.\""
     ],
     "flavor_text": null,
@@ -216,7 +216,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.)",
+      "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly choose a card name. You may turn this conspiracy face up any time and reveal that name.)",
       "Creatures you control with the chosen name have \"At the beginning of combat on your turn, you may pay {G}. If you do, put a +1/+1 counter on this creature.\""
     ],
     "flavor_text": null,
@@ -268,7 +268,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Double agenda (Start the game with this conspiracy face down in the command zone and secretly name two different cards. You may turn this conspiracy face up any time and reveal the chosen names.)",
+      "Double agenda (Start the game with this conspiracy face down in the command zone and secretly choose two different card names. You may turn this conspiracy face up any time and reveal those names.)",
       "Whenever you cast a creature spell with one of the chosen names, you may search your library for a creature card with the other chosen name, reveal it, put it into your hand, then shuffle your library."
     ],
     "flavor_text": null,
@@ -1436,9 +1436,9 @@
     "mana_cost": "RR",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever a creature you control deals combat damage to a player, choose one —",
+      "Whenever a creature you control deals combat damage to a player, choose one —",
       "• Goad target creature that player controls.",
-      "• Exile the top card of that player's library. Until end of turn, you may cast that card and you may spend mana as though it were mana of any color to cast it."
+      "• Exile the top card of that player's library. Until end of turn, you may cast that card and you may spend mana as though it were mana of any color to cast that spell."
     ],
     "flavor_text": "\"You burn. I'll pillage.\"",
     "power": "2",
@@ -1978,7 +1978,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Daretti"
     ],
@@ -2006,7 +2008,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Kaya"
     ],
@@ -2034,7 +2038,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Kaya"
     ],
@@ -3216,7 +3222,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Draw a card. Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)"
+      "Draw a card. Scry 2."
     ],
     "flavor_text": null,
     "power": null,
@@ -5350,7 +5356,7 @@
     "mana_cost": "2RG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Attacking creatures you control get +1/+0 and have menace. (They can't be blocked except by two or more creatures.)"
+      "Attacking creatures you control get +1/+0 and have menace."
     ],
     "flavor_text": "\"We are the heart of the wild, the fire in its eyes, and the howl in its throat. Come, join the battle to which you were born.\"\n—Kroshkar, Gruul shaman",
     "power": null,
@@ -5745,7 +5751,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library."
+      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library."
     ],
     "flavor_text": "Without the interfering hands of civilization, nature will always shape itself to its own needs.",
     "power": null,

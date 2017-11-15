@@ -680,8 +680,8 @@
     "mana_cost": "1WW",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "As Nevermore enters the battlefield, name a nonland card.",
-      "The named card can't be cast."
+      "As Nevermore enters the battlefield, choose a nonland card name.",
+      "Spells with the chosen name can't be cast."
     ],
     "flavor_text": "\"By the law of Avacyn, the following thoughts, words, and deeds are henceforth disallowed.\"",
     "power": null,
@@ -2901,7 +2901,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Liliana"
     ],
@@ -3608,7 +3610,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Bloodcrazed Neonate attacks each turn if able.",
+      "Bloodcrazed Neonate attacks each combat if able.",
       "Whenever Bloodcrazed Neonate deals combat damage to a player, put a +1/+1 counter on it."
     ],
     "flavor_text": "While elder vampires select their meals with care, the newly sired frenzy at the first whiff.",
@@ -3767,7 +3769,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Enchant player",
-      "Creatures enchanted player controls attack each turn if able."
+      "Creatures enchanted player controls attack each combat if able."
     ],
     "flavor_text": "When the moon rises and the bloodlust takes hold, nothing matters but the kill.",
     "power": null,
@@ -3927,7 +3929,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Enchant creature",
-      "Enchanted creature gets +2/+2 and attacks each turn if able."
+      "Enchanted creature gets +2/+2 and attacks each combat if able."
     ],
     "flavor_text": "Those who only believe themselves infected with lycanthropy can be as dangerous as those who really are.",
     "power": null,
@@ -4007,7 +4009,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Bane of Hanweir attacks each turn if able.",
+      "Bane of Hanweir attacks each combat if able.",
       "At the beginning of each upkeep, if a player cast two or more spells last turn, transform Bane of Hanweir."
     ],
     "flavor_text": "Technically he never left his post. He looks after the wolf wherever it goes.",
@@ -5099,7 +5101,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Garruk"
     ],
@@ -5127,7 +5131,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Garruk"
     ],
@@ -5142,7 +5148,7 @@
     "flavor_text": null,
     "power": null,
     "toughness": null,
-    "loyalty": "",
+    "loyalty": null,
     "multiverse_id": 245251,
     "other_part": "Garruk Relentless",
     "color_indicator": "Black Green"
@@ -6352,7 +6358,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Galvanic Juggernaut attacks each turn if able.",
+      "Galvanic Juggernaut attacks each combat if able.",
       "Galvanic Juggernaut doesn't untap during your untap step.",
       "Whenever another creature dies, untap Galvanic Juggernaut."
     ],

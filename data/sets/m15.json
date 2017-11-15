@@ -7,7 +7,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Ajani"
     ],
@@ -1611,7 +1613,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Jace"
     ],
@@ -2165,7 +2169,7 @@
     "mana_cost": "1UU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Defender (This creature can't attack.)",
+      "Defender",
       "Whenever Wall of Frost blocks a creature, that creature doesn't untap during its controller's next untap step."
     ],
     "flavor_text": "\"I have seen countless petty warmongers gaze on it for a time before turning away.\"\n—Sarlena, paladin of the Northern Verge",
@@ -2678,7 +2682,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Liliana"
     ],
@@ -3056,7 +3062,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)",
-      "Name a nonland card. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library."
+      "Choose a nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library."
     ],
     "flavor_text": null,
     "power": null,
@@ -3489,7 +3495,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Chandra"
     ],
@@ -3780,7 +3788,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Other Goblin creatures you control attack each turn if able.",
+      "Other Goblin creatures you control attack each combat if able.",
       "At the beginning of combat on your turn, create a 1/1 red Goblin creature token with haste.",
       "Whenever Goblin Rabblemaster attacks, it gets +1/+0 until end of turn for each other attacking Goblin."
     ],
@@ -4875,7 +4883,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Nissa"
     ],
@@ -5482,7 +5492,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Garruk"
     ],
@@ -5764,7 +5776,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Juggernaut attacks each turn if able.",
+      "Juggernaut attacks each combat if able.",
       "Juggernaut can't be blocked by Walls."
     ],
     "flavor_text": "Many a besieged city has surrendered upon hearing the distinctive rumble of the juggernaut.",
@@ -5843,7 +5855,7 @@
     "mana_cost": "0",
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
+      "Flying"
     ],
     "flavor_text": "Once a year, the skies over Paliano fill with the flying machines of those who hope to be taken on as pupils by the artificer Muzzio.",
     "power": "0",
@@ -5894,7 +5906,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As Phyrexian Revoker enters the battlefield, name a nonland card.",
+      "As Phyrexian Revoker enters the battlefield, choose a nonland card name.",
       "Activated abilities of sources with the chosen name can't be activated."
     ],
     "flavor_text": "\"To be in the presence of a revoker is to be truly alone.\"\n—Kara Vrist, Neurok agent",
@@ -6349,7 +6361,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library."
+      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library."
     ],
     "flavor_text": "Without the interfering hands of civilization, nature will always shape itself to its own needs.",
     "power": null,

@@ -2400,7 +2400,7 @@
     "supertypes": [],
     "subtypes": [
       "Fungus",
-      "Lizard"
+      "Dinosaur"
     ],
     "rarity": "Rare",
     "mana_cost": "3G",
@@ -3392,7 +3392,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Juggernaut attacks each turn if able.",
+      "Juggernaut attacks each combat if able.",
       "Juggernaut can't be blocked by Walls."
     ],
     "flavor_text": "We had taken refuge in a small cave, thinking the entrance was too narrow for it to follow. To our horror, its gigantic head smashed into the mountainside, ripping itself a new entrance.",
@@ -4433,7 +4433,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Choose target non-Wall creature the active player has controlled continuously since the beginning of the turn. That creature attacks this turn if able. If it doesn't, destroy it at the beginning of the next end step. Activate this ability only during an opponent's turn, before attackers are declared."
+      "{T}: Choose target non-Wall creature the active player has controlled continuously since the beginning of the turn. That creature attacks this turn if able. Destroy it at the beginning of the next end step if it didn't attack this turn. Activate this ability only during an opponent's turn, before attackers are declared."
     ],
     "flavor_text": null,
     "power": "1",
@@ -5446,7 +5446,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "As an additional cost to cast Sacrifice, sacrifice a creature.",
-      "Add to your mana pool an amount of {B} equal to the sacrificed creature's converted mana cost."
+      "Add an amount of {B} to your mana pool equal to the sacrificed creature's converted mana cost."
     ],
     "flavor_text": null,
     "power": null,

@@ -68,7 +68,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Lands you control are Plains.",
-      "Nonland cards you own that aren't on the battlefield, spells you control, and nonland permanents you control are white.",
+      "Nonland permanents you control are white. The same is true for spells you control and nonland cards you own that aren't on the battlefield.",
       "You may spend white mana as though it were mana of any color. You may spend other mana only as though it were colorless mana."
     ],
     "flavor_text": null,
@@ -1028,7 +1028,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "As Conspiracy enters the battlefield, choose a creature type.",
-      "Creature cards you own that aren't on the battlefield, creature spells you control, and creatures you control are the chosen type."
+      "Creatures you control are the chosen type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield."
     ],
     "flavor_text": null,
     "power": null,
@@ -1080,7 +1080,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Shadow (This creature can block or be blocked by only creatures with shadow.)",
-      "Dauthi Slayer attacks each turn if able."
+      "Dauthi Slayer attacks each combat if able."
     ],
     "flavor_text": "\"They have knives for every soul.\"\n—Lyna, Soltari emissary",
     "power": "2",
@@ -2806,30 +2806,6 @@
     "color_indicator": null
   },
   {
-    "name": "Battery (Assault/Battery)",
-    "set_name": "Time Spiral \"Timeshifted\"",
-    "collector_num": "106b",
-    "illustrator": "Ben Thompson",
-    "types": [
-      "Sorcery"
-    ],
-    "supertypes": [],
-    "subtypes": [],
-    "rarity": "Special",
-    "mana_cost": "3G",
-    "converted_mana_cost": 4,
-    "oracle_text": [
-      "Create a 3/3 green Elephant creature token."
-    ],
-    "flavor_text": null,
-    "power": null,
-    "toughness": null,
-    "loyalty": null,
-    "multiverse_id": 109704,
-    "other_part": "Assault (Assault/Battery)",
-    "color_indicator": null
-  },
-  {
     "name": "Assault (Assault/Battery)",
     "set_name": "Time Spiral \"Timeshifted\"",
     "collector_num": "106a",
@@ -2851,6 +2827,30 @@
     "loyalty": null,
     "multiverse_id": 109704,
     "other_part": "Battery (Assault/Battery)",
+    "color_indicator": null
+  },
+  {
+    "name": "Battery (Assault/Battery)",
+    "set_name": "Time Spiral \"Timeshifted\"",
+    "collector_num": "106b",
+    "illustrator": "Ben Thompson",
+    "types": [
+      "Sorcery"
+    ],
+    "supertypes": [],
+    "subtypes": [],
+    "rarity": "Special",
+    "mana_cost": "3G",
+    "converted_mana_cost": 4,
+    "oracle_text": [
+      "Create a 3/3 green Elephant creature token."
+    ],
+    "flavor_text": null,
+    "power": null,
+    "toughness": null,
+    "loyalty": null,
+    "multiverse_id": 109704,
+    "other_part": "Assault (Assault/Battery)",
     "color_indicator": null
   },
   {

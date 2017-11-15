@@ -2546,9 +2546,7 @@
     "mana_cost": "1BB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Flying",
-      "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
-      "Lifelink (Damage dealt by this creature also causes you to gain that much life.)"
+      "Flying, deathtouch, lifelink"
     ],
     "flavor_text": null,
     "power": "2",
@@ -3080,30 +3078,6 @@
     "color_indicator": null
   },
   {
-    "name": "Tumble (Rough/Tumble)",
-    "set_name": "Commander 2013",
-    "collector_num": "118b",
-    "illustrator": "Luca Zontini",
-    "types": [
-      "Sorcery"
-    ],
-    "supertypes": [],
-    "subtypes": [],
-    "rarity": "Uncommon",
-    "mana_cost": "5R",
-    "converted_mana_cost": 6,
-    "oracle_text": [
-      "Tumble deals 6 damage to each creature with flying."
-    ],
-    "flavor_text": null,
-    "power": null,
-    "toughness": null,
-    "loyalty": null,
-    "multiverse_id": 376475,
-    "other_part": "Rough (Rough/Tumble)",
-    "color_indicator": null
-  },
-  {
     "name": "Rough (Rough/Tumble)",
     "set_name": "Commander 2013",
     "collector_num": "118a",
@@ -3125,6 +3099,30 @@
     "loyalty": null,
     "multiverse_id": 376475,
     "other_part": "Tumble (Rough/Tumble)",
+    "color_indicator": null
+  },
+  {
+    "name": "Tumble (Rough/Tumble)",
+    "set_name": "Commander 2013",
+    "collector_num": "118b",
+    "illustrator": "Luca Zontini",
+    "types": [
+      "Sorcery"
+    ],
+    "supertypes": [],
+    "subtypes": [],
+    "rarity": "Uncommon",
+    "mana_cost": "5R",
+    "converted_mana_cost": 6,
+    "oracle_text": [
+      "Tumble deals 6 damage to each creature with flying."
+    ],
+    "flavor_text": null,
+    "power": null,
+    "toughness": null,
+    "loyalty": null,
+    "multiverse_id": 376475,
+    "other_part": "Rough (Rough/Tumble)",
     "color_indicator": null
   },
   {
@@ -4268,7 +4266,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "If one or more tokens would be created, twice that many of those tokens are created instead.",
-      "If one or more +1/+1 counters would be placed on a creature, twice that many +1/+1 counters are placed on that creature instead."
+      "If one or more +1/+1 counters would be put on a creature, twice that many +1/+1 counters are put on that creature instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -4680,7 +4678,7 @@
     "mana_cost": "1GW",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Equipped creature gets +2/+2 and has lifelink and trample.",
+      "Equipped creature gets +2/+2 and has trample and lifelink.",
       "Equip {3}"
     ],
     "flavor_text": "Those who worship the great gargantuans could hardly be expected to fight with a subtle weapon.",
@@ -7557,7 +7555,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library."
+      "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library."
     ],
     "flavor_text": "Without the interfering hands of civilization, nature will always shape itself to its own needs.",
     "power": null,

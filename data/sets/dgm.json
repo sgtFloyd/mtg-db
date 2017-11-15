@@ -948,7 +948,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "First strike",
-      "Riot Piker attacks each turn if able."
+      "Riot Piker attacks each combat if able."
     ],
     "flavor_text": "He doesn't care whether he's rioting about trade rights or just having a drunken brawl. He wakes up every morning eager to smash some heads.",
     "power": "2",
@@ -1606,8 +1606,8 @@
     "mana_cost": "2WU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "As Council of the Absolute enters the battlefield, name a card other than a creature or land card.",
-      "Your opponents can't cast cards with the chosen name.",
+      "As Council of the Absolute enters the battlefield, choose a noncreature, nonland card name.",
+      "Your opponents can't cast spells with the chosen name.",
       "Spells with the chosen name you cast cost {2} less to cast."
     ],
     "flavor_text": null,
@@ -1917,6 +1917,7 @@
     "supertypes": [],
     "subtypes": [
       "Goblin",
+      "Pilot",
       "Wizard"
     ],
     "rarity": "Uncommon",
@@ -1948,7 +1949,7 @@
     "mana_cost": "2RG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Attacking creatures you control get +1/+0 and have menace. (They can't be blocked except by two or more creatures.)"
+      "Attacking creatures you control get +1/+0 and have menace."
     ],
     "flavor_text": "\"We are the heart of the wild, the fire in its eyes, and the howl in its throat. Come, join the battle to which you were born.\"\n—Kroshkar, Gruul shaman",
     "power": null,
@@ -2445,7 +2446,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Ral"
     ],
@@ -2585,7 +2588,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Vigilance, reach",
-      "Ruric Thar, the Unbowed attacks each turn if able.",
+      "Ruric Thar, the Unbowed attacks each combat if able.",
       "Whenever a player casts a noncreature spell, Ruric Thar deals 6 damage to that player."
     ],
     "flavor_text": null,
@@ -3166,31 +3169,6 @@
     "color_indicator": null
   },
   {
-    "name": "Well (Alive/Well)",
-    "set_name": "Dragon's Maze",
-    "collector_num": "121b",
-    "illustrator": "Nils Hamm",
-    "types": [
-      "Sorcery"
-    ],
-    "supertypes": [],
-    "subtypes": [],
-    "rarity": "Uncommon",
-    "mana_cost": "W",
-    "converted_mana_cost": 1,
-    "oracle_text": [
-      "You gain 2 life for each creature you control.",
-      "Fuse (You may cast one or both halves of this card from your hand.)"
-    ],
-    "flavor_text": null,
-    "power": null,
-    "toughness": null,
-    "loyalty": null,
-    "multiverse_id": 369041,
-    "other_part": "Alive (Alive/Well)",
-    "color_indicator": null
-  },
-  {
     "name": "Alive (Alive/Well)",
     "set_name": "Dragon's Maze",
     "collector_num": "121a",
@@ -3216,28 +3194,28 @@
     "color_indicator": null
   },
   {
-    "name": "Dangerous (Armed/Dangerous)",
+    "name": "Well (Alive/Well)",
     "set_name": "Dragon's Maze",
-    "collector_num": "122b",
-    "illustrator": "David Palumbo",
+    "collector_num": "121b",
+    "illustrator": "Nils Hamm",
     "types": [
       "Sorcery"
     ],
     "supertypes": [],
     "subtypes": [],
     "rarity": "Uncommon",
-    "mana_cost": "3G",
-    "converted_mana_cost": 4,
+    "mana_cost": "W",
+    "converted_mana_cost": 1,
     "oracle_text": [
-      "All creatures able to block target creature this turn do so.",
+      "You gain 2 life for each creature you control.",
       "Fuse (You may cast one or both halves of this card from your hand.)"
     ],
     "flavor_text": null,
     "power": null,
     "toughness": null,
     "loyalty": null,
-    "multiverse_id": 368989,
-    "other_part": "Armed (Armed/Dangerous)",
+    "multiverse_id": 369041,
+    "other_part": "Alive (Alive/Well)",
     "color_indicator": null
   },
   {
@@ -3263,6 +3241,31 @@
     "loyalty": null,
     "multiverse_id": 368989,
     "other_part": "Dangerous (Armed/Dangerous)",
+    "color_indicator": null
+  },
+  {
+    "name": "Dangerous (Armed/Dangerous)",
+    "set_name": "Dragon's Maze",
+    "collector_num": "122b",
+    "illustrator": "David Palumbo",
+    "types": [
+      "Sorcery"
+    ],
+    "supertypes": [],
+    "subtypes": [],
+    "rarity": "Uncommon",
+    "mana_cost": "3G",
+    "converted_mana_cost": 4,
+    "oracle_text": [
+      "All creatures able to block target creature this turn do so.",
+      "Fuse (You may cast one or both halves of this card from your hand.)"
+    ],
+    "flavor_text": null,
+    "power": null,
+    "toughness": null,
+    "loyalty": null,
+    "multiverse_id": 368989,
+    "other_part": "Armed (Armed/Dangerous)",
     "color_indicator": null
   },
   {
@@ -3316,31 +3319,6 @@
     "color_indicator": null
   },
   {
-    "name": "Entering (Breaking/Entering)",
-    "set_name": "Dragon's Maze",
-    "collector_num": "124b",
-    "illustrator": "Mathias Kollros",
-    "types": [
-      "Sorcery"
-    ],
-    "supertypes": [],
-    "subtypes": [],
-    "rarity": "Rare",
-    "mana_cost": "4BR",
-    "converted_mana_cost": 6,
-    "oracle_text": [
-      "Put a creature card from a graveyard onto the battlefield under your control. It gains haste until end of turn.",
-      "Fuse (You may cast one or both halves of this card from your hand.)"
-    ],
-    "flavor_text": null,
-    "power": null,
-    "toughness": null,
-    "loyalty": null,
-    "multiverse_id": 369009,
-    "other_part": "Breaking (Breaking/Entering)",
-    "color_indicator": null
-  },
-  {
     "name": "Breaking (Breaking/Entering)",
     "set_name": "Dragon's Maze",
     "collector_num": "124a",
@@ -3363,6 +3341,31 @@
     "loyalty": null,
     "multiverse_id": 369009,
     "other_part": "Entering (Breaking/Entering)",
+    "color_indicator": null
+  },
+  {
+    "name": "Entering (Breaking/Entering)",
+    "set_name": "Dragon's Maze",
+    "collector_num": "124b",
+    "illustrator": "Mathias Kollros",
+    "types": [
+      "Sorcery"
+    ],
+    "supertypes": [],
+    "subtypes": [],
+    "rarity": "Rare",
+    "mana_cost": "4BR",
+    "converted_mana_cost": 6,
+    "oracle_text": [
+      "Put a creature card from a graveyard onto the battlefield under your control. It gains haste until end of turn.",
+      "Fuse (You may cast one or both halves of this card from your hand.)"
+    ],
+    "flavor_text": null,
+    "power": null,
+    "toughness": null,
+    "loyalty": null,
+    "multiverse_id": 369009,
+    "other_part": "Breaking (Breaking/Entering)",
     "color_indicator": null
   },
   {
@@ -3416,31 +3419,6 @@
     "color_indicator": null
   },
   {
-    "name": "Dirty (Down/Dirty)",
-    "set_name": "Dragon's Maze",
-    "collector_num": "126b",
-    "illustrator": "Svetlin Velinov",
-    "types": [
-      "Sorcery"
-    ],
-    "supertypes": [],
-    "subtypes": [],
-    "rarity": "Uncommon",
-    "mana_cost": "2G",
-    "converted_mana_cost": 3,
-    "oracle_text": [
-      "Return target card from your graveyard to your hand.",
-      "Fuse (You may cast one or both halves of this card from your hand.)"
-    ],
-    "flavor_text": null,
-    "power": null,
-    "toughness": null,
-    "loyalty": null,
-    "multiverse_id": 369089,
-    "other_part": "Down (Down/Dirty)",
-    "color_indicator": null
-  },
-  {
     "name": "Down (Down/Dirty)",
     "set_name": "Dragon's Maze",
     "collector_num": "126a",
@@ -3466,28 +3444,28 @@
     "color_indicator": null
   },
   {
-    "name": "Away (Far/Away)",
+    "name": "Dirty (Down/Dirty)",
     "set_name": "Dragon's Maze",
-    "collector_num": "127b",
-    "illustrator": "Greg Staples",
+    "collector_num": "126b",
+    "illustrator": "Svetlin Velinov",
     "types": [
-      "Instant"
+      "Sorcery"
     ],
     "supertypes": [],
     "subtypes": [],
     "rarity": "Uncommon",
-    "mana_cost": "2B",
+    "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target player sacrifices a creature.",
+      "Return target card from your graveyard to your hand.",
       "Fuse (You may cast one or both halves of this card from your hand.)"
     ],
     "flavor_text": null,
     "power": null,
     "toughness": null,
     "loyalty": null,
-    "multiverse_id": 369042,
-    "other_part": "Far (Far/Away)",
+    "multiverse_id": 369089,
+    "other_part": "Down (Down/Dirty)",
     "color_indicator": null
   },
   {
@@ -3516,28 +3494,28 @@
     "color_indicator": null
   },
   {
-    "name": "Blood (Flesh/Blood)",
+    "name": "Away (Far/Away)",
     "set_name": "Dragon's Maze",
-    "collector_num": "128b",
-    "illustrator": "Lucas Graciano",
+    "collector_num": "127b",
+    "illustrator": "Greg Staples",
     "types": [
-      "Sorcery"
+      "Instant"
     ],
     "supertypes": [],
     "subtypes": [],
-    "rarity": "Rare",
-    "mana_cost": "RG",
-    "converted_mana_cost": 2,
+    "rarity": "Uncommon",
+    "mana_cost": "2B",
+    "converted_mana_cost": 3,
     "oracle_text": [
-      "Target creature you control deals damage equal to its power to target creature or player.",
+      "Target player sacrifices a creature.",
       "Fuse (You may cast one or both halves of this card from your hand.)"
     ],
     "flavor_text": null,
     "power": null,
     "toughness": null,
     "loyalty": null,
-    "multiverse_id": 368991,
-    "other_part": "Flesh (Flesh/Blood)",
+    "multiverse_id": 369042,
+    "other_part": "Far (Far/Away)",
     "color_indicator": null
   },
   {
@@ -3566,28 +3544,28 @@
     "color_indicator": null
   },
   {
-    "name": "Take (Give/Take)",
+    "name": "Blood (Flesh/Blood)",
     "set_name": "Dragon's Maze",
-    "collector_num": "129b",
-    "illustrator": "Steve Prescott",
+    "collector_num": "128b",
+    "illustrator": "Lucas Graciano",
     "types": [
       "Sorcery"
     ],
     "supertypes": [],
     "subtypes": [],
-    "rarity": "Uncommon",
-    "mana_cost": "2U",
-    "converted_mana_cost": 3,
+    "rarity": "Rare",
+    "mana_cost": "RG",
+    "converted_mana_cost": 2,
     "oracle_text": [
-      "Remove all +1/+1 counters from target creature you control. Draw that many cards.",
+      "Target creature you control deals damage equal to its power to target creature or player.",
       "Fuse (You may cast one or both halves of this card from your hand.)"
     ],
     "flavor_text": null,
     "power": null,
     "toughness": null,
     "loyalty": null,
-    "multiverse_id": 369097,
-    "other_part": "Give (Give/Take)",
+    "multiverse_id": 368991,
+    "other_part": "Flesh (Flesh/Blood)",
     "color_indicator": null
   },
   {
@@ -3613,6 +3591,31 @@
     "loyalty": null,
     "multiverse_id": 369097,
     "other_part": "Take (Give/Take)",
+    "color_indicator": null
+  },
+  {
+    "name": "Take (Give/Take)",
+    "set_name": "Dragon's Maze",
+    "collector_num": "129b",
+    "illustrator": "Steve Prescott",
+    "types": [
+      "Sorcery"
+    ],
+    "supertypes": [],
+    "subtypes": [],
+    "rarity": "Uncommon",
+    "mana_cost": "2U",
+    "converted_mana_cost": 3,
+    "oracle_text": [
+      "Remove all +1/+1 counters from target creature you control. Draw that many cards.",
+      "Fuse (You may cast one or both halves of this card from your hand.)"
+    ],
+    "flavor_text": null,
+    "power": null,
+    "toughness": null,
+    "loyalty": null,
+    "multiverse_id": 369097,
+    "other_part": "Give (Give/Take)",
     "color_indicator": null
   },
   {
@@ -3666,31 +3669,6 @@
     "color_indicator": null
   },
   {
-    "name": "Serve (Protect/Serve)",
-    "set_name": "Dragon's Maze",
-    "collector_num": "131b",
-    "illustrator": "Ryan Barger",
-    "types": [
-      "Instant"
-    ],
-    "supertypes": [],
-    "subtypes": [],
-    "rarity": "Uncommon",
-    "mana_cost": "1U",
-    "converted_mana_cost": 2,
-    "oracle_text": [
-      "Target creature gets -6/-0 until end of turn.",
-      "Fuse (You may cast one or both halves of this card from your hand.)"
-    ],
-    "flavor_text": null,
-    "power": null,
-    "toughness": null,
-    "loyalty": null,
-    "multiverse_id": 369024,
-    "other_part": "Protect (Protect/Serve)",
-    "color_indicator": null
-  },
-  {
     "name": "Protect (Protect/Serve)",
     "set_name": "Dragon's Maze",
     "collector_num": "131a",
@@ -3716,28 +3694,28 @@
     "color_indicator": null
   },
   {
-    "name": "Willing (Ready/Willing)",
+    "name": "Serve (Protect/Serve)",
     "set_name": "Dragon's Maze",
-    "collector_num": "132b",
-    "illustrator": "Zoltan Boros",
+    "collector_num": "131b",
+    "illustrator": "Ryan Barger",
     "types": [
       "Instant"
     ],
     "supertypes": [],
     "subtypes": [],
-    "rarity": "Rare",
-    "mana_cost": "1WB",
-    "converted_mana_cost": 3,
+    "rarity": "Uncommon",
+    "mana_cost": "1U",
+    "converted_mana_cost": 2,
     "oracle_text": [
-      "Creatures you control gain deathtouch and lifelink until end of turn.",
+      "Target creature gets -6/-0 until end of turn.",
       "Fuse (You may cast one or both halves of this card from your hand.)"
     ],
     "flavor_text": null,
     "power": null,
     "toughness": null,
     "loyalty": null,
-    "multiverse_id": 368967,
-    "other_part": "Ready (Ready/Willing)",
+    "multiverse_id": 369024,
+    "other_part": "Protect (Protect/Serve)",
     "color_indicator": null
   },
   {
@@ -3766,28 +3744,28 @@
     "color_indicator": null
   },
   {
-    "name": "Trouble (Toil/Trouble)",
+    "name": "Willing (Ready/Willing)",
     "set_name": "Dragon's Maze",
-    "collector_num": "133b",
-    "illustrator": "Nils Hamm",
+    "collector_num": "132b",
+    "illustrator": "Zoltan Boros",
     "types": [
-      "Sorcery"
+      "Instant"
     ],
     "supertypes": [],
     "subtypes": [],
-    "rarity": "Uncommon",
-    "mana_cost": "2R",
+    "rarity": "Rare",
+    "mana_cost": "1WB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Trouble deals damage to target player equal to the number of cards in that player's hand.",
+      "Creatures you control gain deathtouch and lifelink until end of turn.",
       "Fuse (You may cast one or both halves of this card from your hand.)"
     ],
     "flavor_text": null,
     "power": null,
     "toughness": null,
     "loyalty": null,
-    "multiverse_id": 369032,
-    "other_part": "Toil (Toil/Trouble)",
+    "multiverse_id": 368967,
+    "other_part": "Ready (Ready/Willing)",
     "color_indicator": null
   },
   {
@@ -3813,6 +3791,31 @@
     "loyalty": null,
     "multiverse_id": 369032,
     "other_part": "Trouble (Toil/Trouble)",
+    "color_indicator": null
+  },
+  {
+    "name": "Trouble (Toil/Trouble)",
+    "set_name": "Dragon's Maze",
+    "collector_num": "133b",
+    "illustrator": "Nils Hamm",
+    "types": [
+      "Sorcery"
+    ],
+    "supertypes": [],
+    "subtypes": [],
+    "rarity": "Uncommon",
+    "mana_cost": "2R",
+    "converted_mana_cost": 3,
+    "oracle_text": [
+      "Trouble deals damage to target player equal to the number of cards in that player's hand.",
+      "Fuse (You may cast one or both halves of this card from your hand.)"
+    ],
+    "flavor_text": null,
+    "power": null,
+    "toughness": null,
+    "loyalty": null,
+    "multiverse_id": 369032,
+    "other_part": "Toil (Toil/Trouble)",
     "color_indicator": null
   },
   {
@@ -3866,31 +3869,6 @@
     "color_indicator": null
   },
   {
-    "name": "Tear (Wear/Tear)",
-    "set_name": "Dragon's Maze",
-    "collector_num": "135b",
-    "illustrator": "Ryan Pancoast",
-    "types": [
-      "Instant"
-    ],
-    "supertypes": [],
-    "subtypes": [],
-    "rarity": "Uncommon",
-    "mana_cost": "W",
-    "converted_mana_cost": 1,
-    "oracle_text": [
-      "Destroy target enchantment.",
-      "Fuse (You may cast one or both halves of this card from your hand.)"
-    ],
-    "flavor_text": null,
-    "power": null,
-    "toughness": null,
-    "loyalty": null,
-    "multiverse_id": 368950,
-    "other_part": "Wear (Wear/Tear)",
-    "color_indicator": null
-  },
-  {
     "name": "Wear (Wear/Tear)",
     "set_name": "Dragon's Maze",
     "collector_num": "135a",
@@ -3913,6 +3891,31 @@
     "loyalty": null,
     "multiverse_id": 368950,
     "other_part": "Tear (Wear/Tear)",
+    "color_indicator": null
+  },
+  {
+    "name": "Tear (Wear/Tear)",
+    "set_name": "Dragon's Maze",
+    "collector_num": "135b",
+    "illustrator": "Ryan Pancoast",
+    "types": [
+      "Instant"
+    ],
+    "supertypes": [],
+    "subtypes": [],
+    "rarity": "Uncommon",
+    "mana_cost": "W",
+    "converted_mana_cost": 1,
+    "oracle_text": [
+      "Destroy target enchantment.",
+      "Fuse (You may cast one or both halves of this card from your hand.)"
+    ],
+    "flavor_text": null,
+    "power": null,
+    "toughness": null,
+    "loyalty": null,
+    "multiverse_id": 368950,
+    "other_part": "Wear (Wear/Tear)",
     "color_indicator": null
   },
   {

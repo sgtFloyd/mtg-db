@@ -602,7 +602,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "Tribute 2 (As this creature enters the battlefield, an opponent of your choice may place two +1/+1 counters on it.)",
+      "Tribute 2 (As this creature enters the battlefield, an opponent of your choice may put two +1/+1 counters on it.)",
       "When Ornitharch enters the battlefield, if tribute wasn't paid, create two 1/1 white Bird creature tokens with flying."
     ],
     "flavor_text": null,
@@ -1317,7 +1317,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "Tribute 3 (As this creature enters the battlefield, an opponent of your choice may place three +1/+1 counters on it.)",
+      "Tribute 3 (As this creature enters the battlefield, an opponent of your choice may put three +1/+1 counters on it.)",
       "When Siren of the Fanged Coast enters the battlefield, if tribute wasn't paid, gain control of target creature."
     ],
     "flavor_text": null,
@@ -2187,7 +2187,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "Tribute 2 (As this creature enters the battlefield, an opponent of your choice may place two +1/+1 counters on it.)",
+      "Tribute 2 (As this creature enters the battlefield, an opponent of your choice may put two +1/+1 counters on it.)",
       "When Shrike Harpy enters the battlefield, if tribute wasn't paid, target opponent sacrifices a creature."
     ],
     "flavor_text": null,
@@ -2560,7 +2560,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Flying",
-      "Tribute 2 (As this creature enters the battlefield, an opponent of your choice may place two +1/+1 counters on it.)",
+      "Tribute 2 (As this creature enters the battlefield, an opponent of your choice may put two +1/+1 counters on it.)",
       "When Flame-Wreathed Phoenix enters the battlefield, if tribute wasn't paid, it gains haste and \"When this creature dies, return it to its owner's hand.\""
     ],
     "flavor_text": null,
@@ -2616,7 +2616,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Flying, haste",
-      "Impetuous Sunchaser attacks each turn if able."
+      "Impetuous Sunchaser attacks each combat if able."
     ],
     "flavor_text": "\"I will soar higher than the walls of Akros! Higher than the clouds! Higher than Heliod himself!\"",
     "power": "1",
@@ -2723,7 +2723,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Haste",
-      "Tribute 2 (As this creature enters the battlefield, an opponent of your choice may place two +1/+1 counters on it.)",
+      "Tribute 2 (As this creature enters the battlefield, an opponent of your choice may put two +1/+1 counters on it.)",
       "When Oracle of Bones enters the battlefield, if tribute wasn't paid, you may cast an instant or sorcery card from your hand without paying its mana cost."
     ],
     "flavor_text": null,
@@ -2750,7 +2750,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Tribute 2 (As this creature enters the battlefield, an opponent of your choice may place two +1/+1 counters on it.)",
+      "Tribute 2 (As this creature enters the battlefield, an opponent of your choice may put two +1/+1 counters on it.)",
       "When Pharagax Giant enters the battlefield, if tribute wasn't paid, Pharagax Giant deals 5 damage to each opponent."
     ],
     "flavor_text": null,
@@ -2983,7 +2983,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Trample",
-      "Tribute 3 (As this creature enters the battlefield, an opponent of your choice may place three +1/+1 counters on it.)",
+      "Tribute 3 (As this creature enters the battlefield, an opponent of your choice may put three +1/+1 counters on it.)",
       "When Thunder Brute enters the battlefield, if tribute wasn't paid, it gains haste until end of turn."
     ],
     "flavor_text": null,
@@ -3370,7 +3370,7 @@
     "mana_cost": "3GG",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Tribute 3 (As this creature enters the battlefield, an opponent of your choice may place three +1/+1 counters on it.)",
+      "Tribute 3 (As this creature enters the battlefield, an opponent of your choice may put three +1/+1 counters on it.)",
       "When Nessian Demolok enters the battlefield, if tribute wasn't paid, destroy target noncreature permanent."
     ],
     "flavor_text": null,
@@ -3397,7 +3397,7 @@
     "mana_cost": "4GG",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Tribute 6 (As this creature enters the battlefield, an opponent of your choice may place six +1/+1 counters on it.)",
+      "Tribute 6 (As this creature enters the battlefield, an opponent of your choice may put six +1/+1 counters on it.)",
       "When Nessian Wilds Ravager enters the battlefield, if tribute wasn't paid, you may have Nessian Wilds Ravager fight another target creature. (Each deals damage equal to its power to the other.)"
     ],
     "flavor_text": null,
@@ -3719,7 +3719,7 @@
     "mana_cost": "4G",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Tribute 3 (As this creature enters the battlefield, an opponent of your choice may place three +1/+1 counters on it.)",
+      "Tribute 3 (As this creature enters the battlefield, an opponent of your choice may put three +1/+1 counters on it.)",
       "When Snake of the Golden Grove enters the battlefield, if tribute wasn't paid, you gain 4 life."
     ],
     "flavor_text": "Some fruits are best left ungathered.",
@@ -3886,7 +3886,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Trample",
-      "Tribute 1 (As this creature enters the battlefield, an opponent of your choice may place a +1/+1 counter on it.)",
+      "Tribute 1 (As this creature enters the battlefield, an opponent of your choice may put a +1/+1 counter on it.)",
       "When Fanatic of Xenagos enters the battlefield, if tribute wasn't paid, it gets +1/+1 and gains haste until end of turn."
     ],
     "flavor_text": null,
@@ -3936,7 +3936,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Kiora"
     ],

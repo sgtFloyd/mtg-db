@@ -141,7 +141,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Elspeth"
     ],
@@ -1793,7 +1795,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Name a nonland card. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library."
+      "Choose a nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library."
     ],
     "flavor_text": "\"You claim wisdom, yet I see nothing in here but tawdry wishes.\"",
     "power": null,
@@ -2316,7 +2318,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Haste",
-      "Flameborn Hellion attacks each turn if able."
+      "Flameborn Hellion attacks each combat if able."
     ],
     "flavor_text": "\"The most reliable omen of a future hellion attack is a past hellion attack.\"\n—Spear-Tribe teaching",
     "power": "5",
@@ -2438,7 +2440,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Koth"
     ],
@@ -2828,6 +2832,7 @@
     ],
     "supertypes": [],
     "subtypes": [
+      "Dinosaur",
       "Beast"
     ],
     "rarity": "Common",
@@ -3502,7 +3507,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Venser"
     ],
@@ -3915,7 +3922,7 @@
     "oracle_text": [
       "Indestructible",
       "Darksteel Juggernaut's power and toughness are each equal to the number of artifacts you control.",
-      "Darksteel Juggernaut attacks each turn if able."
+      "Darksteel Juggernaut attacks each combat if able."
     ],
     "flavor_text": "One part unstoppable force, one part immovable object.",
     "power": "*",

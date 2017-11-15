@@ -7,7 +7,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Karn"
     ],
@@ -1555,7 +1557,7 @@
     "oracle_text": [
       "When Entomber Exarch enters the battlefield, choose one —",
       "• Return target creature card from your graveyard to your hand.",
-      "• Target opponent reveals his or her hand, you choose a noncreature card from it, then that player discards that card."
+      "• Target opponent reveals his or her hand. You choose a noncreature card from it. That player discards that card."
     ],
     "flavor_text": null,
     "power": "2",
@@ -2836,8 +2838,8 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}{G}: Death-Hood Cobra gains reach until end of turn. (It can block creatures with flying.)",
-      "{1}{G}: Death-Hood Cobra gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)"
+      "{1}{G}: Death-Hood Cobra gains reach until end of turn.",
+      "{1}{G}: Death-Hood Cobra gains deathtouch until end of turn."
     ],
     "flavor_text": null,
     "power": "2",
@@ -3021,7 +3023,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "You can't get poison counters.",
-      "Creatures you control can't have -1/-1 counters placed on them.",
+      "Creatures you control can't have -1/-1 counters put on them.",
       "Creatures your opponents control lose infect."
     ],
     "flavor_text": "Once a pariah, now Mirrodin's greatest hope.",

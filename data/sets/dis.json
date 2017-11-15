@@ -1027,7 +1027,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Name a nonland card. Target player reveals his or her hand. That player discards a card with that name. If he or she can't, you draw a card."
+      "Choose a nonland card name. Target player reveals his or her hand. That player discards a card with that name. If he or she can't, you draw a card."
     ],
     "flavor_text": "To the Rakdos, the fun is in the shakedown. The loot is usually discarded.",
     "power": null,
@@ -1706,7 +1706,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Kill-Suit Cultist attacks each turn if able.",
+      "Kill-Suit Cultist attacks each combat if able.",
       "{B}, Sacrifice Kill-Suit Cultist: The next time damage would be dealt to target creature this turn, destroy that creature instead."
     ],
     "flavor_text": "Dressed to kill.",
@@ -2000,7 +2000,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Flying",
-      "Utvara Scalper attacks each turn if able."
+      "Utvara Scalper attacks each combat if able."
     ],
     "flavor_text": "He wages war wherever the wind carries him.",
     "power": "1",
@@ -3010,7 +3010,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "Whenever Isperia the Inscrutable deals combat damage to a player, name a card. That player reveals his or her hand. If he or she reveals the named card, search your library for a creature card with flying, reveal it, put it into your hand, then shuffle your library."
+      "Whenever Isperia the Inscrutable deals combat damage to a player, choose a card name. That player reveals his or her hand. If a card with the chosen name is revealed this way, search your library for a creature card with flying, reveal it, put it into your hand, then shuffle your library."
     ],
     "flavor_text": null,
     "power": "3",
@@ -3937,6 +3937,30 @@
     "color_indicator": null
   },
   {
+    "name": "Bound (Bound/Determined)",
+    "set_name": "Dissension",
+    "collector_num": "149a",
+    "illustrator": "Jim Nelson",
+    "types": [
+      "Instant"
+    ],
+    "supertypes": [],
+    "subtypes": [],
+    "rarity": "Rare",
+    "mana_cost": "3BG",
+    "converted_mana_cost": 5,
+    "oracle_text": [
+      "Sacrifice a creature. Return up to X cards from your graveyard to your hand, where X is the number of colors that creature was. Exile this card."
+    ],
+    "flavor_text": null,
+    "power": null,
+    "toughness": null,
+    "loyalty": null,
+    "multiverse_id": 107373,
+    "other_part": "Determined (Bound/Determined)",
+    "color_indicator": null
+  },
+  {
     "name": "Determined (Bound/Determined)",
     "set_name": "Dissension",
     "collector_num": "149b",
@@ -3962,27 +3986,27 @@
     "color_indicator": null
   },
   {
-    "name": "Bound (Bound/Determined)",
+    "name": "Crime (Crime/Punishment)",
     "set_name": "Dissension",
-    "collector_num": "149a",
-    "illustrator": "Jim Nelson",
+    "collector_num": "150a",
+    "illustrator": "Randy Gallegos",
     "types": [
-      "Instant"
+      "Sorcery"
     ],
     "supertypes": [],
     "subtypes": [],
     "rarity": "Rare",
-    "mana_cost": "3BG",
+    "mana_cost": "3WB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Sacrifice a creature. Return up to X cards from your graveyard to your hand, where X is the number of colors that creature was. Exile this card."
+      "Put target creature or enchantment card from an opponent's graveyard onto the battlefield under your control."
     ],
     "flavor_text": null,
     "power": null,
     "toughness": null,
     "loyalty": null,
-    "multiverse_id": 107373,
-    "other_part": "Determined (Bound/Determined)",
+    "multiverse_id": 107285,
+    "other_part": "Punishment (Crime/Punishment)",
     "color_indicator": null
   },
   {
@@ -4007,30 +4031,6 @@
     "loyalty": null,
     "multiverse_id": 107285,
     "other_part": "Crime (Crime/Punishment)",
-    "color_indicator": null
-  },
-  {
-    "name": "Crime (Crime/Punishment)",
-    "set_name": "Dissension",
-    "collector_num": "150a",
-    "illustrator": "Randy Gallegos",
-    "types": [
-      "Sorcery"
-    ],
-    "supertypes": [],
-    "subtypes": [],
-    "rarity": "Rare",
-    "mana_cost": "3WB",
-    "converted_mana_cost": 5,
-    "oracle_text": [
-      "Put target creature or enchantment card from an opponent's graveyard onto the battlefield under your control."
-    ],
-    "flavor_text": null,
-    "power": null,
-    "toughness": null,
-    "loyalty": null,
-    "multiverse_id": 107285,
-    "other_part": "Punishment (Crime/Punishment)",
     "color_indicator": null
   },
   {
@@ -4082,30 +4082,6 @@
     "color_indicator": null
   },
   {
-    "name": "Run (Hit/Run)",
-    "set_name": "Dissension",
-    "collector_num": "152b",
-    "illustrator": "Darrell Riche",
-    "types": [
-      "Instant"
-    ],
-    "supertypes": [],
-    "subtypes": [],
-    "rarity": "Uncommon",
-    "mana_cost": "3RG",
-    "converted_mana_cost": 5,
-    "oracle_text": [
-      "Attacking creatures you control get +1/+0 until end of turn for each other attacking creature."
-    ],
-    "flavor_text": null,
-    "power": null,
-    "toughness": null,
-    "loyalty": null,
-    "multiverse_id": 107387,
-    "other_part": "Hit (Hit/Run)",
-    "color_indicator": null
-  },
-  {
     "name": "Hit (Hit/Run)",
     "set_name": "Dissension",
     "collector_num": "152a",
@@ -4130,27 +4106,27 @@
     "color_indicator": null
   },
   {
-    "name": "Ends (Odds/Ends)",
+    "name": "Run (Hit/Run)",
     "set_name": "Dissension",
-    "collector_num": "153b",
-    "illustrator": "Michael Sutfin",
+    "collector_num": "152b",
+    "illustrator": "Darrell Riche",
     "types": [
       "Instant"
     ],
     "supertypes": [],
     "subtypes": [],
-    "rarity": "Rare",
-    "mana_cost": "3RW",
+    "rarity": "Uncommon",
+    "mana_cost": "3RG",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Target player sacrifices two attacking creatures."
+      "Attacking creatures you control get +1/+0 until end of turn for each other attacking creature."
     ],
     "flavor_text": null,
     "power": null,
     "toughness": null,
     "loyalty": null,
-    "multiverse_id": 107445,
-    "other_part": "Odds (Odds/Ends)",
+    "multiverse_id": 107387,
+    "other_part": "Hit (Hit/Run)",
     "color_indicator": null
   },
   {
@@ -4178,27 +4154,27 @@
     "color_indicator": null
   },
   {
-    "name": "Simple (Pure/Simple)",
+    "name": "Ends (Odds/Ends)",
     "set_name": "Dissension",
-    "collector_num": "154b",
-    "illustrator": "Parente",
+    "collector_num": "153b",
+    "illustrator": "Michael Sutfin",
     "types": [
-      "Sorcery"
+      "Instant"
     ],
     "supertypes": [],
     "subtypes": [],
-    "rarity": "Uncommon",
-    "mana_cost": "1GW",
-    "converted_mana_cost": 3,
+    "rarity": "Rare",
+    "mana_cost": "3RW",
+    "converted_mana_cost": 5,
     "oracle_text": [
-      "Destroy all Auras and Equipment."
+      "Target player sacrifices two attacking creatures."
     ],
     "flavor_text": null,
     "power": null,
     "toughness": null,
     "loyalty": null,
-    "multiverse_id": 107532,
-    "other_part": "Pure (Pure/Simple)",
+    "multiverse_id": 107445,
+    "other_part": "Odds (Odds/Ends)",
     "color_indicator": null
   },
   {
@@ -4226,27 +4202,27 @@
     "color_indicator": null
   },
   {
-    "name": "Development (Research/Development)",
+    "name": "Simple (Pure/Simple)",
     "set_name": "Dissension",
-    "collector_num": "155b",
-    "illustrator": "Greg Staples",
+    "collector_num": "154b",
+    "illustrator": "Parente",
     "types": [
-      "Instant"
+      "Sorcery"
     ],
     "supertypes": [],
     "subtypes": [],
-    "rarity": "Rare",
-    "mana_cost": "3UR",
-    "converted_mana_cost": 5,
+    "rarity": "Uncommon",
+    "mana_cost": "1GW",
+    "converted_mana_cost": 3,
     "oracle_text": [
-      "Create a 3/1 red Elemental creature token unless any opponent has you draw a card. Repeat this process two more times."
+      "Destroy all Auras and Equipment."
     ],
     "flavor_text": null,
     "power": null,
     "toughness": null,
     "loyalty": null,
-    "multiverse_id": 107375,
-    "other_part": "Research (Research/Development)",
+    "multiverse_id": 107532,
+    "other_part": "Pure (Pure/Simple)",
     "color_indicator": null
   },
   {
@@ -4274,27 +4250,27 @@
     "color_indicator": null
   },
   {
-    "name": "Fall (Rise/Fall)",
+    "name": "Development (Research/Development)",
     "set_name": "Dissension",
-    "collector_num": "156b",
-    "illustrator": "Pete Venters",
+    "collector_num": "155b",
+    "illustrator": "Greg Staples",
     "types": [
-      "Sorcery"
+      "Instant"
     ],
     "supertypes": [],
     "subtypes": [],
-    "rarity": "Uncommon",
-    "mana_cost": "BR",
-    "converted_mana_cost": 2,
+    "rarity": "Rare",
+    "mana_cost": "3UR",
+    "converted_mana_cost": 5,
     "oracle_text": [
-      "Target player reveals two cards at random from his or her hand, then discards each nonland card revealed this way."
+      "Create a 3/1 red Elemental creature token unless any opponent has you draw a card. Repeat this process two more times."
     ],
     "flavor_text": null,
     "power": null,
     "toughness": null,
     "loyalty": null,
-    "multiverse_id": 107423,
-    "other_part": "Rise (Rise/Fall)",
+    "multiverse_id": 107375,
+    "other_part": "Research (Research/Development)",
     "color_indicator": null
   },
   {
@@ -4319,6 +4295,30 @@
     "loyalty": null,
     "multiverse_id": 107423,
     "other_part": "Fall (Rise/Fall)",
+    "color_indicator": null
+  },
+  {
+    "name": "Fall (Rise/Fall)",
+    "set_name": "Dissension",
+    "collector_num": "156b",
+    "illustrator": "Pete Venters",
+    "types": [
+      "Sorcery"
+    ],
+    "supertypes": [],
+    "subtypes": [],
+    "rarity": "Uncommon",
+    "mana_cost": "BR",
+    "converted_mana_cost": 2,
+    "oracle_text": [
+      "Target player reveals two cards at random from his or her hand, then discards each nonland card revealed this way."
+    ],
+    "flavor_text": null,
+    "power": null,
+    "toughness": null,
+    "loyalty": null,
+    "multiverse_id": 107423,
+    "other_part": "Rise (Rise/Fall)",
     "color_indicator": null
   },
   {

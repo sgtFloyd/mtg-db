@@ -217,7 +217,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Elspeth"
     ],
@@ -3089,7 +3091,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Deathbellow Raider attacks each turn if able.",
+      "Deathbellow Raider attacks each combat if able.",
       "{2}{B}: Regenerate Deathbellow Raider."
     ],
     "flavor_text": "\"The temple has been rededicated. It belongs to Mogis now.\"\n—Rastos, disciple of Mogis",
@@ -3381,7 +3383,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Magma Jet deals 2 damage to target creature or player. Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)"
+      "Magma Jet deals 2 damage to target creature or player. Scry 2."
     ],
     "flavor_text": null,
     "power": null,
@@ -4981,7 +4983,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Ashiok"
     ],
@@ -5075,7 +5079,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Daxos of Meletis can't be blocked by creatures with power 3 or greater.",
-      "Whenever Daxos of Meletis deals combat damage to a player, exile the top card of that player's library. You gain life equal to that card's converted mana cost. Until end of turn, you may cast that card and you may spend mana as though it were mana of any color to cast it."
+      "Whenever Daxos of Meletis deals combat damage to a player, exile the top card of that player's library. You gain life equal to that card's converted mana cost. Until end of turn, you may cast that card and you may spend mana as though it were mana of any color to cast that spell."
     ],
     "flavor_text": null,
     "power": "2",
@@ -5560,7 +5564,9 @@
     "types": [
       "Planeswalker"
     ],
-    "supertypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
     "subtypes": [
       "Xenagos"
     ],
@@ -6096,7 +6102,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. ({C} represents colorless mana.)",
+      "{T}: Add {C} to your mana pool.",
       "{1}, {T}: Add one mana of any color to your mana pool."
     ],
     "flavor_text": "Philosophers speak of a place where myths wash like tides upon the shores of the real.",
