@@ -11,4 +11,5 @@ end
 desc "Scrape card data from gatherer for sets provided via ARGV"
 task :cards do
   ruby "script/dump_cards.rb #{ARGV[1..-1].join(' ')}"
+  ARGV[1..-1].map{|_| task(_.to_sym){}} # Rake tries to execute ARGV as tasks
 end
