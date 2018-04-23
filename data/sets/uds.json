@@ -311,7 +311,7 @@
     "mana_cost": "4W",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{T}: Prevent the next 4 damage that would be dealt to target creature or player this turn."
+      "{T}: Prevent the next 4 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "Behind his eyes is the pain of every soldier his hands have healed.",
     "power": "1",
@@ -459,7 +459,7 @@
     "mana_cost": "2WW",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Exile target enchantment. Search its controller's graveyard, hand, and library for all cards with the same name as that enchantment and exile them. Then that player shuffles his or her library."
+      "Exile target enchantment. Search its controller's graveyard, hand, and library for all cards with the same name as that enchantment and exile them. Then that player shuffles their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -824,7 +824,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player skips his or her next draw step."
+      "Target player skips their next draw step."
     ],
     "flavor_text": "\"Mind if I just lie down right here for a few weeks?\"",
     "power": null,
@@ -1086,7 +1086,7 @@
     "mana_cost": "2UU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Counter target instant or sorcery spell. Search its controller's graveyard, hand, and library for all cards with the same name as that spell and exile them. Then that player shuffles his or her library."
+      "Counter target instant or sorcery spell. Search its controller's graveyard, hand, and library for all cards with the same name as that spell and exile them. Then that player shuffles their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -1401,7 +1401,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Until end of turn, whenever a player taps a Swamp for mana, that player adds {B} to his or her mana pool (in addition to the mana the land produces)."
+      "Until end of turn, whenever a player taps a Swamp for mana, that player adds an additional {B}."
     ],
     "flavor_text": "The muck claims a hundred living things for each meager treasure it spews forth.",
     "power": null,
@@ -1425,7 +1425,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever a creature enters the battlefield, you lose 1 life and add {B} to your mana pool."
+      "Whenever a creature enters the battlefield, you lose 1 life and add {B}."
     ],
     "flavor_text": "\"‘Davvol, blast those elves.' ‘Davvol, transport those troops.' No one cares that today is my birthday.\"",
     "power": null,
@@ -1529,7 +1529,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player reveals his or her hand. You choose a nonbasic land card from it. That player discards that card."
+      "Target player reveals their hand. You choose a nonbasic land card from it. That player discards that card."
     ],
     "flavor_text": "\"The rate of spread in this region is unacceptable. Start again.\"\n—Davvol, Evincar of Rath",
     "power": null,
@@ -1553,7 +1553,7 @@
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Exile target nonblack creature. Search its controller's graveyard, hand, and library for all cards with the same name as that creature and exile them. Then that player shuffles his or her library."
+      "Exile target nonblack creature. Search its controller's graveyard, hand, and library for all cards with the same name as that creature and exile them. Then that player shuffles their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -1994,7 +1994,7 @@
     "mana_cost": "5R",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "{T}, Sacrifice a creature: Bloodshot Cyclops deals damage equal to the sacrificed creature's power to target creature or player."
+      "{T}, Sacrifice a creature: Bloodshot Cyclops deals damage equal to the sacrificed creature's power to any target."
     ],
     "flavor_text": "After their first encounter, the goblins named him Chuck.",
     "power": "4",
@@ -2021,7 +2021,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{2}{R}, {T}: Reveal any number of red cards in your hand. Cinder Seer deals X damage to target creature or player, where X is the number of cards revealed this way."
+      "{2}{R}, {T}: Reveal any number of red cards in your hand. Cinder Seer deals X damage to any target, where X is the number of cards revealed this way."
     ],
     "flavor_text": null,
     "power": "1",
@@ -2100,7 +2100,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Flame Jet deals 3 damage to target player.",
+      "Flame Jet deals 3 damage to target player or planeswalker.",
       "Cycling {2} ({2}, Discard this card: Draw a card.)"
     ],
     "flavor_text": "Did the land make the Keldons? Did the Keldons make the land? Or were they simply meant for each other?",
@@ -2152,7 +2152,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}: Goblin Festival deals 1 damage to target creature or player. Flip a coin. If you lose the flip, choose one of your opponents. That player gains control of Goblin Festival."
+      "{2}: Goblin Festival deals 1 damage to any target. Flip a coin. If you lose the flip, choose one of your opponents. That player gains control of Goblin Festival."
     ],
     "flavor_text": "\"What are we celebratin' again?\"",
     "power": null,
@@ -2282,7 +2282,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "At the beginning of each player's end step, if that player didn't cast a spell this turn, Impatience deals 2 damage to him or her."
+      "At the beginning of each player's end step, if that player didn't cast a spell this turn, Impatience deals 2 damage to that player."
     ],
     "flavor_text": "Ask a Keldon to hold his temper and you'll be left holding your guts.",
     "power": null,
@@ -2310,7 +2310,7 @@
     "oracle_text": [
       "Enchant creature",
       "At the beginning of your upkeep, you may put a fuse counter on Incendiary.",
-      "When enchanted creature dies, Incendiary deals X damage to target creature or player, where X is the number of fuse counters on Incendiary."
+      "When enchanted creature dies, Incendiary deals X damage to any target, where X is the number of fuse counters on Incendiary."
     ],
     "flavor_text": null,
     "power": null,
@@ -2339,7 +2339,7 @@
     "oracle_text": [
       "Haste",
       "Echo {2}{R}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)",
-      "When Keldon Champion enters the battlefield, it deals 3 damage to target player."
+      "When Keldon Champion enters the battlefield, it deals 3 damage to target player or planeswalker."
     ],
     "flavor_text": null,
     "power": "3",
@@ -2391,7 +2391,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Sacrifice any number of Mountains. Landslide deals that much damage to target player."
+      "Sacrifice any number of Mountains. Landslide deals that much damage to target player or planeswalker."
     ],
     "flavor_text": "Sometimes the mountain takes.\n—Keldon saying",
     "power": null,
@@ -2443,8 +2443,8 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Reckless Abandon, sacrifice a creature.",
-      "Reckless Abandon deals 4 damage to target creature or player."
+      "As an additional cost to cast this spell, sacrifice a creature.",
+      "Reckless Abandon deals 4 damage to any target."
     ],
     "flavor_text": "The climax of a warlord's career is always death.",
     "power": null,
@@ -2492,7 +2492,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Reveal any number of red cards in your hand. Scent of Cinder deals X damage to target creature or player, where X is the number of cards revealed this way."
+      "Reveal any number of red cards in your hand. Scent of Cinder deals X damage to any target, where X is the number of cards revealed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -2516,7 +2516,7 @@
     "mana_cost": "2RR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Exile target nonbasic land. Search its controller's graveyard, hand, and library for all cards with the same name as that land and exile them. Then that player shuffles his or her library."
+      "Exile target nonbasic land. Search its controller's graveyard, hand, and library for all cards with the same name as that land and exile them. Then that player shuffles their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -2799,7 +2799,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool.",
+      "{T}: Add {G}.",
       "{2}, Sacrifice Heart Warden: Draw a card."
     ],
     "flavor_text": "\"In Llanowar, we tend the forest's boughs and branches. In Yavimaya, we are a part of them.\"\n—Rofellos of Llanowar",
@@ -2985,7 +2985,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Enchant creature",
-      "When enchanted creature dies, that creature's controller may search his or her library for a creature card and put that card onto the battlefield. If that player does, he or she shuffles his or her library."
+      "When enchanted creature dies, that creature's controller may search their library for a creature card and put that card onto the battlefield. If that player does, they shuffle their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -3064,7 +3064,7 @@
     "mana_cost": "GG",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool for each Forest you control."
+      "{T}: Add {G} for each Forest you control."
     ],
     "flavor_text": null,
     "power": "2",
@@ -3136,7 +3136,7 @@
     "mana_cost": "2GG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Exile target artifact. Search its controller's graveyard, hand, and library for all cards with the same name as that artifact and exile them. Then that player shuffles his or her library."
+      "Exile target artifact. Search its controller's graveyard, hand, and library for all cards with the same name as that artifact and exile them. Then that player shuffles their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -3506,7 +3506,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Reveal any number of artifact cards in your hand. Add {C}{C} to your mana pool for each card revealed this way."
+      "{T}: Reveal any number of artifact cards in your hand. Add {C}{C} for each card revealed this way."
     ],
     "flavor_text": "\"At this rate I fully expect to be replaced by a clockwork golem by year's end.\"\n—Barrin",
     "power": "1",
@@ -3555,7 +3555,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{3}, {T}: Choose a number greater than 0 and a color. Target opponent reveals his or her hand. If that opponent reveals exactly the chosen number of cards of the chosen color, you draw a card."
+      "{3}, {T}: Choose a number greater than 0 and a color. Target opponent reveals their hand. If that opponent reveals exactly the chosen number of cards of the chosen color, you draw a card."
     ],
     "flavor_text": null,
     "power": null,
@@ -3579,7 +3579,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "As long as Storage Matrix is untapped, each player chooses artifact, creature, or land during his or her untap step. That player can untap only permanents of the chosen type this step."
+      "As long as Storage Matrix is untapped, each player chooses artifact, creature, or land during their untap step. That player can untap only permanents of the chosen type this step."
     ],
     "flavor_text": null,
     "power": null,
@@ -3603,7 +3603,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{T}: Add {C}{C}{C} to your mana pool."
+      "{T}: Add {C}{C}{C}."
     ],
     "flavor_text": "Urza's metathran children were conceived, birthed, and nurtured by an integrated system of machines.",
     "power": null,
@@ -3627,7 +3627,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{1}, {T}, Exile Thran Foundry: Target player shuffles his or her graveyard into his or her library."
+      "{1}, {T}, Exile Thran Foundry: Target player shuffles their graveyard into their library."
     ],
     "flavor_text": "\"What we do not use up, we use again.\"\n—Urza",
     "power": null,
@@ -3705,7 +3705,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{G}, {T}: Regenerate target creature."
     ],
     "flavor_text": "For all its traps and defenses, Yavimaya has its havens, too.",

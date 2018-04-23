@@ -367,8 +367,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Kicker {2}{U} (You may pay an additional {2}{U} as you cast this spell.)",
-      "Destroy target artifact or enchantment.",
-      "If Dismantling Blow was kicked, draw two cards."
+      "Destroy target artifact or enchantment. If this spell was kicked, draw two cards."
     ],
     "flavor_text": null,
     "power": null,
@@ -392,7 +391,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "If a source would deal 4 or more damage to a creature or player, that source deals 3 damage to that creature or player instead."
+      "If a source would deal 4 or more damage to a permanent or player, that source deals 3 damage to that permanent or player instead."
     ],
     "flavor_text": "\"Serra's light isn't easily extinguished.\"\n—Reya Dawnbringer",
     "power": null,
@@ -416,7 +415,7 @@
     "mana_cost": "3W",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "At the beginning of combat on each opponent's turn, separate all creatures that player controls into two piles. Only creatures in the pile of his or her choice can attack this turn."
+      "At the beginning of combat on each opponent's turn, separate all creatures that player controls into two piles. Only creatures in the pile of their choice can attack this turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -467,7 +466,7 @@
     "mana_cost": "4W",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Each player chooses from the lands he or she controls a land of each basic land type, then sacrifices the rest."
+      "Each player chooses from the lands they control a land of each basic land type, then sacrifices the rest."
     ],
     "flavor_text": "\"The earth shook, the sky rained fire, and it seemed the world was ending.\"\n—Benalish refugee",
     "power": null,
@@ -593,7 +592,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Kicker {1} (You may pay an additional {1} as you cast this spell.)",
-      "Prevent the next 2 damage that would be dealt to target creature or player this turn. If Orim's Touch was kicked, prevent the next 4 damage that would be dealt to that creature or player this turn instead."
+      "Prevent the next 2 damage that would be dealt to any target this turn. If this spell was kicked, prevent the next 4 damage that would be dealt to that permanent or player this turn instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -1268,7 +1267,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Domain — Creatures can't attack you unless their controller pays {X} for each creature he or she controls that's attacking you, where X is the number of basic land types among lands you control."
+      "Domain — Creatures can't attack you unless their controller pays {X} for each creature they control that's attacking you, where X is the number of basic land types among lands you control."
     ],
     "flavor_text": null,
     "power": null,
@@ -1709,8 +1708,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Kicker {1}{B} (You may pay an additional {1}{B} as you cast this spell.)",
-      "Draw three cards, then discard two cards.",
-      "If Probe was kicked, target player discards two cards."
+      "Draw three cards, then discard two cards. If this spell was kicked, target player discards two cards."
     ],
     "flavor_text": null,
     "power": null,
@@ -1735,7 +1733,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Kicker {2} (You may pay an additional {2} as you cast this spell.)",
-      "Counter target spell if its converted mana cost is 2 or less. If Prohibit was kicked, counter that spell if its converted mana cost is 4 or less instead."
+      "Counter target spell if its converted mana cost is 2 or less. If this spell was kicked, counter that spell if its converted mana cost is 4 or less instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -1759,7 +1757,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Whenever a player chooses one or more targets, each player reveals the top card of his or her library. The player who reveals the card with the highest converted mana cost may change the target or targets. If two or more cards are tied for highest cost, the target or targets remain unchanged. Changing targets this way doesn't trigger abilities of permanents named Psychic Battle."
+      "Whenever a player chooses one or more targets, each player reveals the top card of their library. The player who reveals the card with the highest converted mana cost may change the target or targets. If two or more cards are tied for highest cost, the target or targets remain unchanged. Changing targets this way doesn't trigger abilities of permanents named Psychic Battle."
     ],
     "flavor_text": null,
     "power": null,
@@ -2367,7 +2365,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Choose a color. Target player reveals his or her hand and you choose a card of that color from it. That player discards that card."
+      "Choose a color. Target player reveals their hand and you choose a card of that color from it. That player discards that card."
     ],
     "flavor_text": "\"I'll wring out your tiny mind like a sponge.\"\n—Urborg witch",
     "power": null,
@@ -2392,7 +2390,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)",
-      "Destroy target nonblack creature. It can't be regenerated. If Agonizing Demise was kicked, it deals damage equal to that creature's power to the creature's controller."
+      "Destroy target nonblack creature. It can't be regenerated. If this spell was kicked, Agonizing Demise deals damage equal to that creature's power to the creature's controller."
     ],
     "flavor_text": null,
     "power": null,
@@ -2471,7 +2469,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}: Add {B} to your mana pool."
+      "{1}: Add {B}."
     ],
     "flavor_text": "\"Urborg's magic is strong. Did Urza send you to protect us or to protect against us?\"\n—Urborg witch, to Barrin",
     "power": "1",
@@ -2835,7 +2833,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Kicker {4} (You may pay an additional {4} as you cast this spell.)",
-      "Target player discards a card. If Hypnotic Cloud was kicked, that player discards three cards instead."
+      "Target player discards a card. If this spell was kicked, that player discards three cards instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -3234,7 +3232,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Spend only black and/or red mana on X.",
-      "Soul Burn deals X damage to target creature or player. You gain life equal to the damage dealt, but not more than the amount of {B} spent on X, the player's life total before Soul Burn dealt damage, or the creature's toughness."
+      "Soul Burn deals X damage to any target. You gain life equal to the damage dealt, but not more than the amount of {B} spent on X, the player's life total before the damage was dealt, the planeswalker's loyalty before the damage was dealt, or the creature's toughness."
     ],
     "flavor_text": null,
     "power": null,
@@ -3363,7 +3361,7 @@
     "mana_cost": "5B",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Choose a creature type. Target player reveals his or her hand and discards all creature cards of that type. Then destroy all creatures of that type that player controls. They can't be regenerated."
+      "Choose a creature type. Target player reveals their hand and discards all creature cards of that type. Then destroy all creatures of that type that player controls. They can't be regenerated."
     ],
     "flavor_text": null,
     "power": null,
@@ -3388,7 +3386,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "You may cast Twilight's Call as though it had flash if you pay {2} more to cast it. (You may cast it any time you could cast an instant.)",
-      "Each player returns all creature cards from his or her graveyard to the battlefield."
+      "Each player returns all creature cards from their graveyard to the battlefield."
     ],
     "flavor_text": "Twilight falls. We rise.\n—Necropolis inscription",
     "power": null,
@@ -3574,7 +3572,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Each player separates all nontoken lands he or she controls into two piles. For each player, one of his or her piles is chosen by one of his or her opponents of his or her choice. Destroy all lands in the chosen piles. Tap all lands in the other piles."
+      "Each player separates all nontoken lands they control into two piles. For each player, one of their piles is chosen by one of their opponents of their choice. Destroy all lands in the chosen piles. Tap all lands in the other piles."
     ],
     "flavor_text": null,
     "power": null,
@@ -3599,7 +3597,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Kicker {2} (You may pay an additional {2} as you cast this spell.)",
-      "Breath of Darigaaz deals 1 damage to each creature without flying and each player. If Breath of Darigaaz was kicked, it deals 4 damage to each creature without flying and each player instead."
+      "Breath of Darigaaz deals 1 damage to each creature without flying and each player. If this spell was kicked, it deals 4 damage to each creature without flying and each player instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -3649,7 +3647,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Cast Chaotic Strike only during combat after blockers are declared.",
+      "Cast this spell only during combat after blockers are declared.",
       "Flip a coin. If you win the flip, target creature gets +1/+1 until end of turn.",
       "Draw a card."
     ],
@@ -3675,7 +3673,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Domain — At the beginning of each player's upkeep, that player gains 1 life for each basic land type among lands he or she controls. Then Collapsing Borders deals 3 damage to him or her."
+      "Domain — At the beginning of each player's upkeep, that player gains 1 life for each basic land type among lands they control. Then Collapsing Borders deals 3 damage to that player."
     ],
     "flavor_text": null,
     "power": null,
@@ -3755,7 +3753,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "You may cast Ghitu Fire as though it had flash if you pay {2} more to cast it. (You may cast it any time you could cast an instant.)",
-      "Ghitu Fire deals X damage to target creature or player."
+      "Ghitu Fire deals X damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -4068,7 +4066,7 @@
     "mana_cost": "6RR",
     "converted_mana_cost": 8,
     "oracle_text": [
-      "Obliterate can't be countered.",
+      "This spell can't be countered.",
       "Destroy all artifacts, creatures, and lands. They can't be regenerated."
     ],
     "flavor_text": "For his family, Barrin made a funeral pyre of Tolaria.",
@@ -4094,7 +4092,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Kicker {2} (You may pay an additional {2} as you cast this spell.)",
-      "Destroy target artifact if its converted mana cost is 2 or less. If Overload was kicked, destroy that artifact if its converted mana cost is 5 or less instead."
+      "Destroy target artifact if its converted mana cost is 2 or less. If this spell was kicked, destroy that artifact if its converted mana cost is 5 or less instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -4227,7 +4225,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Kicker {G} (You may pay an additional {G} as you cast this spell.)",
-      "Creatures you control gain first strike until end of turn. If Savage Offensive was kicked, they get +1/+1 until end of turn."
+      "Creatures you control gain first strike until end of turn. If this spell was kicked, they get +1/+1 until end of turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -4278,7 +4276,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Kicker {R} (You may pay an additional {R} as you cast this spell.)",
-      "Scorching Lava deals 2 damage to target creature or player. If Scorching Lava was kicked, that creature can't be regenerated this turn and if it would die this turn, exile it instead."
+      "Scorching Lava deals 2 damage to any target. If this spell was kicked, that creature can't be regenerated this turn and if it would die this turn, exile it instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -4408,7 +4406,7 @@
     "oracle_text": [
       "Kicker {R} (You may pay an additional {R} as you cast this spell.)",
       "Trample, haste",
-      "At the beginning of the end step, sacrifice Skizzik unless it was kicked."
+      "At the beginning of the end step, if Skizzik wasn't kicked, sacrifice it."
     ],
     "flavor_text": null,
     "power": "5",
@@ -4587,7 +4585,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Domain — Tribal Flames deals X damage to target creature or player, where X is the number of basic land types among lands you control."
+      "Domain — Tribal Flames deals X damage to any target, where X is the number of basic land types among lands you control."
     ],
     "flavor_text": "\"Fire is the universal language.\"\n—Jhoira, master artificer",
     "power": null,
@@ -4637,8 +4635,8 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Kicker {8}{R} (You may pay an additional {8}{R} as you cast this spell.)",
-      "Urza's Rage can't be countered by spells or abilities.",
-      "Urza's Rage deals 3 damage to target creature or player. If Urza's Rage was kicked, instead it deals 10 damage to that creature or player and the damage can't be prevented."
+      "This spell can't be countered.",
+      "Urza's Rage deals 3 damage to any target. If this spell was kicked, instead it deals 10 damage to that permanent or player and the damage can't be prevented."
     ],
     "flavor_text": null,
     "power": null,
@@ -4688,7 +4686,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Zap deals 1 damage to target creature or player.",
+      "Zap deals 1 damage to any target.",
       "Draw a card."
     ],
     "flavor_text": "\"All this time I thought Squee was useless,\" chuckled Sisay. \"Who knew he'd be such a good shot?\"",
@@ -4765,7 +4763,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Blurred Mongoose can't be countered.",
+      "This spell can't be countered.",
       "Shroud (This creature can't be the target of spells or abilities.)"
     ],
     "flavor_text": "\"The mongoose blew out its candle and was asleep in bed before the room went dark.\"\n—Llanowar fable",
@@ -4791,7 +4789,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Kicker {2} (You may pay an additional {2} as you cast this spell.)",
-      "Canopy Surge deals 1 damage to each creature with flying and each player. If Canopy Surge was kicked, it deals 4 damage to each creature with flying and each player instead."
+      "Canopy Surge deals 1 damage to each creature with flying and each player. If this spell was kicked, it deals 4 damage to each creature with flying and each player instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -4866,7 +4864,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Kicker {5} (You may pay an additional {5} as you cast this spell.)",
-      "Target creature gets +2/+2 until end of turn. If Explosive Growth was kicked, that creature gets +5/+5 until end of turn instead."
+      "Target creature gets +2/+2 until end of turn. If this spell was kicked, that creature gets +5/+5 until end of turn instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -4893,7 +4891,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Enchant land",
-      "Whenever enchanted land is tapped for mana, its controller adds one mana of any color to his or her mana pool (in addition to the mana the land produces)."
+      "Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color."
     ],
     "flavor_text": "As Phyrexians descended, Multani paused to reflect on the beauty that might never be seen again.",
     "power": null,
@@ -4917,7 +4915,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "As an additional cost to cast Harrow, sacrifice a land.",
+      "As an additional cost to cast this spell, sacrifice a land.",
       "Search your library for up to two basic land cards and put them onto the battlefield. Then shuffle your library."
     ],
     "flavor_text": "No spot in nature is truly barren.",
@@ -4970,7 +4968,7 @@
     "mana_cost": "3GG",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Kavu Chameleon can't be countered.",
+      "This spell can't be countered.",
       "{G}: Kavu Chameleon becomes the color of your choice until end of turn."
     ],
     "flavor_text": "\"They weren't part of my plan, but Gaea insisted.\"\n—Urza",
@@ -5156,7 +5154,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}: Target red or white creature gains trample until end of turn. (If the creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)"
+      "{2}: Target red or white creature gains trample until end of turn. (If the creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to the player or planeswalker it's attacking.)"
     ],
     "flavor_text": "\"Let my strength harden your resolve.\"",
     "power": "2",
@@ -5184,7 +5182,7 @@
     "mana_cost": "4GGG",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)",
+      "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
       "Molimo, Maro-Sorcerer's power and toughness are each equal to the number of lands you control."
     ],
     "flavor_text": "\"The world calls and I answer.\"",
@@ -5212,7 +5210,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}{G}: Add one mana of any color to your mana pool."
+      "{1}{G}: Add one mana of any color."
     ],
     "flavor_text": "\"I've journeyed across Dominaria. Phyrexians are everywhere. Plague is everywhere. There's no place left to hide.\"",
     "power": "2",
@@ -5292,8 +5290,8 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "As Quirion Elves enters the battlefield, choose a color.",
-      "{T}: Add {G} to your mana pool.",
-      "{T}: Add one mana of the chosen color to your mana pool."
+      "{T}: Add {G}.",
+      "{T}: Add one mana of the chosen color."
     ],
     "flavor_text": null,
     "power": "1",
@@ -5320,7 +5318,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Quirion Sentinel enters the battlefield, add one mana of any color to your mana pool."
+      "When Quirion Sentinel enters the battlefield, add one mana of any color."
     ],
     "flavor_text": "All elvenkind stood against Phyrexia. The Quirion nation deployed its most spiritual adepts, who wielded the power of their native soil.",
     "power": "2",
@@ -5682,7 +5680,7 @@
     "mana_cost": "4G",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{2}{W}, {T}: Prevent the next 2 damage that would be dealt to target creature or player this turn."
+      "{2}{W}, {T}: Prevent the next 2 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "Protected by druids for untold centuries, the forest began to return the favor.",
     "power": "2",
@@ -5708,7 +5706,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": "The fruit of this fabled tree takes on the flavor of whatever food you love most.",
     "power": "0",
@@ -5791,7 +5789,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Kicker {W} (You may pay an additional {W} as you cast this spell.)",
-      "Target creature gains trample until end of turn. Whenever that creature deals combat damage this turn, if Vigorous Charge was kicked, you gain life equal to that damage."
+      "Target creature gains trample until end of turn. Whenever that creature deals combat damage this turn, if this spell was kicked, you gain life equal to that damage."
     ],
     "flavor_text": null,
     "power": null,
@@ -6196,7 +6194,7 @@
     "mana_cost": "4BR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Cast Cauldron Dance only during combat.",
+      "Cast this spell only during combat.",
       "Return target creature card from your graveyard to the battlefield. That creature gains haste. Return it to your hand at the beginning of the next end step.",
       "You may put a creature card from your hand onto the battlefield. That creature gains haste. Its controller sacrifices it at the beginning of the next end step."
     ],
@@ -6252,7 +6250,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "{B}: Cinder Shade gets +1/+1 until end of turn.",
-      "{R}, Sacrifice Cinder Shade: Cinder Shade deals damage equal to its power to target creature."
+      "{R}, Sacrifice Cinder Shade: It deals damage equal to its power to target creature."
     ],
     "flavor_text": null,
     "power": "1",
@@ -6305,7 +6303,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "Whenever Crosis, the Purger deals combat damage to a player, you may pay {2}{B}. If you do, choose a color, then that player reveals his or her hand and discards all cards of that color."
+      "Whenever Crosis, the Purger deals combat damage to a player, you may pay {2}{B}. If you do, choose a color, then that player reveals their hand and discards all cards of that color."
     ],
     "flavor_text": null,
     "power": "6",
@@ -6334,7 +6332,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "Whenever Darigaaz, the Igniter deals combat damage to a player, you may pay {2}{R}. If you do, choose a color, then that player reveals his or her hand and Darigaaz deals damage to the player equal to the number of cards of that color revealed this way."
+      "Whenever Darigaaz, the Igniter deals combat damage to a player, you may pay {2}{R}. If you do, choose a color, then that player reveals their hand and Darigaaz deals damage to the player equal to the number of cards of that color revealed this way."
     ],
     "flavor_text": null,
     "power": "6",
@@ -6652,7 +6650,7 @@
     "mana_cost": "2UB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Target player reveals his or her hand, then you choose a card other than a basic land card from it. Search that player's graveyard, hand, and library for all cards with the same name as the chosen card and exile them. Then that player shuffles his or her library."
+      "Target player reveals their hand, then you choose a card other than a basic land card from it. Search that player's graveyard, hand, and library for all cards with the same name as the chosen card and exile them. Then that player shuffles their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -6676,7 +6674,7 @@
     "mana_cost": "RG",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}{R}{G}, Discard two cards at random: Meteor Storm deals 4 damage to target creature or player."
+      "{2}{R}{G}, Discard two cards at random: Meteor Storm deals 4 damage to any target."
     ],
     "flavor_text": "The storm wasn't an omen. It was the fulfillment of one.",
     "power": null,
@@ -6750,7 +6748,7 @@
     "mana_cost": "1RG",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land produced, and Overabundance deals 1 damage to him or her."
+      "Whenever a player taps a land for mana, that player adds one mana of any type that land produced, and Overabundance deals 1 damage to the player."
     ],
     "flavor_text": null,
     "power": null,
@@ -6801,7 +6799,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "At the beginning of your upkeep, if Pyre Zombie is in your graveyard, you may pay {1}{B}{B}. If you do, return Pyre Zombie to your hand.",
-      "{1}{R}{R}, Sacrifice Pyre Zombie: Pyre Zombie deals 2 damage to target creature or player."
+      "{1}{R}{R}, Sacrifice Pyre Zombie: It deals 2 damage to any target."
     ],
     "flavor_text": null,
     "power": "2",
@@ -6852,7 +6850,7 @@
     "mana_cost": "2BR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{1}, Pay 2 life: Reckless Assault deals 1 damage to target creature or player."
+      "{1}, Pay 2 life: Reckless Assault deals 1 damage to any target."
     ],
     "flavor_text": "\"How will you fight an enemy that cares nothing for itself?\"\n—The Blind Seer",
     "power": null,
@@ -7012,8 +7010,8 @@
     "mana_cost": "1WU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.",
-      "{T}: Samite Archer deals 1 damage to target creature or player."
+      "{T}: Prevent the next 1 damage that would be dealt to any target this turn.",
+      "{T}: Samite Archer deals 1 damage to any target."
     ],
     "flavor_text": "\"I can preserve ten lives by taking one.\"",
     "power": "1",
@@ -7168,7 +7166,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "At the beginning of your upkeep, target player loses 1 life.",
-      "Sacrifice Smoldering Tar: Smoldering Tar deals 4 damage to target creature. Activate this ability only any time you could cast a sorcery."
+      "Sacrifice Smoldering Tar: It deals 4 damage to target creature. Activate this ability only any time you could cast a sorcery."
     ],
     "flavor_text": null,
     "power": null,
@@ -7192,7 +7190,7 @@
     "mana_cost": "3UUB",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Cast Spinal Embrace only during combat.",
+      "Cast this spell only during combat.",
       "Untap target creature you don't control and gain control of it. It gains haste until end of turn. At the beginning of the next end step, sacrifice it. If you do, you gain life equal to its toughness."
     ],
     "flavor_text": null,
@@ -7481,7 +7479,7 @@
     "mana_cost": "3BR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals his or her hand and discards all nonland cards with converted mana cost equal to the number."
+      "Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals their hand and discards all nonland cards with converted mana cost equal to the number."
     ],
     "flavor_text": null,
     "power": null,
@@ -7757,7 +7755,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Assault deals 2 damage to target creature or player."
+      "Assault deals 2 damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -7881,7 +7879,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {B} or {R} to your mana pool."
+      "{T}: Add {B} or {R}."
     ],
     "flavor_text": "\"The stone whispers to me of dragon's fire and darkness. I wish I'd never pried it from the figurehead of that sunken Keldon longship.\"\n—Isel, master carver",
     "power": null,
@@ -7905,7 +7903,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{1}, {T}, Sacrifice Chromatic Sphere: Add one mana of any color to your mana pool. Draw a card."
+      "{1}, {T}, Sacrifice Chromatic Sphere: Add one mana of any color. Draw a card."
     ],
     "flavor_text": "\"Let insight and energy be your guides.\"\n—The Blind Seer, to Gerrard",
     "power": null,
@@ -7932,7 +7930,7 @@
     "mana_cost": "5",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{1}, Sacrifice Crosis's Attendant: Add {U}{B}{R} to your mana pool."
+      "{1}, Sacrifice Crosis's Attendant: Add {U}{B}{R}."
     ],
     "flavor_text": "\"Crosis is the eye of the ur-dragon, piercing illusion and darkness.\"",
     "power": "3",
@@ -7959,7 +7957,7 @@
     "mana_cost": "5",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{1}, Sacrifice Darigaaz's Attendant: Add {B}{R}{G} to your mana pool."
+      "{1}, Sacrifice Darigaaz's Attendant: Add {B}{R}{G}."
     ],
     "flavor_text": "\"Darigaaz is the breath of the ur-dragon, burning away the burdens of mortality.\"",
     "power": "3",
@@ -7983,7 +7981,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {U} or {B} to your mana pool."
+      "{T}: Add {U} or {B}."
     ],
     "flavor_text": "\"A strange skull was turned up by an Ephran farmer's plow. I traded a copper ring for the ‘ox skull.' It resonates of the sea and danger.\"\n—Isel, master carver",
     "power": null,
@@ -8010,7 +8008,7 @@
     "mana_cost": "5",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{1}, Sacrifice Dromar's Attendant: Add {W}{U}{B} to your mana pool."
+      "{1}, Sacrifice Dromar's Attendant: Add {W}{U}{B}."
     ],
     "flavor_text": "\"Dromar is the wings of the ur-dragon, sweeping away all opposition.\"",
     "power": "3",
@@ -8062,7 +8060,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Flying",
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": "Lotus fields are too valuable to leave undefended.",
     "power": "4",
@@ -8086,7 +8084,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Sacrifice a creature: Add one mana of any color to your mana pool."
+      "Sacrifice a creature: Add one mana of any color."
     ],
     "flavor_text": "\"Your life was meaningless, but your death will glorify Yawgmoth.\"\n—Tsabo Tavoc",
     "power": null,
@@ -8110,7 +8108,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}, Pay 1 life: Add one mana of any color to your mana pool."
+      "{T}, Pay 1 life: Add one mana of any color."
     ],
     "flavor_text": "\"There's nothing I wouldn't give to achieve victory. Can you say the same?\"\n—Tsabo Tavoc, to Gerrard",
     "power": null,
@@ -8185,7 +8183,7 @@
     "mana_cost": "5",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{1}, Sacrifice Rith's Attendant: Add {R}{G}{W} to your mana pool."
+      "{1}, Sacrifice Rith's Attendant: Add {R}{G}{W}."
     ],
     "flavor_text": "\"Rith is the claw of the ur-dragon, scattering seeds of devastation.\"",
     "power": "3",
@@ -8209,7 +8207,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {W} or {U} to your mana pool."
+      "{T}: Add {W} or {U}."
     ],
     "flavor_text": "\"Today a seashell fell from the empty sky here in Kinymu, a hundred leagues from the sea. I'm torn—shall I carve a woman or a bird?\"\n—Isel, master carver",
     "power": null,
@@ -8287,7 +8285,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {G} or {W} to your mana pool."
+      "{T}: Add {G} or {W}."
     ],
     "flavor_text": "\"An elvish adventurer unearthed this stone in Jolrael's jungle. Now it's truly fit for display in one of her palaces.\"\n—Isel, master carver",
     "power": null,
@@ -8314,7 +8312,7 @@
     "mana_cost": "5",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{1}, Sacrifice Treva's Attendant: Add {G}{W}{U} to your mana pool."
+      "{1}, Sacrifice Treva's Attendant: Add {G}{W}{U}."
     ],
     "flavor_text": "\"Treva is the voice of the ur-dragon, demanding cries of worship.\"",
     "power": "3",
@@ -8338,7 +8336,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {R} or {G} to your mana pool."
+      "{T}: Add {R} or {G}."
     ],
     "flavor_text": "\"I found a troll-horn fragment in the wooded foothills of Hurloon, and it keeps growing larger. I wonder, is the horn recreating itself or the troll?\"\n—Isel, master carver",
     "power": null,
@@ -8412,8 +8410,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Ancient Spring enters the battlefield tapped.",
-      "{T}: Add {U} to your mana pool.",
-      "{T}, Sacrifice Ancient Spring: Add {W}{B} to your mana pool."
+      "{T}: Add {U}.",
+      "{T}, Sacrifice Ancient Spring: Add {W}{B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -8437,8 +8435,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}, Sacrifice Archaeological Dig: Add one mana of any color to your mana pool."
+      "{T}: Add {C}.",
+      "{T}, Sacrifice Archaeological Dig: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -8463,7 +8461,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Coastal Tower enters the battlefield tapped.",
-      "{T}: Add {W} or {U} to your mana pool."
+      "{T}: Add {W} or {U}."
     ],
     "flavor_text": "The Capashen built the highest towers in Benalia to afford themselves the best view.",
     "power": null,
@@ -8488,7 +8486,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Elfhame Palace enters the battlefield tapped.",
-      "{T}: Add {G} or {W} to your mana pool."
+      "{T}: Add {G} or {W}."
     ],
     "flavor_text": "Llanowar has seven elfhames, or kingdoms, each with its own ruler. Their palaces are objects of awe, wonder, and envy.",
     "power": null,
@@ -8513,8 +8511,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Geothermal Crevice enters the battlefield tapped.",
-      "{T}: Add {R} to your mana pool.",
-      "{T}, Sacrifice Geothermal Crevice: Add {B}{G} to your mana pool."
+      "{T}: Add {R}.",
+      "{T}, Sacrifice Geothermal Crevice: Add {B}{G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -8539,8 +8537,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Irrigation Ditch enters the battlefield tapped.",
-      "{T}: Add {W} to your mana pool.",
-      "{T}, Sacrifice Irrigation Ditch: Add {G}{U} to your mana pool."
+      "{T}: Add {W}.",
+      "{T}, Sacrifice Irrigation Ditch: Add {G}{U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -8566,8 +8564,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{4}{R}, {T}, Sacrifice a creature: Keldon Necropolis deals 2 damage to target creature or player."
+      "{T}: Add {C}.",
+      "{4}{R}, {T}, Sacrifice a creature: Keldon Necropolis deals 2 damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -8592,7 +8590,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Salt Marsh enters the battlefield tapped.",
-      "{T}: Add {U} or {B} to your mana pool."
+      "{T}: Add {U} or {B}."
     ],
     "flavor_text": "Only death breeds in stagnant water.\n—Urborg saying",
     "power": null,
@@ -8617,7 +8615,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Shivan Oasis enters the battlefield tapped.",
-      "{T}: Add {R} or {G} to your mana pool."
+      "{T}: Add {R} or {G}."
     ],
     "flavor_text": "Only the hardiest explorers survive to eat the fruit.",
     "power": null,
@@ -8642,8 +8640,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Sulfur Vent enters the battlefield tapped.",
-      "{T}: Add {B} to your mana pool.",
-      "{T}, Sacrifice Sulfur Vent: Add {U}{R} to your mana pool."
+      "{T}: Add {B}.",
+      "{T}, Sacrifice Sulfur Vent: Add {U}{R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -8668,8 +8666,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Tinder Farm enters the battlefield tapped.",
-      "{T}: Add {G} to your mana pool.",
-      "{T}, Sacrifice Tinder Farm: Add {R}{W} to your mana pool."
+      "{T}: Add {G}.",
+      "{T}, Sacrifice Tinder Farm: Add {R}{W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -8694,7 +8692,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Urborg Volcano enters the battlefield tapped.",
-      "{T}: Add {B} or {R} to your mana pool."
+      "{T}: Add {B} or {R}."
     ],
     "flavor_text": "Deep in the heart of Urborg lie massive volcanoes whose thick black smoke covers the land with perpetual darkness.",
     "power": null,
@@ -8722,7 +8720,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8750,7 +8748,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8778,7 +8776,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8806,7 +8804,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8834,7 +8832,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8862,7 +8860,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8890,7 +8888,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8918,7 +8916,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8946,7 +8944,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8974,7 +8972,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -9002,7 +9000,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -9030,7 +9028,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -9058,7 +9056,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -9086,7 +9084,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -9114,7 +9112,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -9142,7 +9140,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -9170,7 +9168,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -9198,7 +9196,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -9226,7 +9224,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -9254,7 +9252,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,

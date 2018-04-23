@@ -454,7 +454,7 @@
     "mana_cost": "XW",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Prevent the next X damage that would be dealt to you and/or permanents you control this turn. If damage is prevented this way, Divine Deflection deals that much damage to target creature or player."
+      "Prevent the next X damage that would be dealt to you and/or permanents you control this turn. If damage is prevented this way, Divine Deflection deals that much damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -1274,7 +1274,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Target player puts the top X cards of his or her library into his or her graveyard, where X is the number of lands you control."
+      "Target player puts the top X cards of their library into their graveyard, where X is the number of lands you control."
     ],
     "flavor_text": "Stray into the Morkrut and it may rise to claim you.",
     "power": null,
@@ -1871,7 +1871,7 @@
     "mana_cost": "4U",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "When Rotcrown Ghoul dies, target player puts the top five cards of his or her library into his or her graveyard."
+      "When Rotcrown Ghoul dies, target player puts the top five cards of their library into their graveyard."
     ],
     "flavor_text": "\"Don't look into its eyes. It's thinking things no dead thing should think.\"\n—Captain Eberhart",
     "power": "3",
@@ -2007,7 +2007,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)",
-      "As long as Stern Mentor is paired with another creature, each of those creatures has \"{T}: Target player puts the top two cards of his or her library into his or her graveyard.\""
+      "As long as Stern Mentor is paired with another creature, each of those creatures has \"{T}: Target player puts the top two cards of their library into their graveyard.\""
     ],
     "flavor_text": null,
     "power": "2",
@@ -2031,7 +2031,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Target opponent exiles cards from the top of his or her library until he or she exiles a nonland card. Until end of turn, you may cast that card without paying its mana cost."
+      "Target opponent exiles cards from the top of their library until they exile a nonland card. Until end of turn, you may cast that card without paying its mana cost."
     ],
     "flavor_text": null,
     "power": null,
@@ -2191,7 +2191,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target opponent reveals his or her hand. You choose a card from it with converted mana cost 4 or greater and exile that card."
+      "Target opponent reveals their hand. You choose a card from it with converted mana cost 4 or greater and exile that card."
     ],
     "flavor_text": "Just as with a peach, the first bite is always the juiciest.",
     "power": null,
@@ -2291,7 +2291,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Bone Splinters, sacrifice a creature.",
+      "As an additional cost to cast this spell, sacrifice a creature.",
       "Destroy target creature."
     ],
     "flavor_text": "\"Which do you deserve, the heft of a femur or the graceful sharpness of a forearm? Decisions, decisions . . .\"\n—Gisa the Mad",
@@ -2345,7 +2345,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{2}{B}, Sacrifice a creature: Target opponent reveals his or her hand. You choose a card from it. That player discards that card. Activate this ability only any time you could cast a sorcery."
+      "{2}{B}, Sacrifice a creature: Target opponent reveals their hand. You choose a card from it. That player discards that card. Activate this ability only any time you could cast a sorcery."
     ],
     "flavor_text": "Those without breath can't complain.",
     "power": "3",
@@ -2526,7 +2526,7 @@
     "mana_cost": "3BB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "At the beginning of your upkeep, put a despair counter on Descent into Madness, then each player exiles X permanents he or she controls and/or cards from his or her hand, where X is the number of despair counters on Descent into Madness."
+      "At the beginning of your upkeep, put a despair counter on Descent into Madness, then each player exiles X permanents they control and/or cards from their hand, where X is the number of despair counters on Descent into Madness."
     ],
     "flavor_text": "The stairs lead down in both directions.",
     "power": null,
@@ -2885,7 +2885,7 @@
     "mana_cost": "XB",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "For each creature, its controller sacrifices it unless he or she pays X life."
+      "For each creature, its controller sacrifices it unless they pay X life."
     ],
     "flavor_text": "\"I come looking for demons and I find a plane full of angels. I hate angels.\"\n—Liliana Vess",
     "power": null,
@@ -3321,7 +3321,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Add {R} to your mana pool for each creature you control."
+      "Add {R} for each creature you control."
     ],
     "flavor_text": "\"A church is just wood and walls. A congregation is the faithful praising the angels.\"\n—Kolman, elder of Gatstaf",
     "power": null,
@@ -3345,7 +3345,7 @@
     "mana_cost": "XXR",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Bonfire of the Damned deals X damage to target player and each creature he or she controls.",
+      "Bonfire of the Damned deals X damage to target player or planeswalker and each creature that player or that planeswalker's controller controls.",
       "Miracle {X}{R} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)"
     ],
     "flavor_text": null,
@@ -3370,8 +3370,8 @@
     "mana_cost": "2RRR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "As an additional cost to cast Burn at the Stake, tap any number of untapped creatures you control.",
-      "Burn at the Stake deals damage to target creature or player equal to three times the number of creatures tapped this way."
+      "As an additional cost to cast this spell, tap any number of untapped creatures you control.",
+      "Burn at the Stake deals damage to any target equal to three times the number of creatures tapped this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -3528,7 +3528,7 @@
     "mana_cost": "5R",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "When Gang of Devils dies, it deals 3 damage divided as you choose among one, two, or three target creatures and/or players."
+      "When Gang of Devils dies, it deals 3 damage divided as you choose among one, two, or three targets."
     ],
     "flavor_text": "\"Well, how could I know they'd explode?\"\n—Gregel, township militia",
     "power": "3",
@@ -3692,7 +3692,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Kessig Malcontents enters the battlefield, it deals damage to target player equal to the number of Humans you control."
+      "When Kessig Malcontents enters the battlefield, it deals damage to target player or planeswalker equal to the number of Humans you control."
     ],
     "flavor_text": "Discontent is a powerful weapon in the hands of a mob.",
     "power": "3",
@@ -3774,7 +3774,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Enchant creature",
-      "Enchanted creature has haste and \"{T}: This creature deals 1 damage to target creature or player.\""
+      "Enchanted creature has haste and \"{T}: This creature deals 1 damage to any target.\""
     ],
     "flavor_text": "\"Undead flesh is dry and papery. A single spark and ‘poof.' No more ghoul.\"",
     "power": null,
@@ -3881,7 +3881,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Pillar of Flame deals 2 damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead."
+      "Pillar of Flame deals 2 damage to any target. If a creature dealt damage this way would die this turn, exile it instead."
     ],
     "flavor_text": "\"May the worthy spend an eternity in Blessed Sleep. May the wicked find the peace of oblivion.\"",
     "power": null,
@@ -3929,7 +3929,7 @@
     "mana_cost": "3RR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Each player discards his or her hand, then draws seven cards.",
+      "Each player discards their hand, then draws seven cards.",
       "Miracle {1}{R} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)"
     ],
     "flavor_text": "In a wave of spells called the Cursemute, Avacyn cleansed the world with divine fire.",
@@ -4031,7 +4031,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}{R}: Scalding Devil deals 1 damage to target player."
+      "{2}{R}: Scalding Devil deals 1 damage to target player or planeswalker."
     ],
     "flavor_text": "Demons massacre. Devils annoy.",
     "power": "1",
@@ -4135,7 +4135,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Choose one —",
-      "• Thunderbolt deals 3 damage to target player.",
+      "• Thunderbolt deals 3 damage to target player or planeswalker.",
       "• Thunderbolt deals 4 damage to target creature with flying."
     ],
     "flavor_text": "\"My next aerial design will use less metal.\"\n—Hadaken, alchemist of Nephalia",
@@ -4160,7 +4160,7 @@
     "mana_cost": "4RR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Thunderous Wrath deals 5 damage to target creature or player.",
+      "Thunderous Wrath deals 5 damage to any target.",
       "Miracle {R} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)"
     ],
     "flavor_text": null,
@@ -4217,7 +4217,7 @@
     "mana_cost": "4RRR",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "When Tyrant of Discord enters the battlefield, target opponent chooses a permanent he or she controls at random and sacrifices it. If a nonland permanent is sacrificed this way, repeat this process."
+      "When Tyrant of Discord enters the battlefield, target opponent chooses a permanent they control at random and sacrifices it. If a nonland permanent is sacrificed this way, repeat this process."
     ],
     "flavor_text": null,
     "power": "7",
@@ -4267,7 +4267,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "When Vexing Devil enters the battlefield, any opponent may have it deal 4 damage to him or her. If a player does, sacrifice Vexing Devil."
+      "When Vexing Devil enters the battlefield, any opponent may have it deal 4 damage to them. If a player does, sacrifice Vexing Devil."
     ],
     "flavor_text": "It's not any fun until someone loses an eye.",
     "power": "4",
@@ -4291,7 +4291,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever a Human enters the battlefield under your control, Vigilante Justice deals 1 damage to target creature or player."
+      "Whenever a Human enters the battlefield under your control, Vigilante Justice deals 1 damage to any target."
     ],
     "flavor_text": "It begins as a whisper and ends with the red roar of fire.",
     "power": null,
@@ -4347,7 +4347,7 @@
     "oracle_text": [
       "Enchant land",
       "When Abundant Growth enters the battlefield, draw a card.",
-      "Enchanted land has \"{T}: Add one mana of any color to your mana pool.\""
+      "Enchanted land has \"{T}: Add one mana of any color.\""
     ],
     "flavor_text": null,
     "power": null,
@@ -4582,7 +4582,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Whenever a creature you control attacks, put a charge counter on Druids' Repository.",
-      "Remove a charge counter from Druids' Repository: Add one mana of any color to your mana pool."
+      "Remove a charge counter from Druids' Repository: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -5044,7 +5044,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add three mana of any one color to your mana pool. Spend this mana only to cast creature spells."
+      "{T}: Add three mana of any one color. Spend this mana only to cast creature spells."
     ],
     "flavor_text": "\"You can face any danger when all of nature is on your side.\"",
     "power": "0",
@@ -5834,7 +5834,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "When Vessel of Endless Rest enters the battlefield, put target card from a graveyard on the bottom of its owner's library.",
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -5858,7 +5858,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{G}{U}, {T}: You may cast spells this turn as though they had flash."
     ],
     "flavor_text": "Persecuted alchemists fled deep into Kessig's wilds, seeking solitude to continue their ghoulish craft.",
@@ -5884,8 +5884,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "As Cavern of Souls enters the battlefield, choose a creature type.",
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered."
+      "{T}: Add {C}.",
+      "{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered."
     ],
     "flavor_text": null,
     "power": null,
@@ -5909,7 +5909,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}{U}{R}, {T}: Draw a card, then discard a card."
     ],
     "flavor_text": "A lonely sentinel facing gales, hurricanes, and tides of homicidal spirits.",
@@ -5936,7 +5936,7 @@
     "oracle_text": [
       "When Seraph Sanctuary enters the battlefield, you gain 1 life.",
       "Whenever an Angel enters the battlefield under your control, you gain 1 life.",
-      "{T}: Add {C} to your mana pool."
+      "{T}: Add {C}."
     ],
     "flavor_text": null,
     "power": null,
@@ -5960,7 +5960,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{R}{W}, {T}: Target creature gets +2/+0 and gains vigilance and haste until end of turn."
     ],
     "flavor_text": "Its courtyards are lit during every hour of the day so that night may never fall within its walls.",
@@ -5989,7 +5989,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6017,7 +6017,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6045,7 +6045,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6073,7 +6073,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6101,7 +6101,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6129,7 +6129,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6157,7 +6157,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6185,7 +6185,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6213,7 +6213,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6241,7 +6241,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6269,7 +6269,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6297,7 +6297,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6325,7 +6325,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6353,7 +6353,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6381,7 +6381,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,

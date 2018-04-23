@@ -15,7 +15,7 @@
     "mana_cost": "3W",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{W}, Sacrifice Aurora Eidolon: Prevent the next 3 damage that would be dealt to target creature or player this turn.",
+      "{W}, Sacrifice Aurora Eidolon: Prevent the next 3 damage that would be dealt to any target this turn.",
       "Whenever you cast a multicolored spell, you may return Aurora Eidolon from your graveyard to your hand."
     ],
     "flavor_text": null,
@@ -626,7 +626,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{U}, Sacrifice Enigma Eidolon: Target player puts the top three cards of his or her library into his or her graveyard.",
+      "{U}, Sacrifice Enigma Eidolon: Target player puts the top three cards of their library into their graveyard.",
       "Whenever you cast a multicolored spell, you may return Enigma Eidolon from your graveyard to your hand."
     ],
     "flavor_text": null,
@@ -1002,7 +1002,7 @@
     "mana_cost": "XB",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Bond of Agony, pay X life.",
+      "As an additional cost to cast this spell, pay X life.",
       "Each other player loses X life."
     ],
     "flavor_text": "The Rakdos are unique in designing torture equipment they can operate while \"suffering\" alongside their victims.",
@@ -1027,7 +1027,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Choose a nonland card name. Target player reveals his or her hand. That player discards a card with that name. If he or she can't, you draw a card."
+      "Choose a nonland card name. Target player reveals their hand. That player discards a card with that name. If they can't, you draw a card."
     ],
     "flavor_text": "To the Rakdos, the fun is in the shakedown. The loot is usually discarded.",
     "power": null,
@@ -1054,7 +1054,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Double strike",
-      "When Crypt Champion enters the battlefield, each player puts a creature card with converted mana cost 3 or less from his or her graveyard onto the battlefield.",
+      "When Crypt Champion enters the battlefield, each player puts a creature card with converted mana cost 3 or less from their graveyard onto the battlefield.",
       "When Crypt Champion enters the battlefield, sacrifice it unless {R} was spent to cast it."
     ],
     "flavor_text": null,
@@ -1366,7 +1366,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)",
-      "At the beginning of your upkeep, you may search your library for a Rat card, reveal it, and put it into your hand. If you do, shuffle your library."
+      "At the beginning of your upkeep, you may search your library for a Rat card, reveal it, put it into your hand, then shuffle your library."
     ],
     "flavor_text": "An ogre's poisonous stench is like fine Kashkaval cheese to the noses lowest to the ground.",
     "power": "4",
@@ -1500,7 +1500,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}, Pay 1 life: Add one mana of any color to your mana pool."
+      "{T}, Pay 1 life: Add one mana of any color."
     ],
     "flavor_text": "\"Nature's exceptions remind us not to think in absolutes. Just as the orchid blossoms on blackened stone, so does the gift of mana occasionally manifest in the undead.\"\n—Bougrat, druid of the Cult of Yore",
     "power": "1",
@@ -1524,7 +1524,7 @@
     "mana_cost": "5BB",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "Target player discards his or her hand."
+      "Target player discards their hand."
     ],
     "flavor_text": "\"Some images are so powerful that one glance burns them into your mind forever. Come, let us gaze on nothingness.\"\n—Szadek",
     "power": null,
@@ -1548,8 +1548,8 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Cackling Flames deals 3 damage to target creature or player.",
-      "Hellbent — Cackling Flames deals 5 damage to that creature or player instead if you have no cards in hand."
+      "Cackling Flames deals 3 damage to any target.",
+      "Hellbent — Cackling Flames deals 5 damage to that permanent or player instead if you have no cards in hand."
     ],
     "flavor_text": "\"I like a little entertainment with my dinner.\"\n—Rakdos",
     "power": null,
@@ -1573,8 +1573,8 @@
     "mana_cost": "XR",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Demonfire deals X damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.",
-      "Hellbent — If you have no cards in hand, Demonfire can't be countered by spells or abilities and the damage can't be prevented."
+      "Demonfire deals X damage to any target. If a creature dealt damage this way would die this turn, exile it instead.",
+      "Hellbent — If you have no cards in hand, this spell can't be countered and the damage can't be prevented."
     ],
     "flavor_text": null,
     "power": null,
@@ -1862,7 +1862,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Sacrifice Seal of Fire: Seal of Fire deals 2 damage to target creature or player."
+      "Sacrifice Seal of Fire: It deals 2 damage to any target."
     ],
     "flavor_text": "\"If it breathes, it will burn.\"\n—Rakdos pyromancers' creed",
     "power": null,
@@ -1917,7 +1917,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Haste",
-      "Whenever another creature you control dies, it deals damage equal to its power to target player."
+      "Whenever another creature you control dies, it deals damage equal to its power to target player or planeswalker."
     ],
     "flavor_text": "Something roams the killing places, sniffing the guilt of the slayers, stalking them on iron paws.",
     "power": "5",
@@ -1944,7 +1944,7 @@
     "mana_cost": "2RR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{2}{R}, Discard a card at random: Stormscale Anarch deals 2 damage to target creature or player. If the discarded card was multicolored, Stormscale Anarch deals 4 damage to that creature or player instead."
+      "{2}{R}, Discard a card at random: Stormscale Anarch deals 2 damage to any target. If the discarded card was multicolored, Stormscale Anarch deals 4 damage to that permanent or player instead."
     ],
     "flavor_text": null,
     "power": "2",
@@ -2187,7 +2187,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Enchant permanent",
-      "At the beginning of your precombat main phase, add mana equal to enchanted permanent's mana cost to your mana pool. (Mana cost includes color. If a mana symbol has multiple colors, choose one.)"
+      "At the beginning of your precombat main phase, add mana equal to enchanted permanent's mana cost. (Mana cost includes color. If a mana symbol has multiple colors, choose one.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2211,7 +2211,7 @@
     "mana_cost": "2GG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Choose a card type. Target opponent reveals his or her hand. Create two 1/1 green Saproling creature tokens for each card of the chosen type revealed this way. (Artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal are card types.)"
+      "Choose a card type. Target opponent reveals their hand. Create two 1/1 green Saproling creature tokens for each card of the chosen type revealed this way. (Artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal are card types.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2235,7 +2235,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Cast Flash Foliage only during combat after blockers are declared.",
+      "Cast this spell only during combat after blockers are declared.",
       "Create a 1/1 green Saproling creature token that's blocking target creature attacking you.",
       "Draw a card."
     ],
@@ -2290,7 +2290,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Loaming Shaman enters the battlefield, target player shuffles any number of target cards from his or her graveyard into his or her library."
+      "When Loaming Shaman enters the battlefield, target player shuffles any number of target cards from their graveyard into their library."
     ],
     "flavor_text": "His work determines who is remembered and who feeds the worms.",
     "power": "3",
@@ -2608,7 +2608,7 @@
     "oracle_text": [
       "Enchant Forest",
       "As Utopia Sprawl enters the battlefield, choose a color.",
-      "Whenever enchanted Forest is tapped for mana, its controller adds one mana of the chosen color to his or her mana pool (in addition to the mana the land produces)."
+      "Whenever enchanted Forest is tapped for mana, its controller adds an additional one mana of the chosen color."
     ],
     "flavor_text": null,
     "power": null,
@@ -2634,7 +2634,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{G}, Sacrifice Verdant Eidolon: Add three mana of any one color to your mana pool.",
+      "{G}, Sacrifice Verdant Eidolon: Add three mana of any one color.",
       "Whenever you cast a multicolored spell, you may return Verdant Eidolon from your graveyard to your hand."
     ],
     "flavor_text": null,
@@ -2684,7 +2684,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Whenever a creature you control attacks, it gets +2/+0 until end of turn and Anthem of Rakdos deals 1 damage to you.",
-      "Hellbent — As long as you have no cards in hand, if a source you control would deal damage to a creature or player, it deals double that damage to that creature or player instead."
+      "Hellbent — As long as you have no cards in hand, if a source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -3010,7 +3010,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "Whenever Isperia the Inscrutable deals combat damage to a player, choose a card name. That player reveals his or her hand. If a card with the chosen name is revealed this way, search your library for a creature card with flying, reveal it, put it into your hand, then shuffle your library."
+      "Whenever Isperia the Inscrutable deals combat damage to a player, choose a card name. That player reveals their hand. If a card with the chosen name is revealed this way, search your library for a creature card with flying, reveal it, put it into your hand, then shuffle your library."
     ],
     "flavor_text": null,
     "power": "3",
@@ -3094,7 +3094,7 @@
     "mana_cost": "1BR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{2}, Sacrifice a creature: Lyzolda, the Blood Witch deals 2 damage to target creature or player if the sacrificed creature was red. Draw a card if the sacrificed creature was black."
+      "{2}, Sacrifice a creature: Lyzolda, the Blood Witch deals 2 damage to any target if the sacrificed creature was red. Draw a card if the sacrificed creature was black."
     ],
     "flavor_text": "Sacrificial rites take place before an audience of cheering cultists, each begging to be the next on stage.",
     "power": "3",
@@ -3360,7 +3360,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "First strike",
-      "{T}: Reveal your hand and discard a card of target opponent's choice. Then that player reveals his or her hand and discards a card of your choice. Activate this ability only any time you could cast a sorcery."
+      "{T}: Reveal your hand and discard a card of target opponent's choice. Then that player reveals their hand and discards a card of your choice. Activate this ability only any time you could cast a sorcery."
     ],
     "flavor_text": "\"Great minds bleed alike.\"",
     "power": "3",
@@ -3416,7 +3416,7 @@
     "oracle_text": [
       "Flying, trample",
       "Whenever Rakdos the Defiler attacks, sacrifice half the non-Demon permanents you control, rounded up.",
-      "Whenever Rakdos deals combat damage to a player, that player sacrifices half the non-Demon permanents he or she controls, rounded up."
+      "Whenever Rakdos deals combat damage to a player, that player sacrifices half the non-Demon permanents they control, rounded up."
     ],
     "flavor_text": null,
     "power": "7",
@@ -3974,7 +3974,7 @@
     "mana_cost": "GU",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Other spells you control can't be countered by spells or abilities this turn.",
+      "Other spells you control can't be countered this turn.",
       "Draw a card."
     ],
     "flavor_text": null,
@@ -4071,7 +4071,7 @@
     "mana_cost": "WB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Search target opponent's library for a card and exile it. You gain life equal to its converted mana cost. Then that player shuffles his or her library."
+      "Search target opponent's library for a card and exile it. You gain life equal to its converted mana cost. Then that player shuffles their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -4311,7 +4311,7 @@
     "mana_cost": "BR",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player reveals two cards at random from his or her hand, then discards each nonland card revealed this way."
+      "Target player reveals two cards at random from their hand, then discards each nonland card revealed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -4431,7 +4431,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, {T}: Add {W}{U} to your mana pool."
+      "{1}, {T}: Add {W}{U}."
     ],
     "flavor_text": "The maze-like design embodies the core of Azorius law—strict structure designed to test wills and stall change.",
     "power": null,
@@ -4458,7 +4458,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When a player other than Bronze Bombshell's owner controls it, that player sacrifices it. If the player does, Bronze Bombshell deals 7 damage to him or her."
+      "When a player other than Bronze Bombshell's owner controls it, that player sacrifices it. If the player does, Bronze Bombshell deals 7 damage to the player."
     ],
     "flavor_text": "\"Ooh, shiny! Let's pull off the chain and take her with us.\"\n—Ukl, Gruul raider, last words",
     "power": "4",
@@ -4530,7 +4530,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{3}, {T}: Target player exiles a card from his or her hand. Activate this ability only any time you could cast a sorcery.",
+      "{3}, {T}: Target player exiles a card from their hand. Activate this ability only any time you could cast a sorcery.",
       "{1}: Choose a card exiled with Muse Vessel. You may play that card this turn."
     ],
     "flavor_text": null,
@@ -4583,7 +4583,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, {T}: Add {B}{R} to your mana pool."
+      "{1}, {T}: Add {B}{R}."
     ],
     "flavor_text": "Made of bone and boiled in blood, a Rakdos signet is not considered finished until it has been used as a murder weapon.",
     "power": null,
@@ -4607,7 +4607,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, {T}: Add {G}{U} to your mana pool."
+      "{1}, {T}: Add {G}{U}."
     ],
     "flavor_text": "For the Simic Combine, its sigil serves not as an emblem of honor but as a trademark. Its familiar image on any biological commodity attests to superb craftsmanship, ingenious innovation, and higher cost.",
     "power": null,
@@ -4713,7 +4713,7 @@
     "oracle_text": [
       "Azorius Chancery enters the battlefield tapped.",
       "When Azorius Chancery enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {W}{U} to your mana pool."
+      "{T}: Add {W}{U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4740,7 +4740,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} or {R} to your mana pool.)",
+      "({T}: Add {B} or {R}.)",
       "As Blood Crypt enters the battlefield, you may pay 2 life. If you don't, Blood Crypt enters the battlefield tapped."
     ],
     "flavor_text": null,
@@ -4768,7 +4768,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} or {U} to your mana pool.)",
+      "({T}: Add {G} or {U}.)",
       "As Breeding Pool enters the battlefield, you may pay 2 life. If you don't, Breeding Pool enters the battlefield tapped."
     ],
     "flavor_text": null,
@@ -4793,8 +4793,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}, Sacrifice Ghost Quarter: Destroy target land. Its controller may search his or her library for a basic land card, put it onto the battlefield, then shuffle his or her library."
+      "{T}: Add {C}.",
+      "{T}, Sacrifice Ghost Quarter: Destroy target land. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle their library."
     ],
     "flavor_text": "Where wasted life cries out to be reborn.",
     "power": null,
@@ -4821,7 +4821,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} or {U} to your mana pool.)",
+      "({T}: Add {W} or {U}.)",
       "As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, Hallowed Fountain enters the battlefield tapped."
     ],
     "flavor_text": null,
@@ -4846,7 +4846,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{G}{U}, {T}: Put a +1/+1 counter on each creature that entered the battlefield this turn."
     ],
     "flavor_text": "\"The unnatural pressures of life in this city are best withstood by lifeforms that adapt with unnatural swiftness.\"\n—Momir Vig",
@@ -4871,7 +4871,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a multicolored spell."
+      "{T}: Add one mana of any color. Spend this mana only to cast a multicolored spell."
     ],
     "flavor_text": "Built on the very ground where the Ten signed the Guildpact, the tower is a monument to the past and a reminder of who holds power in the present.",
     "power": null,
@@ -4895,7 +4895,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{4}{W}{U}, {T}: Prevent all damage a source of your choice would deal this turn."
     ],
     "flavor_text": "Prahv, where much work is done to make sure nothing is accomplished.",
@@ -4922,7 +4922,7 @@
     "oracle_text": [
       "Rakdos Carnarium enters the battlefield tapped.",
       "When Rakdos Carnarium enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {B}{R} to your mana pool."
+      "{T}: Add {B}{R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4946,7 +4946,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}{B}{R}, {T}: Each player discards a card. Activate this ability only any time you could cast a sorcery."
     ],
     "flavor_text": "Even miles away, if you put your ear to the sewer vents, you can hear the screams and the tempestuous laughter.",
@@ -4973,7 +4973,7 @@
     "oracle_text": [
       "Simic Growth Chamber enters the battlefield tapped.",
       "When Simic Growth Chamber enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {G}{U} to your mana pool."
+      "{T}: Add {G}{U}."
     ],
     "flavor_text": null,
     "power": null,

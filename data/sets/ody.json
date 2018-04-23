@@ -252,7 +252,7 @@
     "mana_cost": "2WW",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Each player chooses a number of permanents he or she controls equal to the number of permanents controlled by the player who controls the fewest, then sacrifices the rest. Each player discards cards the same way."
+      "Each player chooses a number of permanents they control equal to the number of permanents controlled by the player who controls the fewest, then sacrifices the rest. Each player discards cards the same way."
     ],
     "flavor_text": null,
     "power": null,
@@ -564,7 +564,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Prevent the next 4 damage that would be dealt this turn to any number of target creatures and/or players, divided as you choose.",
+      "Prevent the next 4 damage that would be dealt this turn to any number of targets, divided as you choose.",
       "Flashback {1}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     ],
     "flavor_text": null,
@@ -644,8 +644,8 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Prevent the next 2 damage that would be dealt to target creature or player this turn.",
-      "Threshold — {T}: Prevent the next 4 damage that would be dealt to target creature or player this turn. Activate this ability only if seven or more cards are in your graveyard."
+      "{T}: Prevent the next 2 damage that would be dealt to any target this turn.",
+      "Threshold — {T}: Prevent the next 4 damage that would be dealt to any target this turn. Activate this ability only if seven or more cards are in your graveyard."
     ],
     "flavor_text": null,
     "power": "1",
@@ -831,7 +831,7 @@
     "mana_cost": "WWW",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Tap an untapped Cleric you control: Prevent the next 2 damage that would be dealt to target creature or player this turn."
+      "Tap an untapped Cleric you control: Prevent the next 2 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "It takes a remarkable cleric to turn a group of healers into a hospital.",
     "power": "2",
@@ -1572,7 +1572,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Return up to X target creatures to their owners' hands, where X is one plus the number of cards named Aether Burst in all graveyards as you cast Aether Burst."
+      "Return up to X target creatures to their owners' hands, where X is one plus the number of cards named Aether Burst in all graveyards as you cast this spell."
     ],
     "flavor_text": "As fleeting as a cephalid's promise.",
     "power": null,
@@ -1707,7 +1707,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying (This creature can't be blocked except by creatures with flying or reach.)",
-      "{1}{U}: Target player reveals the top card of his or her library."
+      "{1}{U}: Target player reveals the top card of their library."
     ],
     "flavor_text": "\"The tiniest ripple tells a story ten fathoms deep.\"",
     "power": "3",
@@ -1734,7 +1734,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever Balshan Beguiler deals combat damage to a player, that player reveals the top two cards of his or her library. You choose one of those cards and put it into his or her graveyard."
+      "Whenever Balshan Beguiler deals combat damage to a player, that player reveals the top two cards of their library. You choose one of those cards and put it into their graveyard."
     ],
     "flavor_text": null,
     "power": "1",
@@ -1785,7 +1785,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target player reveals the top four cards of his or her library. You choose two of those cards and put them into his or her graveyard. Put the rest on top of his or her library in any order."
+      "Target player reveals the top four cards of their library. You choose two of those cards and put them into that player's graveyard. Put the rest on top of their library in any order."
     ],
     "flavor_text": null,
     "power": null,
@@ -2219,7 +2219,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Search target player's library for a card and exile it. Then that player shuffles his or her library."
+      "Search target player's library for a card and exile it. Then that player shuffles their library."
     ],
     "flavor_text": "To say Nixar had a splitting headache would be a bit of an understatement.",
     "power": null,
@@ -2296,7 +2296,7 @@
     "mana_cost": "4U",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Target player draws cards equal to the number of cards in his or her hand, then discards that many cards."
+      "Target player draws cards equal to the number of cards in their hand, then discards that many cards."
     ],
     "flavor_text": "One never knows when inspiration will bubble up.",
     "power": null,
@@ -2450,7 +2450,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Choose a card name, then target player puts the top card of his or her library into his or her graveyard. If that card has the chosen name, you draw two cards. Otherwise, you draw a card."
+      "Choose a card name, then target player puts the top card of their library into their graveyard. If that card has the chosen name, you draw two cards. Otherwise, you draw a card."
     ],
     "flavor_text": null,
     "power": null,
@@ -2477,7 +2477,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Enchant creature",
-      "Enchanted creature has \"{T}: This creature deals 1 damage to target creature or player.\""
+      "Enchanted creature has \"{T}: This creature deals 1 damage to any target.\""
     ],
     "flavor_text": "For sale: Complete wizard's library. Rare scrolls, grimoires, and works of ancient spellcrafting Slightly abridged.",
     "power": null,
@@ -2858,7 +2858,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Target player puts the top half of his or her library, rounded down, into his or her graveyard."
+      "Target player puts the top half of their library, rounded down, into their graveyard."
     ],
     "flavor_text": "Dreads had half a mind to leave.",
     "power": null,
@@ -2909,7 +2909,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever a player casts a spell, that player may pay {2}. If the player does, he or she draws a card."
+      "Whenever a player casts a spell, that player may pay {2}. If the player does, they draw a card."
     ],
     "flavor_text": "Scribbles of a lunatic and formulas of a genius are often indistinguishable.",
     "power": null,
@@ -3658,7 +3658,7 @@
     "mana_cost": "BBB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "At the beginning of your upkeep, target opponent may exile a card from his or her graveyard. If that player doesn't, you may draw a card."
+      "At the beginning of your upkeep, target opponent may exile a card from their graveyard. If that player doesn't, you may draw a card."
     ],
     "flavor_text": null,
     "power": null,
@@ -3682,7 +3682,7 @@
     "mana_cost": "3BB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Exile all cards from target player's graveyard other than basic land cards. For each card exiled this way, search that player's library for all cards with the same name as that card and exile them. Then that player shuffles his or her library."
+      "Exile all cards from target player's graveyard other than basic land cards. For each card exiled this way, search that player's library for all cards with the same name as that card and exile them. Then that player shuffles their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -3706,7 +3706,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target player reveals his or her hand. That player discards all nonland cards with the same name as another card in his or her hand."
+      "Target player reveals their hand. That player discards all nonland cards with the same name as another card in their hand."
     ],
     "flavor_text": "\"Practice makes perfect, but obsession makes better.\"",
     "power": null,
@@ -3781,7 +3781,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Discard any number of cards. Target player reveals his or her hand, then you choose a nonland card from it for each card discarded this way. That player discards those cards."
+      "Discard any number of cards. Target player reveals their hand, then you choose a nonland card from it for each card discarded this way. That player discards those cards."
     ],
     "flavor_text": null,
     "power": null,
@@ -3855,7 +3855,7 @@
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Mindslicer dies, each player discards his or her hand."
+      "When Mindslicer dies, each player discards their hand."
     ],
     "flavor_text": "It is the thing that goes bump in the night.",
     "power": "4",
@@ -3879,7 +3879,7 @@
     "mana_cost": "4BB",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Morbid Hunger deals 3 damage to target creature or player. You gain 3 life.",
+      "Morbid Hunger deals 3 damage to any target. You gain 3 life.",
       "Flashback {7}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     ],
     "flavor_text": null,
@@ -3985,7 +3985,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Discard a card, Sacrifice Overeager Apprentice: Add {B}{B}{B} to your mana pool."
+      "Discard a card, Sacrifice Overeager Apprentice: Add {B}{B}{B}."
     ],
     "flavor_text": "Slow and steady may not always win the race, but at least it doesn't end up splattered on the walls.",
     "power": "1",
@@ -4170,7 +4170,7 @@
     "mana_cost": "XB",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Skeletal Scrying, exile X cards from your graveyard.",
+      "As an additional cost to cast this spell, exile X cards from your graveyard.",
       "You draw X cards and you lose X life."
     ],
     "flavor_text": null,
@@ -4271,7 +4271,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player exiles all cards with flashback from his or her graveyard."
+      "Target player exiles all cards with flashback from their graveyard."
     ],
     "flavor_text": "The fondest memories burn brightest. As they're lost forever, the flames grow hotter still.",
     "power": null,
@@ -4452,7 +4452,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "As an additional cost to cast Acceptable Losses, discard a card at random.",
+      "As an additional cost to cast this spell, discard a card at random.",
       "Acceptable Losses deals 5 damage to target creature."
     ],
     "flavor_text": null,
@@ -4534,7 +4534,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{2}{R}, Sacrifice Barbarian Lunatic: Barbarian Lunatic deals 2 damage to target creature."
+      "{2}{R}, Sacrifice Barbarian Lunatic: It deals 2 damage to target creature."
     ],
     "flavor_text": "\"I once saw a single barbarian charge a band of twenty nomads. I've seen some crazy ones, too.\"\n—Nomad sentry",
     "power": "2",
@@ -4607,7 +4607,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Blazing Salvo deals 3 damage to target creature unless that creature's controller has Blazing Salvo deal 5 damage to him or her."
+      "Blazing Salvo deals 3 damage to target creature unless that creature's controller has Blazing Salvo deal 5 damage to them."
     ],
     "flavor_text": "Barbarians equate courage with the ability to endure pain.",
     "power": null,
@@ -4685,8 +4685,8 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{1}{R}, {T}: Chainflinger deals 1 damage to target creature or player.",
-      "Threshold — {2}{R}, {T}: Chainflinger deals 2 damage to target creature or player. Activate this ability only if seven or more cards are in your graveyard."
+      "{1}{R}, {T}: Chainflinger deals 1 damage to any target.",
+      "Threshold — {2}{R}, {T}: Chainflinger deals 2 damage to any target. Activate this ability only if seven or more cards are in your graveyard."
     ],
     "flavor_text": null,
     "power": "2",
@@ -4964,7 +4964,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Target player sacrifices a land.",
-      "Threshold — Each player sacrifices all lands he or she controls instead if seven or more cards are in your graveyard."
+      "Threshold — Each player sacrifices all lands they control instead if seven or more cards are in your graveyard."
     ],
     "flavor_text": "Sometimes destruction is Dominaria's way of rebuilding. Sometimes it's not.",
     "power": null,
@@ -4988,7 +4988,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Firebolt deals 2 damage to target creature or player.",
+      "Firebolt deals 2 damage to any target.",
       "Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     ],
     "flavor_text": "Reach out and torch someone.",
@@ -5013,7 +5013,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Flame Burst deals X damage to target creature or player, where X is 2 plus the number of cards named Flame Burst in all graveyards."
+      "Flame Burst deals X damage to any target, where X is 2 plus the number of cards named Flame Burst in all graveyards."
     ],
     "flavor_text": "As hot as a dwarf's rage.",
     "power": null,
@@ -5120,7 +5120,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Haste (This creature can attack and {T} as soon as it comes under your control.)",
-      "{T}: Kamahl, Pit Fighter deals 3 damage to target creature or player."
+      "{T}: Kamahl, Pit Fighter deals 3 damage to any target."
     ],
     "flavor_text": "\"I didn't come to play. I came to win.\"",
     "power": "6",
@@ -5172,7 +5172,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Destroy target nonbasic land unless its controller has Lava Blister deal 6 damage to him or her."
+      "Destroy target nonbasic land unless its controller has Lava Blister deal 6 damage to them."
     ],
     "flavor_text": "To treat flesh wounds, use earth. To treat earth wounds, use flesh.\n—Barbarian saying",
     "power": null,
@@ -5196,7 +5196,7 @@
     "mana_cost": "4RR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "As an additional cost to cast Liquid Fire, choose a number between 0 and 5.",
+      "As an additional cost to cast this spell, choose a number between 0 and 5.",
       "Liquid Fire deals X damage to target creature and 5 minus X damage to that creature's controller, where X is the chosen number."
     ],
     "flavor_text": "There's no such thing as a little bit of lava.",
@@ -5353,7 +5353,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Counter target instant or sorcery spell unless its controller has Molten Influence deal 4 damage to him or her."
+      "Counter target instant or sorcery spell unless its controller has Molten Influence deal 4 damage to them."
     ],
     "flavor_text": "Lavamancers make simple requests: obey or die.",
     "power": null,
@@ -5377,7 +5377,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target player exiles all land cards from his or her graveyard."
+      "Target player exiles all land cards from their graveyard."
     ],
     "flavor_text": "\"Doing okay back there, Tarv? Tarv?\"",
     "power": null,
@@ -5658,7 +5658,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Scorching Missile deals 4 damage to target player.",
+      "Scorching Missile deals 4 damage to target player or planeswalker.",
       "Flashback {9}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     ],
     "flavor_text": null,
@@ -5708,8 +5708,8 @@
     "mana_cost": "3RR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Shower of Coals deals 2 damage to each of up to three target creatures and/or players.",
-      "Threshold — Shower of Coals deals 4 damage to each of those creatures and/or players instead if seven or more cards are in your graveyard."
+      "Shower of Coals deals 2 damage to each of up to three targets.",
+      "Threshold — Shower of Coals deals 4 damage to each of those permanents and/or players instead if seven or more cards are in your graveyard."
     ],
     "flavor_text": null,
     "power": null,
@@ -5763,7 +5763,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Enchant land",
-      "When enchanted land becomes tapped, destroy it and Steam Vines deals 1 damage to that land's controller. That player attaches Steam Vines to a land of his or her choice."
+      "When enchanted land becomes tapped, destroy it and Steam Vines deals 1 damage to that land's controller. That player attaches Steam Vines to a land of their choice."
     ],
     "flavor_text": null,
     "power": null,
@@ -5861,7 +5861,7 @@
     "mana_cost": "8R",
     "converted_mana_cost": 9,
     "oracle_text": [
-      "Volley of Boulders deals 6 damage divided as you choose among any number of target creatures and/or players.",
+      "Volley of Boulders deals 6 damage divided as you choose among any number of targets.",
       "Flashback {R}{R}{R}{R}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     ],
     "flavor_text": null,
@@ -6565,7 +6565,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {C}{G} to your mana pool."
+      "{T}: Add {C}{G}."
     ],
     "flavor_text": "Plant a field with wishes, and you will grow more wishes.\n—Nantuko teaching",
     "power": "1",
@@ -6640,7 +6640,7 @@
     "mana_cost": "XG",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Each player may search his or her library for up to X basic land cards and put them onto the battlefield tapped. Then each player who searched his or her library this way shuffles it."
+      "Each player may search their library for up to X basic land cards and put them onto the battlefield tapped. Then each player who searched their library this way shuffles it."
     ],
     "flavor_text": "Spreading a blanket of growth to warm a weary world.",
     "power": null,
@@ -6899,7 +6899,7 @@
     "mana_cost": "GGG",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Tap an untapped Druid you control: Add {G} to your mana pool."
+      "Tap an untapped Druid you control: Add {G}."
     ],
     "flavor_text": "\"Survival of the fittest is not only the law of the pits, it is the law of nature. That is why I fight.\"",
     "power": "2",
@@ -7237,7 +7237,7 @@
     "mana_cost": "4G",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Whenever a green nontoken creature dies, that creature's controller may search his or her library for a card with the same name as that creature and put it onto the battlefield. If that player does, he or she shuffles his or her library."
+      "Whenever a green nontoken creature dies, that creature's controller may search their library for a card with the same name as that creature and put it onto the battlefield. If that player does, they shuffle their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -7290,7 +7290,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool.",
+      "{T}: Add {G}.",
       "Threshold — Werebear gets +3/+3 as long as seven or more cards are in your graveyard."
     ],
     "flavor_text": "He exercises his right to bear arms.",
@@ -7717,7 +7717,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{T}, Put the top card of your library into your graveyard: For each colored mana symbol in that card's mana cost, add one mana of that color to your mana pool. Activate this ability only any time you could cast an instant. (For example, if the card's mana cost is {3}{U}{U}{B}, you add {U}{U}{B} to your mana pool.)"
+      "{T}, Put the top card of your library into your graveyard: For each colored mana symbol in that card's mana cost, add one mana of that color. Activate this ability only any time you could cast an instant. (For example, if the card's mana cost is {3}{U}{U}{B}, you add {U}{U}{B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7741,7 +7741,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{2}, {T}, Sacrifice Darkwater Egg: Add {U}{B} to your mana pool. Draw a card."
+      "{2}, {T}, Sacrifice Darkwater Egg: Add {U}{B}. Draw a card."
     ],
     "flavor_text": "\"Do you thirst for knowledge no matter the cost?\"\n—Watnik, master glassblower",
     "power": null,
@@ -7824,7 +7824,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}, Put the top card of your library into your graveyard: Add {C} to your mana pool."
+      "{T}, Put the top card of your library into your graveyard: Add {C}."
     ],
     "flavor_text": "The toymaker frowned in bewilderment. None of his creations had ever sneezed before.",
     "power": "0",
@@ -7874,7 +7874,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{2}, {T}, Sacrifice Mossfire Egg: Add {R}{G} to your mana pool. Draw a card."
+      "{2}, {T}, Sacrifice Mossfire Egg: Add {R}{G}. Draw a card."
     ],
     "flavor_text": "\"Can you feel your instincts overwhelm your reason?\"\n—Watnik, master glassblower",
     "power": null,
@@ -7977,7 +7977,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{2}, {T}, Sacrifice Shadowblood Egg: Add {B}{R} to your mana pool. Draw a card."
+      "{2}, {T}, Sacrifice Shadowblood Egg: Add {B}{R}. Draw a card."
     ],
     "flavor_text": "\"Does your passion for power consume your soul?\"\n—Watnik, master glassblower",
     "power": null,
@@ -8001,7 +8001,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{2}, {T}, Sacrifice Skycloud Egg: Add {W}{U} to your mana pool. Draw a card."
+      "{2}, {T}, Sacrifice Skycloud Egg: Add {W}{U}. Draw a card."
     ],
     "flavor_text": "\"Have your dreams of a better society become an obsession?\"\n—Watnik, master glassblower",
     "power": null,
@@ -8050,7 +8050,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{2}, {T}, Sacrifice Sungrass Egg: Add {G}{W} to your mana pool. Draw a card."
+      "{2}, {T}, Sacrifice Sungrass Egg: Add {G}{W}. Draw a card."
     ],
     "flavor_text": "\"Has your peaceful nature led you on a crusade?\"\n—Watnik, master glassblower",
     "power": null,
@@ -8075,8 +8075,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Abandoned Outpost enters the battlefield tapped.",
-      "{T}: Add {W} to your mana pool.",
-      "{T}, Sacrifice Abandoned Outpost: Add one mana of any color to your mana pool."
+      "{T}: Add {W}.",
+      "{T}, Sacrifice Abandoned Outpost: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -8100,8 +8100,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {R} to your mana pool. Barbarian Ring deals 1 damage to you.",
-      "Threshold — {R}, {T}, Sacrifice Barbarian Ring: Barbarian Ring deals 2 damage to target creature or player. Activate this ability only if seven or more cards are in your graveyard."
+      "{T}: Add {R}. Barbarian Ring deals 1 damage to you.",
+      "Threshold — {R}, {T}, Sacrifice Barbarian Ring: It deals 2 damage to any target. Activate this ability only if seven or more cards are in your graveyard."
     ],
     "flavor_text": null,
     "power": null,
@@ -8126,8 +8126,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Bog Wreckage enters the battlefield tapped.",
-      "{T}: Add {B} to your mana pool.",
-      "{T}, Sacrifice Bog Wreckage: Add one mana of any color to your mana pool."
+      "{T}: Add {B}.",
+      "{T}, Sacrifice Bog Wreckage: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -8151,7 +8151,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {B} to your mana pool. Cabal Pit deals 1 damage to you.",
+      "{T}: Add {B}. Cabal Pit deals 1 damage to you.",
       "Threshold — {B}, {T}, Sacrifice Cabal Pit: Target creature gets -2/-2 until end of turn. Activate this ability only if seven or more cards are in your graveyard."
     ],
     "flavor_text": null,
@@ -8176,7 +8176,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool. Centaur Garden deals 1 damage to you.",
+      "{T}: Add {G}. Centaur Garden deals 1 damage to you.",
       "Threshold — {G}, {T}, Sacrifice Centaur Garden: Target creature gets +3/+3 until end of turn. Activate this ability only if seven or more cards are in your graveyard."
     ],
     "flavor_text": null,
@@ -8201,7 +8201,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {U} to your mana pool. Cephalid Coliseum deals 1 damage to you.",
+      "{T}: Add {U}. Cephalid Coliseum deals 1 damage to you.",
       "Threshold — {U}, {T}, Sacrifice Cephalid Coliseum: Target player draws three cards, then discards three cards. Activate this ability only if seven or more cards are in your graveyard."
     ],
     "flavor_text": null,
@@ -8226,8 +8226,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{5}, {T}: Add {W}{U}{B}{R}{G} to your mana pool."
+      "{T}: Add {C}.",
+      "{5}, {T}: Add {W}{U}{B}{R}{G}."
     ],
     "flavor_text": "\"How tragic that greed eclipses beauty.\"\n—Seton, centaur druid",
     "power": null,
@@ -8251,7 +8251,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{1}, {T}: Add {U}{B} to your mana pool."
+      "{1}, {T}: Add {U}{B}."
     ],
     "flavor_text": "Murky Otarian tides hide the forgotten treacheries of the Phyrexian war.",
     "power": null,
@@ -8275,7 +8275,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}, {T}: Untap target land."
     ],
     "flavor_text": "A monument to long-forgotten gods, it stands as a tribute to the fleeting nature of human ways.",
@@ -8300,7 +8300,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{1}, {T}: Add {R}{G} to your mana pool."
+      "{1}, {T}: Add {R}{G}."
     ],
     "flavor_text": "Lush growth spreads like a ferocious blaze across the Otarian hillsides.",
     "power": null,
@@ -8324,7 +8324,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {W} to your mana pool. Nomad Stadium deals 1 damage to you.",
+      "{T}: Add {W}. Nomad Stadium deals 1 damage to you.",
       "Threshold — {W}, {T}, Sacrifice Nomad Stadium: You gain 4 life. Activate this ability only if seven or more cards are in your graveyard."
     ],
     "flavor_text": null,
@@ -8349,7 +8349,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{T}, Sacrifice Petrified Field: Return target land card from your graveyard to your hand."
     ],
     "flavor_text": null,
@@ -8375,8 +8375,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Ravaged Highlands enters the battlefield tapped.",
-      "{T}: Add {R} to your mana pool.",
-      "{T}, Sacrifice Ravaged Highlands: Add one mana of any color to your mana pool."
+      "{T}: Add {R}.",
+      "{T}, Sacrifice Ravaged Highlands: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -8401,8 +8401,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Seafloor Debris enters the battlefield tapped.",
-      "{T}: Add {U} to your mana pool.",
-      "{T}, Sacrifice Seafloor Debris: Add one mana of any color to your mana pool."
+      "{T}: Add {U}.",
+      "{T}, Sacrifice Seafloor Debris: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -8426,7 +8426,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{1}, {T}: Add {B}{R} to your mana pool."
+      "{1}, {T}: Add {B}{R}."
     ],
     "flavor_text": "The carnage of conflicts long past still stains the Otarian soil.",
     "power": null,
@@ -8450,7 +8450,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{1}, {T}: Add {W}{U} to your mana pool."
+      "{1}, {T}: Add {W}{U}."
     ],
     "flavor_text": "From Otaria, the sun above meets the sea below at a glittering horizon.",
     "power": null,
@@ -8474,7 +8474,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{1}, {T}: Add {G}{W} to your mana pool."
+      "{1}, {T}: Add {G}{W}."
     ],
     "flavor_text": "On Otaria, peace and harmony are rare. Places that provide both are cherished.",
     "power": null,
@@ -8498,8 +8498,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add one mana of any color to your mana pool. Tarnished Citadel deals 3 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add one mana of any color. Tarnished Citadel deals 3 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -8524,8 +8524,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Timberland Ruins enters the battlefield tapped.",
-      "{T}: Add {G} to your mana pool.",
-      "{T}, Sacrifice Timberland Ruins: Add one mana of any color to your mana pool."
+      "{T}: Add {G}.",
+      "{T}, Sacrifice Timberland Ruins: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -8553,7 +8553,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8581,7 +8581,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8609,7 +8609,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8637,7 +8637,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8665,7 +8665,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8693,7 +8693,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8721,7 +8721,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8749,7 +8749,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8777,7 +8777,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8805,7 +8805,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8833,7 +8833,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8861,7 +8861,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8889,7 +8889,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8917,7 +8917,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8945,7 +8945,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8973,7 +8973,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -9001,7 +9001,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -9029,7 +9029,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -9057,7 +9057,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -9085,7 +9085,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,

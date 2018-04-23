@@ -873,7 +873,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Treasure Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 6 or greater, reveal that card, and put it into your hand. If you do, shuffle your library."
+      "When Treasure Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 6 or greater, reveal it, put it into your hand, then shuffle your library."
     ],
     "flavor_text": null,
     "power": "2",
@@ -975,7 +975,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "As an additional cost to cast Vivisection, sacrifice a creature.",
+      "As an additional cost to cast this spell, sacrifice a creature.",
       "Draw three cards."
     ],
     "flavor_text": "Phyrexians research with the grace of surgeons and the finesse of butchers.",
@@ -1153,7 +1153,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player discards a card, then puts the top card of his or her library into his or her graveyard."
+      "Target player discards a card, then puts the top card of their library into their graveyard."
     ],
     "flavor_text": "\"Ours is a glorious transmission! Behold a future where all bow to the Father of Machines.\"\n—Isila, Priest of Sheoldred",
     "power": null,
@@ -1496,7 +1496,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Blisterstick Shaman enters the battlefield, it deals 1 damage to target creature or player."
+      "When Blisterstick Shaman enters the battlefield, it deals 1 damage to any target."
     ],
     "flavor_text": "A productive warren requires a good deal of prodding.",
     "power": "2",
@@ -1544,8 +1544,8 @@
     "mana_cost": "3RR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Concussive Bolt deals 4 damage to target player.",
-      "Metalcraft — If you control three or more artifacts, creatures that player controls can't block this turn."
+      "Concussive Bolt deals 4 damage to target player or planeswalker.",
+      "Metalcraft — If you control three or more artifacts, creatures controlled by that player or by that planeswalker's controller can't block this turn."
     ],
     "flavor_text": "Shock one, awe the rest.",
     "power": null,
@@ -1615,7 +1615,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Lizard"
+      "Dinosaur"
     ],
     "rarity": "Common",
     "mana_cost": "4RR",
@@ -1781,7 +1781,7 @@
     "mana_cost": "4RR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "When Kuldotha Flamefiend enters the battlefield, you may sacrifice an artifact. If you do, Kuldotha Flamefiend deals 4 damage divided as you choose among any number of target creatures and/or players."
+      "When Kuldotha Flamefiend enters the battlefield, you may sacrifice an artifact. If you do, Kuldotha Flamefiend deals 4 damage divided as you choose among any number of targets."
     ],
     "flavor_text": null,
     "power": "4",
@@ -1905,7 +1905,7 @@
     "mana_cost": "XR",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Red Sun's Zenith deals X damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead. Shuffle Red Sun's Zenith into its owner's library."
+      "Red Sun's Zenith deals X damage to any target. If a creature dealt damage this way would die this turn, exile it instead. Shuffle Red Sun's Zenith into its owner's library."
     ],
     "flavor_text": null,
     "power": null,
@@ -2368,9 +2368,9 @@
     "mana_cost": "2GG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Thrun, the Last Troll can't be countered.",
+      "This spell can't be countered.",
       "Hexproof (This creature can't be the target of spells or abilities your opponents control.)",
-      "{1}{G}: Regenerate Thrun."
+      "{1}{G}: Regenerate Thrun, the Last Troll."
     ],
     "flavor_text": "His crime was silence, and now he suffers it eternally.",
     "power": "4",
@@ -2726,7 +2726,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{4}, {T}: Target opponent loses 2 life, gets a poison counter, then puts the top six cards of his or her library into his or her graveyard."
+      "{4}, {T}: Target opponent loses 2 life, gets a poison counter, then puts the top six cards of their library into their graveyard."
     ],
     "flavor_text": "Mycosynth grew unfettered beneath the black lacuna, metastasizing into a matrix of noxious energy.",
     "power": null,
@@ -2881,8 +2881,8 @@
     "mana_cost": "6",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Imprint — When Knowledge Pool enters the battlefield, each player exiles the top three cards of his or her library.",
-      "Whenever a player casts a spell from his or her hand, that player exiles it. If the player does, he or she may cast another nonland card exiled with Knowledge Pool without paying that card's mana cost."
+      "Imprint — When Knowledge Pool enters the battlefield, each player exiles the top three cards of their library.",
+      "Whenever a player casts a spell from their hand, that player exiles it. If the player does, they may cast another nonland card exiled with Knowledge Pool without paying that card's mana cost."
     ],
     "flavor_text": null,
     "power": null,
@@ -2984,7 +2984,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)",
-      "Equipped creature gets +0/+1 and has \"Sacrifice this creature: This creature deals 1 damage to target creature or player.\"",
+      "Equipped creature gets +0/+1 and has \"Sacrifice this creature: This creature deals 1 damage to any target.\"",
       "Equip {2}"
     ],
     "flavor_text": null,
@@ -3258,7 +3258,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",
-      "{T}: Add {C} to your mana pool."
+      "{T}: Add {C}."
     ],
     "flavor_text": "They watch for a new master, one more sinister than the last.",
     "power": "1",
@@ -3393,7 +3393,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Shriekhorn enters the battlefield with three charge counters on it.",
-      "{T}, Remove a charge counter from Shriekhorn: Target player puts the top two cards of his or her library into his or her graveyard."
+      "{T}, Remove a charge counter from Shriekhorn: Target player puts the top two cards of their library into their graveyard."
     ],
     "flavor_text": null,
     "power": null,
@@ -3501,7 +3501,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Sphere of the Suns enters the battlefield tapped and with three charge counters on it.",
-      "{T}, Remove a charge counter from Sphere of the Suns: Add one mana of any color to your mana pool."
+      "{T}, Remove a charge counter from Sphere of the Suns: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -3768,7 +3768,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Whenever a creature deals combat damage to you, that creature's controller gains control of Contested War Zone.",
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}, {T}: Attacking creatures get +1/+0 until end of turn."
     ],
     "flavor_text": null,
@@ -3793,7 +3793,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}: Inkmoth Nexus becomes a 1/1 Blinkmoth artifact creature with flying and infect until end of turn. It's still a land. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)"
     ],
     "flavor_text": null,
@@ -3822,7 +3822,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3850,7 +3850,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3878,7 +3878,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3906,7 +3906,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3934,7 +3934,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3962,7 +3962,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3990,7 +3990,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4018,7 +4018,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4046,7 +4046,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4074,7 +4074,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,

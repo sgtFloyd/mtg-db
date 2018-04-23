@@ -244,7 +244,7 @@
       "(Start the game with this conspiracy face up in the command zone.)",
       "Your deck can't have basic land cards and your starting hand size is five.",
       "Exile a card from your hand: This turn, you may play basic land cards from outside the game.",
-      "Basic lands you control have \"{T}: Add one mana of any color to your mana pool.\""
+      "Basic lands you control have \"{T}: Add one mana of any color.\""
     ],
     "flavor_text": null,
     "power": null,
@@ -1629,7 +1629,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Borderland Explorer enters the battlefield, each player may discard a card. Each player who discarded a card this way may search his or her library for a basic land card, reveal it, put it into his or her hand, then shuffle his or her library."
+      "When Borderland Explorer enters the battlefield, each player may discard a card. Each player who discarded a card this way may search their library for a basic land card, reveal it, put it into their hand, then shuffle their library."
     ],
     "flavor_text": null,
     "power": "3",
@@ -1841,7 +1841,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Lizard"
+      "Dinosaur"
     ],
     "rarity": "Rare",
     "mana_cost": "4GG",
@@ -1849,7 +1849,7 @@
     "oracle_text": [
       "Trample",
       "When Regal Behemoth enters the battlefield, you become the monarch.",
-      "Whenever you tap a land for mana while you're the monarch, add one mana of any color to your mana pool (in addition to the mana the land produces)."
+      "Whenever you tap a land for mana while you're the monarch, add an additional one mana of any color."
     ],
     "flavor_text": null,
     "power": "5",
@@ -1879,7 +1879,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Whenever another creature enters the battlefield, its controller may draw a card if its power is greater than each other creature's power.",
-      "{G}, {T}: Add X mana in any combination of colors to your mana pool, where X is the greatest power among creatures you control."
+      "{G}, {T}: Add X mana in any combination of colors, where X is the greatest power among creatures you control."
     ],
     "flavor_text": null,
     "power": "2",
@@ -2190,7 +2190,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{4}, {T}, Sacrifice Throne of the High City: You become the monarch."
     ],
     "flavor_text": "A shining symbol of Paliano's true ruler—ambition.",
@@ -2345,7 +2345,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Creatures can't attack you unless their controller pays {2} for each creature he or she controls that's attacking you."
+      "Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you."
     ],
     "flavor_text": "\"May the memory of our fallen heroes ensnare the violent hearts of lesser men.\"\n—Great Threshold of Monserkat inscription",
     "power": null,
@@ -2370,7 +2370,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Creatures you control get +1/+2 until end of turn. Untap those creatures.",
-      "Basic landcycling {1}{W} ({1}{W}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Basic landcycling {1}{W} ({1}{W}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2834,7 +2834,7 @@
     "mana_cost": "4U",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Reveal the top three cards of your library. Target opponent may choose to put those cards into your hand. If he or she doesn't, put those cards into your graveyard and draw five cards."
+      "Reveal the top three cards of your library. Target opponent may choose to put those cards into your hand. If they don't, put those cards into your graveyard and draw five cards."
     ],
     "flavor_text": "Before signing anything on Grixis, always read the fine print.",
     "power": null,
@@ -3246,7 +3246,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Each player may put an artifact, creature, enchantment, or land card from his or her hand onto the battlefield."
+      "Each player may put an artifact, creature, enchantment, or land card from their hand onto the battlefield."
     ],
     "flavor_text": "At the academy, \"show and tell\" too often becomes \"run and hide.\"",
     "power": null,
@@ -3298,7 +3298,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Counter target spell.",
-      "Basic landcycling {1}{U} ({1}{U}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Basic landcycling {1}{U} ({1}{U}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3377,7 +3377,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Target player loses 4 life and you gain 4 life.",
-      "Basic landcycling {1}{B} ({1}{B}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Basic landcycling {1}{B} ({1}{B}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3401,7 +3401,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Altar's Reap, sacrifice a creature.",
+      "As an additional cost to cast this spell, sacrifice a creature.",
       "Draw two cards."
     ],
     "flavor_text": "\"Don't worry, your death will be as informative as possible.\"\n—Gorghul, augur of skulls",
@@ -3428,7 +3428,7 @@
     "mana_cost": "6BB",
     "converted_mana_cost": 8,
     "oracle_text": [
-      "If there are ten or more creature cards total in all graveyards, Avatar of Woe costs {6} less to cast.",
+      "If there are ten or more creature cards total in all graveyards, this spell costs {6} less to cast.",
       "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)",
       "{T}: Destroy target creature. It can't be regenerated."
     ],
@@ -3737,7 +3737,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player reveals his or her hand. You choose a nonland card from it with converted mana cost 3 or less. That player discards that card."
+      "Target player reveals their hand. You choose a nonland card from it with converted mana cost 3 or less. That player discards that card."
     ],
     "flavor_text": "You will scream out your innermost secrets just to make it stop.",
     "power": null,
@@ -4145,7 +4145,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Fiery Fall deals 5 damage to target creature.",
-      "Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4195,7 +4195,7 @@
     "mana_cost": "5R",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "When Gang of Devils dies, it deals 3 damage divided as you choose among one, two, or three target creatures and/or players."
+      "When Gang of Devils dies, it deals 3 damage divided as you choose among one, two, or three targets."
     ],
     "flavor_text": "\"Well, how could I know they'd explode?\"\n—Gregel, township militia",
     "power": "3",
@@ -4273,7 +4273,7 @@
     "mana_cost": "2RRR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "If a creature you control would deal damage to a creature or player, it deals double that damage to that creature or player instead."
+      "If a creature you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead."
     ],
     "flavor_text": "Only the Cabal could make a fight to the death more deadly.",
     "power": null,
@@ -4536,7 +4536,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Tormenting Voice, discard a card.",
+      "As an additional cost to cast this spell, discard a card.",
       "Draw two cards."
     ],
     "flavor_text": "\"Unwelcome thoughts crowd my mind. Are they my own madness, or the whispers of another?\"\n—Sarkhan Vol",
@@ -4585,7 +4585,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Twin Bolt deals 2 damage divided as you choose among one or two target creatures and/or players."
+      "Twin Bolt deals 2 damage divided as you choose among one or two targets."
     ],
     "flavor_text": "Kolaghan archers are trained in Dakla, the way of the bow. They utilize their dragonlord's lightning to strike their target, no matter how small, how fast, or how far away.",
     "power": null,
@@ -4633,7 +4633,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Cast Berserk only before the combat damage step.",
+      "Cast this spell only before the combat damage step.",
       "Target creature gains trample and gets +X/+0 until end of turn, where X is its power. At the beginning of the next end step, destroy that creature if it attacked this turn."
     ],
     "flavor_text": null,
@@ -4661,7 +4661,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Flying",
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": "\"The gods used their feathers to paint all the colors of the world.\"\n—Yare-Tiva, warden of Gramur Forest",
     "power": "0",
@@ -5115,7 +5115,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Target player gains 8 life.",
-      "Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5332,7 +5332,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Flying",
-      "At the beginning of your upkeep, each player reveals the top card of his or her library, loses life equal to that card's converted mana cost, then puts it into his or her hand."
+      "At the beginning of your upkeep, each player reveals the top card of their library, loses life equal to that card's converted mana cost, then puts it into their hand."
     ],
     "flavor_text": null,
     "power": "4",
@@ -5619,7 +5619,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": "Purphoros once loved Nylea, the god of the hunt. His passion inspired his most astounding works of art.",
     "power": "1",
@@ -5726,7 +5726,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{4}: Dread Statuary becomes a 4/2 Golem artifact creature until end of turn. It's still a land."
     ],
     "flavor_text": "The last reliable landmark in Tazeem just walked away.",
@@ -5775,7 +5775,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add to your mana pool one mana of any color that a land an opponent controls could produce."
+      "{T}: Add one mana of any color that a land an opponent controls could produce."
     ],
     "flavor_text": "\"It was a strange morning. When we awoke, we found our trees transformed. We didn't know whether to water them or polish them.\"\n—Pulan, Bant orchardist",
     "power": null,
@@ -5799,7 +5799,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{4}, {T}: Target creature can't be blocked this turn."
     ],
     "flavor_text": "Rumors quickly spread among thieves about a labyrinth without walls and a prize beyond all measures of worth.",
@@ -5824,8 +5824,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{1}, {T}: Add one mana of any color to your mana pool."
+      "{T}: Add {C}.",
+      "{1}, {T}: Add one mana of any color."
     ],
     "flavor_text": "Untold riches await those who forsake the bustling world to search the secret, silent places.",
     "power": null,

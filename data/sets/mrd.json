@@ -512,7 +512,7 @@
     "mana_cost": "1WW",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Each player returns to the battlefield all artifact, creature, enchantment, and land cards in his or her graveyard that were put there from the battlefield this turn."
+      "Each player returns to the battlefield all artifact, creature, enchantment, and land cards in their graveyard that were put there from the battlefield this turn."
     ],
     "flavor_text": "The bright tunnel sometimes leads back to life.",
     "power": null,
@@ -1263,8 +1263,8 @@
     "mana_cost": "4U",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "If a player would draw a card, that player exiles the top card of one of his or her opponents' libraries face down instead.",
-      "Each player may look at and play cards he or she exiled with Shared Fate."
+      "If a player would draw a card, that player exiles the top card of one of their opponents' libraries face down instead.",
+      "Each player may look at and play cards they exiled with Shared Fate."
     ],
     "flavor_text": null,
     "power": null,
@@ -1343,7 +1343,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Choose one —",
-      "• Each player shuffles his or her hand and graveyard into his or her library.",
+      "• Each player shuffles their hand and graveyard into their library.",
       "• Each player draws seven cards.",
       "Entwine {2} (Choose both if you pay the entwine cost.)"
     ],
@@ -1525,7 +1525,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "When Chimney Imp dies, target opponent puts a card from his or her hand on top of his or her library."
+      "When Chimney Imp dies, target opponent puts a card from their hand on top of their library."
     ],
     "flavor_text": null,
     "power": "1",
@@ -1550,7 +1550,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Spend only black mana on X.",
-      "Consume Spirit deals X damage to target creature or player and you gain X life."
+      "Consume Spirit deals X damage to any target and you gain X life."
     ],
     "flavor_text": "Mephidross changes all who dwell there, taking their lives and adding them to its own.",
     "power": null,
@@ -2179,7 +2179,7 @@
     "mana_cost": "BB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player discards two cards unless he or she discards an artifact card."
+      "Target player discards two cards unless they discard an artifact card."
     ],
     "flavor_text": "What is the sound of one head snapping?",
     "power": null,
@@ -2205,7 +2205,7 @@
     "mana_cost": "3RR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{R}, Exile the top ten cards of your library: Arc-Slogger deals 2 damage to target creature or player."
+      "{R}, Exile the top ten cards of your library: Arc-Slogger deals 2 damage to any target."
     ],
     "flavor_text": "A shuffling sound and the smell of ozone follow the slogger as surely as its electric tail.",
     "power": "4",
@@ -2375,7 +2375,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "As an additional cost to cast Forge Armor, sacrifice an artifact.",
+      "As an additional cost to cast this spell, sacrifice an artifact.",
       "Put X +1/+1 counters on target creature, where X is the sacrificed artifact's converted mana cost."
     ],
     "flavor_text": null,
@@ -2456,7 +2456,7 @@
     "oracle_text": [
       "Choose one —",
       "• Until end of turn, you gain control of target creature and it gains haste.",
-      "• Sacrifice a creature. Grab the Reins deals damage equal to that creature's power to target creature or player.",
+      "• Sacrifice a creature. Grab the Reins deals damage equal to that creature's power to any target.",
       "Entwine {2}{R} (Choose both if you pay the entwine cost.)"
     ],
     "flavor_text": null,
@@ -2688,7 +2688,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Add {R}{R}{R}{R}{R} to your mana pool."
+      "Add {R}{R}{R}{R}{R}."
     ],
     "flavor_text": "Vulshok mana rituals echo the day when the red sun burst through Mirrodin's surface to take its place in the heavens.",
     "power": null,
@@ -2736,8 +2736,8 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Shrapnel Blast, sacrifice an artifact.",
-      "Shrapnel Blast deals 5 damage to target creature or player."
+      "As an additional cost to cast this spell, sacrifice an artifact.",
+      "Shrapnel Blast deals 5 damage to any target."
     ],
     "flavor_text": "From trinket to trauma.",
     "power": null,
@@ -2791,7 +2791,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{R}, {T}: Spikeshot Goblin deals damage equal to its power to target creature or player."
+      "{R}, {T}: Spikeshot Goblin deals damage equal to its power to any target."
     ],
     "flavor_text": "The path of a goblin shaman is a journey through a thousand ways of hurting people.",
     "power": "1",
@@ -2815,7 +2815,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "As an additional cost to cast Trash for Treasure, sacrifice an artifact.",
+      "As an additional cost to cast this spell, sacrifice an artifact.",
       "Return target artifact card from your graveyard to the battlefield."
     ],
     "flavor_text": "Goblins generally have two possessions: one per hand.",
@@ -3047,7 +3047,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Destroy target artifact. Add {G}{G}{G} to your mana pool."
+      "Destroy target artifact. Add {G}{G}{G}."
     ],
     "flavor_text": "\"Nothing in this world, not even magic, likes to be caged.\"",
     "power": null,
@@ -3102,7 +3102,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "First strike",
-      "{T}: Destroy target artifact if its converted mana cost is equal to the amount of mana in your mana pool."
+      "{T}: Destroy target artifact if its converted mana cost is equal to the amount of unspent mana you have."
     ],
     "flavor_text": "\"There's a secret at the heart of this world, and I will unlock it.\"",
     "power": "3",
@@ -3549,7 +3549,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Destroy target Equipment. Add {G} to your mana pool."
+      "Destroy target Equipment. Add {G}."
     ],
     "flavor_text": "Mirrodin's inhabitants must be prepared for anything—including suddenly being unprepared.",
     "power": null,
@@ -3576,7 +3576,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add an amount of {G} to your mana pool equal to Viridian Joiner's power."
+      "{T}: Add an amount of {G} equal to Viridian Joiner's power."
     ],
     "flavor_text": "\"The Tangle reaches out to itself constantly, forming new connections. We must follow its example.\"",
     "power": "1",
@@ -3704,7 +3704,7 @@
     "mana_cost": "7",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "At the beginning of your precombat main phase, add {B} to your mana pool for each charge counter on Altar of Shadows.",
+      "At the beginning of your precombat main phase, add {B} for each charge counter on Altar of Shadows.",
       "{7}, {T}: Destroy target creature. Then put a charge counter on Altar of Shadows."
     ],
     "flavor_text": null,
@@ -3757,7 +3757,7 @@
     "mana_cost": "5",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "At the beginning of each player's precombat main phase, if Blinkmoth Urn is untapped, that player adds {C} to his or her mana pool for each artifact he or she controls."
+      "At the beginning of each player's precombat main phase, if Blinkmoth Urn is untapped, that player adds {C} for each artifact they control."
     ],
     "flavor_text": "The vedalken embed such urns in their living artifact creations.",
     "power": null,
@@ -3814,7 +3814,7 @@
     "converted_mana_cost": 8,
     "oracle_text": [
       "Trample",
-      "{3}{R}, Sacrifice an artifact: Bosh, Iron Golem deals damage equal to the sacrificed artifact's converted mana cost to target creature or player."
+      "{3}{R}, Sacrifice an artifact: Bosh, Iron Golem deals damage equal to the sacrificed artifact's converted mana cost to any target."
     ],
     "flavor_text": "As Glissa searches for the truth about Memnarch, Bosh searches to unearth the secrets buried deep in his memory.",
     "power": "6",
@@ -3868,7 +3868,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Cathodion dies, add {C}{C}{C} to your mana pool."
+      "When Cathodion dies, add {C}{C}{C}."
     ],
     "flavor_text": "Cathodions repair the Great Furnace by soldering parts of themselves to the mechanism. Eventually, they become one with the machine.",
     "power": "3",
@@ -3917,7 +3917,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{1}, {T}, Sacrifice Chromatic Sphere: Add one mana of any color to your mana pool. Draw a card."
+      "{1}, {T}, Sacrifice Chromatic Sphere: Add one mana of any color. Draw a card."
     ],
     "flavor_text": "\"As expected, this sphere's design reflects the colors of the four moons . . . plus another?\"\n—Pontifex, elder researcher",
     "power": null,
@@ -3942,7 +3942,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Imprint — When Chrome Mox enters the battlefield, you may exile a nonartifact, nonland card from your hand.",
-      "{T}: Add one mana of any of the exiled card's colors to your mana pool."
+      "{T}: Add one mana of any of the exiled card's colors."
     ],
     "flavor_text": null,
     "power": null,
@@ -4114,7 +4114,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool."
+      "{T}: Add {G}."
     ],
     "flavor_text": "The elves thought of the myr as minor threats, just as the myr thought of the elves.",
     "power": "1",
@@ -4399,7 +4399,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Imprint — When Extraplanar Lens enters the battlefield, you may exile target land you control.",
-      "Whenever a land with the same name as the exiled card is tapped for mana, its controller adds one mana to his or her mana pool of any type that land produced."
+      "Whenever a land with the same name as the exiled card is tapped for mana, its controller adds one mana of any type that land produced."
     ],
     "flavor_text": null,
     "power": null,
@@ -4526,7 +4526,7 @@
     "mana_cost": "6",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "At the beginning of each player's upkeep, that player reveals the top card of his or her library. If it's an artifact, creature, enchantment, or land card, the player may put it onto the battlefield."
+      "At the beginning of each player's upkeep, that player reveals the top card of their library. If it's an artifact, creature, enchantment, or land card, the player may put it onto the battlefield."
     ],
     "flavor_text": null,
     "power": null,
@@ -4550,7 +4550,7 @@
     "mana_cost": "5",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{T}: Add three mana of any one color to your mana pool."
+      "{T}: Add three mana of any one color."
     ],
     "flavor_text": "Over such beauty, wars are fought. With such power, wars are won.",
     "power": null,
@@ -4574,7 +4574,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{3}, {T}: Reveal cards from the top of your library until you reveal a land card. Goblin Charbelcher deals damage equal to the number of nonland cards revealed this way to target creature or player. If the revealed land card was a Mountain, Goblin Charbelcher deals double that damage instead. Put the revealed cards on the bottom of your library in any order."
+      "{3}, {T}: Reveal cards from the top of your library until you reveal a land card. Goblin Charbelcher deals damage equal to the number of nonland cards revealed this way to any target. If the revealed land card was a Mountain, Goblin Charbelcher deals double that damage instead. Put the revealed cards on the bottom of your library in any order."
     ],
     "flavor_text": null,
     "power": null,
@@ -4685,7 +4685,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {W} to your mana pool."
+      "{T}: Add {W}."
     ],
     "flavor_text": "The leonin thought of the myr as omens, never imagining the sinister fate they foretold.",
     "power": "1",
@@ -4736,7 +4736,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{3}, {T} or {R}, {T}: Granite Shard deals 1 damage to target creature or player."
+      "{3}, {T} or {R}, {T}: Granite Shard deals 1 damage to any target."
     ],
     "flavor_text": "It's a piece of a world the goblins have never seen but would dearly like to blow up.",
     "power": null,
@@ -4865,7 +4865,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {R} to your mana pool."
+      "{T}: Add {R}."
     ],
     "flavor_text": "The goblins didn't think of the myr at all, which allowed the myr to observe everywhere unhindered.",
     "power": "1",
@@ -4969,7 +4969,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {B} to your mana pool."
+      "{T}: Add {B}."
     ],
     "flavor_text": "The Moriok saw the myr as fellow scavengers, never knowing just who the myr were scavenging for.",
     "power": "1",
@@ -4994,7 +4994,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Flash (You may cast this spell any time you could cast an instant.)",
-      "{2}, Sacrifice Leonin Bladetrap: Leonin Bladetrap deals 2 damage to each attacking creature without flying."
+      "{2}, Sacrifice Leonin Bladetrap: It deals 2 damage to each attacking creature without flying."
     ],
     "flavor_text": null,
     "power": null,
@@ -5306,7 +5306,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever a permanent becomes untapped, that permanent's controller puts the top card of his or her library into his or her graveyard."
+      "Whenever a permanent becomes untapped, that permanent's controller puts the top card of their library into their graveyard."
     ],
     "flavor_text": "A step in one direction is two steps away from another.",
     "power": null,
@@ -5852,7 +5852,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{3}, {T} or {W}, {T}: Prevent the next 2 damage that would be dealt to target creature or player this turn."
+      "{3}, {T} or {W}, {T}: Prevent the next 2 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "Leonin folktales claim it was brought from beyond the sky by the first kha.",
     "power": null,
@@ -5986,7 +5986,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{2}{U}, {T}: Put target creature on the bottom of its owner's library. That creature's controller reveals cards from the top of his or her library until he or she reveals a creature card. The player puts that card onto the battlefield and the rest on the bottom of his or her library in any order. Activate this ability only any time you could cast a sorcery."
+      "{2}{U}, {T}: Put target creature on the bottom of its owner's library. That creature's controller reveals cards from the top of their library until they reveal a creature card. The player puts that card onto the battlefield and the rest on the bottom of their library in any order. Activate this ability only any time you could cast a sorcery."
     ],
     "flavor_text": null,
     "power": null,
@@ -6010,7 +6010,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever a spell or ability causes a player to shuffle his or her library, Psychogenic Probe deals 2 damage to him or her."
+      "Whenever a spell or ability causes a player to shuffle their library, Psychogenic Probe deals 2 damage to that player."
     ],
     "flavor_text": "The same devices sold as surgeons' tools in Lumengrid are sold as implements of torture in Mephidross.",
     "power": null,
@@ -6034,7 +6034,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{R}, Sacrifice Pyrite Spellbomb: Pyrite Spellbomb deals 2 damage to target creature or player.",
+      "{R}, Sacrifice Pyrite Spellbomb: It deals 2 damage to any target.",
       "{1}, Sacrifice Pyrite Spellbomb: Draw a card."
     ],
     "flavor_text": "\"Melt that which was never frozen.\"\n—Spellbomb inscription",
@@ -6059,7 +6059,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "At the beginning of each player's upkeep, that player puts a flood counter on target non-Island land he or she controls of his or her choice. That land is an Island for as long as it has a flood counter on it.",
+      "At the beginning of each player's upkeep, that player puts a flood counter on target non-Island land they control of their choice. That land is an Island for as long as it has a flood counter on it.",
       "At the beginning of each end step, if all lands on the battlefield are Islands, remove all flood counters from them."
     ],
     "flavor_text": null,
@@ -6165,7 +6165,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}: Target player exiles a card from his or her graveyard.",
+      "{T}: Target player exiles a card from their graveyard.",
       "{1}, Sacrifice Scrabbling Claws: Exile target card from a graveyard. Draw a card."
     ],
     "flavor_text": null,
@@ -6270,7 +6270,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {U} to your mana pool."
+      "{T}: Add {U}."
     ],
     "flavor_text": "The vedalken saw the myr as toys, unaware of the intelligence lurking behind their empty eyes.",
     "power": "1",
@@ -6348,7 +6348,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{1}{W}, Sacrifice Soldier Replica: Soldier Replica deals 3 damage to target attacking or blocking creature."
+      "{1}{W}, Sacrifice Soldier Replica: It deals 3 damage to target attacking or blocking creature."
     ],
     "flavor_text": "It fights with inhuman vigor.",
     "power": "1",
@@ -6582,8 +6582,8 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {U} or {B} to your mana pool. Talisman of Dominance deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {U} or {B}. Talisman of Dominance deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -6607,8 +6607,8 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {R} or {G} to your mana pool. Talisman of Impulse deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {R} or {G}. Talisman of Impulse deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -6632,8 +6632,8 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {B} or {R} to your mana pool. Talisman of Indulgence deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {B} or {R}. Talisman of Indulgence deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -6657,8 +6657,8 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {W} or {U} to your mana pool. Talisman of Progress deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {W} or {U}. Talisman of Progress deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -6682,8 +6682,8 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {G} or {W} to your mana pool. Talisman of Unity deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {G} or {W}. Talisman of Unity deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -6731,7 +6731,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever a player casts a creature spell, that player adds {G} to his or her mana pool."
+      "Whenever a player casts a creature spell, that player adds {G}."
     ],
     "flavor_text": "As if there's glitch in the system, the Tangle sometimes folds in on itself, throwing off sparks of mana in a mystifying display.",
     "power": null,
@@ -6779,7 +6779,7 @@
     "mana_cost": "5",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Imprint — When Thought Prison enters the battlefield, you may have target player reveal his or her hand. If you do, choose a nonland card from it and exile that card.",
+      "Imprint — When Thought Prison enters the battlefield, you may have target player reveal their hand. If you do, choose a nonland card from it and exile that card.",
       "Whenever a player casts a spell that shares a color or converted mana cost with the exiled card, Thought Prison deals 2 damage to that player."
     ],
     "flavor_text": null,
@@ -6804,7 +6804,7 @@
     "mana_cost": "5",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "At the beginning of each upkeep, each player exiles the top card of his or her library. The player who exiled the card with the highest converted mana cost takes an extra turn after this one. If two or more players' cards are tied for highest cost, the tied players repeat this process until the tie is broken."
+      "At the beginning of each upkeep, each player exiles the top card of their library. The player who exiled the card with the highest converted mana cost takes an extra turn after this one. If two or more players' cards are tied for highest cost, the tied players repeat this process until the tie is broken."
     ],
     "flavor_text": null,
     "power": null,
@@ -6953,7 +6953,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{8}, {T}: Target player puts the top eight cards of his or her library into his or her graveyard."
+      "{8}, {T}: Target player puts the top eight cards of their library into their graveyard."
     ],
     "flavor_text": "Etched on its surface are warnings from a long-lost race of ur-golems pushed to the brink of extinction.",
     "power": null,
@@ -6981,7 +6981,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Triskelion enters the battlefield with three +1/+1 counters on it.",
-      "Remove a +1/+1 counter from Triskelion: Triskelion deals 1 damage to target creature or player."
+      "Remove a +1/+1 counter from Triskelion: It deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": "1",
@@ -7007,7 +7007,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Equipped creature has \"{T}: This creature deals 1 damage to target creature or player.\"",
+      "Equipped creature has \"{T}: This creature deals 1 damage to any target.\"",
       "Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery. This card enters the battlefield unattached and stays on the battlefield if the creature leaves.)"
     ],
     "flavor_text": null,
@@ -7221,7 +7221,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "(Ancient Den isn't a spell.)",
-      "{T}: Add {W} to your mana pool."
+      "{T}: Add {W}."
     ],
     "flavor_text": "Taj-Nar, throne of Raksha Golden Cub, destined leader of the leonin prides.",
     "power": null,
@@ -7245,7 +7245,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{2}, {T}: Tap target noncreature artifact."
     ],
     "flavor_text": "When dictated by blinkmoth migratory patterns, clouds of tiny lights well up from Mirrodin's core.",
@@ -7273,7 +7273,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Cloudpost enters the battlefield tapped.",
-      "{T}: Add {C} to your mana pool for each Locus on the battlefield."
+      "{T}: Add {C} for each Locus on the battlefield."
     ],
     "flavor_text": "\"He watches from above. He watches from below. He watches from within.\"\n—Inscription on Tel-Jilad, the Tree of Tales",
     "power": null,
@@ -7298,7 +7298,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "At the beginning of the end step, if you control no artifacts, sacrifice Glimmervoid.",
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": "An empty canvas holds infinite possibilities.",
     "power": null,
@@ -7323,7 +7323,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {R} to your mana pool."
+      "{T}: Add {R}."
     ],
     "flavor_text": "Kuldotha, wellspring of molten metal, temple of the goblin horde.",
     "power": null,
@@ -7349,7 +7349,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "(Seat of the Synod isn't a spell.)",
-      "{T}: Add {U} to your mana pool."
+      "{T}: Add {U}."
     ],
     "flavor_text": "Lumengrid, site of the Knowledge Pool, source of vedalken arcana.",
     "power": null,
@@ -7373,7 +7373,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{6}: Stalking Stones becomes a 3/3 Elemental artifact creature that's still a land. (This effect lasts indefinitely.)"
     ],
     "flavor_text": null,
@@ -7400,7 +7400,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "(Tree of Tales isn't a spell.)",
-      "{T}: Add {G} to your mana pool."
+      "{T}: Add {G}."
     ],
     "flavor_text": "Tel-Jilad, sanctum of the ancient trolls, keepers of the secret of Mirrodin's origin.",
     "power": null,
@@ -7426,7 +7426,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "(Vault of Whispers isn't a spell.)",
-      "{T}: Add {B} to your mana pool."
+      "{T}: Add {B}."
     ],
     "flavor_text": "Ish Sah, den of the warlord Geth, commander of countless nim.",
     "power": null,
@@ -7454,7 +7454,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7482,7 +7482,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7510,7 +7510,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7538,7 +7538,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7566,7 +7566,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7594,7 +7594,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7622,7 +7622,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7650,7 +7650,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7678,7 +7678,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7706,7 +7706,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7734,7 +7734,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7762,7 +7762,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7790,7 +7790,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7818,7 +7818,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7846,7 +7846,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7874,7 +7874,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7902,7 +7902,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7930,7 +7930,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7958,7 +7958,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7986,7 +7986,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,

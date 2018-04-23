@@ -475,7 +475,7 @@
     "mana_cost": "3WW",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Whenever an opponent casts a spell, that player sacrifices a permanent unless he or she pays {1}."
+      "Whenever an opponent casts a spell, that player sacrifices a permanent unless they pay {1}."
     ],
     "flavor_text": "His assistants calculate the amount of the tribute. He measures out the punishment for delinquency.",
     "power": "3",
@@ -548,7 +548,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Prevent the next 3 damage that would be dealt to target creature or player this turn.",
+      "Prevent the next 3 damage that would be dealt to any target this turn.",
       "Draw a card."
     ],
     "flavor_text": "\"Defense is as much a part of war as offense, the shield as important a tool as the sword.\"\n—Alovnek, Boros guildmage",
@@ -779,7 +779,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Replicate {3}{U} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)",
-      "Choose target permanent an opponent controls. Search that player's library for a card with the same name and put it onto the battlefield under your control. Then that player shuffles his or her library."
+      "Choose target permanent an opponent controls. Search that player's library for a card with the same name and put it onto the battlefield under your control. Then that player shuffles their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -907,7 +907,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Steamcore Weird enters the battlefield, if {R} was spent to cast Steamcore Weird, it deals 2 damage to target creature or player."
+      "When Steamcore Weird enters the battlefield, if {R} was spent to cast Steamcore Weird, it deals 2 damage to any target."
     ],
     "flavor_text": "Like many Izzet creations, weirds are based on wild contradictions yet somehow manage to work.",
     "power": "1",
@@ -1530,7 +1530,7 @@
     "mana_cost": "4B",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "When Revenant Patriarch enters the battlefield, if {W} was spent to cast it, target player skips his or her next combat phase.",
+      "When Revenant Patriarch enters the battlefield, if {W} was spent to cast it, target player skips their next combat phase.",
       "Revenant Patriarch can't block."
     ],
     "flavor_text": "\"The Golgari raise the bodies of their dead to serve. We raise the spirits of our dead to lead.\"",
@@ -1750,7 +1750,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Enchant creature",
-      "Enchanted creature has \"{T}: This creature deals 1 damage to target creature or player.\"",
+      "Enchanted creature has \"{T}: This creature deals 1 damage to any target.\"",
       "{1}{U}: Return Hypervolt Grasp to its owner's hand."
     ],
     "flavor_text": "Zap on. Zap off.",
@@ -1776,7 +1776,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "If Leyline of Lightning is in your opening hand, you may begin the game with it on the battlefield.",
-      "Whenever you cast a spell, you may pay {1}. If you do, Leyline of Lightning deals 1 damage to target player."
+      "Whenever you cast a spell, you may pay {1}. If you do, Leyline of Lightning deals 1 damage to target player or planeswalker."
     ],
     "flavor_text": "Where storm and spellcraft converge.",
     "power": null,
@@ -1878,7 +1878,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Replicate {1}{R} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)",
-      "Pyromatics deals 1 damage to target creature or player."
+      "Pyromatics deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -1932,7 +1932,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{R}, Sacrifice a creature: Scorched Rusalka deals 1 damage to target player."
+      "{R}, Sacrifice a creature: Scorched Rusalka deals 1 damage to target player or planeswalker."
     ],
     "flavor_text": "Each small blaze she sets jogs her memory, letting her piece together the mystery of her own fiery end.",
     "power": "1",
@@ -2380,7 +2380,7 @@
     "mana_cost": "6G",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "Petrified Wood-Kin can't be countered.",
+      "This spell can't be countered.",
       "Bloodthirst X (This creature enters the battlefield with X +1/+1 counters on it, where X is the damage dealt to your opponents this turn.)",
       "Protection from instants"
     ],
@@ -2488,7 +2488,7 @@
     "oracle_text": [
       "Reach (This creature can block creatures with flying.)",
       "As Silhana Starfletcher enters the battlefield, choose a color.",
-      "{T}: Add one mana of the chosen color to your mana pool."
+      "{T}: Add one mana of the chosen color."
     ],
     "flavor_text": "In light he finds both gift and weapon.",
     "power": "1",
@@ -2786,7 +2786,7 @@
     "mana_cost": "WB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target opponent reveals his or her hand. You choose a nonland card from it and exile that card."
+      "Target opponent reveals their hand. You choose a nonland card from it and exile that card."
     ],
     "flavor_text": "\"We have no need for military might. We wield two of the sharpest swords ever forged: Faith in our left hand, Wealth in our right.\"\n—Vuliev of the Ghost Council",
     "power": null,
@@ -2810,7 +2810,7 @@
     "mana_cost": "1UR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target player draws two cards, then Cerebral Vortex deals damage to that player equal to the number of cards he or she has drawn this turn."
+      "Target player draws two cards, then Cerebral Vortex deals damage to that player equal to the number of cards they've drawn this turn."
     ],
     "flavor_text": "Izzet brains and Izzet boilers: contents under pressure.",
     "power": null,
@@ -2909,7 +2909,7 @@
     "mana_cost": "1UR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Electrolyze deals 2 damage divided as you choose among one or two target creatures and/or players.",
+      "Electrolyze deals 2 damage divided as you choose among one or two targets.",
       "Draw a card."
     ],
     "flavor_text": "The Izzet learn something from every lesson they teach.",
@@ -2963,7 +2963,7 @@
     "mana_cost": "1UR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Gelectrode deals 1 damage to target creature or player.",
+      "{T}: Gelectrode deals 1 damage to any target.",
       "Whenever you cast an instant or sorcery spell, you may untap Gelectrode."
     ],
     "flavor_text": "\"Diametrically opposing energies in self-sealed plasmodermic bubbles make great pets!\"\n—Trivaz, Izzet mage",
@@ -3099,7 +3099,7 @@
     "oracle_text": [
       "Choose one —",
       "• Draw X cards.",
-      "• Invoke the Firemind deals X damage to target creature or player."
+      "• Invoke the Firemind deals X damage to any target."
     ],
     "flavor_text": "To those in tune with the Firemind, there is no difference between knowledge and flame.",
     "power": null,
@@ -3229,7 +3229,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to target creature or player.",
+      "Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to any target.",
       "{T}: Draw a card."
     ],
     "flavor_text": "\"(Z->)90° - (E-N²W)90°t=1\"",
@@ -3418,7 +3418,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with three +1/+1 counters on it.)",
-      "{1}, Sacrifice Skarrgan Skybreaker: Skarrgan Skybreaker deals damage equal to its power to target creature or player."
+      "{1}, Sacrifice Skarrgan Skybreaker: It deals damage equal to its power to any target."
     ],
     "flavor_text": "\"The sky isn't falling—it's being thrown at us!\"\n—Otak, Tin Street shopkeep",
     "power": "3",
@@ -3664,7 +3664,7 @@
     "mana_cost": "2RG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Wreak Havoc can't be countered by spells or abilities.",
+      "This spell can't be countered.",
       "Destroy target artifact or land."
     ],
     "flavor_text": "\"Crush them!\"\n—Borborygmos",
@@ -3799,7 +3799,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "({R/G} can be paid with either {R} or {G}.)",
-      "{3}{R}, Sacrifice a land: Gruul Guildmage deals 2 damage to target player.",
+      "{3}{R}, Sacrifice a land: Gruul Guildmage deals 2 damage to target player or planeswalker.",
       "{3}{G}: Target creature gets +2/+2 until end of turn."
     ],
     "flavor_text": null,
@@ -3940,7 +3940,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "({R/G} can be paid with either {R} or {G}.)",
-      "Sacrifice Wild Cantor: Add one mana of any color to your mana pool."
+      "Sacrifice Wild Cantor: Add one mana of any color."
     ],
     "flavor_text": "They are the voice of the wild, crying out with nature's fury and bringing forth its primeval might.",
     "power": "1",
@@ -3964,7 +3964,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, {T}: Add {R}{G} to your mana pool."
+      "{1}, {T}: Add {R}{G}."
     ],
     "flavor_text": "Gruul territorial markings need not be legible. The blood, snot, and muck used to smear them are unmistakably Gruul.",
     "power": null,
@@ -4013,7 +4013,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, {T}: Add {U}{R} to your mana pool."
+      "{1}, {T}: Add {U}{R}."
     ],
     "flavor_text": "The Izzet signet is redesigned often, each time becoming closer to a vanity portrait of Niv-Mizzet.",
     "power": null,
@@ -4087,7 +4087,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, {T}: Add {W}{B} to your mana pool."
+      "{1}, {T}: Add {W}{B}."
     ],
     "flavor_text": "The form of the sigil is just as important as the sigil itself. If it's carried on a medallion, its bearer is a master. If it's tattooed on the body, its bearer is a slave.",
     "power": null,
@@ -4143,7 +4143,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} or {B} to your mana pool.)",
+      "({T}: Add {W} or {B}.)",
       "As Godless Shrine enters the battlefield, you may pay 2 life. If you don't, Godless Shrine enters the battlefield tapped."
     ],
     "flavor_text": null,
@@ -4170,7 +4170,7 @@
     "oracle_text": [
       "Gruul Turf enters the battlefield tapped.",
       "When Gruul Turf enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {R}{G} to your mana pool."
+      "{T}: Add {R}{G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4196,7 +4196,7 @@
     "oracle_text": [
       "Izzet Boilerworks enters the battlefield tapped.",
       "When Izzet Boilerworks enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {U}{R} to your mana pool."
+      "{T}: Add {U}{R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4220,7 +4220,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{2}{U}{R}, {T}: Exile the top card of your library. Until your next turn, you may cast that card if it's an instant or sorcery card."
     ],
     "flavor_text": "Niv-Mizzet's genius and vanity reverberate throughout the mirrored halls of Nivix.",
@@ -4247,7 +4247,7 @@
     "oracle_text": [
       "Orzhov Basilica enters the battlefield tapped.",
       "When Orzhov Basilica enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {W}{B} to your mana pool."
+      "{T}: Add {W}{B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4271,7 +4271,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{3}{W}{B}, {T}: Target player loses 1 life and you gain 1 life."
     ],
     "flavor_text": "Unlike most churches, at Orzhova it's best to pray before you arrive.",
@@ -4296,7 +4296,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{R}{G}, {T}: Target creature gets +1/+1 and gains trample until end of turn."
     ],
     "flavor_text": "\"This palace will be our fire-spit, and roasted prince our victory meal. Send in the torch-pigs!\"\n—Ghut Rak, Gruul guildmage",
@@ -4324,7 +4324,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} or {R} to your mana pool.)",
+      "({T}: Add {U} or {R}.)",
       "As Steam Vents enters the battlefield, you may pay 2 life. If you don't, Steam Vents enters the battlefield tapped."
     ],
     "flavor_text": null,
@@ -4352,7 +4352,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} or {G} to your mana pool.)",
+      "({T}: Add {R} or {G}.)",
       "As Stomping Ground enters the battlefield, you may pay 2 life. If you don't, Stomping Ground enters the battlefield tapped."
     ],
     "flavor_text": null,

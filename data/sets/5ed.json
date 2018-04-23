@@ -66,8 +66,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {W} or {U} to your mana pool. Adarkar Wastes deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {W} or {U}. Adarkar Wastes deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -171,7 +171,7 @@
     "oracle_text": [
       "Choose one —",
       "• Target player gains X life.",
-      "• Prevent the next X damage that would be dealt to target creature or player this turn."
+      "• Prevent the next X damage that would be dealt to any target this turn."
     ],
     "flavor_text": "Healing is a matter of time, but it is sometimes also a matter of opportunity.\n—D'Avenant proverb",
     "power": null,
@@ -195,7 +195,7 @@
     "mana_cost": "8",
     "converted_mana_cost": 8,
     "oracle_text": [
-      "{8}, {T}: Aladdin's Ring deals 4 damage to target creature or player."
+      "{8}, {T}: Aladdin's Ring deals 4 damage to any target."
     ],
     "flavor_text": "\". . . The magician drew a ring off his finger . . . , saying: ‘It is a talisman against all evil, so long as you obey me.'\"\n—The Arabian Nights,\nJunior Classics trans.",
     "power": null,
@@ -246,7 +246,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}, {T}: Prevent the next 1 damage that would be dealt to target creature or player this turn."
+      "{2}, {T}: Prevent the next 1 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "Among the first allies Urza gained were the people of Kroog. As a sign of friendship, Urza gave the healers of the city potent amulets; afterwards, thousands journeyed to Kroog in hope of healing.",
     "power": null,
@@ -530,7 +530,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Sacrifice a creature: Add {C}{C} to your mana pool."
+      "Sacrifice a creature: Add {C}{C}."
     ],
     "flavor_text": "The Brothers' War scarred the land, but Ashnod left her mark in the bloodlines of those she tortured.",
     "power": null,
@@ -737,7 +737,7 @@
     "mana_cost": "RRR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)",
+      "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
       "Haste (This creature can attack and {T} as soon as it comes under your control.)",
       "At the beginning of the end step, sacrifice Ball Lightning."
     ],
@@ -763,7 +763,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{1}, {T}, Sacrifice Barbed Sextant: Add one mana of any color to your mana pool. Draw a card at the beginning of the next turn's upkeep."
+      "{1}, {T}, Sacrifice Barbed Sextant: Add one mana of any color. Draw a card at the beginning of the next turn's upkeep."
     ],
     "flavor_text": null,
     "power": null,
@@ -925,7 +925,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Flying",
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": "0",
@@ -1208,7 +1208,7 @@
       "Bottomless Vault enters the battlefield tapped.",
       "You may choose not to untap Bottomless Vault during your untap step.",
       "At the beginning of your upkeep, if Bottomless Vault is tapped, put a storage counter on it.",
-      "{T}, Remove any number of storage counters from Bottomless Vault: Add {B} to your mana pool for each storage counter removed this way."
+      "{T}, Remove any number of storage counters from Bottomless Vault: Add {B} for each storage counter removed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -1361,7 +1361,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{1}{R}{R}: Brothers of Fire deals 1 damage to target creature or player and 1 damage to you."
+      "{1}{R}{R}: Brothers of Fire deals 1 damage to any target and 1 damage to you."
     ],
     "flavor_text": "Fire is never a gentle master.",
     "power": "2",
@@ -1385,8 +1385,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {G} or {W} to your mana pool. Brushland deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {G} or {W}. Brushland deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -1741,7 +1741,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Whenever City of Brass becomes tapped, it deals 1 damage to you.",
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -1908,7 +1908,7 @@
     "mana_cost": "9",
     "converted_mana_cost": 9,
     "oracle_text": [
-      "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)",
+      "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
       "Colossus of Sardia doesn't untap during your untap step.",
       "{9}: Untap Colossus of Sardia. Activate this ability only during your upkeep."
     ],
@@ -2318,7 +2318,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Add {B}{B}{B} to your mana pool."
+      "Add {B}{B}{B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -2618,7 +2618,7 @@
     "mana_cost": "XR",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Disintegrate deals X damage to target creature or player. That creature can't be regenerated this turn. If the creature would die this turn, exile it instead."
+      "Disintegrate deals X damage to any target. If it's a creature, it can't be regenerated this turn, and if it would die this turn, exile it instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -2745,7 +2745,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Spend only black mana on X.",
-      "Drain Life deals X damage to target creature or player. You gain life equal to the damage dealt, but not more life than the player's life total before Drain Life dealt damage or the creature's toughness."
+      "Drain Life deals X damage to any target. You gain life equal to the damage dealt, but not more life than the player's life total before the damage was dealt, the planeswalker's loyalty before the damage was dealt, or the creature's toughness."
     ],
     "flavor_text": null,
     "power": null,
@@ -2769,7 +2769,7 @@
     "mana_cost": "UU",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player activates a mana ability of each land he or she controls. Then put all mana from that player's mana pool into yours."
+      "Target player activates a mana ability of each land they control. Then that player loses all unspent mana and you add the mana lost this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -2894,7 +2894,7 @@
       "Dwarven Hold enters the battlefield tapped.",
       "You may choose not to untap Dwarven Hold during your untap step.",
       "At the beginning of your upkeep, if Dwarven Hold is tapped, put a storage counter on it.",
-      "{T}, Remove any number of storage counters from Dwarven Hold: Add {R} to your mana pool for each storage counter removed this way."
+      "{T}, Remove any number of storage counters from Dwarven Hold: Add {R} for each storage counter removed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -2919,8 +2919,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Dwarven Ruins enters the battlefield tapped.",
-      "{T}: Add {R} to your mana pool.",
-      "{T}, Sacrifice Dwarven Ruins: Add {R}{R} to your mana pool."
+      "{T}: Add {R}.",
+      "{T}, Sacrifice Dwarven Ruins: Add {R}{R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -3023,8 +3023,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Ebon Stronghold enters the battlefield tapped.",
-      "{T}: Add {B} to your mana pool.",
-      "{T}, Sacrifice Ebon Stronghold: Add {B}{B} to your mana pool."
+      "{T}: Add {B}.",
+      "{T}, Sacrifice Ebon Stronghold: Add {B}{B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -3466,7 +3466,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add to your mana pool one mana of any color that a land an opponent controls could produce."
+      "{T}: Add one mana of any color that a land an opponent controls could produce."
     ],
     "flavor_text": "Throw stones, and throw away the world.\n—Dwarven proverb",
     "power": null,
@@ -3541,8 +3541,8 @@
     "mana_cost": "XR",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Fireball deals X damage divided evenly, rounded down, among any number of target creatures and/or players.",
-      "Fireball costs {1} more to cast for each target beyond the first."
+      "This spell costs {1} more to cast for each target beyond the first.",
+      "Fireball deals X damage divided evenly, rounded down, among any number of targets."
     ],
     "flavor_text": null,
     "power": null,
@@ -3620,7 +3620,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Flare deals 1 damage to target creature or player.",
+      "Flare deals 1 damage to any target.",
       "Draw a card at the beginning of the next turn's upkeep."
     ],
     "flavor_text": "The secret of destruction is simple: everything burns.",
@@ -3770,7 +3770,7 @@
     "mana_cost": "2GGGG",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)",
+      "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
       "At the beginning of your upkeep, Force of Nature deals 8 damage to you unless you pay {G}{G}{G}{G}."
     ],
     "flavor_text": "\"It blinked, and flower petals fell like tears. Harthar, sensing weakness, attacked—and his blood fell like petals.\"\n—Shesul Fass, faerie bard",
@@ -3823,7 +3823,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3851,7 +3851,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3879,7 +3879,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3907,7 +3907,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3931,7 +3931,7 @@
     "mana_cost": "UU",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player discards two cards, then draws as many cards as he or she discarded this way."
+      "Target player discards two cards, then draws as many cards as they discarded this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -4087,7 +4087,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {G}{G} to your mana pool."
+      "{T}: Add {G}{G}."
     ],
     "flavor_text": "\"Do we know what we're doing? Yes—the will of Freyalise.\"\n—Laina of the Elvish Council",
     "power": "1",
@@ -4590,8 +4590,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Havenwood Battleground enters the battlefield tapped.",
-      "{T}: Add {G} to your mana pool.",
-      "{T}, Sacrifice Havenwood Battleground: Add {G}{G} to your mana pool."
+      "{T}: Add {G}.",
+      "{T}, Sacrifice Havenwood Battleground: Add {G}{G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4615,7 +4615,7 @@
     "mana_cost": "W",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Prevent the next 1 damage that would be dealt to target creature or player this turn.",
+      "Prevent the next 1 damage that would be dealt to any target this turn.",
       "Draw a card at the beginning of the next turn's upkeep."
     ],
     "flavor_text": "\"Sometimes even the smallest boon can save a life.\"\n—Halvor Arenson, Kjeldoran priest",
@@ -4642,7 +4642,7 @@
     "oracle_text": [
       "Choose one —",
       "• Target player gains 3 life.",
-      "• Prevent the next 3 damage that would be dealt to target creature or player this turn."
+      "• Prevent the next 3 damage that would be dealt to any target this turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -4667,7 +4667,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "When Hecatomb enters the battlefield, sacrifice Hecatomb unless you sacrifice four creatures.",
-      "Tap an untapped Swamp you control: Hecatomb deals 1 damage to target creature or player."
+      "Tap an untapped Swamp you control: Hecatomb deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -4768,7 +4768,7 @@
       "Hollow Trees enters the battlefield tapped.",
       "You may choose not to untap Hollow Trees during your untap step.",
       "At the beginning of your upkeep, if Hollow Trees is tapped, put a storage counter on it.",
-      "{T}, Remove any number of storage counters from Hollow Trees: Add {G} to your mana pool for each storage counter removed this way."
+      "{T}, Remove any number of storage counters from Hollow Trees: Add {G} for each storage counter removed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -4920,7 +4920,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Return all artifacts target player owns to his or her hand."
+      "Return all artifacts target player owns to their hand."
     ],
     "flavor_text": "This spell, like many attributed to Drafna, was actually the work of his wife and former student, Hurkyl.",
     "power": null,
@@ -5076,7 +5076,7 @@
       "Icatian Store enters the battlefield tapped.",
       "You may choose not to untap Icatian Store during your untap step.",
       "At the beginning of your upkeep, if Icatian Store is tapped, put a storage counter on it.",
-      "{T}, Remove any number of storage counters from Icatian Store: Add {W} to your mana pool for each storage counter removed this way."
+      "{T}, Remove any number of storage counters from Icatian Store: Add {W} for each storage counter removed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -5176,7 +5176,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can't be regenerated this turn."
+      "Incinerate deals 3 damage to any target. A creature dealt damage this way can't be regenerated this turn."
     ],
     "flavor_text": "\"Yes, I think ‘toast' is an appropriate description.\"\n—Jaya Ballard, task mage",
     "power": null,
@@ -5252,7 +5252,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{1}: Add {B} to your mana pool. If this ability has been activated four or more times this turn, sacrifice Initiates of the Ebon Hand at the beginning of the next end step."
+      "{1}: Add {B}. If this ability has been activated four or more times this turn, sacrifice Initiates of the Ebon Hand at the beginning of the next end step."
     ],
     "flavor_text": "\"We are no longer Nature's children, but her masters . . . .\"\n—Oath of the Ebon Hand",
     "power": "1",
@@ -5410,7 +5410,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5438,7 +5438,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5466,7 +5466,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5494,7 +5494,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5690,7 +5690,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{2}, {T}, Sacrifice Jester's Cap: Search target player's library for three cards and exile them. Then that player shuffles his or her library."
+      "{2}, {T}, Sacrifice Jester's Cap: Search target player's library for three cards and exile them. Then that player shuffles their library."
     ],
     "flavor_text": "\"Know your foes' strengths as well as their weaknesses.\"\n—Arcum Dagsson, Soldevi machinist",
     "power": null,
@@ -5837,7 +5837,7 @@
     "mana_cost": "2WW",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "At the beginning of each player's upkeep, Karma deals damage to that player equal to the number of Swamps he or she controls."
+      "At the beginning of each player's upkeep, Karma deals damage to that player equal to the number of Swamps they control."
     ],
     "flavor_text": null,
     "power": null,
@@ -5861,8 +5861,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {R} or {G} to your mana pool. Karplusan Forest deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {R} or {G}. Karplusan Forest deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -6393,7 +6393,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool."
+      "{T}: Add {G}."
     ],
     "flavor_text": "One bone broken for every twig snapped underfoot.\n—Llanowar penalty for trespassing",
     "power": "1",
@@ -6599,7 +6599,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land produced."
+      "Whenever a player taps a land for mana, that player adds one mana of any type that land produced."
     ],
     "flavor_text": null,
     "power": null,
@@ -6626,7 +6626,7 @@
       "Mana Vault doesn't untap during your untap step.",
       "At the beginning of your upkeep, you may pay {4}. If you do, untap Mana Vault.",
       "At the beginning of your draw step, if Mana Vault is tapped, it deals 1 damage to you.",
-      "{T}: Add {C}{C}{C} to your mana pool."
+      "{T}: Add {C}{C}{C}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6825,7 +6825,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}, {T}: Target player puts the top two cards of his or her library into his or her graveyard."
+      "{2}, {T}: Target player puts the top two cards of their library into their graveyard."
     ],
     "flavor_text": "More than one mage has been driven insane by the sound of the millstone relentlessly grinding away.",
     "power": null,
@@ -6849,7 +6849,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Each player may discard up to three cards. Mind Bomb deals damage to each player equal to 3 minus the number of cards he or she discarded this way."
+      "Each player may discard up to three cards. Mind Bomb deals damage to each player equal to 3 minus the number of cards they discarded this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -7003,7 +7003,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7031,7 +7031,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7059,7 +7059,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7087,7 +7087,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7346,7 +7346,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Orcish Artillery deals 2 damage to target creature or player and 3 damage to you."
+      "{T}: Orcish Artillery deals 2 damage to any target and 3 damage to you."
     ],
     "flavor_text": "In a rare display of ingenuity, the orcs invented an incredibly destructive weapon. Most orcish artillerists are those who dared criticize its effectiveness.",
     "power": "1",
@@ -7611,7 +7611,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Cast Panic only during combat before blockers are declared.",
+      "Cast this spell only during combat before blockers are declared.",
       "Target creature can't block this turn.",
       "Draw a card at the beginning of the next turn's upkeep."
     ],
@@ -7642,7 +7642,7 @@
       "Enchant creature",
       "When Paralyze enters the battlefield, tap enchanted creature.",
       "Enchanted creature doesn't untap during its controller's untap step.",
-      "At the beginning of the upkeep of enchanted creature's controller, that player may pay {4}. If he or she does, untap the creature."
+      "At the beginning of the upkeep of enchanted creature's controller, that player may pay {4}. If the player does, untap the creature."
     ],
     "flavor_text": null,
     "power": null,
@@ -7718,7 +7718,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "{0}: The next 1 damage that would be dealt to Personal Incarnation this turn is dealt to its owner instead. Only Personal Incarnation's owner may activate this ability.",
-      "When Personal Incarnation dies, its owner loses half his or her life, rounded up."
+      "When Personal Incarnation dies, its owner loses half their life, rounded up."
     ],
     "flavor_text": null,
     "power": "6",
@@ -7879,7 +7879,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Pirate Ship can't attack unless defending player controls an Island.",
-      "{T}: Pirate Ship deals 1 damage to target creature or player.",
+      "{T}: Pirate Ship deals 1 damage to any target.",
       "When you control no Islands, sacrifice Pirate Ship."
     ],
     "flavor_text": null,
@@ -7960,7 +7960,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7988,7 +7988,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8016,7 +8016,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8044,7 +8044,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8068,7 +8068,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Look at the top three cards of target player's library, then put them back in any order. You may have that player shuffle his or her library.",
+      "Look at the top three cards of target player's library, then put them back in any order. You may have that player shuffle their library.",
       "Draw a card at the beginning of the next turn's upkeep."
     ],
     "flavor_text": null,
@@ -8093,7 +8093,7 @@
     "mana_cost": "XU",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Counter target spell unless its controller pays {X}. If he or she doesn't, that player taps all lands with mana abilities he or she controls and empties his or her mana pool."
+      "Counter target spell unless its controller pays {X}. If that player doesn't, they tap all lands with mana abilities they control and lose all unspent mana."
     ],
     "flavor_text": null,
     "power": null,
@@ -8117,7 +8117,7 @@
     "mana_cost": "BBB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Each player loses a third of his or her life, then discards a third of the cards in his or her hand, then sacrifices a third of the creatures he or she controls, then sacrifices a third of the lands he or she controls. Round up each time."
+      "Each player loses a third of their life, then discards a third of the cards in their hand, then sacrifices a third of the creatures they control, then sacrifices a third of the lands they control. Round up each time."
     ],
     "flavor_text": null,
     "power": null,
@@ -8195,7 +8195,7 @@
     "mana_cost": "2GG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "At the beginning of each player's upkeep, Primal Order deals damage to that player equal to the number of nonbasic lands he or she controls."
+      "At the beginning of each player's upkeep, Primal Order deals damage to that player equal to the number of nonbasic lands they control."
     ],
     "flavor_text": "\"My sorrow: to dream of simple times, and wake in mine . . . .\"\n—Ola DaRiol, \"Regrets\"",
     "power": null,
@@ -8277,7 +8277,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Prodigal Sorcerer deals 1 damage to target creature or player."
+      "{T}: Prodigal Sorcerer deals 1 damage to any target."
     ],
     "flavor_text": "Occasionally members of the Institute of Arcane Study acquire a taste for worldly pleasures. Seldom do they have trouble finding employment.",
     "power": "1",
@@ -8354,7 +8354,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Pyrotechnics deals 4 damage divided as you choose among any number of target creatures and/or players."
+      "Pyrotechnics deals 4 damage divided as you choose among any number of targets."
     ],
     "flavor_text": "\"Hi! ni! ya! Behold the man of flint, that's me! / Four lightnings zigzag from me, strike and return.\"\n—Navajo war chant",
     "power": null,
@@ -8434,7 +8434,7 @@
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{B}{B}{B}, {T}: Target opponent reveals his or her hand and discards a creature card at random. Activate this ability only during your turn."
+      "{B}{B}{B}, {T}: Target opponent reveals their hand and discards a creature card at random. Activate this ability only during your turn."
     ],
     "flavor_text": "\"Aw, he's just a silly, dirty little man. What's to be afraid of?\"",
     "power": "2",
@@ -8533,7 +8533,7 @@
     "mana_cost": "1UU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever Reef Pirates deals damage to an opponent, that player puts the top card of his or her library into his or her graveyard."
+      "Whenever Reef Pirates deals damage to an opponent, that player puts the top card of their library into their graveyard."
     ],
     "flavor_text": "Relentless as the tides, souls dark as a moonless night. Bloodshed on their minds, and greed burning in their hearts like molten gold.",
     "power": "2",
@@ -8682,7 +8682,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{3}, {T}: Rod of Ruin deals 1 damage to target creature or player."
+      "{3}, {T}: Rod of Ruin deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -8707,8 +8707,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Ruins of Trokair enters the battlefield tapped.",
-      "{T}: Add {W} to your mana pool.",
-      "{T}, Sacrifice Ruins of Trokair: Add {W}{W} to your mana pool."
+      "{T}: Add {W}.",
+      "{T}, Sacrifice Ruins of Trokair: Add {W}{W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -8785,7 +8785,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn."
+      "{T}: Prevent the next 1 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "Healers ultimately acquire the divine gifts of spiritual and physical wholeness. The most devout are also granted the ability to pass physical wholeness on to others.",
     "power": "1",
@@ -8812,7 +8812,7 @@
       "Sand Silos enters the battlefield tapped.",
       "You may choose not to untap Sand Silos during your untap step.",
       "At the beginning of your upkeep, if Sand Silos is tapped, put a storage counter on it.",
-      "{T}, Remove any number of storage counters from Sand Silos: Add {U} to your mana pool for each storage counter removed this way."
+      "{T}, Remove any number of storage counters from Sand Silos: Add {U} for each storage counter removed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -9179,7 +9179,7 @@
     "mana_cost": "2WW",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.",
+      "{T}: Prevent the next 1 damage that would be dealt to any target this turn.",
       "{1}{W}{W}, {T}: Target creature gains vigilance until end of turn."
     ],
     "flavor_text": "One light, one blade, one purpose.\n—Vow of the Serra Paladins",
@@ -9437,7 +9437,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{1}, {T}, Sacrifice a creature: Skull Catapult deals 2 damage to target creature or player."
+      "{1}, {T}, Sacrifice a creature: Skull Catapult deals 2 damage to any target."
     ],
     "flavor_text": "\"Let any who doubt the evil of using the ancient devices look at this infernal machine. What manner of fiend would design such a sadistic device?\"\n—Sorine Relicbane, Soldevi heretic",
     "power": null,
@@ -9536,7 +9536,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever an opponent casts a creature spell, Soul Barrier deals 2 damage to that player unless he or she pays {2}."
+      "Whenever an opponent casts a creature spell, Soul Barrier deals 2 damage to that player unless they pay {2}."
     ],
     "flavor_text": "\"The Soul selects her own Society—\nThen—shuts the Door—\"\n—Emily Dickinson,\n\"The Soul selects her own Society\"",
     "power": null,
@@ -9839,8 +9839,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {B} or {R} to your mana pool. Sulfurous Springs deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -9865,8 +9865,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Svyelunite Temple enters the battlefield tapped.",
-      "{T}: Add {U} to your mana pool.",
-      "{T}, Sacrifice Svyelunite Temple: Add {U}{U} to your mana pool."
+      "{T}: Add {U}.",
+      "{T}, Sacrifice Svyelunite Temple: Add {U}{U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -9894,7 +9894,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -9922,7 +9922,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -9950,7 +9950,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -9978,7 +9978,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -10360,7 +10360,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Touch of Death deals 1 damage to target player. You gain 1 life.",
+      "Touch of Death deals 1 damage to target player or planeswalker. You gain 1 life.",
       "Draw a card at the beginning of the next turn's upkeep."
     ],
     "flavor_text": "\"What was yours is mine. Your land, your people, and now your life.\"\n—Lim-Dûl, the Necromancer",
@@ -10507,8 +10507,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {U} or {B} to your mana pool. Underground River deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {U} or {B}. Underground River deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -10714,7 +10714,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} to your mana pool instead."
+      "{T}: Add {C}. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} instead."
     ],
     "flavor_text": "Mines became common as cities during the days of the artificers.",
     "power": null,
@@ -10741,7 +10741,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {C}{C} to your mana pool instead."
+      "{T}: Add {C}. If you control an Urza's Mine and an Urza's Tower, add {C}{C} instead."
     ],
     "flavor_text": "Artifact construction required immense resources.",
     "power": null,
@@ -10768,7 +10768,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} to your mana pool instead."
+      "{T}: Add {C}. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} instead."
     ],
     "flavor_text": "Urza always put Tocasia's lessons on resource-gathering to effective use.",
     "power": null,
@@ -11254,7 +11254,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Enchant land",
-      "Whenever enchanted land is tapped for mana, its controller adds {G} to his or her mana pool (in addition to the mana the land produces)."
+      "Whenever enchanted land is tapped for mana, its controller adds an additional {G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -11306,7 +11306,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Each player shuffles the cards from his or her hand into his or her library, then draws that many cards."
+      "Each player shuffles the cards from their hand into their library, then draws that many cards."
     ],
     "flavor_text": "\"'Tis the set of sails, and not the gales, Which tell us the way to go.\"\n—Ella Wheeler Wilcox, \"Winds of Fate\"",
     "power": null,
@@ -11582,7 +11582,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Players play with their hands revealed.",
-      "If a player would draw a card, he or she reveals it instead. Then any other player may pay 2 life. If a player does, put that card into its owner's graveyard. Otherwise, that player draws a card."
+      "If a player would draw a card, they reveal it instead. Then any other player may pay 2 life. If a player does, put that card into its owner's graveyard. Otherwise, that player draws a card."
     ],
     "flavor_text": null,
     "power": null,

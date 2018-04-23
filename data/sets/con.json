@@ -204,7 +204,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Creatures you control get +1/+2 until end of turn. Untap those creatures.",
-      "Basic landcycling {1}{W} ({1}{W}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Basic landcycling {1}{W} ({1}{W}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -385,7 +385,7 @@
     "mana_cost": "W",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Exile target creature. Its controller may search his or her library for a basic land card, put that card onto the battlefield tapped, then shuffle his or her library."
+      "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -919,7 +919,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Target opponent reveals cards from the top of his or her library until he or she reveals a creature card. That player puts all noncreature cards revealed this way into his or her graveyard, then you put the creature card onto the battlefield under your control."
+      "Target opponent reveals cards from the top of their library until they reveal a creature card. That player puts all noncreature cards revealed this way into their graveyard, then you put the creature card onto the battlefield under your control."
     ],
     "flavor_text": null,
     "power": null,
@@ -944,7 +944,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Counter target spell.",
-      "Basic landcycling {1}{U} ({1}{U}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Basic landcycling {1}{U} ({1}{U}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1041,7 +1041,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Target player loses 4 life and you gain 4 life.",
-      "Basic landcycling {1}{B} ({1}{B}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Basic landcycling {1}{B} ({1}{B}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1145,7 +1145,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "Whenever another creature leaves the battlefield, you may have target player put the top two cards of his or her library into his or her graveyard.",
+      "Whenever another creature leaves the battlefield, you may have target player put the top two cards of their library into their graveyard.",
       "Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"
     ],
     "flavor_text": null,
@@ -1516,8 +1516,8 @@
     "mana_cost": "XR",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Banefire deals X damage to target creature or player.",
-      "If X is 5 or more, Banefire can't be countered by spells or abilities and the damage can't be prevented."
+      "Banefire deals X damage to any target.",
+      "If X is 5 or more, this spell can't be countered and the damage can't be prevented."
     ],
     "flavor_text": "For Sarkhan Vol, the dragon is the purest expression of life's savage splendor.",
     "power": null,
@@ -1646,7 +1646,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Fiery Fall deals 5 damage to target creature.",
-      "Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": "Jund feasts on the unprepared.",
     "power": null,
@@ -1674,7 +1674,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "{1}{R}, Sacrifice a land: Put a +1/+1 counter on Goblin Razerunners.",
-      "At the beginning of your end step, you may have Goblin Razerunners deal damage equal to the number of +1/+1 counters on it to target player."
+      "At the beginning of your end step, you may have Goblin Razerunners deal damage equal to the number of +1/+1 counters on it to target player or planeswalker."
     ],
     "flavor_text": "Finding themselves in a new and unexplored world, they immediately set it on fire.",
     "power": "3",
@@ -1828,7 +1828,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Quenchable Fire deals 3 damage to target player. It deals an additional 3 damage to that player at the beginning of your next upkeep step unless he or she pays {U} before that step."
+      "Quenchable Fire deals 3 damage to target player or planeswalker. It deals an additional 3 damage to that player or planeswalker at the beginning of your next upkeep step unless that player or that planeswalker's controller pays {U} before that step."
     ],
     "flavor_text": "You'd better know how to pray for rain.",
     "power": null,
@@ -1936,7 +1936,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Volcanic Fallout can't be countered.",
+      "This spell can't be countered.",
       "Volcanic Fallout deals 2 damage to each creature and each player."
     ],
     "flavor_text": "\"How can we outrun the sky?\"\n—Hadran, sunseeder of Naya",
@@ -1965,7 +1965,7 @@
     "oracle_text": [
       "Flying",
       "Devour 1 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with that many +1/+1 counters on it.)",
-      "When Voracious Dragon enters the battlefield, it deals damage to target creature or player equal to twice the number of Goblins it devoured."
+      "When Voracious Dragon enters the battlefield, it deals damage to any target equal to twice the number of Goblins it devoured."
     ],
     "flavor_text": null,
     "power": "4",
@@ -2284,7 +2284,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)",
-      "{T}: Add {G}, {W}, or {U} to your mana pool."
+      "{T}: Add {G}, {W}, or {U}."
     ],
     "flavor_text": "She protects the sacred groves from blight, drought, and the Unbeholden.",
     "power": "0",
@@ -2461,7 +2461,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Target player gains 8 life.",
-      "Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": "Some who scouted new lands chose to stay.",
     "power": null,
@@ -2571,7 +2571,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Apocalypse Hydra enters the battlefield with X +1/+1 counters on it. If X is 5 or more, it enters the battlefield with an additional X +1/+1 counters on it.",
-      "{1}{R}, Remove a +1/+1 counter from Apocalypse Hydra: Apocalypse Hydra deals 1 damage to target creature or player."
+      "{1}{R}, Remove a +1/+1 counter from Apocalypse Hydra: Apocalypse Hydra deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": "0",
@@ -2782,7 +2782,7 @@
     "mana_cost": "2RG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Domain — Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library. Exploding Borders deals X damage to target player, where X is the number of basic land types among lands you control."
+      "Domain — Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library. Exploding Borders deals X damage to target player or planeswalker, where X is the number of basic land types among lands you control."
     ],
     "flavor_text": "Reuniting a world is not a gentle process.",
     "power": null,
@@ -2945,7 +2945,7 @@
     "mana_cost": "1WU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.",
+      "{T}: Prevent the next 1 damage that would be dealt to any target this turn.",
       "{T}: Target creature can't be blocked this turn."
     ],
     "flavor_text": "\"You have two choices: heed my advice now or need my healing later.\"",
@@ -3001,7 +3001,7 @@
     "mana_cost": "RGW",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{1}, {T}: Add {R}{G}{W} to your mana pool."
+      "{1}, {T}: Add {R}{G}{W}."
     ],
     "flavor_text": "The elves of Naya were the last to acknowledge the massive shift of mana in their world.",
     "power": "2",
@@ -3170,7 +3170,7 @@
     "oracle_text": [
       "+3: Destroy target noncreature permanent.",
       "−2: Gain control of target creature.",
-      "−9: Nicol Bolas, Planeswalker deals 7 damage to target player. That player discards seven cards, then sacrifices seven permanents."
+      "−9: Nicol Bolas, Planeswalker deals 7 damage to target player or planeswalker. That player or that planeswalker's controller discards seven cards, then sacrifices seven permanents."
     ],
     "flavor_text": null,
     "power": null,
@@ -3626,7 +3626,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "When Kaleidostone enters the battlefield, draw a card.",
-      "{5}, {T}, Sacrifice Kaleidostone: Add {W}{U}{B}{R}{G} to your mana pool."
+      "{5}, {T}, Sacrifice Kaleidostone: Add {W}{U}{B}{R}{G}."
     ],
     "flavor_text": "Once broken, who knows what worlds might grow from its shards?",
     "power": null,
@@ -3650,7 +3650,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{1}, {T}: Add one mana of any color to your mana pool."
+      "{1}, {T}: Add one mana of any color."
     ],
     "flavor_text": "Those who dismiss the cylix as an ordinary wooden bowl are blind to the true measure of its worth.",
     "power": null,
@@ -3704,7 +3704,7 @@
       "{1}{W}, {T}: You gain 5 life.",
       "{1}{U}, {T}: Draw a card, then discard a card.",
       "{1}{B}, {T}: Target creature gets -2/-2 until end of turn.",
-      "{1}{R}, {T}: Obelisk of Alara deals 3 damage to target player.",
+      "{1}{R}, {T}: Obelisk of Alara deals 3 damage to target player or planeswalker.",
       "{1}{G}, {T}: Target creature gets +4/+4 until end of turn."
     ],
     "flavor_text": null,
@@ -3729,7 +3729,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell."
+      "{T}: Add one mana of any color. Spend this mana only to cast a creature spell."
     ],
     "flavor_text": "Built in honor of Alara's creatures, the ziggurat vanished long ago. When Progenitus awakened, the temple emerged again.",
     "power": null,
@@ -3753,7 +3753,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add to your mana pool one mana of any color that a land an opponent controls could produce."
+      "{T}: Add one mana of any color that a land an opponent controls could produce."
     ],
     "flavor_text": "\"It was a strange morning. When we awoke, we found our trees transformed. We didn't know whether to water them or polish them.\"\n—Pulan, Bant orchardist",
     "power": null,
@@ -3778,7 +3778,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "You have no maximum hand size.",
-      "{T}: Add {C} to your mana pool."
+      "{T}: Add {C}."
     ],
     "flavor_text": "When the aven scouts located the tower in Esper, the Knights of the Reliquary set off on a righteous crusade to recover their lost treasures.",
     "power": null,
@@ -3804,7 +3804,7 @@
     "oracle_text": [
       "Rupture Spire enters the battlefield tapped.",
       "When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.",
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -3828,7 +3828,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{T}: Target land you control becomes the basic land type of your choice until end of turn."
     ],
     "flavor_text": "The goblins went to sleep in Jund and awoke in Grixis. They'd never seen a zombie before. They would never see one again.",

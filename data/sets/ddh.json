@@ -18,7 +18,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "+1: Target permanent doesn't untap during its controller's next untap step.",
-      "−2: Ajani Vengeant deals 3 damage to target creature or player and you gain 3 life.",
+      "−2: Ajani Vengeant deals 3 damage to any target and you gain 3 life.",
       "−7: Destroy all lands target player controls."
     ],
     "flavor_text": null,
@@ -420,7 +420,7 @@
     "mana_cost": "2{R/W}{R/W}",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever Spitemare is dealt damage, it deals that much damage to target creature or player."
+      "Whenever Spitemare is dealt damage, it deals that much damage to any target."
     ],
     "flavor_text": "\"I knew a creature carved from a dream of wild freedom. Any attempt to leash or exploit it failed, and at terrible cost.\"\n—Ashling",
     "power": "3",
@@ -604,7 +604,7 @@
     "mana_cost": "RW",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Lightning Helix deals 3 damage to target creature or player and you gain 3 life."
+      "Lightning Helix deals 3 damage to any target and you gain 3 life."
     ],
     "flavor_text": "\"Rage is not the answer. Rage followed by fitting vengeance is the answer.\"\n—Ajani",
     "power": null,
@@ -708,7 +708,7 @@
     "mana_cost": "1RW",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever you gain life, you may pay {2}. If you do, Searing Meditation deals 2 damage to target creature or player."
+      "Whenever you gain life, you may pay {2}. If you do, Searing Meditation deals 2 damage to any target."
     ],
     "flavor_text": "\"When I meditate I see the world as it should be. All that does not fit, I remove.\"\n—Alovnek, Boros guildmage",
     "power": null,
@@ -787,7 +787,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Target player gains 8 life.",
-      "Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": "Some who scouted new lands chose to stay.",
     "power": null,
@@ -861,7 +861,7 @@
     "oracle_text": [
       "Graypelt Refuge enters the battlefield tapped.",
       "When Graypelt Refuge enters the battlefield, you gain 1 life.",
-      "{T}: Add {G} or {W} to your mana pool."
+      "{T}: Add {G} or {W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -886,7 +886,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Jungle Shrine enters the battlefield tapped.",
-      "{T}: Add {R}, {G}, or {W} to your mana pool."
+      "{T}: Add {R}, {G}, or {W}."
     ],
     "flavor_text": "On Naya, ambition and treachery are scarce, hunted nearly to extinction by the awe owed to terrestrial gods.",
     "power": null,
@@ -912,7 +912,7 @@
     "oracle_text": [
       "Kazandu Refuge enters the battlefield tapped.",
       "When Kazandu Refuge enters the battlefield, you gain 1 life.",
-      "{T}: Add {R} or {G} to your mana pool."
+      "{T}: Add {R} or {G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -938,7 +938,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)",
+      "({T}: Add {G}.)",
       "Sapseep Forest enters the battlefield tapped.",
       "{G}, {T}: You gain 1 life. Activate this ability only if you control two or more green permanents."
     ],
@@ -964,7 +964,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{2}{G}{W}, {T}: Create a 1/1 green Saproling creature token."
     ],
     "flavor_text": "In the autumn, she casts her seeds across the streets below, and come spring, her children rise in service to the Conclave.",
@@ -993,7 +993,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1021,7 +1021,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1049,7 +1049,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1079,7 +1079,7 @@
     "oracle_text": [
       "+3: Destroy target noncreature permanent.",
       "−2: Gain control of target creature.",
-      "−9: Nicol Bolas, Planeswalker deals 7 damage to target player. That player discards seven cards, then sacrifices seven permanents."
+      "−9: Nicol Bolas, Planeswalker deals 7 damage to target player or planeswalker. That player or that planeswalker's controller discards seven cards, then sacrifices seven permanents."
     ],
     "flavor_text": null,
     "power": null,
@@ -1214,7 +1214,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Sacrifice Morgue Toad: Add {U}{R} to your mana pool."
+      "Sacrifice Morgue Toad: Add {U}{R}."
     ],
     "flavor_text": "\"The toads of Urborg aren't fast, powerful, or pleasant, but they have their uses.\"\n—Ertai",
     "power": "2",
@@ -1241,7 +1241,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Hellfire Mongrel deals 2 damage to him or her."
+      "At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Hellfire Mongrel deals 2 damage to that player."
     ],
     "flavor_text": "There is no fondness between the hound and its master. There is only a common appreciation of the hunt.",
     "power": "2",
@@ -1293,7 +1293,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Steamcore Weird enters the battlefield, if {R} was spent to cast Steamcore Weird, it deals 2 damage to target creature or player."
+      "When Steamcore Weird enters the battlefield, if {R} was spent to cast Steamcore Weird, it deals 2 damage to any target."
     ],
     "flavor_text": "Like many Izzet creations, weirds are based on wild contradictions yet somehow manage to work.",
     "power": "1",
@@ -1457,7 +1457,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)",
-      "Islandcycling {2}, swampcycling {2} ({2}, Discard this card: Search your library for an Island or Swamp card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Islandcycling {2}, swampcycling {2} ({2}, Discard this card: Search your library for an Island or Swamp card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": "2",
@@ -1484,7 +1484,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Haste",
-      "Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your library for a Swamp or Mountain card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your library for a Swamp or Mountain card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": "5",
@@ -1556,7 +1556,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {U}, {B}, or {R} to your mana pool."
+      "{T}: Add {U}, {B}, or {R}."
     ],
     "flavor_text": "Like most features of Grixis, the obelisks that remain from the time of Alara now exist only for dark exploitation.",
     "power": null,
@@ -1705,7 +1705,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)",
-      "Destroy target nonblack creature. It can't be regenerated. If Agonizing Demise was kicked, it deals damage equal to that creature's power to the creature's controller."
+      "Destroy target nonblack creature. It can't be regenerated. If this spell was kicked, Agonizing Demise deals damage equal to that creature's power to the creature's controller."
     ],
     "flavor_text": null,
     "power": null,
@@ -1953,7 +1953,7 @@
     "mana_cost": "BR",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player reveals two cards at random from his or her hand, then discards each nonland card revealed this way."
+      "Target player reveals two cards at random from their hand, then discards each nonland card revealed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -1978,7 +1978,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Crumbling Necropolis enters the battlefield tapped.",
-      "{T}: Add {U}, {B}, or {R} to your mana pool."
+      "{T}: Add {U}, {B}, or {R}."
     ],
     "flavor_text": "\"They say the ruins of Sedraxis were once a shining capital in Vithia. Now it is a blight, a place to be avoided by the living.\"\n—Olcot, Rider of Joffik",
     "power": null,
@@ -2004,7 +2004,7 @@
     "oracle_text": [
       "Rupture Spire enters the battlefield tapped.",
       "When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.",
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -2056,7 +2056,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2084,7 +2084,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2112,7 +2112,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2140,7 +2140,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2168,7 +2168,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,

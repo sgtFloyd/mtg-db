@@ -69,7 +69,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Untap Endbringer during each other player's untap step.",
-      "{T}: Endbringer deals 1 damage to target creature or player.",
+      "{T}: Endbringer deals 1 damage to any target.",
       "{C}, {T}: Target creature can't attack or block this turn.",
       "{C}{C}, {T}: Draw a card."
     ],
@@ -99,7 +99,7 @@
     "mana_cost": "8CC",
     "converted_mana_cost": 10,
     "oracle_text": [
-      "When you cast Kozilek, the Great Distortion, if you have fewer than seven cards in hand, draw cards equal to the difference.",
+      "When you cast this spell, if you have fewer than seven cards in hand, draw cards equal to the difference.",
       "Menace",
       "Discard a card with converted mana cost X: Counter target spell with converted mana cost X."
     ],
@@ -234,7 +234,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "({C} represents colorless mana.)",
-      "When Thought-Knot Seer enters the battlefield, target opponent reveals his or her hand. You choose a nonland card from it and exile that card.",
+      "When Thought-Knot Seer enters the battlefield, target opponent reveals their hand. You choose a nonland card from it and exile that card.",
       "When Thought-Knot Seer leaves the battlefield, target opponent draws a card."
     ],
     "flavor_text": null,
@@ -291,7 +291,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Vigilance",
-      "{T}: Add {C} to your mana pool. ({C} represents colorless mana.)"
+      "{T}: Add {C}. ({C} represents colorless mana.)"
     ],
     "flavor_text": "The wastelands disorient even the most experienced scouts, making them easy prey for Kozilek's drones.",
     "power": "2",
@@ -319,7 +319,7 @@
       "Choose one —",
       "• Exile target creature with power or toughness 1 or less.",
       "• Counter target sorcery spell.",
-      "• Create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this creature: Add {C} to your mana pool.\""
+      "• Create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this creature: Add {C}.\""
     ],
     "flavor_text": null,
     "power": null,
@@ -1064,7 +1064,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Devoid (This card has no color.)",
-      "Counter target spell unless its controller pays {1}. You create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this creature: Add {C} to your mana pool.\" ({C} represents colorless mana.)"
+      "Counter target spell unless its controller pays {1}. You create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this creature: Add {C}.\" ({C} represents colorless mana.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1120,7 +1120,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Devoid (This card has no color.)",
-      "{T}: Add {C} to your mana pool. Spend this mana only to cast a colorless spell, activate an ability of a colorless permanent, or pay a cost that contains {C}. ({C} represents colorless mana.)"
+      "{T}: Add {C}. Spend this mana only to cast a colorless spell, activate an ability of a colorless permanent, or pay a cost that contains {C}. ({C} represents colorless mana.)"
     ],
     "flavor_text": null,
     "power": "2",
@@ -1177,7 +1177,7 @@
       "Devoid (This card has no color.)",
       "Flash",
       "Flying",
-      "{1}{C}: Target opponent exiles the top card of his or her library. If it's a land card, you may return Dimensional Infiltrator to its owner's hand. ({C} represents colorless mana.)"
+      "{1}{C}: Target opponent exiles the top card of their library. If it's a land card, you may return Dimensional Infiltrator to its owner's hand. ({C} represents colorless mana.)"
     ],
     "flavor_text": null,
     "power": "2",
@@ -1289,7 +1289,7 @@
     "oracle_text": [
       "Devoid (This card has no color.)",
       "Flying",
-      "Whenever you cast a colorless spell, target opponent exiles the top card of his or her library."
+      "Whenever you cast a colorless spell, target opponent exiles the top card of their library."
     ],
     "flavor_text": "\"I never thought I'd miss the gomazoa.\"\n—Trinda, Hada spy patrol",
     "power": "2",
@@ -1622,7 +1622,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Surge {U}{U} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)",
-      "Overwhelming Denial can't be countered by spells or abilities.",
+      "This spell can't be countered.",
       "Counter target spell."
     ],
     "flavor_text": null,
@@ -1673,9 +1673,9 @@
     "mana_cost": "5UU",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "Sphinx of the Final Word can't be countered.",
+      "This spell can't be countered.",
       "Flying, hexproof",
-      "Instant and sorcery spells you control can't be countered by spells or abilities."
+      "Instant and sorcery spells you control can't be countered."
     ],
     "flavor_text": "He answers questions as readily as he asks them, but his answer is always \"no.\"",
     "power": "5",
@@ -1779,7 +1779,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Devoid (This card has no color.)",
-      "When you cast Bearer of Silence, you may pay {1}{C}. If you do, target opponent sacrifices a creature. ({C} represents colorless mana.)",
+      "When you cast this spell, you may pay {1}{C}. If you do, target opponent sacrifices a creature. ({C} represents colorless mana.)",
       "Flying",
       "Bearer of Silence can't block."
     ],
@@ -1973,7 +1973,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Devoid (This card has no color.)",
-      "Pay 1 life: Add {C} to your mana pool. Activate this ability only once each turn. ({C} represents colorless mana.)"
+      "Pay 1 life: Add {C}. Activate this ability only once each turn. ({C} represents colorless mana.)"
     ],
     "flavor_text": "From nothingness, sustenance.",
     "power": "3",
@@ -2053,7 +2053,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Devoid (This card has no color.)",
-      "Whenever another nontoken creature you control dies, create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this creature: Add {C} to your mana pool.\" ({C} represents colorless mana.)"
+      "Whenever another nontoken creature you control dies, create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this creature: Add {C}.\" ({C} represents colorless mana.)"
     ],
     "flavor_text": null,
     "power": "4",
@@ -2189,7 +2189,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Devoid (This card has no color.)",
-      "Target opponent exiles two cards from his or her hand and loses 2 life."
+      "Target opponent exiles two cards from their hand and loses 2 life."
     ],
     "flavor_text": "\"Ulamog stood before us at Sea Gate, ready to succumb . . . and then Kozilek arose. Whatever hope I had for our world died.\"\n—Vandri, Kalastria emissary",
     "power": null,
@@ -2510,7 +2510,7 @@
       "Devoid (This card has no color.)",
       "Choose one —",
       "• Exile target land creature.",
-      "• Consuming Sinkhole deals 4 damage to target player."
+      "• Consuming Sinkhole deals 4 damage to target player or planeswalker."
     ],
     "flavor_text": "\"What will not yield will be consumed.\"\n—Ayli, high priest of the Eternal Pilgrims",
     "power": null,
@@ -2565,7 +2565,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Devoid (This card has no color.)",
-      "When you cast Eldrazi Obligator, you may pay {1}{C}. If you do, gain control of target creature until end of turn, untap that creature, and it gains haste until end of turn. ({C} represents colorless mana.)",
+      "When you cast this spell, you may pay {1}{C}. If you do, gain control of target creature until end of turn, untap that creature, and it gains haste until end of turn. ({C} represents colorless mana.)",
       "Haste"
     ],
     "flavor_text": null,
@@ -2673,7 +2673,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Devoid (This card has no color.)",
-      "Reality Hemorrhage deals 2 damage to target creature or player."
+      "Reality Hemorrhage deals 2 damage to any target."
     ],
     "flavor_text": "Tarek could not tell whether he was losing his blood or his mind.",
     "power": null,
@@ -2807,7 +2807,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Trample",
-      "When Cinder Hellion enters the battlefield, it deals 2 damage to target opponent."
+      "When Cinder Hellion enters the battlefield, it deals 2 damage to target opponent or planeswalker."
     ],
     "flavor_text": "Chandra used jets of flame to lure hellions into the path of oncoming Eldrazi.",
     "power": "4",
@@ -2831,7 +2831,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "As an additional cost to cast Devour in Flames, return a land you control to its owner's hand.",
+      "As an additional cost to cast this spell, return a land you control to its owner's hand.",
       "Devour in Flames deals 5 damage to target creature or planeswalker."
     ],
     "flavor_text": "Ob Nixilis had prepared for every eventuality—except Chandra Nalaar.",
@@ -2910,7 +2910,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Surge {X}{R} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)",
-      "Fall of the Titans deals X damage to each of up to two target creatures and/or players."
+      "Fall of the Titans deals X damage to each of up to two targets."
     ],
     "flavor_text": "As Gideon kept the brood lineages at bay, Chandra incinerated the bound Eldrazi titans.",
     "power": null,
@@ -3069,7 +3069,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever you cast your second spell each turn, Pyromancer's Assault deals 2 damage to target creature or player."
+      "Whenever you cast your second spell each turn, Pyromancer's Assault deals 2 damage to any target."
     ],
     "flavor_text": "Never ask a pyromancer if that's the best she's got.",
     "power": null,
@@ -3147,7 +3147,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Tears of Valakut can't be countered by spells or abilities.",
+      "This spell can't be countered.",
       "Tears of Valakut deals 5 damage to target creature with flying."
     ],
     "flavor_text": "When Kozilek destroyed Sea Gate, distant Valakut could not contain its grief.",
@@ -3176,7 +3176,7 @@
     "oracle_text": [
       "Surge {3}{R}{R} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)",
       "Flying",
-      "When Tyrant of Valakut enters the battlefield, if its surge cost was paid, it deals 3 damage to target creature or player."
+      "When Tyrant of Valakut enters the battlefield, if its surge cost was paid, it deals 3 damage to any target."
     ],
     "flavor_text": null,
     "power": "5",
@@ -3205,7 +3205,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "First strike",
-      "Cohort — {T}, Tap an untapped Ally you control: Zada's Commando deals 1 damage to target opponent."
+      "Cohort — {T}, Tap an untapped Ally you control: Zada's Commando deals 1 damage to target opponent or planeswalker."
     ],
     "flavor_text": "\"There's a word for someone who brings too much gear to battle: ‘survivor.'\"\n—Zada of Slab Haven",
     "power": "2",
@@ -3233,7 +3233,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Devoid (This card has no color.)",
-      "When Birthing Hulk enters the battlefield, create two 1/1 colorless Eldrazi Scion creature tokens. They have \"Sacrifice this creature: Add {C} to your mana pool.\" ({C} represents colorless mana.)",
+      "When Birthing Hulk enters the battlefield, create two 1/1 colorless Eldrazi Scion creature tokens. They have \"Sacrifice this creature: Add {C}.\" ({C} represents colorless mana.)",
       "{1}{C}: Regenerate Birthing Hulk."
     ],
     "flavor_text": null,
@@ -3287,7 +3287,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Devoid (This card has no color.)",
-      "When Scion Summoner enters the battlefield, create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this creature: Add {C} to your mana pool.\" ({C} represents colorless mana.)"
+      "When Scion Summoner enters the battlefield, create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this creature: Add {C}.\" ({C} represents colorless mana.)"
     ],
     "flavor_text": null,
     "power": "2",
@@ -3343,7 +3343,7 @@
     "oracle_text": [
       "Devoid (This card has no color.)",
       "Flash",
-      "When you cast Vile Redeemer, you may pay {C}. If you do, create a 1/1 colorless Eldrazi Scion creature token for each nontoken creature that died under your control this turn. Those tokens have \"Sacrifice this creature: Add {C} to your mana pool.\""
+      "When you cast this spell, you may pay {C}. If you do, create a 1/1 colorless Eldrazi Scion creature token for each nontoken creature that died under your control this turn. Those tokens have \"Sacrifice this creature: Add {C}.\""
     ],
     "flavor_text": null,
     "power": "3",
@@ -3370,7 +3370,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Devoid (This card has no color.)",
-      "When you cast World Breaker, exile target artifact, enchantment, or land.",
+      "When you cast this spell, exile target artifact, enchantment, or land.",
       "Reach",
       "{2}{C}, Sacrifice a land: Return World Breaker from your graveyard to your hand. ({C} represents colorless mana.)"
     ],
@@ -3918,7 +3918,7 @@
     "mana_cost": "5GG",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "Whenever you tap a land for mana, add one mana to your mana pool of any type that land produced. (The types of mana are white, blue, black, red, green, and colorless.)",
+      "Whenever you tap a land for mana, add one mana of any type that land produced. (The types of mana are white, blue, black, red, green, and colorless.)",
       "Whenever you cast a creature spell, draw a card."
     ],
     "flavor_text": null,
@@ -3977,7 +3977,7 @@
     "oracle_text": [
       "Devoid (This card has no color.)",
       "Mindmelter can't be blocked.",
-      "{3}{C}: Target opponent exiles a card from his or her hand. Activate this ability only any time you could cast a sorcery. ({C} represents colorless mana.)"
+      "{3}{C}: Target opponent exiles a card from their hand. Activate this ability only any time you could cast a sorcery. ({C} represents colorless mana.)"
     ],
     "flavor_text": null,
     "power": "2",
@@ -4399,7 +4399,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. ({C} represents colorless mana.)"
+      "{T}: Add {C}. ({C} represents colorless mana.)"
     ],
     "flavor_text": "\"It's endearing, in a mystical, pointy sort of way.\"\n—General Tazri, allied commander",
     "power": "0",
@@ -4423,7 +4423,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. ({C} represents colorless mana.)",
+      "{T}: Add {C}. ({C} represents colorless mana.)",
       "{2}, {T}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"
     ],
     "flavor_text": "A light to bring hope in dark times.",
@@ -4478,7 +4478,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Equipped creature gets +1/+1 and has haste.",
-      "Equip {1}"
+      "Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"
     ],
     "flavor_text": "\"Sometimes being fast is as important as being smart.\"\n—Ryza, Oran-Rief scout",
     "power": null,
@@ -4503,7 +4503,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Cinder Barrens enters the battlefield tapped.",
-      "{T}: Add {B} or {R} to your mana pool."
+      "{T}: Add {B} or {R}."
     ],
     "flavor_text": "A mudflow swallowed the lowlands years ago. All that remains are a bottomless mire and an endless rain of ash.",
     "power": null,
@@ -4527,8 +4527,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. ({C} represents colorless mana.)",
-      "{T}, Pay 1 life: Add one mana of any color to your mana pool. Spend this mana only to cast a spell with devoid."
+      "{T}: Add {C}. ({C} represents colorless mana.)",
+      "{T}, Pay 1 life: Add one mana of any color. Spend this mana only to cast a spell with devoid."
     ],
     "flavor_text": "\"Look, and see the future.\"\n—Ayli, high priest of the Eternal Pilgrims",
     "power": null,
@@ -4553,8 +4553,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Crumbling Vestige enters the battlefield tapped.",
-      "When Crumbling Vestige enters the battlefield, add one mana of any color to your mana pool.",
-      "{T}: Add {C} to your mana pool. ({C} represents colorless mana.)"
+      "When Crumbling Vestige enters the battlefield, add one mana of any color.",
+      "{T}: Add {C}. ({C} represents colorless mana.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4579,7 +4579,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Hissing Quagmire enters the battlefield tapped.",
-      "{T}: Add {B} or {G} to your mana pool.",
+      "{T}: Add {B} or {G}.",
       "{1}{B}{G}: Hissing Quagmire becomes a 2/2 black and green Elemental creature with deathtouch until end of turn. It's still a land."
     ],
     "flavor_text": null,
@@ -4604,8 +4604,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. ({C} represents colorless mana.)",
-      "{T}, Tap an untapped creature you control: Add one mana of any color to your mana pool."
+      "{T}: Add {C}. ({C} represents colorless mana.)",
+      "{T}, Tap an untapped creature you control: Add one mana of any color."
     ],
     "flavor_text": "Even in areas of profound devastation, the hedrons remained intact.",
     "power": null,
@@ -4630,7 +4630,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Meandering River enters the battlefield tapped.",
-      "{T}: Add {W} or {U} to your mana pool."
+      "{T}: Add {W} or {U}."
     ],
     "flavor_text": "The river split into many channels as it flowed to the Halimar Sea. Few travelers could follow the same one twice.",
     "power": null,
@@ -4655,7 +4655,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Mirrorpool enters the battlefield tapped.",
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{2}{C}, {T}, Sacrifice Mirrorpool: Copy target instant or sorcery spell you control. You may choose new targets for the copy.",
       "{4}{C}, {T}, Sacrifice Mirrorpool: Create a token that's a copy of target creature you control."
     ],
@@ -4682,7 +4682,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Needle Spires enters the battlefield tapped.",
-      "{T}: Add {R} or {W} to your mana pool.",
+      "{T}: Add {R} or {W}.",
       "{2}{R}{W}: Needle Spires becomes a 2/1 red and white Elemental creature with double strike until end of turn. It's still a land."
     ],
     "flavor_text": null,
@@ -4708,7 +4708,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Ruins of Oran-Rief enters the battlefield tapped.",
-      "{T}: Add {C} to your mana pool. ({C} represents colorless mana.)",
+      "{T}: Add {C}. ({C} represents colorless mana.)",
       "{T}: Put a +1/+1 counter on target colorless creature that entered the battlefield this turn."
     ],
     "flavor_text": null,
@@ -4733,7 +4733,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. ({C} represents colorless mana.)",
+      "{T}: Add {C}. ({C} represents colorless mana.)",
       "{2}{C}, {T}: Draw a card. Activate this ability only if you have no cards in hand."
     ],
     "flavor_text": "Once a center for knowledge, Sea Gate now serves as a reminder of what was lost.",
@@ -4759,7 +4759,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Submerged Boneyard enters the battlefield tapped.",
-      "{T}: Add {U} or {B} to your mana pool."
+      "{T}: Add {U} or {B}."
     ],
     "flavor_text": "\"Long after the land has given up the last of its secrets, there will still be mysteries in the depths of the sea.\"\n—Kiora",
     "power": null,
@@ -4784,7 +4784,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Timber Gorge enters the battlefield tapped.",
-      "{T}: Add {R} or {G} to your mana pool."
+      "{T}: Add {R} or {G}."
     ],
     "flavor_text": "Tazeem's embrace is harsh, but for those that call it home, nothing else will do.",
     "power": null,
@@ -4809,7 +4809,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Tranquil Expanse enters the battlefield tapped.",
-      "{T}: Add {G} or {W} to your mana pool."
+      "{T}: Add {G} or {W}."
     ],
     "flavor_text": "Despite the chaos of the Roil and the devastation of the Eldrazi, Zendikar is a world of breathtaking beauty.",
     "power": null,
@@ -4833,8 +4833,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{1}, {T}: Add one mana of any color to your mana pool."
+      "{T}: Add {C}.",
+      "{1}, {T}: Add one mana of any color."
     ],
     "flavor_text": "Kozilek's presence warped the land, stripping away layer after layer.",
     "power": null,
@@ -4859,7 +4859,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Wandering Fumarole enters the battlefield tapped.",
-      "{T}: Add {U} or {R} to your mana pool.",
+      "{T}: Add {U} or {R}.",
       "{2}{U}{R}: Until end of turn, Wandering Fumarole becomes a 1/4 blue and red Elemental creature with \"{0}: Switch this creature's power and toughness until end of turn.\" It's still a land."
     ],
     "flavor_text": null,
@@ -4886,7 +4886,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {C} to your mana pool.)"
+      "({T}: Add {C}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4912,7 +4912,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {C} to your mana pool.)"
+      "({T}: Add {C}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4938,7 +4938,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {C} to your mana pool.)"
+      "({T}: Add {C}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4964,7 +4964,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {C} to your mana pool.)"
+      "({T}: Add {C}.)"
     ],
     "flavor_text": null,
     "power": null,

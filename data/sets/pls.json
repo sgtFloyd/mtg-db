@@ -276,8 +276,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Kicker {W} (You may pay an additional {W} as you cast this spell.)",
-      "Target player can't cast spells this turn.",
-      "If Orim's Chant was kicked, creatures can't attack this turn."
+      "Target player can't cast spells this turn. If this spell was kicked, creatures can't attack this turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -301,7 +300,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{3}{W}: Target opponent reveals a card at random from his or her hand. You gain life equal to that card's converted mana cost."
+      "{3}{W}: Target opponent reveals a card at random from their hand. You gain life equal to that card's converted mana cost."
     ],
     "flavor_text": "\"I enjoy a good joke as much as the next guy.\"\n—Commodore Guff",
     "power": null,
@@ -326,7 +325,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Kicker—Sacrifice a land. (You may sacrifice a land in addition to any other costs as you cast this spell.)",
-      "Prevent the next 3 damage that would be dealt this turn to any number of target creatures and/or players, divided as you choose. If Pollen Remedy was kicked, prevent the next 6 damage this way instead."
+      "Prevent the next 3 damage that would be dealt this turn to any number of targets, divided as you choose. If this spell was kicked, prevent the next 6 damage this way instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -460,7 +459,7 @@
     "mana_cost": "3W",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Cast Surprise Deployment only during combat.",
+      "Cast this spell only during combat.",
       "You may put a nonwhite creature card from your hand onto the battlefield. At the beginning of the next end step, return that creature to your hand. (Return it only if it's on the battlefield.)"
     ],
     "flavor_text": null,
@@ -513,7 +512,7 @@
     "mana_cost": "4U",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Domain — Target player draws a card for each basic land type among lands he or she controls."
+      "Domain — Target player draws a card for each basic land type among lands they control."
     ],
     "flavor_text": "Each commander looked at the others and wondered who would be first to break the alliance.",
     "power": null,
@@ -715,7 +714,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Each player chooses a land he or she controls of each basic land type. Return those lands to their owners' hands."
+      "Each player chooses a land they control of each basic land type. Return those lands to their owners' hands."
     ],
     "flavor_text": "The Phyrexians don't want to conquer Dominaria. They want to remake it.",
     "power": null,
@@ -739,7 +738,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{3}{U}: Target opponent reveals a card at random from his or her hand. If it's an instant or sorcery card, exile it. You may cast it without paying its mana cost for as long as it remains exiled. (If it has X in its mana cost, X is 0.) At the beginning of the next end step, if you haven't cast it, return it to its owner's hand. Activate this ability only any time you could cast a sorcery."
+      "{3}{U}: Target opponent reveals a card at random from their hand. If it's an instant or sorcery card, exile it. You may cast it without paying its mana cost for as long as it remains exiled. (If it has X in its mana cost, X is 0.) At the beginning of the next end step, if you haven't cast it, return it to its owner's hand. Activate this ability only any time you could cast a sorcery."
     ],
     "flavor_text": null,
     "power": null,
@@ -764,7 +763,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Kicker—Sacrifice a land. (You may sacrifice a land in addition to any other costs as you cast this spell.)",
-      "Return target nonland permanent to its owner's hand. If Rushing River was kicked, return another target nonland permanent to its owner's hand."
+      "Return target nonland permanent to its owner's hand. If this spell was kicked, return another target nonland permanent to its owner's hand."
     ],
     "flavor_text": null,
     "power": null,
@@ -952,7 +951,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "At the beginning of each player's upkeep, that player returns a creature he or she controls to its owner's hand."
+      "At the beginning of each player's upkeep, that player returns a creature they control to its owner's hand."
     ],
     "flavor_text": "While Dominarians fought for their world, Rath stole it from under their feet.",
     "power": null,
@@ -1005,7 +1004,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Kicker—Sacrifice two lands. (You may sacrifice two lands in addition to any other costs as you cast this spell.)",
-      "Target player discards two cards. If Bog Down was kicked, that player discards three cards instead."
+      "Target player discards two cards. If this spell was kicked, that player discards three cards instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -1053,7 +1052,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "As an additional cost to cast Death Bomb, sacrifice a creature.",
+      "As an additional cost to cast this spell, sacrifice a creature.",
       "Destroy target nonblack creature. It can't be regenerated. Its controller loses 2 life."
     ],
     "flavor_text": "There's no higher honor in Phyrexia than dying for Yawgmoth's glorious vision.",
@@ -1078,7 +1077,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Diabolic Intent, sacrifice a creature.",
+      "As an additional cost to cast this spell, sacrifice a creature.",
       "Search your library for a card and put that card into your hand. Then shuffle your library."
     ],
     "flavor_text": null,
@@ -1182,7 +1181,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Sacrifice Morgue Toad: Add {U}{R} to your mana pool."
+      "Sacrifice Morgue Toad: Add {U}{R}."
     ],
     "flavor_text": "\"The toads of Urborg aren't fast, powerful, or pleasant, but they have their uses.\"\n—Ertai",
     "power": "2",
@@ -1262,7 +1261,7 @@
     "mana_cost": "1BB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Each player reveals his or her hand and chooses one card of each color from it, then discards all other nonland cards."
+      "Each player reveals their hand, chooses one card of each color from it, then discards all other nonland cards."
     ],
     "flavor_text": "Urborg would just as soon steal your memories as your life.",
     "power": null,
@@ -1339,7 +1338,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{3}{B}: Target opponent reveals a card at random from his or her hand. Target creature gets -X/-X until end of turn, where X is the revealed card's converted mana cost. Activate this ability only any time you could cast a sorcery."
+      "{3}{B}: Target opponent reveals a card at random from their hand. Target creature gets -X/-X until end of turn, where X is the revealed card's converted mana cost. Activate this ability only any time you could cast a sorcery."
     ],
     "flavor_text": null,
     "power": null,
@@ -1517,7 +1516,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{R}, Sacrifice a Zombie: Deadapult deals 2 damage to target creature or player."
+      "{R}, Sacrifice a Zombie: Deadapult deals 2 damage to any target."
     ],
     "flavor_text": "\"Nothing ruins your day like a blazing zombie.\"\n—Tahngarth",
     "power": null,
@@ -1567,7 +1566,7 @@
     "mana_cost": "5RR",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "Each player hides at least one item, then all players reveal them simultaneously. Each player loses life equal to the number of items he or she revealed. The player who revealed the fewest items then loses half his or her life, rounded up. If two or more players are tied for fewest, each loses half his or her life, rounded up."
+      "Each player hides at least one item, then all players reveal them simultaneously. Each player loses life equal to the number of items they revealed. The player who revealed the fewest items then loses half their life, rounded up. If two or more players are tied for fewest, each loses half their life, rounded up."
     ],
     "flavor_text": null,
     "power": null,
@@ -1699,7 +1698,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Kicker—Sacrifice two lands. (You may sacrifice two lands in addition to any other costs as you cast this spell.)",
-      "Magma Burst deals 3 damage to target creature or player. If Magma Burst was kicked, it deals 3 damage to another target creature or player."
+      "Magma Burst deals 3 damage to any target. If this spell was kicked, it deals 3 damage to another target."
     ],
     "flavor_text": null,
     "power": null,
@@ -1802,7 +1801,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{3}{R}: Target opponent reveals a card at random from his or her hand. Planeswalker's Fury deals damage equal to that card's converted mana cost to that player. Activate this ability only any time you could cast a sorcery."
+      "{3}{R}: Target opponent reveals a card at random from their hand. Planeswalker's Fury deals damage equal to that card's converted mana cost to that player. Activate this ability only any time you could cast a sorcery."
     ],
     "flavor_text": null,
     "power": null,
@@ -2069,7 +2068,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Kicker—Sacrifice a land. (You may sacrifice a land in addition to any other costs as you cast this spell.)",
-      "Prevent all combat damage target creature would deal this turn. If Falling Timber was kicked, prevent all combat damage another target creature would deal this turn."
+      "Prevent all combat damage target creature would deal this turn. If this spell was kicked, prevent all combat damage another target creature would deal this turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -2171,7 +2170,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{2}{R}{W}: The next time damage would be dealt to Mirrorwood Treefolk this turn, that damage is dealt to target creature or player instead."
+      "{2}{R}{W}: The next time damage would be dealt to Mirrorwood Treefolk this turn, that damage is dealt to any target instead."
     ],
     "flavor_text": "It doesn't need a bite. The bark works just fine.",
     "power": "2",
@@ -2198,7 +2197,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Enchant creature",
-      "Enchanted creature has \"{T}: Add one mana of any color to your mana pool.\""
+      "Enchanted creature has \"{T}: Add one mana of any color.\""
     ],
     "flavor_text": "\"Welcome to paradise.\"",
     "power": null,
@@ -2251,7 +2250,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{3}{G}: Target opponent reveals a card at random from his or her hand. Target creature gets +X/+X until end of turn, where X is the revealed card's converted mana cost."
+      "{3}{G}: Target opponent reveals a card at random from their hand. Target creature gets +X/+X until end of turn, where X is the revealed card's converted mana cost."
     ],
     "flavor_text": "Freyalise strengthens her faithful.",
     "power": null,
@@ -2276,7 +2275,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Kicker—Sacrifice a creature. (You may sacrifice a creature in addition to any other costs as you cast this spell.)",
-      "Search your library for a basic land card, put that card onto the battlefield, then shuffle your library. If Primal Growth was kicked, instead search your library for up to two basic land cards, put them onto the battlefield, then shuffle your library."
+      "Search your library for a basic land card, put that card onto the battlefield, then shuffle your library. If this spell was kicked, instead search your library for up to two basic land cards, put them onto the battlefield, then shuffle your library."
     ],
     "flavor_text": null,
     "power": null,
@@ -2356,7 +2355,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add to your mana pool one mana of any color that a land an opponent controls could produce."
+      "{T}: Add one mana of any color that a land an opponent controls could produce."
     ],
     "flavor_text": "Fight with a friend at your back, steel in your hands, and magic in your veins.\n—Quirion creed",
     "power": "1",
@@ -2462,7 +2461,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Kicker {R} and/or {W} (You may pay an additional {R} and/or {W} as you cast this spell.)",
-      "When Thornscape Battlemage enters the battlefield, if it was kicked with its {R} kicker, it deals 2 damage to target creature or player.",
+      "When Thornscape Battlemage enters the battlefield, if it was kicked with its {R} kicker, it deals 2 damage to any target.",
       "When Thornscape Battlemage enters the battlefield, if it was kicked with its {W} kicker, destroy target artifact."
     ],
     "flavor_text": null,
@@ -2621,7 +2620,7 @@
     "oracle_text": [
       "Choose one —",
       "• Return target creature card from your graveyard to your hand.",
-      "• Darigaaz's Charm deals 3 damage to target creature or player.",
+      "• Darigaaz's Charm deals 3 damage to any target.",
       "• Target creature gets +3/+3 until end of turn."
     ],
     "flavor_text": null,
@@ -2774,7 +2773,7 @@
     "mana_cost": "GW",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Search your library for a creature card, reveal that card, and put it into your hand. Then shuffle your library."
+      "Search your library for a creature card, reveal that card, put it into your hand, then shuffle your library."
     ],
     "flavor_text": "Tribal rivalries and petty disputes were laid aside at Eladamri's summons.",
     "power": null,
@@ -2960,7 +2959,7 @@
     "mana_cost": "1BR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "At the beginning of each player's end step, if no creatures attacked this turn, that player sacrifices a creature he or she controlled since the beginning of the turn."
+      "At the beginning of each player's end step, if no creatures attacked this turn, that player sacrifices a creature they controlled since the beginning of the turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -3115,7 +3114,7 @@
     "mana_cost": "UBR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever a player draws a card, that player loses 2 life unless he or she pays {2}."
+      "Whenever a player draws a card, that player loses 2 life unless they pay {2}."
     ],
     "flavor_text": "\"He is Yawgmoth's reward to me. I shall kill him a hundred times a day.\"\n—Crovax, to Ertai",
     "power": null,
@@ -3332,7 +3331,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "When Sparkcaster enters the battlefield, return a red or green creature you control to its owner's hand.",
-      "When Sparkcaster enters the battlefield, it deals 1 damage to target player."
+      "When Sparkcaster enters the battlefield, it deals 1 damage to target player or planeswalker."
     ],
     "flavor_text": null,
     "power": "5",
@@ -3462,7 +3461,7 @@
     "mana_cost": "16",
     "converted_mana_cost": 16,
     "oracle_text": [
-      "Domain — Draco costs {2} less to cast for each basic land type among lands you control.",
+      "Domain — This spell costs {2} less to cast for each basic land type among lands you control.",
       "Flying",
       "Domain — At the beginning of your upkeep, sacrifice Draco unless you pay {10}. This cost is reduced by {2} for each basic land type among lands you control."
     ],
@@ -3488,7 +3487,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{1}, {T}: Add one mana of any color to your mana pool."
+      "{1}, {T}: Add one mana of any color."
     ],
     "flavor_text": "Overflowing with visions of the possible future, it lends power to those in the present.",
     "power": null,
@@ -3567,7 +3566,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Star Compass enters the battlefield tapped.",
-      "{T}: Add to your mana pool one mana of any color that a basic land you control could produce."
+      "{T}: Add one mana of any color that a basic land you control could produce."
     ],
     "flavor_text": "It doesn't point north. It points home.",
     "power": null,
@@ -3594,7 +3593,7 @@
     "mana_cost": "10",
     "converted_mana_cost": 10,
     "oracle_text": [
-      "Domain — Stratadon costs {1} less to cast for each basic land type among lands you control.",
+      "Domain — This spell costs {1} less to cast for each basic land type among lands you control.",
       "Trample"
     ],
     "flavor_text": "Designed like the gargadons of Keld—big and brutal.",
@@ -3622,7 +3621,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "When Crosis's Catacombs enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.",
-      "{T}: Add {U}, {B}, or {R} to your mana pool."
+      "{T}: Add {U}, {B}, or {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -3649,7 +3648,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "When Darigaaz's Caldera enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.",
-      "{T}: Add {B}, {R}, or {G} to your mana pool."
+      "{T}: Add {B}, {R}, or {G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -3676,7 +3675,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "When Dromar's Cavern enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.",
-      "{T}: Add {W}, {U}, or {B} to your mana pool."
+      "{T}: Add {W}, {U}, or {B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -3702,7 +3701,7 @@
     "oracle_text": [
       "Forsaken City doesn't untap during your untap step.",
       "At the beginning of your upkeep, you may exile a card from your hand. If you do, untap Forsaken City.",
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -3726,7 +3725,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Choose a color of a permanent you control. Add one mana of that color to your mana pool."
+      "{T}: Choose a color of a permanent you control. Add one mana of that color."
     ],
     "flavor_text": "Legend has it that meteor craters are haunted by the ghosts of those who died on impact.",
     "power": null,
@@ -3753,7 +3752,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "When Rith's Grove enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.",
-      "{T}: Add {R}, {G}, or {W} to your mana pool."
+      "{T}: Add {R}, {G}, or {W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -3777,7 +3776,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{2}, {T}, Sacrifice Terminal Moraine: Search your library for a basic land card and put that card onto the battlefield tapped. Then shuffle your library."
     ],
     "flavor_text": null,
@@ -3805,7 +3804,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "When Treva's Ruins enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.",
-      "{T}: Add {G}, {W}, or {U} to your mana pool."
+      "{T}: Add {G}, {W}, or {U}."
     ],
     "flavor_text": null,
     "power": null,

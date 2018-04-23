@@ -237,7 +237,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Goblin spells you cast cost {1} less to cast.",
-      "Goblin creatures you control have haste."
+      "Goblins you control have haste."
     ],
     "flavor_text": "They poured from the Skirk Ridge like lava, burning and devouring everything in their path.",
     "power": "2",
@@ -349,7 +349,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Raid — When Mardu Heart-Piercer enters the battlefield, if you attacked with a creature this turn, Mardu Heart-Piercer deals 2 damage to target creature or player."
+      "Raid — When Mardu Heart-Piercer enters the battlefield, if you attacked with a creature this turn, Mardu Heart-Piercer deals 2 damage to any target."
     ],
     "flavor_text": "\"Those who have never ridden before the wind do not know the true joy of war.\"",
     "power": "2",
@@ -538,8 +538,8 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Reckless Abandon, sacrifice a creature.",
-      "Reckless Abandon deals 4 damage to target creature or player."
+      "As an additional cost to cast this spell, sacrifice a creature.",
+      "Reckless Abandon deals 4 damage to any target."
     ],
     "flavor_text": "The climax of a warlord's career is always death.",
     "power": null,
@@ -563,7 +563,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Shock deals 2 damage to target creature or player."
+      "Shock deals 2 damage to any target."
     ],
     "flavor_text": "\"The beauty of it is they never see it coming. Ever.\"\n—Razzix, sparkmage",
     "power": null,
@@ -587,7 +587,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Bone Splinters, sacrifice a creature.",
+      "As an additional cost to cast this spell, sacrifice a creature.",
       "Destroy target creature."
     ],
     "flavor_text": "Witches of the Split-Eye Coven speak of a future when Grixis will overflow with life energy. For now, they must harvest vis from the living to fuel their dark magics.",
@@ -612,7 +612,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Arc Trail deals 2 damage to target creature or player and 1 damage to another target creature or player."
+      "Arc Trail deals 2 damage to any target and 1 damage to another target."
     ],
     "flavor_text": "\"Don't try to hit your enemies. Concentrate on the space between them, and fill the air with doom.\"\n—Spear-Tribe teaching",
     "power": null,
@@ -636,7 +636,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Sacrifice a creature: Goblin Bombardment deals 1 damage to target creature or player."
+      "Sacrifice a creature: Goblin Bombardment deals 1 damage to any target."
     ],
     "flavor_text": "With one motion, a pest is removed and a scourge inflicted.",
     "power": null,
@@ -732,7 +732,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Orcish Cannonade deals 2 damage to target creature or player and 3 damage to you.",
+      "Orcish Cannonade deals 2 damage to any target and 3 damage to you.",
       "Draw a card."
     ],
     "flavor_text": "\"Crispy! Scarback! Load another volcano-ball.\"\n—Stumphobbler Thuj, orcish captain",
@@ -758,7 +758,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Fiery Fall deals 5 damage to target creature.",
-      "Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": "Jund feasts on the unprepared.",
     "power": null,
@@ -782,7 +782,7 @@
     "mana_cost": "5RR",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "You may exile two red cards from your hand rather than pay Fury of the Horde's mana cost.",
+      "You may exile two red cards from your hand rather than pay this spell's mana cost.",
       "Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase."
     ],
     "flavor_text": null,
@@ -807,8 +807,8 @@
     "mana_cost": "XR",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Banefire deals X damage to target creature or player.",
-      "If X is 5 or more, Banefire can't be countered by spells or abilities and the damage can't be prevented."
+      "Banefire deals X damage to any target.",
+      "If X is 5 or more, this spell can't be countered and the damage can't be prevented."
     ],
     "flavor_text": "For Sarkhan Vol, the dragon is the purest expression of life's savage splendor.",
     "power": null,
@@ -857,7 +857,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Ghitu Encampment enters the battlefield tapped.",
-      "{T}: Add {R} to your mana pool.",
+      "{T}: Add {R}.",
       "{1}{R}: Ghitu Encampment becomes a 2/1 red Warrior creature with first strike until end of turn. It's still a land. (It deals combat damage before creatures without first strike.)"
     ],
     "flavor_text": null,
@@ -883,7 +883,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Nomad Outpost enters the battlefield tapped.",
-      "{T}: Add {R}, {W}, or {B} to your mana pool."
+      "{T}: Add {R}, {W}, or {B}."
     ],
     "flavor_text": "\"Only the weak imprison themselves behind walls. We live free under the wind, and our freedom makes us strong.\"\n—Zurgo, khan of the Mardu",
     "power": null,
@@ -911,7 +911,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -939,7 +939,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -967,7 +967,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -995,7 +995,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1023,7 +1023,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1051,7 +1051,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1079,7 +1079,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1274,7 +1274,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Sparkmage Apprentice enters the battlefield, it deals 1 damage to target creature or player."
+      "When Sparkmage Apprentice enters the battlefield, it deals 1 damage to any target."
     ],
     "flavor_text": "Sparkmages are performance artists of sorts, but pain is the price of admission.",
     "power": "1",
@@ -1490,7 +1490,7 @@
       "Angel"
     ],
     "rarity": "Rare",
-    "mana_cost": "1RWU",
+    "mana_cost": "1URW",
     "converted_mana_cost": 4,
     "oracle_text": [
       "Flying, vigilance, haste"
@@ -1721,7 +1721,7 @@
     "mana_cost": "RW",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Lightning Helix deals 3 damage to target creature or player and you gain 3 life."
+      "Lightning Helix deals 3 damage to any target and you gain 3 life."
     ],
     "flavor_text": "Though less well-known than its army of soldiers, the Boros Legion's mage-priests are as respected by the innocent as they are hated by the ghosts of the guilty.",
     "power": null,
@@ -1771,7 +1771,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "If you've been dealt damage by two or more creatures this turn, you may pay {R} rather than pay Inferno Trap's mana cost.",
+      "If you've been dealt damage by two or more creatures this turn, you may pay {R} rather than pay this spell's mana cost.",
       "Inferno Trap deals 4 damage to target creature."
     ],
     "flavor_text": "\"Do you smell something burning?\"",
@@ -1821,7 +1821,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Counter target spell.",
-      "Basic landcycling {1}{U} ({1}{U}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Basic landcycling {1}{U} ({1}{U}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1847,7 +1847,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "If an opponent had two or more creatures enter the battlefield under his or her control this turn, you may pay {U} rather than pay Whiplash Trap's mana cost.",
+      "If an opponent had two or more creatures enter the battlefield under their control this turn, you may pay {U} rather than pay this spell's mana cost.",
       "Return two target creatures to their owners' hands."
     ],
     "flavor_text": null,
@@ -1874,7 +1874,7 @@
     "mana_cost": "3WW",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "If four or more creatures are attacking, you may pay {1}{W} rather than pay Arrow Volley Trap's mana cost.",
+      "If four or more creatures are attacking, you may pay {1}{W} rather than pay this spell's mana cost.",
       "Arrow Volley Trap deals 5 damage divided as you choose among any number of target attacking creatures."
     ],
     "flavor_text": null,
@@ -1925,7 +1925,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Mystic Monastery enters the battlefield tapped.",
-      "{T}: Add {U}, {R}, or {W} to your mana pool."
+      "{T}: Add {U}, {R}, or {W}."
     ],
     "flavor_text": "When asked how many paths reach enlightenment, the monk kicked a heap of sand. \"Count,\" he smiled, \"and then find more grains.\"",
     "power": null,
@@ -1977,7 +1977,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2005,7 +2005,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2033,7 +2033,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2061,7 +2061,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2089,7 +2089,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2117,7 +2117,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2145,7 +2145,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,

@@ -381,7 +381,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Apprentice Sorcerer deals 1 damage to target creature or player. Activate this ability only during your turn, before attackers are declared."
+      "{T}: Apprentice Sorcerer deals 1 damage to any target. Activate this ability only during your turn, before attackers are declared."
     ],
     "flavor_text": null,
     "power": "1",
@@ -581,7 +581,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Bee Sting deals 2 damage to target creature or player."
+      "Bee Sting deals 2 damage to any target."
     ],
     "flavor_text": "Busy as a bumblebee, blistered as a goblin.\n—Alaborn saying",
     "power": null,
@@ -605,7 +605,7 @@
     "mana_cost": "XR",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Blaze deals X damage to target creature or player."
+      "Blaze deals X damage to any target."
     ],
     "flavor_text": "\"This isn't what I meant by ‘facing the heat of battle!'\"\n—Jefan, Talas ship captain",
     "power": null,
@@ -780,7 +780,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target opponent reveals his or her hand. You choose a card from it. That player discards that card."
+      "Target opponent reveals their hand. You choose a card from it. That player discards that card."
     ],
     "flavor_text": "\"Human tenderness is simply weakness in a pretty package.\"\n—Tojira, swamp queen",
     "power": null,
@@ -1005,7 +1005,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Cast Deep Wood only during the declare attackers step and only if you've been attacked this step.",
+      "Cast this spell only during the declare attackers step and only if you've been attacked this step.",
       "Prevent all damage that would be dealt to you this turn by attacking creatures."
     ],
     "flavor_text": null,
@@ -1104,7 +1104,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Creatures and lands target opponent controls don't untap during his or her next untap step."
+      "Creatures and lands target opponent controls don't untap during their next untap step."
     ],
     "flavor_text": null,
     "power": null,
@@ -1152,7 +1152,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Look at the top card of target player's library. You may put that card into his or her graveyard."
+      "Look at the top card of target player's library. You may put that card into their graveyard."
     ],
     "flavor_text": null,
     "power": null,
@@ -1228,7 +1228,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1256,7 +1256,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1284,7 +1284,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1361,7 +1361,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Sacrifice Goblin Firestarter: Goblin Firestarter deals 1 damage to target creature or player. Activate this ability only during your turn, before attackers are declared."
+      "Sacrifice Goblin Firestarter: It deals 1 damage to any target. Activate this ability only during your turn, before attackers are declared."
     ],
     "flavor_text": null,
     "power": "1",
@@ -1568,7 +1568,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target opponent chooses a creature he or she controls. Other creatures he or she controls can't block this turn."
+      "Target opponent chooses a creature they control. Other creatures they control can't block this turn."
     ],
     "flavor_text": "\"Goblins cry, soldiers fly.\nStones fly, soldiers die!\"",
     "power": null,
@@ -1592,7 +1592,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Goblin War Strike deals damage to target player equal to the number of Goblins you control."
+      "Goblin War Strike deals damage to target player or planeswalker equal to the number of Goblins you control."
     ],
     "flavor_text": null,
     "power": null,
@@ -1768,7 +1768,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1796,7 +1796,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1824,7 +1824,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1872,7 +1872,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Cast Just Fate only during the declare attackers step and only if you've been attacked this step.",
+      "Cast this spell only during the declare attackers step and only if you've been attacked this step.",
       "Destroy target attacking creature."
     ],
     "flavor_text": null,
@@ -1897,7 +1897,7 @@
     "mana_cost": "4BB",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Kiss of Death deals 4 damage to target opponent. You gain 4 life."
+      "Kiss of Death deals 4 damage to target opponent or planeswalker. You gain 4 life."
     ],
     "flavor_text": "\"I'd sooner lock lips with a viper. At least I might walk away from that.\"\n—Elvish scout",
     "power": null,
@@ -1921,7 +1921,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Lava Axe deals 5 damage to target player."
+      "Lava Axe deals 5 damage to target player or planeswalker."
     ],
     "flavor_text": "Meant to cut through the body and burn straight to the soul.",
     "power": null,
@@ -2127,7 +2127,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2155,7 +2155,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2183,7 +2183,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2641,7 +2641,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2669,7 +2669,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2697,7 +2697,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2898,7 +2898,7 @@
     "mana_cost": "W",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Cast Rally the Troops only during the declare attackers step and only if you've been attacked this step.",
+      "Cast this spell only during the declare attackers step and only if you've been attacked this step.",
       "Untap all creatures you control."
     ],
     "flavor_text": null,
@@ -2999,7 +2999,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Cast Remove only during the declare attackers step and only if you've been attacked this step.",
+      "Cast this spell only during the declare attackers step and only if you've been attacked this step.",
       "Return target attacking creature to its owner's hand."
     ],
     "flavor_text": null,
@@ -3354,7 +3354,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3382,7 +3382,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3410,7 +3410,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4052,7 +4052,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Volcanic Hammer deals 3 damage to target creature or player."
+      "Volcanic Hammer deals 3 damage to any target."
     ],
     "flavor_text": "Fire finds its form in the heat of the forge.",
     "power": null,
@@ -4101,7 +4101,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Cast Warrior's Stand only during the declare attackers step and only if you've been attacked this step.",
+      "Cast this spell only during the declare attackers step and only if you've been attacked this step.",
       "Creatures you control get +2/+2 until end of turn."
     ],
     "flavor_text": null,

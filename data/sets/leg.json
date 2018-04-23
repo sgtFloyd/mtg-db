@@ -248,7 +248,7 @@
     "oracle_text": [
       "Choose one —",
       "• Target player gains X life.",
-      "• Prevent the next X damage that would be dealt to target creature or player this turn."
+      "• Prevent the next X damage that would be dealt to any target this turn."
     ],
     "flavor_text": "\"Healing is a matter of time, but it is sometimes also a matter of opportunity.\" —D'Avenant proverb",
     "power": null,
@@ -297,7 +297,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Exile All Hallow's Eve with two scream counters on it.",
-      "At the beginning of your upkeep, if All Hallow's Eve is exiled with a scream counter on it, remove a scream counter from it. If there are no more scream counters on it, put it into your graveyard and each player returns all creature cards from his or her graveyard to the battlefield."
+      "At the beginning of your upkeep, if All Hallow's Eve is exiled with a scream counter on it, remove a scream counter from it. If there are no more scream counters on it, put it into your graveyard and each player returns all creature cards from their graveyard to the battlefield."
     ],
     "flavor_text": null,
     "power": null,
@@ -429,7 +429,7 @@
     "mana_cost": "2GG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Creatures can't attack a player unless that player cast a spell or put a nontoken permanent onto the battlefield during his or her last turn."
+      "Creatures can't attack a player unless that player cast a spell or put a nontoken permanent onto the battlefield during their last turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -539,7 +539,7 @@
     "converted_mana_cost": 8,
     "oracle_text": [
       "Trample",
-      "Whenever a creature dealt damage by Axelrod Gunnarson this turn dies, you gain 1 life and Axelrod deals 1 damage to target player."
+      "Whenever a creature dealt damage by Axelrod Gunnarson this turn dies, you gain 1 life and Axelrod deals 1 damage to target player or planeswalker."
     ],
     "flavor_text": null,
     "power": "5",
@@ -779,7 +779,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "{2}, {T}: Put a charge counter on Black Mana Battery.",
-      "{T}, Remove any number of charge counters from Black Mana Battery: Add {B} to your mana pool, then add an additional {B} to your mana pool for each charge counter removed this way."
+      "{T}, Remove any number of charge counters from Black Mana Battery: Add {B}, then add an additional {B} for each charge counter removed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -881,7 +881,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "{2}, {T}: Put a charge counter on Blue Mana Battery.",
-      "{T}, Remove any number of charge counters from Blue Mana Battery: Add {U} to your mana pool, then add an additional {U} to your mana pool for each charge counter removed this way."
+      "{T}, Remove any number of charge counters from Blue Mana Battery: Add {U}, then add an additional {U} for each charge counter removed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -1116,7 +1116,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Chain Lightning deals 3 damage to target creature or player. Then that player or that creature's controller may pay {R}{R}. If the player does, he or she may copy this spell and may choose a new target for that copy."
+      "Chain Lightning deals 3 damage to any target. Then that player or that permanent's controller may pay {R}{R}. If the player does, they may copy this spell and may choose a new target for that copy."
     ],
     "flavor_text": null,
     "power": null,
@@ -1140,7 +1140,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "If a player would draw a card except the first one he or she draws in his or her draw step each turn, that player discards a card instead. If the player discards a card this way, he or she draws a card. If the player doesn't discard a card this way, he or she puts the top card of his or her library into his or her graveyard."
+      "If a player would draw a card except the first one they draw in their draw step each turn, that player discards a card instead. If the player discards a card this way, they draw a card. If the player doesn't discard a card this way, they put the top card of their library into their graveyard."
     ],
     "flavor_text": null,
     "power": null,
@@ -1640,7 +1640,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Cast Disharmony only during combat before blockers are declared.",
+      "Cast this spell only during combat before blockers are declared.",
       "Untap target attacking creature and remove it from combat. Gain control of that creature until end of turn."
     ],
     "flavor_text": null,
@@ -1975,7 +1975,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Tap target untapped creature you control. If you do, add an amount of {C} to your mana pool equal to that creature's converted mana cost."
+      "Tap target untapped creature you control. If you do, add an amount of {C} equal to that creature's converted mana cost."
     ],
     "flavor_text": null,
     "power": null,
@@ -2053,7 +2053,7 @@
     "mana_cost": "2GG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Starting with you, each player may put a permanent card from his or her hand onto the battlefield. Repeat this process until no one puts a card onto the battlefield."
+      "Starting with you, each player may put a permanent card from their hand onto the battlefield. Repeat this process until no one puts a card onto the battlefield."
     ],
     "flavor_text": null,
     "power": null,
@@ -2208,7 +2208,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Flying",
-      "{G}, {T}: Add {R} to your mana pool."
+      "{G}, {T}: Add {R}."
     ],
     "flavor_text": null,
     "power": "1",
@@ -2235,7 +2235,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "If Firestorm Phoenix would die, return Firestorm Phoenix to its owner's hand instead. Until that player's next turn, that player plays with that card revealed in his or her hand and can't play it."
+      "If Firestorm Phoenix would die, return it to its owner's hand instead. Until that player's next turn, that player plays with that card revealed in their hand and can't play it."
     ],
     "flavor_text": "\"The bird of wonder dies, the maiden phoenix,/ Her ashes new-create another heir/ As great in admiration as herself.\" —William Shakespeare, King Henry the Eighth.",
     "power": "3",
@@ -2714,7 +2714,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Cast Glyph of Reincarnation only after combat.",
+      "Cast this spell only after combat.",
       "Destroy all creatures that were blocked by target Wall this turn. They can't be regenerated. For each creature that died this way, put a creature card from the graveyard of the player who controlled that creature the last time it became blocked by that Wall onto the battlefield under its owner's control."
     ],
     "flavor_text": null,
@@ -2892,7 +2892,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "{2}, {T}: Put a charge counter on Green Mana Battery.",
-      "{T}, Remove any number of charge counters from Green Mana Battery: Add {G} to your mana pool, then add an additional {G} to your mana pool for each charge counter removed this way."
+      "{T}, Remove any number of charge counters from Green Mana Battery: Add {G}, then add an additional {G} for each charge counter removed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -2975,7 +2975,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {R} to your mana pool.",
+      "{T}: Add {R}.",
       "{T}: Target creature loses all landwalk abilities until end of turn."
     ],
     "flavor_text": "\"‘Tis distance lends enchantment to the view,/ And robes the mountain in its azure hue.\" —Thomas Campbell, \"Pleasures of Hope\"",
@@ -3310,7 +3310,7 @@
     "mana_cost": "1GG",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever an opponent casts an instant spell other than the first instant spell that player casts each turn, Ichneumon Druid deals 4 damage to him or her."
+      "Whenever an opponent casts an instant spell other than the first instant spell that player casts each turn, Ichneumon Druid deals 4 damage to that player."
     ],
     "flavor_text": null,
     "power": "1",
@@ -3733,7 +3733,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {W} to your mana pool.",
+      "{T}: Add {W}.",
       "{T}: Return target legendary creature to its owner's hand."
     ],
     "flavor_text": "\"To make a prairie it takes a clover and one bee,/ One clover, and a bee,/ And revery.\" —Emily Dickinson",
@@ -4178,7 +4178,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Discard a card: If the discarded card was a land card, Land's Edge deals 2 damage to target player. Any player may activate this ability."
+      "Discard a card: If the discarded card was a land card, Land's Edge deals 2 damage to target player or planeswalker. Any player may activate this ability."
     ],
     "flavor_text": null,
     "power": null,
@@ -4413,7 +4413,7 @@
     "mana_cost": "UU",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Counter target spell. At the beginning of your next main phase, add an amount of {C} to your mana pool equal to that spell's converted mana cost."
+      "Counter target spell. At the beginning of your next main phase, add an amount of {C} equal to that spell's converted mana cost."
     ],
     "flavor_text": null,
     "power": null,
@@ -4699,7 +4699,7 @@
     "mana_cost": "3UB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{X}, {T}: Choose a card name. Target opponent reveals X cards at random from his or her hand. Then that player discards all cards with that name revealed this way. Activate this ability only during your turn."
+      "{X}, {T}: Choose a card name. Target opponent reveals X cards at random from their hand. Then that player discards all cards with that name revealed this way. Activate this ability only during your turn."
     ],
     "flavor_text": null,
     "power": "3",
@@ -4756,7 +4756,7 @@
     "oracle_text": [
       "Flying",
       "At the beginning of your upkeep, sacrifice Nicol Bolas unless you pay {U}{B}{R}.",
-      "Whenever Nicol Bolas deals damage to an opponent, that player discards his or her hand."
+      "Whenever Nicol Bolas deals damage to an opponent, that player discards their hand."
     ],
     "flavor_text": null,
     "power": "7",
@@ -4940,7 +4940,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool.",
+      "{T}: Add {G}.",
       "{T}: Target 1/1 creature gets +1/+2 until end of turn."
     ],
     "flavor_text": "\"This is the forest primeval. The murmuring pines and the hemlocks . . . / Stand like Druids of old.\" —Henry WadsworthLongfellow, \"Evangeline\"",
@@ -4967,7 +4967,7 @@
     "mana_cost": "2WWW",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{T}: Target player chooses a card name, then reveals the top card of his or her library. If that card has the chosen name, that player puts it into his or her hand. If it doesn't, the player puts it into his or her graveyard."
+      "{T}: Target player chooses a card name, then reveals the top card of their library. If that card has the chosen name, that player puts it into their hand. If it doesn't, the player puts it into their graveyard."
     ],
     "flavor_text": "What walks on four legs in the morning, two legs in the afternoon, and three legs in the evening?",
     "power": "3",
@@ -5151,7 +5151,7 @@
     "mana_cost": "3UUB",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "{T}: Add {U} to your mana pool."
+      "{T}: Add {U}."
     ],
     "flavor_text": null,
     "power": "5",
@@ -5177,7 +5177,7 @@
     "mana_cost": "4U",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{T}: Psionic Entity deals 2 damage to target creature or player and 3 damage to itself."
+      "{T}: Psionic Entity deals 2 damage to any target and 3 damage to itself."
     ],
     "flavor_text": "Creatures of the Æther are notorious for neglecting their own well-being.",
     "power": "2",
@@ -5201,7 +5201,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Psychic Purge deals 1 damage to target creature or player.",
+      "Psychic Purge deals 1 damage to any target.",
       "When a spell or ability an opponent controls causes you to discard Psychic Purge, that player loses 5 life."
     ],
     "flavor_text": null,
@@ -5253,7 +5253,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Pyrotechnics deals 4 damage divided as you choose among any number of target creatures and/or players."
+      "Pyrotechnics deals 4 damage divided as you choose among any number of targets."
     ],
     "flavor_text": "\"Hi! ni! ya! Behold the man of flint, that's me! Four lightnings zigzag from me, strike and return.\"—Navajo war chant",
     "power": null,
@@ -5491,8 +5491,8 @@
     "mana_cost": "3W",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Cast Rapid Fire only before blockers are declared.",
-      "Target creature gains first strike until end of turn. If it doesn't have rampage, that creature gains rampage 2 until end of turn. (Whenever this creature becomes blocked, it gets +2/+2 until end of turn for each creature blocking it beyond the first.)"
+      "Cast this spell only before blockers are declared.",
+      "Target creature gains first strike until end of turn. If it doesn't have rampage, that creature gains rampage 2 until end of turn. (Whenever the creature becomes blocked, it gets +2/+2 until end of turn for each creature blocking it beyond the first.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5522,7 +5522,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Rasputin Dreamweaver enters the battlefield with seven dream counters on it.",
-      "Remove a dream counter from Rasputin: Add {C} to your mana pool.",
+      "Remove a dream counter from Rasputin: Add {C}.",
       "Remove a dream counter from Rasputin: Prevent the next 1 damage that would be dealt to Rasputin this turn.",
       "At the beginning of your upkeep, if Rasputin started the turn untapped, put a dream counter on it.",
       "Rasputin can't have more than seven dream counters on it."
@@ -5550,7 +5550,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Remove Rebirth from your deck before playing if you're not playing for ante.",
-      "Each player may ante the top card of his or her library. If a player does, his or her life total becomes 20."
+      "Each player may ante the top card of their library. If a player does, that player's life total becomes 20."
     ],
     "flavor_text": null,
     "power": null,
@@ -5599,7 +5599,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "{2}, {T}: Put a charge counter on Red Mana Battery.",
-      "{T}, Remove any number of charge counters from Red Mana Battery: Add {R} to your mana pool, then add an additional {R} to your mana pool for each charge counter removed this way."
+      "{T}, Remove any number of charge counters from Red Mana Battery: Add {R}, then add an additional {R} for each charge counter removed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -5675,7 +5675,7 @@
     "oracle_text": [
       "Enchant artifact an opponent controls",
       "Whenever enchanted artifact becomes tapped, choose one —",
-      "• Relic Bind deals 1 damage to target player.",
+      "• Relic Bind deals 1 damage to target player or planeswalker.",
       "• Target player gains 1 life."
     ],
     "flavor_text": null,
@@ -5748,7 +5748,7 @@
     "mana_cost": "UU",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Cast Reset only during an opponent's turn after his or her upkeep step.",
+      "Cast this spell only during an opponent's turn after their upkeep step.",
       "Untap all lands you control."
     ],
     "flavor_text": null,
@@ -5879,7 +5879,7 @@
     "mana_cost": "5UB",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "{T}: Add {B} to your mana pool."
+      "{T}: Add {B}."
     ],
     "flavor_text": "\"Political violence is a perfectly legitimate answer to the persecution handed down by dignitaries of the state.\"",
     "power": "5",
@@ -6426,7 +6426,7 @@
     "mana_cost": "2WW",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "At the beginning of each player's upkeep, if that player controls a Plains, he or she gains 1 life."
+      "At the beginning of each player's upkeep, if that player controls a Plains, they gain 1 life."
     ],
     "flavor_text": null,
     "power": null,
@@ -6455,7 +6455,7 @@
     "mana_cost": "4RG",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "When Stangg enters the battlefield, create a legendary 3/4 red and green Human Warrior creature token named Stangg Twin. When Stangg leaves the battlefield, exile that token. When that token leaves the battlefield, sacrifice Stangg."
+      "When Stangg enters the battlefield, create a legendary 3/4 red and green Human Warrior creature token named Stangg Twin. Exile that token when Stangg leaves the battlefield. Sacrifice Stangg when that token leaves the battlefield."
     ],
     "flavor_text": null,
     "power": "3",
@@ -6505,7 +6505,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "At the beginning of each player's upkeep, Storm World deals X damage to that player, where X is 4 minus the number of cards in his or her hand."
+      "At the beginning of each player's upkeep, Storm World deals X damage to that player, where X is 4 minus the number of cards in their hand."
     ],
     "flavor_text": null,
     "power": null,
@@ -6558,7 +6558,7 @@
     "mana_cost": "3RG",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{T}: Add {C}{C} to your mana pool."
+      "{T}: Add {C}{C}."
     ],
     "flavor_text": "Sunastian has roots in both sorcery and swordplay; he has learned never to depend too heavily on the latter.",
     "power": "4",
@@ -6583,7 +6583,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Sword of the Ages enters the battlefield tapped.",
-      "{T}, Sacrifice Sword of the Ages and any number of creatures you control: Sword of the Ages deals X damage to target creature or player, where X is the total power of the creatures sacrificed this way, then exile Sword of the Ages and those creature cards."
+      "{T}, Sacrifice Sword of the Ages and any number of creatures you control: Sword of the Ages deals X damage to any target, where X is the total power of the creatures sacrificed this way, then exile Sword of the Ages and those creature cards."
     ],
     "flavor_text": null,
     "power": null,
@@ -6683,7 +6683,7 @@
     "oracle_text": [
       "Enchant creature",
       "At the beginning of the upkeep of enchanted creature's controller, put a -0/-1 counter on that creature.",
-      "When enchanted creature dies, that creature's controller chooses a creature that Takklemaggot could enchant. If he or she does, return Takklemaggot to the battlefield under your control attached to that creature. If he or she doesn't, return Takklemaggot to the battlefield under your control as a non-Aura enchantment. It loses \"enchant creature\" and gains \"At the beginning of that player's upkeep, Takklemaggot deals 1 damage to him or her.\""
+      "When enchanted creature dies, that creature's controller chooses a creature that Takklemaggot could enchant. If the player does, return Takklemaggot to the battlefield under your control attached to that creature. If they don't, return Takklemaggot to the battlefield under your control as a non-Aura enchantment. It loses \"enchant creature\" and gains \"At the beginning of that player's upkeep, Takklemaggot deals 1 damage to that player.\""
     ],
     "flavor_text": null,
     "power": null,
@@ -6731,7 +6731,7 @@
     "mana_cost": "UUU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Cast Teleport only during the declare attackers step.",
+      "Cast this spell only during the declare attackers step.",
       "Target creature can't be blocked this turn."
     ],
     "flavor_text": null,
@@ -6759,7 +6759,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Remove Tempest Efreet from your deck before playing if you're not playing for ante.",
-      "{T}, Sacrifice Tempest Efreet: Target opponent may pay 10 life. If that player doesn't, he or she reveals a card at random from his or her hand. Exchange ownership of the revealed card and Tempest Efreet. Put the revealed card into your hand and Tempest Efreet from anywhere into that player's graveyard. This change in ownership is permanent."
+      "{T}, Sacrifice Tempest Efreet: Target opponent may pay 10 life. If that player doesn't, they reveal a card at random from their hand. Exchange ownership of the revealed card and Tempest Efreet. Put the revealed card into your hand and Tempest Efreet from anywhere into that player's graveyard. This change in ownership is permanent."
     ],
     "flavor_text": null,
     "power": "3",
@@ -6815,7 +6815,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "At the beginning of each player's upkeep, destroy target nonartifact creature that player controls of his or her choice. It can't be regenerated."
+      "At the beginning of each player's upkeep, destroy target nonartifact creature that player controls of their choice. It can't be regenerated."
     ],
     "flavor_text": "\"An immense river of oblivion is sweeping us away into a nameless abyss.\" —Ernest Renan, Souvenirs d'Enfance et de Jeunesse",
     "power": null,
@@ -7028,7 +7028,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {U} to your mana pool.",
+      "{T}: Add {U}.",
       "{T}: Target creature loses banding and all \"bands with other\" abilities until end of turn. Activate this ability only during any upkeep step."
     ],
     "flavor_text": "\"Fairest Isle, all isles excelling,/ Seat of pleasures, and of loves . . .\" —John Dryden",
@@ -7288,7 +7288,7 @@
     "mana_cost": "BBB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever an opponent draws a card, Underworld Dreams deals 1 damage to him or her."
+      "Whenever an opponent draws a card, Underworld Dreams deals 1 damage to that player."
     ],
     "flavor_text": "\"In the drowsy dark cave of the mind dreams build their nest with fragments dropped from day's caravan.\" —Rabindranath Tagore",
     "power": null,
@@ -7362,7 +7362,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {B} to your mana pool.",
+      "{T}: Add {B}.",
       "{T}: Target creature loses first strike or swampwalk until end of turn."
     ],
     "flavor_text": "\"Resignedly beneath the sky/The melancholy waters lie./So blend the turrets and shadows there/That all seem pendulous in air,/While from a proud tower in town/Death looks gigantically down.\" —Edgar Allan Poe, \"The City in the Sea\"",
@@ -7531,7 +7531,7 @@
     "oracle_text": [
       "At the beginning of your upkeep, put a pin counter on Voodoo Doll.",
       "At the beginning of your end step, if Voodoo Doll is untapped, destroy Voodoo Doll and it deals damage to you equal to the number of pin counters on it.",
-      "{X}{X}, {T}: Voodoo Doll deals damage equal to the number of pin counters on it to target creature or player. X is the number of pin counters on Voodoo Doll."
+      "{X}{X}, {T}: Voodoo Doll deals damage equal to the number of pin counters on it to any target. X is the number of pin counters on Voodoo Doll."
     ],
     "flavor_text": null,
     "power": null,
@@ -7907,7 +7907,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "{2}, {T}: Put a charge counter on White Mana Battery.",
-      "{T}, Remove any number of charge counters from White Mana Battery: Add {W} to your mana pool, then add an additional {W} to your mana pool for each charge counter removed this way."
+      "{T}, Remove any number of charge counters from White Mana Battery: Add {W}, then add an additional {W} for each charge counter removed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -7958,7 +7958,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Each player shuffles the cards from his or her hand into his or her library, then draws that many cards."
+      "Each player shuffles the cards from their hand into their library, then draws that many cards."
     ],
     "flavor_text": "\"‘Tis the set of sails, and not the gales,/ Which tells us the way to go.\" —Ella Wheeler Wilcox",
     "power": null,

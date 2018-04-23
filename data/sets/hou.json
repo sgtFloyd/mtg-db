@@ -388,7 +388,7 @@
     "mana_cost": "3WWW",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Hour of Revelation costs {3} less to cast if there are ten or more nonland permanents on the battlefield.",
+      "This spell costs {3} less to cast if there are ten or more nonland permanents on the battlefield.",
       "Destroy all nonland permanents."
     ],
     "flavor_text": "In the first moments, the gate to the afterlife opened, and the people were prostrate in the light of the God-Pharaoh.",
@@ -926,7 +926,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Enchant player",
-      "At the beginning of each end step, enchanted player puts the top X cards of his or her library into his or her graveyard, where X is the number of cards put into that graveyard from anywhere this turn."
+      "At the beginning of each end step, enchanted player puts the top X cards of their library into their graveyard, where X is the number of cards put into that graveyard from anywhere this turn."
     ],
     "flavor_text": "Those wound tightest are first to unravel.",
     "power": null,
@@ -974,7 +974,7 @@
     "mana_cost": "2UU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Creatures target opponent controls attack this turn if able. During that player's next untap step, creatures he or she controls don't untap.",
+      "Creatures target opponent controls attack this turn if able. During that player's next untap step, creatures they control don't untap.",
       "Cycling {2} ({2}, Discard this card: Draw a card.)"
     ],
     "flavor_text": "Liliana always knew Jace's illusions would come in handy.",
@@ -1159,7 +1159,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{U}, {T}, Discard a card: Target player puts the top three cards of his or her library into his or her graveyard."
+      "{U}, {T}, Discard a card: Target player puts the top three cards of their library into their graveyard."
     ],
     "flavor_text": "\"The truth? It's been here all along. The Hours as we understood them are lies.\"",
     "power": "1",
@@ -1639,8 +1639,8 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Choose one —",
-      "• Target opponent exiles a creature he or she controls.",
-      "• Target opponent reveals his or her hand. You choose a nonland card from it. Exile that card."
+      "• Target opponent exiles a creature they control.",
+      "• Target opponent reveals their hand. You choose a nonland card from it. Exile that card."
     ],
     "flavor_text": "\"This place has outlived its usefulness.\"\n—Nicol Bolas",
     "power": null,
@@ -1720,7 +1720,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Exile target creature. If that creature was a God, its controller reveals his or her hand and exiles all cards from it with the same name as that creature."
+      "Exile target creature. If that creature was a God, its controller reveals their hand and exiles all cards from it with the same name as that creature."
     ],
     "flavor_text": "The gods of the trials also faced the opportunity to prove themselves worthy.",
     "power": null,
@@ -1772,7 +1772,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "As an additional cost to cast Lethal Sting, put a -1/-1 counter on a creature you control.",
+      "As an additional cost to cast this spell, put a -1/-1 counter on a creature you control.",
       "Destroy target creature."
     ],
     "flavor_text": "Initiates once believed defeat was the worst fate possible—a sentiment they quickly abandoned.",
@@ -2066,7 +2066,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Enchant player",
-      "At the beginning of enchanted player's upkeep, that player loses 3 life unless he or she sacrifices a nonland permanent or discards a card."
+      "At the beginning of enchanted player's upkeep, that player loses 3 life unless they sacrifice a nonland permanent or discard a card."
     ],
     "flavor_text": "Like a carpet unrolling for their god, the scarabs poured out from the necropolis.",
     "power": null,
@@ -2090,7 +2090,7 @@
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Put three -1/-1 counters on target creature. Its controller loses 3 life unless he or she sacrifices another nonland permanent or discards a card."
+      "Put three -1/-1 counters on target creature. Its controller loses 3 life unless they sacrifice another nonland permanent or discards a card."
     ],
     "flavor_text": "The Scorpion God's sting sends venom strong enough to poison blood, bone, and spirit.",
     "power": null,
@@ -2403,7 +2403,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Fervent Paincaster deals 1 damage to target player.",
+      "{T}: Fervent Paincaster deals 1 damage to target player or planeswalker.",
       "{T}, Exert Fervent Paincaster: It deals 1 damage to target creature. (An exerted creature won't untap during your next untap step.)"
     ],
     "flavor_text": "\"Everyone here is a honed fighter. We'll respond the only way we know how.\"",
@@ -2586,7 +2586,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Imminent Doom enters the battlefield with a doom counter on it.",
-      "Whenever you cast a spell with converted mana cost equal to the number of doom counters on Imminent Doom, Imminent Doom deals that much damage to target creature or player. Then put a doom counter on Imminent Doom."
+      "Whenever you cast a spell with converted mana cost equal to the number of doom counters on Imminent Doom, Imminent Doom deals that much damage to any target. Then put a doom counter on Imminent Doom."
     ],
     "flavor_text": null,
     "power": null,
@@ -2610,7 +2610,7 @@
     "mana_cost": "5R",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Inferno Jet deals 6 damage to target opponent.",
+      "Inferno Jet deals 6 damage to target opponent or planeswalker.",
       "Cycling {2} ({2}, Discard this card: Draw a card.)"
     ],
     "flavor_text": "\"When the whole world is crazy, it's important to find something you can rely on.\"",
@@ -2749,7 +2749,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Afflict 3 (Whenever this creature becomes blocked, defending player loses 3 life.)",
-      "At the beginning of your postcombat main phase, add {R} to your mana pool for each 1 life your opponents have lost this turn."
+      "At the beginning of your postcombat main phase, add {R} for each 1 life your opponents have lost this turn."
     ],
     "flavor_text": "\"This is what glory looks like.\"\n—Nicol Bolas",
     "power": "4",
@@ -2773,7 +2773,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Open Fire deals 3 damage to target creature or player."
+      "Open Fire deals 3 damage to any target."
     ],
     "flavor_text": "Some khenra archers fashion their arrows with a personal touch.",
     "power": null,
@@ -3264,8 +3264,8 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{T}: Add one mana of any color to your mana pool.",
-      "{T}, Exert Oasis Ritualist: Add two mana of any one color to your mana pool. (An exerted creature won't untap during your next untap step.)"
+      "{T}: Add one mana of any color.",
+      "{T}, Exert Oasis Ritualist: Add two mana of any one color. (An exerted creature won't untap during your next untap step.)"
     ],
     "flavor_text": "\"It's only the end if we allow it.\"",
     "power": "2",
@@ -3695,9 +3695,9 @@
     "mana_cost": "4UBR",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "+2: Target opponent exiles cards from the top of his or her library until he or she exiles a nonland card. Until end of turn, you may cast that card without paying its mana cost.",
-      "+1: Each opponent exiles two cards from his or her hand.",
-      "−4: Nicol Bolas, God-Pharaoh deals 7 damage to target opponent or creature an opponent controls.",
+      "+2: Target opponent exiles cards from the top of their library until they exile a nonland card. Until end of turn, you may cast that card without paying its mana cost.",
+      "+1: Each opponent exiles two cards from their hand.",
+      "−4: Nicol Bolas, God-Pharaoh deals 7 damage to target opponent, creature an opponent controls, or planeswalker an opponent controls.",
       "−12: Exile each nonland permanent your opponents control."
     ],
     "flavor_text": null,
@@ -3810,7 +3810,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "+1: Up to one target creature gains double strike until end of turn.",
-      "−2: Samut, the Tested deals 2 damage divided as you choose among one or two target creatures and/or players.",
+      "−2: Samut, the Tested deals 2 damage divided as you choose among one or two targets.",
       "−7: Search your library for up to two creature and/or planeswalker cards, put them onto the battlefield, then shuffle your library."
     ],
     "flavor_text": null,
@@ -4094,7 +4094,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Aftermath (Cast this spell only from your graveyard. Then exile it.)",
-      "Each player shuffles his or her graveyard into his or her library."
+      "Each player shuffles their graveyard into their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -4543,7 +4543,7 @@
     "mana_cost": "5",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Hollow One costs {2} less to cast for each card you've cycled or discarded this turn.",
+      "This spell costs {2} less to cast for each card you've cycled or discarded this turn.",
       "Cycling {2} ({2}, Discard this card: Draw a card.)"
     ],
     "flavor_text": "The embodiment of yearning, forever drifting the deserts to find what had once made it whole.",
@@ -4568,7 +4568,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": "\"Though the afterlife, the city, and even the God-Pharaoh himself were one great deception, the ideals championed by the gods remain true.\"\n—Djeru, former Tah-crop initiate",
     "power": null,
@@ -4642,7 +4642,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{1}, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library."
+      "{1}, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library."
     ],
     "flavor_text": "\"Why wander in search of a new home when the path is laid out before you?\"\n—Pytamun, former Nef-crop initiate",
     "power": null,
@@ -4670,7 +4670,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Defender",
-      "{T}: Wall of Forgotten Pharaohs deals 1 damage to target player. Activate this ability only if you control a Desert or there is a Desert card in your graveyard."
+      "{T}: Wall of Forgotten Pharaohs deals 1 damage to target player or planeswalker. Activate this ability only if you control a Desert or there is a Desert card in your graveyard."
     ],
     "flavor_text": null,
     "power": "0",
@@ -4695,8 +4695,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "When Crypt of the Eternals enters the battlefield, you gain 1 life.",
-      "{T}: Add {C} to your mana pool.",
-      "{1}, {T}: Add {U}, {B}, or {R} to your mana pool."
+      "{T}: Add {C}.",
+      "{1}, {T}: Add {U}, {B}, or {R}."
     ],
     "flavor_text": "The dead entered as worthy. They exited as Eternals.",
     "power": null,
@@ -4723,7 +4723,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Desert of the Fervent enters the battlefield tapped.",
-      "{T}: Add {R} to your mana pool.",
+      "{T}: Add {R}.",
       "Cycling {1}{R} ({1}{R}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -4751,7 +4751,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Desert of the Glorified enters the battlefield tapped.",
-      "{T}: Add {B} to your mana pool.",
+      "{T}: Add {B}.",
       "Cycling {1}{B} ({1}{B}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -4779,7 +4779,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Desert of the Indomitable enters the battlefield tapped.",
-      "{T}: Add {G} to your mana pool.",
+      "{T}: Add {G}.",
       "Cycling {1}{G} ({1}{G}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -4807,7 +4807,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Desert of the Mindful enters the battlefield tapped.",
-      "{T}: Add {U} to your mana pool.",
+      "{T}: Add {U}.",
       "Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -4835,7 +4835,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Desert of the True enters the battlefield tapped.",
-      "{T}: Add {W} to your mana pool.",
+      "{T}: Add {W}.",
       "Cycling {1}{W} ({1}{W}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -4862,7 +4862,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "When Dunes of the Dead is put into a graveyard from the battlefield, create a 2/2 black Zombie creature token."
     ],
     "flavor_text": "The Curse of Wandering permeated Amonkhet long before Nicol Bolas. He simply harnessed it.",
@@ -4889,7 +4889,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{2}, {T}: Exile target creature you control.",
       "{4}, {T}, Sacrifice Endless Sands: Return each creature card exiled with Endless Sands to the battlefield under its owner's control."
     ],
@@ -4917,8 +4917,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}, Pay 1 life: Add {G} to your mana pool.",
+      "{T}: Add {C}.",
+      "{T}, Pay 1 life: Add {G}.",
       "{1}{G}{G}, {T}, Sacrifice a Desert: Target creature gets +3/+3 until end of turn. Activate this ability only any time you could cast a sorcery."
     ],
     "flavor_text": null,
@@ -4945,7 +4945,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{2}, Exile a land card from your graveyard: Hostile Desert becomes a 3/4 Elemental creature until end of turn. It's still a land."
     ],
     "flavor_text": "Amonkhet's desiccated land thirsts for blood.",
@@ -4972,8 +4972,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}, Pay 1 life: Add {B} to your mana pool.",
+      "{T}: Add {C}.",
+      "{T}, Pay 1 life: Add {B}.",
       "{2}{B}{B}, {T}, Sacrifice a Desert: Put two -1/-1 counters on target creature an opponent controls. Activate this ability only any time you could cast a sorcery."
     ],
     "flavor_text": null,
@@ -5000,9 +5000,9 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}, Pay 1 life: Add {U} to your mana pool.",
-      "{1}{U}, {T}, Sacrifice a Desert: Target player puts the top four cards of his or her library into his or her graveyard."
+      "{T}: Add {C}.",
+      "{T}, Pay 1 life: Add {U}.",
+      "{1}{U}, {T}, Sacrifice a Desert: Target player puts the top four cards of their library into their graveyard."
     ],
     "flavor_text": null,
     "power": null,
@@ -5028,8 +5028,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}, Pay 1 life: Add {R} to your mana pool.",
+      "{T}: Add {C}.",
+      "{T}, Pay 1 life: Add {R}.",
       "{2}{R}{R}, {T}, Sacrifice a Desert: Ramunap Ruins deals 2 damage to each opponent."
     ],
     "flavor_text": null,
@@ -5056,7 +5056,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{2}, {T}, Sacrifice a Desert: Exile all cards from all graveyards."
     ],
     "flavor_text": "When the last scrap of flesh is scoured away, the Curse of Wandering ends. Then the dead may sleep.",
@@ -5083,8 +5083,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}, Pay 1 life: Add {W} to your mana pool.",
+      "{T}: Add {C}.",
+      "{T}, Pay 1 life: Add {W}.",
       "{2}{W}{W}, {T}, Sacrifice a Desert: Creatures you control get +1/+1 until end of turn. Activate this ability only any time you could cast a sorcery."
     ],
     "flavor_text": null,
@@ -5111,8 +5111,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}, Tap an untapped creature you control: Add one mana of any color to your mana pool."
+      "{T}: Add {C}.",
+      "{T}, Tap an untapped creature you control: Add one mana of any color."
     ],
     "flavor_text": "\"What will happen to us?\" they asked.\nThe vizier paused. \"I think . . . I think that's up to us now.\"",
     "power": null,
@@ -5140,7 +5140,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5168,7 +5168,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5196,7 +5196,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5224,7 +5224,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5252,7 +5252,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5280,7 +5280,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5308,7 +5308,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5336,7 +5336,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5364,7 +5364,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5392,7 +5392,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5420,7 +5420,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5448,7 +5448,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5476,7 +5476,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5504,7 +5504,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5532,7 +5532,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5589,7 +5589,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {G} or {U} to your mana pool. If you control a Nissa planeswalker, you gain 2 life."
+      "{T}: Add {G} or {U}. If you control a Nissa planeswalker, you gain 2 life."
     ],
     "flavor_text": "\"All can't be lost. Nissa has shown me that.\"",
     "power": "2",
@@ -5615,7 +5615,7 @@
     "mana_cost": "4GG",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)"
+      "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)"
     ],
     "flavor_text": "Life will find a way, or it will make one.",
     "power": "6",
@@ -5664,7 +5664,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Woodland Stream enters the battlefield tapped.",
-      "{T}: Add {G} or {U} to your mana pool."
+      "{T}: Add {G} or {U}."
     ],
     "flavor_text": "\"Bolas's power on this plane can't be absolute. Look around you.\"\n—Nissa Revane",
     "power": null,
@@ -5749,7 +5749,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{4}{R}: Zealot of the God-Pharaoh deals 2 damage to target opponent."
+      "{4}{R}: Zealot of the God-Pharaoh deals 2 damage to target opponent or planeswalker."
     ],
     "flavor_text": "The God-Pharaoh's most devoted took it upon themselves to follow his example.",
     "power": "4",
@@ -5774,7 +5774,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "When Visage of Bolas enters the battlefield, you may search your library and/or graveyard for a card named Nicol Bolas, the Deceiver, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
-      "{T}: Add {U}, {B}, or {R} to your mana pool."
+      "{T}: Add {U}, {B}, or {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -5799,7 +5799,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Cinder Barrens enters the battlefield tapped.",
-      "{T}: Add {B} or {R} to your mana pool."
+      "{T}: Add {B} or {R}."
     ],
     "flavor_text": "\"I do as I choose with what is mine. And it is all mine.\"\n—Nicol Bolas",
     "power": null,

@@ -104,8 +104,8 @@
     "mana_cost": "5G",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "{T}: Add {G}{G}{G} to your mana pool.",
-      "Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle your library.)"
+      "{T}: Add {G}{G}{G}.",
+      "Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, and put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": "4",
@@ -133,7 +133,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Other Elf creatures you control get +1/+1.",
-      "{T}: Add {G} to your mana pool for each Elf you control."
+      "{T}: Add {G} for each Elf you control."
     ],
     "flavor_text": "\"The elves tend the forest, and the forest sustains the elves. My role is to ensure that the cycle continues.\"",
     "power": "2",
@@ -187,7 +187,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool."
+      "{T}: Add {G}."
     ],
     "flavor_text": "\"Life grows everywhere. My kin merely find those places where it grows strongest.\"\n—Nissa Revane",
     "power": "1",
@@ -457,7 +457,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool."
+      "{T}: Add {G}."
     ],
     "flavor_text": "Eidren, perfect of Lys Alana, ordered hundreds of trees uprooted and rearranged into a pattern he deemed beautiful. Thus the Gilt-Leaf Wood was born.",
     "power": "2",
@@ -639,8 +639,8 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Trample",
-      "Cast Talara's Battalion only if you've cast another green spell this turn."
+      "Cast this spell only if you've cast another green spell this turn.",
+      "Trample"
     ],
     "flavor_text": "The safewright Talara protects a delicate woodland waterfall. She has vowed to send wave after wave of warriors to slay any who would dare disturb its beauty.",
     "power": "4",
@@ -749,7 +749,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Oran-Rief, the Vastwood enters the battlefield tapped.",
-      "{T}: Add {G} to your mana pool.",
+      "{T}: Add {G}.",
       "{T}: Put a +1/+1 counter on each green creature that entered the battlefield this turn."
     ],
     "flavor_text": null,
@@ -775,7 +775,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Tranquil Thicket enters the battlefield tapped.",
-      "{T}: Add {G} to your mana pool.",
+      "{T}: Add {G}.",
       "Cycling {G} ({G}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -801,8 +801,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Treetop Village enters the battlefield tapped.",
-      "{T}: Add {G} to your mana pool.",
-      "{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (If it would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)"
+      "{T}: Add {G}.",
+      "{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (If it would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to the player or planeswalker it's attacking.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -830,7 +830,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -858,7 +858,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -886,7 +886,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -914,7 +914,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1076,7 +1076,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Treasure Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 6 or greater, reveal that card, and put it into your hand. If you do, shuffle your library."
+      "When Treasure Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 6 or greater, reveal it, put it into your hand, then shuffle your library."
     ],
     "flavor_text": null,
     "power": "2",
@@ -1186,7 +1186,7 @@
     "mana_cost": "3RR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{T}, Sacrifice an artifact: Barrage Ogre deals 2 damage to target creature or player."
+      "{T}, Sacrifice an artifact: Barrage Ogre deals 2 damage to any target."
     ],
     "flavor_text": "The elves had devised countless strategies to combat Memnarch's war machines, but they had no idea what to do when one was thrown at them.",
     "power": "3",
@@ -1210,8 +1210,8 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Galvanic Blast deals 2 damage to target creature or player.",
-      "Metalcraft — Galvanic Blast deals 4 damage to that creature or player instead if you control three or more artifacts."
+      "Galvanic Blast deals 2 damage to any target.",
+      "Metalcraft — Galvanic Blast deals 4 damage to that permanent or player instead if you control three or more artifacts."
     ],
     "flavor_text": null,
     "power": null,
@@ -1268,7 +1268,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "When Pia and Kiran Nalaar enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.",
-      "{2}{R}, Sacrifice an artifact: Pia and Kiran Nalaar deals 2 damage to target creature or player."
+      "{2}{R}, Sacrifice an artifact: Pia and Kiran Nalaar deals 2 damage to any target."
     ],
     "flavor_text": null,
     "power": "2",
@@ -1292,8 +1292,8 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Shrapnel Blast, sacrifice an artifact.",
-      "Shrapnel Blast deals 5 damage to target creature or player."
+      "As an additional cost to cast this spell, sacrifice an artifact.",
+      "Shrapnel Blast deals 5 damage to any target."
     ],
     "flavor_text": "From trinket to trauma.",
     "power": null,
@@ -1534,7 +1534,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "When Myr Battlesphere enters the battlefield, create four 1/1 colorless Myr artifact creature tokens.",
-      "Whenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If you do, Myr Battlesphere gets +X/+0 until end of turn and deals X damage to defending player."
+      "Whenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If you do, Myr Battlesphere gets +X/+0 until end of turn and deals X damage to the player or planeswalker it's attacking."
     ],
     "flavor_text": null,
     "power": "4",
@@ -1612,7 +1612,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{R}, Sacrifice Pyrite Spellbomb: Pyrite Spellbomb deals 2 damage to target creature or player.",
+      "{R}, Sacrifice Pyrite Spellbomb: It deals 2 damage to any target.",
       "{1}, Sacrifice Pyrite Spellbomb: Draw a card."
     ],
     "flavor_text": "\"Melt that which was never frozen.\"\n—Spellbomb inscription",
@@ -1641,7 +1641,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Scuttling Doom Engine can't be blocked by creatures with power 2 or less.",
-      "When Scuttling Doom Engine dies, it deals 6 damage to target opponent."
+      "When Scuttling Doom Engine dies, it deals 6 damage to target opponent or planeswalker."
     ],
     "flavor_text": "A masterwork of spite, inspired by madness.",
     "power": "6",
@@ -1747,7 +1747,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Indestructible",
-      "{T}: Add {C} to your mana pool."
+      "{T}: Add {C}."
     ],
     "flavor_text": "Structures built from darksteel yield to neither assault nor age.",
     "power": null,
@@ -1771,7 +1771,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{5}, {T}, Sacrifice Foundry of the Consuls: Create two 1/1 colorless Thopter artifact creature tokens with flying."
     ],
     "flavor_text": "All around the foundry, automatons unhitched themselves from their mounts and pivoted to face Chandra.",
@@ -1797,7 +1797,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {R} to your mana pool."
+      "{T}: Add {R}."
     ],
     "flavor_text": "Kuldotha, wellspring of molten metal, temple of the goblin horde.",
     "power": null,
@@ -1821,7 +1821,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}, {T}, Sacrifice an artifact: You gain 1 life."
     ],
     "flavor_text": "\"So even the heart of our world has succumbed.\"\n—Koth of the Hammer",
@@ -1848,7 +1848,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "(Seat of the Synod isn't a spell.)",
-      "{T}: Add {U} to your mana pool."
+      "{T}: Add {U}."
     ],
     "flavor_text": "Lumengrid, site of the Knowledge Pool, source of vedalken arcana.",
     "power": null,
@@ -1872,8 +1872,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {U} or {R} to your mana pool. Shivan Reef deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {U} or {R}. Shivan Reef deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -1899,7 +1899,7 @@
     "oracle_text": [
       "Swiftwater Cliffs enters the battlefield tapped.",
       "When Swiftwater Cliffs enters the battlefield, you gain 1 life.",
-      "{T}: Add {U} or {R} to your mana pool."
+      "{T}: Add {U} or {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -1925,7 +1925,7 @@
     "oracle_text": [
       "Temple of Epiphany enters the battlefield tapped.",
       "When Temple of Epiphany enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
-      "{T}: Add {U} or {R} to your mana pool."
+      "{T}: Add {U} or {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -1953,7 +1953,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1981,7 +1981,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2009,7 +2009,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2037,7 +2037,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,

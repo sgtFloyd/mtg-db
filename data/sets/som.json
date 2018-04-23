@@ -16,7 +16,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.",
+      "{T}: Prevent the next 1 damage that would be dealt to any target this turn.",
       "{T}: Prevent the next 2 damage that would be dealt to target artifact creature this turn."
     ],
     "flavor_text": "\"You can break nothing I cannot mend.\"",
@@ -856,7 +856,7 @@
     "oracle_text": [
       "Other blue creatures you control get +1/+1.",
       "{U}: Target artifact creature becomes blue until end of turn.",
-      "Tap an untapped blue creature you control: Add {C}{C} to your mana pool. Spend this mana only to cast artifact spells or activate abilities of artifacts."
+      "Tap an untapped blue creature you control: Add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts."
     ],
     "flavor_text": null,
     "power": "1",
@@ -1090,7 +1090,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Flying",
-      "Metalcraft — Whenever Screeching Silcaw deals combat damage to a player, if you control three or more artifacts, that player puts the top four cards of his or her library into his or her graveyard."
+      "Metalcraft — Whenever Screeching Silcaw deals combat damage to a player, if you control three or more artifacts, that player puts the top four cards of their library into their graveyard."
     ],
     "flavor_text": "It's adaptively deaf to its own cries.",
     "power": "1",
@@ -1114,7 +1114,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "The controller of target artifact sacrifices it, then reveals cards from the top of his or her library until he or she reveals an artifact card. That player puts that card onto the battlefield, then shuffles all other cards revealed this way into his or her library."
+      "The controller of target artifact sacrifices it, then reveals cards from the top of their library until they reveal an artifact card. That player puts that card onto the battlefield, then shuffles all other cards revealed this way into their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -1190,7 +1190,7 @@
     "mana_cost": "1UU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Metalcraft — Stoic Rebuttal costs {1} less to cast if you control three or more artifacts.",
+      "Metalcraft — This spell costs {1} less to cast if you control three or more artifacts.",
       "Counter target spell."
     ],
     "flavor_text": "Obsessed with the pursuit of knowledge above all else, vedalken can appear to be cold and emotionless.",
@@ -1611,7 +1611,7 @@
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "As an additional cost to cast Flesh Allergy, sacrifice a creature.",
+      "As an additional cost to cast this spell, sacrifice a creature.",
       "Destroy target creature. Its controller loses life equal to the number of creatures that died this turn."
     ],
     "flavor_text": null,
@@ -1667,7 +1667,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)",
-      "{X}{B}: Put target artifact or creature card with converted mana cost X from an opponent's graveyard onto the battlefield under your control tapped. Then that player puts the top X cards of his or her library into his or her graveyard."
+      "{X}{B}: Put target artifact or creature card with converted mana cost X from an opponent's graveyard onto the battlefield under your control tapped. Then that player puts the top X cards of their library into their graveyard."
     ],
     "flavor_text": null,
     "power": "5",
@@ -1795,7 +1795,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Choose a nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library."
+      "Choose a nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles their library."
     ],
     "flavor_text": "\"You claim wisdom, yet I see nothing in here but tawdry wishes.\"",
     "power": null,
@@ -1897,7 +1897,7 @@
     "mana_cost": "3BB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Whenever an opponent casts a spell, that player loses 5 life unless he or she discards a card."
+      "Whenever an opponent casts a spell, that player loses 5 life unless they discard a card."
     ],
     "flavor_text": "\"For each word spoken, one forgotten. For each thought, a memory rotten.\"\n—Moriok incantation",
     "power": null,
@@ -2109,7 +2109,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Arc Trail deals 2 damage to target creature or player and 1 damage to another target creature or player."
+      "Arc Trail deals 2 damage to any target and 1 damage to another target."
     ],
     "flavor_text": "\"Don't try to hit your enemies. Concentrate on the space between them, and fill the air with doom.\"\n—Spear-Tribe teaching",
     "power": null,
@@ -2160,7 +2160,7 @@
     "mana_cost": "3RR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{T}, Sacrifice an artifact: Barrage Ogre deals 2 damage to target creature or player."
+      "{T}, Sacrifice an artifact: Barrage Ogre deals 2 damage to any target."
     ],
     "flavor_text": "The elves had devised countless strategies to combat Memnarch's war machines, but they had no idea what to do when one was thrown at them.",
     "power": "3",
@@ -2238,7 +2238,7 @@
     "mana_cost": "2RR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Target opponent reveals the top card of his or her library. Cerebral Eruption deals damage equal to the revealed card's converted mana cost to that player and each creature he or she controls. If a land card is revealed this way, return Cerebral Eruption to its owner's hand."
+      "Target opponent reveals the top card of their library. Cerebral Eruption deals damage equal to the revealed card's converted mana cost to that player and each creature that player controls. If a land card is revealed this way, return Cerebral Eruption to its owner's hand."
     ],
     "flavor_text": null,
     "power": null,
@@ -2265,7 +2265,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever you cast an artifact spell, you may pay {1}. If you do, Embersmith deals 1 damage to target creature or player."
+      "Whenever you cast an artifact spell, you may pay {1}. If you do, Embersmith deals 1 damage to any target."
     ],
     "flavor_text": "The Vulshok see the artificer as a catalyst, bringing the spark of creation that ignites change.",
     "power": "2",
@@ -2342,7 +2342,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever you sacrifice another permanent, you may pay {2}. If you do, Furnace Celebration deals 2 damage to target creature or player."
+      "Whenever you sacrifice another permanent, you may pay {2}. If you do, Furnace Celebration deals 2 damage to any target."
     ],
     "flavor_text": "Reduce. Reuse. Wreak havoc.",
     "power": null,
@@ -2366,8 +2366,8 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Galvanic Blast deals 2 damage to target creature or player.",
-      "Metalcraft — Galvanic Blast deals 4 damage to that creature or player instead if you control three or more artifacts."
+      "Galvanic Blast deals 2 damage to any target.",
+      "Metalcraft — Galvanic Blast deals 4 damage to that permanent or player instead if you control three or more artifacts."
     ],
     "flavor_text": "Mirrodin has little weather, but it certainly has lightning.",
     "power": null,
@@ -2451,8 +2451,8 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "+1: Untap target Mountain. It becomes a 4/4 red Elemental creature until end of turn. It's still a land.",
-      "−2: Add {R} to your mana pool for each Mountain you control.",
-      "−5: You get an emblem with \"Mountains you control have ‘{T}: This land deals 1 damage to target creature or player.'\""
+      "−2: Add {R} for each Mountain you control.",
+      "−5: You get an emblem with \"Mountains you control have ‘{T}: This land deals 1 damage to any target.'\""
     ],
     "flavor_text": null,
     "power": null,
@@ -2503,7 +2503,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Kuldotha Rebirth, sacrifice an artifact.",
+      "As an additional cost to cast this spell, sacrifice an artifact.",
       "Create three 1/1 red Goblin creature tokens."
     ],
     "flavor_text": "All goblin rituals serve a dual purpose as fertility rites, even the destructive ones. Especially the destructive ones.",
@@ -2552,7 +2552,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Each player shuffles the cards from his or her hand into his or her library, then draws that many cards.",
+      "Each player shuffles the cards from their hand into their library, then draws that many cards.",
       "Metalcraft — If you control three or more artifacts, Molten Psyche deals damage to each opponent equal to the number of cards that player has drawn this turn."
     ],
     "flavor_text": null,
@@ -2708,7 +2708,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{1}{R}{R}: Spikeshot Elder deals damage equal to its power to target creature or player."
+      "{1}{R}{R}: Spikeshot Elder deals damage equal to its power to any target."
     ],
     "flavor_text": "Now that he knows a thousand ways of hurting people, his next shamanic quest is to discover a thousand more.",
     "power": "1",
@@ -2734,7 +2734,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever a land enters the battlefield under an opponent's control, if that player had another land enter the battlefield under his or her control this turn, Tunnel Ignus deals 3 damage to that player."
+      "Whenever a land enters the battlefield under an opponent's control, if that player had another land enter the battlefield under their control this turn, Tunnel Ignus deals 3 damage to that player."
     ],
     "flavor_text": "Fight mischief with mischief.",
     "power": "2",
@@ -3812,7 +3812,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool."
+      "{T}: Add {G}."
     ],
     "flavor_text": "The myr are like verdigris: an ever-present patina on the surface of a metal world.",
     "power": "1",
@@ -4109,7 +4109,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {W} to your mana pool."
+      "{T}: Add {W}."
     ],
     "flavor_text": "The myr are like razorgrass: numberless metal figures, reflecting each other's light.",
     "power": "1",
@@ -4264,7 +4264,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "{T}: Put a charge counter on Grindclock.",
-      "{T}: Target player puts the top X cards of his or her library into his or her graveyard, where X is the number of charge counters on Grindclock."
+      "{T}: Target player puts the top X cards of their library into their graveyard, where X is the number of charge counters on Grindclock."
     ],
     "flavor_text": "Pray you never hear it chime.",
     "power": null,
@@ -4291,7 +4291,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Equipped creature doesn't untap during its controller's untap step.",
-      "Equipped creature has \"{T}: This creature deals 2 damage to target creature or player.\"",
+      "Equipped creature has \"{T}: This creature deals 2 damage to any target.\"",
       "Equip {4}"
     ],
     "flavor_text": null,
@@ -4399,7 +4399,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {R} to your mana pool."
+      "{T}: Add {R}."
     ],
     "flavor_text": "The myr are like rusted metal: gleaming purpose hidden by a thin disguise of debris.",
     "power": "1",
@@ -4453,7 +4453,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {B} to your mana pool."
+      "{T}: Add {B}."
     ],
     "flavor_text": "The myr are like necrogen: a transformative force unconcerned with the changes they wreak.",
     "power": "1",
@@ -4503,7 +4503,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Equipped creature gets +2/+0 and has \"Whenever this creature becomes the target of a spell, this creature deals 2 damage to target creature or player.\"",
+      "Equipped creature gets +2/+0 and has \"Whenever this creature becomes the target of a spell, this creature deals 2 damage to any target.\"",
       "Equip {2}"
     ],
     "flavor_text": null,
@@ -4633,7 +4633,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "At the beginning of your upkeep, sacrifice Molten-Tail Masticore unless you discard a card.",
-      "{4}, Exile a creature card from your graveyard: Molten-Tail Masticore deals 4 damage to target creature or player.",
+      "{4}, Exile a creature card from your graveyard: Molten-Tail Masticore deals 4 damage to any target.",
       "{2}: Regenerate Molten-Tail Masticore."
     ],
     "flavor_text": null,
@@ -4687,7 +4687,7 @@
     "mana_cost": "0",
     "converted_mana_cost": 0,
     "oracle_text": [
-      "Metalcraft — {T}: Add one mana of any color to your mana pool. Activate this ability only if you control three or more artifacts."
+      "Metalcraft — {T}: Add one mana of any color. Activate this ability only if you control three or more artifacts."
     ],
     "flavor_text": "The suns of Mirrodin have shone upon perfection only once.",
     "power": null,
@@ -4716,7 +4716,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "When Myr Battlesphere enters the battlefield, create four 1/1 colorless Myr artifact creature tokens.",
-      "Whenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If you do, Myr Battlesphere gets +X/+0 until end of turn and deals X damage to defending player."
+      "Whenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If you do, Myr Battlesphere gets +X/+0 until end of turn and deals X damage to the player or planeswalker it's attacking."
     ],
     "flavor_text": null,
     "power": "4",
@@ -4795,7 +4795,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {C}{C} to your mana pool. Spend this mana only to cast Myr spells or activate abilities of Myr.",
+      "{T}: Add {C}{C}. Spend this mana only to cast Myr spells or activate abilities of Myr.",
       "{3}, {T}: Return target Myr card from your graveyard to your hand."
     ],
     "flavor_text": "A mana well as bottomless as the myr are tireless.",
@@ -4981,7 +4981,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {C}{C} to your mana pool."
+      "{T}: Add {C}{C}."
     ],
     "flavor_text": "The myr are like the Glimmervoid: blank canvases on which to build grand creations.",
     "power": "2",
@@ -5033,7 +5033,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Perilous Myr dies, it deals 2 damage to target creature or player."
+      "When Perilous Myr dies, it deals 2 damage to any target."
     ],
     "flavor_text": "To Mirrodin, an explosive. To Phyrexia, a missionary.",
     "power": "1",
@@ -5294,7 +5294,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {U} to your mana pool."
+      "{T}: Add {U}."
     ],
     "flavor_text": "The myr are like quicksilver: malleable in function and adaptable in form.",
     "power": "1",
@@ -5432,7 +5432,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Equipped creature gets +1/+1 and has haste.",
-      "Equip {1}"
+      "Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"
     ],
     "flavor_text": "Each journey begins with a single step—and sometimes ends with that single step as well.",
     "power": null,
@@ -5459,7 +5459,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Equipped creature gets +2/+2 and has protection from green and from blue.",
-      "Whenever equipped creature deals combat damage to a player, you create a 2/2 green Wolf creature token and that player puts the top ten cards of his or her library into his or her graveyard.",
+      "Whenever equipped creature deals combat damage to a player, you create a 2/2 green Wolf creature token and that player puts the top ten cards of their library into their graveyard.",
       "Equip {2}"
     ],
     "flavor_text": null,
@@ -5797,7 +5797,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{1}{R}, Sacrifice Vulshok Replica: Vulshok Replica deals 3 damage to target player."
+      "{1}{R}, Sacrifice Vulshok Replica: Vulshok Replica deals 3 damage to target player or planeswalker."
     ],
     "flavor_text": "All the fury of the Vulshok with only a trace of their recklessness.",
     "power": "3",
@@ -5878,7 +5878,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Blackcleave Cliffs enters the battlefield tapped unless you control two or fewer other lands.",
-      "{T}: Add {B} or {R} to your mana pool."
+      "{T}: Add {B} or {R}."
     ],
     "flavor_text": "Where the Oxidda Chain mingles with the Mephidross, oil-suffused metal crumbles away, leaving walls of blackened bones.",
     "power": null,
@@ -5903,7 +5903,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Copperline Gorge enters the battlefield tapped unless you control two or fewer other lands.",
-      "{T}: Add {R} or {G} to your mana pool."
+      "{T}: Add {R} or {G}."
     ],
     "flavor_text": "Where the Tangle overruns the Oxidda mountains, metallic beasts scratch their territories in the verdigris.",
     "power": null,
@@ -5928,7 +5928,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Darkslick Shores enters the battlefield tapped unless you control two or fewer other lands.",
-      "{T}: Add {U} or {B} to your mana pool."
+      "{T}: Add {U} or {B}."
     ],
     "flavor_text": "Where the Mephidross leaches into the Quicksilver Sea, the waves writhe with necrogen.",
     "power": null,
@@ -5955,7 +5955,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "When Glimmerpost enters the battlefield, you gain 1 life for each Locus on the battlefield.",
-      "{T}: Add {C} to your mana pool."
+      "{T}: Add {C}."
     ],
     "flavor_text": "What once spied upon Mirrodin from above now waits below for another to assume control.",
     "power": null,
@@ -5980,7 +5980,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Razorverge Thicket enters the battlefield tapped unless you control two or fewer other lands.",
-      "{T}: Add {G} or {W} to your mana pool."
+      "{T}: Add {G} or {W}."
     ],
     "flavor_text": "Where the Razor Fields beat back the Tangle, the crowded thicket yields to bright scimitars of grass.",
     "power": null,
@@ -6005,7 +6005,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Seachrome Coast enters the battlefield tapped unless you control two or fewer other lands.",
-      "{T}: Add {W} or {U} to your mana pool."
+      "{T}: Add {W} or {U}."
     ],
     "flavor_text": "Where the Quicksilver Sea laps over the Razor Fields, the landscape reflects the suns' fading hope.",
     "power": null,
@@ -6033,7 +6033,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6061,7 +6061,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6089,7 +6089,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6117,7 +6117,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6145,7 +6145,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6173,7 +6173,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6201,7 +6201,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6229,7 +6229,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6257,7 +6257,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6285,7 +6285,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6313,7 +6313,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6341,7 +6341,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6369,7 +6369,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6397,7 +6397,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6425,7 +6425,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6453,7 +6453,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6481,7 +6481,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6509,7 +6509,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6537,7 +6537,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6565,7 +6565,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,

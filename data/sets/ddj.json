@@ -19,7 +19,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to target creature or player.",
+      "Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to any target.",
       "{T}: Draw a card."
     ],
     "flavor_text": null,
@@ -129,7 +129,7 @@
     "mana_cost": "1UR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Gelectrode deals 1 damage to target creature or player.",
+      "{T}: Gelectrode deals 1 damage to any target.",
       "Whenever you cast an instant or sorcery spell, you may untap Gelectrode."
     ],
     "flavor_text": "\"Diametrically opposing energies in self-sealed plasmodermic bubbles make great pets!\"\n—Trivaz, Izzet mage",
@@ -184,7 +184,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Steamcore Weird enters the battlefield, if {R} was spent to cast Steamcore Weird, it deals 2 damage to target creature or player."
+      "When Steamcore Weird enters the battlefield, if {R} was spent to cast Steamcore Weird, it deals 2 damage to any target."
     ],
     "flavor_text": "Like many Izzet creations, weirds are based on wild contradictions yet somehow manage to work.",
     "power": "1",
@@ -442,7 +442,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, {T}: Add {U}{R} to your mana pool."
+      "{1}, {T}: Add {U}{R}."
     ],
     "flavor_text": "The Izzet signet is redesigned often, each time becoming closer to a vanity portrait of Niv-Mizzet.",
     "power": null,
@@ -516,7 +516,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Replicate {1}{R} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)",
-      "Pyromatics deals 1 damage to target creature or player."
+      "Pyromatics deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -567,7 +567,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target player shuffles his or her graveyard into his or her library."
+      "Target player shuffles their graveyard into their library."
     ],
     "flavor_text": "Leave the door to the past even slightly ajar and it could be blown off its hinges.",
     "power": null,
@@ -668,7 +668,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Enchant creature",
-      "Enchanted creature has \"{T}: This creature deals 1 damage to target player. You draw a card.\""
+      "Enchanted creature has \"{T}: This creature deals 1 damage to target player or planeswalker. You draw a card.\""
     ],
     "flavor_text": "The dwarves call their quicksilver techniques \"improvisational weaponsmithing.\"",
     "power": null,
@@ -692,7 +692,7 @@
     "mana_cost": "3UR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Prophetic Bolt deals 4 damage to target creature or player. Look at the top four cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order."
+      "Prophetic Bolt deals 4 damage to any target. Look at the top four cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order."
     ],
     "flavor_text": null,
     "power": null,
@@ -740,7 +740,7 @@
     "mana_cost": "7",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "Whenever you cast an instant or sorcery spell, you may put a charge counter on Sphinx-Bone Wand. If you do, Sphinx-Bone Wand deals damage equal to the number of charge counters on it to target creature or player."
+      "Whenever you cast an instant or sorcery spell, you may put a charge counter on Sphinx-Bone Wand. If you do, Sphinx-Bone Wand deals damage equal to the number of charge counters on it to any target."
     ],
     "flavor_text": "Its host's final curse lies captured within.",
     "power": null,
@@ -791,7 +791,7 @@
     "oracle_text": [
       "Choose one —",
       "• Draw X cards.",
-      "• Invoke the Firemind deals X damage to target creature or player."
+      "• Invoke the Firemind deals X damage to any target."
     ],
     "flavor_text": "To those in tune with the Firemind, there is no difference between knowledge and flame.",
     "power": null,
@@ -815,7 +815,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Fire deals 2 damage divided as you choose among one or two target creatures and/or players."
+      "Fire deals 2 damage divided as you choose among one or two targets."
     ],
     "flavor_text": null,
     "power": null,
@@ -865,7 +865,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Forgotten Cave enters the battlefield tapped.",
-      "{T}: Add {R} to your mana pool.",
+      "{T}: Add {R}.",
       "Cycling {R} ({R}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -892,7 +892,7 @@
     "oracle_text": [
       "Izzet Boilerworks enters the battlefield tapped.",
       "When Izzet Boilerworks enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {U}{R} to your mana pool."
+      "{T}: Add {U}{R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -917,7 +917,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Lonely Sandbar enters the battlefield tapped.",
-      "{T}: Add {U} to your mana pool.",
+      "{T}: Add {U}.",
       "Cycling {U} ({U}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -942,7 +942,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{2}{U}{R}, {T}: Exile the top card of your library. Until your next turn, you may cast that card if it's an instant or sorcery card."
     ],
     "flavor_text": "Niv-Mizzet's genius and vanity reverberate throughout the mirrored halls of Nivix.",
@@ -971,7 +971,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -999,7 +999,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1027,7 +1027,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1055,7 +1055,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1083,7 +1083,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1111,7 +1111,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1139,7 +1139,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1167,7 +1167,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1251,7 +1251,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}: Add {B} to your mana pool. Elves of Deep Shadow deals 1 damage to you."
+      "{T}: Add {B}. Elves of Deep Shadow deals 1 damage to you."
     ],
     "flavor_text": "Cast out of the Conclave generations ago, these elves found a home in the corrupted districts of the Golgari.",
     "power": "1",
@@ -1768,7 +1768,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, {T}: Add {B}{G} to your mana pool."
+      "{1}, {T}: Add {B}{G}."
     ],
     "flavor_text": "Depending on your point of view, the seal represents a proud guardian of the natural cycle or one who has sold her soul to darkness for eternal life.",
     "power": null,
@@ -1942,7 +1942,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Target player reveals his or her hand. You choose a card from it. That player discards that card.",
+      "Target player reveals their hand. You choose a card from it. That player discards that card.",
       "Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
     ],
     "flavor_text": null,
@@ -2016,7 +2016,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "You may cast Twilight's Call as though it had flash if you pay {2} more to cast it. (You may cast it any time you could cast an instant.)",
-      "Each player returns all creature cards from his or her graveyard to the battlefield."
+      "Each player returns all creature cards from their graveyard to the battlefield."
     ],
     "flavor_text": "Twilight falls. We rise.\n—Necropolis inscription",
     "power": null,
@@ -2089,7 +2089,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Barren Moor enters the battlefield tapped.",
-      "{T}: Add {B} to your mana pool.",
+      "{T}: Add {B}.",
       "Cycling {B} ({B}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -2115,7 +2115,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Dakmor Salvage enters the battlefield tapped.",
-      "{T}: Add {B} to your mana pool.",
+      "{T}: Add {B}.",
       "Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
     ],
     "flavor_text": null,
@@ -2142,7 +2142,7 @@
     "oracle_text": [
       "Golgari Rot Farm enters the battlefield tapped.",
       "When Golgari Rot Farm enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {B}{G} to your mana pool."
+      "{T}: Add {B}{G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -2166,7 +2166,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{3}{B}{G}: Until end of turn, Svogthos, the Restless Tomb becomes a black and green Plant Zombie creature with \"This creature's power and toughness are each equal to the number of creature cards in your graveyard.\" It's still a land."
     ],
     "flavor_text": null,
@@ -2192,7 +2192,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Tranquil Thicket enters the battlefield tapped.",
-      "{T}: Add {G} to your mana pool.",
+      "{T}: Add {G}.",
       "Cycling {G} ({G}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -2221,7 +2221,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2249,7 +2249,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2277,7 +2277,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2305,7 +2305,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2333,7 +2333,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2361,7 +2361,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2389,7 +2389,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2417,7 +2417,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,

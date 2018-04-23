@@ -10,7 +10,8 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Bird"
+      "Bird",
+      "Construct"
     ],
     "rarity": "Common",
     "mana_cost": "3",
@@ -38,7 +39,8 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Bird"
+      "Bird",
+      "Construct"
     ],
     "rarity": "Common",
     "mana_cost": "3",
@@ -72,7 +74,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{R}: Add {B} to your mana pool."
+      "{R}: Add {B}."
     ],
     "flavor_text": "\"The Order of Stromgald spreads its poisonous lies from within Varchild's troops, and still she sees only visions of conquest.\"\n—Lovisa Coldeyes, Balduvian Chieftain",
     "power": "1",
@@ -99,7 +101,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{R}: Add {B} to your mana pool."
+      "{R}: Add {B}."
     ],
     "flavor_text": "\"The ‘fabled' Order of Stromgald is cast to the four winds, lost for all time. I, for one, give them no thought.\"\n—General Varchild",
     "power": "1",
@@ -173,7 +175,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{3}, {T}: Target player looks at the top three cards of his or her library, puts one of them back on top of his or her library, then exiles the rest."
+      "{3}, {T}: Target player looks at the top three cards of their library, puts one of them back on top of their library, then exiles the rest."
     ],
     "flavor_text": "Few remember that Ashnod's defilement of Terisiare's resources outstripped even that of her peers.",
     "power": null,
@@ -197,7 +199,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{1}, {T}, Sacrifice Astrolabe: Add two mana of any one color to your mana pool. Draw a card at the beginning of the next turn's upkeep."
+      "{1}, {T}, Sacrifice Astrolabe: Add two mana of any one color. Draw a card at the beginning of the next turn's upkeep."
     ],
     "flavor_text": null,
     "power": null,
@@ -221,7 +223,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{1}, {T}, Sacrifice Astrolabe: Add two mana of any one color to your mana pool. Draw a card at the beginning of the next turn's upkeep."
+      "{1}, {T}, Sacrifice Astrolabe: Add two mana of any one color. Draw a card at the beginning of the next turn's upkeep."
     ],
     "flavor_text": null,
     "power": null,
@@ -248,7 +250,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Enchant creature",
-      "Enchanted creature can't be blocked unless defending player pays {3} for each creature he or she controls that's blocking it."
+      "Enchanted creature can't be blocked unless defending player pays {3} for each creature they control that's blocking it."
     ],
     "flavor_text": "\"At the core of all power is raw passion.\" —Gerda Äagesdotter,Archmage of the Unseen",
     "power": null,
@@ -275,7 +277,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Enchant creature",
-      "Enchanted creature can't be blocked unless defending player pays {3} for each creature he or she controls that's blocking it."
+      "Enchanted creature can't be blocked unless defending player pays {3} for each creature they control that's blocking it."
     ],
     "flavor_text": "\"I shape my weapons from the fears of my enemies.\"\n—Chaeska, Keeper of Tresserhorn",
     "power": null,
@@ -353,7 +355,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "If Balduvian Trading Post would enter the battlefield, sacrifice an untapped Mountain instead. If you do, put Balduvian Trading Post onto the battlefield. If you don't, put it into its owner's graveyard.",
-      "{T}: Add {C}{R} to your mana pool.",
+      "{T}: Add {C}{R}.",
       "{1}, {T}: Balduvian Trading Post deals 1 damage to target attacking creature."
     ],
     "flavor_text": null,
@@ -437,7 +439,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{T}, Untap a tapped land an opponent controls: Add one mana of any type that land could produce to your mana pool."
+      "{T}, Untap a tapped land an opponent controls: Add one mana of any type that land could produce."
     ],
     "flavor_text": "The rising oceans brought new lakes—and new terrors—to Terisiare. The Explorers found their ancient enemies spawning everywhere.",
     "power": "2",
@@ -464,7 +466,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{T}, Untap a tapped land an opponent controls: Add one mana of any type that land could produce to your mana pool."
+      "{T}, Untap a tapped land an opponent controls: Add one mana of any type that land could produce."
     ],
     "flavor_text": "Distant Atlantis charged these Explorers with the task of venturing into unknown waters to track the despised Viscerids.",
     "power": "2",
@@ -544,7 +546,7 @@
     "mana_cost": "3GG",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "You may exile a green card from your hand rather than pay Bounty of the Hunt's mana cost.",
+      "You may exile a green card from your hand rather than pay this spell's mana cost.",
       "Distribute three +1/+1 counters among one, two, or three target creatures. For each +1/+1 counter you put on a creature this way, remove a +1/+1 counter from that creature at the beginning of the next cleanup step."
     ],
     "flavor_text": null,
@@ -752,7 +754,7 @@
     "mana_cost": "3BB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "You may pay 1 life and exile a black card from your hand rather than pay Contagion's mana cost.",
+      "You may pay 1 life and exile a black card from your hand rather than pay this spell's mana cost.",
       "Distribute two -2/-1 counters among one or two target creatures."
     ],
     "flavor_text": null,
@@ -829,7 +831,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Death Spark deals 1 damage to target creature or player.",
+      "Death Spark deals 1 damage to any target.",
       "At the beginning of your upkeep, if Death Spark is in your graveyard with a creature card directly above it, you may pay {1}. If you do, return Death Spark to your hand."
     ],
     "flavor_text": null,
@@ -854,7 +856,7 @@
     "mana_cost": "2UU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Each player shuffles his or her hand and graveyard into his or her library. You exile the top ten cards of your library. Then each player draws up to seven cards."
+      "Each player shuffles their hand and graveyard into their library. You exile the top ten cards of your library. Then each player draws up to seven cards."
     ],
     "flavor_text": null,
     "power": null,
@@ -1008,7 +1010,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Exile Elvish Spirit Guide from your hand: Add {G} to your mana pool."
+      "Exile Elvish Spirit Guide from your hand: Add {G}."
     ],
     "flavor_text": "\"We are never without guidance, if we but seek it.\"\n—Taaveti of Kelsinko, Elvish Hunter",
     "power": "2",
@@ -1388,7 +1390,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "You may pay 1 life and exile a blue card from your hand rather than pay Force of Will's mana cost.",
+      "You may pay 1 life and exile a blue card from your hand rather than pay this spell's mana cost.",
       "Counter target spell."
     ],
     "flavor_text": null,
@@ -1760,7 +1762,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Cast Gorilla War Cry only during combat before blockers are declared.",
+      "Cast this spell only during combat before blockers are declared.",
       "All creatures gain menace until end of turn. (They can't be blocked except by two or more creatures.)",
       "Draw a card at the beginning of the next turn's upkeep."
     ],
@@ -1786,7 +1788,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Cast Gorilla War Cry only during combat before blockers are declared.",
+      "Cast this spell only during combat before blockers are declared.",
       "All creatures gain menace until end of turn. (They can't be blocked except by two or more creatures.)",
       "Draw a card at the beginning of the next turn's upkeep."
     ],
@@ -1812,8 +1814,8 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Guerrilla Tactics deals 2 damage to target creature or player.",
-      "When a spell or ability an opponent controls causes you to discard Guerrilla Tactics, Guerrilla Tactics deals 4 damage to target creature or player."
+      "Guerrilla Tactics deals 2 damage to any target.",
+      "When a spell or ability an opponent controls causes you to discard Guerrilla Tactics, Guerrilla Tactics deals 4 damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -1837,8 +1839,8 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Guerrilla Tactics deals 2 damage to target creature or player.",
-      "When a spell or ability an opponent controls causes you to discard Guerrilla Tactics, Guerrilla Tactics deals 4 damage to target creature or player."
+      "Guerrilla Tactics deals 2 damage to any target.",
+      "When a spell or ability an opponent controls causes you to discard Guerrilla Tactics, Guerrilla Tactics deals 4 damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -1913,7 +1915,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "If Heart of Yavimaya would enter the battlefield, sacrifice a Forest instead. If you do, put Heart of Yavimaya onto the battlefield. If you don't, put it into its owner's graveyard.",
-      "{T}: Add {G} to your mana pool.",
+      "{T}: Add {G}.",
       "{T}: Target creature gets +1/+1 until end of turn."
     ],
     "flavor_text": null,
@@ -1938,7 +1940,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{X}, {T}: Target opponent puts cards from the top of his or her library into his or her graveyard until a creature card or X cards are put into that graveyard this way, whichever comes first. If a creature card is put into that graveyard this way, sacrifice Helm of Obedience and put that card onto the battlefield under your control. X can't be 0."
+      "{X}, {T}: Target opponent puts cards from the top of their library into their graveyard until a creature card or X cards are put into that graveyard this way, whichever comes first. If a creature card is put into that graveyard this way, sacrifice Helm of Obedience and put that card onto the battlefield under your control. X can't be 0."
     ],
     "flavor_text": null,
     "power": null,
@@ -2230,7 +2232,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "If Kjeldoran Outpost would enter the battlefield, sacrifice a Plains instead. If you do, put Kjeldoran Outpost onto the battlefield. If you don't, put it into its owner's graveyard.",
-      "{T}: Add {W} to your mana pool.",
+      "{T}: Add {W}.",
       "{1}{W}, {T}: Create a 1/1 white Soldier creature token."
     ],
     "flavor_text": null,
@@ -2315,7 +2317,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "At the beginning of the end step, if Krovikan Horror is in your graveyard with a creature card directly above it, you may return Krovikan Horror to your hand.",
-      "{1}, Sacrifice a creature: Krovikan Horror deals 1 damage to target creature or player."
+      "{1}, Sacrifice a creature: Krovikan Horror deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": "2",
@@ -2343,7 +2345,7 @@
     "oracle_text": [
       "Enchant non-Wall creature you control",
       "When Krovikan Plague enters the battlefield, draw a card at the beginning of the next turn's upkeep.",
-      "Tap enchanted creature: Krovikan Plague deals 1 damage to target creature or player. Put a -0/-1 counter on enchanted creature. Activate this ability only if enchanted creature is untapped."
+      "Tap enchanted creature: Krovikan Plague deals 1 damage to any target. Put a -0/-1 counter on enchanted creature. Activate this ability only if enchanted creature is untapped."
     ],
     "flavor_text": null,
     "power": null,
@@ -2368,8 +2370,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "If Lake of the Dead would enter the battlefield, sacrifice a Swamp instead. If you do, put Lake of the Dead onto the battlefield. If you don't, put it into its owner's graveyard.",
-      "{T}: Add {B} to your mana pool.",
-      "{T}, Sacrifice a Swamp: Add {B}{B}{B}{B} to your mana pool."
+      "{T}: Add {B}.",
+      "{T}, Sacrifice a Swamp: Add {B}{B}{B}{B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -2527,7 +2529,7 @@
       "Trample",
       "At the beginning of your upkeep, you may discard a card. If you don't, sacrifice Lim-Dûl's Paladin and draw a card.",
       "Whenever Lim-Dûl's Paladin becomes blocked, it gets +6/+3 until end of turn.",
-      "Whenever Lim-Dûl's Paladin attacks and isn't blocked, it assigns no combat damage to defending player this turn and that player loses 4 life."
+      "Whenever Lim-Dûl's Paladin attacks and isn't blocked, it assigns no combat damage this turn and defending player loses 4 life."
     ],
     "flavor_text": null,
     "power": "0",
@@ -2575,7 +2577,7 @@
     "mana_cost": "0",
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{1}, {T}, Sacrifice Lodestone Bauble: Put up to four target basic land cards from a player's graveyard on top of his or her library in any order. That player draws a card at the beginning of the next turn's upkeep."
+      "{1}, {T}, Sacrifice Lodestone Bauble: Put up to four target basic land cards from a player's graveyard on top of their library in any order. That player draws a card at the beginning of the next turn's upkeep."
     ],
     "flavor_text": null,
     "power": null,
@@ -2628,7 +2630,7 @@
     "mana_cost": "1WW",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Until end of turn, target creature you control gains \"{0}: The next 1 damage that would be dealt to target creature or player this turn is dealt to this creature instead.\" Only you may activate this ability."
+      "Until end of turn, target creature you control gains \"{0}: The next 1 damage that would be dealt to target creature, planeswalker, or player this turn is dealt to this creature instead.\" Only you may activate this ability."
     ],
     "flavor_text": "\"Martyrs are cheaper than mercenaries, and a far better investment.\"\n—General Varchild",
     "power": null,
@@ -2652,7 +2654,7 @@
     "mana_cost": "1WW",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Until end of turn, target creature you control gains \"{0}: The next 1 damage that would be dealt to target creature or player this turn is dealt to this creature instead.\" Only you may activate this ability."
+      "Until end of turn, target creature you control gains \"{0}: The next 1 damage that would be dealt to target creature, planeswalker, or player this turn is dealt to this creature instead.\" Only you may activate this ability."
     ],
     "flavor_text": "\"The only true immortality is in dying for a cause.\"\n—Halvor Arensson, Kjeldoran Priest",
     "power": null,
@@ -2678,7 +2680,7 @@
     "oracle_text": [
       "An opponent chooses one —",
       "• You put a +1/+1 counter on each creature you control and gain 4 life.",
-      "• You put a -1/-1 counter on each creature that player controls and Misfortune deals 4 damage to him or her."
+      "• You put a -1/-1 counter on each creature that player controls and Misfortune deals 4 damage to that player."
     ],
     "flavor_text": null,
     "power": null,
@@ -2726,7 +2728,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Put up to three target cards from an opponent's graveyard on top of his or her library in any order."
+      "Put up to three target cards from an opponent's graveyard on top of their library in any order."
     ],
     "flavor_text": "\"When you cannot rely on your sources, trust your own senses. When you cannot trust those, you must follow your instincts.\" —Lovisa Coldeyes, Balduvian Chieftain",
     "power": null,
@@ -2827,8 +2829,8 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "At the beginning of your upkeep, sacrifice Nature's Wrath unless you pay {G}.",
-      "Whenever a player puts an Island or blue permanent onto the battlefield, he or she sacrifices an Island or blue permanent.",
-      "Whenever a player puts a Swamp or black permanent onto the battlefield, he or she sacrifices a Swamp or black permanent."
+      "Whenever a player puts an Island or blue permanent onto the battlefield, that player sacrifices an Island or blue permanent.",
+      "Whenever a player puts a Swamp or black permanent onto the battlefield, that player sacrifices a Swamp or black permanent."
     ],
     "flavor_text": null,
     "power": null,
@@ -2900,8 +2902,7 @@
     "mana_cost": "3RR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Return all Islands to their owners' hands.",
-      "Each player sacrifices a Plains or a white permanent for each white permanent he or she controls."
+      "Return all Islands to their owners' hands. Each player sacrifices a Plains or a white permanent for each white permanent they control."
     ],
     "flavor_text": "\"Let Balduvia burn to warm Kjeldor's hearth!\"\n—General Varchild",
     "power": null,
@@ -3221,7 +3222,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Primitive Justice, you may pay {1}{R} and/or {1}{G} any number of times.",
+      "As an additional cost to cast this spell, you may pay {1}{R} and/or {1}{G} any number of times.",
       "Destroy target artifact. For each additional {1}{R} you paid, destroy another target artifact. For each additional {1}{G} you paid, destroy another target artifact, and you gain 1 life."
     ],
     "flavor_text": null,
@@ -3246,7 +3247,7 @@
     "mana_cost": "4RR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "You may exile a red card from your hand rather than pay Pyrokinesis's mana cost.",
+      "You may exile a red card from your hand rather than pay this spell's mana cost.",
       "Pyrokinesis deals 4 damage divided as you choose among any number of target creatures."
     ],
     "flavor_text": "\"Anybody want some . . . toast?\"\n—Jaya Ballard, Task Mage",
@@ -3367,7 +3368,7 @@
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "As an additional cost to cast Ritual of the Machine, sacrifice a creature.",
+      "As an additional cost to cast this spell, sacrifice a creature.",
       "Gain control of target nonartifact, nonblack creature."
     ],
     "flavor_text": "\"Rumors persist of dark deeds performed in the depths of Soldev. When will Dagsson heed the danger therein?\"\n—Sorine Relicbane, Soldevi Heretic",
@@ -3524,8 +3525,8 @@
     "mana_cost": "4W",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "You may exile a white card from your hand rather than pay Scars of the Veteran's mana cost.",
-      "Prevent the next 7 damage that would be dealt to target creature or player this turn. At the beginning of the next end step, put a +0/+1 counter on that creature for each 1 damage prevented this way."
+      "You may exile a white card from your hand rather than pay this spell's mana cost.",
+      "Prevent the next 7 damage that would be dealt to any target this turn. If it's a creature, put a +0/+1 counter on it for each 1 damage prevented this way at the beginning of the next end step."
     ],
     "flavor_text": null,
     "power": null,
@@ -3549,8 +3550,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{2}, {T}: Add one mana of any color to your mana pool."
+      "{T}: Add {C}.",
+      "{2}, {T}: Add one mana of any color."
     ],
     "flavor_text": "After the terrible retribution visited upon Lat-Nam, this school of mages chose to hide from the eyes of the world.",
     "power": null,
@@ -3603,7 +3604,7 @@
     "oracle_text": [
       "If Sheltered Valley would enter the battlefield, instead sacrifice each other permanent named Sheltered Valley you control, then put Sheltered Valley onto the battlefield.",
       "At the beginning of your upkeep, if you control three or fewer lands, you gain 1 life.",
-      "{T}: Add {C} to your mana pool."
+      "{T}: Add {C}."
     ],
     "flavor_text": null,
     "power": null,
@@ -3656,7 +3657,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "As Sol Grail enters the battlefield, choose a color.",
-      "{T}: Add one mana of the chosen color to your mana pool."
+      "{T}: Add one mana of the chosen color."
     ],
     "flavor_text": "\"Look deep into the Grail, and see there what you desire most.\" —Gerda Äagesdotter, Archmage of the Unseen",
     "power": null,
@@ -3683,7 +3684,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}, Sacrifice a black or artifact creature: Add an amount of {B} to your mana pool equal to the sacrificed creature's converted mana cost."
+      "{T}, Sacrifice a black or artifact creature: Add an amount of {B} equal to the sacrificed creature's converted mana cost."
     ],
     "flavor_text": "\"An idiot cannot hear sense, even when a thousand people speak it.\"\n—Sorine Relicbane, Soldevi Heretic",
     "power": "1",
@@ -3710,7 +3711,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}, Sacrifice a black or artifact creature: Add an amount of {B} to your mana pool equal to the sacrificed creature's converted mana cost."
+      "{T}, Sacrifice a black or artifact creature: Add an amount of {B} equal to the sacrificed creature's converted mana cost."
     ],
     "flavor_text": "\"People love to follow fools; they don't feel so alone then.\"\n—Sorine Relicbane, Soldevi Heretic",
     "power": "1",
@@ -3759,7 +3760,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "If Soldevi Excavations would enter the battlefield, sacrifice an untapped Island instead. If you do, put Soldevi Excavations onto the battlefield. If you don't, put it into its owner's graveyard.",
-      "{T}: Add {C}{U} to your mana pool.",
+      "{T}: Add {C}{U}.",
       "{1}, {T}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"
     ],
     "flavor_text": null,
@@ -4005,7 +4006,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{R}, {T}: Target player shuffles his or her library."
+      "{R}, {T}: Target player shuffles their library."
     ],
     "flavor_text": "\"Loyalty to coin alone is loyalty nonetheless.\"\n—General Varchild",
     "power": "1",
@@ -4056,7 +4057,7 @@
     "mana_cost": "2GG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{2}{G}: Splintering Wind deals 1 damage to target creature. Create a 1/1 green Splinter creature token. It has flying and \"Cumulative upkeep {G}.\" When it leaves the battlefield, it deals 1 damage to you and each creature you control. (At the beginning of its controller's upkeep, that player puts an age counter on it, then sacrifices it unless he or she pays its upkeep cost for each age counter on it.)"
+      "{2}{G}: Splintering Wind deals 1 damage to target creature. Create a 1/1 green Splinter creature token. It has flying and \"Cumulative upkeep {G}.\" When it leaves the battlefield, it deals 1 damage to you and each creature you control. (At the beginning of its controller's upkeep, that player puts an age counter on it, then sacrifices it unless they pay its upkeep cost for each age counter on it.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4128,7 +4129,7 @@
     "mana_cost": "5",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Each player may play an additional land during each of his or her turns.",
+      "Each player may play an additional land during each of their turns.",
       "Whenever a land is tapped for mana, return it to its owner's hand."
     ],
     "flavor_text": null,
@@ -4292,7 +4293,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever Stromgald Spy attacks and isn't blocked, you may have defending player play with his or her hand revealed for as long as Stromgald Spy remains on the battlefield. If you do, Stromgald Spy assigns no combat damage this turn."
+      "Whenever Stromgald Spy attacks and isn't blocked, you may have defending player play with their hand revealed for as long as Stromgald Spy remains on the battlefield. If you do, Stromgald Spy assigns no combat damage this turn."
     ],
     "flavor_text": null,
     "power": "2",
@@ -4316,7 +4317,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Cast Suffocation only if you were dealt damage this turn by a red instant or sorcery spell.",
+      "Cast this spell only if you were dealt damage this turn by a red instant or sorcery spell.",
       "Suffocation deals 4 damage to the controller of the last red instant or sorcery spell that dealt damage to you this turn.",
       "Draw a card at the beginning of the next turn's upkeep."
     ],
@@ -4342,7 +4343,7 @@
     "mana_cost": "RG",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Surge of Strength, discard a red or green card.",
+      "As an additional cost to cast this spell, discard a red or green card.",
       "Target creature gains trample and gets +X/+0 until end of turn, where X is that creature's converted mana cost."
     ],
     "flavor_text": null,
@@ -4476,7 +4477,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "As an additional cost to cast Taste of Paradise, you may pay {1}{G} any number of times.",
+      "As an additional cost to cast this spell, you may pay {1}{G} any number of times.",
       "You gain 3 life plus an additional 3 life for each additional {1}{G} you paid."
     ],
     "flavor_text": "\"Any who drink of Freyalise's bounty drink the mead of rebirth.\"\n—Kaysa, Elder Druid of the Juniper Order",
@@ -4501,7 +4502,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "As an additional cost to cast Taste of Paradise, you may pay {1}{G} any number of times.",
+      "As an additional cost to cast this spell, you may pay {1}{G} any number of times.",
       "You gain 3 life plus an additional 3 life for each additional {1}{G} you paid."
     ],
     "flavor_text": "\"There is, in each of us, the potential to heal and the gift of renewed life.\"\n—Kaysa, Elder Druid of the Juniper Order",
@@ -4552,7 +4553,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Cumulative upkeep—Exile the top card of your library. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)",
-      "When a player doesn't pay Thought Lash's cumulative upkeep, that player exiles all cards from his or her library.",
+      "When a player doesn't pay Thought Lash's cumulative upkeep, that player exiles all cards from their library.",
       "Exile the top card of your library: Prevent the next 1 damage that would be dealt to you this turn."
     ],
     "flavor_text": null,
@@ -4627,8 +4628,8 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Undergrowth, you may pay {2}{R}.",
-      "Prevent all combat damage that would be dealt this turn. If its additional cost was paid, Undergrowth doesn't affect combat damage that would be dealt by red creatures."
+      "As an additional cost to cast this spell, you may pay {2}{R}.",
+      "Prevent all combat damage that would be dealt this turn. If this spell's additional cost was paid, this effect doesn't affect combat damage that would be dealt by red creatures."
     ],
     "flavor_text": "\"The art of war is turning obstacle to advantage.\" —Jaeuhl Carthalion, Juniper Order Advocate",
     "power": null,
@@ -4652,8 +4653,8 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Undergrowth, you may pay {2}{R}.",
-      "Prevent all combat damage that would be dealt this turn. If its additional cost was paid, Undergrowth doesn't affect combat damage that would be dealt by red creatures."
+      "As an additional cost to cast this spell, you may pay {2}{R}.",
+      "Prevent all combat damage that would be dealt this turn. If this spell's additional cost was paid, this effect doesn't affect combat damage that would be dealt by red creatures."
     ],
     "flavor_text": "\"It is the work of sorcery. Burn it!\" —Taaveti of Kelsinko, Elvish Hunter",
     "power": null,
@@ -4956,7 +4957,7 @@
     "oracle_text": [
       "{W}, Pay 1 life: Prevent the next 2 damage that would be dealt to target creature this turn.",
       "{U}: Prevent the next 1 damage that would be dealt to target Cleric or Wizard creature this turn.",
-      "{B}, Put a -1/-1 counter on a creature you control: Prevent the next 2 damage that would be dealt to target player this turn."
+      "{B}, Put a -1/-1 counter on a creature you control: Prevent the next 2 damage that would be dealt to target player or planeswalker this turn."
     ],
     "flavor_text": null,
     "power": "0",
@@ -5118,7 +5119,7 @@
     "mana_cost": "RGW",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever a player taps a snow land for mana, that player adds one mana to his or her mana pool of any type that land produced. That land doesn't untap during its controller's next untap step."
+      "Whenever a player taps a snow land for mana, that player adds one mana of any type that land produced. That land doesn't untap during its controller's next untap step."
     ],
     "flavor_text": null,
     "power": null,

@@ -304,7 +304,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Vigilance",
-      "{T}: Add {G} to your mana pool."
+      "{T}: Add {G}."
     ],
     "flavor_text": "Knight-stewards guard the Sun-Dappled Court, a grove of immense, sculptured olive trees that represent Valeron's twelve noble families.",
     "power": "2",
@@ -635,7 +635,7 @@
     "mana_cost": "W",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "The next 2 damage that a source of your choice would deal to you and/or permanents you control this turn is dealt to target creature or player instead."
+      "The next 2 damage that a source of your choice would deal to you and/or permanents you control this turn is dealt to any target instead."
     ],
     "flavor_text": "Even when fate is already written, there's always time to change the names.",
     "power": null,
@@ -959,7 +959,7 @@
     "oracle_text": [
       "Sejiri Steppe enters the battlefield tapped.",
       "When Sejiri Steppe enters the battlefield, target creature you control gains protection from the color of your choice until end of turn.",
-      "{T}: Add {W} to your mana pool."
+      "{T}: Add {W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -985,7 +985,7 @@
     "oracle_text": [
       "Selesnya Sanctuary enters the battlefield tapped.",
       "When Selesnya Sanctuary enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {G}{W} to your mana pool."
+      "{T}: Add {G}{W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -1010,8 +1010,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Treetop Village enters the battlefield tapped.",
-      "{T}: Add {G} to your mana pool.",
-      "{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (If it would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)"
+      "{T}: Add {G}.",
+      "{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (If it would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to the player or planeswalker it's attacking.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1039,7 +1039,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1067,7 +1067,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1095,7 +1095,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1123,7 +1123,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1151,7 +1151,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1179,7 +1179,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1207,7 +1207,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1235,7 +1235,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1263,7 +1263,7 @@
     "oracle_text": [
       "Flash",
       "Flying",
-      "When Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you choose among any number of target creatures and/or players."
+      "When Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you choose among any number of targets."
     ],
     "flavor_text": null,
     "power": "5",
@@ -1316,7 +1316,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Sacrifice a Goblin: Add {R} to your mana pool."
+      "Sacrifice a Goblin: Add {R}."
     ],
     "flavor_text": "\"I like goblins. They make funny little popping sounds when they die.\"\n—Braids, dementia summoner",
     "power": "1",
@@ -1397,7 +1397,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Mudbutton Torchrunner dies, it deals 3 damage to target creature or player."
+      "When Mudbutton Torchrunner dies, it deals 3 damage to any target."
     ],
     "flavor_text": "The oil sloshes against his skull as he nears his destination: the Frogtosser Games and the lighting of the Flaming Boggart.",
     "power": "1",
@@ -1508,7 +1508,7 @@
     "oracle_text": [
       "Flying",
       "Devour 1 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with that many +1/+1 counters on it.)",
-      "When Voracious Dragon enters the battlefield, it deals damage to target creature or player equal to twice the number of Goblins it devoured."
+      "When Voracious Dragon enters the battlefield, it deals damage to any target equal to twice the number of Goblins it devoured."
     ],
     "flavor_text": null,
     "power": "4",
@@ -1591,7 +1591,7 @@
     "oracle_text": [
       "Amplify 3 (As this creature enters the battlefield, put three +1/+1 counters on it for each Dragon card you reveal in your hand.)",
       "Flying",
-      "{T}: Kilnmouth Dragon deals damage equal to the number of +1/+1 counters on it to target creature or player."
+      "{T}: Kilnmouth Dragon deals damage equal to the number of +1/+1 counters on it to any target."
     ],
     "flavor_text": null,
     "power": "5",
@@ -1618,7 +1618,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Flying (This creature can't be blocked except by creatures with flying or reach.)",
-      "{1}{R}: Shivan Hellkite deals 1 damage to target creature or player."
+      "{1}{R}: Shivan Hellkite deals 1 damage to any target."
     ],
     "flavor_text": "A dragon's scale can be carved into a mighty shield, provided you can procure a dragontooth to cut it.",
     "power": "5",
@@ -1718,7 +1718,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Kicker {2} (You may pay an additional {2} as you cast this spell.)",
-      "Breath of Darigaaz deals 1 damage to each creature without flying and each player. If Breath of Darigaaz was kicked, it deals 4 damage to each creature without flying and each player instead."
+      "Breath of Darigaaz deals 1 damage to each creature without flying and each player. If this spell was kicked, it deals 4 damage to each creature without flying and each player instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -1766,7 +1766,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Punishing Fire deals 2 damage to target creature or player.",
+      "Punishing Fire deals 2 damage to any target.",
       "Whenever an opponent gains life, you may pay {R}. If you do, return Punishing Fire from your graveyard to your hand."
     ],
     "flavor_text": null,
@@ -1840,7 +1840,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Ghostfire is colorless.",
-      "Ghostfire deals 3 damage to target creature or player."
+      "Ghostfire deals 3 damage to any target."
     ],
     "flavor_text": "Only those gifted with the eye of Ugin, the spirit dragon, can see his fiery breath.",
     "power": null,
@@ -1864,7 +1864,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Add {R}{R}{R}{R}{R} to your mana pool."
+      "Add {R}{R}{R}{R}{R}."
     ],
     "flavor_text": "If your flesh can withstand the flame, the spirit of the dragon will burn within your soul.",
     "power": null,
@@ -1991,7 +1991,7 @@
     "mana_cost": "3RR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Cone of Flame deals 1 damage to target creature or player, 2 damage to another target creature or player, and 3 damage to a third target creature or player."
+      "Cone of Flame deals 1 damage to any target, 2 damage to another target, and 3 damage to a third target."
     ],
     "flavor_text": null,
     "power": null,
@@ -2016,7 +2016,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Fiery Fall deals 5 damage to target creature.",
-      "Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": "Jund feasts on the unprepared.",
     "power": null,
@@ -2040,7 +2040,7 @@
     "mana_cost": "5R",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Jaws of Stone deals X damage divided as you choose among any number of target creatures and/or players, where X is the number of Mountains you control as you cast Jaws of Stone."
+      "Jaws of Stone deals X damage divided as you choose among any number of targets, where X is the number of Mountains you control as you cast this spell."
     ],
     "flavor_text": "When giants find their mountain homes infested, they have a whole range of solutions.",
     "power": null,
@@ -2068,7 +2068,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2096,7 +2096,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2124,7 +2124,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2152,7 +2152,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,

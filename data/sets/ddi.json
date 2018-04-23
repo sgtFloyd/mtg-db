@@ -615,7 +615,7 @@
     "mana_cost": "W",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Exile target creature. Its controller may search his or her library for a basic land card, put that card onto the battlefield tapped, then shuffle his or her library."
+      "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -866,7 +866,7 @@
     "oracle_text": [
       "Azorius Chancery enters the battlefield tapped.",
       "When Azorius Chancery enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {W}{U} to your mana pool."
+      "{T}: Add {W}{U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -917,7 +917,7 @@
     "oracle_text": [
       "New Benalia enters the battlefield tapped.",
       "When New Benalia enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
-      "{T}: Add {W} to your mana pool."
+      "{T}: Add {W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -943,7 +943,7 @@
     "oracle_text": [
       "Sejiri Refuge enters the battlefield tapped.",
       "When Sejiri Refuge enters the battlefield, you gain 1 life.",
-      "{T}: Add {W} or {U} to your mana pool."
+      "{T}: Add {W} or {U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -969,7 +969,7 @@
     "oracle_text": [
       "Soaring Seacliff enters the battlefield tapped.",
       "When Soaring Seacliff enters the battlefield, target creature gains flying until end of turn.",
-      "{T}: Add {U} to your mana pool."
+      "{T}: Add {U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -997,7 +997,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1025,7 +1025,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1053,7 +1053,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1081,7 +1081,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1109,7 +1109,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1137,7 +1137,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1166,8 +1166,8 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "+1: Untap target Mountain. It becomes a 4/4 red Elemental creature until end of turn. It's still a land.",
-      "−2: Add {R} to your mana pool for each Mountain you control.",
-      "−5: You get an emblem with \"Mountains you control have ‘{T}: This land deals 1 damage to target creature or player.'\""
+      "−2: Add {R} for each Mountain you control.",
+      "−5: You get an emblem with \"Mountains you control have ‘{T}: This land deals 1 damage to any target.'\""
     ],
     "flavor_text": null,
     "power": null,
@@ -1331,7 +1331,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Haste",
-      "{T}: Vulshok Sorcerer deals 1 damage to target creature or player."
+      "{T}: Vulshok Sorcerer deals 1 damage to any target."
     ],
     "flavor_text": "Vulshok sorcerers train by leaping into electrified storm clouds. Dead or alive, they come back down with smiles on their faces.",
     "power": "1",
@@ -1384,7 +1384,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Landfall — Whenever a land enters the battlefield under your control, you may have Cosi's Ravager deal 1 damage to target player."
+      "Landfall — Whenever a land enters the battlefield under your control, you may have Cosi's Ravager deal 1 damage to target player or planeswalker."
     ],
     "flavor_text": "\"Cosi has many followers. Even the volcano finds a way to do his bidding.\"\n—Zakken, Enclave cleric",
     "power": "2",
@@ -1574,7 +1574,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "{R}: Chartooth Cougar gets +1/+0 until end of turn.",
-      "Mountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Mountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": "4",
@@ -1777,8 +1777,8 @@
     "mana_cost": "RR",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Searing Blaze deals 1 damage to target player and 1 damage to target creature that player controls.",
-      "Landfall — If you had a land enter the battlefield under your control this turn, Searing Blaze deals 3 damage to that player and 3 damage to that creature instead."
+      "Searing Blaze deals 1 damage to target player or planeswalker and 1 damage to target creature that player or that planeswalker's controller controls.",
+      "Landfall — If you had a land enter the battlefield under your control this turn, Searing Blaze deals 3 damage to that player or planeswalker and 3 damage to that creature instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -1829,7 +1829,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "You may sacrifice a Mountain rather than pay Downhill Charge's mana cost.",
+      "You may sacrifice a Mountain rather than pay this spell's mana cost.",
       "Target creature gets +X/+0 until end of turn, where X is the number of Mountains you control."
     ],
     "flavor_text": null,
@@ -1878,7 +1878,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Spire Barrage deals damage to target creature or player equal to the number of Mountains you control."
+      "Spire Barrage deals damage to any target equal to the number of Mountains you control."
     ],
     "flavor_text": "Goblin lessons include the 2,071 tips for survival. Frek only remembered 2,070.",
     "power": null,
@@ -1902,7 +1902,7 @@
     "mana_cost": "5R",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Jaws of Stone deals X damage divided as you choose among any number of target creatures and/or players, where X is the number of Mountains you control as you cast Jaws of Stone."
+      "Jaws of Stone deals X damage divided as you choose among any number of targets, where X is the number of Mountains you control as you cast this spell."
     ],
     "flavor_text": "When giants find their mountain homes infested, they have a whole range of solutions.",
     "power": null,
@@ -1926,7 +1926,7 @@
     "mana_cost": "8R",
     "converted_mana_cost": 9,
     "oracle_text": [
-      "Volley of Boulders deals 6 damage divided as you choose among any number of target creatures and/or players.",
+      "Volley of Boulders deals 6 damage divided as you choose among any number of targets.",
       "Flashback {R}{R}{R}{R}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     ],
     "flavor_text": null,
@@ -1955,7 +1955,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1983,7 +1983,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2011,7 +2011,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2039,7 +2039,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,

@@ -177,7 +177,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Creatures can't attack you unless their controller pays {2} for each creature he or she controls that's attacking you."
+      "Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you."
     ],
     "flavor_text": "\"May the memory of our fallen heroes ensnare the violent hearts of lesser men.\"\n—Great Threshold of Monserkat inscription",
     "power": null,
@@ -496,8 +496,8 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Flying",
-      "Cast Illusory Angel only if you've cast another spell this turn."
+      "Cast this spell only if you've cast another spell this turn.",
+      "Flying"
     ],
     "flavor_text": "\"Yes, she is made of pure belief—but I hardly see why that makes her unique.\"\n—Reith, master illusionist",
     "power": "4",
@@ -683,7 +683,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "At the beginning of each player's upkeep, that player returns a creature he or she controls to its owner's hand."
+      "At the beginning of each player's upkeep, that player returns a creature they control to its owner's hand."
     ],
     "flavor_text": "\"I don't concern myself with my enemy's hopes. Hopes follow the tides. They will retreat soon enough.\"\n—Ambassador Laquatus",
     "power": null,
@@ -767,7 +767,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "When Whirlpool Warrior enters the battlefield, shuffle the cards from your hand into your library, then draw that many cards.",
-      "{R}, Sacrifice Whirlpool Warrior: Each player shuffles the cards from his or her hand into his or her library, then draws that many cards."
+      "{R}, Sacrifice Whirlpool Warrior: Each player shuffles the cards from their hand into their library, then draws that many cards."
     ],
     "flavor_text": null,
     "power": "2",
@@ -1037,7 +1037,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Arc Trail deals 2 damage to target creature or player and 1 damage to another target creature or player."
+      "Arc Trail deals 2 damage to any target and 1 damage to another target."
     ],
     "flavor_text": "\"Don't try to hit your enemies. Concentrate on the space between them, and fill the air with doom.\"\n—Spear-Tribe teaching",
     "power": null,
@@ -1088,7 +1088,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Choose target creature or player. Reveal cards from the top of your library until you reveal a nonland card. Erratic Explosion deals damage equal to that card's converted mana cost to that creature or player. Put the revealed cards on the bottom of your library in any order."
+      "Choose any target. Reveal cards from the top of your library until you reveal a nonland card. Erratic Explosion deals damage equal to that card's converted mana cost to that permanent or player. Put the revealed cards on the bottom of your library in any order."
     ],
     "flavor_text": null,
     "power": null,
@@ -1112,7 +1112,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Fiery Conclusion, sacrifice a creature.",
+      "As an additional cost to cast this spell, sacrifice a creature.",
       "Fiery Conclusion deals 5 damage to target creature."
     ],
     "flavor_text": "The Boros legionnaire saw a noble sacrifice, the Rakdos thug a blazing suicide, and the Izzet alchemist an experiment gone awry.",
@@ -1138,7 +1138,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Fiery Fall deals 5 damage to target creature.",
-      "Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": "Jund feasts on the unprepared.",
     "power": null,
@@ -1162,8 +1162,8 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Fling, sacrifice a creature.",
-      "Fling deals damage equal to the sacrificed creature's power to target creature or player."
+      "As an additional cost to cast this spell, sacrifice a creature.",
+      "Fling deals damage equal to the sacrificed creature's power to any target."
     ],
     "flavor_text": "About halfway to the target, Snukk vowed that he had been tricked for the last time.",
     "power": null,
@@ -1213,7 +1213,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever another creature dies, you may have Hissing Iguanar deal 1 damage to target player."
+      "Whenever another creature dies, you may have Hissing Iguanar deal 1 damage to target player or planeswalker."
     ],
     "flavor_text": "Viashino thrashes keep iguanars as hunting companions, giving them wounded captives as playthings.",
     "power": "3",
@@ -1288,7 +1288,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Mudbutton Torchrunner dies, it deals 3 damage to target creature or player."
+      "When Mudbutton Torchrunner dies, it deals 3 damage to any target."
     ],
     "flavor_text": "The oil sloshes against his skull as he nears his destination: the Frogtosser Games and the lighting of the Flaming Boggart.",
     "power": "1",
@@ -1316,7 +1316,7 @@
     "oracle_text": [
       "Flying",
       "Devour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)",
-      "Whenever Preyseizer Dragon attacks, it deals damage to target creature or player equal to the number of +1/+1 counters on Preyseizer Dragon."
+      "Whenever Preyseizer Dragon attacks, it deals damage to any target equal to the number of +1/+1 counters on Preyseizer Dragon."
     ],
     "flavor_text": null,
     "power": "4",
@@ -1419,7 +1419,7 @@
     "mana_cost": "5R",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Whenever a creature enters the battlefield under your control, it deals damage equal to its power to target creature or player."
+      "Whenever a creature enters the battlefield under your control, it deals damage equal to its power to any target."
     ],
     "flavor_text": "\"Listen to the roar! Feel the thunder! The Immersturm shouts its approval with every bolt of lightning!\"",
     "power": null,
@@ -1470,7 +1470,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "At the beginning of your upkeep, you may create a 0/1 colorless Eldrazi Spawn creature token. It has \"Sacrifice this creature: Add {C} to your mana pool.\""
+      "At the beginning of your upkeep, you may create a 0/1 colorless Eldrazi Spawn creature token. It has \"Sacrifice this creature: Add {C}.\""
     ],
     "flavor_text": "The ground erupted in time with the hedron's thrum, a dirge of the last days.",
     "power": null,
@@ -1814,7 +1814,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Nest Invader enters the battlefield, create a 0/1 colorless Eldrazi Spawn creature token. It has \"Sacrifice this creature: Add {C} to your mana pool.\""
+      "When Nest Invader enters the battlefield, create a 0/1 colorless Eldrazi Spawn creature token. It has \"Sacrifice this creature: Add {C}.\""
     ],
     "flavor_text": "It nurtures its masters' glorious future.",
     "power": "2",
@@ -1841,7 +1841,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Return two target cards from an opponent's graveyard to his or her hand. Destroy target artifact or enchantment."
+      "{T}: Return two target cards from an opponent's graveyard to their hand. Destroy target artifact or enchantment."
     ],
     "flavor_text": "\"Our unity unmasks your deceit.\"",
     "power": "2",
@@ -2680,7 +2680,7 @@
       "Elemental"
     ],
     "rarity": "Mythic Rare",
-    "mana_cost": "5URG",
+    "mana_cost": "5GUR",
     "converted_mana_cost": 8,
     "oracle_text": [
       "Creatures you control have haste.",
@@ -2954,7 +2954,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{T}: Roll the planar die. Activate this ability only any time you could cast a sorcery."
     ],
     "flavor_text": "The Thran learned to capture mana, but power inevitably escapes its bonds.",
@@ -2982,7 +2982,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Equipped creature has deathtouch.",
-      "Whenever equipped creature deals combat damage to a player, that player loses half his or her life, rounded up.",
+      "Whenever equipped creature deals combat damage to a player, that player loses half their life, rounded up.",
       "Equip {3}"
     ],
     "flavor_text": null,
@@ -3091,7 +3091,7 @@
     "oracle_text": [
       "Dimir Aqueduct enters the battlefield tapped.",
       "When Dimir Aqueduct enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {U}{B} to your mana pool."
+      "{T}: Add {U}{B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -3115,7 +3115,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add to your mana pool one mana of any color that a land an opponent controls could produce."
+      "{T}: Add one mana of any color that a land an opponent controls could produce."
     ],
     "flavor_text": "\"It was a strange morning. When we awoke, we found our trees transformed. We didn't know whether to water them or polish them.\"\n—Pulan, Bant orchardist",
     "power": null,
@@ -3141,7 +3141,7 @@
     "oracle_text": [
       "Graypelt Refuge enters the battlefield tapped.",
       "When Graypelt Refuge enters the battlefield, you gain 1 life.",
-      "{T}: Add {G} or {W} to your mana pool."
+      "{T}: Add {G} or {W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -3167,7 +3167,7 @@
     "oracle_text": [
       "Gruul Turf enters the battlefield tapped.",
       "When Gruul Turf enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {R}{G} to your mana pool."
+      "{T}: Add {R}{G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -3193,7 +3193,7 @@
     "oracle_text": [
       "Jwar Isle Refuge enters the battlefield tapped.",
       "When Jwar Isle Refuge enters the battlefield, you gain 1 life.",
-      "{T}: Add {U} or {B} to your mana pool."
+      "{T}: Add {U} or {B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -3219,7 +3219,7 @@
     "oracle_text": [
       "Kazandu Refuge enters the battlefield tapped.",
       "When Kazandu Refuge enters the battlefield, you gain 1 life.",
-      "{T}: Add {R} or {G} to your mana pool."
+      "{T}: Add {R} or {G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -3245,7 +3245,7 @@
     "oracle_text": [
       "Khalni Garden enters the battlefield tapped.",
       "When Khalni Garden enters the battlefield, create a 0/1 green Plant creature token.",
-      "{T}: Add {G} to your mana pool."
+      "{T}: Add {G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -3270,7 +3270,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Krosan Verge enters the battlefield tapped.",
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{2}, {T}, Sacrifice Krosan Verge: Search your library for a Forest card and a Plains card and put them onto the battlefield tapped. Then shuffle your library."
     ],
     "flavor_text": null,
@@ -3297,7 +3297,7 @@
     "oracle_text": [
       "Rupture Spire enters the battlefield tapped.",
       "When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.",
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -3323,7 +3323,7 @@
     "oracle_text": [
       "Selesnya Sanctuary enters the battlefield tapped.",
       "When Selesnya Sanctuary enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {G}{W} to your mana pool."
+      "{T}: Add {G}{W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -3347,8 +3347,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{1}, {T}: Add one mana of any color to your mana pool."
+      "{T}: Add {C}.",
+      "{1}, {T}: Add one mana of any color."
     ],
     "flavor_text": "\"This is the price of being last in the food chain. We must keep our places of beauty hidden away instead of displayed for all to see.\"\n—Hildin, priest of Avacyn",
     "power": null,
@@ -3372,7 +3372,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{R}{G}, {T}: Target creature gets +1/+1 and gains trample until end of turn."
     ],
     "flavor_text": "\"This palace will be our fire-spit, and roasted prince our victory meal. Send in the torch-pigs!\"\n—Ghut Rak, Gruul guildmage",
@@ -3397,8 +3397,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {U} or {B} to your mana pool. Activate this ability only if you control a Swamp."
+      "{T}: Add {C}.",
+      "{T}: Add {U} or {B}. Activate this ability only if you control a Swamp."
     ],
     "flavor_text": null,
     "power": null,
@@ -3446,7 +3446,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{2}{G}{W}, {T}: Create a 1/1 green Saproling creature token."
     ],
     "flavor_text": "In the autumn, she casts her seeds across the streets below, and come spring, her children rise in service to the Conclave.",
@@ -3472,8 +3472,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Vivid Creek enters the battlefield tapped with two charge counters on it.",
-      "{T}: Add {U} to your mana pool.",
-      "{T}, Remove a charge counter from Vivid Creek: Add one mana of any color to your mana pool."
+      "{T}: Add {U}.",
+      "{T}, Remove a charge counter from Vivid Creek: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -3501,7 +3501,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3529,7 +3529,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3557,7 +3557,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3585,7 +3585,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3613,7 +3613,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3641,7 +3641,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3669,7 +3669,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3697,7 +3697,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3725,7 +3725,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3753,7 +3753,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3781,7 +3781,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3809,7 +3809,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3837,7 +3837,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3865,7 +3865,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3893,7 +3893,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3921,7 +3921,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3949,7 +3949,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3977,7 +3977,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4005,7 +4005,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4033,7 +4033,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4061,7 +4061,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4089,7 +4089,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4117,7 +4117,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4145,7 +4145,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4173,7 +4173,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,

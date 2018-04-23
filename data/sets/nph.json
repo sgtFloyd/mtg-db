@@ -17,7 +17,7 @@
     "mana_cost": "7",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "+4: Target player exiles a card from his or her hand.",
+      "+4: Target player exiles a card from their hand.",
       "−3: Exile target permanent.",
       "−14: Restart the game, leaving in exile all non-Aura permanent cards exiled with Karn Liberated. Then put those cards onto the battlefield under your control."
     ],
@@ -154,7 +154,7 @@
     "mana_cost": "4WWW",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "You may reveal this card from your opening hand. If you do, when each opponent casts his or her first spell of the game, counter that spell unless that player pays {1}.",
+      "You may reveal this card from your opening hand. If you do, when each opponent casts their first spell of the game, counter that spell unless that player pays {1}.",
       "Flying",
       "Whenever an opponent casts a spell, counter it unless that player pays {1}."
     ],
@@ -816,7 +816,7 @@
     "mana_cost": "4UUU",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "You may reveal this card from your opening hand. If you do, at the beginning of the first upkeep, each opponent puts the top seven cards of his or her library into his or her graveyard.",
+      "You may reveal this card from your opening hand. If you do, at the beginning of the first upkeep, each opponent puts the top seven cards of their library into their graveyard.",
       "Flying",
       "When Chancellor of the Spires enters the battlefield, you may cast target instant or sorcery card from an opponent's graveyard without paying its mana cost."
     ],
@@ -1161,7 +1161,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever an opponent shuffles his or her library, you may look at the top two cards of that library. You may exile one of those cards. Then put the rest on top of that library in any order."
+      "Whenever an opponent shuffles their library, you may look at the top two cards of that library. You may exile one of those cards. Then put the rest on top of that library in any order."
     ],
     "flavor_text": null,
     "power": null,
@@ -1476,7 +1476,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target opponent reveals his or her hand. You choose a creature or planeswalker card from it. That player discards that card."
+      "Target opponent reveals their hand. You choose a creature or planeswalker card from it. That player discards that card."
     ],
     "flavor_text": "\"Truth is always a weapon in your enemies' hands.\"\n—Geth, Lord of the Vault",
     "power": null,
@@ -1557,7 +1557,7 @@
     "oracle_text": [
       "When Entomber Exarch enters the battlefield, choose one —",
       "• Return target creature card from your graveyard to your hand.",
-      "• Target opponent reveals his or her hand. You choose a noncreature card from it. That player discards that card."
+      "• Target opponent reveals their hand. You choose a noncreature card from it. That player discards that card."
     ],
     "flavor_text": null,
     "power": "2",
@@ -1685,7 +1685,7 @@
     "mana_cost": "5BB",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "As an additional cost to cast Ichor Explosion, sacrifice a creature.",
+      "As an additional cost to cast this spell, sacrifice a creature.",
       "All creatures get -X/-X until end of turn, where X is the sacrificed creature's power."
     ],
     "flavor_text": "The first explosion that didn't excite goblins.",
@@ -1710,7 +1710,7 @@
     "mana_cost": "4BB",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Destroy all creatures, then search target opponent's library for up to three creature cards and put them into his or her graveyard. Then that player shuffles his or her library."
+      "Destroy all creatures, then search target opponent's library for up to three creature cards and put them into their graveyard. Then that player shuffles their library."
     ],
     "flavor_text": "The feeble resistance of the flesh is over. Phyrexia spreads its shadow over all.",
     "power": null,
@@ -1868,7 +1868,7 @@
     "mana_cost": "1BB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Search target opponent's library for a card and exile it face down. Then that player shuffles his or her library. You may look at and play that card for as long as it remains exiled."
+      "Search target opponent's library for a card and exile it face down. Then that player shuffles their library. You may look at and play that card for as long as it remains exiled."
     ],
     "flavor_text": "Sheoldred weaves every thread of information into a noose to hang her enemies.",
     "power": null,
@@ -1950,7 +1950,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "({BP} can be paid with either {B} or 2 life.)",
-      "Choose target card in a graveyard other than a basic land card. Search its owner's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles his or her library."
+      "Choose target card in a graveyard other than a basic land card. Search its owner's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -2034,7 +2034,7 @@
     "oracle_text": [
       "Flying",
       "Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",
-      "Whenever Whispering Specter deals combat damage to a player, you may sacrifice it. If you do, that player discards a card for each poison counter he or she has."
+      "Whenever Whispering Specter deals combat damage to a player, you may sacrifice it. If you do, that player discards a card for each poison counter they have."
     ],
     "flavor_text": null,
     "power": "1",
@@ -2083,8 +2083,8 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "As an additional cost to cast Artillerize, sacrifice an artifact or creature.",
-      "Artillerize deals 5 damage to target creature or player."
+      "As an additional cost to cast this spell, sacrifice an artifact or creature.",
+      "Artillerize deals 5 damage to any target."
     ],
     "flavor_text": "Phyrexian or Mirran, most goblins stick to the job they know best.",
     "power": null,
@@ -2163,7 +2163,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",
-      "{1}{R}, {T}: Fallen Ferromancer deals 1 damage to target creature or player."
+      "{1}{R}, {T}: Fallen Ferromancer deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": "1",
@@ -2237,7 +2237,7 @@
     "mana_cost": "RRRR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Add {R}{R}{R}{R}{R}{R}{R} to your mana pool. Spend this mana only to cast artifact or creature spells."
+      "Add {R}{R}{R}{R}{R}{R}{R}. Spend this mana only to cast artifact or creature spells."
     ],
     "flavor_text": "\"The mountains have been corrupted. Otherwise, they would not lend me their fire so easily.\"\n—Koth of the Hammer",
     "power": null,
@@ -2262,7 +2262,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "({RP} can be paid with either {R} or 2 life.)",
-      "Gut Shot deals 1 damage to target creature or player."
+      "Gut Shot deals 1 damage to any target."
     ],
     "flavor_text": "\"Down here, we have a more pointed version of the scriptures.\"\n—Urabrask's enforcer",
     "power": null,
@@ -2372,7 +2372,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Priest of Urabrask enters the battlefield, add {R}{R}{R} to your mana pool."
+      "When Priest of Urabrask enters the battlefield, add {R}{R}{R}."
     ],
     "flavor_text": "Even in New Phyrexia, red mana sparks glimmers of individualism, passion, and freedom.",
     "power": "2",
@@ -2397,7 +2397,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "({RP} can be paid with either {R} or 2 life.)",
-      "Whenever you cast a spell with {P} in its mana cost, Rage Extractor deals damage equal to that spell's converted mana cost to target creature or player."
+      "Whenever you cast a spell with {P} in its mana cost, Rage Extractor deals damage equal to that spell's converted mana cost to any target."
     ],
     "flavor_text": "New Phyrexia is an engine that both consumes and creates malice.",
     "power": null,
@@ -2473,7 +2473,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Scrapyard Salvo deals damage to target player equal to the number of artifact cards in your graveyard."
+      "Scrapyard Salvo deals damage to target player or planeswalker equal to the number of artifact cards in your graveyard."
     ],
     "flavor_text": "\"Squealstokers! Build me a glorious pile of Mirran metal. Then add yourselves to the pile.\"\n—Furnace boss, sector 11",
     "power": null,
@@ -2632,7 +2632,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Volt Charge deals 3 damage to target creature or player. Proliferate. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there.)"
+      "Volt Charge deals 3 damage to any target. Proliferate. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2786,7 +2786,7 @@
     "mana_cost": "4GGG",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "You may reveal this card from your opening hand. If you do, at the beginning of your first main phase, add {G} to your mana pool.",
+      "You may reveal this card from your opening hand. If you do, at the beginning of your first main phase, add {G}.",
       "Vigilance, reach"
     ],
     "flavor_text": null,
@@ -3342,7 +3342,7 @@
     "converted_mana_cost": 8,
     "oracle_text": [
       "Trample",
-      "Whenever you tap a land for mana, add one mana to your mana pool of any type that land produced.",
+      "Whenever you tap a land for mana, add one mana of any type that land produced.",
       "Whenever an opponent taps a land for mana, that land doesn't untap during its controller's next untap step."
     ],
     "flavor_text": null,
@@ -3400,7 +3400,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": "With or without witnesses, the suns continued their prismatic dance.",
     "power": "2",
@@ -3482,7 +3482,7 @@
     "oracle_text": [
       "As Caged Sun enters the battlefield, choose a color.",
       "Creatures you control of the chosen color get +1/+1.",
-      "Whenever a land's ability adds one or more mana of the chosen color to your mana pool, add one additional mana of that color to your mana pool."
+      "Whenever a land's ability causes you to add one or more mana of the chosen color, add one additional mana of that color."
     ],
     "flavor_text": null,
     "power": null,
@@ -3583,7 +3583,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{1}, {T}, Sacrifice Gremlin Mine: Gremlin Mine deals 4 damage to target artifact creature.",
+      "{1}, {T}, Sacrifice Gremlin Mine: It deals 4 damage to target artifact creature.",
       "{1}, {T}, Sacrifice Gremlin Mine: Remove up to four charge counters from target noncreature artifact."
     ],
     "flavor_text": null,
@@ -3716,7 +3716,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever an opponent casts a creature spell, that player loses 2 life unless he or she pays {2}."
+      "Whenever an opponent casts a creature spell, that player loses 2 life unless they pay {2}."
     ],
     "flavor_text": "\"Attrition is the answer. Starve them, and let their despair be their undoing.\"\n—Sheoldred, Whispering One",
     "power": null,
@@ -3795,7 +3795,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever an opponent loses life, that player puts that many cards from the top of his or her library into his or her graveyard. (Damage dealt by sources without infect causes loss of life.)"
+      "Whenever an opponent loses life, that player puts that many cards from the top of their library into their graveyard. (Damage dealt by sources without infect causes loss of life.)"
     ],
     "flavor_text": "\"Let go of your memories and be reborn.\"\n—Argent Etchings, plate 106, passage 27",
     "power": null,
@@ -3899,7 +3899,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Players can't draw cards.",
-      "At the beginning of each player's draw step, that player exiles the top card of his or her library. If it's a land card, the player puts it onto the battlefield. Otherwise, the player casts it without paying its mana cost if able."
+      "At the beginning of each player's draw step, that player exiles the top card of their library. If it's a land card, the player puts it onto the battlefield. Otherwise, the player casts it without paying its mana cost if able."
     ],
     "flavor_text": null,
     "power": null,
@@ -3975,7 +3975,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. You gain 1 life."
+      "{T}: Add {C}. You gain 1 life."
     ],
     "flavor_text": "\"Tools and artisans can be destroyed, but the act of creation is inviolate.\"\n—Elspeth Tirel",
     "power": null,
@@ -4000,7 +4000,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "At the beginning of your upkeep or whenever you cast a green spell, put a charge counter on Shrine of Boundless Growth.",
-      "{T}, Sacrifice Shrine of Boundless Growth: Add {C} to your mana pool for each charge counter on Shrine of Boundless Growth."
+      "{T}, Sacrifice Shrine of Boundless Growth: Add {C} for each charge counter on Shrine of Boundless Growth."
     ],
     "flavor_text": null,
     "power": null,
@@ -4025,7 +4025,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "At the beginning of your upkeep or whenever you cast a red spell, put a charge counter on Shrine of Burning Rage.",
-      "{3}, {T}, Sacrifice Shrine of Burning Rage: Shrine of Burning Rage deals damage equal to the number of charge counters on it to target creature or player."
+      "{3}, {T}, Sacrifice Shrine of Burning Rage: It deals damage equal to the number of charge counters on it to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -4231,7 +4231,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Equipped creature gets +2/+2 and has protection from red and from white.",
-      "Whenever equipped creature deals combat damage to a player, Sword of War and Peace deals damage to that player equal to the number of cards in his or her hand and you gain 1 life for each card in your hand.",
+      "Whenever equipped creature deals combat damage to a player, Sword of War and Peace deals damage to that player equal to the number of cards in their hand and you gain 1 life for each card in your hand.",
       "Equip {2}"
     ],
     "flavor_text": null,
@@ -4331,7 +4331,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}, {T}, Sacrifice an artifact: You gain 1 life."
     ],
     "flavor_text": "\"So even the heart of our world has succumbed.\"\n—Koth of the Hammer",
@@ -4360,7 +4360,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4388,7 +4388,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4416,7 +4416,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4444,7 +4444,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4472,7 +4472,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4500,7 +4500,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4528,7 +4528,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4556,7 +4556,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4584,7 +4584,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4612,7 +4612,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,

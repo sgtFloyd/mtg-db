@@ -13,7 +13,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}, {T}: Prevent the next 1 damage that would be dealt to target creature or player this turn."
+      "{2}, {T}: Prevent the next 1 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "Among the first allies Urza gained were the people of Kroog. As a sign of friendship, Urza gave the healers of the city potent amulets; afterwards, thousands journeyed to Kroog in hope of healing, greatly adding to the city's glory.",
     "power": null,
@@ -250,7 +250,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Sacrifice a creature: Add {C}{C} to your mana pool."
+      "Sacrifice a creature: Add {C}{C}."
     ],
     "flavor_text": null,
     "power": null,
@@ -379,7 +379,7 @@
     "oracle_text": [
       "Remove Bronze Tablet from your deck before playing if you're not playing for ante.",
       "Bronze Tablet enters the battlefield tapped.",
-      "{4}, {T}: Exile Bronze Tablet and target nontoken permanent an opponent owns. That player may pay 10 life. If he or she does, put Bronze Tablet into its owner's graveyard. Otherwise, that player owns Bronze Tablet and you own the other exiled card."
+      "{4}, {T}: Exile Bronze Tablet and target nontoken permanent an opponent owns. That player may pay 10 life. If they do, put Bronze Tablet into its owner's graveyard. Otherwise, that player owns Bronze Tablet and you own the other exiled card."
     ],
     "flavor_text": null,
     "power": null,
@@ -538,7 +538,7 @@
     "mana_cost": "9",
     "converted_mana_cost": 9,
     "oracle_text": [
-      "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)",
+      "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
       "Colossus of Sardia doesn't untap during your untap step.",
       "{9}: Untap Colossus of Sardia. Activate this ability only during your upkeep."
     ],
@@ -685,7 +685,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Put any number of target artifact cards from target player's graveyard on top of his or her library in any order."
+      "Put any number of target artifact cards from target player's graveyard on top of their library in any order."
     ],
     "flavor_text": "Drafna, founder of the College of Lat-Nam, could create a working model from even the smallest remnants of a newly unearthed artifact.",
     "power": null,
@@ -963,7 +963,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Return all artifacts target player owns to his or her hand."
+      "Return all artifacts target player owns to their hand."
     ],
     "flavor_text": "This spell, attributed to Drafna, was actually the work of his wife Hurkyl.",
     "power": null,
@@ -1085,7 +1085,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}, {T}: Target player puts the top two cards of his or her library into his or her graveyard."
+      "{2}, {T}: Target player puts the top two cards of their library into their graveyard."
     ],
     "flavor_text": "More than one mage was driven insane by the sound of the Millstone relentlessly grinding away.",
     "power": null,
@@ -1109,7 +1109,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}: Mishra's Factory becomes a 2/2 Assembly-Worker artifact creature until end of turn. It's still a land.",
       "{T}: Target Assembly-Worker creature gets +1/+1 until end of turn."
     ],
@@ -1135,7 +1135,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}: Mishra's Factory becomes a 2/2 Assembly-Worker artifact creature until end of turn. It's still a land.",
       "{T}: Target Assembly-Worker creature gets +1/+1 until end of turn."
     ],
@@ -1161,7 +1161,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}: Mishra's Factory becomes a 2/2 Assembly-Worker artifact creature until end of turn. It's still a land.",
       "{T}: Target Assembly-Worker creature gets +1/+1 until end of turn."
     ],
@@ -1187,7 +1187,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}: Mishra's Factory becomes a 2/2 Assembly-Worker artifact creature until end of turn. It's still a land.",
       "{T}: Target Assembly-Worker creature gets +1/+1 until end of turn."
     ],
@@ -1241,7 +1241,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C}{C}{C} to your mana pool. Spend this mana only to cast artifact spells."
+      "{T}: Add {C}{C}{C}. Spend this mana only to cast artifact spells."
     ],
     "flavor_text": "Though he eventually came to despise Tocasia, Mishra listened well to her lessons on clarity of purpose. Unlike his brother, he focused his mind on a single goal.",
     "power": null,
@@ -1318,7 +1318,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}, Sacrifice an artifact: Orcish Mechanics deals 2 damage to target creature or player."
+      "{T}, Sacrifice an artifact: Orcish Mechanics deals 2 damage to any target."
     ],
     "flavor_text": null,
     "power": "1",
@@ -1450,7 +1450,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}, Sacrifice an artifact: Add an amount of {B} to your mana pool equal to the sacrificed artifact's converted mana cost."
+      "{T}, Sacrifice an artifact: Add an amount of {B} equal to the sacrificed artifact's converted mana cost."
     ],
     "flavor_text": null,
     "power": "1",
@@ -1501,7 +1501,7 @@
     "mana_cost": "6",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "{2}: Prevent the next 1 damage that would be dealt to target creature or player this turn. Return Rakalite to its owner's hand at the beginning of the next end step."
+      "{2}: Prevent the next 1 damage that would be dealt to any target this turn. Return Rakalite to its owner's hand at the beginning of the next end step."
     ],
     "flavor_text": "Urza was the first to understand that the war would not be lost for lack of power, but for lack of troops.",
     "power": null,
@@ -1573,7 +1573,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{2}: Rocket Launcher deals 1 damage to target creature or player. Destroy Rocket Launcher at the beginning of the next end step. Activate this ability only if you've controlled Rocket Launcher continuously since the beginning of your most recent turn."
+      "{2}: Rocket Launcher deals 1 damage to any target. Destroy Rocket Launcher at the beginning of the next end step. Activate this ability only if you've controlled Rocket Launcher continuously since the beginning of your most recent turn."
     ],
     "flavor_text": "What these devices lacked in subtlety, they made up in strength.",
     "power": null,
@@ -1701,7 +1701,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{T}, Sacrifice Strip Mine: Destroy target land."
     ],
     "flavor_text": "Unlike previous conflicts, the war between Urza and Mishra made Dominia itself a casualty of war.",
@@ -1726,7 +1726,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{T}, Sacrifice Strip Mine: Destroy target land."
     ],
     "flavor_text": "Unlike previous conflicts, the war between Urza and Mishra made Dominia itself a casualty of war.",
@@ -1751,7 +1751,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{T}, Sacrifice Strip Mine: Destroy target land."
     ],
     "flavor_text": "Unlike previous conflicts, the war between Urza and Mishra made Dominia itself a casualty of war.",
@@ -1776,7 +1776,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{T}, Sacrifice Strip Mine: Destroy target land."
     ],
     "flavor_text": "Unlike previous conflicts, the war between Urza and Mishra made Dominia itself a casualty of war.",
@@ -1804,7 +1804,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Su-Chi dies, add {C}{C}{C}{C} to your mana pool."
+      "When Su-Chi dies, add {C}{C}{C}{C}."
     ],
     "flavor_text": "Flawed copies of relics from the Thran Empire, the Su-Chi were inherently unstable but provided useful knowledge for Tocasia's students.",
     "power": "4",
@@ -1957,7 +1957,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "As The Rack enters the battlefield, choose an opponent.",
-      "At the beginning of the chosen player's upkeep, The Rack deals X damage to that player, where X is 3 minus the number of cards in his or her hand."
+      "At the beginning of the chosen player's upkeep, The Rack deals X damage to that player, where X is 3 minus the number of cards in their hand."
     ],
     "flavor_text": "Invented in Mishra's earlier days, the Rack was once his most feared creation.",
     "power": null,
@@ -2033,7 +2033,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Triskelion enters the battlefield with three +1/+1 counters on it.",
-      "Remove a +1/+1 counter from Triskelion: Triskelion deals 1 damage to target creature or player."
+      "Remove a +1/+1 counter from Triskelion: It deals 1 damage to any target."
     ],
     "flavor_text": "A brainchild of Tawnos, the Triskelion proved its versatility and usefulness in many of the later battles between the brothers.",
     "power": "1",
@@ -2111,7 +2111,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} to your mana pool instead."
+      "{T}: Add {C}. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} instead."
     ],
     "flavor_text": "Mines became common as cities during the days of the artificers.",
     "power": null,
@@ -2138,7 +2138,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} to your mana pool instead."
+      "{T}: Add {C}. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} instead."
     ],
     "flavor_text": "Mines became common as cities during the days of the artificers.",
     "power": null,
@@ -2165,7 +2165,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} to your mana pool instead."
+      "{T}: Add {C}. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} instead."
     ],
     "flavor_text": "Mines became common as cities during the days of the artificers.",
     "power": null,
@@ -2192,7 +2192,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} to your mana pool instead."
+      "{T}: Add {C}. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} instead."
     ],
     "flavor_text": "Mines became common as cities during the days of the artificers.",
     "power": null,
@@ -2243,7 +2243,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {C}{C} to your mana pool instead."
+      "{T}: Add {C}. If you control an Urza's Mine and an Urza's Tower, add {C}{C} instead."
     ],
     "flavor_text": "Artifact construction required immense resources.",
     "power": null,
@@ -2270,7 +2270,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {C}{C} to your mana pool instead."
+      "{T}: Add {C}. If you control an Urza's Mine and an Urza's Tower, add {C}{C} instead."
     ],
     "flavor_text": "Artifact construction required immense resources.",
     "power": null,
@@ -2297,7 +2297,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {C}{C} to your mana pool instead."
+      "{T}: Add {C}. If you control an Urza's Mine and an Urza's Tower, add {C}{C} instead."
     ],
     "flavor_text": "Artifact construction required immense resources.",
     "power": null,
@@ -2324,7 +2324,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {C}{C} to your mana pool instead."
+      "{T}: Add {C}. If you control an Urza's Mine and an Urza's Tower, add {C}{C} instead."
     ],
     "flavor_text": "Artifact construction required immense resources.",
     "power": null,
@@ -2351,7 +2351,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} to your mana pool instead."
+      "{T}: Add {C}. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} instead."
     ],
     "flavor_text": "Urza always put Tocasia's lessons on resource-gathering to effective use.",
     "power": null,
@@ -2378,7 +2378,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} to your mana pool instead."
+      "{T}: Add {C}. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} instead."
     ],
     "flavor_text": "Urza always put Tocasia's lessons on resource-gathering to effective use.",
     "power": null,
@@ -2405,7 +2405,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} to your mana pool instead."
+      "{T}: Add {C}. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} instead."
     ],
     "flavor_text": "Urza always put Tocasia's lessons on resource-gathering to effective use.",
     "power": null,
@@ -2432,7 +2432,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} to your mana pool instead."
+      "{T}: Add {C}. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} instead."
     ],
     "flavor_text": "Urza always put Tocasia's lessons on resource-gathering to effective use.",
     "power": null,

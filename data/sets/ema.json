@@ -43,7 +43,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Each player chooses a number of lands he or she controls equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players discard cards and sacrifice creatures the same way."
+      "Each player chooses a number of lands they control equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players discard cards and sacrifice creatures the same way."
     ],
     "flavor_text": null,
     "power": null,
@@ -731,8 +731,7 @@
     "mana_cost": "3WW",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)",
-      "Vigilance (Attacking doesn't cause this creature to tap.)"
+      "Flying, vigilance"
     ],
     "flavor_text": "Follow the light. In its absence, follow her.",
     "power": "4",
@@ -1147,7 +1146,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "You may return an Island you control to its owner's hand rather than pay Daze's mana cost.",
+      "You may return an Island you control to its owner's hand rather than pay this spell's mana cost.",
       "Counter target spell unless its controller pays {1}."
     ],
     "flavor_text": null,
@@ -1197,7 +1196,7 @@
     "mana_cost": "2UU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Each player shuffles his or her hand and graveyard into his or her library. You exile the top ten cards of your library. Then each player draws up to seven cards."
+      "Each player shuffles their hand and graveyard into their library. You exile the top ten cards of your library. Then each player draws up to seven cards."
     ],
     "flavor_text": null,
     "power": null,
@@ -1221,7 +1220,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player puts the top three cards of his or her library into his or her graveyard.",
+      "Target player puts the top three cards of their library into their graveyard.",
       "Flashback {1}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     ],
     "flavor_text": null,
@@ -1270,7 +1269,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "You may pay 1 life and exile a blue card from your hand rather than pay Force of Will's mana cost.",
+      "You may pay 1 life and exile a blue card from your hand rather than pay this spell's mana cost.",
       "Counter target spell."
     ],
     "flavor_text": "\"I alone determine my destiny.\"",
@@ -1489,7 +1488,7 @@
       "+2: Look at the top card of target player's library. You may put that card on the bottom of that player's library.",
       "0: Draw three cards, then put two cards from your hand on top of your library in any order.",
       "−1: Return target creature to its owner's hand.",
-      "−12: Exile all cards from target player's library, then that player shuffles his or her hand into his or her library."
+      "−12: Exile all cards from target player's library, then that player shuffles their hand into their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -1749,7 +1748,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Prodigal Sorcerer deals 1 damage to target creature or player."
+      "{T}: Prodigal Sorcerer deals 1 damage to any target."
     ],
     "flavor_text": "\"You can't learn to enjoy life's amusements in the pages of books. You must seek them out in earnest.\"",
     "power": "1",
@@ -1773,7 +1772,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Search target player's library for up to three cards with flashback and put them into that player's graveyard. Then the player shuffles his or her library."
+      "Search target player's library for up to three cards with flashback and put them into that player's graveyard. Then the player shuffles their library."
     ],
     "flavor_text": "\"The best foresight is hindsight.\"\n—Empress Llawan",
     "power": null,
@@ -1854,7 +1853,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "Islandcycling {2} ({2}, Discard this card: Search your library for an Island card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Islandcycling {2} ({2}, Discard this card: Search your library for an Island card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": "3",
@@ -2094,7 +2093,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}, Pay 1 life: Add {G} to your mana pool."
+      "{T}, Pay 1 life: Add {G}."
     ],
     "flavor_text": "\"See the beauty in death: the clean white bones lying in the fertile soil and the brightly colored moonglove sprouting from the fell earth.\"",
     "power": "1",
@@ -2173,7 +2172,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Choose a nonland card name. Target player reveals his or her hand and discards all cards with that name.",
+      "Choose a nonland card name. Target player reveals their hand and discards all cards with that name.",
       "Flashback—Sacrifice a creature. (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     ],
     "flavor_text": null,
@@ -2252,7 +2251,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card."
+      "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card."
     ],
     "flavor_text": "\"Don't worry. I'm not going to deprive you of all your secrets. Just your most precious one.\"\n—Liliana Vess",
     "power": null,
@@ -2511,7 +2510,7 @@
     "mana_cost": "BB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Morbid — When you cast Malicious Affliction, if a creature died this turn, you may copy Malicious Affliction and may choose a new target for the copy.",
+      "Morbid — When you cast this spell, if a creature died this turn, you may copy Malicious Affliction and may choose a new target for the copy.",
       "Destroy target nonblack creature."
     ],
     "flavor_text": "\"Such an affliction appears to seek out the pure.\"\n—Byro, plague doctor",
@@ -2821,7 +2820,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "As an additional cost to cast Toxic Deluge, pay X life.",
+      "As an additional cost to cast this spell, pay X life.",
       "All creatures get -X/-X until end of turn."
     ],
     "flavor_text": "\"It's a difficult task to quarantine a plague that moves with the clouds.\"\n—Esara, healer adept",
@@ -2875,7 +2874,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "{B}: Regenerate Twisted Abomination.",
-      "Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": "5",
@@ -3164,7 +3163,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever you cast a spell from your graveyard, Burning Vengeance deals 2 damage to target creature or player."
+      "Whenever you cast a spell from your graveyard, Burning Vengeance deals 2 damage to any target."
     ],
     "flavor_text": "Mist is the geists' sorrow. Wind is their pain. Fire is their vengeance.",
     "power": null,
@@ -3188,7 +3187,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Carbonize deals 3 damage to target creature or player. That creature can't be regenerated this turn. If the creature would die this turn, exile it instead."
+      "Carbonize deals 3 damage to any target. If it's a creature, it can't be regenerated this turn, and if it would die this turn, exile it instead."
     ],
     "flavor_text": "\"There's no coming back from that.\"\n—Jaya Ballard",
     "power": null,
@@ -3212,7 +3211,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Chain Lightning deals 3 damage to target creature or player. Then that player or that creature's controller may pay {R}{R}. If the player does, he or she may copy this spell and may choose a new target for that copy."
+      "Chain Lightning deals 3 damage to any target. Then that player or that permanent's controller may pay {R}{R}. If the player does, they may copy this spell and may choose a new target for that copy."
     ],
     "flavor_text": null,
     "power": null,
@@ -3397,7 +3396,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Firebolt deals 2 damage to target creature or player.",
+      "Firebolt deals 2 damage to any target.",
       "Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     ],
     "flavor_text": "\"There's more where that came from!\"",
@@ -3422,7 +3421,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Flame Jab deals 1 damage to target creature or player.",
+      "Flame Jab deals 1 damage to any target.",
       "Retrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)"
     ],
     "flavor_text": "\"Fire's out. Should be safe now.\"\n—Gnarltrunk",
@@ -3475,7 +3474,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Echo {2}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)",
-      "When Ghitu Slinger enters the battlefield, it deals 2 damage to target creature or player."
+      "When Ghitu Slinger enters the battlefield, it deals 2 damage to any target."
     ],
     "flavor_text": null,
     "power": "2",
@@ -3503,7 +3502,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "At the beginning of your upkeep, Honden of Infinite Rage deals damage to target creature or player equal to the number of Shrines you control."
+      "At the beginning of your upkeep, Honden of Infinite Rage deals damage to any target equal to the number of Shrines you control."
     ],
     "flavor_text": "To the sorrow of all, its rage became focused on those who once stoked it.",
     "power": null,
@@ -3532,7 +3531,7 @@
     "oracle_text": [
       "Haste",
       "Echo {2}{R}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)",
-      "When Keldon Champion enters the battlefield, it deals 3 damage to target player."
+      "When Keldon Champion enters the battlefield, it deals 3 damage to target player or planeswalker."
     ],
     "flavor_text": null,
     "power": "3",
@@ -3560,7 +3559,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Vanishing 2 (This creature enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)",
-      "When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player."
+      "When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player or planeswalker."
     ],
     "flavor_text": null,
     "power": "3",
@@ -3612,7 +3611,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Sacrifice Mogg Fanatic: Mogg Fanatic deals 1 damage to target creature or player."
+      "Sacrifice Mogg Fanatic: It deals 1 damage to any target."
     ],
     "flavor_text": "\"I got it! I got it! I—\"",
     "power": "1",
@@ -3738,7 +3737,7 @@
     "mana_cost": "4RR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "You may exile a red card from your hand rather than pay Pyrokinesis's mana cost.",
+      "You may exile a red card from your hand rather than pay this spell's mana cost.",
       "Pyrokinesis deals 4 damage divided as you choose among any number of target creatures."
     ],
     "flavor_text": null,
@@ -3843,7 +3842,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "When Siege-Gang Commander enters the battlefield, create three 1/1 red Goblin creature tokens.",
-      "{1}{R}, Sacrifice a Goblin: Siege-Gang Commander deals 2 damage to target creature or player."
+      "{1}{R}, Sacrifice a Goblin: Siege-Gang Commander deals 2 damage to any target."
     ],
     "flavor_text": null,
     "power": "2",
@@ -4083,7 +4082,7 @@
     "oracle_text": [
       "Enchant land",
       "When Abundant Growth enters the battlefield, draw a card.",
-      "Enchanted land has \"{T}: Add one mana of any color to your mana pool.\""
+      "Enchanted land has \"{T}: Add one mana of any color.\""
     ],
     "flavor_text": null,
     "power": null,
@@ -4400,7 +4399,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player shuffles up to three target cards from his or her graveyard into his or her library.",
+      "Target player shuffles up to three target cards from their graveyard into their library.",
       "Draw a card.",
       "When Gaea's Blessing is put into your graveyard from your library, shuffle your graveyard into your library."
     ],
@@ -4477,7 +4476,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Tap three untapped Elves you control: Add {G}{G}{G} to your mana pool."
+      "Tap three untapped Elves you control: Add {G}{G}{G}."
     ],
     "flavor_text": "\"Study the great spirits of our age and those of the past. Prune secrets from the branching traceries of our lineage.\"\n—Twila, Gilt-Leaf archdruid",
     "power": "1",
@@ -4557,7 +4556,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "If you control a Forest, rather than pay Invigorate's mana cost, you may have an opponent gain 3 life.",
+      "If you control a Forest, rather than pay this spell's mana cost, you may have an opponent gain 3 life.",
       "Target creature gets +4/+4 until end of turn."
     ],
     "flavor_text": null,
@@ -4585,7 +4584,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool."
+      "{T}: Add {G}."
     ],
     "flavor_text": "One bone broken for every twig snapped underfoot.\n—Llanowar penalty for trespassing",
     "power": "1",
@@ -4636,7 +4635,7 @@
     "mana_cost": "2GG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "As an additional cost to cast Natural Order, sacrifice a green creature.",
+      "As an additional cost to cast this spell, sacrifice a green creature.",
       "Search your library for a green creature card and put it onto the battlefield. Then shuffle your library."
     ],
     "flavor_text": ". . . but the price of Mangara's freedom was Asmira's life.",
@@ -5006,7 +5005,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool.",
+      "{T}: Add {G}.",
       "Threshold — Werebear gets +3/+3 as long as seven or more cards are in your graveyard."
     ],
     "flavor_text": "To become is to understand.",
@@ -5254,7 +5253,7 @@
     "mana_cost": "3UB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Each player puts the top two cards of his or her library into his or her graveyard. Then put a creature card from a graveyard onto the battlefield under your control."
+      "Each player puts the top two cards of their library into their graveyard. Then you put a creature card from a graveyard onto the battlefield under your control."
     ],
     "flavor_text": "If you want to wreak havoc above, sometimes it's best to look below.",
     "power": null,
@@ -5354,7 +5353,7 @@
       "Elemental"
     ],
     "rarity": "Mythic Rare",
-    "mana_cost": "5URG",
+    "mana_cost": "5GUR",
     "converted_mana_cost": 8,
     "oracle_text": [
       "Creatures you control have haste.",
@@ -5543,7 +5542,7 @@
     "mana_cost": "3BR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals his or her hand and discards all nonland cards with converted mana cost equal to the number."
+      "Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals their hand and discards all nonland cards with converted mana cost equal to the number."
     ],
     "flavor_text": null,
     "power": null,
@@ -5647,7 +5646,7 @@
     "mana_cost": "{B/G}",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}: Exile target land card from a graveyard. Add one mana of any color to your mana pool.",
+      "{T}: Exile target land card from a graveyard. Add one mana of any color.",
       "{B}, {T}: Exile target instant or sorcery card from a graveyard. Each opponent loses 2 life.",
       "{G}, {T}: Exile target creature card from a graveyard. You gain 2 life."
     ],
@@ -5724,7 +5723,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Sacrifice a creature: Add {C}{C} to your mana pool."
+      "Sacrifice a creature: Add {C}{C}."
     ],
     "flavor_text": "\"If you work at sawing up carcasses, you notice how the joints fit, how the nerves are arrayed, and how the skin peels back.\"\n—Ashnod, to Tawnos",
     "power": null,
@@ -5749,7 +5748,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Imprint — When Chrome Mox enters the battlefield, you may exile a nonartifact, nonland card from your hand.",
-      "{T}: Add one mana of any of the exiled card's colors to your mana pool."
+      "{T}: Add one mana of any of the exiled card's colors."
     ],
     "flavor_text": null,
     "power": null,
@@ -5825,7 +5824,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{3}, {T}: Reveal cards from the top of your library until you reveal a land card. Goblin Charbelcher deals damage equal to the number of nonland cards revealed this way to target creature or player. If the revealed land card was a Mountain, Goblin Charbelcher deals double that damage instead. Put the revealed cards on the bottom of your library in any order."
+      "{3}, {T}: Reveal cards from the top of your library until you reveal a land card. Goblin Charbelcher deals damage equal to the number of nonland cards revealed this way to any target. If the revealed land card was a Mountain, Goblin Charbelcher deals double that damage instead. Put the revealed cards on the bottom of your library in any order."
     ],
     "flavor_text": null,
     "power": null,
@@ -5903,7 +5902,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "At the beginning of your upkeep, flip a coin. If you lose the flip, Mana Crypt deals 3 damage to you.",
-      "{T}: Add {C}{C} to your mana pool."
+      "{T}: Add {C}{C}."
     ],
     "flavor_text": null,
     "power": null,
@@ -5930,7 +5929,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}, Put the top card of your library into your graveyard: Add {C} to your mana pool."
+      "{T}, Put the top card of your library into your graveyard: Add {C}."
     ],
     "flavor_text": "The toymaker frowned in bewilderment. None of his creations had ever sneezed before.",
     "power": "0",
@@ -6036,8 +6035,8 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{1}, {T}: Add one mana of any color to your mana pool."
+      "{T}: Add {C}.",
+      "{1}, {T}: Add one mana of any color."
     ],
     "flavor_text": "It bends not light but mana, aligning its chaotic currents into the sharp angles necessary for the mystic's purposes.",
     "power": null,
@@ -6061,7 +6060,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}: Target player exiles a card from his or her graveyard.",
+      "{T}: Target player exiles a card from their graveyard.",
       "{1}, Exile Relic of Progenitus: Exile all cards from all graveyards. Draw a card."
     ],
     "flavor_text": "Elves believe the hydra-god Progenitus sleeps beneath Naya, feeding on forgotten magics.",
@@ -6115,7 +6114,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Echo {3} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)",
-      "Sacrifice Ticking Gnomes: Ticking Gnomes deals 1 damage to target creature or player."
+      "Sacrifice Ticking Gnomes: It deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": "3",
@@ -6164,7 +6163,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Worn Powerstone enters the battlefield tapped.",
-      "{T}: Add {C}{C} to your mana pool."
+      "{T}: Add {C}{C}."
     ],
     "flavor_text": "Even a fragment of a powerstone contains within it not just energy, but space—vast dimensions trapped in fragile crystal.",
     "power": null,
@@ -6190,7 +6189,7 @@
     "oracle_text": [
       "Bloodfell Caves enters the battlefield tapped.",
       "When Bloodfell Caves enters the battlefield, you gain 1 life.",
-      "{T}: Add {B} or {R} to your mana pool."
+      "{T}: Add {B} or {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6216,7 +6215,7 @@
     "oracle_text": [
       "Blossoming Sands enters the battlefield tapped.",
       "When Blossoming Sands enters the battlefield, you gain 1 life.",
-      "{T}: Add {G} or {W} to your mana pool."
+      "{T}: Add {G} or {W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6242,7 +6241,7 @@
     "oracle_text": [
       "Dismal Backwater enters the battlefield tapped.",
       "When Dismal Backwater enters the battlefield, you gain 1 life.",
-      "{T}: Add {U} or {B} to your mana pool."
+      "{T}: Add {U} or {B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6268,7 +6267,7 @@
     "oracle_text": [
       "Jungle Hollow enters the battlefield tapped.",
       "When Jungle Hollow enters the battlefield, you gain 1 life.",
-      "{T}: Add {B} or {G} to your mana pool."
+      "{T}: Add {B} or {G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6294,7 +6293,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {W} to your mana pool.",
+      "{T}: Add {W}.",
       "{T}: Return target legendary creature to its owner's hand."
     ],
     "flavor_text": null,
@@ -6343,7 +6342,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}: Mishra's Factory becomes a 2/2 Assembly-Worker artifact creature until end of turn. It's still a land.",
       "{T}: Target Assembly-Worker creature gets +1/+1 until end of turn."
     ],
@@ -6371,7 +6370,7 @@
     "oracle_text": [
       "Rugged Highlands enters the battlefield tapped.",
       "When Rugged Highlands enters the battlefield, you gain 1 life.",
-      "{T}: Add {R} or {G} to your mana pool."
+      "{T}: Add {R} or {G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6397,7 +6396,7 @@
     "oracle_text": [
       "Scoured Barrens enters the battlefield tapped.",
       "When Scoured Barrens enters the battlefield, you gain 1 life.",
-      "{T}: Add {W} or {B} to your mana pool."
+      "{T}: Add {W} or {B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6423,7 +6422,7 @@
     "oracle_text": [
       "Swiftwater Cliffs enters the battlefield tapped.",
       "When Swiftwater Cliffs enters the battlefield, you gain 1 life.",
-      "{T}: Add {U} or {R} to your mana pool."
+      "{T}: Add {U} or {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6449,7 +6448,7 @@
     "oracle_text": [
       "Thornwood Falls enters the battlefield tapped.",
       "When Thornwood Falls enters the battlefield, you gain 1 life.",
-      "{T}: Add {G} or {U} to your mana pool."
+      "{T}: Add {G} or {U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6475,7 +6474,7 @@
     "oracle_text": [
       "Tranquil Cove enters the battlefield tapped.",
       "When Tranquil Cove enters the battlefield, you gain 1 life.",
-      "{T}: Add {W} or {U} to your mana pool."
+      "{T}: Add {W} or {U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6499,7 +6498,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{T}, Sacrifice Wasteland: Destroy target nonbasic land."
     ],
     "flavor_text": "\"The land promises nothing and keeps its promise.\"\n—Oracle en-Vec",
@@ -6526,7 +6525,7 @@
     "oracle_text": [
       "Wind-Scarred Crag enters the battlefield tapped.",
       "When Wind-Scarred Crag enters the battlefield, you gain 1 life.",
-      "{T}: Add {R} or {W} to your mana pool."
+      "{T}: Add {R} or {W}."
     ],
     "flavor_text": null,
     "power": null,

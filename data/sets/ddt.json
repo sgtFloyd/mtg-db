@@ -385,7 +385,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "You may exile a blue card from your hand rather than pay Misdirection's mana cost.",
+      "You may exile a blue card from your hand rather than pay this spell's mana cost.",
       "Change the target of target spell with a single target."
     ],
     "flavor_text": null,
@@ -412,7 +412,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Rootwater Hunter deals 1 damage to target creature or player."
+      "{T}: Rootwater Hunter deals 1 damage to any target."
     ],
     "flavor_text": "\"Bitter water, vicious wave;\nShadow-cold shallows, root-made maze.\nHome's angry embrace.\"\n—Rootwater Saga",
     "power": "1",
@@ -675,7 +675,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{5}{U}, {T}, Sacrifice Blighted Cataract: Draw two cards."
     ],
     "flavor_text": "Once, water ran here. Now only dust and ash fall from the clifftops.",
@@ -701,7 +701,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Lonely Sandbar enters the battlefield tapped.",
-      "{T}: Add {U} to your mana pool.",
+      "{T}: Add {U}.",
       "Cycling {U} ({U}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -730,7 +730,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -758,7 +758,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -786,7 +786,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -814,7 +814,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -970,7 +970,7 @@
     "mana_cost": "RR",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, Sacrifice Ember Hauler: Ember Hauler deals 2 damage to target creature or player."
+      "{1}, Sacrifice Ember Hauler: Ember Hauler deals 2 damage to any target."
     ],
     "flavor_text": "Flurk's crude goblin language didn't differentiate between \"I bring the flame\" and \"I am the flame.\"",
     "power": "2",
@@ -1049,7 +1049,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Ghostfire is colorless.",
-      "Ghostfire deals 3 damage to target creature or player."
+      "Ghostfire deals 3 damage to any target."
     ],
     "flavor_text": "Only those gifted with the eye of Ugin, the spirit dragon, can see his fiery breath.",
     "power": null,
@@ -1182,8 +1182,8 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Goblin Grenade, sacrifice a Goblin.",
-      "Goblin Grenade deals 5 damage to target creature or player."
+      "As an additional cost to cast this spell, sacrifice a Goblin.",
+      "Goblin Grenade deals 5 damage to any target."
     ],
     "flavor_text": "Don't underestimate the aerodynamic qualities of the common goblin.",
     "power": null,
@@ -1240,7 +1240,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "{1}{R}, Sacrifice a land: Put a +1/+1 counter on Goblin Razerunners.",
-      "At the beginning of your end step, you may have Goblin Razerunners deal damage equal to the number of +1/+1 counters on it to target player."
+      "At the beginning of your end step, you may have Goblin Razerunners deal damage equal to the number of +1/+1 counters on it to target player or planeswalker."
     ],
     "flavor_text": "Finding themselves in a new and unexplored world, they immediately set it on fire.",
     "power": "3",
@@ -1449,7 +1449,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Tarfire deals 2 damage to target creature or player."
+      "Tarfire deals 2 damage to any target."
     ],
     "flavor_text": "\"After Auntie brushed the soot from her eyes, she discovered something wonderful: the fire had turned the goat into something that smelled delicious.\"\n—A tale of Auntie Grub",
     "power": null,
@@ -1497,7 +1497,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{3}, {T}: Reveal cards from the top of your library until you reveal a land card. Goblin Charbelcher deals damage equal to the number of nonland cards revealed this way to target creature or player. If the revealed land card was a Mountain, Goblin Charbelcher deals double that damage instead. Put the revealed cards on the bottom of your library in any order."
+      "{3}, {T}: Reveal cards from the top of your library until you reveal a land card. Goblin Charbelcher deals damage equal to the number of nonland cards revealed this way to any target. If the revealed land card was a Mountain, Goblin Charbelcher deals double that damage instead. Put the revealed cards on the bottom of your library in any order."
     ],
     "flavor_text": null,
     "power": null,
@@ -1521,8 +1521,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{4}{R}, {T}, Sacrifice Blighted Gorge: Blighted Gorge deals 2 damage to target creature or player."
+      "{T}: Add {C}.",
+      "{4}{R}, {T}, Sacrifice Blighted Gorge: It deals 2 damage to any target."
     ],
     "flavor_text": "The land is dying, but it will not go peacefully.",
     "power": null,
@@ -1547,7 +1547,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Forgotten Cave enters the battlefield tapped.",
-      "{T}: Add {R} to your mana pool.",
+      "{T}: Add {R}.",
       "Cycling {R} ({R}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -1576,7 +1576,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1604,7 +1604,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1632,7 +1632,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1660,7 +1660,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,

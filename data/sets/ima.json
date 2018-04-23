@@ -318,7 +318,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Defender (This creature can't attack.)",
-      "{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn."
+      "{T}: Prevent the next 1 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "Although the door is flimsy and the lock pathetically small, Josuri's family never fears the night outside.",
     "power": "0",
@@ -798,8 +798,7 @@
     "mana_cost": "3WW",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)",
-      "Vigilance (Attacking doesn't cause this creature to tap.)"
+      "Flying, vigilance"
     ],
     "flavor_text": "Follow the light. In its absence, follow her.",
     "power": "4",
@@ -1041,7 +1040,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "When Yosei, the Morning Star dies, target player skips his or her next untap step. Tap up to five target permanents that player controls."
+      "When Yosei, the Morning Star dies, target player skips their next untap step. Tap up to five target permanents that player controls."
     ],
     "flavor_text": "The caress of the morning star frees all from the clutch of darkness.",
     "power": "5",
@@ -1397,7 +1396,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Defender",
-      "{2}{U}, {T}: Target player puts the top X cards of his or her library into his or her graveyard, where X is the number of creatures with defender you control."
+      "{2}{U}, {T}: Target player puts the top X cards of their library into their graveyard, where X is the number of creatures with defender you control."
     ],
     "flavor_text": "One piercing stare usually convinces thieves to go elsewhere.",
     "power": "0",
@@ -1558,8 +1557,8 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Flying",
-      "Cast Illusory Angel only if you've cast another spell this turn."
+      "Cast this spell only if you've cast another spell this turn.",
+      "Flying"
     ],
     "flavor_text": "\"In a daze, I woke and looked upon the battlefield, where I could swear my dreams were laying waste to the enemy.\"\n—Letter from a soldier",
     "power": "4",
@@ -1586,7 +1585,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Flying",
-      "Jace's Phantasm gets +4/+4 as long as an opponent has ten or more cards in his or her graveyard."
+      "Jace's Phantasm gets +4/+4 as long as an opponent has ten or more cards in their graveyard."
     ],
     "flavor_text": "In the abstract memories of the Iquati, Jace found interesting ideas to improve upon.",
     "power": "1",
@@ -1724,7 +1723,7 @@
     "mana_cost": "UU",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Counter target spell. At the beginning of your next main phase, add an amount of {C} to your mana pool equal to that spell's converted mana cost."
+      "Counter target spell. At the beginning of your next main phase, add an amount of {C} equal to that spell's converted mana cost."
     ],
     "flavor_text": "Enthusiasm is no match for preparation.",
     "power": null,
@@ -1906,7 +1905,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Flying",
-      "Whenever Shriekgeist deals combat damage to a player, that player puts the top two cards of his or her library into his or her graveyard."
+      "Whenever Shriekgeist deals combat damage to a player, that player puts the top two cards of their library into their graveyard."
     ],
     "flavor_text": "Wounds of the flesh are easy to heal. Wounds of the mind may never be undone.",
     "power": "1",
@@ -1988,7 +1987,7 @@
     "oracle_text": [
       "Flash (You may cast this spell any time you could cast an instant.)",
       "Creature cards you own that aren't on the battlefield have flash.",
-      "Each opponent can cast spells only any time he or she could cast a sorcery."
+      "Each opponent can cast spells only any time they could cast a sorcery."
     ],
     "flavor_text": "To save this plane, he must forsake all others.",
     "power": "3",
@@ -2012,7 +2011,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player puts the top two cards of his or her library into his or her graveyard.",
+      "Target player puts the top two cards of their library into their graveyard.",
       "Draw a card."
     ],
     "flavor_text": "\"As you inject the viscus vitae into the brain stem, don't let the spastic moaning bother you. It will soon become music to your ears.\"\n—Stitcher Geralf",
@@ -2037,7 +2036,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Each player discards his or her hand, then draws cards equal to the greatest number of cards a player discarded this way."
+      "Each player discards their hand, then draws cards equal to the greatest number of cards a player discarded this way."
     ],
     "flavor_text": "\"Rich\" is a relative term.",
     "power": null,
@@ -2118,7 +2117,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Flying",
-      "When Balustrade Spy enters the battlefield, target player reveals cards from the top of his or her library until he or she reveals a land card, then puts those cards into his or her graveyard."
+      "When Balustrade Spy enters the battlefield, target player reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard."
     ],
     "flavor_text": null,
     "power": "2",
@@ -2325,7 +2324,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card."
+      "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card."
     ],
     "flavor_text": "\"Don't worry. I'm not going to deprive you of all your secrets. Just your most precious one.\"\n—Liliana Vess",
     "power": null,
@@ -2402,8 +2401,8 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "As an additional cost to cast Foul-Tongue Invocation, you may reveal a Dragon card from your hand.",
-      "Target player sacrifices a creature. If you revealed a Dragon card or controlled a Dragon as you cast Foul-Tongue Invocation, you gain 4 life."
+      "As an additional cost to cast this spell, you may reveal a Dragon card from your hand.",
+      "Target player sacrifices a creature. If you revealed a Dragon card or controlled a Dragon as you cast this spell, you gain 4 life."
     ],
     "flavor_text": null,
     "power": null,
@@ -2427,7 +2426,7 @@
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Destroy target nonartifact creature. Its controller puts a number of cards equal to that creature's power from the top of his or her library into his or her graveyard."
+      "Destroy target nonartifact creature. Its controller puts a number of cards equal to that creature's power from the top of their library into their graveyard."
     ],
     "flavor_text": "\"Watch people flock to a murder scene. Then tell me we're not all a little sick in the head.\"\n—Juri, proprietor of the Juri Revue",
     "power": null,
@@ -2905,7 +2904,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player reveals his or her hand. You choose a nonland card from it. That player discards that card. You lose 2 life."
+      "Target player reveals their hand. You choose a nonland card from it. That player discards that card. You lose 2 life."
     ],
     "flavor_text": "\"Any dream is a robust harvest. Still, I prefer the timeworn dreams, heavy with import, that haunt the obsessive mind.\"",
     "power": null,
@@ -3032,7 +3031,7 @@
     "mana_cost": "BB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player discards two cards unless he or she discards an artifact card."
+      "Target player discards two cards unless they discard an artifact card."
     ],
     "flavor_text": "What is the sound of one head snapping?",
     "power": null,
@@ -3111,7 +3110,7 @@
     "oracle_text": [
       "Flash",
       "Flying",
-      "When Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you choose among any number of target creatures and/or players."
+      "When Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you choose among any number of targets."
     ],
     "flavor_text": null,
     "power": "5",
@@ -3237,8 +3236,8 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Draconic Roar, you may reveal a Dragon card from your hand.",
-      "Draconic Roar deals 3 damage to target creature. If you revealed a Dragon card or controlled a Dragon as you cast Draconic Roar, Draconic Roar deals 3 damage to that creature's controller."
+      "As an additional cost to cast this spell, you may reveal a Dragon card from your hand.",
+      "Draconic Roar deals 3 damage to target creature. If you revealed a Dragon card or controlled a Dragon as you cast this spell, Draconic Roar deals 3 damage to that creature's controller."
     ],
     "flavor_text": null,
     "power": null,
@@ -3290,7 +3289,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Whenever a creature with flying enters the battlefield under your control, it gains haste until end of turn.",
-      "Whenever a Dragon enters the battlefield under your control, it deals X damage to target creature or player, where X is the number of Dragons you control."
+      "Whenever a Dragon enters the battlefield under your control, it deals X damage to any target, where X is the number of Dragons you control."
     ],
     "flavor_text": null,
     "power": null,
@@ -3365,8 +3364,8 @@
     "mana_cost": "XR",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Fireball deals X damage divided evenly, rounded down, among any number of target creatures and/or players.",
-      "Fireball costs {1} more to cast for each target beyond the first."
+      "This spell costs {1} more to cast for each target beyond the first.",
+      "Fireball deals X damage divided evenly, rounded down, among any number of targets."
     ],
     "flavor_text": "The spell fell upon the crowd like a dragon, ancient and full of death.",
     "power": null,
@@ -3715,7 +3714,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Pillar of Flame deals 2 damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead."
+      "Pillar of Flame deals 2 damage to any target. If a creature dealt damage this way would die this turn, exile it instead."
     ],
     "flavor_text": "\"May the worthy spend an eternity in Blessed Sleep. May the wicked find the peace of oblivion.\"",
     "power": null,
@@ -3742,7 +3741,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Prodigal Pyromancer deals 1 damage to target creature or player."
+      "{T}: Prodigal Pyromancer deals 1 damage to any target."
     ],
     "flavor_text": "\"What am I looking at? Ashes, dead man.\"",
     "power": "1",
@@ -3766,7 +3765,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Rift Bolt deals 3 damage to target creature or player.",
+      "Rift Bolt deals 3 damage to any target.",
       "Suspend 1—{R} (Rather than cast this card from your hand, you may pay {R} and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)"
     ],
     "flavor_text": null,
@@ -3824,7 +3823,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "Whenever Scourge of Valkas or another Dragon enters the battlefield under your control, it deals X damage to target creature or player, where X is the number of Dragons you control.",
+      "Whenever Scourge of Valkas or another Dragon enters the battlefield under your control, it deals X damage to any target, where X is the number of Dragons you control.",
       "{R}: Scourge of Valkas gets +1/+0 until end of turn."
     ],
     "flavor_text": null,
@@ -3877,7 +3876,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Staggershock deals 2 damage to target creature or player.",
+      "Staggershock deals 2 damage to any target.",
       "Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)"
     ],
     "flavor_text": null,
@@ -3955,7 +3954,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Tormenting Voice, discard a card.",
+      "As an additional cost to cast this spell, discard a card.",
       "Draw two cards."
     ],
     "flavor_text": "\"Unwelcome thoughts crowd my mind. Are they my own madness, or the whispers of another?\"\n—Sarkhan Vol",
@@ -4036,7 +4035,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Defender",
-      "{1}{R}, {T}: Vent Sentinel deals damage to target player equal to the number of creatures with defender you control."
+      "{1}{R}, {T}: Vent Sentinel deals damage to target player or planeswalker equal to the number of creatures with defender you control."
     ],
     "flavor_text": "\"Zendikar fortifies itself against the Great Threat, making sentries of sky, sea, and stone.\"\n—The War Diaries",
     "power": "2",
@@ -4137,7 +4136,7 @@
     "mana_cost": "GG",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Until end of turn, any time you could activate a mana ability, you may pay 1 life. If you do, add {C} to your mana pool."
+      "Until end of turn, any time you could activate a mana ability, you may pay 1 life. If you do, add {C}."
     ],
     "flavor_text": "To some mages, the meaning of life is less important than how much is left.",
     "power": null,
@@ -4244,7 +4243,7 @@
     "mana_cost": "5GG",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)"
+      "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)"
     ],
     "flavor_text": "\"Last time, it tore up the Wilt-Leaf, turned Mistmeadow into a mudhole, and made the river jump its banks. On the bright side, we were eating venison for weeks.\"\n—Donal Alloway, cenn of Kinscaer",
     "power": "7",
@@ -4268,7 +4267,7 @@
     "mana_cost": "3GG",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Target creature gets +7/+7 and gains trample until end of turn. It must be blocked this turn if able. (If a creature with trample would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)"
+      "Target creature gets +7/+7 and gains trample until end of turn. It must be blocked this turn if able. (If a creature with trample would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to the player or planeswalker it's attacking.)"
     ],
     "flavor_text": "For Mittens, it was just another day at the beach.",
     "power": null,
@@ -4295,7 +4294,7 @@
     "mana_cost": "XGG",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When you cast Genesis Hydra, reveal the top X cards of your library. You may put a nonland permanent card with converted mana cost X or less from among them onto the battlefield. Then shuffle the rest into your library.",
+      "When you cast this spell, reveal the top X cards of your library. You may put a nonland permanent card with converted mana cost X or less from among them onto the battlefield. Then shuffle the rest into your library.",
       "Genesis Hydra enters the battlefield with X +1/+1 counters on it."
     ],
     "flavor_text": null,
@@ -4579,7 +4578,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Landfall — Whenever a land enters the battlefield under your control, you may add one mana of any color to your mana pool."
+      "Landfall — Whenever a land enters the battlefield under your control, you may add one mana of any color."
     ],
     "flavor_text": "Its scales contain the essence of thousands of lotus blooms.",
     "power": "2",
@@ -4739,7 +4738,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Defender",
-      "{T}: Add {G} to your mana pool for each creature with defender you control."
+      "{T}: Add {G} for each creature with defender you control."
     ],
     "flavor_text": "\"Our enemy is nothing less than the end of all life. We shall not want for allies.\"\n—The War Diaries",
     "power": "0",
@@ -4981,7 +4980,7 @@
     "converted_mana_cost": 8,
     "oracle_text": [
       "Trample",
-      "Whenever you tap a land for mana, add one mana to your mana pool of any type that land produced.",
+      "Whenever you tap a land for mana, add one mana of any type that land produced.",
       "Whenever an opponent taps a land for mana, that land doesn't untap during its controller's next untap step."
     ],
     "flavor_text": null,
@@ -5010,7 +5009,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Defender",
-      "Put a -0/-1 counter on Wall of Roots: Add {G} to your mana pool. Activate this ability only once each turn."
+      "Put a -0/-1 counter on Wall of Roots: Add {G}. Activate this ability only once each turn."
     ],
     "flavor_text": "\"Mana grows and changes like the roots of a plant. Like a plant, it must be nurtured.\"\n—Nissa Revane",
     "power": "0",
@@ -5123,7 +5122,7 @@
     "oracle_text": [
       "Flying",
       "Whenever Blizzard Specter deals combat damage to a player, choose one —",
-      "• That player returns a permanent he or she controls to its owner's hand.",
+      "• That player returns a permanent they control to its owner's hand.",
       "• That player discards a card."
     ],
     "flavor_text": null,
@@ -5228,7 +5227,7 @@
     "mana_cost": "1UR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Electrolyze deals 2 damage divided as you choose among one or two target creatures and/or players.",
+      "Electrolyze deals 2 damage divided as you choose among one or two targets.",
       "Draw a card."
     ],
     "flavor_text": "The Izzet learn something from every lesson they teach.",
@@ -5281,7 +5280,7 @@
     "mana_cost": "UB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player puts the top ten cards of his or her library into his or her graveyard."
+      "Target player puts the top ten cards of their library into their graveyard."
     ],
     "flavor_text": "\"I am confident that if anyone actually penetrates our facades, even the most perceptive would still be fundamentally unprepared for the truth of House Dimir.\"\n—Szadek",
     "power": null,
@@ -5388,7 +5387,7 @@
     "mana_cost": "RW",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Lightning Helix deals 3 damage to target creature or player and you gain 3 life."
+      "Lightning Helix deals 3 damage to any target and you gain 3 life."
     ],
     "flavor_text": "\"Rage is not the answer. Rage followed by fitting vengeance is the answer.\"\n—Ajani Goldmane",
     "power": null,
@@ -5447,7 +5446,7 @@
     "mana_cost": "3{R/G}",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{T}: Add {C}{C}{C}{C} to your mana pool. Spend this mana only on costs that contain {X}."
+      "{T}: Add {C}{C}{C}{C}. Spend this mana only on costs that contain {X}."
     ],
     "flavor_text": "Night after night, Rosheen babbled about a bygone sunlit world, her every word dismissed as a madwoman's ravings.",
     "power": "4",
@@ -5554,7 +5553,7 @@
     "mana_cost": "1WWU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Supreme Verdict can't be countered.",
+      "This spell can't be countered.",
       "Destroy all creatures."
     ],
     "flavor_text": "Leonos had no second thoughts about the abolishment edict. He'd left skyrunes warning of the eviction, even though it was cloudy.",
@@ -5713,7 +5712,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Guardian Idol enters the battlefield tapped.",
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{2}: Guardian Idol becomes a 2/2 Golem artifact creature until end of turn."
     ],
     "flavor_text": null,
@@ -5738,7 +5737,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {B} or {R} to your mana pool.",
+      "{T}: Add {B} or {R}.",
       "{4}{B}{R}: Kolaghan Monument becomes a 4/4 black and red Dragon artifact creature with flying until end of turn."
     ],
     "flavor_text": "Kolaghan has no lasting home, but her disciples leave relics to mark her conquests.",
@@ -5766,7 +5765,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool."
+      "{T}: Add {C}."
     ],
     "flavor_text": "\"Each night, the artificer tucked the little doll into a locked drawer. Each morning, she awoke to find it waiting beside her with some new bauble.\"\n—\"The Artificer's Apprentice\"",
     "power": "1",
@@ -5790,7 +5789,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}, {T}, Sacrifice Mind Stone: Draw a card."
     ],
     "flavor_text": "\"What is mana but possibility, an idea not yet given form?\"\n—Jhoira, master artificer",
@@ -5815,7 +5814,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever an opponent loses life, that player puts that many cards from the top of his or her library into his or her graveyard. (Damage dealt by sources without infect causes loss of life.)"
+      "Whenever an opponent loses life, that player puts that many cards from the top of their library into their graveyard. (Damage dealt by sources without infect causes loss of life.)"
     ],
     "flavor_text": "\"Let go of your memories and be reborn.\"\n—Argent Etchings, plate 106, passage 27",
     "power": null,
@@ -5863,7 +5862,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Sacrifice Moonglove Extract: It deals 2 damage to target creature or player."
+      "Sacrifice Moonglove Extract: It deals 2 damage to any target."
     ],
     "flavor_text": "Diluted, moonglove can etch living tissue. Concentrated, a drop will kill a giant.",
     "power": null,
@@ -5915,7 +5914,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {C}{C} to your mana pool."
+      "{T}: Add {C}{C}."
     ],
     "flavor_text": "The myr are like the Glimmervoid: blank canvases on which to build grand creations.",
     "power": "2",
@@ -5939,7 +5938,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool. You gain 1 life."
+      "{T}: Add {C}. You gain 1 life."
     ],
     "flavor_text": "\"Tools and artisans can be destroyed, but the act of creation is inviolate.\"\n—Elspeth Tirel",
     "power": null,
@@ -6018,7 +6017,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "Any time you could mulligan and Serum Powder is in your hand, you may exile all the cards from your hand, then draw that many cards. (You can do this in addition to taking mulligans.)"
     ],
     "flavor_text": null,
@@ -6044,7 +6043,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Star Compass enters the battlefield tapped.",
-      "{T}: Add to your mana pool one mana of any color that a basic land you control could produce."
+      "{T}: Add one mana of any color that a basic land you control could produce."
     ],
     "flavor_text": "It doesn't point north. It points home.",
     "power": null,
@@ -6068,7 +6067,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{T}: Add {C}{C}{C} to your mana pool."
+      "{T}: Add {C}{C}{C}."
     ],
     "flavor_text": "Urza's metathran children were conceived, birthed, and nurtured by an integrated system of machines.",
     "power": null,
@@ -6094,7 +6093,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever equipped creature attacks, defending player reveals cards from the top of his or her library until he or she reveals a land card. The creature gets +1/+0 until end of turn for each card revealed this way. That player puts the revealed cards into his or her graveyard.",
+      "Whenever equipped creature attacks, defending player reveals cards from the top of their library until they reveal a land card. The creature gets +1/+0 until end of turn for each card revealed this way. That player puts the revealed cards into their graveyard.",
       "Equip {2}"
     ],
     "flavor_text": null,
@@ -6121,7 +6120,7 @@
     "oracle_text": [
       "Azorius Chancery enters the battlefield tapped.",
       "When Azorius Chancery enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {W}{U} to your mana pool."
+      "{T}: Add {W}{U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6147,7 +6146,7 @@
     "oracle_text": [
       "Boros Garrison enters the battlefield tapped.",
       "When Boros Garrison enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {R}{W} to your mana pool."
+      "{T}: Add {R}{W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6173,7 +6172,7 @@
     "oracle_text": [
       "Dimir Aqueduct enters the battlefield tapped.",
       "When Dimir Aqueduct enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {U}{B} to your mana pool."
+      "{T}: Add {U}{B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6223,7 +6222,7 @@
     "oracle_text": [
       "Golgari Rot Farm enters the battlefield tapped.",
       "When Golgari Rot Farm enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {B}{G} to your mana pool."
+      "{T}: Add {B}{G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6247,8 +6246,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{B/R}, {T}: Add {B}{B}, {B}{R}, or {R}{R} to your mana pool."
+      "{T}: Add {C}.",
+      "{B/R}, {T}: Add {B}{B}, {B}{R}, or {R}{R}."
     ],
     "flavor_text": "Shamans of Kar-Sengir claim that their sun sets because it can no longer bear the gaze of those pain-carved cliffs.",
     "power": null,
@@ -6272,8 +6271,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {R} or {G} to your mana pool. Each opponent gains 1 life."
+      "{T}: Add {C}.",
+      "{T}: Add {R} or {G}. Each opponent gains 1 life."
     ],
     "flavor_text": "Spring is the most beautiful season in the grove, when the new leaves open from their ember-buds in a race of leaping flames.",
     "power": null,
@@ -6299,7 +6298,7 @@
     "oracle_text": [
       "Gruul Turf enters the battlefield tapped.",
       "When Gruul Turf enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {R}{G} to your mana pool."
+      "{T}: Add {R}{G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6323,7 +6322,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}, Pay 1 life: Add {G} or {W} to your mana pool.",
+      "{T}, Pay 1 life: Add {G} or {W}.",
       "{1}, {T}, Sacrifice Horizon Canopy: Draw a card."
     ],
     "flavor_text": "The day is born within its branches.",
@@ -6350,7 +6349,7 @@
     "oracle_text": [
       "Izzet Boilerworks enters the battlefield tapped.",
       "When Izzet Boilerworks enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {U}{R} to your mana pool."
+      "{T}: Add {U}{R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6374,9 +6373,9 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {W} to your mana pool. Activate this ability only if you control an Island.",
-      "{T}: Add {U} to your mana pool. Activate this ability only if you control a Plains."
+      "{T}: Add {C}.",
+      "{T}: Add {W}. Activate this ability only if you control an Island.",
+      "{T}: Add {U}. Activate this ability only if you control a Plains."
     ],
     "flavor_text": "To find its center is to find one's own.",
     "power": null,
@@ -6402,7 +6401,7 @@
     "oracle_text": [
       "Orzhov Basilica enters the battlefield tapped.",
       "When Orzhov Basilica enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {W}{B} to your mana pool."
+      "{T}: Add {W}{B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6427,7 +6426,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "When Radiant Fountain enters the battlefield, you gain 2 life.",
-      "{T}: Add {C} to your mana pool."
+      "{T}: Add {C}."
     ],
     "flavor_text": "\"All peoples treasure a place where the weary traveler may drink in peace.\"\n—Ajani Goldmane",
     "power": null,
@@ -6453,7 +6452,7 @@
     "oracle_text": [
       "Rakdos Carnarium enters the battlefield tapped.",
       "When Rakdos Carnarium enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {B}{R} to your mana pool."
+      "{T}: Add {B}{R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6477,7 +6476,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {U} to your mana pool. If you played a land this turn, add {B} to your mana pool instead."
+      "{T}: Add {U}. If you played a land this turn, add {B} instead."
     ],
     "flavor_text": "\"The Westfolk wept, and their tears wore winding rivers into the cheek of the world.\"\n—Glem the Lonebard, \"Origins of Kholon\"",
     "power": null,
@@ -6503,7 +6502,7 @@
     "oracle_text": [
       "Selesnya Sanctuary enters the battlefield tapped.",
       "When Selesnya Sanctuary enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {G}{W} to your mana pool."
+      "{T}: Add {G}{W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6527,8 +6526,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{1}, {T}: Add one mana of any color to your mana pool."
+      "{T}: Add {C}.",
+      "{1}, {T}: Add one mana of any color."
     ],
     "flavor_text": "Untold riches await those who forsake the bustling world to search the secret, silent places.",
     "power": null,
@@ -6554,7 +6553,7 @@
     "oracle_text": [
       "Simic Growth Chamber enters the battlefield tapped.",
       "When Simic Growth Chamber enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {G}{U} to your mana pool."
+      "{T}: Add {G}{U}."
     ],
     "flavor_text": null,
     "power": null,

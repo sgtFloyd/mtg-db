@@ -13,7 +13,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Prevent the next X damage that would be dealt to target creature this turn, where X is your devotion to white. If damage is prevented this way, Acolyte's Reward deals that much damage to target creature or player. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)"
+      "Prevent the next X damage that would be dealt to target creature this turn, where X is your devotion to white. If damage is prevented this way, Acolyte's Reward deals that much damage to any target. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -468,7 +468,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Prevent the next 7 damage that would be dealt to target creature or player this turn."
+      "Prevent the next 7 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "It was Daeron's bravery that brought him to Odunos. But it was the magic of Meletis that brought him home.",
     "power": null,
@@ -1000,7 +1000,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Enchant creature",
-      "Enchanted creature has \"{1}{U}, {T}: Target player puts the top three cards of his or her library into his or her graveyard.\""
+      "Enchanted creature has \"{1}{U}, {T}: Target player puts the top three cards of their library into their graveyard.\""
     ],
     "flavor_text": "The mind is a vessel that may be emptied like any other.",
     "power": null,
@@ -1919,7 +1919,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Exile target creature. Create a colorless artifact token named Gold. It has \"Sacrifice this artifact: Add one mana of any color to your mana pool.\""
+      "Exile target creature. Create a colorless artifact token named Gold. It has \"Sacrifice this artifact: Add one mana of any color.\""
     ],
     "flavor_text": "Merchants of the Underworld trade in coins of clay. Gold serves another purpose.",
     "power": null,
@@ -2003,7 +2003,7 @@
     "mana_cost": "6B",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "Marshmist Titan costs {X} less to cast, where X is your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)"
+      "This spell costs {X} less to cast, where X is your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)"
     ],
     "flavor_text": "A favorite of Erebos, for it has sent many to the Underworld.",
     "power": "4",
@@ -2351,7 +2351,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Bolt of Keranos deals 3 damage to target creature or player. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"
+      "Bolt of Keranos deals 3 damage to any target. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"
     ],
     "flavor_text": "The breakthroughs granted by Keranos, god of epiphany, can be surprisingly literal.",
     "power": null,
@@ -2667,7 +2667,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Until end of turn, creatures you control gain \"{T}: This creature deals 1 damage to target creature or player.\""
+      "Until end of turn, creatures you control gain \"{T}: This creature deals 1 damage to any target.\""
     ],
     "flavor_text": "\"We are the motes of rain that join to make the thundercloud. The power of the storm god surges through us!\"",
     "power": null,
@@ -2775,7 +2775,7 @@
     "mana_cost": "4RR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Pinnacle of Rage deals 3 damage to each of two target creatures and/or players."
+      "Pinnacle of Rage deals 3 damage to each of two targets."
     ],
     "flavor_text": "Mount Sulano erupted not in magma but in anger.",
     "power": null,
@@ -3035,7 +3035,7 @@
     "mana_cost": "5R",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Starting with you, each player separates all permanents he or she controls into three piles. Then each player chooses one of his or her piles at random and sacrifices those permanents. (Piles can be empty.)"
+      "Starting with you, each player separates all permanents they control into three piles. Then each player chooses one of their piles at random and sacrifices those permanents. (Piles can be empty.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3296,7 +3296,7 @@
     "oracle_text": [
       "Enchant creature",
       "When Karametra's Favor enters the battlefield, draw a card.",
-      "Enchanted creature has \"{T}: Add one mana of any color to your mana pool.\""
+      "Enchanted creature has \"{T}: Add one mana of any color.\""
     ],
     "flavor_text": "The harvest god's cornucopia contains the fruits of the fields, the forest, and beyond.",
     "power": null,
@@ -3769,7 +3769,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Choose target artifact or enchantment. Its owner shuffles it into his or her library."
+      "Choose target artifact or enchantment. Its owner shuffles it into their library."
     ],
     "flavor_text": "Thaumaturges of Theros have learned to weave their magic into the world around them, but it can be pulled apart strand by strand.",
     "power": null,
@@ -4005,7 +4005,7 @@
     "oracle_text": [
       "Indestructible",
       "As long as your devotion to black and red is less than seven, Mogis isn't a creature.",
-      "At the beginning of each opponent's upkeep, Mogis deals 2 damage to that player unless he or she sacrifices a creature."
+      "At the beginning of each opponent's upkeep, Mogis deals 2 damage to that player unless they sacrifice a creature."
     ],
     "flavor_text": null,
     "power": "7",
@@ -4036,7 +4036,7 @@
     "oracle_text": [
       "Indestructible",
       "As long as your devotion to blue and black is less than seven, Phenax isn't a creature.",
-      "Creatures you control have \"{T}: Target player puts the top X cards of his or her library into his or her graveyard, where X is this creature's toughness.\""
+      "Creatures you control have \"{T}: Target player puts the top X cards of their library into their graveyard, where X is this creature's toughness.\""
     ],
     "flavor_text": null,
     "power": "4",
@@ -4115,7 +4115,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Flying",
-      "Inspired — Whenever Siren of the Silent Song becomes untapped, each opponent discards a card, then puts the top card of his or her library into his or her graveyard."
+      "Inspired — Whenever Siren of the Silent Song becomes untapped, each opponent discards a card, then puts the top card of their library into their graveyard."
     ],
     "flavor_text": null,
     "power": "2",
@@ -4171,7 +4171,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Astral Cornucopia enters the battlefield with X charge counters on it.",
-      "{T}: Choose a color. Add one mana of that color to your mana pool for each charge counter on Astral Cornucopia."
+      "{T}: Choose a color. Add one mana of that color for each charge counter on Astral Cornucopia."
     ],
     "flavor_text": null,
     "power": null,
@@ -4304,7 +4304,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}, Tap an untapped creature you control: Add one mana of any color to your mana pool."
+      "{T}, Tap an untapped creature you control: Add one mana of any color."
     ],
     "flavor_text": "\"The music is in the drum. I simply coax it out to be heard.\"",
     "power": null,
@@ -4330,7 +4330,7 @@
     "oracle_text": [
       "Temple of Enlightenment enters the battlefield tapped.",
       "When Temple of Enlightenment enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
-      "{T}: Add {W} or {U} to your mana pool."
+      "{T}: Add {W} or {U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4356,7 +4356,7 @@
     "oracle_text": [
       "Temple of Malice enters the battlefield tapped.",
       "When Temple of Malice enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
-      "{T}: Add {B} or {R} to your mana pool."
+      "{T}: Add {B} or {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4382,7 +4382,7 @@
     "oracle_text": [
       "Temple of Plenty enters the battlefield tapped.",
       "When Temple of Plenty enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
-      "{T}: Add {G} or {W} to your mana pool."
+      "{T}: Add {G} or {W}."
     ],
     "flavor_text": null,
     "power": null,

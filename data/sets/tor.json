@@ -92,7 +92,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "If any source would deal 1 or more damage to a creature or player this turn, it deals 2 damage to that creature or player instead.",
+      "If any source would deal 1 or more damage to a permanent or player this turn, it deals 2 damage to that permanent or player instead.",
       "Draw a card."
     ],
     "flavor_text": null,
@@ -171,8 +171,8 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{W}, Discard a card: Prevent the next 3 damage that would be dealt to target creature or player this turn.",
-      "{W}, Sacrifice Hypochondria: Prevent the next 3 damage that would be dealt to target creature or player this turn."
+      "{W}, Discard a card: Prevent the next 3 damage that would be dealt to any target this turn.",
+      "{W}, Sacrifice Hypochondria: Prevent the next 3 damage that would be dealt to any target this turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -231,7 +231,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Vigilance",
-      "{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn."
+      "{T}: Prevent the next 1 damage that would be dealt to any target this turn."
     ],
     "flavor_text": null,
     "power": "2",
@@ -415,7 +415,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Each player loses 1 life for each Swamp he or she controls."
+      "{T}: Each player loses 1 life for each Swamp they control."
     ],
     "flavor_text": "\"How to punish the guilty is up to the Ancestor. Deciding who merits such punishment is up to me.\"",
     "power": "2",
@@ -548,7 +548,7 @@
     "mana_cost": "WW",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Vengeful Dreams, discard X cards.",
+      "As an additional cost to cast this spell, discard X cards.",
       "Exile X target attacking creatures."
     ],
     "flavor_text": "Teroh dreams of his enemies' doom.",
@@ -603,7 +603,7 @@
     "mana_cost": "1UU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{3}: Target player puts the top three cards of his or her library into his or her graveyard."
+      "{3}: Target player puts the top three cards of their library into their graveyard."
     ],
     "flavor_text": "\"He smiles with poisoned lips.\"\n—Empress Llawan",
     "power": "1",
@@ -1283,7 +1283,7 @@
     "mana_cost": "UU",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Turbulent Dreams, discard X cards.",
+      "As an additional cost to cast this spell, discard X cards.",
       "Return X target nonland permanents to their owners' hands."
     ],
     "flavor_text": "Laquatus dreams of seizing control.",
@@ -1335,8 +1335,8 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Add {B}{B}{B} to your mana pool.",
-      "Threshold — Add {B}{B}{B}{B}{B} to your mana pool instead if seven or more cards are in your graveyard."
+      "Add {B}{B}{B}.",
+      "Threshold — Add {B}{B}{B}{B}{B} instead if seven or more cards are in your graveyard."
     ],
     "flavor_text": "\"Each syllable chills your veins. Each word rattles your mind.\"\n—Cabal Patriarch",
     "power": null,
@@ -1417,7 +1417,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Whenever Carrion Rats attacks or blocks, any player may exile a card from his or her graveyard. If a player does, Carrion Rats assigns no combat damage this turn."
+      "Whenever Carrion Rats attacks or blocks, any player may exile a card from their graveyard. If a player does, Carrion Rats assigns no combat damage this turn."
     ],
     "flavor_text": "\"Just what I need—more competition.\"\n—Cabal grave robber",
     "power": "2",
@@ -1444,7 +1444,7 @@
     "mana_cost": "3BB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Whenever Carrion Wurm attacks or blocks, any player may exile three cards from his or her graveyard. If a player does, Carrion Wurm assigns no combat damage this turn."
+      "Whenever Carrion Wurm attacks or blocks, any player may exile three cards from their graveyard. If a player does, Carrion Wurm assigns no combat damage this turn."
     ],
     "flavor_text": "Since it eats only carrion, sometimes it needs to make some from scratch.",
     "power": "6",
@@ -1742,7 +1742,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "As an additional cost to cast Insidious Dreams, discard X cards.",
+      "As an additional cost to cast this spell, discard X cards.",
       "Search your library for X cards. Then shuffle your library and put those cards on top of it in any order."
     ],
     "flavor_text": "Chainer dreams of ultimate knowledge.",
@@ -1824,7 +1824,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Mesmeric Fiend enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card.",
+      "When Mesmeric Fiend enters the battlefield, target opponent reveals their hand and you choose a nonland card from it. Exile that card.",
       "When Mesmeric Fiend leaves the battlefield, return the exiled card to its owner's hand."
     ],
     "flavor_text": null,
@@ -2077,7 +2077,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Restless Dreams, discard X cards.",
+      "As an additional cost to cast this spell, discard X cards.",
       "Return X target creature cards from your graveyard to your hand."
     ],
     "flavor_text": "Braids dreams of dark rebirth.",
@@ -2183,7 +2183,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Sickening Dreams, discard X cards.",
+      "As an additional cost to cast this spell, discard X cards.",
       "Sickening Dreams deals X damage to each creature and each player."
     ],
     "flavor_text": "The Patriarch dreams of vile plague.",
@@ -2319,7 +2319,7 @@
     "mana_cost": "4B",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "As an additional cost to cast Waste Away, discard a card.",
+      "As an additional cost to cast this spell, discard a card.",
       "Target creature gets -5/-5 until end of turn."
     ],
     "flavor_text": "Chainer's insanity touched nearly every living thing—including viruses.",
@@ -2459,7 +2459,7 @@
     "oracle_text": [
       "Enchant creature",
       "Enchanted creature gets +1/+0.",
-      "Sacrifice Crackling Club: Crackling Club deals 1 damage to target creature."
+      "Sacrifice Crackling Club: It deals 1 damage to target creature."
     ],
     "flavor_text": "It adds injury to injury.",
     "power": null,
@@ -2510,7 +2510,7 @@
     "mana_cost": "RR",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Devastating Dreams, discard X cards at random.",
+      "As an additional cost to cast this spell, discard X cards at random.",
       "Each player sacrifices X lands. Devastating Dreams deals X damage to each creature."
     ],
     "flavor_text": "Kamahl dreams of storms of fire.",
@@ -2561,7 +2561,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Fiery Temper deals 3 damage to target creature or player.",
+      "Fiery Temper deals 3 damage to any target.",
       "Madness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"
     ],
     "flavor_text": null,
@@ -2586,7 +2586,7 @@
     "mana_cost": "XR",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Flaming Gambit deals X damage to target player. That player may choose a creature he or she controls and have Flaming Gambit deal that damage to it instead.",
+      "Flaming Gambit deals X damage to target player or planeswalker. That player or that planeswalker's controller may choose a creature they control and have Flaming Gambit deal that damage to it instead.",
       "Flashback {X}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     ],
     "flavor_text": null,
@@ -2639,7 +2639,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{R}, {T}, Exile two cards from your graveyard: Grim Lavamancer deals 2 damage to target creature or player."
+      "{R}, {T}, Exile two cards from your graveyard: Grim Lavamancer deals 2 damage to any target."
     ],
     "flavor_text": "\"Fools dig for water, corpses, or gold. The earth's real treasure is far deeper.\"",
     "power": "1",
@@ -2720,7 +2720,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Longhorn Firebeast enters the battlefield, any opponent may have it deal 5 damage to him or her. If a player does, sacrifice Longhorn Firebeast."
+      "When Longhorn Firebeast enters the battlefield, any opponent may have it deal 5 damage to them. If a player does, sacrifice Longhorn Firebeast."
     ],
     "flavor_text": "Its blast can fuse armor to bone, leaving skeletons that glint brightly in the sun.",
     "power": "3",
@@ -2744,7 +2744,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "The next instant or sorcery spell you cast this turn can't be countered by spells or abilities.",
+      "The next instant or sorcery spell you cast this turn can't be countered.",
       "Draw a card."
     ],
     "flavor_text": "\"Trickery can't defeat raw power.\"\n—Matoc, lavamancer",
@@ -2772,7 +2772,7 @@
     "mana_cost": "2RR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Threshold — As long as seven or more cards are in your graveyard, Pardic Arsonist has \"When Pardic Arsonist enters the battlefield, it deals 3 damage to target creature or player.\""
+      "Threshold — As long as seven or more cards are in your graveyard, Pardic Arsonist has \"When Pardic Arsonist enters the battlefield, it deals 3 damage to any target.\""
     ],
     "flavor_text": "Otaria's epidemic of insanity didn't affect certain barbarians—but no one noticed.",
     "power": "3",
@@ -2964,8 +2964,8 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{1}{R}, Discard a card at random: Pyromania deals 1 damage to target creature or player.",
-      "{1}{R}, Sacrifice Pyromania: Pyromania deals 1 damage to target creature or player."
+      "{1}{R}, Discard a card at random: Pyromania deals 1 damage to any target.",
+      "{1}{R}, Sacrifice Pyromania: It deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -3013,7 +3013,7 @@
     "mana_cost": "RR",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player discards two cards at random unless that player has Skullscorch deal 4 damage to him or her."
+      "Target player discards two cards at random unless that player has Skullscorch deal 4 damage to them."
     ],
     "flavor_text": "\"A good whack on the head usually has the same effect.\"\n—Kamahl, pit fighter",
     "power": null,
@@ -3037,8 +3037,8 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Sonic Seizure, discard a card at random.",
-      "Sonic Seizure deals 3 damage to target creature or player."
+      "As an additional cost to cast this spell, discard a card at random.",
+      "Sonic Seizure deals 3 damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -3086,7 +3086,7 @@
     "mana_cost": "1RRR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Violent Eruption deals 4 damage divided as you choose among any number of target creatures and/or players.",
+      "Violent Eruption deals 4 damage divided as you choose among any number of targets.",
       "Madness {1}{R}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"
     ],
     "flavor_text": null,
@@ -3272,7 +3272,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player shuffles up to four target cards from his or her graveyard into his or her library."
+      "Target player shuffles up to four target cards from their graveyard into their library."
     ],
     "flavor_text": "None can find what hasn't been lost.\n—Nantuko teaching",
     "power": null,
@@ -3560,7 +3560,7 @@
     "mana_cost": "GG",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Nostalgic Dreams, discard X cards.",
+      "As an additional cost to cast this spell, discard X cards.",
       "Return X target cards from your graveyard to your hand. Exile Nostalgic Dreams."
     ],
     "flavor_text": "Seton dreams of life renewed.",
@@ -3668,7 +3668,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{2}, {T}: Add {B} to your mana pool for each Swamp you control."
+      "{2}, {T}: Add {B} for each Swamp you control."
     ],
     "flavor_text": "Deep within the Cabal's vault, the Mirari pulsed like a dead sun—and its darkness radiated across Otaria.",
     "power": null,
@@ -3692,8 +3692,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {W} or {B} to your mana pool. Activate this ability only if you control a Swamp."
+      "{T}: Add {C}.",
+      "{T}: Add {W} or {B}. Activate this ability only if you control a Swamp."
     ],
     "flavor_text": null,
     "power": null,
@@ -3717,8 +3717,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {U} or {B} to your mana pool. Activate this ability only if you control a Swamp."
+      "{T}: Add {C}.",
+      "{T}: Add {U} or {B}. Activate this ability only if you control a Swamp."
     ],
     "flavor_text": null,
     "power": null,
@@ -3742,8 +3742,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {B} or {R} to your mana pool. Activate this ability only if you control a Swamp."
+      "{T}: Add {C}.",
+      "{T}: Add {B} or {R}. Activate this ability only if you control a Swamp."
     ],
     "flavor_text": null,
     "power": null,
@@ -3767,8 +3767,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {B} or {G} to your mana pool. Activate this ability only if you control a Swamp."
+      "{T}: Add {C}.",
+      "{T}: Add {B} or {G}. Activate this ability only if you control a Swamp."
     ],
     "flavor_text": null,
     "power": null,

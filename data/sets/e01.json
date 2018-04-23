@@ -610,7 +610,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target player draws three cards. Then that player discards two cards unless he or she discards a land card."
+      "Target player draws three cards. Then that player discards two cards unless they discard a land card."
     ],
     "flavor_text": "\"Four parts molten bronze, yes . . . one part frozen mercury, yes, yes . . . but then what?\"",
     "power": null,
@@ -824,7 +824,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "At the beginning of each opponent's end step, that player chooses up to two creatures he or she controls, then sacrifices the rest."
+      "At the beginning of each opponent's end step, that player chooses up to two creatures they control, then sacrifices the rest."
     ],
     "flavor_text": "\"Why would I kill you all? Who then would be left to worship me?\"",
     "power": "5",
@@ -1034,7 +1034,7 @@
     "mana_cost": "6RR",
     "converted_mana_cost": 8,
     "oracle_text": [
-      "If an opponent controls seven or more lands, Avatar of Fury costs {6} less to cast.",
+      "If an opponent controls seven or more lands, this spell costs {6} less to cast.",
       "Flying",
       "{R}: Avatar of Fury gets +1/+0 until end of turn."
     ],
@@ -1119,7 +1119,7 @@
     "mana_cost": "2RR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "+1: Chandra, Pyromaster deals 1 damage to target player and 1 damage to up to one target creature that player controls. That creature can't block this turn.",
+      "+1: Chandra, Pyromaster deals 1 damage to target player or planeswalker and 1 damage to up to one target creature that player or that planeswalker's controller controls. That creature can't block this turn.",
       "0: Exile the top card of your library. You may play it this turn.",
       "−7: Exile the top ten cards of your library. Choose an instant or sorcery card exiled this way and copy it three times. You may cast the copies without paying their mana costs."
     ],
@@ -1250,7 +1250,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Fiery Fall deals 5 damage to target creature.",
-      "Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1330,7 +1330,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{R}, {T}, Exile two cards from your graveyard: Grim Lavamancer deals 2 damage to target creature or player."
+      "{R}, {T}, Exile two cards from your graveyard: Grim Lavamancer deals 2 damage to any target."
     ],
     "flavor_text": "\"Fools dig for water, corpses, or gold. The earth's real treasure is far deeper.\"",
     "power": "1",
@@ -1412,7 +1412,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "{R}: Inferno Titan gets +1/+0 until end of turn.",
-      "Whenever Inferno Titan enters the battlefield or attacks, it deals 3 damage divided as you choose among one, two, or three target creatures and/or players."
+      "Whenever Inferno Titan enters the battlefield or attacks, it deals 3 damage divided as you choose among one, two, or three targets."
     ],
     "flavor_text": null,
     "power": "6",
@@ -1436,7 +1436,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Lightning Bolt deals 3 damage to target creature or player."
+      "Lightning Bolt deals 3 damage to any target."
     ],
     "flavor_text": "The sparkmage shrieked, calling on the rage of the storms of his youth. To his surprise, the sky responded with a fierce energy he'd never thought to see again.",
     "power": null,
@@ -1486,7 +1486,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Searing Spear deals 3 damage to target creature or player."
+      "Searing Spear deals 3 damage to any target."
     ],
     "flavor_text": "Sometimes you die a glorious death with your sword held high. Sometimes you're just target practice.",
     "power": null,
@@ -1620,7 +1620,7 @@
     "mana_cost": "XRR",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Volcanic Geyser deals X damage to target creature or player."
+      "Volcanic Geyser deals X damage to any target."
     ],
     "flavor_text": "\"The common folk call it the breaking of the crust or the spilling of fire. Geomancers call it target practice.\"\n—Ryda, geomancer",
     "power": null,
@@ -1696,7 +1696,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Fertilid enters the battlefield with two +1/+1 counters on it.",
-      "{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches his or her library for a basic land card and puts it onto the battlefield tapped. Then that player shuffles his or her library."
+      "{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches their library for a basic land card and puts it onto the battlefield tapped. Then that player shuffles their library."
     ],
     "flavor_text": null,
     "power": "0",
@@ -1957,7 +1957,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Target player gains 8 life.",
-      "Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2089,7 +2089,7 @@
     "mana_cost": "3GG",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "As long as you control eight or more lands, Woodborn Behemoth gets +4/+4 and has trample. (If this creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)"
+      "As long as you control eight or more lands, Woodborn Behemoth gets +4/+4 and has trample. (If this creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to the player or planeswalker it's attacking.)"
     ],
     "flavor_text": "It carries the hopes of Zendikar's embattled wilds on its mighty boughs.",
     "power": "4",
@@ -2217,7 +2217,7 @@
     "mana_cost": "3UB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Each player puts the top two cards of his or her library into his or her graveyard. Then put a creature card from a graveyard onto the battlefield under your control."
+      "Each player puts the top two cards of their library into their graveyard. Then you put a creature card from a graveyard onto the battlefield under your control."
     ],
     "flavor_text": "If you want to wreak havoc above, sometimes it's best to look below.",
     "power": null,
@@ -2247,7 +2247,7 @@
     "oracle_text": [
       "+3: Destroy target noncreature permanent.",
       "−2: Gain control of target creature.",
-      "−9: Nicol Bolas, Planeswalker deals 7 damage to target player. That player discards seven cards, then sacrifices seven permanents."
+      "−9: Nicol Bolas, Planeswalker deals 7 damage to target player or planeswalker. That player or that planeswalker's controller discards seven cards, then sacrifices seven permanents."
     ],
     "flavor_text": null,
     "power": null,
@@ -2323,7 +2323,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {U}, {B}, or {R} to your mana pool."
+      "{T}: Add {U}, {B}, or {R}."
     ],
     "flavor_text": "Like most features of Grixis, the obelisks that remain from the time of Alara now exist only for dark exploitation.",
     "power": null,
@@ -2377,8 +2377,8 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {U} or {B} to your mana pool. Talisman of Dominance deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {U} or {B}. Talisman of Dominance deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -2402,8 +2402,8 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {B} or {R} to your mana pool. Talisman of Indulgence deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {B} or {R}. Talisman of Indulgence deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -2428,7 +2428,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Crumbling Necropolis enters the battlefield tapped.",
-      "{T}: Add {U}, {B}, or {R} to your mana pool."
+      "{T}: Add {U}, {B}, or {R}."
     ],
     "flavor_text": "\"They say the ruins of Sedraxis were once a shining capital in Vithia. Now it is a blight, a place to be avoided by the living.\"\n—Olcot, Rider of Joffik",
     "power": null,
@@ -2453,7 +2453,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.",
-      "{T}: Add {B} or {R} to your mana pool."
+      "{T}: Add {B} or {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -2478,7 +2478,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp.",
-      "{T}: Add {U} or {B} to your mana pool."
+      "{T}: Add {U} or {B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -2502,7 +2502,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}, {T}, Sacrifice Grixis Panorama: Search your library for a basic Island, Swamp, or Mountain card and put it onto the battlefield tapped. Then shuffle your library."
     ],
     "flavor_text": "There is no height above Grixis that is free from the stench of death.",
@@ -2529,7 +2529,7 @@
     "oracle_text": [
       "Smoldering Spires enters the battlefield tapped.",
       "When Smoldering Spires enters the battlefield, target creature can't block this turn.",
-      "{T}: Add {R} to your mana pool."
+      "{T}: Add {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -2557,7 +2557,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2585,7 +2585,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2613,7 +2613,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2641,7 +2641,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2669,7 +2669,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2697,7 +2697,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2725,7 +2725,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2753,7 +2753,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2781,7 +2781,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2809,7 +2809,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,

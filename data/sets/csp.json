@@ -506,7 +506,7 @@
     "mana_cost": "5WW",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "You may exile two white cards from your hand rather than pay Sunscour's mana cost.",
+      "You may exile two white cards from your hand rather than pay this spell's mana cost.",
       "Destroy all creatures."
     ],
     "flavor_text": null,
@@ -559,7 +559,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Prevent the next 2 damage that would be dealt to target creature or player this turn.",
+      "Prevent the next 2 damage that would be dealt to any target this turn.",
       "Draw a card at the beginning of the next turn's upkeep."
     ],
     "flavor_text": "Darien's call to Yavimaya would have fallen red to the snow had it not been for the agility of the aesthir.",
@@ -734,7 +734,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{T}: Target artifact creature's controller sacrifices it. That player may search his or her library for a noncreature artifact card, put it onto the battlefield, then shuffle his or her library."
+      "{T}: Target artifact creature's controller sacrifices it. That player may search their library for a noncreature artifact card, put it onto the battlefield, then shuffle their library."
     ],
     "flavor_text": "\"Artifice sundered the world. It shall not again wreak such sorrow.\"",
     "power": "2",
@@ -785,7 +785,7 @@
     "mana_cost": "5UU",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "You may exile two blue cards from your hand rather than pay Commandeer's mana cost.",
+      "You may exile two blue cards from your hand rather than pay this spell's mana cost.",
       "Gain control of target noncreature spell. You may choose new targets for it. (If that spell is an artifact, enchantment, or planeswalker, the permanent enters the battlefield under your control.)"
     ],
     "flavor_text": null,
@@ -1678,7 +1678,7 @@
       "Flying",
       "Cumulative upkeep—Gain control of a land you don't control. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)",
       "Herald of Leshrac gets +1/+1 for each land you control but don't own.",
-      "When Herald of Leshrac leaves the battlefield, each player gains control of each land he or she owns that you control."
+      "When Herald of Leshrac leaves the battlefield, each player gains control of each land they own that you control."
     ],
     "flavor_text": null,
     "power": "2",
@@ -1889,8 +1889,8 @@
     "mana_cost": "5BB",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "You may exile two black cards from your hand rather than pay Soul Spike's mana cost.",
-      "Soul Spike deals 4 damage to target creature or player and you gain 4 life."
+      "You may exile two black cards from your hand rather than pay this spell's mana cost.",
+      "Soul Spike deals 4 damage to any target and you gain 4 life."
     ],
     "flavor_text": null,
     "power": null,
@@ -2105,7 +2105,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Cumulative upkeep—Add {R} to your mana pool. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)"
+      "Cumulative upkeep—Add {R}. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)"
     ],
     "flavor_text": "\"To a trained mind, the cold is but a momentary distraction.\"",
     "power": null,
@@ -2181,7 +2181,7 @@
     "mana_cost": "5RR",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "You may exile two red cards from your hand rather than pay Fury of the Horde's mana cost.",
+      "You may exile two red cards from your hand rather than pay this spell's mana cost.",
       "Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase."
     ],
     "flavor_text": null,
@@ -2320,8 +2320,8 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Cumulative upkeep—Flip a coin. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)",
-      "Whenever you win a coin flip, Karplusan Minotaur deals 1 damage to target creature or player.",
-      "Whenever you lose a coin flip, Karplusan Minotaur deals 1 damage to target creature or player of an opponent's choice."
+      "Whenever you win a coin flip, Karplusan Minotaur deals 1 damage to any target.",
+      "Whenever you lose a coin flip, Karplusan Minotaur deals 1 damage to any target of an opponent's choice."
     ],
     "flavor_text": null,
     "power": "3",
@@ -2350,7 +2350,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Whenever Karplusan Wolverine becomes blocked, you may have it deal 1 damage to target creature or player."
+      "Whenever Karplusan Wolverine becomes blocked, you may have it deal 1 damage to any target."
     ],
     "flavor_text": "\"They're not easily trained. Fortunately, they already know how to kill.\"\n—Lovisa Coldeyes, Balduvian chieftain",
     "power": "1",
@@ -2403,7 +2403,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Lightning Storm deals X damage to target creature or player, where X is 3 plus the number of charge counters on it.",
+      "Lightning Storm deals X damage to any target, where X is 3 plus the number of charge counters on Lightning Storm.",
       "Discard a land card: Put two charge counters on Lightning Storm. You may choose a new target for it. Any player may activate this ability but only if Lightning Storm is on the stack."
     ],
     "flavor_text": null,
@@ -2539,7 +2539,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}, Sacrifice a creature: Orcish Bloodpainter deals 1 damage to target creature or player."
+      "{T}, Sacrifice a creature: Orcish Bloodpainter deals 1 damage to any target."
     ],
     "flavor_text": "Blood calls to blood.",
     "power": "2",
@@ -2593,7 +2593,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Add {R}{R} to your mana pool, then add {R} to your mana pool for each card named Rite of Flame in each graveyard."
+      "Add {R}{R}, then add {R} for each card named Rite of Flame in each graveyard."
     ],
     "flavor_text": "Deep beneath the ice, beneath the soil and the rock, Dominaria's fire still burned hot.",
     "power": null,
@@ -2671,7 +2671,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast any revealed cards with the same name as this spell without paying their mana costs. Put the rest on the bottom of your library.)",
-      "Surging Flame deals 2 damage to target creature or player."
+      "Surging Flame deals 2 damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -2700,7 +2700,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "{S}: Thermopod gains haste until end of turn. ({S} can be paid with one mana from a snow permanent.)",
-      "Sacrifice a creature: Add {R} to your mana pool."
+      "Sacrifice a creature: Add {R}."
     ],
     "flavor_text": "Slicking the ice with its heated underside, the thermopod skates at great speed to overtake its prey.",
     "power": "4",
@@ -2727,7 +2727,7 @@
     "mana_cost": "5GG",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "You may exile two green cards from your hand rather than pay Allosaurus Rider's mana cost.",
+      "You may exile two green cards from your hand rather than pay this spell's mana cost.",
       "Allosaurus Rider's power and toughness are each equal to 1 plus the number of lands you control."
     ],
     "flavor_text": null,
@@ -2843,7 +2843,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool."
+      "{T}: Add {C}."
     ],
     "flavor_text": "Some creatures are bound to the cold by Rimewind magic. Others seek it out, adapted by two thousand years of the Ice. The Boreal, where Heidar's frigid sway is strongest, is home to both.",
     "power": "1",
@@ -2869,7 +2869,7 @@
     "mana_cost": "2GG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "At the beginning of each end step, each player gains control of all nontoken permanents he or she owns."
+      "At the beginning of each end step, each player gains control of all nontoken permanents they own."
     ],
     "flavor_text": "\"I have been trapped in the lizard's lair for days. It seems to regard me as its child and will not let me leave.\"\n—Aevar Borg, northern guide, journal entry",
     "power": "4",
@@ -3406,7 +3406,7 @@
     "oracle_text": [
       "Flying",
       "Whenever Blizzard Specter deals combat damage to a player, choose one —",
-      "• That player returns a permanent he or she controls to its owner's hand.",
+      "• That player returns a permanent they control to its owner's hand.",
       "• That player discards a card."
     ],
     "flavor_text": null,
@@ -3683,7 +3683,7 @@
     "oracle_text": [
       "Coldsteel Heart enters the battlefield tapped.",
       "As Coldsteel Heart enters the battlefield, choose a color.",
-      "{T}: Add one mana of the chosen color to your mana pool."
+      "{T}: Add one mana of the chosen color."
     ],
     "flavor_text": "The Phyrexian death machine awoke, its coldsteel heart imbuing it with sinister new power.",
     "power": null,
@@ -3874,7 +3874,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Arctic Flats enters the battlefield tapped.",
-      "{T}: Add {G} or {W} to your mana pool."
+      "{T}: Add {G} or {W}."
     ],
     "flavor_text": "\"A realm once green now ruled by Frost,\nWhere flesh and field both pay its cost.\nThose dearly loved, forever lost . . .\"\n—The Dynasty of Winter Kings",
     "power": null,
@@ -3901,7 +3901,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Boreal Shelf enters the battlefield tapped.",
-      "{T}: Add {W} or {U} to your mana pool."
+      "{T}: Add {W} or {U}."
     ],
     "flavor_text": "\"Who will stay the Tyrant's hand,\nAs ice and woe both grip our land?\nThe helpless feel his frozen brand.\"\n—The Dynasty of Winter Kings",
     "power": null,
@@ -3957,7 +3957,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Frost Marsh enters the battlefield tapped.",
-      "{T}: Add {U} or {B} to your mana pool."
+      "{T}: Add {U} or {B}."
     ],
     "flavor_text": "\"Now caged in Winter's bitter chill,\nOur people cry, their voices shrill—\nEternal cold breaks down their will.\"\n—The Dynasty of Winter Kings",
     "power": null,
@@ -3984,7 +3984,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Highland Weald enters the battlefield tapped.",
-      "{T}: Add {R} or {G} to your mana pool."
+      "{T}: Add {R} or {G}."
     ],
     "flavor_text": "\"Our noble land, enslaved by Rime,\nIs it our fate to freeze through time?\nIf this be true, oh wicked crime.\"\n—The Dynasty of Winter Kings",
     "power": null,
@@ -4010,8 +4010,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{4}{S}, {T}, Sacrifice Mouth of Ronom: Mouth of Ronom deals 4 damage to target creature. ({S} can be paid with one mana from a snow permanent.)"
+      "{T}: Add {C}.",
+      "{4}{S}, {T}, Sacrifice Mouth of Ronom: It deals 4 damage to target creature. ({S} can be paid with one mana from a snow permanent.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4037,7 +4037,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}{S}, {T}: Look at the top card of your library. If that card is snow, you may reveal it and put it into your hand. ({S} can be paid with one mana from a snow permanent.)"
     ],
     "flavor_text": null,
@@ -4065,7 +4065,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Tresserhorn Sinks enters the battlefield tapped.",
-      "{T}: Add {B} or {R} to your mana pool."
+      "{T}: Add {B} or {R}."
     ],
     "flavor_text": "\"Our land oppressed by silent Cold,\nWe weary wretches, young and old,\nPray that Springtime loose his hold.\"\n—The Dynasty of Winter Kings",
     "power": null,
@@ -4094,7 +4094,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add  to your mana pool.)"
+      "({T}: Add .)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4123,7 +4123,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add  to your mana pool.)"
+      "({T}: Add .)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4152,7 +4152,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add  to your mana pool.)"
+      "({T}: Add .)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4181,7 +4181,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add  to your mana pool.)"
+      "({T}: Add .)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4210,7 +4210,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add  to your mana pool.)"
+      "({T}: Add .)"
     ],
     "flavor_text": null,
     "power": null,

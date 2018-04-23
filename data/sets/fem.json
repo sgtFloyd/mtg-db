@@ -13,7 +13,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, {T}, Sacrifice Aeolipile: Aeolipile deals 2 damage to target creature or player."
+      "{1}, {T}, Sacrifice Aeolipile: It deals 2 damage to any target."
     ],
     "flavor_text": "\"Although fragile, the Aeolipile could be quite destructive.\"\n—Sarpadian Empires, vol. I",
     "power": null,
@@ -143,7 +143,7 @@
     "oracle_text": [
       "{1}, {T}, Sacrifice Balm of Restoration: Choose one —",
       "• You gain 2 life.",
-      "• Prevent the next 2 damage that would be dealt to target creature or player this turn."
+      "• Prevent the next 2 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "\"Not all armies enjoyed the services of a medic. For them, Balm of Restoration was that much more valuable.\"\n—Sarpadian Empires, vol. I",
     "power": null,
@@ -169,7 +169,7 @@
     "mana_cost": "BB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}, Sacrifice Basal Thrull: Add {B}{B} to your mana pool."
+      "{T}, Sacrifice Basal Thrull: Add {B}{B}."
     ],
     "flavor_text": "\"Above all, a well crafted Thrull should be hideous—blasted of countenance and twisted of limb—to inspire fear and revulsion.\"\n—Endrek Sahr, Master Breeder",
     "power": "1",
@@ -195,7 +195,7 @@
     "mana_cost": "BB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}, Sacrifice Basal Thrull: Add {B}{B} to your mana pool."
+      "{T}, Sacrifice Basal Thrull: Add {B}{B}."
     ],
     "flavor_text": "Although my later designs were much more sophisticated, Basal Thrulls were no less a success.\"\n—Endrek Sahr, \"Thrulls\"",
     "power": "1",
@@ -221,7 +221,7 @@
     "mana_cost": "BB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}, Sacrifice Basal Thrull: Add {B}{B} to your mana pool."
+      "{T}, Sacrifice Basal Thrull: Add {B}{B}."
     ],
     "flavor_text": "Initially bred for sacrifice, the Thrulls eventually turned on their masters, the Order of the Ebon Hand, with gruesome results.\n—Sarpadian Empires, vol. II",
     "power": "1",
@@ -247,7 +247,7 @@
     "mana_cost": "BB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}, Sacrifice Basal Thrull: Add {B}{B} to your mana pool."
+      "{T}, Sacrifice Basal Thrull: Add {B}{B}."
     ],
     "flavor_text": "\"To create the first Thrulls, I only introduced alchemic elements into the Order's necromancy; Tourach's principles remained unchanged.\"\n—Endrek Sahr, Master Breeder",
     "power": "1",
@@ -274,7 +274,7 @@
       "Bottomless Vault enters the battlefield tapped.",
       "You may choose not to untap Bottomless Vault during your untap step.",
       "At the beginning of your upkeep, if Bottomless Vault is tapped, put a storage counter on it.",
-      "{T}, Remove any number of storage counters from Bottomless Vault: Add {B} to your mana pool for each storage counter removed this way."
+      "{T}, Remove any number of storage counters from Bottomless Vault: Add {B} for each storage counter removed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -431,7 +431,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{1}{W}: Prevent the next 1 damage that would be dealt to target creature or player this turn."
+      "{1}{W}: Prevent the next 1 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "\"Time enough to become a Medic once you're hurt too badly to fight. For now, Icatia needs your strength more than your compassion.\"\n—Lydia Wynforth, Mayor of Trokair",
     "power": "0",
@@ -459,7 +459,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{1}{W}: Prevent the next 1 damage that would be dealt to target creature or player this turn."
+      "{1}{W}: Prevent the next 1 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "\"Without Combat Medics, Icatia would probably not have withstood the forces of chaos as long as it did.\"\n—Sarpadian Empires, vol. VI",
     "power": "0",
@@ -487,7 +487,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{1}{W}: Prevent the next 1 damage that would be dealt to target creature or player this turn."
+      "{1}{W}: Prevent the next 1 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "\"We'd no sooner knock 'em back on their heels than that accursed sawbones would show up and patch 'em back together again.\"\n—Ivra Jursdotter",
     "power": "0",
@@ -515,7 +515,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{1}{W}: Prevent the next 1 damage that would be dealt to target creature or player this turn."
+      "{1}{W}: Prevent the next 1 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "\"Although Icatia's Combat Medics borrowed much of their knowledge from other societies, their skills were their own.\"\n—Sarpadian Empires, vol. VI",
     "power": "0",
@@ -743,7 +743,7 @@
       "Dwarven Hold enters the battlefield tapped.",
       "You may choose not to untap Dwarven Hold during your untap step.",
       "At the beginning of your upkeep, if Dwarven Hold is tapped, put a storage counter on it.",
-      "{T}, Remove any number of storage counters from Dwarven Hold: Add {R} to your mana pool for each storage counter removed this way."
+      "{T}, Remove any number of storage counters from Dwarven Hold: Add {R} for each storage counter removed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -795,8 +795,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Dwarven Ruins enters the battlefield tapped.",
-      "{T}: Add {R} to your mana pool.",
-      "{T}, Sacrifice Dwarven Ruins: Add {R}{R} to your mana pool."
+      "{T}: Add {R}.",
+      "{T}, Sacrifice Dwarven Ruins: Add {R}{R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -931,8 +931,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Ebon Stronghold enters the battlefield tapped.",
-      "{T}: Add {B} to your mana pool.",
-      "{T}, Sacrifice Ebon Stronghold: Add {B}{B} to your mana pool."
+      "{T}: Add {B}.",
+      "{T}, Sacrifice Ebon Stronghold: Add {B}{B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -1269,7 +1269,7 @@
     "mana_cost": "1WW",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{1}: Add {W} to your mana pool. If this ability has been activated four or more times this turn, sacrifice Farrelite Priest at the beginning of the next end step."
+      "{1}: Add {W}. If this ability has been activated four or more times this turn, sacrifice Farrelite Priest at the beginning of the next end step."
     ],
     "flavor_text": "Although their methods were often brutal, Farrel's followers believed in the preservation of justice and virtue.",
     "power": "1",
@@ -1557,8 +1557,8 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Goblin Grenade, sacrifice a Goblin.",
-      "Goblin Grenade deals 5 damage to target creature or player."
+      "As an additional cost to cast this spell, sacrifice a Goblin.",
+      "Goblin Grenade deals 5 damage to any target."
     ],
     "flavor_text": "\"I don't suppose we could teach them to throw the cursed things?\"\n—Ivra Jursdotter",
     "power": null,
@@ -1582,8 +1582,8 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Goblin Grenade, sacrifice a Goblin.",
-      "Goblin Grenade deals 5 damage to target creature or player."
+      "As an additional cost to cast this spell, sacrifice a Goblin.",
+      "Goblin Grenade deals 5 damage to any target."
     ],
     "flavor_text": "\"According to accepted theory, the Grenade held some kind of flammable mixture and was carried to its target by a hapless Goblin.\"\n—Sarpadian Empires, vol. IV",
     "power": null,
@@ -1607,8 +1607,8 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Goblin Grenade, sacrifice a Goblin.",
-      "Goblin Grenade deals 5 damage to target creature or player."
+      "As an additional cost to cast this spell, sacrifice a Goblin.",
+      "Goblin Grenade deals 5 damage to any target."
     ],
     "flavor_text": "\"Without their massive numbers, the Goblins could never have launched such a successful offensive.\"\n—Sarpadian Empires, vol. VI",
     "power": null,
@@ -1803,8 +1803,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Havenwood Battleground enters the battlefield tapped.",
-      "{T}: Add {G} to your mana pool.",
-      "{T}, Sacrifice Havenwood Battleground: Add {G}{G} to your mana pool."
+      "{T}: Add {G}.",
+      "{T}, Sacrifice Havenwood Battleground: Add {G}{G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -1852,7 +1852,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Until end of turn, whenever a player taps an Island for mana, that player adds {U} to his or her mana pool (in addition to the mana the land produces)."
+      "Until end of turn, whenever a player taps an Island for mana, that player adds an additional {U}."
     ],
     "flavor_text": "\"May Svyelun and her tides favor you.\"\n—Traditional Merfolk blessing",
     "power": null,
@@ -1876,7 +1876,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Until end of turn, whenever a player taps an Island for mana, that player adds {U} to his or her mana pool (in addition to the mana the land produces)."
+      "Until end of turn, whenever a player taps an Island for mana, that player adds an additional {U}."
     ],
     "flavor_text": "\"By the time their enemies noticed the sea's changing mood, the Vodalians had often shifted formation and were ready to attack.\"\n—Sarpadian Empires, vol. V",
     "power": null,
@@ -1900,7 +1900,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Until end of turn, whenever a player taps an Island for mana, that player adds {U} to his or her mana pool (in addition to the mana the land produces)."
+      "Until end of turn, whenever a player taps an Island for mana, that player adds an additional {U}."
     ],
     "flavor_text": "\"When the very tides turn against you, it's time to consider retirement.\"\n—General Khurzog",
     "power": null,
@@ -1927,7 +1927,7 @@
       "Hollow Trees enters the battlefield tapped.",
       "You may choose not to untap Hollow Trees during your untap step.",
       "At the beginning of your upkeep, if Hollow Trees is tapped, put a storage counter on it.",
-      "{T}, Remove any number of storage counters from Hollow Trees: Add {G} to your mana pool for each storage counter removed this way."
+      "{T}, Remove any number of storage counters from Hollow Trees: Add {G} for each storage counter removed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -2415,7 +2415,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Icatian Javelineers enters the battlefield with a javelin counter on it.",
-      "{T}, Remove a javelin counter from Icatian Javelineers: Icatian Javelineers deals 1 damage to target creature or player."
+      "{T}, Remove a javelin counter from Icatian Javelineers: Icatian Javelineers deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": "1",
@@ -2443,7 +2443,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Icatian Javelineers enters the battlefield with a javelin counter on it.",
-      "{T}, Remove a javelin counter from Icatian Javelineers: Icatian Javelineers deals 1 damage to target creature or player."
+      "{T}, Remove a javelin counter from Icatian Javelineers: Icatian Javelineers deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": "1",
@@ -2471,7 +2471,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Icatian Javelineers enters the battlefield with a javelin counter on it.",
-      "{T}, Remove a javelin counter from Icatian Javelineers: Icatian Javelineers deals 1 damage to target creature or player."
+      "{T}, Remove a javelin counter from Icatian Javelineers: Icatian Javelineers deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": "1",
@@ -2806,7 +2806,7 @@
       "Icatian Store enters the battlefield tapped.",
       "You may choose not to untap Icatian Store during your untap step.",
       "At the beginning of your upkeep, if Icatian Store is tapped, put a storage counter on it.",
-      "{T}, Remove any number of storage counters from Icatian Store: Add {W} to your mana pool for each storage counter removed this way."
+      "{T}, Remove any number of storage counters from Icatian Store: Add {W} for each storage counter removed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -2854,7 +2854,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, {T}, Sacrifice Implements of Sacrifice: Add two mana of any one color to your mana pool."
+      "{1}, {T}, Sacrifice Implements of Sacrifice: Add two mana of any one color."
     ],
     "flavor_text": "Relics of the Order of the Ebon Hand, the bowl and dagger bespeak the hideous cruelty of its rituals.",
     "power": null,
@@ -2880,7 +2880,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{1}: Add {B} to your mana pool. If this ability has been activated four or more times this turn, sacrifice Initiates of the Ebon Hand at the beginning of the next end step."
+      "{1}: Add {B}. If this ability has been activated four or more times this turn, sacrifice Initiates of the Ebon Hand at the beginning of the next end step."
     ],
     "flavor_text": "\"We are no longer Nature's children, but her masters . . . .\"\n—Oath of the Ebon Hand",
     "power": "1",
@@ -2906,7 +2906,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{1}: Add {B} to your mana pool. If this ability has been activated four or more times this turn, sacrifice Initiates of the Ebon Hand at the beginning of the next end step."
+      "{1}: Add {B}. If this ability has been activated four or more times this turn, sacrifice Initiates of the Ebon Hand at the beginning of the next end step."
     ],
     "flavor_text": "Ebon leaders soon realized that non-human races often had special talents that could be exploited.",
     "power": "1",
@@ -2932,7 +2932,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{1}: Add {B} to your mana pool. If this ability has been activated four or more times this turn, sacrifice Initiates of the Ebon Hand at the beginning of the next end step."
+      "{1}: Add {B}. If this ability has been activated four or more times this turn, sacrifice Initiates of the Ebon Hand at the beginning of the next end step."
     ],
     "flavor_text": "\"Many Initiates sacrificed a hand to become full members of the Order.\"\n—Sarpadian Empires, vol. II",
     "power": "1",
@@ -2961,7 +2961,7 @@
       "Enchant creature",
       "Merseine enters the battlefield with three net counters on it.",
       "Enchanted creature doesn't untap during its controller's untap step if Merseine has a net counter on it.",
-      "Pay enchanted creature's mana cost: Remove a net counter from Merseine. Any player may activate this ability, but only if he or she controls the enchanted creature."
+      "Pay enchanted creature's mana cost: Remove a net counter from Merseine. Only the controller of the enchanted creature may activate this ability."
     ],
     "flavor_text": null,
     "power": null,
@@ -2990,7 +2990,7 @@
       "Enchant creature",
       "Merseine enters the battlefield with three net counters on it.",
       "Enchanted creature doesn't untap during its controller's untap step if Merseine has a net counter on it.",
-      "Pay enchanted creature's mana cost: Remove a net counter from Merseine. Any player may activate this ability, but only if he or she controls the enchanted creature."
+      "Pay enchanted creature's mana cost: Remove a net counter from Merseine. Only the controller of the enchanted creature may activate this ability."
     ],
     "flavor_text": null,
     "power": null,
@@ -3019,7 +3019,7 @@
       "Enchant creature",
       "Merseine enters the battlefield with three net counters on it.",
       "Enchanted creature doesn't untap during its controller's untap step if Merseine has a net counter on it.",
-      "Pay enchanted creature's mana cost: Remove a net counter from Merseine. Any player may activate this ability, but only if he or she controls the enchanted creature."
+      "Pay enchanted creature's mana cost: Remove a net counter from Merseine. Only the controller of the enchanted creature may activate this ability."
     ],
     "flavor_text": null,
     "power": null,
@@ -3048,7 +3048,7 @@
       "Enchant creature",
       "Merseine enters the battlefield with three net counters on it.",
       "Enchanted creature doesn't untap during its controller's untap step if Merseine has a net counter on it.",
-      "Pay enchanted creature's mana cost: Remove a net counter from Merseine. Any player may activate this ability, but only if he or she controls the enchanted creature."
+      "Pay enchanted creature's mana cost: Remove a net counter from Merseine. Only the controller of the enchanted creature may activate this ability."
     ],
     "flavor_text": null,
     "power": null,
@@ -3722,7 +3722,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Raiding Party can't be the target of white spells or abilities from white sources.",
-      "Sacrifice an Orc: Each player may tap any number of untapped white creatures he or she controls. For each creature tapped this way, that player chooses up to two Plains. Then destroy all Plains that weren't chosen this way by any player."
+      "Sacrifice an Orc: Each player may tap any number of untapped white creatures they control. For each creature tapped this way, that player chooses up to two Plains. Then destroy all Plains that weren't chosen this way by any player."
     ],
     "flavor_text": null,
     "power": null,
@@ -3746,7 +3746,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add one mana of any color to your mana pool. An opponent gains control of Rainbow Vale at the beginning of the next end step."
+      "{T}: Add one mana of any color. An opponent gains control of Rainbow Vale at the beginning of the next end step."
     ],
     "flavor_text": "In the feudal days of Icatia, finding the Rainbow Vale was often the goal of Knights' quests.",
     "power": null,
@@ -3821,8 +3821,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Ruins of Trokair enters the battlefield tapped.",
-      "{T}: Add {W} to your mana pool.",
-      "{T}, Sacrifice Ruins of Trokair: Add {W}{W} to your mana pool."
+      "{T}: Add {W}.",
+      "{T}, Sacrifice Ruins of Trokair: Add {W}{W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -3849,7 +3849,7 @@
       "Sand Silos enters the battlefield tapped.",
       "You may choose not to untap Sand Silos during your untap step.",
       "At the beginning of your upkeep, if Sand Silos is tapped, put a storage counter on it.",
-      "{T}, Remove any number of storage counters from Sand Silos: Add {U} to your mana pool for each storage counter removed this way."
+      "{T}, Remove any number of storage counters from Sand Silos: Add {U} for each storage counter removed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -3901,7 +3901,7 @@
     "mana_cost": "BB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Soul Exchange, exile a creature you control.",
+      "As an additional cost to cast this spell, exile a creature you control.",
       "Return target creature card from your graveyard to the battlefield. Put a +2/+2 counter on that creature if the exiled creature was a Thrull."
     ],
     "flavor_text": null,
@@ -4078,8 +4078,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Svyelunite Temple enters the battlefield tapped.",
-      "{T}: Add {U} to your mana pool.",
-      "{T}, Sacrifice Svyelunite Temple: Add {U}{U} to your mana pool."
+      "{T}: Add {U}.",
+      "{T}, Sacrifice Svyelunite Temple: Add {U}{U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4296,7 +4296,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "At the beginning of your upkeep, sacrifice Thelon's Chant unless you pay {G}.",
-      "Whenever a player puts a Swamp onto the battlefield, Thelon's Chant deals 3 damage to that player unless he or she puts a -1/-1 counter on a creature he or she controls."
+      "Whenever a player puts a Swamp onto the battlefield, Thelon's Chant deals 3 damage to that player unless the player puts a -1/-1 counter on a creature they control."
     ],
     "flavor_text": null,
     "power": null,
@@ -4321,7 +4321,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Blue creatures don't untap during their controllers' untap steps.",
-      "At the beginning of each player's upkeep, that player may choose any number of tapped blue creatures he or she controls and pay {U} for each creature chosen this way. If the player does, untap those creatures."
+      "At the beginning of each player's upkeep, that player may choose any number of tapped blue creatures they control and pay {U} for each creature chosen this way. If the player does, untap those creatures."
     ],
     "flavor_text": null,
     "power": null,
@@ -4348,7 +4348,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "At the beginning of your upkeep, put a spore counter on Thorn Thallid.",
-      "Remove three spore counters from Thorn Thallid: Thorn Thallid deals 1 damage to target creature or player."
+      "Remove three spore counters from Thorn Thallid: Thorn Thallid deals 1 damage to any target."
     ],
     "flavor_text": "\"The danger in cultivating massive plants caught the elves by surprise.\"\n—Sarpadian Empires, vol. III",
     "power": "2",
@@ -4375,7 +4375,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "At the beginning of your upkeep, put a spore counter on Thorn Thallid.",
-      "Remove three spore counters from Thorn Thallid: Thorn Thallid deals 1 damage to target creature or player."
+      "Remove three spore counters from Thorn Thallid: Thorn Thallid deals 1 damage to any target."
     ],
     "flavor_text": "\"I don't know which is worse, getting hit with those darts or having to watch them grow back.\"\n—Orcish Soldier",
     "power": "2",
@@ -4402,7 +4402,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "At the beginning of your upkeep, put a spore counter on Thorn Thallid.",
-      "Remove three spore counters from Thorn Thallid: Thorn Thallid deals 1 damage to target creature or player."
+      "Remove three spore counters from Thorn Thallid: Thorn Thallid deals 1 damage to any target."
     ],
     "flavor_text": "\"Scholars still debate whether the Thallids were truly sentient.\"\n—Sarpadian Empires, vol. III",
     "power": "2",
@@ -4429,7 +4429,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "At the beginning of your upkeep, put a spore counter on Thorn Thallid.",
-      "Remove three spore counters from Thorn Thallid: Thorn Thallid deals 1 damage to target creature or player."
+      "Remove three spore counters from Thorn Thallid: Thorn Thallid deals 1 damage to any target."
     ],
     "flavor_text": "\"The cooling climate forced the Elves to experiment with new food sources.\"\n—Sarpadian Empires, vol. I",
     "power": "2",
@@ -4535,7 +4535,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{U}{U}: For each attacking creature without flying, its controller may pay {1}. If he or she doesn't, creatures you control blocking that creature gain first strike until end of turn."
+      "{U}{U}: For each attacking creature without flying, its controller may pay {1}. If that player doesn't, creatures you control blocking that creature gain first strike until end of turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -4559,7 +4559,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{U}{U}: For each attacking creature without flying, its controller may pay {1}. If he or she doesn't, creatures you control blocking that creature gain first strike until end of turn."
+      "{U}{U}: For each attacking creature without flying, its controller may pay {1}. If that player doesn't, creatures you control blocking that creature gain first strike until end of turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -4583,7 +4583,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{U}{U}: For each attacking creature without flying, its controller may pay {1}. If he or she doesn't, creatures you control blocking that creature gain first strike until end of turn."
+      "{U}{U}: For each attacking creature without flying, its controller may pay {1}. If that player doesn't, creatures you control blocking that creature gain first strike until end of turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -4607,7 +4607,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Cast Tidal Influence only if no permanents named Tidal Influence are on the battlefield.",
+      "Cast this spell only if no permanents named Tidal Influence are on the battlefield.",
       "Tidal Influence enters the battlefield with a tide counter on it.",
       "At the beginning of your upkeep, put a tide counter on Tidal Influence.",
       "As long as there is exactly one tide counter on Tidal Influence, all blue creatures get -2/-0.",
@@ -4637,7 +4637,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "At the beginning of your upkeep, sacrifice Tourach's Chant unless you pay {B}.",
-      "Whenever a player puts a Forest onto the battlefield, Tourach's Chant deals 3 damage to that player unless he or she puts a -1/-1 counter on a creature he or she controls."
+      "Whenever a player puts a Forest onto the battlefield, Tourach's Chant deals 3 damage to that player unless they put a -1/-1 counter on a creature they control."
     ],
     "flavor_text": null,
     "power": null,

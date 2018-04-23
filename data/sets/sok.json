@@ -150,7 +150,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Cast Curtain of Light only during combat after blockers are declared.",
+      "Cast this spell only during combat after blockers are declared.",
       "Target unblocked attacking creature becomes blocked. (This spell works on creatures that can't be blocked.)",
       "Draw a card."
     ],
@@ -852,7 +852,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "Whenever you cast a Spirit or Arcane spell, you may have target player put the top X cards of his or her library into his or her graveyard, where X is that spell's converted mana cost."
+      "Whenever you cast a Spirit or Arcane spell, you may have target player put the top X cards of their library into their graveyard, where X is that spell's converted mana cost."
     ],
     "flavor_text": null,
     "power": "4",
@@ -987,7 +987,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever an opponent casts his or her first spell each turn, counter that spell."
+      "Whenever an opponent casts their first spell each turn, counter that spell."
     ],
     "flavor_text": null,
     "power": null,
@@ -1011,7 +1011,7 @@
     "mana_cost": "7UUU",
     "converted_mana_cost": 10,
     "oracle_text": [
-      "Search target opponent's library for an artifact, creature, enchantment, or land card. Put that card onto the battlefield under your control. Then that player shuffles his or her library.",
+      "Search target opponent's library for an artifact, creature, enchantment, or land card. Put that card onto the battlefield under your control. Then that player shuffles their library.",
       "Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose a new target for the copy.)"
     ],
     "flavor_text": null,
@@ -1989,7 +1989,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Flying",
-      "Whenever you cast a Spirit or Arcane spell, target player reveals his or her hand and discards all cards with that spell's converted mana cost."
+      "Whenever you cast a Spirit or Arcane spell, target player reveals their hand and discards all cards with that spell's converted mana cost."
     ],
     "flavor_text": "The kirin bellowed—an echoing, twisted parody of its once-inspirational call.",
     "power": "3",
@@ -2312,7 +2312,7 @@
     "mana_cost": "4BB",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Search target player's library for X cards, where X is the number of cards in your hand, and exile them. Then that player shuffles his or her library.",
+      "Search target player's library for X cards, where X is the number of cards in your hand, and exile them. Then that player shuffles their library.",
       "Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose a new target for the copy.)"
     ],
     "flavor_text": null,
@@ -2631,7 +2631,7 @@
     "mana_cost": "2RR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Burning-Eye Zubera dies, if 4 or more damage was dealt to it this turn, Burning-Eye Zubera deals 3 damage to target creature or player."
+      "When Burning-Eye Zubera dies, if 4 or more damage was dealt to it this turn, Burning-Eye Zubera deals 3 damage to any target."
     ],
     "flavor_text": null,
     "power": "3",
@@ -2732,7 +2732,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "{2}{R}, {T}: Ghost-Lit Raider deals 2 damage to target creature.",
-      "Channel — {3}{R}, Discard Ghost-Lit Raider: Ghost-Lit Raider deals 4 damage to target creature."
+      "Channel — {3}{R}, Discard Ghost-Lit Raider: It deals 4 damage to target creature."
     ],
     "flavor_text": null,
     "power": "2",
@@ -2918,7 +2918,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Add {R} to your mana pool for each card in your hand."
+      "Add {R} for each card in your hand."
     ],
     "flavor_text": "\"Heart of Sokenzan, I call to you! Lend me your fire.\"",
     "power": null,
@@ -3052,7 +3052,7 @@
     "mana_cost": "5R",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Exile the top card of your library. Exile the top card of your library. Exile the top card of your library. If the last card exiled isn't a land, repeat this process. Create a 1/1 red Warrior creature token for each nonland card exiled this way."
+      "Exile the top card of your library. Exile the top card of your library. Exile the top card of your library. If the last card exiled isn't a land card, repeat this process. Create a 1/1 red Warrior creature token for each nonland card exiled this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -3220,7 +3220,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Spiraling Embers deals damage to target creature or player equal to the number of cards in your hand."
+      "Spiraling Embers deals damage to any target equal to the number of cards in your hand."
     ],
     "flavor_text": "The akki knew to stay indoors on the days the oni flew their kites.",
     "power": null,
@@ -3294,7 +3294,7 @@
     "mana_cost": "4RR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Exile cards from the top of your library until you exile a nonland card. Undying Flames deals damage to target creature or player equal to that card's converted mana cost.",
+      "Exile cards from the top of your library until you exile a nonland card. Undying Flames deals damage to any target equal to that card's converted mana cost.",
       "Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose a new target for the copy.)"
     ],
     "flavor_text": null,
@@ -4024,7 +4024,7 @@
     "mana_cost": "1GG",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever a land you control is tapped for mana, for each other land you control with the same name, add one mana to your mana pool of any type that land produced."
+      "Whenever a land you control is tapped for mana, add an additional one mana of any type that land produced for each other land you control with the same name as it."
     ],
     "flavor_text": null,
     "power": null,
@@ -4235,7 +4235,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "At the beginning of each player's upkeep, that player returns a permanent he or she controls to its owner's hand unless he or she pays 2 life."
+      "At the beginning of each player's upkeep, that player returns a permanent they control to its owner's hand unless they pay 2 life."
     ],
     "flavor_text": "In an age of war, time is measured not by sand but by blood.",
     "power": null,
@@ -4259,7 +4259,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "At the beginning of each opponent's upkeep, if that player has seven or more cards in hand, Ebony Owl Netsuke deals 4 damage to him or her."
+      "At the beginning of each opponent's upkeep, if that player has seven or more cards in hand, Ebony Owl Netsuke deals 4 damage to that player."
     ],
     "flavor_text": "\"Owls filled the skies during the Kami War, harbingers of darker times to come.\"\n—The History of Kamigawa",
     "power": null,
@@ -4462,7 +4462,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{2}, {T}: Each player draws a card."
     ],
     "flavor_text": "\"Center of the Sea, Eye of the World, Shrine of Enlightenment. Seek it for answers. Seek it for healing. Seek it and return transformed.\"\n—Scroll fragment from the ruins of Minamo",
@@ -4489,7 +4489,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{3}, {T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness."
     ],
     "flavor_text": null,
@@ -4516,7 +4516,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {U} to your mana pool.",
+      "{T}: Add {U}.",
       "{1}: Return Oboro, Palace in the Clouds to its owner's hand."
     ],
     "flavor_text": "Here the soratami wove their endless plots—graceful, artful, and deceitful, while the unwitting world moved below.",
@@ -4543,7 +4543,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {B} to your mana pool. Tomb of Urami deals 1 damage to you if you don't control an Ogre.",
+      "{T}: Add {B}. Tomb of Urami deals 1 damage to you if you don't control an Ogre.",
       "{2}{B}{B}, {T}, Sacrifice all lands you control: Create a legendary 5/5 black Demon Spirit creature token with flying named Urami."
     ],
     "flavor_text": null,

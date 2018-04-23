@@ -17,7 +17,7 @@
     "mana_cost": "8",
     "converted_mana_cost": 8,
     "oracle_text": [
-      "+2: Ugin, the Spirit Dragon deals 3 damage to target creature or player.",
+      "+2: Ugin, the Spirit Dragon deals 3 damage to any target.",
       "−X: Exile each permanent with converted mana cost X or less that's one or more colors.",
       "−10: You gain 7 life, draw seven cards, then put up to seven permanent cards from your hand onto the battlefield."
     ],
@@ -894,7 +894,7 @@
     "oracle_text": [
       "Choose one —",
       "• Each player draws X cards.",
-      "• Each player puts the top X cards of his or her library into his or her graveyard."
+      "• Each player puts the top X cards of their library into their graveyard."
     ],
     "flavor_text": null,
     "power": null,
@@ -1087,7 +1087,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "Whenever Mindscour Dragon deals combat damage to an opponent, target player puts the top four cards of his or her library into his or her graveyard."
+      "Whenever Mindscour Dragon deals combat damage to an opponent, target player puts the top four cards of their library into their graveyard."
     ],
     "flavor_text": "\"The bells may one day ring as an anthem of our own end.\"\n—Kyu, Sage-Eye mystic",
     "power": "4",
@@ -1213,7 +1213,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Exile target creature. Its controller manifests the top card of his or her library. (That player puts the top card of his or her library onto the battlefield face down as a 2/2 creature. If it's a creature card, it can be turned face up any time for its mana cost.)"
+      "Exile target creature. Its controller manifests the top card of their library. (That player puts the top card of their library onto the battlefield face down as a 2/2 creature. If it's a creature card, it can be turned face up any time for its mana cost.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1265,7 +1265,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {C}{C} to your mana pool. Spend this mana only to cast artifact spells or activate abilities of artifacts.",
+      "{T}: Add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.",
       "{U}, {T}: Search your library for a card named Heart-Piercer Bow or Vial of Dragonfire, reveal it, put it into your hand, then shuffle your library."
     ],
     "flavor_text": null,
@@ -1632,7 +1632,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "At the beginning of each opponent's end step, that player chooses up to two creatures he or she controls, then sacrifices the rest."
+      "At the beginning of each opponent's end step, that player chooses up to two creatures they control, then sacrifices the rest."
     ],
     "flavor_text": "\"Why would I kill you all? Who then would be left to worship me?\"",
     "power": "5",
@@ -1737,7 +1737,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Each player discards all the cards in his or her hand, then draws that many cards minus one."
+      "Each player discards all the cards in their hand, then draws that many cards minus one."
     ],
     "flavor_text": "The first khans of the Sultai relied on the magic of the rakshasa to ensure the survival of the clan.",
     "power": null,
@@ -1761,7 +1761,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target opponent reveals his or her hand. You choose a nonland card from it. That player discards that card. If you control a Warrior, that player loses 2 life."
+      "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. If you control a Warrior, that player loses 2 life."
     ],
     "flavor_text": "\"Our emissaries are gifted negotiators.\"\n—Alesha, Who Smiles at Death",
     "power": null,
@@ -2153,7 +2153,7 @@
     "mana_cost": "4B",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "When Sibsig Host enters the battlefield, each player puts the top three cards of his or her library into his or her graveyard."
+      "When Sibsig Host enters the battlefield, each player puts the top three cards of their library into their graveyard."
     ],
     "flavor_text": "\"They were your friends, your family, your clan. They want only to welcome you.\"\n—Tasigur, the Golden Fang",
     "power": "2",
@@ -2496,8 +2496,8 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Collateral Damage, sacrifice a creature.",
-      "Collateral Damage deals 3 damage to target creature or player."
+      "As an additional cost to cast this spell, sacrifice a creature.",
+      "Collateral Damage deals 3 damage to any target."
     ],
     "flavor_text": "It is much easier to create fire than to contain it.",
     "power": null,
@@ -2550,7 +2550,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Add {R} to your mana pool for each attacking creature you control. Until end of turn, attacking creatures you control gain \"{R}: This creature gets +1/+0 until end of turn.\""
+      "Add {R} for each attacking creature you control. Until end of turn, attacking creatures you control gain \"{R}: This creature gets +1/+0 until end of turn.\""
     ],
     "flavor_text": "\"Dragons in the skies of Tarkir—for the first time, it feels like my home.\"\n—Sarkhan Vol",
     "power": null,
@@ -2654,7 +2654,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Target creature's controller reveals a card at random from his or her hand. Friendly Fire deals damage to that creature and that player equal to the revealed card's converted mana cost."
+      "Target creature's controller reveals a card at random from their hand. Friendly Fire deals damage to that creature and that player equal to the revealed card's converted mana cost."
     ],
     "flavor_text": "\"Never tell goblins to ‘fire at will.'\"\n—Urut Barzeel, Mardu hordechief",
     "power": null,
@@ -2786,7 +2786,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying, trample, haste",
-      "At the beginning of the end step, Lightning Shrieker's owner shuffles it into his or her library."
+      "At the beginning of the end step, Lightning Shrieker's owner shuffles it into their library."
     ],
     "flavor_text": "Dragonslayers learned to keep silent about their deeds after seeing the terrible vengeance wrought by Kolaghan and her brood.",
     "power": "5",
@@ -2893,7 +2893,7 @@
     "oracle_text": [
       "As Outpost Siege enters the battlefield, choose Khans or Dragons.",
       "• Khans — At the beginning of your upkeep, exile the top card of your library. Until end of turn, you may play that card.",
-      "• Dragons — Whenever a creature you control leaves the battlefield, Outpost Siege deals 1 damage to target creature or player."
+      "• Dragons — Whenever a creature you control leaves the battlefield, Outpost Siege deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -2917,7 +2917,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Pyrotechnics deals 4 damage divided as you choose among any number of target creatures and/or players."
+      "Pyrotechnics deals 4 damage divided as you choose among any number of targets."
     ],
     "flavor_text": "\"Take inspiration from your enemies, and make their strengths your own.\"\n—Alesha, Who Smiles at Death",
     "power": null,
@@ -3103,7 +3103,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Ferocious — If you control a creature with power 4 or greater, damage can't be prevented this turn.",
-      "Wild Slash deals 2 damage to target creature or player."
+      "Wild Slash deals 2 damage to any target."
     ],
     "flavor_text": "Never mistake deception for cleverness.",
     "power": null,
@@ -3444,7 +3444,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "As Frontier Siege enters the battlefield, choose Khans or Dragons.",
-      "• Khans — At the beginning of each of your main phases, add {G}{G} to your mana pool.",
+      "• Khans — At the beginning of each of your main phases, add {G}{G}.",
       "• Dragons — Whenever a creature with flying enters the battlefield under your control, you may have it fight target creature you don't control."
     ],
     "flavor_text": null,
@@ -3783,8 +3783,8 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool.",
-      "Ferocious — {T}: Add {G}{G} to your mana pool. Activate this ability only if you control a creature with power 4 or greater."
+      "{T}: Add {G}.",
+      "Ferocious — {T}: Add {G}{G}. Activate this ability only if you control a creature with power 4 or greater."
     ],
     "flavor_text": "She speaks only in whispers but can be heard over the fiercest storm.",
     "power": "0",
@@ -3943,7 +3943,7 @@
     "mana_cost": "3UR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Cunning Strike deals 2 damage to target creature and 2 damage to target player.",
+      "Cunning Strike deals 2 damage to target creature and 2 damage to target player or planeswalker.",
       "Draw a card."
     ],
     "flavor_text": "\"The opponent who blocks the path, becomes the path.\"\n—Shu Yun, the Silent Tempest",
@@ -4045,7 +4045,7 @@
     "mana_cost": "1WB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Harsh Sustenance deals X damage to target creature or player and you gain X life, where X is the number of creatures you control."
+      "Harsh Sustenance deals X damage to any target and you gain X life, where X is the number of creatures you control."
     ],
     "flavor_text": "The Shifting Wastes provide refuge to those who know where to look for it.",
     "power": null,
@@ -4182,7 +4182,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "At the beginning of your upkeep, sacrifice Goblin Boom Keg.",
-      "When Goblin Boom Keg is put into a graveyard from the battlefield, it deals 3 damage to target creature or player."
+      "When Goblin Boom Keg is put into a graveyard from the battlefield, it deals 3 damage to any target."
     ],
     "flavor_text": "Dragonfire spawned many imitations. Some were more dramatic than others.",
     "power": null,
@@ -4237,7 +4237,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Cast Hewed Stone Retainers only if you've cast another spell this turn."
+      "Cast this spell only if you've cast another spell this turn."
     ],
     "flavor_text": "\"Their origins are shrouded in mystery. I believe they are the protectors of the lost secrets of our world.\"\n—Jilaya, Temur whisperer",
     "power": "4",
@@ -4342,7 +4342,7 @@
     "oracle_text": [
       "Bloodfell Caves enters the battlefield tapped.",
       "When Bloodfell Caves enters the battlefield, you gain 1 life.",
-      "{T}: Add {B} or {R} to your mana pool."
+      "{T}: Add {B} or {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4368,7 +4368,7 @@
     "oracle_text": [
       "Blossoming Sands enters the battlefield tapped.",
       "When Blossoming Sands enters the battlefield, you gain 1 life.",
-      "{T}: Add {G} or {W} to your mana pool."
+      "{T}: Add {G} or {W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4392,9 +4392,9 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}, {T}: Put a storage counter on Crucible of the Spirit Dragon.",
-      "{T}, Remove X storage counters from Crucible of the Spirit Dragon: Add X mana in any combination of colors to your mana pool. Spend this mana only to cast Dragon spells or activate abilities of Dragons."
+      "{T}, Remove X storage counters from Crucible of the Spirit Dragon: Add X mana in any combination of colors. Spend this mana only to cast Dragon spells or activate abilities of Dragons."
     ],
     "flavor_text": null,
     "power": null,
@@ -4420,7 +4420,7 @@
     "oracle_text": [
       "Dismal Backwater enters the battlefield tapped.",
       "When Dismal Backwater enters the battlefield, you gain 1 life.",
-      "{T}: Add {U} or {B} to your mana pool."
+      "{T}: Add {U} or {B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4446,7 +4446,7 @@
     "oracle_text": [
       "Jungle Hollow enters the battlefield tapped.",
       "When Jungle Hollow enters the battlefield, you gain 1 life.",
-      "{T}: Add {B} or {G} to your mana pool."
+      "{T}: Add {B} or {G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4472,7 +4472,7 @@
     "oracle_text": [
       "Rugged Highlands enters the battlefield tapped.",
       "When Rugged Highlands enters the battlefield, you gain 1 life.",
-      "{T}: Add {R} or {G} to your mana pool."
+      "{T}: Add {R} or {G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4498,7 +4498,7 @@
     "oracle_text": [
       "Scoured Barrens enters the battlefield tapped.",
       "When Scoured Barrens enters the battlefield, you gain 1 life.",
-      "{T}: Add {W} or {B} to your mana pool."
+      "{T}: Add {W} or {B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4524,7 +4524,7 @@
     "oracle_text": [
       "Swiftwater Cliffs enters the battlefield tapped.",
       "When Swiftwater Cliffs enters the battlefield, you gain 1 life.",
-      "{T}: Add {U} or {R} to your mana pool."
+      "{T}: Add {U} or {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4550,7 +4550,7 @@
     "oracle_text": [
       "Thornwood Falls enters the battlefield tapped.",
       "When Thornwood Falls enters the battlefield, you gain 1 life.",
-      "{T}: Add {G} or {U} to your mana pool."
+      "{T}: Add {G} or {U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4576,7 +4576,7 @@
     "oracle_text": [
       "Tranquil Cove enters the battlefield tapped.",
       "When Tranquil Cove enters the battlefield, you gain 1 life.",
-      "{T}: Add {W} or {U} to your mana pool."
+      "{T}: Add {W} or {U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4602,7 +4602,7 @@
     "oracle_text": [
       "Wind-Scarred Crag enters the battlefield tapped.",
       "When Wind-Scarred Crag enters the battlefield, you gain 1 life.",
-      "{T}: Add {R} or {W} to your mana pool."
+      "{T}: Add {R} or {W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -4630,7 +4630,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4658,7 +4658,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4686,7 +4686,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4714,7 +4714,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4742,7 +4742,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4770,7 +4770,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4798,7 +4798,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4826,7 +4826,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4854,7 +4854,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4882,7 +4882,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,

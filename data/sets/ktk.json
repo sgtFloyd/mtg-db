@@ -1281,7 +1281,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Flash",
-      "Pearl Lake Ancient can't be countered.",
+      "This spell can't be countered.",
       "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
       "Return three lands you control to their owner's hand: Return Pearl Lake Ancient to its owner's hand."
     ],
@@ -1362,7 +1362,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Flying",
-      "{2}{R}, Sacrifice Scaldkin: Scaldkin deals 2 damage to target creature or player."
+      "{2}{R}, Sacrifice Scaldkin: Scaldkin deals 2 damage to any target."
     ],
     "flavor_text": "The Temur believe that scaldkin are born when eruptions melt the frozen whispers of sleeping ancestors.",
     "power": "2",
@@ -1799,7 +1799,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target opponent reveals his or her hand. You choose a creature or planeswalker card from it. That player discards that card."
+      "Target opponent reveals their hand. You choose a creature or planeswalker card from it. That player discards that card."
     ],
     "flavor_text": "\"You have returned from fire, traitor. This time I will see you leave as ashes.\"\n—Zurgo, to Sarkhan Vol",
     "power": null,
@@ -2536,7 +2536,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Arc Lightning deals 3 damage divided as you choose among one, two, or three target creatures and/or players."
+      "Arc Lightning deals 3 damage divided as you choose among one, two, or three targets."
     ],
     "flavor_text": "Lightning burns its own path.",
     "power": null,
@@ -2560,8 +2560,8 @@
     "mana_cost": "3RR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Arrow Storm deals 4 damage to target creature or player.",
-      "Raid — If you attacked with a creature this turn, instead Arrow Storm deals 5 damage to that creature or player and the damage can't be prevented."
+      "Arrow Storm deals 4 damage to any target.",
+      "Raid — If you attacked with a creature this turn, instead Arrow Storm deals 5 damage to that permanent or player and the damage can't be prevented."
     ],
     "flavor_text": "First the thunder, then the rain.",
     "power": null,
@@ -2768,8 +2768,8 @@
     "mana_cost": "XR",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Crater's Claws deals X damage to target creature or player.",
-      "Ferocious — Crater's Claws deals X plus 2 damage to that creature or player instead if you control a creature with power 4 or greater."
+      "Crater's Claws deals X damage to any target.",
+      "Ferocious — Crater's Claws deals X plus 2 damage to that permanent or player instead if you control a creature with power 4 or greater."
     ],
     "flavor_text": null,
     "power": null,
@@ -3036,7 +3036,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Raid — When Mardu Heart-Piercer enters the battlefield, if you attacked with a creature this turn, Mardu Heart-Piercer deals 2 damage to target creature or player."
+      "Raid — When Mardu Heart-Piercer enters the battlefield, if you attacked with a creature this turn, Mardu Heart-Piercer deals 2 damage to any target."
     ],
     "flavor_text": "\"Those who have never ridden before the wind do not know the true joy of war.\"",
     "power": "2",
@@ -3063,7 +3063,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Raid — When Mardu Warshrieker enters the battlefield, if you attacked with a creature this turn, add {R}{W}{B} to your mana pool."
+      "Raid — When Mardu Warshrieker enters the battlefield, if you attacked with a creature this turn, add {R}{W}{B}."
     ],
     "flavor_text": "\"No body can contain so much fury. It reminds me of another battle, long past.\"\n—Sarkhan Vol",
     "power": "3",
@@ -3217,7 +3217,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Tormenting Voice, discard a card.",
+      "As an additional cost to cast this spell, discard a card.",
       "Draw two cards."
     ],
     "flavor_text": "\"Unwelcome thoughts crowd my mind. Are they my own madness, or the whispers of another?\"\n—Sarkhan Vol",
@@ -3767,9 +3767,9 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {G}, {U}, or {R} to your mana pool.",
+      "{T}: Add {G}, {U}, or {R}.",
       "Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
-      "When Rattleclaw Mystic is turned face up, add {G}{U}{R} to your mana pool."
+      "When Rattleclaw Mystic is turned face up, add {G}{U}{R}."
     ],
     "flavor_text": null,
     "power": "2",
@@ -4481,7 +4481,7 @@
     "mana_cost": "RWB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Crackling Doom deals 2 damage to each opponent. Each opponent sacrifices a creature with the greatest power among creatures he or she controls."
+      "Crackling Doom deals 2 damage to each opponent. Each opponent sacrifices a creature with the greatest power among creatures that player controls."
     ],
     "flavor_text": "Do not fear the lightning. Fear the one it obeys.",
     "power": null,
@@ -4738,7 +4738,7 @@
     "oracle_text": [
       "Choose one —",
       "• Put target creature on top of its owner's library.",
-      "• Jeskai Charm deals 4 damage to target opponent.",
+      "• Jeskai Charm deals 4 damage to target opponent or planeswalker.",
       "• Creatures you control get +1/+1 and gain lifelink until end of turn."
     ],
     "flavor_text": null,
@@ -4869,7 +4869,7 @@
       "Choose one —",
       "• Mardu Charm deals 4 damage to target creature.",
       "• Create two 1/1 white Warrior creature tokens. They gain first strike until end of turn.",
-      "• Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card."
+      "• Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card."
     ],
     "flavor_text": null,
     "power": null,
@@ -4920,7 +4920,7 @@
     "mana_cost": "3UR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Draw a card. Master the Way deals damage to target creature or player equal to the number of cards in your hand."
+      "Draw a card. Master the Way deals damage to any target equal to the number of cards in your hand."
     ],
     "flavor_text": "\"The Way has no beginning and no end. It is simply the path.\"\n—Narset, khan of the Jeskai",
     "power": null,
@@ -5413,7 +5413,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flash",
-      "Surrak Dragonclaw can't be countered.",
+      "This spell can't be countered.",
       "Creature spells you control can't be countered.",
       "Other creatures you control have trample."
     ],
@@ -5539,7 +5539,7 @@
     "mana_cost": "XBGU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target opponent exiles the top X cards of his or her library. You may cast any number of nonland cards with converted mana cost X or less from among them without paying their mana costs."
+      "Target opponent exiles the top X cards of their library. You may cast any number of nonland cards with converted mana cost X or less from among them without paying their mana costs."
     ],
     "flavor_text": "Gold buys death. Death earns gold.",
     "power": null,
@@ -5648,7 +5648,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {W}, {B}, or {G} to your mana pool.",
+      "{T}: Add {W}, {B}, or {G}.",
       "{W}{B}{G}, {T}, Sacrifice Abzan Banner: Draw a card."
     ],
     "flavor_text": "Stone to endure, roots to remember.",
@@ -5673,7 +5673,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Whenever another permanent enters the battlefield under your control, each opponent puts the top card of his or her library into his or her graveyard."
+      "Whenever another permanent enters the battlefield under your control, each opponent puts the top card of their library into their graveyard."
     ],
     "flavor_text": "Supplicants offer flesh and silver, flowers and blood. The altar takes what it will, eyes gleaming with unspoken promises.",
     "power": null,
@@ -5722,7 +5722,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}, Exile Cranial Archive: Target player shuffles his or her graveyard into his or her library. Draw a card."
+      "{2}, Exile Cranial Archive: Target player shuffles their graveyard into their library. Draw a card."
     ],
     "flavor_text": "The greatest idea the zombie ever had in its head wasn't even its own.",
     "power": null,
@@ -5830,7 +5830,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {U}, {R}, or {W} to your mana pool.",
+      "{T}: Add {U}, {R}, or {W}.",
       "{U}{R}{W}, {T}, Sacrifice Jeskai Banner: Draw a card."
     ],
     "flavor_text": "Discipline to persevere, insight to discover.",
@@ -5879,7 +5879,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {R}, {W}, or {B} to your mana pool.",
+      "{T}: Add {R}, {W}, or {B}.",
       "{R}{W}{B}, {T}, Sacrifice Mardu Banner: Draw a card."
     ],
     "flavor_text": "Speed to strike, fury to smash.",
@@ -5904,7 +5904,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {B}, {G}, or {U} to your mana pool.",
+      "{T}: Add {B}, {G}, or {U}.",
       "{B}{G}{U}, {T}, Sacrifice Sultai Banner: Draw a card."
     ],
     "flavor_text": "Power to dominate, cruelty to rule.",
@@ -5929,7 +5929,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {G}, {U}, or {R} to your mana pool.",
+      "{T}: Add {G}, {U}, or {R}.",
       "{G}{U}{R}, {T}, Sacrifice Temur Banner: Draw a card."
     ],
     "flavor_text": "Savagery to survive, courage to triumph.",
@@ -6010,7 +6010,7 @@
     "oracle_text": [
       "Bloodfell Caves enters the battlefield tapped.",
       "When Bloodfell Caves enters the battlefield, you gain 1 life.",
-      "{T}: Add {B} or {R} to your mana pool."
+      "{T}: Add {B} or {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6060,7 +6060,7 @@
     "oracle_text": [
       "Blossoming Sands enters the battlefield tapped.",
       "When Blossoming Sands enters the battlefield, you gain 1 life.",
-      "{T}: Add {G} or {W} to your mana pool."
+      "{T}: Add {G} or {W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6086,7 +6086,7 @@
     "oracle_text": [
       "Dismal Backwater enters the battlefield tapped.",
       "When Dismal Backwater enters the battlefield, you gain 1 life.",
-      "{T}: Add {U} or {B} to your mana pool."
+      "{T}: Add {U} or {B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6135,7 +6135,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Frontier Bivouac enters the battlefield tapped.",
-      "{T}: Add {G}, {U}, or {R} to your mana pool."
+      "{T}: Add {G}, {U}, or {R}."
     ],
     "flavor_text": "\"The most powerful dreams visit those who shelter in a dragon's skull.\"\n—Chianul, Who Whispers Twice",
     "power": null,
@@ -6161,7 +6161,7 @@
     "oracle_text": [
       "Jungle Hollow enters the battlefield tapped.",
       "When Jungle Hollow enters the battlefield, you gain 1 life.",
-      "{T}: Add {B} or {G} to your mana pool."
+      "{T}: Add {B} or {G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6186,7 +6186,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Mystic Monastery enters the battlefield tapped.",
-      "{T}: Add {U}, {R}, or {W} to your mana pool."
+      "{T}: Add {U}, {R}, or {W}."
     ],
     "flavor_text": "When asked how many paths reach enlightenment, the monk kicked a heap of sand. \"Count,\" he smiled, \"and then find more grains.\"",
     "power": null,
@@ -6211,7 +6211,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Nomad Outpost enters the battlefield tapped.",
-      "{T}: Add {R}, {W}, or {B} to your mana pool."
+      "{T}: Add {R}, {W}, or {B}."
     ],
     "flavor_text": "\"Only the weak imprison themselves behind walls. We live free under the wind, and our freedom makes us strong.\"\n—Zurgo, khan of the Mardu",
     "power": null,
@@ -6236,7 +6236,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Opulent Palace enters the battlefield tapped.",
-      "{T}: Add {B}, {G}, or {U} to your mana pool."
+      "{T}: Add {B}, {G}, or {U}."
     ],
     "flavor_text": "The dense jungle surrenders to a lush and lavish expanse. At its center uncoil the spires of Qarsi Palace.",
     "power": null,
@@ -6286,7 +6286,7 @@
     "oracle_text": [
       "Rugged Highlands enters the battlefield tapped.",
       "When Rugged Highlands enters the battlefield, you gain 1 life.",
-      "{T}: Add {R} or {G} to your mana pool."
+      "{T}: Add {R} or {G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6311,7 +6311,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Sandsteppe Citadel enters the battlefield tapped.",
-      "{T}: Add {W}, {B}, or {G} to your mana pool."
+      "{T}: Add {W}, {B}, or {G}."
     ],
     "flavor_text": "That which endures, survives.",
     "power": null,
@@ -6337,7 +6337,7 @@
     "oracle_text": [
       "Scoured Barrens enters the battlefield tapped.",
       "When Scoured Barrens enters the battlefield, you gain 1 life.",
-      "{T}: Add {W} or {B} to your mana pool."
+      "{T}: Add {W} or {B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6363,7 +6363,7 @@
     "oracle_text": [
       "Swiftwater Cliffs enters the battlefield tapped.",
       "When Swiftwater Cliffs enters the battlefield, you gain 1 life.",
-      "{T}: Add {U} or {R} to your mana pool."
+      "{T}: Add {U} or {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6389,7 +6389,7 @@
     "oracle_text": [
       "Thornwood Falls enters the battlefield tapped.",
       "When Thornwood Falls enters the battlefield, you gain 1 life.",
-      "{T}: Add {G} or {U} to your mana pool."
+      "{T}: Add {G} or {U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6413,7 +6413,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{2}, {T}: You gain 1 life for each colorless creature you control."
     ],
     "flavor_text": "\"The voice calls me here, yet I see only bones. Is this more dragon trickery?\"\n—Sarkhan Vol",
@@ -6440,7 +6440,7 @@
     "oracle_text": [
       "Tranquil Cove enters the battlefield tapped.",
       "When Tranquil Cove enters the battlefield, you gain 1 life.",
-      "{T}: Add {W} or {U} to your mana pool."
+      "{T}: Add {W} or {U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6466,7 +6466,7 @@
     "oracle_text": [
       "Wind-Scarred Crag enters the battlefield tapped.",
       "When Wind-Scarred Crag enters the battlefield, you gain 1 life.",
-      "{T}: Add {R} or {W} to your mana pool."
+      "{T}: Add {R} or {W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6542,7 +6542,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6570,7 +6570,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6598,7 +6598,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6626,7 +6626,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6654,7 +6654,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6682,7 +6682,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6710,7 +6710,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6738,7 +6738,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6766,7 +6766,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6794,7 +6794,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6822,7 +6822,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6850,7 +6850,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6878,7 +6878,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6906,7 +6906,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6934,7 +6934,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6962,7 +6962,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6990,7 +6990,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7018,7 +7018,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7046,7 +7046,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7074,7 +7074,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,

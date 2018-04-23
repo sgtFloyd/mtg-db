@@ -180,7 +180,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Mesmeric Fiend enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card.",
+      "When Mesmeric Fiend enters the battlefield, target opponent reveals their hand and you choose a nonland card from it. Exile that card.",
       "When Mesmeric Fiend leaves the battlefield, return the exiled card to its owner's hand."
     ],
     "flavor_text": null,
@@ -424,7 +424,7 @@
     "mana_cost": "4B",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "When Revenant Patriarch enters the battlefield, if {W} was spent to cast it, target player skips his or her next combat phase.",
+      "When Revenant Patriarch enters the battlefield, if {W} was spent to cast it, target player skips their next combat phase.",
       "Revenant Patriarch can't block."
     ],
     "flavor_text": null,
@@ -505,7 +505,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Kicker {2}{B} (You may pay an additional {2}{B} as you cast this spell.)",
-      "Target creature gets +3/+0 until end of turn. If Vampire's Bite was kicked, that creature gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)"
+      "Target creature gets +3/+0 until end of turn. If this spell was kicked, that creature gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -798,7 +798,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Target player loses 4 life and you gain 4 life.",
-      "Basic landcycling {1}{B} ({1}{B}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Basic landcycling {1}{B} ({1}{B}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -822,7 +822,7 @@
     "mana_cost": "XWB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Death Grasp deals X damage to target creature or player. You gain X life."
+      "Death Grasp deals X damage to any target. You gain X life."
     ],
     "flavor_text": "Plate mail, the skin of the chest, the rib cage, the heart—all useless against the mage who can reach directly for the soul.",
     "power": null,
@@ -870,8 +870,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {W} or {B} to your mana pool. Activate this ability only if you control a Swamp."
+      "{T}: Add {C}.",
+      "{T}: Add {W} or {B}. Activate this ability only if you control a Swamp."
     ],
     "flavor_text": null,
     "power": null,
@@ -899,7 +899,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -927,7 +927,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -955,7 +955,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1012,7 +1012,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "When Goblin Arsonist dies, you may have it deal 1 damage to target creature or player."
+      "When Goblin Arsonist dies, you may have it deal 1 damage to any target."
     ],
     "flavor_text": "With great power comes great risk of getting yourself killed.",
     "power": "1",
@@ -1038,7 +1038,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{R}, Sacrifice a creature: Scorched Rusalka deals 1 damage to target player."
+      "{R}, Sacrifice a creature: Scorched Rusalka deals 1 damage to target player or planeswalker."
     ],
     "flavor_text": "Each small blaze she sets jogs her memory, letting her piece together the mystery of her own fiery end.",
     "power": "1",
@@ -1147,7 +1147,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Vithian Stinger deals 1 damage to target creature or player.",
+      "{T}: Vithian Stinger deals 1 damage to any target.",
       "Unearth {1}{R} ({1}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"
     ],
     "flavor_text": null,
@@ -1202,7 +1202,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Coal Stoker enters the battlefield, if you cast it from your hand, add {R}{R}{R} to your mana pool."
+      "When Coal Stoker enters the battlefield, if you cast it from your hand, add {R}{R}{R}."
     ],
     "flavor_text": "\"The day is mine! I sent three such creatures against my foe, then watched as my magefire popped her soldiers like overripe spleenfruits.\"\n—Dobruk the Unstable, pyromancer",
     "power": "3",
@@ -1228,7 +1228,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Lavaborn Muse deals 3 damage to him or her."
+      "At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Lavaborn Muse deals 3 damage to that player."
     ],
     "flavor_text": "\"Her voice is disaster, painful and final.\"\n—Matoc, lavamancer",
     "power": "3",
@@ -1283,7 +1283,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Haste",
-      "Whenever a creature you control attacks, Hellrider deals 1 damage to defending player."
+      "Whenever a creature you control attacks, Hellrider deals 1 damage to the player or planeswalker it's attacking."
     ],
     "flavor_text": "\"Behind every devil's mayhem lurks a demon's scheme.\"\n—Rem Karolus, Blade of the Inquisitors",
     "power": "3",
@@ -1310,7 +1310,7 @@
     "mana_cost": "2RR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{R}, {T}, Sacrifice a creature: Skirsdag Cultist deals 2 damage to target creature or player."
+      "{R}, {T}, Sacrifice a creature: Skirsdag Cultist deals 2 damage to any target."
     ],
     "flavor_text": "\"Within blood is life. Within life is fire. Within fire is the path to our masters' glory!\"",
     "power": "2",
@@ -1391,7 +1391,7 @@
     "mana_cost": "5R",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "When Gang of Devils dies, it deals 3 damage divided as you choose among one, two, or three target creatures and/or players."
+      "When Gang of Devils dies, it deals 3 damage divided as you choose among one, two, or three targets."
     ],
     "flavor_text": "\"Well, how could I know they'd explode?\"\n—Gregel, township militia",
     "power": "3",
@@ -1440,7 +1440,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Blazing Salvo deals 3 damage to target creature unless that creature's controller has Blazing Salvo deal 5 damage to him or her."
+      "Blazing Salvo deals 3 damage to target creature unless that creature's controller has Blazing Salvo deal 5 damage to them."
     ],
     "flavor_text": "Barbarians equate courage with the ability to endure pain.",
     "power": null,
@@ -1513,7 +1513,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Geistflame deals 1 damage to target creature or player.",
+      "Geistflame deals 1 damage to any target.",
       "Flashback {3}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     ],
     "flavor_text": "Innistrad pyromancers find their best raw materials in the fury of the dead.",
@@ -1636,7 +1636,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Any player may have Browbeat deal 5 damage to him or her. If no one does, target player draws three cards."
+      "Any player may have Browbeat deal 5 damage to them. If no one does, target player draws three cards."
     ],
     "flavor_text": "\"Pained defiance or shameful surrender—every reaction is a pleasant surprise.\"\n—Tibalt",
     "power": null,
@@ -1660,7 +1660,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Any player may have Breaking Point deal 6 damage to him or her. If no one does, destroy all creatures. Creatures destroyed this way can't be regenerated."
+      "Any player may have Breaking Point deal 6 damage to them. If no one does, destroy all creatures. Creatures destroyed this way can't be regenerated."
     ],
     "flavor_text": "\"Enough!\"",
     "power": null,
@@ -1709,7 +1709,7 @@
     "mana_cost": "1BR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Blightning deals 3 damage to target player. That player discards two cards."
+      "Blightning deals 3 damage to target player or planeswalker. That player or that planeswalker's controller discards two cards."
     ],
     "flavor_text": "In the spirit of inquiry, Tibalt applied a battery of agony spells. They yielded nothing on the vampire's whereabouts, but the screams were reward enough.",
     "power": null,
@@ -1734,7 +1734,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "({2/R} can be paid with any two mana or with {R}. This card's converted mana cost is 6.)",
-      "Flame Javelin deals 4 damage to target creature or player."
+      "Flame Javelin deals 4 damage to any target."
     ],
     "flavor_text": "Gyara Spearhurler would have been renowned for her deadly accuracy, if it weren't for her deadly accuracy.",
     "power": null,
@@ -1782,7 +1782,7 @@
     "mana_cost": "XR",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Devil's Play deals X damage to target creature or player.",
+      "Devil's Play deals X damage to any target.",
       "Flashback {X}{R}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     ],
     "flavor_text": "A devil's hands are never idle.",
@@ -1809,7 +1809,7 @@
     "oracle_text": [
       "Akoum Refuge enters the battlefield tapped.",
       "When Akoum Refuge enters the battlefield, you gain 1 life.",
-      "{T}: Add {B} or {R} to your mana pool."
+      "{T}: Add {B} or {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -1835,7 +1835,7 @@
     "oracle_text": [
       "Rakdos Carnarium enters the battlefield tapped.",
       "When Rakdos Carnarium enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {B}{R} to your mana pool."
+      "{T}: Add {B}{R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -1863,7 +1863,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1891,7 +1891,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1919,7 +1919,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1947,7 +1947,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1975,7 +1975,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2003,7 +2003,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2031,7 +2031,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2059,7 +2059,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2087,7 +2087,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,

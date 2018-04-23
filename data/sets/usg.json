@@ -399,7 +399,7 @@
     "oracle_text": [
       "Choose one —",
       "• Target player gains 3 life.",
-      "• Prevent the next 3 damage that would be dealt to target creature or player this turn."
+      "• Prevent the next 3 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "\"Xantcha is recovering. The medicine is slow, but my magic would have killed her.\"\n—Serra, to Urza",
     "power": null,
@@ -1057,7 +1057,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Prevent the next 2 damage that would be dealt to target creature or player this turn."
+      "{T}: Prevent the next 2 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "Serra told them to guard Urza as he healed. Five years they stood.",
     "power": "1",
@@ -1084,7 +1084,7 @@
     "mana_cost": "1WW",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Sacrifice Sanctum Guardian: The next time a source of your choice would deal damage to target creature or player this turn, prevent that damage."
+      "Sacrifice Sanctum Guardian: The next time a source of your choice would deal damage to any target this turn, prevent that damage."
     ],
     "flavor_text": "\"Protect our mother in her womb.\"",
     "power": "1",
@@ -1217,7 +1217,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "At the beginning of your upkeep, you may put a verse counter on Serra's Hymn.",
-      "Sacrifice Serra's Hymn: Prevent the next X damage that would be dealt this turn to any number of target creatures and/or players, divided as you choose, where X is the number of verse counters on Serra's Hymn."
+      "Sacrifice Serra's Hymn: Prevent the next X damage that would be dealt this turn to any number of targets, divided as you choose, where X is the number of verse counters on Serra's Hymn."
     ],
     "flavor_text": null,
     "power": null,
@@ -1728,7 +1728,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Each player returns a creature he or she controls to its owner's hand."
+      "Each player returns a creature they control to its owner's hand."
     ],
     "flavor_text": "\". . . But I'm not tired!\"",
     "power": null,
@@ -1880,7 +1880,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Creatures and lands target opponent controls don't untap during his or her next untap step."
+      "Creatures and lands target opponent controls don't untap during their next untap step."
     ],
     "flavor_text": "The mage felt as though he'd been in the stasis suit for days. Upon his return, he found it was months.",
     "power": null,
@@ -1934,7 +1934,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Flying",
-      "When Gilded Drake enters the battlefield, exchange control of Gilded Drake and up to one target creature an opponent controls. If you don't make an exchange, sacrifice Gilded Drake. This ability can't be countered except by spells and abilities. (This effect lasts indefinitely.)"
+      "When Gilded Drake enters the battlefield, exchange control of Gilded Drake and up to one target creature an opponent controls. If you don't or can't make an exchange, sacrifice Gilded Drake. This ability still resolves if its target becomes illegal."
     ],
     "flavor_text": "Buyer beware.",
     "power": "3",
@@ -1987,7 +1987,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Enchant creature",
-      "Enchanted creature has \"{T}: This creature deals 1 damage to target creature or player.\""
+      "Enchanted creature has \"{T}: This creature deals 1 damage to any target.\""
     ],
     "flavor_text": "\"Books can be replaced; a prize student cannot. Be patient.\"\n—Urza, to Barrin",
     "power": null,
@@ -2279,7 +2279,7 @@
     "mana_cost": "XU",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Counter target spell unless its controller pays {X}. If he or she doesn't, that player taps all lands with mana abilities he or she controls and empties his or her mana pool."
+      "Counter target spell unless its controller pays {X}. If that player doesn't, they tap all lands with mana abilities they control and lose all unspent mana."
     ],
     "flavor_text": null,
     "power": null,
@@ -2306,7 +2306,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Enchant enchantment",
-      "At the beginning of the upkeep of enchanted enchantment's controller, that player loses 2 life unless he or she pays {2}.",
+      "At the beginning of the upkeep of enchanted enchantment's controller, that player loses 2 life unless they pay {2}.",
       "Cycling {2} ({2}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -2457,7 +2457,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Each player may put an artifact, creature, enchantment, or land card from his or her hand onto the battlefield."
+      "Each player may put an artifact, creature, enchantment, or land card from their hand onto the battlefield."
     ],
     "flavor_text": "At the academy, \"show and tell\" too often becomes \"run and hide.\"",
     "power": null,
@@ -2634,7 +2634,7 @@
     "mana_cost": "4UU",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Exile Time Spiral. Each player shuffles his or her graveyard and hand into his or her library, then draws seven cards. You untap up to six lands."
+      "Exile Time Spiral. Each player shuffles their graveyard and hand into their library, then draws seven cards. You untap up to six lands."
     ],
     "flavor_text": null,
     "power": null,
@@ -2827,7 +2827,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Each player discards his or her hand, then draws cards equal to the greatest number of cards a player discarded this way."
+      "Each player discards their hand, then draws cards equal to the greatest number of cards a player discarded this way."
     ],
     "flavor_text": "\"To fill your mind with knowledge, we must start by emptying it.\"\n—Barrin, master wizard",
     "power": null,
@@ -3009,7 +3009,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Sacrifice Blood Vassal: Add {B}{B} to your mana pool."
+      "Sacrifice Blood Vassal: Add {B}{B}."
     ],
     "flavor_text": "\"They are bred to suffer and born to die. Much like humans.\"\n—Gix, Yawgmoth praetor",
     "power": "2",
@@ -3160,7 +3160,7 @@
     "mana_cost": "5B",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Corrupt deals damage to target creature or player equal to the number of Swamps you control. You gain life equal to the damage dealt this way."
+      "Corrupt deals damage to any target equal to the number of Swamps you control. You gain life equal to the damage dealt this way."
     ],
     "flavor_text": "Yawgmoth brushed Urza's mind, and Urza's world convulsed.",
     "power": null,
@@ -3237,7 +3237,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Add {B}{B}{B} to your mana pool."
+      "Add {B}{B}{B}."
     ],
     "flavor_text": "\"From void evolved Phyrexia. Great Yawgmoth, Father of Machines, saw its perfection. Thus The Grand Evolution began.\"\n—Phyrexian Scriptures",
     "power": null,
@@ -3364,7 +3364,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card."
+      "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card."
     ],
     "flavor_text": "\"We decide who is worthy of our works.\"\n—Gix, Yawgmoth praetor",
     "power": null,
@@ -3415,7 +3415,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Each player puts a creature card from his or her graveyard onto the battlefield."
+      "Each player puts a creature card from their graveyard onto the battlefield."
     ],
     "flavor_text": "\"Death—an outmoded concept. We sleep, and we change.\"\n—Sitrik, birth priest",
     "power": null,
@@ -3517,7 +3517,7 @@
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Exile Ill-Gotten Gains. Each player discards his or her hand, then returns up to three cards from his or her graveyard to his or her hand."
+      "Exile Ill-Gotten Gains. Each player discards their hand, then returns up to three cards from their graveyard to their hand."
     ],
     "flavor_text": "Urza thought it a crusade. Xantcha knew it was a robbery.",
     "power": null,
@@ -3721,7 +3721,7 @@
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Choose a color. Target player reveals his or her hand and discards all cards of that color."
+      "Choose a color. Target player reveals their hand and discards all cards of that color."
     ],
     "flavor_text": "\"My finest warrior was lost to the Phyrexians. I pray that Lady Selenia died honorably.\"\n—Radiant, archangel",
     "power": null,
@@ -3824,7 +3824,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Priest of Gix enters the battlefield, add {B}{B}{B} to your mana pool."
+      "When Priest of Gix enters the battlefield, add {B}{B}{B}."
     ],
     "flavor_text": "\"Gix doesn't want a people to rule but puppets to entertain his madness.\"\n—Xantcha, Phyrexian outcast",
     "power": "2",
@@ -3848,7 +3848,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Until end of turn, lands you control gain \"Sacrifice this land: Add {B} to your mana pool.\""
+      "Until end of turn, lands you control gain \"Sacrifice this land: Add {B}.\""
     ],
     "flavor_text": "\"When I say it rained, it was not small drops, but a thick, greasy drool pouring from the heavens.\"\n—Urza, journal",
     "power": null,
@@ -4009,7 +4009,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "Discard a card: Add {B} to your mana pool."
+      "Discard a card: Add {B}."
     ],
     "flavor_text": "The first Yawgmoth priest to harness their power was rewarded with several unique mutilations.",
     "power": "3",
@@ -4324,7 +4324,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)",
-      "{T}: Add {B}{B}{B}{B} to your mana pool. Target opponent gains control of Witch Engine. (Activate this ability only any time you could cast an instant.)"
+      "{T}: Add {B}{B}{B}{B}. Target opponent gains control of Witch Engine. (Activate this ability only any time you could cast an instant.)"
     ],
     "flavor_text": null,
     "power": "4",
@@ -4397,7 +4397,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Acidic Soil deals damage to each player equal to the number of lands he or she controls."
+      "Acidic Soil deals damage to each player equal to the number of lands they control."
     ],
     "flavor_text": "Phyrexia had tried to take Urza's soul. He was relieved that Shiv tried to claim only his soles.",
     "power": null,
@@ -4421,7 +4421,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "At the beginning of each player's end step, Antagonism deals 2 damage to that player unless one of his or her opponents was dealt damage this turn."
+      "At the beginning of each player's end step, Antagonism deals 2 damage to that player unless one of their opponents was dealt damage this turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -4445,7 +4445,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Arc Lightning deals 3 damage divided as you choose among one, two, or three target creatures and/or players."
+      "Arc Lightning deals 3 damage divided as you choose among one, two, or three targets."
     ],
     "flavor_text": "Rainclouds don't last long in Shiv, but that doesn't stop the lightning.",
     "power": null,
@@ -5285,7 +5285,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Raze, sacrifice a land.",
+      "As an additional cost to cast this spell, sacrifice a land.",
       "Destroy target land."
     ],
     "flavor_text": "The viashino believe that the oldest mountains hate everyone equally.",
@@ -5495,7 +5495,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Flying (This creature can't be blocked except by creatures with flying or reach.)",
-      "{1}{R}: Shivan Hellkite deals 1 damage to target creature or player."
+      "{1}{R}: Shivan Hellkite deals 1 damage to any target."
     ],
     "flavor_text": "A dragon's scale can be carved into a mighty shield, provided you can procure a dragontooth to cut it.",
     "power": "5",
@@ -5546,7 +5546,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Shower of Sparks deals 1 damage to target creature and 1 damage to target player."
+      "Shower of Sparks deals 1 damage to target creature and 1 damage to target player or planeswalker."
     ],
     "flavor_text": "The viashino had learned how to operate the rig through trial and error—mostly error.",
     "power": null,
@@ -5669,7 +5669,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "At the beginning of your upkeep, you may put a verse counter on Torch Song.",
-      "{2}{R}, Sacrifice Torch Song: Torch Song deals X damage to target creature or player, where X is the number of verse counters on Torch Song."
+      "{2}{R}, Sacrifice Torch Song: It deals X damage to any target, where X is the number of verse counters on Torch Song."
     ],
     "flavor_text": null,
     "power": null,
@@ -6136,7 +6136,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "At the beginning of each of your main phases, if you haven't added mana to your mana pool with this ability this turn, you may add X mana of any one color to your mana pool, where X is the number of Islands target opponent controls."
+      "At the beginning of each of your main phases, if you haven't added mana with this ability this turn, you may add X mana of any one color, where X is the number of Islands target opponent controls."
     ],
     "flavor_text": null,
     "power": null,
@@ -6244,7 +6244,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Creatures you control have \"{T}: Add {G} to your mana pool.\""
+      "Creatures you control have \"{T}: Add {G}.\""
     ],
     "flavor_text": "From deep in the caves beneath the forest, the hierophants planned the druids' raids against the enemy.",
     "power": "3",
@@ -6449,7 +6449,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Enchant land",
-      "Whenever enchanted land is tapped for mana, its controller adds one mana of any color to his or her mana pool (in addition to the mana the land produces)."
+      "Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color."
     ],
     "flavor_text": "The forest was too lush for the brothers to despoil—almost.",
     "power": null,
@@ -6902,7 +6902,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool for each Elf on the battlefield."
+      "{T}: Add {G} for each Elf on the battlefield."
     ],
     "flavor_text": "Titania rewards all those who honor the forest by making them a living part of it.",
     "power": "1",
@@ -7183,7 +7183,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever a Forest is tapped for mana, its controller adds {G} to his or her mana pool (in addition to the mana the land produces)."
+      "Whenever a Forest is tapped for mana, its controller adds an additional {G}."
     ],
     "flavor_text": "Many cultures have legends of a lush, hidden paradise. The elves of Argoth had no need of such stories.",
     "power": null,
@@ -7337,7 +7337,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Cathodion dies, add {C}{C}{C} to your mana pool."
+      "When Cathodion dies, add {C}{C}{C}."
     ],
     "flavor_text": "Instead of creating a tool that would be damaged by heat, the Thran built one that was charged by it.",
     "power": "3",
@@ -7664,7 +7664,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "At the beginning of your upkeep, you may put a petal counter on Lotus Blossom.",
-      "{T}, Sacrifice Lotus Blossom: Add X mana of any one color to your mana pool, where X is the number of petal counters on Lotus Blossom."
+      "{T}, Sacrifice Lotus Blossom: Add X mana of any one color, where X is the number of petal counters on Lotus Blossom."
     ],
     "flavor_text": null,
     "power": null,
@@ -7765,7 +7765,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "At the beginning of each player's upkeep, return to its owner's hand each creature that player controls with power greater than the number of cards in his or her hand."
+      "At the beginning of each player's upkeep, return to its owner's hand each creature that player controls with power greater than the number of cards in their hand."
     ],
     "flavor_text": null,
     "power": null,
@@ -7940,7 +7940,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "At the beginning of your upkeep, you may add {C}{C} to your mana pool. You can't spend this mana to cast spells."
+      "At the beginning of your upkeep, you may add {C}{C}. You can't spend this mana to cast spells."
     ],
     "flavor_text": "When Urza asked the viashino what it did, they answered: \"It hums.\"",
     "power": null,
@@ -7964,7 +7964,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "At the beginning of each player's upkeep, that player returns a permanent he or she controls to its owner's hand unless he or she pays 2 life."
+      "At the beginning of each player's upkeep, that player returns a permanent they control to its owner's hand unless they pay 2 life."
     ],
     "flavor_text": "It was the explorers' only tether to reality.",
     "power": null,
@@ -8064,7 +8064,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{3}: Each player puts the top two cards of his or her library into his or her graveyard."
+      "{3}: Each player puts the top two cards of their library into their graveyard."
     ],
     "flavor_text": "To hone swords and dull minds.\n—Whetstone inscription",
     "power": null,
@@ -8116,7 +8116,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Worn Powerstone enters the battlefield tapped.",
-      "{T}: Add {C}{C} to your mana pool."
+      "{T}: Add {C}{C}."
     ],
     "flavor_text": null,
     "power": null,
@@ -8140,7 +8140,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "Cycling {2} ({2}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -8166,7 +8166,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Drifting Meadow enters the battlefield tapped.",
-      "{T}: Add {W} to your mana pool.",
+      "{T}: Add {W}.",
       "Cycling {2} ({2}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -8193,7 +8193,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool for each creature you control."
+      "{T}: Add {G} for each creature you control."
     ],
     "flavor_text": "\"Here sprouted the first seedling of Argoth. Here the last tree will fall.\"\n—Gamelen, Citanul elder",
     "power": null,
@@ -8219,8 +8219,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}, Sacrifice a creature: Add {B}{B} to your mana pool."
+      "{T}: Add {C}.",
+      "{T}, Sacrifice a creature: Add {B}{B}."
     ],
     "flavor_text": "Living metal encasing dying flesh.",
     "power": null,
@@ -8245,7 +8245,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Polluted Mire enters the battlefield tapped.",
-      "{T}: Add {B} to your mana pool.",
+      "{T}: Add {B}.",
       "Cycling {2} ({2}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -8271,7 +8271,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Remote Isle enters the battlefield tapped.",
-      "{T}: Add {U} to your mana pool.",
+      "{T}: Add {U}.",
       "Cycling {2} ({2}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -8298,7 +8298,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {W} to your mana pool for each enchantment you control."
+      "{T}: Add {W} for each enchantment you control."
     ],
     "flavor_text": "A fragile cocoon of dreaming will.",
     "power": null,
@@ -8324,7 +8324,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{2}{R}, {T}: Shivan Gorge deals 1 damage to each opponent."
     ],
     "flavor_text": "Both forge and pyre.",
@@ -8350,7 +8350,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Slippery Karst enters the battlefield tapped.",
-      "{T}: Add {G} to your mana pool.",
+      "{T}: Add {G}.",
       "Cycling {2} ({2}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -8376,7 +8376,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Smoldering Crater enters the battlefield tapped.",
-      "{T}: Add {R} to your mana pool.",
+      "{T}: Add {R}.",
       "Cycling {2} ({2}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -8402,7 +8402,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "At the beginning of the end step, if you control no creatures, sacrifice Thran Quarry.",
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -8428,7 +8428,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {U} to your mana pool for each artifact you control."
+      "{T}: Add {U} for each artifact you control."
     ],
     "flavor_text": "The academy worked with time—until time ran out.",
     "power": null,
@@ -8456,7 +8456,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8484,7 +8484,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8512,7 +8512,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8540,7 +8540,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8568,7 +8568,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8596,7 +8596,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8624,7 +8624,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8652,7 +8652,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8680,7 +8680,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8708,7 +8708,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8736,7 +8736,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8764,7 +8764,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8792,7 +8792,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8820,7 +8820,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8848,7 +8848,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8876,7 +8876,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8904,7 +8904,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8932,7 +8932,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8960,7 +8960,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8988,7 +8988,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,

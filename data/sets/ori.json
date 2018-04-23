@@ -636,7 +636,7 @@
     ],
     "rarity": "Mythic Rare",
     "mana_cost": null,
-    "converted_mana_cost": 0,
+    "converted_mana_cost": 1,
     "oracle_text": [
       "+2: Up to one target creature an opponent controls attacks Gideon, Battle-Forged during its controller's next turn if able.",
       "+1: Until your next turn, target creature gains indestructible. Untap that creature.",
@@ -1034,7 +1034,7 @@
     "mana_cost": "3WW",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "For each player, you choose from among the permanents that player controls an artifact, a creature, an enchantment, and a planeswalker. Then each player sacrifices all other nonland permanents he or she controls."
+      "For each player, you choose from among the permanents that player controls an artifact, a creature, an enchantment, and a planeswalker. Then each player sacrifices all other nonland permanents they control."
     ],
     "flavor_text": "The spear thrown by Kytheon's own hand was the weapon that felled his friends.",
     "power": null,
@@ -1166,7 +1166,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Flying",
-      "As Alhammarret, High Arbiter enters the battlefield, each opponent reveals his or her hand. You choose the name of a nonland card revealed this way.",
+      "As Alhammarret, High Arbiter enters the battlefield, each opponent reveals their hand. You choose the name of a nonland card revealed this way.",
       "Your opponents can't cast spells with the chosen name (as long as this creature is on the battlefield)."
     ],
     "flavor_text": null,
@@ -1369,7 +1369,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Each player shuffles his or her hand and graveyard into his or her library, then draws seven cards. If it's your turn, end the turn. (Exile all spells and abilities on the stack, including this card. Discard down to your maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)"
+      "Each player shuffles their hand and graveyard into their library, then draws seven cards. If it's your turn, end the turn. (Exile all spells and abilities on the stack, including this card. Discard down to your maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1498,7 +1498,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Target player puts the top X cards of his or her library into his or her graveyard, where X is the number of lands you control."
+      "Target player puts the top X cards of their library into their graveyard, where X is the number of lands you control."
     ],
     "flavor_text": "Stray into the Morkrut and it may rise to claim you.",
     "power": null,
@@ -1634,11 +1634,11 @@
     ],
     "rarity": "Mythic Rare",
     "mana_cost": null,
-    "converted_mana_cost": 0,
+    "converted_mana_cost": 2,
     "oracle_text": [
       "+1: Up to one target creature gets -2/-0 until your next turn.",
       "−3: You may cast target instant or sorcery card from your graveyard this turn. If that card would be put into your graveyard this turn, exile it instead.",
-      "−9: You get an emblem with \"Whenever you cast a spell, target opponent puts the top five cards of his or her library into his or her graveyard.\""
+      "−9: You get an emblem with \"Whenever you cast a spell, target opponent puts the top five cards of their library into their graveyard.\""
     ],
     "flavor_text": null,
     "power": null,
@@ -2008,8 +2008,8 @@
     "mana_cost": "5U",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "As an additional cost to cast Skaab Goliath, exile two creature cards from your graveyard.",
-      "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)"
+      "As an additional cost to cast this spell, exile two creature cards from your graveyard.",
+      "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)"
     ],
     "flavor_text": "Three heads are better than one.",
     "power": "6",
@@ -2060,7 +2060,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever you draw a card, target opponent puts the top two cards of his or her library into his or her graveyard. If they're both nonland cards that share a color, repeat this process.",
+      "Whenever you draw a card, target opponent puts the top two cards of their library into their graveyard. If they're both nonland cards that share a color, repeat this process.",
       "{5}{U}: Draw a card, then discard a card."
     ],
     "flavor_text": "\"You've never considered the implications of dealing with another telepath, Jace.\"",
@@ -2114,7 +2114,7 @@
     "mana_cost": "2UU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Target opponent reveals the top seven cards of his or her library. You may cast an instant or sorcery card from among them without paying its mana cost. Then that player puts the rest into his or her graveyard.",
+      "Target opponent reveals the top seven cards of their library. You may cast an instant or sorcery card from among them without paying its mana cost. Then that player puts the rest into their graveyard.",
       "Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, you may cast up to two revealed instant and/or sorcery cards instead of one."
     ],
     "flavor_text": null,
@@ -2425,7 +2425,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Search your library for a card and put that card into your hand. Then shuffle your library.",
-      "Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, add {B}{B}{B} to your mana pool."
+      "Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, add {B}{B}{B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -2477,7 +2477,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "At the beginning of your upkeep, choose one that hasn't been chosen —",
-      "• Demonic Pact deals 4 damage to target creature or player and you gain 4 life.",
+      "• Demonic Pact deals 4 damage to any target and you gain 4 life.",
       "• Target opponent discards two cards.",
       "• Draw two cards.",
       "• You lose the game."
@@ -2694,7 +2694,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}, Pay 1 life: Add {G} to your mana pool. Spend this mana only to cast an Elf creature spell.",
+      "{T}, Pay 1 life: Add {G}. Spend this mana only to cast an Elf creature spell.",
       "{T}: Target attacking Elf you control gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)"
     ],
     "flavor_text": null,
@@ -2774,7 +2774,7 @@
     "mana_cost": "1BB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Choose a creature card name. Search target opponent's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library."
+      "Choose a creature card name. Search target opponent's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -2883,7 +2883,7 @@
     ],
     "rarity": "Mythic Rare",
     "mana_cost": null,
-    "converted_mana_cost": 0,
+    "converted_mana_cost": 3,
     "oracle_text": [
       "+2: Each player discards a card.",
       "−X: Return target nonlegendary creature card with converted mana cost X from your graveyard to the battlefield.",
@@ -3014,7 +3014,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Target opponent reveals his or her hand. You may choose a nonland card from it. If you do, that player discards that card. If you don't, that player discards two cards."
+      "Target opponent reveals their hand. You may choose a nonland card from it. If you do, that player discards that card. If you don't, that player discards two cards."
     ],
     "flavor_text": "Ravnica would be safer if mere coin was all the Dimir could steal.",
     "power": null,
@@ -3144,7 +3144,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Returned Centaur enters the battlefield, target player puts the top four cards of his or her library into his or her graveyard."
+      "When Returned Centaur enters the battlefield, target player puts the top four cards of their library into their graveyard."
     ],
     "flavor_text": "Driven away by his living kin, he wanders mourning through the wilderness, seeking the dead city of Asphodel.",
     "power": "2",
@@ -3297,7 +3297,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "As an additional cost to cast Tormented Thoughts, sacrifice a creature.",
+      "As an additional cost to cast this spell, sacrifice a creature.",
       "Target player discards a number of cards equal to the sacrificed creature's power."
     ],
     "flavor_text": "\"Not all nightmares can be escaped by waking.\"—Ashiok",
@@ -3616,7 +3616,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Enchant creature",
-      "Enchanted creature gets +3/+2 and has trample. (It can deal excess combat damage to defending player or planeswalker while attacking.)",
+      "Enchanted creature gets +3/+2 and has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
       "At the beginning of each upkeep, if a player cast two or more spells last turn, sacrifice Call of the Full Moon."
     ],
     "flavor_text": null,
@@ -3647,7 +3647,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Whenever you cast a red spell, untap Chandra, Fire of Kaladesh.",
-      "{T}: Chandra, Fire of Kaladesh deals 1 damage to target player. If Chandra has dealt 3 or more damage this turn, exile her, then return her to the battlefield transformed under her owner's control."
+      "{T}: Chandra, Fire of Kaladesh deals 1 damage to target player or planeswalker. If Chandra has dealt 3 or more damage this turn, exile her, then return her to the battlefield transformed under her owner's control."
     ],
     "flavor_text": null,
     "power": "2",
@@ -3673,9 +3673,9 @@
     ],
     "rarity": "Mythic Rare",
     "mana_cost": null,
-    "converted_mana_cost": 0,
+    "converted_mana_cost": 3,
     "oracle_text": [
-      "+1: Chandra, Roaring Flame deals 2 damage to target player.",
+      "+1: Chandra, Roaring Flame deals 2 damage to target player or planeswalker.",
       "−2: Chandra, Roaring Flame deals 2 damage to target creature.",
       "−7: Chandra, Roaring Flame deals 6 damage to each opponent. Each player dealt damage this way gets an emblem with \"At the beginning of your upkeep, this emblem deals 3 damage to you.\""
     ],
@@ -3701,7 +3701,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Chandra's Fury deals 4 damage to target player and 1 damage to each creature that player controls."
+      "Chandra's Fury deals 4 damage to target player or planeswalker and 1 damage to each creature that player or that planeswalker's controller controls."
     ],
     "flavor_text": "\"They started it.\"",
     "power": null,
@@ -3823,7 +3823,7 @@
     "mana_cost": "3RR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)",
+      "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
       "If another red source you control would deal damage to a permanent or player, it deals that much damage plus 1 to that permanent or player instead."
     ],
     "flavor_text": null,
@@ -3875,8 +3875,8 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Exquisite Firecraft deals 4 damage to target creature or player.",
-      "Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, Exquisite Firecraft can't be countered by spells or abilities."
+      "Exquisite Firecraft deals 4 damage to any target.",
+      "Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, this spell can't be countered."
     ],
     "flavor_text": "Chandra's gift set her apart and others aflame.",
     "power": null,
@@ -3900,7 +3900,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Fiery Conclusion, sacrifice a creature.",
+      "As an additional cost to cast this spell, sacrifice a creature.",
       "Fiery Conclusion deals 5 damage to target creature."
     ],
     "flavor_text": "The Boros legionnaire saw a noble sacrifice, the Rakdos thug a blazing suicide, and the Izzet alchemist an experiment gone awry.",
@@ -4001,7 +4001,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Tap two untapped artifacts you control: Ghirapur Aether Grid deals 1 damage to target creature or player."
+      "Tap two untapped artifacts you control: Ghirapur Aether Grid deals 1 damage to any target."
     ],
     "flavor_text": "The city of Ghirapur is a living thing, and living things defend themselves.",
     "power": null,
@@ -4136,7 +4136,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Lightning Javelin deals 3 damage to target creature or player. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"
+      "Lightning Javelin deals 3 damage to any target. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"
     ],
     "flavor_text": "The harpies descended without mercy upon Akros, only to find their attack put them within range of the javelineers.",
     "power": null,
@@ -4188,7 +4188,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Magmatic Insight, discard a land card.",
+      "As an additional cost to cast this spell, discard a land card.",
       "Draw two cards."
     ],
     "flavor_text": "Chief among the tenets of Purphoros is that one must destroy in order to create.",
@@ -4213,7 +4213,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{R}, Discard a land card: Molten Vortex deals 2 damage to target creature or player."
+      "{R}, Discard a land card: Molten Vortex deals 2 damage to any target."
     ],
     "flavor_text": "If you can't take the heat . . . well, that's going to be a problem.",
     "power": null,
@@ -4243,7 +4243,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "When Pia and Kiran Nalaar enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.",
-      "{2}{R}, Sacrifice an artifact: Pia and Kiran Nalaar deals 2 damage to target creature or player."
+      "{2}{R}, Sacrifice an artifact: Pia and Kiran Nalaar deals 2 damage to any target."
     ],
     "flavor_text": null,
     "power": "2",
@@ -4504,7 +4504,7 @@
     "mana_cost": "5R",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "{2}{R}: Volcanic Rambler deals 1 damage to target player."
+      "{2}{R}: Volcanic Rambler deals 1 damage to target player or planeswalker."
     ],
     "flavor_text": "It moves through lava with the force of an erupting volcano.",
     "power": "6",
@@ -4764,7 +4764,7 @@
     "mana_cost": "5GG",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "Gaea's Revenge can't be countered.",
+      "This spell can't be countered.",
       "Haste",
       "Gaea's Revenge can't be the target of nongreen spells or abilities from nongreen sources."
     ],
@@ -4815,7 +4815,7 @@
     "mana_cost": "6GGG",
     "converted_mana_cost": 9,
     "oracle_text": [
-      "Each player shuffles all cards from his or her hand and all permanents he or she owns into his or her library, then draws that many cards. Each player may put any number of land cards from his or her hand onto the battlefield. Exile The Great Aurora."
+      "Each player shuffles all cards from their hand and all permanents they own into their library, then draws that many cards. Each player may put any number of land cards from their hand onto the battlefield. Exile The Great Aurora."
     ],
     "flavor_text": null,
     "power": null,
@@ -4897,7 +4897,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)",
-      "As long as Honored Hierarch is renowned, it has vigilance and \"{T}: Add one mana of any color to your mana pool.\""
+      "As long as Honored Hierarch is renowned, it has vigilance and \"{T}: Add one mana of any color.\""
     ],
     "flavor_text": null,
     "power": "1",
@@ -4948,7 +4948,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool."
+      "{T}: Add {G}."
     ],
     "flavor_text": "Eidren, perfect of Lys Alana, ordered hundreds of trees uprooted and rearranged into a pattern he deemed beautiful. Thus the Gilt-Leaf Wood was born.",
     "power": "2",
@@ -5109,7 +5109,7 @@
     ],
     "rarity": "Mythic Rare",
     "mana_cost": null,
-    "converted_mana_cost": 0,
+    "converted_mana_cost": 3,
     "oracle_text": [
       "+1: Reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put it into your hand.",
       "−2: Create a legendary 4/4 green Elemental creature token named Ashaya, the Awoken World.",
@@ -5294,7 +5294,7 @@
     "mana_cost": "4G",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)",
+      "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
       "Renown 2 (When this creature deals combat damage to a player, if it isn't renowned, put two +1/+1 counters on it and it becomes renowned.)"
     ],
     "flavor_text": null,
@@ -5349,7 +5349,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Whenever a creature you control becomes blocked, it gets +1/+1 until end of turn.",
-      "{1}{G}: Target creature you control gains trample until end of turn. (It can deal excess combat damage to defending player or planeswalker while attacking.)"
+      "{1}{G}: Target creature you control gains trample until end of turn. (It can deal excess combat damage to the player or planeswalker it's attacking.)"
     ],
     "flavor_text": null,
     "power": "3",
@@ -5375,7 +5375,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)",
+      "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
       "When Sylvan Messenger enters the battlefield, reveal the top four cards of your library. Put all Elf cards revealed this way into your hand and the rest on the bottom of your library in any order."
     ],
     "flavor_text": null,
@@ -5657,7 +5657,7 @@
     "mana_cost": "2BR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{1}, Sacrifice another creature: Blazing Hellhound deals 1 damage to target creature or player."
+      "{1}, Sacrifice another creature: Blazing Hellhound deals 1 damage to any target."
     ],
     "flavor_text": "It tears the flesh from your bones and then swallows the ash with its fiery maw.",
     "power": "4",
@@ -6032,7 +6032,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Equipped creature gets +2/+2 and has trample. (It can deal excess combat damage to defending player or planeswalker while attacking.)",
+      "Equipped creature gets +2/+2 and has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
       "Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)"
     ],
     "flavor_text": null,
@@ -6274,8 +6274,8 @@
     "mana_cost": "5",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "When Meteorite enters the battlefield, it deals 2 damage to target creature or player.",
-      "{T}: Add one mana of any color to your mana pool."
+      "When Meteorite enters the battlefield, it deals 2 damage to any target.",
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": "\"And if I'm lying,\" he began . . .",
     "power": null,
@@ -6351,7 +6351,7 @@
     "mana_cost": "5",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{T}: Add {R} to your mana pool. When that mana is spent to cast a red instant or sorcery spell, copy that spell and you may choose new targets for the copy."
+      "{T}: Add {R}. When that mana is spent to cast a red instant or sorcery spell, copy that spell and you may choose new targets for the copy."
     ],
     "flavor_text": "\"I hope to meet Jaya Ballard someday. I think we'd get along.\"—Chandra Nalaar",
     "power": null,
@@ -6490,7 +6490,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Equipped creature gets +2/+0.",
-      "Whenever equipped creature attacks, you may sacrifice Throwing Knife. If you do, Throwing Knife deals 2 damage to target creature or player.",
+      "Whenever equipped creature attacks, you may sacrifice Throwing Knife. If you do, Throwing Knife deals 2 damage to any target.",
       "Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"
     ],
     "flavor_text": null,
@@ -6566,8 +6566,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {R} or {W} to your mana pool. Battlefield Forge deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -6591,8 +6591,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {W} or {B} to your mana pool. Caves of Koilos deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -6640,7 +6640,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{5}, {T}, Sacrifice Foundry of the Consuls: Create two 1/1 colorless Thopter artifact creature tokens with flying."
     ],
     "flavor_text": "All around the foundry, automatons unhitched themselves from their mounts and pivoted to face Chandra.",
@@ -6665,8 +6665,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {B} or {G} to your mana pool. Llanowar Wastes deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {B} or {G}. Llanowar Wastes deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -6690,9 +6690,9 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}, {T}: Put a storage counter on Mage-Ring Network.",
-      "{T}, Remove any number of storage counters from Mage-Ring Network: Add {C} to your mana pool for each storage counter removed this way."
+      "{T}, Remove any number of storage counters from Mage-Ring Network: Add {C} for each storage counter removed this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -6716,7 +6716,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{4}, {T}: Target creature can't be blocked this turn."
     ],
     "flavor_text": "Rumors quickly spread among thieves about a labyrinth without walls and a prize beyond all measures of worth.",
@@ -6741,8 +6741,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {U} or {R} to your mana pool. Shivan Reef deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {U} or {R}. Shivan Reef deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -6766,8 +6766,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {G} or {U} to your mana pool. Yavimaya Coast deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {G} or {U}. Yavimaya Coast deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -6795,7 +6795,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6823,7 +6823,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6851,7 +6851,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6879,7 +6879,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6907,7 +6907,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6935,7 +6935,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6963,7 +6963,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6991,7 +6991,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7019,7 +7019,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7047,7 +7047,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7075,7 +7075,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7103,7 +7103,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7131,7 +7131,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7159,7 +7159,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7187,7 +7187,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7215,7 +7215,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7243,7 +7243,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7271,7 +7271,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7299,7 +7299,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7327,7 +7327,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7430,8 +7430,7 @@
     "mana_cost": "3WW",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)",
-      "Vigilance (Attacking doesn't cause this creature to tap.)"
+      "Flying, vigilance"
     ],
     "flavor_text": "Follow the light. In its absence, follow her.",
     "power": "4",
@@ -7738,8 +7737,8 @@
     "mana_cost": "3GGG",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Terra Stomper can't be countered.",
-      "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)"
+      "This spell can't be countered.",
+      "Trample  (This creature can deal excess combat damage to the player or planeswalker it's attacking.)"
     ],
     "flavor_text": "Sometimes violent earthquakes, hurtling boulders, and unseasonable dust storms are wrongly attributed to the Roil.",
     "power": "8",

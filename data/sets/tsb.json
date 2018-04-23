@@ -224,7 +224,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "The next time a source of your choice would deal damage to target creature or player this turn, prevent that damage. If damage from a red source is prevented this way, Honorable Passage deals that much damage to the source's controller."
+      "The next time a source of your choice would deal damage to any target this turn, prevent that damage. If damage from a red source is prevented this way, Honorable Passage deals that much damage to the source's controller."
     ],
     "flavor_text": null,
     "power": null,
@@ -252,7 +252,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Icatian Javelineers enters the battlefield with a javelin counter on it.",
-      "{T}, Remove a javelin counter from Icatian Javelineers: Icatian Javelineers deals 1 damage to target creature or player."
+      "{T}, Remove a javelin counter from Icatian Javelineers: Icatian Javelineers deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": "1",
@@ -435,7 +435,7 @@
     "mana_cost": "2WW",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{T}: Witch Hunter deals 1 damage to target player.",
+      "{T}: Witch Hunter deals 1 damage to target player or planeswalker.",
       "{1}{W}{W}, {T}: Return target creature an opponent controls to its owner's hand."
     ],
     "flavor_text": null,
@@ -737,7 +737,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Pirate Ship can't attack unless defending player controls an Island.",
-      "{T}: Pirate Ship deals 1 damage to target creature or player.",
+      "{T}: Pirate Ship deals 1 damage to any target.",
       "When you control no Islands, sacrifice Pirate Ship."
     ],
     "flavor_text": null,
@@ -765,7 +765,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Prodigal Sorcerer deals 1 damage to target creature or player."
+      "{T}: Prodigal Sorcerer deals 1 damage to any target."
     ],
     "flavor_text": "Occasionally, members of the Institute of Arcane Study acquire a taste for worldly pleasures. Seldom do they have trouble finding employment.",
     "power": "1",
@@ -789,7 +789,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Psionic Blast deals 4 damage to target creature or player and 2 damage to you."
+      "Psionic Blast deals 4 damage to any target and 2 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -977,7 +977,7 @@
     "mana_cost": "6BB",
     "converted_mana_cost": 8,
     "oracle_text": [
-      "If there are ten or more creature cards total in all graveyards, Avatar of Woe costs {6} less to cast.",
+      "If there are ten or more creature cards total in all graveyards, this spell costs {6} less to cast.",
       "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)",
       "{T}: Destroy target creature. It can't be regenerated."
     ],
@@ -1217,7 +1217,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "{U}, {T}: Put target creature you control on top of its owner's library.",
-      "{R}, {T}: Shadow Guildmage deals 1 damage to target creature or player and 1 damage to you."
+      "{R}, {T}: Shadow Guildmage deals 1 damage to any target and 1 damage to you."
     ],
     "flavor_text": "To keep the dead so others may live.\n—Shadow Guild maxim",
     "power": "1",
@@ -1324,7 +1324,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "{B}: Regenerate Twisted Abomination.",
-      "Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, and put it into your hand. Then shuffle your library.)"
+      "Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle your library.)"
     ],
     "flavor_text": null,
     "power": "5",
@@ -1484,7 +1484,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Any player may have Browbeat deal 5 damage to him or her. If no one does, target player draws three cards."
+      "Any player may have Browbeat deal 5 damage to them. If no one does, target player draws three cards."
     ],
     "flavor_text": "\"Even the threat of power has power.\"\n—Jeska, warrior adept",
     "power": null,
@@ -1535,7 +1535,7 @@
     "mana_cost": "XR",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Disintegrate deals X damage to target creature or player. That creature can't be regenerated this turn. If the creature would die this turn, exile it instead."
+      "Disintegrate deals X damage to any target. If it's a creature, it can't be regenerated this turn, and if it would die this turn, exile it instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -1641,7 +1641,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Fiery Temper deals 3 damage to target creature or player.",
+      "Fiery Temper deals 3 damage to any target.",
       "Madness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"
     ],
     "flavor_text": null,
@@ -1669,8 +1669,8 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Enchant creature you control",
-      "Enchanted creature has \"{T}: This creature deals 1 damage to target creature or player.\"",
-      "Sacrifice Fire Whip: Fire Whip deals 1 damage to target creature or player."
+      "Enchanted creature has \"{T}: This creature deals 1 damage to any target.\"",
+      "Sacrifice Fire Whip: Fire Whip deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -1801,7 +1801,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever a creature enters the battlefield, that creature's controller may have it deal damage equal to its power to target creature or player of his or her choice."
+      "Whenever a creature enters the battlefield, that creature's controller may have it deal damage equal to its power to any target of their choice."
     ],
     "flavor_text": "\"If we cannot live proudly, we die so!\"\n—Eladamri, Lord of Leaves",
     "power": null,
@@ -1853,7 +1853,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Domain — Tribal Flames deals X damage to target creature or player, where X is the number of basic land types among lands you control."
+      "Domain — Tribal Flames deals X damage to any target, where X is the number of basic land types among lands you control."
     ],
     "flavor_text": "\"Fire is the universal language.\"\n—Jhoira, master artificer",
     "power": null,
@@ -2033,7 +2033,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player shuffles up to three target cards from his or her graveyard into his or her library.",
+      "Target player shuffles up to three target cards from their graveyard into their library.",
       "Draw a card.",
       "When Gaea's Blessing is put into your graveyard from your library, shuffle your graveyard into your library."
     ],
@@ -2197,7 +2197,7 @@
     "mana_cost": "4G",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Scragnoth can't be countered.",
+      "This spell can't be countered.",
       "Protection from blue"
     ],
     "flavor_text": "It possesses no intelligence, only counter-intelligence.",
@@ -2307,7 +2307,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Kicker {R} and/or {W} (You may pay an additional {R} and/or {W} as you cast this spell.)",
-      "When Thornscape Battlemage enters the battlefield, if it was kicked with its {R} kicker, it deals 2 damage to target creature or player.",
+      "When Thornscape Battlemage enters the battlefield, if it was kicked with its {R} kicker, it deals 2 damage to any target.",
       "When Thornscape Battlemage enters the battlefield, if it was kicked with its {W} kicker, destroy target artifact."
     ],
     "flavor_text": null,
@@ -2366,7 +2366,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Defender",
-      "Put a -0/-1 counter on Wall of Roots: Add {G} to your mana pool. Activate this ability only once each turn."
+      "Put a -0/-1 counter on Wall of Roots: Add {G}. Activate this ability only once each turn."
     ],
     "flavor_text": "Sometimes the wise ones wove their magic into living plants; as the plant grew, so grew the magic.",
     "power": "0",
@@ -2442,7 +2442,7 @@
     "mana_cost": "RGW",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Fiery Justice deals 5 damage divided as you choose among any number of target creatures and/or players. Target opponent gains 5 life."
+      "Fiery Justice deals 5 damage divided as you choose among any number of targets. Target opponent gains 5 life."
     ],
     "flavor_text": "\"The fire of justice burns like nothing else.\"\n—Lovisa Coldeyes, Balduvian chieftain",
     "power": null,
@@ -2491,7 +2491,7 @@
       "Angel"
     ],
     "rarity": "Special",
-    "mana_cost": "1RWU",
+    "mana_cost": "1URW",
     "converted_mana_cost": 4,
     "oracle_text": [
       "Flying, vigilance, haste"
@@ -2610,7 +2610,7 @@
     "oracle_text": [
       "Flying",
       "At the beginning of your upkeep, sacrifice Nicol Bolas unless you pay {U}{B}{R}.",
-      "Whenever Nicol Bolas deals damage to an opponent, that player discards his or her hand."
+      "Whenever Nicol Bolas deals damage to an opponent, that player discards their hand."
     ],
     "flavor_text": null,
     "power": "7",
@@ -2717,7 +2717,7 @@
     "mana_cost": "1RG",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{2}, Discard a card at random: Stormbind deals 2 damage to target creature or player."
+      "{2}, Discard a card at random: Stormbind deals 2 damage to any target."
     ],
     "flavor_text": "\"Once, our people could call down the storm itself to do our bidding.\"\n—Lovisa Coldeyes, Balduvian chieftain",
     "power": null,
@@ -2795,7 +2795,7 @@
     "mana_cost": "3BR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals his or her hand and discards all nonland cards with converted mana cost equal to the number."
+      "Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals their hand and discards all nonland cards with converted mana cost equal to the number."
     ],
     "flavor_text": null,
     "power": null,
@@ -2819,7 +2819,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Assault deals 2 damage to target creature or player."
+      "Assault deals 2 damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -2942,7 +2942,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{2}, {T}, Sacrifice Grinning Totem: Search target opponent's library for a card and exile it. Then that player shuffles his or her library. Until the beginning of your next upkeep, you may play that card. At the beginning of your next upkeep, if you haven't played it, put it into its owner's graveyard."
+      "{2}, {T}, Sacrifice Grinning Totem: Search target opponent's library for a card and exile it. Then that player shuffles their library. Until the beginning of your next upkeep, you may play that card. At the beginning of your next upkeep, if you haven't played it, put it into its owner's graveyard."
     ],
     "flavor_text": null,
     "power": null,
@@ -3022,7 +3022,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "As The Rack enters the battlefield, choose an opponent.",
-      "At the beginning of the chosen player's upkeep, The Rack deals X damage to that player, where X is 3 minus the number of cards in his or her hand."
+      "At the beginning of the chosen player's upkeep, The Rack deals X damage to that player, where X is 3 minus the number of cards in their hand."
     ],
     "flavor_text": "Invented in Mishra's earlier days, the rack was once his most feared creation.",
     "power": null,
@@ -3120,7 +3120,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{3}, {T}: Tap target creature you control and target creature of an opponent's choice he or she controls. Those creatures fight each other. (Each deals damage equal to its power to the other.)"
+      "{3}, {T}: Tap target creature you control and target creature of an opponent's choice they control. Those creatures fight each other. (Each deals damage equal to its power to the other.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3146,7 +3146,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{T}: Desert deals 1 damage to target attacking creature. Activate this ability only during the end of combat step."
     ],
     "flavor_text": null,
@@ -3172,7 +3172,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Gemstone Mine enters the battlefield with three mining counters on it.",
-      "{T}, Remove a mining counter from Gemstone Mine: Add one mana of any color to your mana pool. If there are no mining counters on Gemstone Mine, sacrifice it."
+      "{T}, Remove a mining counter from Gemstone Mine: Add one mana of any color. If there are no mining counters on Gemstone Mine, sacrifice it."
     ],
     "flavor_text": null,
     "power": null,
@@ -3198,7 +3198,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool.",
+      "{T}: Add {G}.",
       "{T}: Target 1/1 creature gets +1/+2 until end of turn."
     ],
     "flavor_text": "\"This is the forest primeval. The murmuring pines and the hemlocks . . . Stand like Druids of eld.\"\n—Henry Wadsworth Longfellow,\n\"Evangeline\"",

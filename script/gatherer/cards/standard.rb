@@ -33,7 +33,7 @@ class StandardCard
   memo def parse_oracle_text
     # Override oracle text for basic lands.
     if parse_types[:supertypes].include?('Basic')
-      return ["({T}: Add #{BASIC_LAND_SYMBOLS[parse_name]} to your mana pool.)"]
+      return ["({T}: Add #{BASIC_LAND_SYMBOLS[parse_name]}.)"]
     end
     textboxes = container.css('[id$="textRow"] .cardtextbox')
     Gatherer.translate_oracle_text textboxes

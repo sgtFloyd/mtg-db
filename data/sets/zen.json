@@ -42,7 +42,7 @@
     "mana_cost": "3WW",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "If four or more creatures are attacking, you may pay {1}{W} rather than pay Arrow Volley Trap's mana cost.",
+      "If four or more creatures are attacking, you may pay {1}{W} rather than pay this spell's mana cost.",
       "Arrow Volley Trap deals 5 damage divided as you choose among any number of target attacking creatures."
     ],
     "flavor_text": null,
@@ -68,7 +68,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Kicker {3}{W} (You may pay an additional {3}{W} as you cast this spell.)",
-      "Creatures you control get +1/+1 until end of turn. If Bold Defense was kicked, instead creatures you control get +2/+2 and gain first strike until end of turn."
+      "Creatures you control get +1/+1 until end of turn. If this spell was kicked, instead creatures you control get +2/+2 and gain first strike until end of turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -198,7 +198,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Kicker {6} (You may pay an additional {6} as you cast this spell.)",
-      "Create six 1/1 white Kor Soldier creature tokens. If Conqueror's Pledge was kicked, create twelve of those tokens instead."
+      "Create six 1/1 white Kor Soldier creature tokens. If this spell was kicked, create twelve of those tokens instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -766,7 +766,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Flying",
-      "{T}: Prevent the next 1 damage that would be dealt to target player this turn."
+      "{T}: Prevent the next 1 damage that would be dealt to target player or planeswalker this turn."
     ],
     "flavor_text": "Most spirits are chained to this world by their despair, but he remains tethered by his hope for better days.",
     "power": "1",
@@ -844,7 +844,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "If exactly one creature is attacking, you may pay {W} rather than pay Pitfall Trap's mana cost.",
+      "If exactly one creature is attacking, you may pay {W} rather than pay this spell's mana cost.",
       "Destroy target attacking creature without flying."
     ],
     "flavor_text": "Each spike is poisoned—the trapmaker's idea of mercy.",
@@ -920,7 +920,7 @@
     "mana_cost": "W",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Prevent the next 3 damage that would be dealt to target creature or player this turn."
+      "Prevent the next 3 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "\"Even land dwellers may call for Emeria's grace in times of need.\"\n—Emeria's Creed",
     "power": null,
@@ -1075,8 +1075,8 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "If an opponent searched his or her library this turn, you may pay {0} rather than pay Archive Trap's mana cost.",
-      "Target opponent puts the top thirteen cards of his or her library into his or her graveyard."
+      "If an opponent searched their library this turn, you may pay {0} rather than pay this spell's mana cost.",
+      "Target opponent puts the top thirteen cards of their library into their graveyard."
     ],
     "flavor_text": null,
     "power": null,
@@ -1179,7 +1179,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Whenever an opponent shuffles his or her library, you may put a +1/+1 counter on Cosi's Trickster."
+      "Whenever an opponent shuffles their library, you may put a +1/+1 counter on Cosi's Trickster."
     ],
     "flavor_text": "She watches the chaos created by the Roil, seeking strength in the patterns of anarchy.",
     "power": "1",
@@ -1232,7 +1232,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Landfall — Whenever a land enters the battlefield under your control, target player puts the top three cards of his or her library into his or her graveyard."
+      "Landfall — Whenever a land enters the battlefield under your control, target player puts the top three cards of their library into their graveyard."
     ],
     "flavor_text": "Hedrons perplex minds both great and small.",
     "power": "0",
@@ -1257,7 +1257,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)",
-      "Return target nonland permanent to its owner's hand. If Into the Roil was kicked, draw a card."
+      "Return target nonland permanent to its owner's hand. If this spell was kicked, draw a card."
     ],
     "flavor_text": "\"Roil tide! Roil tide! Tie yourselves down!\"",
     "power": null,
@@ -1332,7 +1332,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "If three or more creatures are attacking, you may pay {U} rather than pay Lethargy Trap's mana cost.",
+      "If three or more creatures are attacking, you may pay {U} rather than pay this spell's mana cost.",
       "Attacking creatures get -3/-0 until end of turn."
     ],
     "flavor_text": "Suddenly, Zurdi didn't care about treasure, glory, food . . . or the drakes circling above.",
@@ -1498,7 +1498,7 @@
     "mana_cost": "2UU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "If an opponent cast three or more spells this turn, you may pay {0} rather than pay Mindbreak Trap's mana cost.",
+      "If an opponent cast three or more spells this turn, you may pay {0} rather than pay this spell's mana cost.",
       "Exile any number of target spells."
     ],
     "flavor_text": "\"Life is a maze. This is one of its dead ends.\"\n—Noyan Dar, Tazeem lullmage",
@@ -1551,7 +1551,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Whenever a card is put into your graveyard from anywhere, you may put a quest counter on Quest for Ancient Secrets.",
-      "Remove five quest counters from Quest for Ancient Secrets and sacrifice it: Target player shuffles his or her graveyard into his or her library."
+      "Remove five quest counters from Quest for Ancient Secrets and sacrifice it: Target player shuffles their graveyard into their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -1603,7 +1603,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Kicker {5} (You may pay an additional {5} as you cast this spell.)",
-      "Create a token that's a copy of target creature. If Rite of Replication was kicked, create five of those tokens instead."
+      "Create a token that's a copy of target creature. If this spell was kicked, create five of those tokens instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -1923,7 +1923,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player reveals his or her hand and discards all Trap cards."
+      "Target player reveals their hand and discards all Trap cards."
     ],
     "flavor_text": "\"At some point, every trapfinder will lose a hunk of flesh. It's just a question of how much—and whether it'll grow back.\"\n—Arhana, Kazandu trapfinder",
     "power": null,
@@ -2028,7 +2028,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "If an opponent had two or more creatures enter the battlefield under his or her control this turn, you may pay {U} rather than pay Whiplash Trap's mana cost.",
+      "If an opponent had two or more creatures enter the battlefield under their control this turn, you may pay {U} rather than pay this spell's mana cost.",
       "Return two target creatures to their owners' hands."
     ],
     "flavor_text": null,
@@ -2084,7 +2084,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever Bala Ged Thief or another Ally enters the battlefield under your control, target player reveals a number of cards from his or her hand equal to the number of Allies you control. You choose one of them. That player discards that card."
+      "Whenever Bala Ged Thief or another Ally enters the battlefield under your control, target player reveals a number of cards from their hand equal to the number of Allies you control. You choose one of them. That player discards that card."
     ],
     "flavor_text": null,
     "power": "2",
@@ -2136,7 +2136,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Kicker—Tap an untapped Vampire you control. (You may tap a Vampire you control in addition to any other costs as you cast this spell.)",
-      "Target opponent loses half his or her life, rounded up. If Blood Tribute was kicked, you gain life equal to the life lost this way."
+      "Target opponent loses half their life, rounded up. If this spell was kicked, you gain life equal to the life lost this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -2315,7 +2315,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Cast Feast of Blood only if you control two or more Vampires.",
+      "Cast this spell only if you control two or more Vampires.",
       "Destroy target creature. You gain 4 life."
     ],
     "flavor_text": "\"The vampires of this world don't know the pleasures of hunger. They gorge themselves without savoring the kill.\"\n—Sorin Markov",
@@ -2667,7 +2667,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Kicker {3} (You may pay an additional {3} as you cast this spell.)",
-      "Creatures target player controls get -1/-1 until end of turn. If Marsh Casualties was kicked, those creatures get -2/-2 until end of turn instead."
+      "Creatures target player controls get -1/-1 until end of turn. If this spell was kicked, those creatures get -2/-2 until end of turn instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -2770,7 +2770,7 @@
     "mana_cost": "5BB",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "If an opponent gained life this turn, you may pay {B} rather than pay Needlebite Trap's mana cost.",
+      "If an opponent gained life this turn, you may pay {B} rather than pay this spell's mana cost.",
       "Target player loses 5 life and you gain 5 life."
     ],
     "flavor_text": "The traps around the vampire city of Malakir hint at the thirst of its inhabitants.",
@@ -2878,7 +2878,7 @@
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "If an opponent had three or more cards put into his or her graveyard from anywhere this turn, you may pay {0} rather than pay Ravenous Trap's mana cost.",
+      "If an opponent had three or more cards put into their graveyard from anywhere this turn, you may pay {0} rather than pay this spell's mana cost.",
       "Exile all cards from target player's graveyard."
     ],
     "flavor_text": null,
@@ -2904,7 +2904,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Kicker {7} (You may pay an additional {7} as you cast this spell.)",
-      "Search target player's library for up to three cards, exile them, then that player shuffles his or her library. If Sadistic Sacrament was kicked, instead search that player's library for up to fifteen cards, exile them, then that player shuffles his or her library."
+      "Search target player's library for up to three cards, exile them, then that player shuffles their library. If this spell was kicked, instead search that player's library for up to fifteen cards, exile them, then that player shuffles their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -2932,7 +2932,7 @@
     "mana_cost": "3BBB",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "+2: Sorin Markov deals 2 damage to target creature or player and you gain 2 life.",
+      "+2: Sorin Markov deals 2 damage to any target and you gain 2 life.",
       "−3: Target opponent's life total becomes 10.",
       "−7: You control target player during that player's next turn."
     ],
@@ -3092,7 +3092,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Kicker {2}{B} (You may pay an additional {2}{B} as you cast this spell.)",
-      "Target creature gets +3/+0 until end of turn. If Vampire's Bite was kicked, that creature gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)"
+      "Target creature gets +3/+0 until end of turn. If this spell was kicked, that creature gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3143,7 +3143,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Kicker {4} (You may pay an additional {4} as you cast this spell.)",
-      "Burst Lightning deals 2 damage to target creature or player. If Burst Lightning was kicked, it deals 4 damage to that creature or player instead."
+      "Burst Lightning deals 2 damage to any target. If this spell was kicked, it deals 4 damage to that permanent or player instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -3171,8 +3171,8 @@
     "mana_cost": "4RR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "+1: Discard a card. If a red card is discarded this way, Chandra Ablaze deals 4 damage to target creature or player.",
-      "−2: Each player discards his or her hand, then draws three cards.",
+      "+1: Discard a card. If a red card is discarded this way, Chandra Ablaze deals 4 damage to any target.",
+      "−2: Each player discards their hand, then draws three cards.",
       "−7: Cast any number of red instant and/or sorcery cards from your graveyard without paying their mana costs."
     ],
     "flavor_text": null,
@@ -3221,7 +3221,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever a creature enters the battlefield under your control, you may pay {2}{R}. If you do, that creature deals damage equal to its power to target creature or player."
+      "Whenever a creature enters the battlefield under your control, you may pay {2}{R}. If you do, that creature deals damage equal to its power to any target."
     ],
     "flavor_text": "Where life and force collide.",
     "power": null,
@@ -3246,7 +3246,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Kicker {5} (You may pay an additional {5} as you cast this spell.)",
-      "Create a 7/1 red Elemental creature token with trample and haste. Exile it at the beginning of the next end step. If Elemental Appeal was kicked, that creature gets +7/+0 until end of turn."
+      "Create a 7/1 red Elemental creature token with trample and haste. Exile it at the beginning of the next end step. If this spell was kicked, that creature gets +7/+0 until end of turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -3329,7 +3329,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Haste",
-      "Whenever Goblin Guide attacks, defending player reveals the top card of his or her library. If it's a land card, that player puts it into his or her hand."
+      "Whenever Goblin Guide attacks, defending player reveals the top card of their library. If it's a land card, that player puts it into their hand."
     ],
     "flavor_text": "\"I've been all over this world. I even remember some of those places.\"",
     "power": "2",
@@ -3439,7 +3439,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Hellfire Mongrel deals 2 damage to him or her."
+      "At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Hellfire Mongrel deals 2 damage to that player."
     ],
     "flavor_text": "There is no fondness between the hound and its master. There is only a common appreciation of the hunt.",
     "power": "2",
@@ -3520,7 +3520,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "If you've been dealt damage by two or more creatures this turn, you may pay {R} rather than pay Inferno Trap's mana cost.",
+      "If you've been dealt damage by two or more creatures this turn, you may pay {R} rather than pay this spell's mana cost.",
       "Inferno Trap deals 4 damage to target creature."
     ],
     "flavor_text": "\"Do you smell something burning?\"",
@@ -3575,7 +3575,7 @@
     "mana_cost": "6RR",
     "converted_mana_cost": 8,
     "oracle_text": [
-      "If an opponent had two or more lands enter the battlefield under his or her control this turn, you may pay {3}{R}{R} rather than pay Lavaball Trap's mana cost.",
+      "If an opponent had two or more lands enter the battlefield under their control this turn, you may pay {3}{R}{R} rather than pay this spell's mana cost.",
       "Destroy two target lands. Lavaball Trap deals 4 damage to each creature."
     ],
     "flavor_text": null,
@@ -3600,7 +3600,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "As an additional cost to cast Magma Rift, sacrifice a land.",
+      "As an additional cost to cast this spell, sacrifice a land.",
       "Magma Rift deals 5 damage to target creature."
     ],
     "flavor_text": "\"Lighting a fire needs kindling and heat. You be the kindling. I'll bring the heat.\"\n—Chandra Nalaar",
@@ -3756,7 +3756,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Punishing Fire deals 2 damage to target creature or player.",
+      "Punishing Fire deals 2 damage to any target.",
       "Whenever an opponent gains life, you may pay {R}. If you do, return Punishing Fire from your graveyard to your hand."
     ],
     "flavor_text": null,
@@ -3807,7 +3807,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Whenever a source you control deals damage to an opponent, you may put a quest counter on Quest for Pure Flame.",
-      "Remove four quest counters from Quest for Pure Flame and sacrifice it: If any source you control would deal damage to a creature or player this turn, it deals double that damage to that creature or player instead."
+      "Remove four quest counters from Quest for Pure Flame and sacrifice it: If any source you control would deal damage to a permanent or player this turn, it deals double that damage to that permanent or player instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -3860,7 +3860,7 @@
     "mana_cost": "4RR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "If an opponent drew three or more cards this turn, you may pay {R} rather than pay Runeflare Trap's mana cost.",
+      "If an opponent drew three or more cards this turn, you may pay {R} rather than pay this spell's mana cost.",
       "Runeflare Trap deals damage to target player equal to the number of cards in that player's hand."
     ],
     "flavor_text": null,
@@ -3958,7 +3958,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Spire Barrage deals damage to target creature or player equal to the number of Mountains you control."
+      "Spire Barrage deals damage to any target equal to the number of Mountains you control."
     ],
     "flavor_text": "Goblin lessons include the 2,071 tips for survival. Frek only remembered 2,070.",
     "power": null,
@@ -4040,7 +4040,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Kicker {3}{R} (You may pay an additional {3}{R} as you cast this spell.)",
-      "Damage can't be prevented this turn. If Unstable Footing was kicked, it deals 5 damage to target player."
+      "Damage can't be prevented this turn. If this spell was kicked, it deals 5 damage to target player or planeswalker."
     ],
     "flavor_text": "A long way down is shorter than you think.",
     "power": null,
@@ -4119,7 +4119,7 @@
     "mana_cost": "3GG",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "If an opponent had an artifact enter the battlefield under his or her control this turn, you may pay {1}{G} rather than pay Baloth Cage Trap's mana cost.",
+      "If an opponent had an artifact enter the battlefield under their control this turn, you may pay {1}{G} rather than pay this spell's mana cost.",
       "Create a 4/4 green Beast creature token."
     ],
     "flavor_text": null,
@@ -4221,7 +4221,7 @@
     "mana_cost": "4GG",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "If a noncreature permanent under your control was destroyed this turn by a spell or ability an opponent controlled, you may pay {G} rather than pay Cobra Trap's mana cost.",
+      "If a noncreature permanent under your control was destroyed this turn by a spell or ability an opponent controlled, you may pay {G} rather than pay this spell's mana cost.",
       "Create four 1/1 green Snake creature tokens."
     ],
     "flavor_text": null,
@@ -4331,7 +4331,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {G}{G} to your mana pool."
+      "{T}: Add {G}{G}."
     ],
     "flavor_text": "The other tribes call them fanatics, but none deny that the Mul Daya elves have an iron-strong bond to some force greater than themselves.",
     "power": "1",
@@ -4355,7 +4355,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "As an additional cost to cast Harrow, sacrifice a land.",
+      "As an additional cost to cast this spell, sacrifice a land.",
       "Search your library for up to two basic land cards and put them onto the battlefield. Then shuffle your library."
     ],
     "flavor_text": "The Roil redraws the world as it passes, leaving only the hedrons unchanged.",
@@ -4435,7 +4435,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Landfall — Whenever a land enters the battlefield under your control, you may add one mana of any color to your mana pool."
+      "Landfall — Whenever a land enters the battlefield under your control, you may add one mana of any color."
     ],
     "flavor_text": "Its scales contain the essence of thousands of lotus blooms.",
     "power": "2",
@@ -4865,7 +4865,7 @@
     "mana_cost": "4GG",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "If a creature spell you cast this turn was countered by a spell or ability an opponent controlled, you may pay {0} rather than pay Summoning Trap's mana cost.",
+      "If a creature spell you cast this turn was countered by a spell or ability an opponent controlled, you may pay {0} rather than pay this spell's mana cost.",
       "Look at the top seven cards of your library. You may put a creature card from among them onto the battlefield. Put the rest on the bottom of your library in any order."
     ],
     "flavor_text": null,
@@ -4944,8 +4944,8 @@
     "mana_cost": "3GGG",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Terra Stomper can't be countered.",
-      "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)"
+      "This spell can't be countered.",
+      "Trample  (This creature can deal excess combat damage to the player or planeswalker it's attacking.)"
     ],
     "flavor_text": "Sometimes violent earthquakes, hurtling boulders, and unseasonable dust storms are wrongly attributed to the Roil.",
     "power": "8",
@@ -5101,7 +5101,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Kicker {G} (You may pay an additional {G} as you cast this spell.)",
-      "Target creature can't be the target of spells or abilities your opponents control this turn. If Vines of Vastwood was kicked, that creature gets +4/+4 until end of turn."
+      "Target creature can't be the target of spells or abilities your opponents control this turn. If this spell was kicked, that creature gets +4/+4 until end of turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -5208,7 +5208,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Equipped creature can't be blocked by Vampires or Zombies.",
-      "Equipped creature has \"{T}, Sacrifice Blazing Torch: Blazing Torch deals 2 damage to target creature or player.\"",
+      "Equipped creature has \"{T}, Sacrifice Blazing Torch: Blazing Torch deals 2 damage to any target.\"",
       "Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"
     ],
     "flavor_text": null,
@@ -5414,7 +5414,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "When Khalni Gem enters the battlefield, return two lands you control to their owner's hand.",
-      "{T}: Add two mana of any one color to your mana pool."
+      "{T}: Add two mana of any one color."
     ],
     "flavor_text": "A fragment of ancient power lost in the heart of Ora Ondar.",
     "power": null,
@@ -5547,7 +5547,7 @@
     "oracle_text": [
       "Akoum Refuge enters the battlefield tapped.",
       "When Akoum Refuge enters the battlefield, you gain 1 life.",
-      "{T}: Add {B} or {R} to your mana pool."
+      "{T}: Add {B} or {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -5596,8 +5596,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Crypt of Agadeem enters the battlefield tapped.",
-      "{T}: Add {B} to your mana pool.",
-      "{2}, {T}: Add {B} to your mana pool for each black creature card in your graveyard."
+      "{T}: Add {B}.",
+      "{2}, {T}: Add {B} for each black creature card in your graveyard."
     ],
     "flavor_text": null,
     "power": null,
@@ -5623,7 +5623,7 @@
     "oracle_text": [
       "Emeria, the Sky Ruin enters the battlefield tapped.",
       "At the beginning of your upkeep, if you control seven or more Plains, you may return target creature card from your graveyard to the battlefield.",
-      "{T}: Add {W} to your mana pool."
+      "{T}: Add {W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -5649,7 +5649,7 @@
     "oracle_text": [
       "Graypelt Refuge enters the battlefield tapped.",
       "When Graypelt Refuge enters the battlefield, you gain 1 life.",
-      "{T}: Add {G} or {W} to your mana pool."
+      "{T}: Add {G} or {W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -5675,7 +5675,7 @@
     "oracle_text": [
       "Jwar Isle Refuge enters the battlefield tapped.",
       "When Jwar Isle Refuge enters the battlefield, you gain 1 life.",
-      "{T}: Add {U} or {B} to your mana pool."
+      "{T}: Add {U} or {B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -5701,7 +5701,7 @@
     "oracle_text": [
       "Kabira Crossroads enters the battlefield tapped.",
       "When Kabira Crossroads enters the battlefield, you gain 2 life.",
-      "{T}: Add {W} to your mana pool."
+      "{T}: Add {W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -5727,7 +5727,7 @@
     "oracle_text": [
       "Kazandu Refuge enters the battlefield tapped.",
       "When Kazandu Refuge enters the battlefield, you gain 1 life.",
-      "{T}: Add {R} or {G} to your mana pool."
+      "{T}: Add {R} or {G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -5752,7 +5752,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Magosi, the Waterveil enters the battlefield tapped.",
-      "{T}: Add {U} to your mana pool.",
+      "{T}: Add {U}.",
       "{U}, {T}: Put an eon counter on Magosi, the Waterveil. Skip your next turn.",
       "{T}, Remove an eon counter from Magosi, the Waterveil and return it to its owner's hand: Take an extra turn after this one."
     ],
@@ -5827,7 +5827,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Oran-Rief, the Vastwood enters the battlefield tapped.",
-      "{T}: Add {G} to your mana pool.",
+      "{T}: Add {G}.",
       "{T}: Put a +1/+1 counter on each green creature that entered the battlefield this turn."
     ],
     "flavor_text": null,
@@ -5854,7 +5854,7 @@
     "oracle_text": [
       "Piranha Marsh enters the battlefield tapped.",
       "When Piranha Marsh enters the battlefield, target player loses 1 life.",
-      "{T}: Add {B} to your mana pool."
+      "{T}: Add {B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -5904,7 +5904,7 @@
     "oracle_text": [
       "Sejiri Refuge enters the battlefield tapped.",
       "When Sejiri Refuge enters the battlefield, you gain 1 life.",
-      "{T}: Add {W} or {U} to your mana pool."
+      "{T}: Add {W} or {U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -5930,7 +5930,7 @@
     "oracle_text": [
       "Soaring Seacliff enters the battlefield tapped.",
       "When Soaring Seacliff enters the battlefield, target creature gains flying until end of turn.",
-      "{T}: Add {U} to your mana pool."
+      "{T}: Add {U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -5956,7 +5956,7 @@
     "oracle_text": [
       "Teetering Peaks enters the battlefield tapped.",
       "When Teetering Peaks enters the battlefield, target creature gets +2/+0 until end of turn.",
-      "{T}: Add {R} to your mana pool."
+      "{T}: Add {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -5982,7 +5982,7 @@
     "oracle_text": [
       "Turntimber Grove enters the battlefield tapped.",
       "When Turntimber Grove enters the battlefield, target creature gets +1/+1 until end of turn.",
-      "{T}: Add {G} to your mana pool."
+      "{T}: Add {G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6007,8 +6007,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Valakut, the Molten Pinnacle enters the battlefield tapped.",
-      "Whenever a Mountain enters the battlefield under your control, if you control at least five other Mountains, you may have Valakut, the Molten Pinnacle deal 3 damage to target creature or player.",
-      "{T}: Add {R} to your mana pool."
+      "Whenever a Mountain enters the battlefield under your control, if you control at least five other Mountains, you may have Valakut, the Molten Pinnacle deal 3 damage to any target.",
+      "{T}: Add {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -6060,7 +6060,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6088,7 +6088,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6116,7 +6116,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6144,7 +6144,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6172,7 +6172,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6200,7 +6200,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6228,7 +6228,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6256,7 +6256,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6284,7 +6284,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6312,7 +6312,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6340,7 +6340,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6368,7 +6368,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6396,7 +6396,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6424,7 +6424,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6452,7 +6452,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6480,7 +6480,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6508,7 +6508,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6536,7 +6536,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6564,7 +6564,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6592,7 +6592,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6620,7 +6620,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6648,7 +6648,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6676,7 +6676,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6704,7 +6704,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6732,7 +6732,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6760,7 +6760,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6788,7 +6788,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6816,7 +6816,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6844,7 +6844,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6872,7 +6872,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6900,7 +6900,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6928,7 +6928,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6956,7 +6956,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6984,7 +6984,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7012,7 +7012,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7040,7 +7040,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7068,7 +7068,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7096,7 +7096,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7124,7 +7124,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7152,7 +7152,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,

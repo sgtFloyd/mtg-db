@@ -68,7 +68,7 @@
     "mana_cost": "RRR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)",
+      "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
       "Haste (This creature can attack and {T} as soon as it comes under your control.)",
       "At the beginning of the end step, sacrifice Ball Lightning."
     ],
@@ -309,7 +309,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target opponent reveals his or her hand. You choose a card from it. That player discards that card."
+      "Target opponent reveals their hand. You choose a card from it. That player discards that card."
     ],
     "flavor_text": "\"There's very little that escapes me, Greven. And you will escape very little if you fail.\"\n—Volrath",
     "power": null,
@@ -385,7 +385,7 @@
     "mana_cost": "3GG",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Whenever Crashing Boars attacks, defending player chooses an untapped creature he or she controls. That creature blocks Crashing Boars this turn if able."
+      "Whenever Crashing Boars attacks, defending player chooses an untapped creature they control. That creature blocks Crashing Boars this turn if able."
     ],
     "flavor_text": "Bores ruin a party. Boars are party to ruin.",
     "power": "4",
@@ -409,7 +409,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Add {B}{B}{B} to your mana pool."
+      "Add {B}{B}{B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -532,7 +532,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Spend only black mana on X.",
-      "Drain Life deals X damage to target creature or player. You gain life equal to the damage dealt, but not more life than the player's life total before Drain Life dealt damage or the creature's toughness."
+      "Drain Life deals X damage to any target. You gain life equal to the damage dealt, but not more life than the player's life total before the damage was dealt, the planeswalker's loyalty before the damage was dealt, or the creature's toughness."
     ],
     "flavor_text": null,
     "power": null,
@@ -557,8 +557,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Dwarven Ruins enters the battlefield tapped.",
-      "{T}: Add {R} to your mana pool.",
-      "{T}, Sacrifice Dwarven Ruins: Add {R}{R} to your mana pool."
+      "{T}: Add {R}.",
+      "{T}, Sacrifice Dwarven Ruins: Add {R}{R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -583,8 +583,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Ebon Stronghold enters the battlefield tapped.",
-      "{T}: Add {B} to your mana pool.",
-      "{T}, Sacrifice Ebon Stronghold: Add {B}{B} to your mana pool."
+      "{T}: Add {B}.",
+      "{T}, Sacrifice Ebon Stronghold: Add {B}{B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -687,8 +687,8 @@
     "mana_cost": "XR",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Fireball deals X damage divided evenly, rounded down, among any number of target creatures and/or players.",
-      "Fireball costs {1} more to cast for each target beyond the first."
+      "This spell costs {1} more to cast for each target beyond the first.",
+      "Fireball deals X damage divided evenly, rounded down, among any number of targets."
     ],
     "flavor_text": null,
     "power": null,
@@ -765,7 +765,7 @@
     "mana_cost": "2GGGG",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)",
+      "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
       "At the beginning of your upkeep, Force of Nature deals 8 damage to you unless you pay {G}{G}{G}{G}."
     ],
     "flavor_text": null,
@@ -794,7 +794,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -822,7 +822,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -850,7 +850,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -978,8 +978,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Havenwood Battleground enters the battlefield tapped.",
-      "{T}: Add {G} to your mana pool.",
-      "{T}, Sacrifice Havenwood Battleground: Add {G}{G} to your mana pool."
+      "{T}: Add {G}.",
+      "{T}, Sacrifice Havenwood Battleground: Add {G}{G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -1084,7 +1084,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1112,7 +1112,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1140,7 +1140,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1216,7 +1216,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Lava Axe deals 5 damage to target player."
+      "Lava Axe deals 5 damage to target player or planeswalker."
     ],
     "flavor_text": "\"Catch!\"",
     "power": null,
@@ -1269,7 +1269,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Lightning Bolt deals 3 damage to target creature or player."
+      "Lightning Bolt deals 3 damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -1296,7 +1296,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool."
+      "{T}: Add {G}."
     ],
     "flavor_text": "One bone broken for every twig snapped underfoot.\n—Llanowar penalty for trespassing",
     "power": "1",
@@ -1374,7 +1374,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1402,7 +1402,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1430,7 +1430,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1481,7 +1481,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Polluted Mire enters the battlefield tapped.",
-      "{T}: Add {B} to your mana pool.",
+      "{T}: Add {B}.",
       "Cycling {2} ({2}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -1506,7 +1506,7 @@
     "mana_cost": "XU",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Counter target spell unless its controller pays {X}. If he or she doesn't, that player taps all lands with mana abilities he or she controls and empties his or her mana pool."
+      "Counter target spell unless its controller pays {X}. If that player doesn't, they tap all lands with mana abilities they control and lose all unspent mana."
     ],
     "flavor_text": null,
     "power": null,
@@ -1534,8 +1534,8 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "As Quirion Elves enters the battlefield, choose a color.",
-      "{T}: Add {G} to your mana pool.",
-      "{T}: Add one mana of the chosen color to your mana pool."
+      "{T}: Add {G}.",
+      "{T}: Add one mana of the chosen color."
     ],
     "flavor_text": null,
     "power": "1",
@@ -1611,7 +1611,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Remote Isle enters the battlefield tapped.",
-      "{T}: Add {U} to your mana pool.",
+      "{T}: Add {U}.",
       "Cycling {2} ({2}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -1766,7 +1766,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Shock deals 2 damage to target creature or player."
+      "Shock deals 2 damage to any target."
     ],
     "flavor_text": "Lightning tethers souls to the world.\n—Kor saying",
     "power": null,
@@ -1844,7 +1844,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Slippery Karst enters the battlefield tapped.",
-      "{T}: Add {G} to your mana pool.",
+      "{T}: Add {G}.",
       "Cycling {2} ({2}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -1870,7 +1870,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Smoldering Crater enters the battlefield tapped.",
-      "{T}: Add {R} to your mana pool.",
+      "{T}: Add {R}.",
       "Cycling {2} ({2}, Discard this card: Draw a card.)"
     ],
     "flavor_text": null,
@@ -1921,8 +1921,8 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Sonic Burst, discard a card at random.",
-      "Sonic Burst deals 4 damage to target creature or player."
+      "As an additional cost to cast this spell, discard a card at random.",
+      "Sonic Burst deals 4 damage to any target."
     ],
     "flavor_text": "Music scythes the savage beast.",
     "power": null,
@@ -1947,8 +1947,8 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Svyelunite Temple enters the battlefield tapped.",
-      "{T}: Add {U} to your mana pool.",
-      "{T}, Sacrifice Svyelunite Temple: Add {U}{U} to your mana pool."
+      "{T}: Add {U}.",
+      "{T}, Sacrifice Svyelunite Temple: Add {U}{U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -1976,7 +1976,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2004,7 +2004,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2032,7 +2032,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2135,7 +2135,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Choose one —",
-      "• Thunderbolt deals 3 damage to target player.",
+      "• Thunderbolt deals 3 damage to target player or planeswalker.",
       "• Thunderbolt deals 4 damage to target creature with flying."
     ],
     "flavor_text": "\"Most wizards consider a thunderbolt to be a proper retort.\"\n—Ertai, wizard adept",
@@ -2292,7 +2292,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Enchant land",
-      "Whenever enchanted land is tapped for mana, its controller adds {G} to his or her mana pool (in addition to the mana the land produces)."
+      "Whenever enchanted land is tapped for mana, its controller adds an additional {G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -2345,7 +2345,7 @@
     "mana_cost": "4GG",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)"
+      "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)"
     ],
     "flavor_text": "When the gorilla playfully grabbed the wurm's tail, the wurm doubled back and playfully ate the gorilla's head.",
     "power": "6",

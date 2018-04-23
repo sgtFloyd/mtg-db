@@ -90,7 +90,7 @@
     "mana_cost": "8",
     "converted_mana_cost": 8,
     "oracle_text": [
-      "{8}, {T}: Aladdin's Ring deals 4 damage to target creature or player."
+      "{8}, {T}: Aladdin's Ring deals 4 damage to any target."
     ],
     "flavor_text": "\"After these words the magician drew a ring off his finger, and put it on one of Aladdin's, saying: 'It is a talisman against all evil, so long as you obey me.'\" \n—The Arabian Nights, Junior Classics trans.",
     "power": null,
@@ -398,7 +398,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Whenever City of Brass becomes tapped, it deals 1 damage to you.",
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -425,7 +425,7 @@
     "mana_cost": "BB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Cuombajj Witches deals 1 damage to target creature or player and 1 damage to target creature or player of an opponent's choice."
+      "{T}: Cuombajj Witches deals 1 damage to any target and 1 damage to any target of an opponent's choice."
     ],
     "flavor_text": null,
     "power": "1",
@@ -529,7 +529,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{T}: Desert deals 1 damage to target attacking creature. Activate this ability only during the end of combat step."
     ],
     "flavor_text": null,
@@ -679,7 +679,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{T}: Regenerate target Elephant."
     ],
     "flavor_text": null,
@@ -1431,7 +1431,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{T}: Draw a card. Activate this ability only if you have exactly seven cards in hand."
     ],
     "flavor_text": null,
@@ -1457,7 +1457,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Blue creatures don't untap during their controllers' untap steps.",
-      "At the beginning of each player's upkeep, that player may choose any number of tapped blue creatures he or she controls and pay {4} for each creature chosen this way. If the player does, untap those creatures."
+      "At the beginning of each player's upkeep, that player may choose any number of tapped blue creatures they control and pay {4} for each creature chosen this way. If the player does, untap those creatures."
     ],
     "flavor_text": null,
     "power": null,
@@ -1509,8 +1509,8 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Metamorphosis, sacrifice a creature.",
-      "Add X mana of any one color to your mana pool, where X is one plus the sacrificed creature's converted mana cost. Spend this mana only to cast creature spells."
+      "As an additional cost to cast this spell, sacrifice a creature.",
+      "Add X mana of any one color, where X is 1 plus the sacrificed creature's converted mana cost. Spend this mana only to cast creature spells."
     ],
     "flavor_text": null,
     "power": null,
@@ -1618,7 +1618,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1644,7 +1644,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Whenever Nafs Asp deals damage to a player, that player loses 1 life at the beginning of his or her next draw step unless he or she pays {1} before that draw step."
+      "Whenever Nafs Asp deals damage to a player, that player loses 1 life at the beginning of their next draw step unless they pay {1} before that draw step."
     ],
     "flavor_text": null,
     "power": "1",
@@ -1670,7 +1670,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Whenever Nafs Asp deals damage to a player, that player loses 1 life at the beginning of his or her next draw step unless he or she pays {1} before that draw step."
+      "Whenever Nafs Asp deals damage to a player, that player loses 1 life at the beginning of their next draw step unless they pay {1} before that draw step."
     ],
     "flavor_text": null,
     "power": "1",
@@ -2074,7 +2074,7 @@
     "mana_cost": "WW",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Players play a MAGIC subgame, using their libraries as their decks. Each player who doesn't win the subgame loses half his or her life, rounded up."
+      "Players play a Magic subgame, using their libraries as their decks. Each player who doesn't win the subgame loses half their life, rounded up."
     ],
     "flavor_text": null,
     "power": null,

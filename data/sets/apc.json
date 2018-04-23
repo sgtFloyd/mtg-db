@@ -252,7 +252,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Until end of turn, spells and abilities you control that would add colored mana to your mana pool add that much white mana instead. Until end of turn, you may spend white mana as though it were mana of any color.",
+      "Until end of turn, spells and abilities you control that would add colored mana instead add that much white mana. Until end of turn, you may spend white mana as though it were mana of any color.",
       "Draw a card."
     ],
     "flavor_text": null,
@@ -338,7 +338,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Flying",
-      "{1}, {T}: Add one mana of any color to your mana pool."
+      "{1}, {T}: Add one mana of any color."
     ],
     "flavor_text": "Hope kept the defenders aloft, but only courage kept them in the fight.",
     "power": "1",
@@ -392,7 +392,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Kicker {R} (You may pay an additional {R} as you cast this spell.)",
-      "Destroy target artifact or enchantment. If Orim's Thunder was kicked, it deals damage equal to that permanent's converted mana cost to target creature."
+      "Destroy target artifact or enchantment. If this spell was kicked, it deals damage equal to that permanent's converted mana cost to target creature."
     ],
     "flavor_text": null,
     "power": null,
@@ -502,7 +502,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "{R}, {T}: Target creature gets +2/+0 until end of turn.",
-      "{G}, {T}: Add one mana of any color to your mana pool."
+      "{G}, {T}: Add one mana of any color."
     ],
     "flavor_text": "\"The sea holds all that you need. You simply must know how to ask for it.\"",
     "power": "1",
@@ -702,7 +702,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)",
-      "Return target creature to its owner's hand. If Jilt was kicked, it deals 2 damage to another target creature."
+      "Return target creature to its owner's hand. If this spell was kicked, it deals 2 damage to another target creature."
     ],
     "flavor_text": "\"You're not my Hanna\"\n—Gerrard, to Yawgmoth",
     "power": null,
@@ -941,7 +941,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "When Whirlpool Warrior enters the battlefield, shuffle the cards from your hand into your library, then draw that many cards.",
-      "{R}, Sacrifice Whirlpool Warrior: Each player shuffles the cards from his or her hand into his or her library, then draws that many cards."
+      "{R}, Sacrifice Whirlpool Warrior: Each player shuffles the cards from their hand into their library, then draws that many cards."
     ],
     "flavor_text": null,
     "power": "2",
@@ -1096,8 +1096,8 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "As an additional cost to cast Mind Extraction, sacrifice a creature.",
-      "Target player reveals his or her hand and discards all cards of each of the sacrificed creature's colors."
+      "As an additional cost to cast this spell, sacrifice a creature.",
+      "Target player reveals their hand and discards all cards of each of the sacrificed creature's colors."
     ],
     "flavor_text": null,
     "power": null,
@@ -1150,8 +1150,8 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{G}, {T}: Add one mana of any color to your mana pool.",
-      "{W}, {T}: Prevent the next 1 damage that would be dealt to target creature or player this turn."
+      "{G}, {T}: Add one mana of any color.",
+      "{W}, {T}: Prevent the next 1 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "\"The darkness merely hides the light.\"",
     "power": "1",
@@ -1354,7 +1354,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target player exiles all cards from his or her hand face down. At the beginning of the end step of that player's next turn, that player returns those cards to his or her hand."
+      "Target player exiles all cards from their hand face down. At the beginning of the end step of that player's next turn, that player returns those cards to their hand."
     ],
     "flavor_text": null,
     "power": null,
@@ -1563,7 +1563,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Kicker—{2}{R}, Sacrifice a land. (You may pay {2}{R} and sacrifice a land in addition to any other costs as you cast this spell.)",
-      "Destroy target land. If Dwarven Landslide was kicked, destroy another target land."
+      "Destroy target land. If this spell was kicked, destroy another target land."
     ],
     "flavor_text": null,
     "power": null,
@@ -1642,7 +1642,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Kicker {2}{R} and/or {3}{U} (You may pay an additional {2}{R} and/or {3}{U} as you cast this spell.)",
-      "Illuminate deals X damage to target creature. If Illuminate was kicked with its {2}{R} kicker, it deals X damage to that creature's controller. If Illuminate was kicked with its {3}{U} kicker, you draw X cards."
+      "Illuminate deals X damage to target creature. If this spell was kicked with its {2}{R} kicker, it deals X damage to that creature's controller. If this spell was kicked with its {3}{U} kicker, you draw X cards."
     ],
     "flavor_text": null,
     "power": null,
@@ -1724,7 +1724,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{W}, {T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.",
+      "{W}, {T}: Prevent the next 1 damage that would be dealt to any target this turn.",
       "{U}, {T}: Target creature gains flying until end of turn."
     ],
     "flavor_text": "\"The strong can also be subtle.\"",
@@ -2007,7 +2007,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "As an additional cost to cast Gaea's Balance, sacrifice five lands.",
+      "As an additional cost to cast this spell, sacrifice five lands.",
       "Search your library for a land card of each basic land type and put them onto the battlefield. Then shuffle your library."
     ],
     "flavor_text": null,
@@ -2241,7 +2241,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Kicker {B} (You may pay an additional {B} as you cast this spell.)",
-      "Creatures you control get +1/+1 until end of turn. If Strength of Night was kicked, Zombie creatures you control get an additional +2/+2 until end of turn."
+      "Creatures you control get +1/+1 until end of turn. If this spell was kicked, Zombie creatures you control get an additional +2/+2 until end of turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -2267,7 +2267,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)",
+      "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
       "When Sylvan Messenger enters the battlefield, reveal the top four cards of your library. Put all Elf cards revealed this way into your hand and the rest on the bottom of your library in any order."
     ],
     "flavor_text": null,
@@ -2345,7 +2345,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {G}, {U}, or {B} to your mana pool."
+      "{T}: Add {B}, {G}, or {U}."
     ],
     "flavor_text": "The elves of Urborg are as deadly and capricious as the swamp itself.",
     "power": "1",
@@ -2393,7 +2393,7 @@
     "mana_cost": "XRW",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "The next X damage that would be dealt to target creature or player this turn is dealt to another target creature or player instead."
+      "The next X damage that would be dealt to target creature, planeswalker, or player this turn is dealt to another target creature, planeswalker, or player instead."
     ],
     "flavor_text": "Sisay discovered that the mirrored hull of the Weatherlight could be used as a defensive weapon.",
     "power": null,
@@ -2473,7 +2473,7 @@
     "mana_cost": "XWB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Death Grasp deals X damage to target creature or player. You gain X life."
+      "Death Grasp deals X damage to any target. You gain X life."
     ],
     "flavor_text": "Yawgmoth's greatest joy came from watching one hero defeat another.",
     "power": null,
@@ -2544,7 +2544,7 @@
     "supertypes": [],
     "subtypes": [],
     "rarity": "Rare",
-    "mana_cost": "1WBR",
+    "mana_cost": "1RWB",
     "converted_mana_cost": 4,
     "oracle_text": [
       "Whenever a creature you control attacks, it gets +2/+2 until end of turn."
@@ -2597,7 +2597,7 @@
       "Beast"
     ],
     "rarity": "Rare",
-    "mana_cost": "4GUB",
+    "mana_cost": "4BGU",
     "converted_mana_cost": 7,
     "oracle_text": [
       "Trample",
@@ -2679,8 +2679,8 @@
     "mana_cost": "RW",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{R}, Sacrifice Goblin Legionnaire: Goblin Legionnaire deals 2 damage to target creature or player.",
-      "{W}, Sacrifice Goblin Legionnaire: Prevent the next 2 damage that would be dealt to target creature or player this turn."
+      "{R}, Sacrifice Goblin Legionnaire: It deals 2 damage to any target.",
+      "{W}, Sacrifice Goblin Legionnaire: Prevent the next 2 damage that would be dealt to any target this turn."
     ],
     "flavor_text": null,
     "power": "2",
@@ -2725,7 +2725,7 @@
     "supertypes": [],
     "subtypes": [],
     "rarity": "Rare",
-    "mana_cost": "URG",
+    "mana_cost": "GUR",
     "converted_mana_cost": 3,
     "oracle_text": [
       "Reveal the cards in your library. An opponent chooses from among them a creature card, a land card, and a noncreature, nonland card. You put the chosen cards into your hand. Then shuffle your library."
@@ -2803,7 +2803,7 @@
       "Angel"
     ],
     "rarity": "Rare",
-    "mana_cost": "1RWU",
+    "mana_cost": "1URW",
     "converted_mana_cost": 4,
     "oracle_text": [
       "Flying, vigilance, haste"
@@ -2833,7 +2833,7 @@
     "mana_cost": "BG",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {B} to your mana pool."
+      "{T}: Add {B}."
     ],
     "flavor_text": "Just as leaves fall from the branches of a living tree, so too do the dead leave the elfhame.",
     "power": "2",
@@ -2885,7 +2885,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "{1}{U}: Minotaur Illusionist gains shroud until end of turn. (It can't be the target of spells or abilities.)",
-      "{R}, Sacrifice Minotaur Illusionist: Minotaur Illusionist deals damage equal to its power to target creature."
+      "{R}, Sacrifice Minotaur Illusionist: It deals damage equal to its power to target creature."
     ],
     "flavor_text": null,
     "power": "3",
@@ -2933,7 +2933,7 @@
     "supertypes": [],
     "subtypes": [],
     "rarity": "Rare",
-    "mana_cost": "BGW",
+    "mana_cost": "WBG",
     "converted_mana_cost": 3,
     "oracle_text": [
       "Sacrifice a land: You gain 3 life."
@@ -3008,7 +3008,7 @@
     "mana_cost": "3UR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Prophetic Bolt deals 4 damage to target creature or player. Look at the top four cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order."
+      "Prophetic Bolt deals 4 damage to any target. Look at the top four cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order."
     ],
     "flavor_text": null,
     "power": null,
@@ -3065,7 +3065,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Enchant creature",
-      "Enchanted creature has \"{T}: This creature deals 1 damage to target player. You draw a card.\""
+      "Enchanted creature has \"{T}: This creature deals 1 damage to target player or planeswalker. You draw a card.\""
     ],
     "flavor_text": "The dwarves call their quicksilver techniques \"improvisational weaponsmithing.\"",
     "power": null,
@@ -3092,7 +3092,7 @@
     "mana_cost": "UR",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Razorfin Hunter deals 1 damage to target creature or player."
+      "{T}: Razorfin Hunter deals 1 damage to any target."
     ],
     "flavor_text": "No one knew if they'd been lurking under the sea all along, or if they'd been created by the Phyrexian overlay.",
     "power": "1",
@@ -3324,7 +3324,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Fire deals 2 damage divided as you choose among one or two target creatures and/or players."
+      "Fire deals 2 damage divided as you choose among one or two targets."
     ],
     "flavor_text": null,
     "power": null,
@@ -3701,7 +3701,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "At the beginning of each player's upkeep, if there are four or more basic land types among lands that player controls, Mask of Intolerance deals 3 damage to him or her."
+      "At the beginning of each player's upkeep, if there are four or more basic land types among lands that player controls, Mask of Intolerance deals 3 damage to that player."
     ],
     "flavor_text": null,
     "power": null,
@@ -3725,8 +3725,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {R} or {W} to your mana pool. Battlefield Forge deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -3750,8 +3750,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {W} or {B} to your mana pool. Caves of Koilos deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -3775,8 +3775,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {B} or {G} to your mana pool. Llanowar Wastes deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {B} or {G}. Llanowar Wastes deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -3800,8 +3800,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {U} or {R} to your mana pool. Shivan Reef deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {U} or {R}. Shivan Reef deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -3825,8 +3825,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {G} or {U} to your mana pool. Yavimaya Coast deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {G} or {U}. Yavimaya Coast deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,

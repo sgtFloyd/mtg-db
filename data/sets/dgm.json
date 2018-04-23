@@ -633,7 +633,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Defender",
-      "{3}{B}, {T}: Target opponent loses 2 life, then reveals a card at random from his or her hand."
+      "{3}{B}, {T}: Target opponent loses 2 life, then reveals a card at random from their hand."
     ],
     "flavor_text": "\"Follow your passion, I always say. Might as well get paid to do what you love.\"",
     "power": "2",
@@ -868,7 +868,7 @@
     "mana_cost": "3RR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Whenever a player casts a spell from his or her hand, that player exiles it, then exiles cards from the top of his or her library until he or she exiles a card that shares a card type with it. That player may cast that card without paying its mana cost. Then he or she puts all cards exiled with Possibility Storm on the bottom of his or her library in a random order."
+      "Whenever a player casts a spell from their hand, that player exiles it, then exiles cards from the top of their library until they exile a card that shares a card type with it. That player may cast that card without paying its mana cost. Then they put all cards exiled with Possibility Storm on the bottom of their library in a random order."
     ],
     "flavor_text": null,
     "power": null,
@@ -892,7 +892,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Punish the Enemy deals 3 damage to target player and 3 damage to target creature."
+      "Punish the Enemy deals 3 damage to target player or planeswalker and 3 damage to target creature."
     ],
     "flavor_text": "\"When justice descends, the servant will burn with the master.\"\n—Aurelia",
     "power": null,
@@ -1262,7 +1262,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Flash",
-      "Skylasher can't be countered.",
+      "This spell can't be countered.",
       "Reach, protection from blue"
     ],
     "flavor_text": "\"It preys on those who would spy on our lands, so we never prey on it.\"\n—Kroshkar, Gruul shaman",
@@ -1420,7 +1420,7 @@
     "mana_cost": "4UR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Choose target creature or player. Draw three cards, then discard a card. Blast of Genius deals damage equal to the discarded card's converted mana cost to that creature or player."
+      "Choose any target. Draw three cards, then discard a card. Blast of Genius deals damage equal to the discarded card's converted mana cost to that permanent or player."
     ],
     "flavor_text": "Ral Zarek's brainstorms bring actual thunder and lightning.",
     "power": null,
@@ -1925,7 +1925,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Flying",
-      "{T}: Goblin Test Pilot deals 2 damage to target creature or player chosen at random."
+      "{T}: Goblin Test Pilot deals 2 damage to any target chosen at random."
     ],
     "flavor_text": "\"All pilots and prototypes destroyed. Extensive collateral damage inflicted. Conclusion: flawless design.\"\n—Manual of Melek",
     "power": "0",
@@ -2227,7 +2227,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "Whenever Mirko Vosk, Mind Drinker deals combat damage to a player, that player reveals cards from the top of his or her library until he or she reveals four land cards, then puts those cards into his or her graveyard."
+      "Whenever Mirko Vosk, Mind Drinker deals combat damage to a player, that player reveals cards from the top of their library until they reveal four land cards, then puts those cards into their graveyard."
     ],
     "flavor_text": null,
     "power": "2",
@@ -2251,7 +2251,7 @@
     "mana_cost": "4BR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Return target creature card from your graveyard to your hand. Morgue Burst deals damage to target creature or player equal to the power of the card returned this way."
+      "Return target creature card from your graveyard to your hand. Morgue Burst deals damage to any target equal to the power of the card returned this way."
     ],
     "flavor_text": "\"Let him in. He's on the list.\"\n—Olrich, Rakdos club owner",
     "power": null,
@@ -2306,7 +2306,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Flash",
-      "If an opponent would draw a card except the first one he or she draws in each of his or her draw steps, instead that player skips that draw and you draw a card."
+      "If an opponent would draw a card except the first one they draw in each of their draw steps, instead that player skips that draw and you draw a card."
     ],
     "flavor_text": null,
     "power": "3",
@@ -2354,7 +2354,7 @@
     "mana_cost": "1UB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target player puts the top two cards of his or her library into his or her graveyard. Draw two cards."
+      "Target player puts the top two cards of their library into their graveyard. Draw two cards."
     ],
     "flavor_text": "Mirko Vosk hunted anyone with knowledge of the maze, draining the chances of the other guilds.",
     "power": null,
@@ -2378,7 +2378,7 @@
     "mana_cost": "GGUU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Counter target spell. At the beginning of your next precombat main phase, add X mana in any combination of colors to your mana pool, where X is that spell's converted mana cost."
+      "Counter target spell. At the beginning of your next precombat main phase, add X mana in any combination of colors, where X is that spell's converted mana cost."
     ],
     "flavor_text": "\"Everything serves a purpose. Even you.\"\n—Vorel of the Hull Clade",
     "power": null,
@@ -2457,7 +2457,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "+1: Tap target permanent, then untap another target permanent.",
-      "−2: Ral Zarek deals 3 damage to target creature or player.",
+      "−2: Ral Zarek deals 3 damage to any target.",
       "−7: Flip five coins. Take an extra turn after this one for each coin that comes up heads."
     ],
     "flavor_text": null,
@@ -2482,7 +2482,7 @@
     "mana_cost": "X2UB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Target opponent reveals his or her hand. You choose up to X nonland cards from it and exile them. For each card exiled this way, search that player's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles his or her library."
+      "Target opponent reveals their hand. You choose up to X nonland cards from it and exile them. For each card exiled this way, search that player's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -2695,7 +2695,7 @@
     "mana_cost": "1WB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Sin Collector enters the battlefield, target opponent reveals his or her hand. You choose an instant or sorcery card from it and exile that card."
+      "When Sin Collector enters the battlefield, target opponent reveals their hand. You choose an instant or sorcery card from it and exile that card."
     ],
     "flavor_text": "\"That must weigh heavily on your soul. Let me purge it for you.\"",
     "power": "2",
@@ -2721,7 +2721,7 @@
     "mana_cost": "4BR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "At the beginning of each end step, each player discards his or her hand."
+      "At the beginning of each end step, each player discards their hand."
     ],
     "flavor_text": "Its victims become mindless lunatics. Conveniently, that's the first step in joining the Cult of Rakdos.",
     "power": "6",
@@ -3053,7 +3053,7 @@
     "mana_cost": "2RW",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Warleader's Helix deals 4 damage to target creature or player and you gain 4 life."
+      "Warleader's Helix deals 4 damage to any target and you gain 4 life."
     ],
     "flavor_text": "\"There is no time to remedy our enemies' ignorance. Blast it out of them.\"\n—Aurelia",
     "power": null,
@@ -3130,7 +3130,7 @@
     "mana_cost": "3RG",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land produced."
+      "Whenever a player taps a land for mana, that player adds one mana of any type that land produced."
     ],
     "flavor_text": "Many Ravnicans think of nature as orderly groves and elf-tended rot farms. They haven't seen the Gruul wilds.",
     "power": "7",
@@ -3157,7 +3157,7 @@
     "mana_cost": "RG",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool.",
+      "{T}: Add {G}.",
       "Whenever you tap Zhur-Taa Druid for mana, it deals 1 damage to each opponent."
     ],
     "flavor_text": "\"Only the decadent think magic should be pristine and without cost.\"",
@@ -3332,7 +3332,7 @@
     "mana_cost": "UB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player puts the top eight cards of his or her library into his or her graveyard.",
+      "Target player puts the top eight cards of their library into their graveyard.",
       "Fuse (You may cast one or both halves of this card from your hand.)"
     ],
     "flavor_text": null,
@@ -3557,7 +3557,7 @@
     "mana_cost": "RG",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target creature you control deals damage equal to its power to target creature or player.",
+      "Target creature you control deals damage equal to its power to any target.",
       "Fuse (You may cast one or both halves of this card from your hand.)"
     ],
     "flavor_text": null,
@@ -3857,7 +3857,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Burn deals 2 damage to target creature or player.",
+      "Burn deals 2 damage to any target.",
       "Fuse (You may cast one or both halves of this card from your hand.)"
     ],
     "flavor_text": null,
@@ -3932,7 +3932,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {W} or {U} to your mana pool.",
+      "{T}: Add {W} or {U}.",
       "{W}{U}, {T}, Sacrifice Azorius Cluestone: Draw a card."
     ],
     "flavor_text": "Its three sides represent the Sova, judges and arbitrators; the Jelenn, scribes and elocutors; and the Lyev, lawmages and enforcers.",
@@ -3957,7 +3957,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {R} or {W} to your mana pool.",
+      "{T}: Add {R} or {W}.",
       "{R}{W}, {T}, Sacrifice Boros Cluestone: Draw a card."
     ],
     "flavor_text": "\"In case of fire, treachery, citywide riot, political upheaval, or worldwide societal collapse, break glass.\"\n—Cluestone inscription",
@@ -3982,7 +3982,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {U} or {B} to your mana pool.",
+      "{T}: Add {U} or {B}.",
       "{U}{B}, {T}, Sacrifice Dimir Cluestone: Draw a card."
     ],
     "flavor_text": "It waits in the chill of the undercity, holding nameless secrets for those who dare to touch it.",
@@ -4007,7 +4007,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {B} or {G} to your mana pool.",
+      "{T}: Add {B} or {G}.",
       "{B}{G}, {T}, Sacrifice Golgari Cluestone: Draw a card."
     ],
     "flavor_text": "Golgari mold collects whispers, intelligence that is later harvested by Jarad and his high chancellors.",
@@ -4032,7 +4032,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {R} or {G} to your mana pool.",
+      "{T}: Add {R} or {G}.",
       "{R}{G}, {T}, Sacrifice Gruul Cluestone: Draw a card."
     ],
     "flavor_text": "Forgotten under rocks and vines, Gruul symbols mark the sites of primitive rituals where shamans once chanted to the wild.",
@@ -4057,7 +4057,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {U} or {R} to your mana pool.",
+      "{T}: Add {U} or {R}.",
       "{U}{R}, {T}, Sacrifice Izzet Cluestone: Draw a card."
     ],
     "flavor_text": "It holds within it an unsolvable riddle. A creative answer yields an invitation to the guild.",
@@ -4082,7 +4082,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {W} or {B} to your mana pool.",
+      "{T}: Add {W} or {B}.",
       "{W}{B}, {T}, Sacrifice Orzhov Cluestone: Draw a card."
     ],
     "flavor_text": "A symbol of power and wealth, the only commodities that matter to the Orzhov.",
@@ -4107,7 +4107,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {B} or {R} to your mana pool.",
+      "{T}: Add {B} or {R}.",
       "{B}{R}, {T}, Sacrifice Rakdos Cluestone: Draw a card."
     ],
     "flavor_text": "\"Burn. Bleed. Enjoy.\"\n—Cluestone inscription",
@@ -4132,7 +4132,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {G} or {W} to your mana pool.",
+      "{T}: Add {G} or {W}.",
       "{G}{W}, {T}, Sacrifice Selesnya Cluestone: Draw a card."
     ],
     "flavor_text": "\"Break it if you must. The loss of one relic is nothing next to the value of enriching us all.\"\n—Suniel the Woodwise",
@@ -4157,7 +4157,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {G} or {U} to your mana pool.",
+      "{T}: Add {G} or {U}.",
       "{G}{U}, {T}, Sacrifice Simic Cluestone: Draw a card."
     ],
     "flavor_text": "Simic symbols are among the most intricate and fragile, yet few vandalize them for fear of the strange lifeforms that might be released.",
@@ -4185,7 +4185,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Azorius Guildgate enters the battlefield tapped.",
-      "{T}: Add {W} or {U} to your mana pool."
+      "{T}: Add {W} or {U}."
     ],
     "flavor_text": "The Azorius symbol stares down like a great eye, reminding visitors of the watchful presence of Isperia and her lawmages.",
     "power": null,
@@ -4212,7 +4212,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Boros Guildgate enters the battlefield tapped.",
-      "{T}: Add {R} or {W} to your mana pool."
+      "{T}: Add {R} or {W}."
     ],
     "flavor_text": "It promises protection to those in need and proclaims a warning to any who would threaten Ravnican law.",
     "power": null,
@@ -4239,7 +4239,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Dimir Guildgate enters the battlefield tapped.",
-      "{T}: Add {U} or {B} to your mana pool."
+      "{T}: Add {U} or {B}."
     ],
     "flavor_text": "In the cold corridors of the undercity, misinformation unfurls from Duskmantle like a spreading stain.",
     "power": null,
@@ -4266,7 +4266,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Golgari Guildgate enters the battlefield tapped.",
-      "{T}: Add {B} or {G} to your mana pool."
+      "{T}: Add {B} or {G}."
     ],
     "flavor_text": "Every part of the gate was reclaimed from forgotten ruins and imbued with new purpose by the Swarm.",
     "power": null,
@@ -4293,7 +4293,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Gruul Guildgate enters the battlefield tapped.",
-      "{T}: Add {R} or {G} to your mana pool."
+      "{T}: Add {R} or {G}."
     ],
     "flavor_text": "The scarred rubble around the gate is testament to past meetings of the Clans, summits that inevitably devolved into brawls.",
     "power": null,
@@ -4320,7 +4320,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Izzet Guildgate enters the battlefield tapped.",
-      "{T}: Add {U} or {R} to your mana pool."
+      "{T}: Add {U} or {R}."
     ],
     "flavor_text": "Beyond lies the culmination of all Izzet projects, a grand experiment led by the dragon Niv-Mizzet himself.",
     "power": null,
@@ -4345,7 +4345,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Maze's End enters the battlefield tapped.",
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{3}, {T}, Return Maze's End to its owner's hand: Search your library for a Gate card, put it onto the battlefield, then shuffle your library. If you control ten or more Gates with different names, you win the game."
     ],
     "flavor_text": null,
@@ -4373,7 +4373,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Orzhov Guildgate enters the battlefield tapped.",
-      "{T}: Add {W} or {B} to your mana pool."
+      "{T}: Add {W} or {B}."
     ],
     "flavor_text": "\"We do not believe in hiding our wealth in the shadows. This is Orzhov, and this is how we reward greatness.\"\n—Teysa Karlov, Grand Envoy of Orzhov",
     "power": null,
@@ -4400,7 +4400,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Rakdos Guildgate enters the battlefield tapped.",
-      "{T}: Add {B} or {R} to your mana pool."
+      "{T}: Add {B} or {R}."
     ],
     "flavor_text": "Maze-runners who pass through the Rakdos gate leave behind their scruples and a significant amount of skin.",
     "power": null,
@@ -4427,7 +4427,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Selesnya Guildgate enters the battlefield tapped.",
-      "{T}: Add {G} or {W} to your mana pool."
+      "{T}: Add {G} or {W}."
     ],
     "flavor_text": "The Selesyna welcome all to help them heal the city's wounds. The price, however, is devotion to the guild and a selfless belief in Trostani.",
     "power": null,
@@ -4454,7 +4454,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Simic Guildgate enters the battlefield tapped.",
-      "{T}: Add {G} or {U} to your mana pool."
+      "{T}: Add {G} or {U}."
     ],
     "flavor_text": "Simic biomancers don't concern themselves with guarding a gate. Their ever-present creations are enough to ward off trespassers.",
     "power": null,

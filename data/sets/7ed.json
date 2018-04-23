@@ -442,7 +442,7 @@
     "oracle_text": [
       "Choose one —",
       "• Target player gains 3 life.",
-      "• Prevent the next 3 damage that would be dealt to target creature or player this turn."
+      "• Prevent the next 3 damage that would be dealt to any target this turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -681,7 +681,7 @@
     "mana_cost": "4W",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{T}: Prevent the next 4 damage that would be dealt to target creature or player this turn."
+      "{T}: Prevent the next 4 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "Her heart holds the pain of every soldier she's ever healed.",
     "power": "1",
@@ -960,7 +960,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn."
+      "{T}: Prevent the next 1 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "Why does a Samite heal? You might as well ask why a bird flies.",
     "power": "1",
@@ -1064,8 +1064,7 @@
     "mana_cost": "3WW",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)",
-      "Vigilance (Attacking doesn't cause this creature to tap.)"
+      "Flying, vigilance"
     ],
     "flavor_text": "Her sword sings more beautifully than any choir.",
     "power": "4",
@@ -1581,7 +1580,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target opponent reveals his or her hand. You draw a card for each Mountain and red card in it."
+      "Target opponent reveals their hand. You draw a card for each Mountain and red card in it."
     ],
     "flavor_text": "He can drown you in his eyes.",
     "power": null,
@@ -2156,7 +2155,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever a player casts a spell, that player returns a land he or she controls to its owner's hand."
+      "Whenever a player casts a spell, that player returns a land they control to its owner's hand."
     ],
     "flavor_text": "The mana that binds the world together can also tear it apart.",
     "power": null,
@@ -2180,7 +2179,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Tap all lands target player controls and empty his or her mana pool."
+      "Tap all lands target player controls and that player loses all unspent mana."
     ],
     "flavor_text": "\"Remove their power, and their will to fight will follow.\"\n—Tolarian wizard",
     "power": null,
@@ -2207,7 +2206,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "{T}: Mawcor deals 1 damage to target creature or player."
+      "{T}: Mawcor deals 1 damage to any target."
     ],
     "flavor_text": "Neither head holds a brain—that's located somewhere in the chest—but four eyes aim much better than two.",
     "power": "3",
@@ -2384,7 +2383,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Prodigal Sorcerer deals 1 damage to target creature or player."
+      "{T}: Prodigal Sorcerer deals 1 damage to any target."
     ],
     "flavor_text": "He wastes his amazing talents on proving how amazing he really is.",
     "power": "1",
@@ -3076,7 +3075,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Sacrifice Blood Pet: Add {B} to your mana pool."
+      "Sacrifice Blood Pet: Add {B}."
     ],
     "flavor_text": "No thrull has ever been burdened with a long life.",
     "power": "1",
@@ -3152,7 +3151,7 @@
     "mana_cost": "5B",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Corrupt deals damage to target creature or player equal to the number of Swamps you control. You gain life equal to the damage dealt this way."
+      "Corrupt deals damage to any target equal to the number of Swamps you control. You gain life equal to the damage dealt this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -3327,7 +3326,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card."
+      "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card."
     ],
     "flavor_text": "\"Change your mind, or I'll change it for you.\"",
     "power": null,
@@ -3782,8 +3781,8 @@
     "mana_cost": "3BB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Cast Necrologia only during your end step.",
-      "As an additional cost to cast Necrologia, pay X life.",
+      "Cast this spell only during your end step.",
+      "As an additional cost to cast this spell, pay X life.",
       "Draw X cards."
     ],
     "flavor_text": null,
@@ -3884,7 +3883,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target opponent reveals his or her hand. You choose a creature card from it. That player discards that card."
+      "Target opponent reveals their hand. You choose a creature card from it. That player discards that card."
     ],
     "flavor_text": "\"You won't be needing this.\"",
     "power": null,
@@ -3908,7 +3907,7 @@
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Choose a color. Target player reveals his or her hand and discards all cards of that color."
+      "Choose a color. Target player reveals their hand and discards all cards of that color."
     ],
     "flavor_text": "\"I want every last one of these tree-hugging, earth-loving, pointy-eared weaklings out of here. Now\"",
     "power": null,
@@ -3961,7 +3960,7 @@
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{B}{B}{B}, {T}: Target opponent reveals his or her hand and discards a creature card at random. Activate this ability only during your turn."
+      "{B}{B}{B}, {T}: Target opponent reveals their hand and discards a creature card at random. Activate this ability only during your turn."
     ],
     "flavor_text": "He hunts what might have been.",
     "power": "2",
@@ -4442,7 +4441,7 @@
     "mana_cost": "XR",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Blaze deals X damage to target creature or player."
+      "Blaze deals X damage to any target."
     ],
     "flavor_text": "Fire never dies alone.",
     "power": null,
@@ -4469,7 +4468,7 @@
     "mana_cost": "5R",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "{T}, Sacrifice a creature: Bloodshot Cyclops deals damage equal to the sacrificed creature's power to target creature or player."
+      "{T}, Sacrifice a creature: Bloodshot Cyclops deals damage equal to the sacrificed creature's power to any target."
     ],
     "flavor_text": "After their first encounter, the goblins named him Chuck.",
     "power": "4",
@@ -4667,7 +4666,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}, Sacrifice Ghitu Fire-Eater: Ghitu Fire-Eater deals damage equal to its power to target creature or player."
+      "{T}, Sacrifice Ghitu Fire-Eater: It deals damage equal to its power to any target."
     ],
     "flavor_text": "The Ghitu believe their race was born of fire, and it's an honor to return to it.",
     "power": "2",
@@ -5005,7 +5004,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "At the beginning of each player's end step, if that player didn't cast a spell this turn, Impatience deals 2 damage to him or her."
+      "At the beginning of each player's end step, if that player didn't cast a spell this turn, Impatience deals 2 damage to that player."
     ],
     "flavor_text": "\"I'm going to count to three. Three.\"",
     "power": null,
@@ -5053,7 +5052,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Lava Axe deals 5 damage to target player."
+      "Lava Axe deals 5 damage to target player or planeswalker."
     ],
     "flavor_text": "\"Catch\"",
     "power": null,
@@ -5077,7 +5076,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Lightning Blast deals 4 damage to target creature or player."
+      "Lightning Blast deals 4 damage to any target."
     ],
     "flavor_text": "\"I'll climb down soon. Don't worry, it's just a thundersto—\"\n—Former elvish scout",
     "power": null,
@@ -5207,7 +5206,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Orcish Artillery deals 2 damage to target creature or player and 3 damage to you."
+      "{T}: Orcish Artillery deals 2 damage to any target and 3 damage to you."
     ],
     "flavor_text": "\"Ready . . . aim . . . fire\"\n\"Ow\"",
     "power": "1",
@@ -5330,7 +5329,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Pyrotechnics deals 4 damage divided as you choose among any number of target creatures and/or players."
+      "Pyrotechnics deals 4 damage divided as you choose among any number of targets."
     ],
     "flavor_text": "\"Who says lightning never strikes twice?\"\n—Storm shaman",
     "power": null,
@@ -5384,7 +5383,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{1}{R}: Reckless Embermage deals 1 damage to target creature or player and 1 damage to itself."
+      "{1}{R}: Reckless Embermage deals 1 damage to any target and 1 damage to itself."
     ],
     "flavor_text": "Those who play with fire are bound to get burned.",
     "power": "2",
@@ -5485,7 +5484,7 @@
     "mana_cost": "RRR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Discard a land card: Seismic Assault deals 2 damage to target creature or player."
+      "Discard a land card: Seismic Assault deals 2 damage to any target."
     ],
     "flavor_text": "Earth arms itself with fire.",
     "power": null,
@@ -5560,7 +5559,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Shock deals 2 damage to target creature or player."
+      "Shock deals 2 damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -5732,7 +5731,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Volcanic Hammer deals 3 damage to target creature or player."
+      "Volcanic Hammer deals 3 damage to any target."
     ],
     "flavor_text": "Fire finds its form in the heat of the forge.",
     "power": null,
@@ -5862,7 +5861,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Flying",
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": "0",
@@ -6013,7 +6012,7 @@
     "mana_cost": "1GG",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target player untaps all basic lands he or she controls."
+      "Target player untaps all basic lands they control."
     ],
     "flavor_text": "\"Give it a week and it will feed an army.\"",
     "power": null,
@@ -6249,7 +6248,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {G}{G} to your mana pool."
+      "{T}: Add {G}{G}."
     ],
     "flavor_text": "\"It is useful to be able to speak to the trees. But it is truly wondrous to be able to listen to them.\"",
     "power": "1",
@@ -6427,7 +6426,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool."
+      "{T}: Add {G}."
     ],
     "flavor_text": "Llanowar covers a million square miles, yet nobody enters the forest without the elves knowing it.",
     "power": "1",
@@ -6578,7 +6577,7 @@
     "mana_cost": "2GG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Each player draws a card for each creature card in his or her graveyard."
+      "Each player draws a card for each creature card in their graveyard."
     ],
     "flavor_text": "\"The dead whisper to the living. If you listen, you will learn.\"\n—Maro",
     "power": null,
@@ -7128,7 +7127,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever a Forest is tapped for mana, its controller adds {G} to his or her mana pool (in addition to the mana the land produces)."
+      "Whenever a Forest is tapped for mana, its controller adds an additional {G}."
     ],
     "flavor_text": "Spring breathes the magic of new life.",
     "power": null,
@@ -7155,7 +7154,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Enchant land",
-      "Whenever enchanted land is tapped for mana, its controller adds {G} to his or her mana pool (in addition to the mana the land produces)."
+      "Whenever enchanted land is tapped for mana, its controller adds an additional {G}."
     ],
     "flavor_text": "If you stop to listen, you can hear it grow.",
     "power": null,
@@ -7257,7 +7256,7 @@
     "mana_cost": "8",
     "converted_mana_cost": 8,
     "oracle_text": [
-      "{8}, {T}: Aladdin's Ring deals 4 damage to target creature or player."
+      "{8}, {T}: Aladdin's Ring deals 4 damage to any target."
     ],
     "flavor_text": "Some say Aladdin's third wish was for this ring.",
     "power": null,
@@ -7333,7 +7332,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Charcoal Diamond enters the battlefield tapped.",
-      "{T}: Add {B} to your mana pool."
+      "{T}: Add {B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -7502,7 +7501,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Fire Diamond enters the battlefield tapped.",
-      "{T}: Add {R} to your mana pool."
+      "{T}: Add {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -7747,7 +7746,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Marble Diamond enters the battlefield tapped.",
-      "{T}: Add {W} to your mana pool."
+      "{T}: Add {W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -7795,7 +7794,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}, {T}: Target player puts the top two cards of his or her library into his or her graveyard."
+      "{2}, {T}: Target player puts the top two cards of their library into their graveyard."
     ],
     "flavor_text": "More than one mage has been driven insane by the sound of the millstone relentlessly grinding away.",
     "power": null,
@@ -7820,7 +7819,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Moss Diamond enters the battlefield tapped.",
-      "{T}: Add {G} to your mana pool."
+      "{T}: Add {G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -7949,7 +7948,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{3}, {T}: Rod of Ruin deals 1 damage to target creature or player."
+      "{3}, {T}: Rod of Ruin deals 1 damage to any target."
     ],
     "flavor_text": "The rod is a relic from ancient times . . . cruel, vicious, mean-spirited times.",
     "power": null,
@@ -7973,7 +7972,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{T}: Add {C}{C} to your mana pool."
+      "{T}: Add {C}{C}."
     ],
     "flavor_text": "\"I'm not one for pretty things,\" said Sisay. \"Unless they're pretty useful as well.\"",
     "power": null,
@@ -7998,7 +7997,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Sky Diamond enters the battlefield tapped.",
-      "{T}: Add {U} to your mana pool."
+      "{T}: Add {U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -8094,7 +8093,7 @@
     "mana_cost": "5",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Each player may play an additional land during each of his or her turns.",
+      "Each player may play an additional land during each of their turns.",
       "Whenever a land is tapped for mana, return it to its owner's hand."
     ],
     "flavor_text": null,
@@ -8119,7 +8118,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "At the beginning of each player's draw step, that player puts the cards in his or her hand on the bottom of his or her library in any order, then draws that many cards."
+      "At the beginning of each player's draw step, that player puts the cards in their hand on the bottom of their library in any order, then draws that many cards."
     ],
     "flavor_text": null,
     "power": null,
@@ -8219,8 +8218,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {W} or {U} to your mana pool. Adarkar Wastes deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {W} or {U}. Adarkar Wastes deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -8244,8 +8243,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {G} or {W} to your mana pool. Brushland deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {G} or {W}. Brushland deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -8270,7 +8269,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Whenever City of Brass becomes tapped, it deals 1 damage to you.",
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -8298,7 +8297,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8326,7 +8325,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8354,7 +8353,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8382,7 +8381,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8410,7 +8409,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8438,7 +8437,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8466,7 +8465,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8494,7 +8493,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8518,8 +8517,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {R} or {G} to your mana pool. Karplusan Forest deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {R} or {G}. Karplusan Forest deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -8547,7 +8546,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8575,7 +8574,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8603,7 +8602,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8631,7 +8630,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8659,7 +8658,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8687,7 +8686,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8715,7 +8714,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8743,7 +8742,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8767,8 +8766,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {B} or {R} to your mana pool. Sulfurous Springs deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,
@@ -8796,7 +8795,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8824,7 +8823,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8852,7 +8851,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8880,7 +8879,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8904,8 +8903,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}: Add {U} or {B} to your mana pool. Underground River deals 1 damage to you."
+      "{T}: Add {C}.",
+      "{T}: Add {U} or {B}. Underground River deals 1 damage to you."
     ],
     "flavor_text": null,
     "power": null,

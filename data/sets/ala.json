@@ -760,7 +760,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "At the beginning of your end step, if you control a creature with power 5 or greater, you may gain 2 life.",
-      "{T}: Add {C} to your mana pool."
+      "{T}: Add {C}."
     ],
     "flavor_text": "Sunseeders quest for areas of open sky. They train plowbeasts to beat back the dense jungle long enough to cultivate a crop.",
     "power": "1",
@@ -889,7 +889,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}: Target player puts the top card of his or her library into his or her graveyard."
+      "{T}: Target player puts the top card of their library into their graveyard."
     ],
     "flavor_text": "\"Forget. Only then will there be space for hope between the pain and fear.\"",
     "power": "1",
@@ -992,7 +992,7 @@
     "mana_cost": "4U",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Reveal the top three cards of your library. Target opponent may choose to put those cards into your hand. If he or she doesn't, put those cards into your graveyard and draw five cards."
+      "Reveal the top three cards of your library. Target opponent may choose to put those cards into your hand. If they don't, put those cards into your graveyard and draw five cards."
     ],
     "flavor_text": "Before signing anything on Grixis, always read the fine print.",
     "power": null,
@@ -1315,7 +1315,7 @@
     "mana_cost": "1UU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever an opponent casts a spell, that player puts the top two cards of his or her library into his or her graveyard."
+      "Whenever an opponent casts a spell, that player puts the top two cards of their library into their graveyard."
     ],
     "flavor_text": "\"The Filigree Texts do not compel you to act in accordance with their precepts. They only specify the consequences should you fail.\"\n—Lodus of the Ethersworn",
     "power": null,
@@ -1763,7 +1763,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Bone Splinters, sacrifice a creature.",
+      "As an additional cost to cast this spell, sacrifice a creature.",
       "Destroy target creature."
     ],
     "flavor_text": "Witches of the Split-Eye Coven speak of a future when Grixis will overflow with life energy. For now, they must harvest vis from the living to fuel their dark magics.",
@@ -2214,7 +2214,7 @@
     "mana_cost": "4BB",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "You may sacrifice three artifacts rather than pay Salvage Titan's mana cost.",
+      "You may sacrifice three artifacts rather than pay this spell's mana cost.",
       "Exile three artifact cards from your graveyard: Return Salvage Titan from your graveyard to your hand."
     ],
     "flavor_text": null,
@@ -2458,7 +2458,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Sacrifice Bloodpyre Elemental: Bloodpyre Elemental deals 4 damage to target creature. Activate this ability only any time you could cast a sorcery."
+      "Sacrifice Bloodpyre Elemental: It deals 4 damage to target creature. Activate this ability only any time you could cast a sorcery."
     ],
     "flavor_text": "Elementals born of Jund are as cruel and unstable as the plane itself.",
     "power": "4",
@@ -2616,8 +2616,8 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "At the beginning of your end step, if you control a creature with power 5 or greater, you may have Exuberant Firestoker deal 2 damage to target player.",
-      "{T}: Add {C} to your mana pool."
+      "At the beginning of your end step, if you control a creature with power 5 or greater, you may have Exuberant Firestoker deal 2 damage to target player or planeswalker.",
+      "{T}: Add {C}."
     ],
     "flavor_text": "The artistry of Etlan's firedancers is more spectacular when behemoths join in.",
     "power": "1",
@@ -2644,7 +2644,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "Whenever Flameblast Dragon attacks, you may pay {X}{R}. If you do, Flameblast Dragon deals X damage to target creature or player."
+      "Whenever Flameblast Dragon attacks, you may pay {X}{R}. If you do, Flameblast Dragon deals X damage to any target."
     ],
     "flavor_text": "Dragon lords of Jund rule by edicts of flame.",
     "power": "5",
@@ -2750,7 +2750,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever another creature dies, you may have Hissing Iguanar deal 1 damage to target player."
+      "Whenever another creature dies, you may have Hissing Iguanar deal 1 damage to target player or planeswalker."
     ],
     "flavor_text": "Viashino thrashes keep iguanars as hunting companions, giving them wounded captives as playthings.",
     "power": "3",
@@ -2905,9 +2905,9 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Resounding Thunder deals 3 damage to target creature or player.",
+      "Resounding Thunder deals 3 damage to any target.",
       "Cycling {5}{B}{R}{G} ({5}{B}{R}{G}, Discard this card: Draw a card.)",
-      "When you cycle Resounding Thunder, it deals 6 damage to target creature or player."
+      "When you cycle Resounding Thunder, it deals 6 damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -3035,7 +3035,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target creature you control on the battlefield deals damage equal to its power to target creature or player."
+      "Target creature you control deals damage equal to its power to any target."
     ],
     "flavor_text": "An avatar he sculpts of anger and flame.",
     "power": null,
@@ -3168,7 +3168,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Vithian Stinger deals 1 damage to target creature or player.",
+      "{T}: Vithian Stinger deals 1 damage to any target.",
       "Unearth {1}{R} ({1}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"
     ],
     "flavor_text": null,
@@ -3218,7 +3218,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Whenever a creature with power 5 or greater enters the battlefield under your control, you may have Where Ancients Tread deal 5 damage to target creature or player."
+      "Whenever a creature with power 5 or greater enters the battlefield under your control, you may have Where Ancients Tread deal 5 damage to any target."
     ],
     "flavor_text": "\"Never subtle nor cryptic is the reckoning of the mighty.\"\n—Mayael the Anima",
     "power": null,
@@ -3378,7 +3378,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {R}, {G}, or {W} to your mana pool."
+      "{T}: Add {R}, {G}, or {W}."
     ],
     "flavor_text": "Although the Anima herself remains at the Sacellum, her druids roam Naya, collecting mana bonds with every location in the world.",
     "power": "1",
@@ -3407,7 +3407,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "At the beginning of your end step, if you control a creature with power 5 or greater, you may draw a card.",
-      "{T}: Add {C} to your mana pool."
+      "{T}: Add {C}."
     ],
     "flavor_text": "\"I feel the vine-rhythm as my friends drive the beast to me. I will not miss my mark.\"",
     "power": "2",
@@ -3567,7 +3567,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever a player taps a Mountain, Forest, or Plains for mana, that player adds one mana to his or her mana pool of any type that land produced."
+      "Whenever a player taps a Mountain, Forest, or Plains for mana, that player adds one mana of any type that land produced."
     ],
     "flavor_text": "He watches over the valley where Progenitus sleeps, culling signs from its steaming breaths.",
     "power": "1",
@@ -3855,7 +3855,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Reveal any number of creature cards with power 5 or greater from your hand. Add {G} to your mana pool for each card revealed this way."
+      "{T}: Reveal any number of creature cards with power 5 or greater from your hand. Add {G} for each card revealed this way."
     ],
     "flavor_text": "Her connection to the gargantuans puts her in line to become Anima, a sacred but daunting duty.",
     "power": "2",
@@ -4070,7 +4070,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "+1: Target permanent doesn't untap during its controller's next untap step.",
-      "−2: Ajani Vengeant deals 3 damage to target creature or player and you gain 3 life.",
+      "−2: Ajani Vengeant deals 3 damage to any target and you gain 3 life.",
       "−7: Destroy all lands target player controls."
     ],
     "flavor_text": null,
@@ -4122,7 +4122,7 @@
     "mana_cost": "1BR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Blightning deals 3 damage to target player. That player discards two cards."
+      "Blightning deals 3 damage to target player or planeswalker. That player or that planeswalker's controller discards two cards."
     ],
     "flavor_text": "While the smell of burning flesh is common in Grixis, the odor of smoldering brain matter is a rare treat.",
     "power": null,
@@ -5250,7 +5250,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Vigilance",
-      "{T}: Add {G} to your mana pool."
+      "{T}: Add {G}."
     ],
     "flavor_text": "Knight-stewards guard the Sun-Dappled Court, a grove of immense, sculptured olive trees that represent Valeron's twelve noble families.",
     "power": "2",
@@ -5329,7 +5329,7 @@
     "mana_cost": "UB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{U}{B}, {T}: Target player loses 1 life and reveals his or her hand."
+      "{U}{B}, {T}: Target player loses 1 life and reveals their hand."
     ],
     "flavor_text": "Agents of the Architects of Will mark their victims as a reminder that their secrets are secret no longer.",
     "power": "1",
@@ -5356,7 +5356,7 @@
     "mana_cost": "WB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Tidehollow Sculler enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card.",
+      "When Tidehollow Sculler enters the battlefield, target opponent reveals their hand and you choose a nonland card from it. Exile that card.",
       "When Tidehollow Sculler leaves the battlefield, return the exiled card to its owner's hand."
     ],
     "flavor_text": null,
@@ -5613,7 +5613,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {G}, {W}, or {U} to your mana pool."
+      "{T}: Add {G}, {W}, or {U}."
     ],
     "flavor_text": "Whether incorporated into the structure of castles or admired as lone symbols, the obelisks stand for Bant's values of loyalty, honor, and truth.",
     "power": null,
@@ -5637,7 +5637,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {W}, {U}, or {B} to your mana pool."
+      "{T}: Add {W}, {U}, or {B}."
     ],
     "flavor_text": "It is a monument as austere, unyielding, and inscrutable as Esper itself.",
     "power": null,
@@ -5661,7 +5661,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {U}, {B}, or {R} to your mana pool."
+      "{T}: Add {U}, {B}, or {R}."
     ],
     "flavor_text": "Like most features of Grixis, the obelisks that remain from the time of Alara now exist only for dark exploitation.",
     "power": null,
@@ -5685,7 +5685,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {B}, {R}, or {G} to your mana pool."
+      "{T}: Add {B}, {R}, or {G}."
     ],
     "flavor_text": "Volcanic ash-winds batter it, climbing vines overwhelm it, dragonfire roasts it, and yet it still stands as a testament to a forgotten world.",
     "power": null,
@@ -5709,7 +5709,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {R}, {G}, or {W} to your mana pool."
+      "{T}: Add {R}, {G}, or {W}."
     ],
     "flavor_text": "Centuries have passed since the plane shattered, yet the obelisks of each shard faithfully serve their long-forgotten purpose.",
     "power": null,
@@ -5736,7 +5736,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Equipped creature has deathtouch.",
-      "Whenever equipped creature deals combat damage to a player, that player loses half his or her life, rounded up.",
+      "Whenever equipped creature deals combat damage to a player, that player loses half their life, rounded up.",
       "Equip {3}"
     ],
     "flavor_text": null,
@@ -5761,7 +5761,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}: Target player exiles a card from his or her graveyard.",
+      "{T}: Target player exiles a card from their graveyard.",
       "{1}, Exile Relic of Progenitus: Exile all cards from all graveyards. Draw a card."
     ],
     "flavor_text": "Elves believe the hydra-god Progenitus sleeps beneath Naya, feeding on forgotten magics.",
@@ -5815,7 +5815,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Arcane Sanctum enters the battlefield tapped.",
-      "{T}: Add {W}, {U}, or {B} to your mana pool."
+      "{T}: Add {W}, {U}, or {B}."
     ],
     "flavor_text": "\"We must rely on our own knowledge, not on the dogma of the seekers or the mutterings of the sphinxes.\"\n—Tullus of Palandius",
     "power": null,
@@ -5839,7 +5839,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}, {T}, Sacrifice Bant Panorama: Search your library for a basic Forest, Plains, or Island card and put it onto the battlefield tapped. Then shuffle your library."
     ],
     "flavor_text": "Bant's hearts are as pure as its air and as bright as its skies.",
@@ -5865,7 +5865,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Crumbling Necropolis enters the battlefield tapped.",
-      "{T}: Add {U}, {B}, or {R} to your mana pool."
+      "{T}: Add {U}, {B}, or {R}."
     ],
     "flavor_text": "\"They say the ruins of Sedraxis were once a shining capital in Vithia. Now it is a blight, a place to be avoided by the living.\"\n—Olcot, Rider of Joffik",
     "power": null,
@@ -5889,7 +5889,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}, {T}, Sacrifice Esper Panorama: Search your library for a basic Plains, Island, or Swamp card and put it onto the battlefield tapped. Then shuffle your library."
     ],
     "flavor_text": "Esper is an expansive canvas painted by precise, controlling hands.",
@@ -5914,7 +5914,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}, {T}, Sacrifice Grixis Panorama: Search your library for a basic Island, Swamp, or Mountain card and put it onto the battlefield tapped. Then shuffle your library."
     ],
     "flavor_text": "There is no height above Grixis that is free from the stench of death.",
@@ -5939,7 +5939,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}, {T}, Sacrifice Jund Panorama: Search your library for a basic Swamp, Mountain, or Forest card and put it onto the battlefield tapped. Then shuffle your library."
     ],
     "flavor_text": "The sky is the dragon's throne, the seat from which it issues its fiery decrees.",
@@ -5965,7 +5965,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Jungle Shrine enters the battlefield tapped.",
-      "{T}: Add {R}, {G}, or {W} to your mana pool."
+      "{T}: Add {R}, {G}, or {W}."
     ],
     "flavor_text": "On Naya, ambition and treachery are scarce, hunted nearly to extinction by the awe owed to terrestrial gods.",
     "power": null,
@@ -5989,7 +5989,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}, {T}, Sacrifice Naya Panorama: Search your library for a basic Mountain, Forest, or Plains card and put it onto the battlefield tapped. Then shuffle your library."
     ],
     "flavor_text": "Between the thunderous footfalls of Naya's behemoths lie moments of perfect quiet.",
@@ -6015,7 +6015,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Savage Lands enters the battlefield tapped.",
-      "{T}: Add {B}, {R}, or {G} to your mana pool."
+      "{T}: Add {B}, {R}, or {G}."
     ],
     "flavor_text": "Jund is a world as cruel as those who call it home. Their brutal struggles scar the land even as it carves them in its image, a vicious circle spiraling out of control.",
     "power": null,
@@ -6040,7 +6040,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Seaside Citadel enters the battlefield tapped.",
-      "{T}: Add {G}, {W}, or {U} to your mana pool."
+      "{T}: Add {G}, {W}, or {U}."
     ],
     "flavor_text": "For wisdom's sake, it was built high to gaze on all things. For glory's sake, it was built high as a testament of power. For strength's sake, it was built high to repel all attacks.",
     "power": null,
@@ -6068,7 +6068,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6096,7 +6096,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6124,7 +6124,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6152,7 +6152,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6180,7 +6180,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6208,7 +6208,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6236,7 +6236,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6264,7 +6264,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6292,7 +6292,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6320,7 +6320,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6348,7 +6348,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6376,7 +6376,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6404,7 +6404,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6432,7 +6432,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6460,7 +6460,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6488,7 +6488,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6516,7 +6516,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6544,7 +6544,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6572,7 +6572,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6600,7 +6600,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,

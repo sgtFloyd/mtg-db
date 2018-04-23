@@ -292,7 +292,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "{T}: D'Avenant Healer deals 1 damage to target attacking or blocking creature.",
-      "{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn."
+      "{T}: Prevent the next 1 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "\"One arrow keenly fired might prevent more battlefield wounds than I could treat.\"",
     "power": "1",
@@ -424,7 +424,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Buyback {2}{W}{W} (You may pay an additional {2}{W}{W} as you cast this spell. If you do, put this card into your hand as it resolves.)",
-      "Gain control of target creature of an opponent's choice he or she controls."
+      "Gain control of target creature of an opponent's choice they control."
     ],
     "flavor_text": null,
     "power": null,
@@ -530,7 +530,7 @@
     "mana_cost": "W",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Gaze of Justice, tap three untapped white creatures you control.",
+      "As an additional cost to cast this spell, tap three untapped white creatures you control.",
       "Exile target creature.",
       "Flashback {5}{W} (You may cast this card from your graveyard for its flashback cost and any additional costs. Then exile it.)"
     ],
@@ -922,7 +922,7 @@
     "oracle_text": [
       "Flash (You may cast this spell any time you could cast an instant.)",
       "Flying",
-      "If a spell would deal damage to a creature or player, prevent 1 damage that spell would deal to that creature or player."
+      "If a spell would deal damage to a permanent or player, prevent 1 damage that spell would deal to that permanent or player."
     ],
     "flavor_text": null,
     "power": "1",
@@ -1024,7 +1024,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Suspend 6—{W} (Rather than cast this card from your hand, pay {W} and exile it with six time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
-      "Each player chooses a number of lands he or she controls equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players sacrifice creatures and discard cards the same way."
+      "Each player chooses a number of lands they control equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players sacrifice creatures and discard cards the same way."
     ],
     "flavor_text": null,
     "power": null,
@@ -1074,7 +1074,7 @@
     "mana_cost": "WW",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "You can't cast Serra Avenger during your first, second, or third turns of the game.",
+      "You can't cast this spell during your first, second, or third turns of the game.",
       "Flying",
       "Vigilance (Attacking doesn't cause this creature to tap.)"
     ],
@@ -1348,7 +1348,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Morph {5}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
-      "When Brine Elemental is turned face up, each opponent skips his or her next untap step."
+      "When Brine Elemental is turned face up, each opponent skips their next untap step."
     ],
     "flavor_text": "Water calls to water, and the world is left exhausted and withered in its wake.",
     "power": "5",
@@ -1697,7 +1697,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Flying",
-      "{T}: Fledgling Mawcor deals 1 damage to target creature or player.",
+      "{T}: Fledgling Mawcor deals 1 damage to any target.",
       "Morph {U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)"
     ],
     "flavor_text": null,
@@ -1808,7 +1808,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{T}, Sacrifice Magus of the Jar: Each player exiles all cards from his or her hand face down and draws seven cards. At the beginning of the next end step, each player discards his or her hand and returns to his or her hand each card he or she exiled this way."
+      "{T}, Sacrifice Magus of the Jar: Each player exiles all cards from their hand face down and draws seven cards. At the beginning of the next end step, each player discards their hand and returns to their hand each card they exiled this way."
     ],
     "flavor_text": null,
     "power": "3",
@@ -1938,7 +1938,7 @@
     "mana_cost": "4U",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "All Sliver creatures have \"{T}: This creature deals 2 damage to target creature or player and 3 damage to itself.\""
+      "All Sliver creatures have \"{T}: This creature deals 2 damage to any target and 3 damage to itself.\""
     ],
     "flavor_text": "They evolved the ability to concentrate their neural activity into a single pulse, causing a disruptive but usually suicidal blast of psionic energy.",
     "power": "2",
@@ -2019,7 +2019,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "All Slivers have \"{T}: Target player puts the top card of his or her library into his or her graveyard.\""
+      "All Slivers have \"{T}: Target player puts the top card of their library into their graveyard.\""
     ],
     "flavor_text": "\"What wears down my people most, I think, is not the danger, but the endless screeching outside our camp.\"\n—Merrik Aidar, Benalish patrol",
     "power": "1",
@@ -2097,7 +2097,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "You may exile a blue card from your hand rather than pay Snapback's mana cost.",
+      "You may exile a blue card from your hand rather than pay this spell's mana cost.",
       "Return target creature to its owner's hand."
     ],
     "flavor_text": "\"If it returns years hence, our knowledge of how to combat it will be that much greater.\"\n—Andorel, Tolarian sentinel",
@@ -2237,7 +2237,7 @@
     "oracle_text": [
       "Flash (You may cast this spell any time you could cast an instant.)",
       "Creature cards you own that aren't on the battlefield have flash.",
-      "Each opponent can cast spells only any time he or she could cast a sorcery."
+      "Each opponent can cast spells only any time they could cast a sorcery."
     ],
     "flavor_text": "To save this plane, he must forsake all others.",
     "power": "3",
@@ -2573,7 +2573,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "All Slivers have \"Sacrifice this permanent: Add {B}{B} to your mana pool.\""
+      "All Slivers have \"Sacrifice this permanent: Add {B}{B}.\""
     ],
     "flavor_text": "\"Fascinating . . . These creatures display the paradox of tenacity and purposed self-destruction I have sought to breed into my thrulls.\"\n—Endrek Sahr, master breeder",
     "power": "2",
@@ -2649,9 +2649,9 @@
     "mana_cost": "9B",
     "converted_mana_cost": 10,
     "oracle_text": [
-      "Target player sacrifices half the permanents he or she controls, rounded down.",
+      "Target player sacrifices half the permanents they control, rounded down.",
       "Suspend 2—{2}{B}{B} (Rather than cast this card from your hand, you may pay {2}{B}{B} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
-      "At the beginning of each player's upkeep, if Curse of the Cabal is suspended, that player may sacrifice a permanent. If he or she does, put two time counters on Curse of the Cabal."
+      "At the beginning of each player's upkeep, if Curse of the Cabal is suspended, that player may sacrifice a permanent. If the player does, put two time counters on Curse of the Cabal."
     ],
     "flavor_text": null,
     "power": null,
@@ -3085,7 +3085,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Suspend 3—{2}{B}{B} (Rather than cast this card from your hand, pay {2}{B}{B} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
-      "Each player exiles all creature cards from his or her graveyard, then sacrifices all creatures he or she controls, then puts all cards he or she exiled this way onto the battlefield."
+      "Each player exiles all creature cards from their graveyard, then sacrifices all creatures they control, then puts all cards they exiled this way onto the battlefield."
     ],
     "flavor_text": null,
     "power": null,
@@ -3373,7 +3373,7 @@
     "mana_cost": "1BB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target player reveals his or her hand and the top card of his or her library. You choose a card revealed this way. That player puts the chosen card on the bottom of his or her library.",
+      "Target player reveals their hand and the top card of their library. You choose a card revealed this way. That player puts the chosen card on the bottom of their library.",
       "Madness {1}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)"
     ],
     "flavor_text": null,
@@ -3843,7 +3843,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Trample, haste",
-      "Whenever Barbed Shocker deals damage to a player, that player discards all the cards in his or her hand, then draws that many cards."
+      "Whenever Barbed Shocker deals damage to a player, that player discards all the cards in their hand, then draws that many cards."
     ],
     "flavor_text": "Fervid shamans willingly submit to shockers in hopes of glimpsing the fortunes of the future.",
     "power": "2",
@@ -3927,7 +3927,7 @@
     "oracle_text": [
       "Flash",
       "Flying",
-      "When Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you choose among any number of target creatures and/or players."
+      "When Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you choose among any number of targets."
     ],
     "flavor_text": null,
     "power": "5",
@@ -4006,7 +4006,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Coal Stoker enters the battlefield, if you cast it from your hand, add {R}{R}{R} to your mana pool."
+      "When Coal Stoker enters the battlefield, if you cast it from your hand, add {R}{R}{R}."
     ],
     "flavor_text": "\"The day is mine! I sent three such creatures against my foe, then watched as my magefire popped her soldiers like overripe spleenfruits.\"\n—Dobruk the Unstable, pyromancer",
     "power": "3",
@@ -4030,7 +4030,7 @@
     "mana_cost": "XXR",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Conflagrate deals X damage divided as you choose among any number of target creatures and/or players.",
+      "Conflagrate deals X damage divided as you choose among any number of targets.",
       "Flashback—{R}{R}, Discard X cards. (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     ],
     "flavor_text": null,
@@ -4247,7 +4247,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Sacrifice Goblin Skycutter: Goblin Skycutter deals 2 damage to target creature with flying. That creature loses flying until end of turn."
+      "Sacrifice Goblin Skycutter: It deals 2 damage to target creature with flying. That creature loses flying until end of turn."
     ],
     "flavor_text": "He takes out his fear of heights on anything above his head.",
     "power": "2",
@@ -4271,7 +4271,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Grapeshot deals 1 damage to target creature or player.",
+      "Grapeshot deals 1 damage to any target.",
       "Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)"
     ],
     "flavor_text": "Mages often seek to emulate the powerful relics lost to time and apocalypse.",
@@ -4378,7 +4378,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Target player reveals a card at random from his or her hand. Ignite Memories deals damage to that player equal to that card's converted mana cost.",
+      "Target player reveals a card at random from their hand. Ignite Memories deals damage to that player equal to that card's converted mana cost.",
       "Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)"
     ],
     "flavor_text": null,
@@ -4437,7 +4437,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "{R}, {T}, Discard a card: Destroy target blue permanent.",
-      "{1}{R}, {T}, Discard a card: Jaya Ballard, Task Mage deals 3 damage to target creature or player. A creature dealt damage this way can't be regenerated this turn.",
+      "{1}{R}, {T}, Discard a card: Jaya Ballard, Task Mage deals 3 damage to any target. A creature dealt damage this way can't be regenerated this turn.",
       "{5}{R}{R}, {T}, Discard a card: Jaya Ballard deals 6 damage to each creature and each player."
     ],
     "flavor_text": null,
@@ -4490,7 +4490,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "As an additional cost to cast Lightning Axe, discard a card or pay {5}.",
+      "As an additional cost to cast this spell, discard a card or pay {5}.",
       "Lightning Axe deals 5 damage to target creature."
     ],
     "flavor_text": "\"A gargoyle's meat can be carved with an ordinary cleaver, but for its petrous hide . . .\"\n—Asmoranomardicadaistinaculdacar,\nThe Underworld Cookbook",
@@ -4518,7 +4518,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{3}, {T}: Choose a card name, then reveal a card at random from your hand. If that card has the chosen name, Magus of the Scroll deals 2 damage to target creature or player."
+      "{3}, {T}: Choose a card name, then reveal a card at random from your hand. If that card has the chosen name, Magus of the Scroll deals 2 damage to any target."
     ],
     "flavor_text": null,
     "power": "1",
@@ -4599,7 +4599,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Orcish Cannonade deals 2 damage to target creature or player and 3 damage to you.",
+      "Orcish Cannonade deals 2 damage to any target and 3 damage to you.",
       "Draw a card."
     ],
     "flavor_text": "\"Crispy! Scarback! Load another volcano-ball.\"\n—Stumphobbler Thuj, Orcish captain",
@@ -4703,7 +4703,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Rift Bolt deals 3 damage to target creature or player.",
+      "Rift Bolt deals 3 damage to any target.",
       "Suspend 1—{R} (Rather than cast this card from your hand, you may pay {R} and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)"
     ],
     "flavor_text": null,
@@ -4783,7 +4783,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)",
-      "Sudden Shock deals 2 damage to target creature or player."
+      "Sudden Shock deals 2 damage to any target."
     ],
     "flavor_text": "Arc mages aren't known for their patience.",
     "power": null,
@@ -4994,7 +4994,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Suspend 4—{1}{R} (Rather than cast this card from your hand, pay {1}{R} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
-      "Each player discards his or her hand, then draws seven cards."
+      "Each player discards their hand, then draws seven cards."
     ],
     "flavor_text": null,
     "power": null,
@@ -5230,7 +5230,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "All Slivers have \"{T}: Add one mana of any color to your mana pool.\""
+      "All Slivers have \"{T}: Add one mana of any color.\""
     ],
     "flavor_text": "\"The land is weary. Even Skyshroud is depleted. We must find another source of mana—one that is growing despite our withering world.\"\n—Freyalise",
     "power": "1",
@@ -5256,7 +5256,7 @@
     "mana_cost": "1GG",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever Glass Asp deals combat damage to a player, that player loses 2 life at the beginning of his or her next draw step unless he or she pays {2} before that step."
+      "Whenever Glass Asp deals combat damage to a player, that player loses 2 life at the beginning of their next draw step unless they pay {2} before that step."
     ],
     "flavor_text": "Its venom induces a fever that causes its victims to relive the attack in recurring, haunting visions.",
     "power": "2",
@@ -5361,7 +5361,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Suspend 3—{1}{G}{G} (Rather than cast this card from your hand, pay {1}{G}{G} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
-      "Starting with you, each player may put an artifact, creature, enchantment, or land card from his or her hand onto the battlefield. Repeat this process until no one puts a card onto the battlefield."
+      "Starting with you, each player may put an artifact, creature, enchantment, or land card from their hand onto the battlefield. Repeat this process until no one puts a card onto the battlefield."
     ],
     "flavor_text": null,
     "power": null,
@@ -6153,7 +6153,7 @@
     "oracle_text": [
       "Flying",
       "{G}: Unyaro Bees gets +1/+1 until end of turn.",
-      "{3}{G}, Sacrifice Unyaro Bees: Unyaro Bees deals 2 damage to target creature or player."
+      "{3}{G}, Sacrifice Unyaro Bees: It deals 2 damage to any target."
     ],
     "flavor_text": "With no jungle left to contain it, the \"plague of daggers\" spread across Dominaria.",
     "power": "0",
@@ -6285,7 +6285,7 @@
     "mana_cost": "3UB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "All Slivers have \"{T}: Choose a card name. Target opponent reveals a card at random from his or her hand. If that card has the chosen name, that player discards it. Activate this ability only during your turn.\""
+      "All Slivers have \"{T}: Choose a card name. Target opponent reveals a card at random from their hand. If that card has the chosen name, that player discards it. Activate this ability only during your turn.\""
     ],
     "flavor_text": null,
     "power": "3",
@@ -6454,7 +6454,7 @@
     "mana_cost": "5BR",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "Whenever an opponent casts a spell, Kaervek the Merciless deals damage to target creature or player equal to that spell's converted mana cost."
+      "Whenever an opponent casts a spell, Kaervek the Merciless deals damage to any target equal to that spell's converted mana cost."
     ],
     "flavor_text": "\"Rats and jackals feast in his swath, but even they will not walk with him.\"\n—Mangara",
     "power": "5",
@@ -6702,7 +6702,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{1}, {T}, Sacrifice Chromatic Star: Add one mana of any color to your mana pool.",
+      "{1}, {T}, Sacrifice Chromatic Star: Add one mana of any color.",
       "When Chromatic Star is put into a graveyard from the battlefield, draw a card."
     ],
     "flavor_text": "\"This item is not from . . . now. It reflects a sky no longer ours and gleams with hope that does not exist.\"\n—Tavalus, acolyte of Korlis",
@@ -6727,7 +6727,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {U} to your mana pool.",
+      "{T}: Add {U}.",
       "{1}{U}: Chronatog Totem becomes a 1/2 blue Atog artifact creature until end of turn.",
       "{0}: Chronatog Totem gets +3/+3 until end of turn. You skip your next turn. Activate this ability only once each turn and only if Chronatog Totem is a creature."
     ],
@@ -6757,7 +6757,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Clockwork Hydra enters the battlefield with four +1/+1 counters on it.",
-      "Whenever Clockwork Hydra attacks or blocks, remove a +1/+1 counter from it. If you do, Clockwork Hydra deals 1 damage to target creature or player.",
+      "Whenever Clockwork Hydra attacks or blocks, remove a +1/+1 counter from it. If you do, Clockwork Hydra deals 1 damage to any target.",
       "{T}: Put a +1/+1 counter on Clockwork Hydra."
     ],
     "flavor_text": null,
@@ -6782,7 +6782,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {R} to your mana pool.",
+      "{T}: Add {R}.",
       "{4}{R}: Foriysian Totem becomes a 4/4 red Giant artifact creature with trample until end of turn.",
       "As long as Foriysian Totem is a creature, it can block an additional creature each combat."
     ],
@@ -6810,7 +6810,7 @@
     "oracle_text": [
       "As Gauntlet of Power enters the battlefield, choose a color.",
       "Creatures of the chosen color get +1/+1.",
-      "Whenever a basic land is tapped for mana of the chosen color, its controller adds one mana of that color to his or her mana pool (in addition to the mana the land produces)."
+      "Whenever a basic land is tapped for mana of the chosen color, its controller adds an additional one mana of that color."
     ],
     "flavor_text": null,
     "power": null,
@@ -6910,7 +6910,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Suspend 3—{0} (Rather than cast this card from your hand, pay {0} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
-      "{T}, Sacrifice Lotus Bloom: Add three mana of any one color to your mana pool."
+      "{T}, Sacrifice Lotus Bloom: Add three mana of any one color."
     ],
     "flavor_text": null,
     "power": null,
@@ -6936,7 +6936,7 @@
     "oracle_text": [
       "As Paradise Plume enters the battlefield, choose a color.",
       "Whenever a player casts a spell of the chosen color, you may gain 1 life.",
-      "{T}: Add one mana of the chosen color to your mana pool."
+      "{T}: Add one mana of the chosen color."
     ],
     "flavor_text": "A last wisp of paradise in a fallen world.",
     "power": null,
@@ -6960,7 +6960,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {B} to your mana pool.",
+      "{T}: Add {B}.",
       "{2}{B}: Phyrexian Totem becomes a 5/5 black Horror artifact creature with trample until end of turn.",
       "Whenever Phyrexian Totem is dealt damage, if it's a creature, sacrifice that many permanents."
     ],
@@ -6986,8 +6986,8 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{1}, {T}: Add one mana of any color to your mana pool."
+      "{T}: Add {C}.",
+      "{1}, {T}: Add one mana of any color."
     ],
     "flavor_text": "It bends not light but mana, aligning its chaotic currents into the sharp angles necessary for the mystic's purposes.",
     "power": null,
@@ -7066,7 +7066,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {W} to your mana pool.",
+      "{T}: Add {W}.",
       "{1}{W}{W}: Thunder Totem becomes a 2/2 white Spirit artifact creature with flying and first strike until end of turn."
     ],
     "flavor_text": null,
@@ -7096,7 +7096,7 @@
     "oracle_text": [
       "Flying",
       "Triskelavus enters the battlefield with three +1/+1 counters on it.",
-      "{1}, Remove a +1/+1 counter from Triskelavus: Create a 1/1 colorless Triskelavite artifact creature token with flying. It has \"Sacrifice this creature: This creature deals 1 damage to target creature or player.\""
+      "{1}, Remove a +1/+1 counter from Triskelavus: Create a 1/1 colorless Triskelavite artifact creature token with flying. It has \"Sacrifice this creature: This creature deals 1 damage to any target.\""
     ],
     "flavor_text": null,
     "power": "1",
@@ -7145,7 +7145,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool.",
+      "{T}: Add {G}.",
       "{2}{G}{G}{G}: Weatherseed Totem becomes a 5/3 green Treefolk artifact creature with trample until end of turn.",
       "When Weatherseed Totem is put into a graveyard from the battlefield, if it was a creature, return this card to its owner's hand."
     ],
@@ -7173,7 +7173,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}{U}, {T}: Put target artifact card from your graveyard on top of your library."
     ],
     "flavor_text": "Its secrets once wrought the greatest artifice ever known. Now crabs loot the rubble to decorate their shells.",
@@ -7198,9 +7198,9 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}, {T}: Put a storage counter on Calciform Pools.",
-      "{1}, Remove X storage counters from Calciform Pools: Add X mana in any combination of {W} and/or {U} to your mana pool."
+      "{1}, Remove X storage counters from Calciform Pools: Add X mana in any combination of {W} and/or {U}."
     ],
     "flavor_text": null,
     "power": null,
@@ -7224,9 +7224,9 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}, {T}: Put a storage counter on Dreadship Reef.",
-      "{1}, Remove X storage counters from Dreadship Reef: Add X mana in any combination of {U} and/or {B} to your mana pool."
+      "{1}, Remove X storage counters from Dreadship Reef: Add X mana in any combination of {U} and/or {B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -7252,7 +7252,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {W} to your mana pool.",
+      "{T}: Add {W}.",
       "When Flagstones of Trokair is put into a graveyard from the battlefield, you may search your library for a Plains card and put it onto the battlefield tapped. If you do, shuffle your library."
     ],
     "flavor_text": "Dust-spiked winds eroded the stones, but the ground where they had stood still holds power.",
@@ -7277,9 +7277,9 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}, {T}: Put a storage counter on Fungal Reaches.",
-      "{1}, Remove X storage counters from Fungal Reaches: Add X mana in any combination of {R} and/or {G} to your mana pool."
+      "{1}, Remove X storage counters from Fungal Reaches: Add X mana in any combination of {R} and/or {G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -7306,7 +7306,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "If Gemstone Caverns is in your opening hand and you're not playing first, you may begin the game with Gemstone Caverns on the battlefield with a luck counter on it. If you do, exile a card from your hand.",
-      "{T}: Add {C} to your mana pool. If Gemstone Caverns has a luck counter on it, instead add one mana of any color to your mana pool."
+      "{T}: Add {C}. If Gemstone Caverns has a luck counter on it, instead add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -7332,7 +7332,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}{R}, {T}: Create a 0/1 red Kobold creature token named Kobolds of Kher Keep."
     ],
     "flavor_text": "\"They're still here?! The cockroach may have finally met its match.\"\n—Teferi",
@@ -7357,9 +7357,9 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}, {T}: Put a storage counter on Molten Slagheap.",
-      "{1}, Remove X storage counters from Molten Slagheap: Add X mana in any combination of {B} and/or {R} to your mana pool."
+      "{1}, Remove X storage counters from Molten Slagheap: Add X mana in any combination of {B} and/or {R}."
     ],
     "flavor_text": null,
     "power": null,
@@ -7383,9 +7383,9 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}, {T}: Put a storage counter on Saltcrusted Steppe.",
-      "{1}, Remove X storage counters from Saltcrusted Steppe: Add X mana in any combination of {G} and/or {W} to your mana pool."
+      "{1}, Remove X storage counters from Saltcrusted Steppe: Add X mana in any combination of {G} and/or {W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -7409,7 +7409,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{T}: Regenerate target Insect, Rat, Spider, or Squirrel."
     ],
     "flavor_text": "Where scavengers nest in hollowed-out rib cages and chittering crawlers peer from empty eye sockets, few dare to trespass.",
@@ -7460,7 +7460,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{7}, {T}: Create a 2/2 colorless Assembly-Worker artifact creature token."
     ],
     "flavor_text": "\"Though their ideals are leagues apart, Urza's and Mishra's creations have a surprising harmony with one another.\"\n—Tocasia, journal entry",
@@ -7513,7 +7513,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7541,7 +7541,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7569,7 +7569,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7597,7 +7597,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7625,7 +7625,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7653,7 +7653,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7681,7 +7681,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7709,7 +7709,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7737,7 +7737,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7765,7 +7765,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7793,7 +7793,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7821,7 +7821,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7849,7 +7849,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7877,7 +7877,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7905,7 +7905,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7933,7 +7933,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7961,7 +7961,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7989,7 +7989,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8017,7 +8017,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8045,7 +8045,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,

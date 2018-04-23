@@ -245,6 +245,7 @@
     ],
     "supertypes": [],
     "subtypes": [
+      "Dinosaur",
       "Spirit"
     ],
     "rarity": "Common",
@@ -581,7 +582,7 @@
     "mana_cost": "2UU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Last Word can't be countered by spells or abilities.",
+      "This spell can't be countered.",
       "Counter target spell."
     ],
     "flavor_text": "\"Someday, someone will best me. But it won't be today, and it won't be you.\"",
@@ -790,7 +791,7 @@
     "mana_cost": "XUU",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Reshape, sacrifice an artifact.",
+      "As an additional cost to cast this spell, sacrifice an artifact.",
       "Search your library for an artifact card with converted mana cost X or less and put it onto the battlefield. Then shuffle your library."
     ],
     "flavor_text": "\"Today's paperweight, tomorrow's leveler.\"\n—Bruenna, Neurok leader",
@@ -897,7 +898,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add two mana of any one color to your mana pool. Spend this mana only to cast artifact spells or activate abilities of artifacts."
+      "{T}: Add two mana of any one color. Spend this mana only to cast artifact spells or activate abilities of artifacts."
     ],
     "flavor_text": "Art is unknown to the vedalken—for them, all creations must serve a purpose.",
     "power": "1",
@@ -969,7 +970,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Target player loses 1 life for each tapped artifact he or she controls."
+      "Target player loses 1 life for each tapped artifact they control."
     ],
     "flavor_text": "\"The one who dies with the most toys is still dead.\"\n—Geth, keeper of the Vault",
     "power": null,
@@ -995,7 +996,7 @@
     "mana_cost": "1BB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Chittering Rats enters the battlefield, target opponent puts a card from his or her hand on top of his or her library."
+      "When Chittering Rats enters the battlefield, target opponent puts a card from their hand on top of their library."
     ],
     "flavor_text": "Bottom feeders sometimes rise to the top.",
     "power": "2",
@@ -1070,7 +1071,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Flying",
-      "Whenever Emissary of Despair deals combat damage to a player, that player loses 1 life for each artifact he or she controls."
+      "Whenever Emissary of Despair deals combat damage to a player, that player loses 1 life for each artifact they control."
     ],
     "flavor_text": null,
     "power": "2",
@@ -1094,7 +1095,7 @@
     "mana_cost": "4B",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Essence Drain deals 3 damage to target creature or player and you gain 3 life."
+      "Essence Drain deals 3 damage to any target and you gain 3 life."
     ],
     "flavor_text": "Mephidross claims all life within it. What cannot be twisted is absorbed.",
     "power": null,
@@ -1223,7 +1224,7 @@
     "mana_cost": "5B",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Destroy target nonblack creature. It can't be regenerated. You gain control of all Equipment that was attached to it. (This effect lasts indefinitely.)"
+      "Destroy target nonblack creature. It can't be regenerated. You gain control of all Equipment that were attached to it. (This effect lasts indefinitely.)"
     ],
     "flavor_text": "Scavengers are always the first to pay their respects.",
     "power": null,
@@ -1273,7 +1274,7 @@
     "mana_cost": "1BB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target player reveals three cards from his or her hand and you choose one of them. That player discards that card. Then if that player has more cards in hand than you, return Pulse of the Dross to its owner's hand."
+      "Target player reveals three cards from their hand and you choose one of them. That player discards that card. Then if that player has more cards in hand than you, return Pulse of the Dross to its owner's hand."
     ],
     "flavor_text": "Before tyrants or torturers, there was evil.",
     "power": null,
@@ -1351,7 +1352,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target opponent chooses an artifact card in his or her graveyard. Put that card onto the battlefield under your control."
+      "Target opponent chooses an artifact card in their graveyard. Put that card onto the battlefield under your control."
     ],
     "flavor_text": "When leonin settlers abandon their homes to the nim, items of value are often left behind.",
     "power": null,
@@ -1404,7 +1405,7 @@
     "oracle_text": [
       "Choose one —",
       "• Barbed Lightning deals 3 damage to target creature.",
-      "• Barbed Lightning deals 3 damage to target player.",
+      "• Barbed Lightning deals 3 damage to target player or planeswalker.",
       "Entwine {2} (Choose both if you pay the entwine cost.)"
     ],
     "flavor_text": "Every creature on Mirrodin is a lightning rod.",
@@ -1530,8 +1531,8 @@
     "mana_cost": "XR",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Fireball deals X damage divided evenly, rounded down, among any number of target creatures and/or players.",
-      "Fireball costs {1} more to cast for each target beyond the first."
+      "This spell costs {1} more to cast for each target beyond the first.",
+      "Fireball deals X damage divided evenly, rounded down, among any number of targets."
     ],
     "flavor_text": "The spell fell upon the crowd like a dragon, ancient and full of death.",
     "power": null,
@@ -1661,7 +1662,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}, Sacrifice an artifact: Add {R}{R} to your mana pool."
+      "{T}, Sacrifice an artifact: Add {R}{R}."
     ],
     "flavor_text": "Fallen enemies are fed to the scavengers. Fallen friends are thrown into the Great Furnace, their souls returned to the Great Mother.",
     "power": "2",
@@ -1685,7 +1686,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Pulse of the Forge deals 4 damage to target player. Then if that player has more life than you, return Pulse of the Forge to its owner's hand."
+      "Pulse of the Forge deals 4 damage to target player or planeswalker. Then if that player or that planeswalker's controller has more life than you, return Pulse of the Forge to its owner's hand."
     ],
     "flavor_text": "Before wars or weapons, there was anger.",
     "power": null,
@@ -1709,7 +1710,7 @@
     "mana_cost": "3RR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Cast Savage Beating only during your turn and only during combat.",
+      "Cast this spell only during your turn and only during combat.",
       "Choose one —",
       "• Creatures you control gain double strike until end of turn.",
       "• Untap all creatures you control. After this phase, there is an additional combat phase.",
@@ -1790,7 +1791,7 @@
     "mana_cost": "2RR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Cast Tears of Rage only during the declare attackers step.",
+      "Cast this spell only during the declare attackers step.",
       "Attacking creatures you control get +X/+0 until end of turn, where X is the number of attacking creatures. Sacrifice those creatures at the beginning of the next end step."
     ],
     "flavor_text": null,
@@ -2279,7 +2280,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{1}, {T}: Add one mana of any color to your mana pool."
+      "{1}, {T}: Add one mana of any color."
     ],
     "flavor_text": "\"We have no sun to guide our dead, so I tend the prismatic flames of the spirit fires that show the souls their way. When I die, I hope there is one left to guide my spirit home.\"",
     "power": "1",
@@ -2899,7 +2900,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Indestructible",
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,
@@ -3452,7 +3453,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "When Myr Moonvessel dies, add {C} to your mana pool."
+      "When Myr Moonvessel dies, add {C}."
     ],
     "flavor_text": "Memnarch created the myr with three qualities in mind: dependability, controllability, and disposability.",
     "power": "1",
@@ -3584,7 +3585,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "Any time you could mulligan and Serum Powder is in your hand, you may exile all the cards from your hand, then draw that many cards. (You can do this in addition to taking mulligans.)"
     ],
     "flavor_text": null,
@@ -3833,7 +3834,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Equipped creature has first strike and \"{T}, Unattach Surestrike Trident: This creature deals damage equal to its power to target player.\"",
+      "Equipped creature has first strike and \"{T}, Unattach Surestrike Trident: This creature deals damage equal to its power to target player or planeswalker.\"",
       "Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery. This card enters the battlefield unattached and stays on the battlefield if the creature leaves.)"
     ],
     "flavor_text": null,
@@ -3861,7 +3862,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Equipped creature gets +2/+2 and has protection from red and from blue.",
-      "Whenever equipped creature deals combat damage to a player, Sword of Fire and Ice deals 2 damage to target creature or player and you draw a card.",
+      "Whenever equipped creature deals combat damage to a player, Sword of Fire and Ice deals 2 damage to any target and you draw a card.",
       "Equip {2}"
     ],
     "flavor_text": null,
@@ -3915,7 +3916,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Whenever a source you control other than Talon of Pain deals damage to an opponent, put a charge counter on Talon of Pain.",
-      "{X}, {T}, Remove X charge counters from Talon of Pain: Talon of Pain deals X damage to target creature or player."
+      "{X}, {T}, Remove X charge counters from Talon of Pain: Talon of Pain deals X damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -3966,7 +3967,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{X}, {T}: Target opponent reveals cards from the top of his or her library until an artifact card or X cards are revealed, whichever comes first. If an artifact card is revealed this way, put it onto the battlefield under your control and sacrifice Thought Dissector. Put the rest of the revealed cards into that player's graveyard."
+      "{X}, {T}: Target opponent reveals cards from the top of their library until an artifact card or X cards are revealed, whichever comes first. If an artifact card is revealed this way, put it onto the battlefield under your control and sacrifice Thought Dissector. Put the rest of the revealed cards into that player's graveyard."
     ],
     "flavor_text": null,
     "power": null,
@@ -4039,7 +4040,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{T}: Add {C}{C} to your mana pool."
+      "{T}: Add {C}{C}."
     ],
     "flavor_text": "It still stares accusingly at Memnarch, though millennia have passed since he separated the eye from its body.",
     "power": null,
@@ -4242,7 +4243,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{1}: Blinkmoth Nexus becomes a 1/1 Blinkmoth artifact creature with flying until end of turn. It's still a land.",
       "{1}, {T}: Target Blinkmoth creature gets +1/+1 until end of turn."
     ],
@@ -4270,7 +4271,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Indestructible",
-      "{T}: Add {C} to your mana pool."
+      "{T}: Add {C}."
     ],
     "flavor_text": "Panopticon, forge of the Darksteel Eye, home of Mirrodin's keeper.",
     "power": null,
@@ -4294,9 +4295,9 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{T}: Put a charge counter on Mirrodin's Core.",
-      "{T}, Remove a charge counter from Mirrodin's Core: Add one mana of any color to your mana pool."
+      "{T}, Remove a charge counter from Mirrodin's Core: Add one mana of any color."
     ],
     "flavor_text": null,
     "power": null,

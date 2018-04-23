@@ -2219,7 +2219,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Hungry Flames deals 3 damage to target creature and 2 damage to target player."
+      "Hungry Flames deals 3 damage to target creature and 2 damage to target player or planeswalker."
     ],
     "flavor_text": "In the hold of the Heart of Kiran, Chandra answered Dovin Baan's sabotage with an explosive retort.",
     "power": null,
@@ -2243,7 +2243,7 @@
     "mana_cost": "XRRR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Destroy X target artifacts and/or creatures. For each permanent destroyed this way, its controller reveals cards from the top of his or her library until an artifact or creature card is revealed and exiles that card. Those players put the exiled cards onto the battlefield, then shuffle their libraries."
+      "Destroy X target artifacts and/or creatures. For each permanent destroyed this way, its controller reveals cards from the top of their library until an artifact or creature card is revealed and exiles that card. Those players put the exiled cards onto the battlefield, then shuffle their libraries."
     ],
     "flavor_text": null,
     "power": null,
@@ -2400,7 +2400,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever a nontoken artifact is put into your graveyard from the battlefield, return that card to your hand unless target opponent has Pia's Revolution deal 3 damage to him or her."
+      "Whenever a nontoken artifact is put into your graveyard from the battlefield, return that card to your hand unless target opponent has Pia's Revolution deal 3 damage to them."
     ],
     "flavor_text": "Pia's passion was directed at the big picture—at making real, lasting change.",
     "power": null,
@@ -2451,7 +2451,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Quicksmith Rebel enters the battlefield, target artifact you control gains \"{T}: This artifact deals 2 damage to target creature or player\" for as long as you control Quicksmith Rebel."
+      "When Quicksmith Rebel enters the battlefield, target artifact you control gains \"{T}: This artifact deals 2 damage to any target\" for as long as you control Quicksmith Rebel."
     ],
     "flavor_text": "\"Let's add just a bit more stopping power.\"",
     "power": "3",
@@ -2582,7 +2582,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Shock deals 2 damage to target creature or player."
+      "Shock deals 2 damage to any target."
     ],
     "flavor_text": "The tools of invention became the weapons of revolution.",
     "power": null,
@@ -2798,7 +2798,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Add {G} to your mana pool."
+      "{T}: Add {G}."
     ],
     "flavor_text": "\"The wild tangle of the Cowl provides sanctuary to life that watched the first buildings rise.\"",
     "power": "1",
@@ -2902,7 +2902,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Revolt — When Hidden Herbalists enters the battlefield, if a permanent you controlled left the battlefield this turn, add {G}{G} to your mana pool."
+      "Revolt — When Hidden Herbalists enters the battlefield, if a permanent you controlled left the battlefield this turn, add {G}{G}."
     ],
     "flavor_text": "In the cellars beneath Narnam House, a strange and deadly garden grows.",
     "power": "2",
@@ -3054,7 +3054,7 @@
     "mana_cost": "3GG",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Monstrous Onslaught deals X damage divided as you choose among any number of target creatures, where X is the greatest power among creatures you control as you cast Monstrous Onslaught."
+      "Monstrous Onslaught deals X damage divided as you choose among any number of target creatures, where X is the greatest power among creatures you control as you cast this spell."
     ],
     "flavor_text": "\"Regards from Peema.\"\n—Rishkar",
     "power": null,
@@ -3214,7 +3214,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "When Rishkar, Peema Renegade enters the battlefield, put a +1/+1 counter on each of up to two target creatures.",
-      "Each creature you control with a counter on it has \"{T}: Add {G} to your mana pool.\""
+      "Each creature you control with a counter on it has \"{T}: Add {G}.\""
     ],
     "flavor_text": "\"Aether is the soul of Kaladesh, and all souls should be free.\"",
     "power": "2",
@@ -3322,7 +3322,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Enchant land",
-      "Enchanted land has \"{T}: Add one mana of any color to your mana pool.\"",
+      "Enchanted land has \"{T}: Add one mana of any color.\"",
       "Sacrifice Unbridled Growth: Draw a card."
     ],
     "flavor_text": "\"If the Consulate has abandoned restraint, so too shall the wilds.\"\n—Surash, keeper of the Cowl",
@@ -3621,7 +3621,7 @@
     "mana_cost": "2UB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "+1: Create a colorless artifact token named Etherium Cell with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
+      "+1: Create a colorless artifact token named Etherium Cell with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
       "−2: Target creature gets +X/-X until end of turn, where X is the number of artifacts you control.",
       "−7: You get an emblem with \"At the beginning of combat on your turn, target artifact you control becomes an artifact creature with base power and toughness 5/5.\""
     ],
@@ -3894,7 +3894,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "{T}: You get {E} (an energy counter).",
-      "{T}, Pay {E}{E}{E}: Consulate Turret deals 2 damage to target player."
+      "{T}, Pay {E}{E}{E}: Consulate Turret deals 2 damage to target player or planeswalker."
     ],
     "flavor_text": "\"Our watchtowers are well positioned. Why don't we arm them?\"\n—Enforcer-Chief Ranaj",
     "power": null,
@@ -4113,7 +4113,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{R}, Sacrifice Implement of Combustion: It deals 1 damage to target player.",
+      "{R}, Sacrifice Implement of Combustion: It deals 1 damage to target player or planeswalker.",
       "When Implement of Combustion is put into a graveyard from the battlefield, draw a card."
     ],
     "flavor_text": "A dream of fire lies coiled inside, waiting for its glorious awakening.",
@@ -4792,7 +4792,7 @@
     "oracle_text": [
       "Walking Ballista enters the battlefield with X +1/+1 counters on it.",
       "{4}: Put a +1/+1 counter on Walking Ballista.",
-      "Remove a +1/+1 counter from Walking Ballista: It deals 1 damage to target creature or player."
+      "Remove a +1/+1 counter from Walking Ballista: It deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": "0",
@@ -4870,8 +4870,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{T}, Pay 1 life: Add one mana of any color to your mana pool. Activate this ability only if you control an artifact."
+      "{T}: Add {C}.",
+      "{T}, Pay 1 life: Add one mana of any color. Activate this ability only if you control an artifact."
     ],
     "flavor_text": "A beacon of prosperity to some, a shadow of oppression to others.",
     "power": null,
@@ -5003,7 +5003,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Tranquil Expanse enters the battlefield tapped.",
-      "{T}: Add {G} or {W} to your mana pool."
+      "{T}: Add {G} or {W}."
     ],
     "flavor_text": "Beyond the chaos of Ghirapur lies a vibrant world where aether flows through nature.",
     "power": null,
@@ -5134,7 +5134,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Submerged Boneyard enters the battlefield tapped.",
-      "{T}: Add {U} or {B} to your mana pool."
+      "{T}: Add {U} or {B}."
     ],
     "flavor_text": "Aether currents in the sky mirror water currents below, including the deadly rapids.",
     "power": null,

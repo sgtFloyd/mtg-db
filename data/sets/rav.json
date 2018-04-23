@@ -67,7 +67,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Defender (This creature can't attack.)",
-      "{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn."
+      "{T}: Prevent the next 1 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "Although the door is flimsy and the lock pathetically small, Josuri's family never fears the night outside.",
     "power": "0",
@@ -145,7 +145,7 @@
     "mana_cost": "W",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{W}, Sacrifice a creature: Prevent the next 1 damage that would be dealt to target creature or player this turn."
+      "{W}, Sacrifice a creature: Prevent the next 1 damage that would be dealt to any target this turn."
     ],
     "flavor_text": "\"The guilds each believe its way is right, but their ways only bring blood to Ravnica's streets and tears to Ravnica's families.\"",
     "power": "1",
@@ -356,7 +356,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "{T}, Sacrifice Divebomber Griffin: Divebomber Griffin deals 3 damage to target attacking or blocking creature."
+      "{T}, Sacrifice Divebomber Griffin: It deals 3 damage to target attacking or blocking creature."
     ],
     "flavor_text": "Justice flies swiftly on angry wings.",
     "power": "3",
@@ -515,7 +515,7 @@
     "mana_cost": "5WW",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "If a source would deal damage to a creature or player, it deals half that damage, rounded down, to that creature or player instead."
+      "If a source would deal damage to a permanent or player, it deals half that damage, rounded down, to that permanent or player instead."
     ],
     "flavor_text": "\"Ma said we should offer up blini-cakes and salt to the good ones, but I get that chill up my spine and just shut the door.\"\n—Otak, Tin Street shopkeep",
     "power": "4",
@@ -981,7 +981,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "Whenever a source deals damage to Belltower Sphinx, that source's controller puts that many cards from the top of his or her library into his or her graveyard."
+      "Whenever a source deals damage to Belltower Sphinx, that source's controller puts that many cards from the top of their library into their graveyard."
     ],
     "flavor_text": null,
     "power": "2",
@@ -1008,7 +1008,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "{U}: Cerulean Sphinx's owner shuffles it into his or her library."
+      "{U}: Cerulean Sphinx's owner shuffles it into their library."
     ],
     "flavor_text": "\"About the sphinx, I have mixed feelings. Their wisdom I crave, but their secrecy I can't tolerate.\"\n—Szadek",
     "power": "5",
@@ -1032,7 +1032,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Target player draws three cards. Then that player discards two cards unless he or she discards a land card."
+      "Target player draws three cards. Then that player discards two cards unless they discard a land card."
     ],
     "flavor_text": "\"Four parts molten bronze, yes . . . one part frozen mercury, yes, yes . . . but then what?\"",
     "power": null,
@@ -1159,7 +1159,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Enchant permanent",
-      "You can't choose an untapped permanent as Dream Leash's target as you cast Dream Leash.",
+      "You can't choose an untapped permanent as this spell's target as you cast it.",
       "You control enchanted permanent."
     ],
     "flavor_text": "The tendrils of sorcery find easy purchase on the soft underbelly of dreams.",
@@ -1448,7 +1448,7 @@
     "mana_cost": "2UU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Counter target spell. If {B} was spent to cast Induce Paranoia, that spell's controller puts the top X cards of his or her library into his or her graveyard, where X is the spell's converted mana cost."
+      "Counter target spell. If {B} was spent to cast Induce Paranoia, that spell's controller puts the top X cards of their library into their graveyard, where X is the spell's converted mana cost."
     ],
     "flavor_text": null,
     "power": null,
@@ -1526,7 +1526,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Each player shuffles his or her graveyard into his or her library."
+      "Each player shuffles their graveyard into their library."
     ],
     "flavor_text": "True enlightenment comes not with a new thought, but with understanding of all the old ones.",
     "power": null,
@@ -1866,7 +1866,7 @@
     "mana_cost": "5U",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Choose a card name. Target player reveals cards from the top of his or her library until a card with that name is revealed. If it is, that player puts the rest of the revealed cards into his or her graveyard and puts the card with the chosen name on top of his or her library. Otherwise, the player shuffles his or her library."
+      "Choose a card name. Target player reveals cards from the top of their library until a card with that name is revealed. If it is, that player puts the rest of the revealed cards into their graveyard and puts the card with the chosen name on top of their library. Otherwise, the player shuffles their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -1920,7 +1920,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{U}, {T}: Target player puts the top two cards of his or her library into his or her graveyard."
+      "{U}, {T}: Target player puts the top two cards of their library into their graveyard."
     ],
     "flavor_text": "Their denial reaches far into your future.",
     "power": "1",
@@ -2231,7 +2231,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Each player returns all creature cards from his or her graveyard to his or her hand."
+      "Each player returns all creature cards from their graveyard to their hand."
     ],
     "flavor_text": "When the dead are laid to rest in Ravnica, it's usually just a nap.",
     "power": null,
@@ -2572,7 +2572,7 @@
     "mana_cost": "5B",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "When Netherborn Phalanx enters the battlefield, each opponent loses 1 life for each creature he or she controls.",
+      "When Netherborn Phalanx enters the battlefield, each opponent loses 1 life for each creature they control.",
       "Transmute {1}{B}{B} ({1}{B}{B}, Discard this card: Search your library for a card with the same converted mana cost as this card, reveal it, and put it into your hand. Then shuffle your library. Transmute only as a sorcery.)"
     ],
     "flavor_text": null,
@@ -2597,7 +2597,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Target player reveals his or her hand. You choose a card from it. That player discards that card.",
+      "Target player reveals their hand. You choose a card from it. That player discards that card.",
       "Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
     ],
     "flavor_text": null,
@@ -2675,7 +2675,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Sadistic Augermage dies, each player puts a card from his or her hand on top of his or her library."
+      "When Sadistic Augermage dies, each player puts a card from their hand on top of their library."
     ],
     "flavor_text": "\"Don't worry. I know the drill.\"",
     "power": "3",
@@ -2991,7 +2991,7 @@
     "mana_cost": "3RR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{1}{R}, Sacrifice Blockbuster: Blockbuster deals 3 damage to each tapped creature and each player."
+      "{1}{R}, Sacrifice Blockbuster: It deals 3 damage to each tapped creature and each player."
     ],
     "flavor_text": "Vendors hung cords heavy with roots and laid out boxes of salted meat, unaware of the fiery disaster swiftly approaching.",
     "power": null,
@@ -3042,7 +3042,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Char deals 4 damage to target creature or player and 2 damage to you."
+      "Char deals 4 damage to any target and 2 damage to you."
     ],
     "flavor_text": "Izzet mages often acquire their magic reagents from dubious sources, so the potency of their spells is never predictable.",
     "power": null,
@@ -3117,7 +3117,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Dogpile deals damage to target creature or player equal to the number of attacking creatures you control."
+      "Dogpile deals damage to any target equal to the number of attacking creatures you control."
     ],
     "flavor_text": "There is no shelter from this storm, its rain of fists, or the thunderous cackles of bloodlust.",
     "power": null,
@@ -3167,7 +3167,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "As an additional cost to cast Fiery Conclusion, sacrifice a creature.",
+      "As an additional cost to cast this spell, sacrifice a creature.",
       "Fiery Conclusion deals 5 damage to target creature."
     ],
     "flavor_text": "The Boros legionnaire saw a noble sacrifice, the Rakdos thug a blazing suicide, and the Izzet alchemist an experiment gone awry.",
@@ -3192,7 +3192,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Until end of turn, permanents you control gain \"{T}: This permanent deals 1 damage to target creature or player.\""
+      "Until end of turn, permanents you control gain \"{T}: This permanent deals 1 damage to any target.\""
     ],
     "flavor_text": "\"A single item acting as lantern and lance? Now that's military efficiency.\"\n—Brev Grezar, Boros lieutenant",
     "power": null,
@@ -3270,7 +3270,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Enchant creature",
-      "When Galvanic Arc enters the battlefield, it deals 3 damage to target creature or player.",
+      "When Galvanic Arc enters the battlefield, it deals 3 damage to any target.",
       "Enchanted creature has first strike."
     ],
     "flavor_text": null,
@@ -3662,7 +3662,7 @@
     "mana_cost": "2RR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Destroy target land. Add {R}{R} to your mana pool."
+      "Destroy target land. Add {R}{R}."
     ],
     "flavor_text": "Natural disasters in Ravnica are largely nullified by the Izzet. Unnatural disasters, on the other hand, happen all of the time.",
     "power": null,
@@ -3741,7 +3741,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Sparkmage Apprentice enters the battlefield, it deals 1 damage to target creature or player."
+      "When Sparkmage Apprentice enters the battlefield, it deals 1 damage to any target."
     ],
     "flavor_text": "Pajik was amazed and pleased at his newfound powers. His pet cat Rivin was slightly less enthusiastic.",
     "power": "1",
@@ -3846,7 +3846,7 @@
     "mana_cost": "2RR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{T}: Viashino Fangtail deals 1 damage to target creature or player."
+      "{T}: Viashino Fangtail deals 1 damage to any target."
     ],
     "flavor_text": "\"When the bony terminus gets too large, it's shed from the tail in coinciding periods of heightened aggression and hunger.\"\n—Simic research notes",
     "power": "3",
@@ -3897,7 +3897,7 @@
     "mana_cost": "5RRR",
     "converted_mana_cost": 8,
     "oracle_text": [
-      "Each player shuffles all permanents he or she owns into his or her library, then reveals that many cards from the top of his or her library. Each player puts all artifact, creature, and land cards revealed this way onto the battlefield, then does the same for enchantment cards, then puts all cards revealed this way that weren't put onto the battlefield on the bottom of his or her library."
+      "Each player shuffles all permanents they own into their library, then reveals that many cards from the top of their library. Each player puts all artifact, creature, and land cards revealed this way onto the battlefield, then does the same for enchantment cards, then puts all cards revealed this way that weren't put onto the battlefield on the bottom of their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -3924,7 +3924,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{R}, Sacrifice War-Torch Goblin: War-Torch Goblin deals 2 damage to target blocking creature."
+      "{R}, Sacrifice War-Torch Goblin: It deals 2 damage to target blocking creature."
     ],
     "flavor_text": "\"In a town shaped by the subtle machinations and political intrigue of its guilds, it's reassuring to see a goblin waving his torch and screaming about some nonsense or other.\"\n—Agrus Kos",
     "power": "1",
@@ -3978,7 +3978,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Flying",
-      "{T}: Add one mana of any color to your mana pool."
+      "{T}: Add one mana of any color."
     ],
     "flavor_text": "Long ago, birds of paradise littered the skies. Thanks to the city's sprawl, most now exist as pets of society's elite.",
     "power": "0",
@@ -4187,7 +4187,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}: Add {B} to your mana pool. Elves of Deep Shadow deals 1 damage to you."
+      "{T}: Add {B}. Elves of Deep Shadow deals 1 damage to you."
     ],
     "flavor_text": "Cast out of the Conclave generations ago, these elves found a home in the corrupted districts of the Golgari.",
     "power": "1",
@@ -4764,7 +4764,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)",
-      "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)"
+      "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)"
     ],
     "flavor_text": "The Rubblefield was once among the wealthiest districts in Ravnica. All it took was a single wurm to reduce it to ruins.",
     "power": "5",
@@ -5004,7 +5004,7 @@
     "mana_cost": "2BG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever a player casts a creature spell, each player returns all cards with the same name as that spell from his or her graveyard to the battlefield."
+      "Whenever a player casts a creature spell, each player returns all cards with the same name as that spell from their graveyard to the battlefield."
     ],
     "flavor_text": "The Golgari support a vast army because death never ends its soldiers' service.",
     "power": null,
@@ -5422,7 +5422,7 @@
     "mana_cost": "UB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player puts the top ten cards of his or her library into his or her graveyard."
+      "Target player puts the top ten cards of their library into their graveyard."
     ],
     "flavor_text": "\"I am confident that if anyone actually penetrates our facades, even the most perceptive would still be fundamentally unprepared for the truth of House Dimir.\"\n—Szadek",
     "power": null,
@@ -5551,7 +5551,7 @@
     "mana_cost": "RW",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Lightning Helix deals 3 damage to target creature or player and you gain 3 life."
+      "Lightning Helix deals 3 damage to any target and you gain 3 life."
     ],
     "flavor_text": "Though less well-known than its army of soldiers, the Boros Legion's mage-priests are as respected by the innocent as they are hated by the ghosts of the guilty.",
     "power": null,
@@ -5657,7 +5657,7 @@
     "mana_cost": "1UB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Counter target spell unless its controller discards his or her hand.",
+      "Counter target spell unless its controller discards their hand.",
       "Transmute {1}{U}{B} ({1}{U}{B}, Discard this card: Search your library for a card with the same converted mana cost as this card, reveal it, and put it into your hand. Then shuffle your library. Transmute only as a sorcery.)"
     ],
     "flavor_text": null,
@@ -5737,7 +5737,7 @@
     "mana_cost": "XUB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player puts the top X cards of his or her library into his or her graveyard and you gain X life."
+      "Target player puts the top X cards of their library into their graveyard and you gain X life."
     ],
     "flavor_text": "\"Gold can be reearned, goods restored. The moroii steal youth, more precious than either, and once gone, it's gone forever.\"\n—Berta Suszat, civic healer",
     "power": null,
@@ -5838,7 +5838,7 @@
     "mana_cost": "4RW",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Each player chooses three permanents he or she controls, then sacrifices the rest."
+      "Each player chooses three permanents they control, then sacrifices the rest."
     ],
     "flavor_text": "Only the chosen ones are spared.",
     "power": null,
@@ -5892,7 +5892,7 @@
     "mana_cost": "1RW",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever you gain life, you may pay {2}. If you do, Searing Meditation deals 2 damage to target creature or player."
+      "Whenever you gain life, you may pay {2}. If you do, Searing Meditation deals 2 damage to any target."
     ],
     "flavor_text": "\"When I meditate I see the world as it should be. All that does not fit, I remove.\"\n—Alovnek, Boros guildmage",
     "power": null,
@@ -6115,7 +6115,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Flying",
-      "If Szadek, Lord of Secrets would deal combat damage to a player, instead put that many +1/+1 counters on Szadek and that player puts that many cards from the top of his or her library into his or her graveyard."
+      "If Szadek, Lord of Secrets would deal combat damage to a player, instead put that many +1/+1 counters on Szadek and that player puts that many cards from the top of their library into their graveyard."
     ],
     "flavor_text": null,
     "power": "5",
@@ -6550,7 +6550,7 @@
     "mana_cost": "2{R/W}{R/W}",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Cast Master Warcraft only before attackers are declared.",
+      "Cast this spell only before attackers are declared.",
       "You choose which creatures attack this turn.",
       "You choose which creatures block this turn and how those creatures block."
     ],
@@ -6680,7 +6680,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, {T}: Add {R}{W} to your mana pool."
+      "{1}, {T}: Add {R}{W}."
     ],
     "flavor_text": "\"Have you ever held a Boros signet? There's a weight to it that belies its size—a weight of strength and of pride.\"\n—Agrus Kos",
     "power": null,
@@ -6803,7 +6803,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, {T}: Add {U}{B} to your mana pool."
+      "{1}, {T}: Add {U}{B}."
     ],
     "flavor_text": "An emblem of a secret guild, the Dimir insignia is seen only by its own members—and the doomed.",
     "power": null,
@@ -6852,7 +6852,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, {T}: Add {B}{G} to your mana pool."
+      "{1}, {T}: Add {B}{G}."
     ],
     "flavor_text": "Depending on your point of view, the seal represents a proud guardian of the natural cycle or one who has sold her soul to darkness for eternal life.",
     "power": null,
@@ -7068,7 +7068,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, {T}: Add {G}{W} to your mana pool."
+      "{1}, {T}: Add {G}{W}."
     ],
     "flavor_text": "The symbol of the Conclave is one of unity, with tree supporting sun and sun feeding tree.",
     "power": null,
@@ -7092,7 +7092,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Choose a player. That player adds one mana of any color he or she chooses to his or her mana pool."
+      "{T}: Choose a player. That player adds one mana of any color they choose."
     ],
     "flavor_text": "The first searchlights were given as gifts, symbols of cooperation, to the emissaries present at the signing of the Guildpact.",
     "power": null,
@@ -7145,7 +7145,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Terrarion enters the battlefield tapped.",
-      "{2}, {T}, Sacrifice Terrarion: Add two mana in any combination of colors to your mana pool.",
+      "{2}, {T}, Sacrifice Terrarion: Add two mana in any combination of colors.",
       "When Terrarion is put into a graveyard from the battlefield, draw a card."
     ],
     "flavor_text": null,
@@ -7196,7 +7196,7 @@
     "oracle_text": [
       "Boros Garrison enters the battlefield tapped.",
       "When Boros Garrison enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {R}{W} to your mana pool."
+      "{T}: Add {R}{W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -7222,7 +7222,7 @@
     "oracle_text": [
       "Dimir Aqueduct enters the battlefield tapped.",
       "When Dimir Aqueduct enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {U}{B} to your mana pool."
+      "{T}: Add {U}{B}."
     ],
     "flavor_text": null,
     "power": null,
@@ -7246,8 +7246,8 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
-      "{U}{B}, {T}: Target player puts the top card of his or her library into his or her graveyard."
+      "{T}: Add {C}.",
+      "{U}{B}, {T}: Target player puts the top card of their library into their graveyard."
     ],
     "flavor_text": "In a space where there is no room, in a structure that was never built, meets the guild that doesn't exist.",
     "power": null,
@@ -7273,7 +7273,7 @@
     "oracle_text": [
       "Golgari Rot Farm enters the battlefield tapped.",
       "When Golgari Rot Farm enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {B}{G} to your mana pool."
+      "{T}: Add {B}{G}."
     ],
     "flavor_text": null,
     "power": null,
@@ -7300,7 +7300,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} or {G} to your mana pool.)",
+      "({T}: Add {B} or {G}.)",
       "As Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, Overgrown Tomb enters the battlefield tapped."
     ],
     "flavor_text": null,
@@ -7328,7 +7328,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} or {W} to your mana pool.)",
+      "({T}: Add {R} or {W}.)",
       "As Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, Sacred Foundry enters the battlefield tapped."
     ],
     "flavor_text": null,
@@ -7355,7 +7355,7 @@
     "oracle_text": [
       "Selesnya Sanctuary enters the battlefield tapped.",
       "When Selesnya Sanctuary enters the battlefield, return a land you control to its owner's hand.",
-      "{T}: Add {G}{W} to your mana pool."
+      "{T}: Add {G}{W}."
     ],
     "flavor_text": null,
     "power": null,
@@ -7379,7 +7379,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{2}{R}{W}, {T}: Target creature gains double strike until end of turn."
     ],
     "flavor_text": "Sunhome—the stalwart shield, the towering sentinel, the seat of justice.",
@@ -7404,7 +7404,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{3}{B}{G}: Until end of turn, Svogthos, the Restless Tomb becomes a black and green Plant Zombie creature with \"This creature's power and toughness are each equal to the number of creature cards in your graveyard.\" It's still a land."
     ],
     "flavor_text": null,
@@ -7432,7 +7432,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} or {W} to your mana pool.)",
+      "({T}: Add {G} or {W}.)",
       "As Temple Garden enters the battlefield, you may pay 2 life. If you don't, Temple Garden enters the battlefield tapped."
     ],
     "flavor_text": null,
@@ -7457,7 +7457,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "{T}: Add {C} to your mana pool.",
+      "{T}: Add {C}.",
       "{2}{G}{W}, {T}: Create a 1/1 green Saproling creature token."
     ],
     "flavor_text": "In the autumn, she casts her seeds across the streets below, and come spring, her children rise in service to the Conclave.",
@@ -7485,7 +7485,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} or {B} to your mana pool.)",
+      "({T}: Add {U} or {B}.)",
       "As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery Grave enters the battlefield tapped."
     ],
     "flavor_text": null,
@@ -7514,7 +7514,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7542,7 +7542,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7570,7 +7570,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7598,7 +7598,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {W} to your mana pool.)"
+      "({T}: Add {W}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7626,7 +7626,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7654,7 +7654,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7682,7 +7682,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7710,7 +7710,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {U} to your mana pool.)"
+      "({T}: Add {U}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7738,7 +7738,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7766,7 +7766,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7794,7 +7794,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7822,7 +7822,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {B} to your mana pool.)"
+      "({T}: Add {B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7850,7 +7850,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7878,7 +7878,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7906,7 +7906,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7934,7 +7934,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {R} to your mana pool.)"
+      "({T}: Add {R}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7962,7 +7962,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7990,7 +7990,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8018,7 +8018,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8046,7 +8046,7 @@
     "mana_cost": null,
     "converted_mana_cost": 0,
     "oracle_text": [
-      "({T}: Add {G} to your mana pool.)"
+      "({T}: Add {G}.)"
     ],
     "flavor_text": null,
     "power": null,
