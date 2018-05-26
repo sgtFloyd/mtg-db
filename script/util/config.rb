@@ -33,5 +33,8 @@ EXCLUDED_TOKEN_NAMES = ['Goblin', 'Soldier', 'Kraken', 'Spirit', 'Demon',
 # Used to override the oracle text of each Basic Land type.
 BASIC_LAND_SYMBOLS = {
   'Plains'   => '{W}', 'Island' => '{U}', 'Swamp'  => '{B}',
-  'Mountain' => '{R}', 'Forest' => '{G}', 'Wastes' => '{C}'
+  'Mountain' => '{R}', 'Forest' => '{G}', 'Wastes' => '{C}',
+  'Snow-Covered Plains' => '{W}', 'Snow-Covered Island' => '{U}',
+  'Snow-Covered Swamp' => '{B}', 'Snow-Covered Mountain' => '{R}',
+  'Snow-Covered Forest' => '{G}'
 }
