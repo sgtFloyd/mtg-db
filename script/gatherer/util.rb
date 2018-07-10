@@ -3,6 +3,7 @@ require_relative 'cards/double_faced.rb'
 require_relative 'cards/flip.rb'
 require_relative 'cards/meld.rb'
 require_relative 'cards/split.rb'
+require_relative 'cards/partner.rb'
 require_relative 'card_identifier.rb'
 
 # Gatherer-specific utilities
@@ -31,6 +32,8 @@ class Gatherer
       SplitCard.new(multiverse_id, page, card.split_overload?)
     elsif card.meld?
       MeldCard.new(multiverse_id, page)
+    elsif card.partners?
+      PartnerCard.new(multiverse_id, page)
     elsif card.double_faced?
       DoubleFacedCard.new(multiverse_id, page)
     elsif card.flip?

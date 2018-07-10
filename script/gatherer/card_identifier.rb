@@ -22,6 +22,11 @@ class CardIdentifier
     two_up? && mana_costs_shown.select(&:present?).count < 2
   end
 
+  # Battlebond partners otherwise look like flip cards.
+  def partners?
+    PARTNER_CARD_NAMES.include?(multiverse_id.to_i)
+  end
+
   # Both sides of a flip card will have a mana cost.
   def flip?
     two_up? && mana_costs_shown.select(&:present?).count == 2

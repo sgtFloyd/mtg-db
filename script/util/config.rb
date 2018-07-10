@@ -15,6 +15,7 @@ FLAVOR_TEXT_FILE_PATH = File.expand_path('../../data/flavor_text_overrides.yml',
   illustrator_overrides
   subtitle_display_overrides
   split_card_names
+  partner_card_names
   mana_cost_symbols
 ].each do |config|
   path = File.expand_path "../../data/#{config}.yml", __FILE__
