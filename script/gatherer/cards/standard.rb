@@ -84,7 +84,7 @@ class StandardCard
   CARD_NAME_REPLACEMENTS = {
     'kongming, "sleeping dragon"' => 'Kongming, “Sleeping Dragon”',
     'pang tong, "young phoenix"' => 'Pang Tong, “Young Phoenix”',
-    'will-o\'-the-wisp' => 'Will-O\'-The-Wisp'
+    'will-o\'-the-wisp' => 'Will-o\'-the-Wisp'
   }
   def as_json(options={})
     return if parse_types[:types].include?('Token') ||
