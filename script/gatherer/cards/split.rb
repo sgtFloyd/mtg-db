@@ -13,7 +13,7 @@ class SplitCard < StandardCard
       # using container_index to determine which half we're dealing with
       gatherer_name = self.page.css('[id$="subtitleDisplay"]').text.strip
       names = gatherer_name.split(' // ')
-      "#{labeled_row(:name)} (#{names.join('/')})"
+      "#{labeled_row(:name)} (#{names.join('/')})".gsub("Æ", "Ae")
     else
       # APC and INV have their names hard-coded, as Gatherer doesn't give any
       # indication of which muiltiverse_id is associated with each half. Other

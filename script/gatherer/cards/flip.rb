@@ -7,7 +7,7 @@ class FlipCard < StandardCard
   end
 
   memo def parse_name
-    labeled_row(:name)
+    labeled_row(:name).gsub("Æ", "Ae")
   end
 
   memo def parse_other_part

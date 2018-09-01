@@ -1480,7 +1480,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Flying"
+      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
     ],
     "flavor_text": "Pray that it doesn't seek the safety of your lungs.",
     "power": "4",
@@ -4300,7 +4300,7 @@
     "color_indicator": null
   },
   {
-    "name": "Will-o'-the-Wisp",
+    "name": "Will-O'-The-Wisp",
     "set_name": "Ninth Edition",
     "collector_num": "169",
     "illustrator": "Rob Alexander",
@@ -4875,7 +4875,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Haste (This creature can attack the turn it comes under your control.)"
+      "Haste (This creature can attack and {T} as soon as it comes under your control.)"
     ],
     "flavor_text": "The hardest part of his training is learning not to eat the boar.",
     "power": "2",
@@ -5157,7 +5157,7 @@
     "mana_cost": "2RR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Haste (This creature can attack the turn it comes under your control.)",
+      "Haste (This creature can attack and {T} as soon as it comes under your control.)",
       "Magnivore's power and toughness are each equal to the number of sorcery cards in all graveyards."
     ],
     "flavor_text": null,
@@ -5461,7 +5461,8 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Bird"
+      "Bird",
+      "Egg"
     ],
     "rarity": "Rare",
     "mana_cost": "3R",
@@ -5722,7 +5723,7 @@
     "mana_cost": "5R",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Haste (This creature can attack the turn it comes under your control.)",
+      "Haste (This creature can attack and {T} as soon as it comes under your control.)",
       "When Thundermare enters the battlefield, tap all other creatures."
     ],
     "flavor_text": "Its hooves strike lightning and the thunder follows quickly after.",
@@ -5750,7 +5751,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Haste (This creature can attack the turn it comes under your control.)",
+      "Haste (This creature can attack and {T} as soon as it comes under your control.)",
       "At the beginning of the end step, return Viashino Sandstalker to its owner's hand. (Return it only if it's on the battlefield.)"
     ],
     "flavor_text": "\"Some believe sandstalkers to be illusions; those with scars know better.\"\n—Zhalfirin Guide to the Desert",
@@ -5928,7 +5929,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)",
+      "Enchant creature",
       "Enchanted creature gets +1/+1 for each Forest you control."
     ],
     "flavor_text": null,

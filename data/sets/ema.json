@@ -259,7 +259,7 @@
     "oracle_text": [
       "Enchant permanent",
       "When Faith's Fetters enters the battlefield, you gain 4 life.",
-      "Enchanted permanent's activated abilities can't be activated unless they're mana abilities. If enchanted permanent is a creature, it can't attack or block."
+      "Enchanted permanent can't attack or block, and its activated abilities can't be activated unless they're mana abilities."
     ],
     "flavor_text": null,
     "power": null,
@@ -1455,8 +1455,8 @@
     "mana_cost": "7UU",
     "converted_mana_cost": 9,
     "oracle_text": [
-      "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)",
       "Trample",
+      "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)",
       "Shroud (This creature can't be the target of spells or abilities.)"
     ],
     "flavor_text": "\"Into its maw went the seventh sea, never to be seen again while the world remains.\"\n—Esper fable",
@@ -2712,6 +2712,7 @@
     ],
     "supertypes": [],
     "subtypes": [
+      "Pangolin",
       "Beast"
     ],
     "rarity": "Common",
@@ -3284,14 +3285,15 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Dragon"
+      "Dragon",
+      "Egg"
     ],
     "rarity": "Common",
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
       "Defender (This creature can't attack.)",
-      "When Dragon Egg dies, create a 2/2 red Dragon creature token with flying. It has \"{R}: This creature gets +1/+0 until end of turn.\""
+      "When Dragon Egg dies, create a 2/2 red Dragon creature token with flying and \"{R}: This creature gets +1/+0 until end of turn.\""
     ],
     "flavor_text": "Dragon birth lairs are littered with treasure to entice the young from their eggs.",
     "power": "0",

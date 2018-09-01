@@ -4150,7 +4150,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target creature gets +3/+0 and gains first strike until end of turn."
+      "Target creature gets +3/+0 and gains first strike until end of turn. (It deals combat damage before creatures without first strike.)"
     ],
     "flavor_text": "To survive imminent doom, it sometimes takes a foolhardy soul who acts first and fears later.",
     "power": null,
@@ -4834,7 +4834,8 @@
     "mana_cost": "4GGG",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "Trample, hexproof"
+      "Trample",
+      "Hexproof (This creature can't be the target of spells or abilities your opponents control.)"
     ],
     "flavor_text": "\"It might fight the Eldrazi, but don't mistake it for a companion, Gideon. It's not interested in your concept of strength through unity.\"—Najiya, leader of the Tajuru",
     "power": "7",
@@ -6177,7 +6178,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "{T}: Add {C}.",
-      "{3}{G}, {T}, Sacrifice Blighted Woodland: Search your library for up to two basic land cards and put them onto the battlefield tapped. Then shuffle your library."
+      "{3}{G}, {T}, Sacrifice Blighted Woodland: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library."
     ],
     "flavor_text": null,
     "power": null,
