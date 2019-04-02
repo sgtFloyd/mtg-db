@@ -1,8 +1,7 @@
-mtg-db
+mtg-db [![Gem Version](https://badge.fury.io/rb/mtg-db.svg)](
+  https://rubygems.org/gems/mtg-db)
 ======
-A JSON database of _Magic: The Gathering_ cards and sets.
-
-[![Gem Version](https://badge.fury.io/rb/mtg-db.svg)](https://rubygems.org/gems/mtg-db)
+A JSON database of _Magic: The Gathering_ sets and cards.
 
 # Installation
 Include in your [Gemfile](https://bundler.io/gemfile.html)
@@ -19,32 +18,47 @@ gem install mtg-db
 Ruby:
 ```ruby
 require 'mtg-db'
-all_sets = Mtg::Db.sets.to_json
-<<-JSON
-[{
+
+# TODO
+all_sets = Mtg::Db.sets
+
+# Returns a JSON array of all Magic: The Gathering sets. See [JSON Format] for details on sets' attributes.
+all_set_json = Mtg::Db.sets.to_json
+
+# TODO
+all_cards = Mtg::Db.cards
+
+# TODO
+all_card_json = Mtg::Db.cards.to_json
+
+# TODO cards are indexed by set code
+urzas_destiny_cards = Mtg::Db.cards(:uds).to_json
+```
+
+# JSON Format
+
+## Sets
+- **`name`**: The set's name as listed on Wizards of the Coasts's **[Gatherer](http://gatherer.wizards.com/Pages/Default.aspx)** card database, with some exceptions made for consistency. See `[set_name_overrides.yml](script/data/set_name_overrides.yml)`.
+  - Required string. _ex: "Aether Revolt" or "Time Spiral \"Timeshifted\""_
+- **`release_date`**: The calendar date of the set's release. In the case of some older sets, the closest known date is used. Please [open a Pull Request](https://github.com/sgtFloyd/mtg-db/pulls) if you find anything to be incorrect.
+  - Required string. _ex: "January 20, 2017" or "October 1993"_
+- **`block`**: // TODO Required. SOON TO BE DEPRECATED
+  - Optional string. _ex: "Kaladesh Block" or "Core Sets"_
+- **`code`**: // TODO
+  - Required string. _ex: "aer" or "10e"_
+
+```json
+{
   "name": "Aether Revolt",
   "release_date": "January 20, 2017",
   "block": "Kaladesh Block",
   "code": "aer"
-},
-{
-  "name": "Alara Reborn",
-  "release_date": "April 30, 2009",
-  "block": "Alara Block",
-  "code": "arb"
-},
-{
-  "name": "Alliances",
-  "release_date": "June 10, 1996",
-  "block": "Ice Age Block",
-  "code": "all"
-},
-...
-JSON
+}
+```
 
-all_cards = Mtg::Db.cards.to_json
-<<-JSON
-[{
+## Cards
+```json
+{
   "name": "Aerial Modification",
   "set_name": "Aether Revolt",
   "collector_num": "1",
@@ -71,48 +85,5 @@ all_cards = Mtg::Db.cards.to_json
   "multiverse_id": 423668,
   "other_part": null,
   "color_indicator": null
-},
-{
-  "name": "Aeronaut Admiral",
-  "set_name": "Aether Revolt",
-  "collector_num": "2",
-  ...
-JSON
-
-# cards are indexed by set code
-urzas_destiny_cards = Mtg::Db.cards(:uds).to_json
-<<-JSON
-[{
-  "name": "Academy Rector",
-  "set_name": "Urza's Destiny",
-  "collector_num": "1",
-  "illustrator": "Heather Hudson",
-  "types": [
-    "Creature"
-  ],
-  "supertypes": [],
-  "subtypes": [
-    "Human",
-    "Cleric"
-  ],
-  "rarity": "Rare",
-  "mana_cost": "3W",
-  "converted_mana_cost": 4,
-  "oracle_text": [
-    "When Academy Rector dies, you may exile it. If you do, search your library for an enchantment card, put that card onto the battlefield, then shuffle your library."
-  ],
-  "flavor_text": null,
-  "power": "1",
-  "toughness": "2",
-  "loyalty": null,
-  "multiverse_id": 15138,
-  "other_part": null,
-  "color_indicator": null
-},
-{
-  "name": "Archery Training",
-  "set_name": "Urza's Destiny",
-  "collector_num": "2",
-  ...
-JSON
+}
 ```
