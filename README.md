@@ -38,15 +38,19 @@ urzas_destiny_cards = Mtg::Db.cards(:uds).to_json
 # JSON Format
 
 ## Sets
-- **`name`**: The set's name as listed on Wizards of the Coasts's **[Gatherer](http://gatherer.wizards.com/Pages/Default.aspx)** card database, with some exceptions made for consistency. See `[set_name_overrides.yml](script/data/set_name_overrides.yml)`.
+A set in _Magic: The Gathering_ is a pool of cards released together and designed for the same play environment.[1]
+
+#### Attributes
+- **`name`**: The set's name as listed on Wizards of the Coasts's **[Gatherer](http://gatherer.wizards.com/Pages/Default.aspx)** card database, with some exceptions made for consistency. See [`set_name_overrides.yml`](script/data/set_name_overrides.yml).
   - Required string. _ex: "Aether Revolt" or "Time Spiral \"Timeshifted\""_
-- **`release_date`**: The calendar date of the set's release. In the case of some older sets, the closest known date is used. Please [open a Pull Request](https://github.com/sgtFloyd/mtg-db/pulls) if you find anything to be incorrect.
+- **`release_date`**: The calendar date of the set's release. In the case of some older sets, the closest known date is used.
   - Required string. _ex: "January 20, 2017" or "October 1993"_
 - **`block`**: // TODO Required. SOON TO BE DEPRECATED
   - Optional string. _ex: "Kaladesh Block" or "Core Sets"_
 - **`code`**: // TODO
   - Required string. _ex: "aer" or "10e"_
 
+#### Example JSON
 ```json
 {
   "name": "Aether Revolt",
@@ -87,3 +91,6 @@ urzas_destiny_cards = Mtg::Db.cards(:uds).to_json
   "color_indicator": null
 }
 ```
+
+## References
+[1]: https://mtg.gamepedia.com/Set
