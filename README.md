@@ -54,7 +54,7 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
   - Optional string. _ex: "Kaladesh Block" or "From the Vault Series"_
 - **code**: The unique code used to identify the set. By default the expansion code from Gatherer is used, with exceptions defined in [`set_code_overrides.yml`](script/data/set_code_overrides.yml)
   - Required string. _ex: "aer" or "10e"_
-  - Often a three-character string. Notable exceptions are Masterpiece Series (mps_kld), Duel Decks (dd3_dvd), and Guild Kits (gk1_golgari).
+  - Often a three-character string. Notable exceptions are Masterpiece Series, Duel Decks, and Guild Kits with codes `mps_kld`, `dd3_dvd`, `gk1_golgari`, etc.
 
 [Gatherer]: http://gatherer.wizards.com/Pages/Default.aspx
 [URZA.co]: https://urza.co/m
