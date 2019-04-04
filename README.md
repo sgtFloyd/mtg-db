@@ -43,7 +43,7 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
 - **release_date**: Required string. The calendar date of the set's release. In the case of some older sets, the closest known date is used.
 -  ~**block**~: _Deprecated._ Optional string. A group of sequential expansion<sup>[2]</sup> sets with shared mechanics or flavor. Also used to group supplemental<sup>[3]</sup> sets by product line.
 - **code**: Required string. The unique code used to identify the set. By default the expansion code from **[Gatherer]** is used, with exceptions defined in [set_code_overrides.yml](script/data/set_code_overrides.yml)
-  - Often a three-character string. Notable exceptions are Masterpiece Series, Duel Decks, and Guild Kits with codes `mps_kld`, `dd3_dvd`, `gk1_golgari`, etc.
+  - Often a three-character string. Notable exceptions are Masterpiece sets, Duel Decks and Guild Kits with codes `mps_kld`, `dd3_dvd`, `gk1_golgari` etc.
 
 [Gatherer]: http://gatherer.wizards.com/Pages/Default.aspx
 [URZA.co]: https://urza.co/m
@@ -86,7 +86,7 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
   - Only applies to cards with the _Planeswalker_ type.
 - **multiverse_id**: Optional integer.
 - **other_part**: Optional string.
-- **color_indicator**: Optional string. Used when a card's color can't be identified by a its mana cost.
+- **color_indicator**: Optional string. Used when a card's color can't be identified by its mana cost.
   - _White, Blue, Black, Red, Green_
 
 ###### EXAMPLE JSON
