@@ -63,24 +63,31 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
 ## Cards
 
 ###### ATTRIBUTES
-- **name**:
-- **set_name**:
-- **collector_num**:
-- **illustrator**:
-- **types**:
-- **supertypes**:
-- **subtypes**:
-- **rarity**:
-- **mana_cost**:
-- **converted_mana_cost**:
-- **oracle_text**:
-- **flavor_text**:
-- **power**: only vehicles and creatures
-- **toughness**: only vehicles and creatures
-- **loyalty**: only planeswalkers
-- **multiverse_id**:
-- **other_part**:
-- **color_indicator**: Used when a card's color can't be identified by a its mana cost.
+- **name**: Required string.
+- **set_name**: Required string.
+- **collector_num**: Required string.
+- **illustrator**: Optional string.
+- **types**: Required string array.
+  - _Artifact, Conspiracy, Creature, Enchantment, Instant, Land, Planeswalker, Sorcery, Tribal_
+- **supertypes**: Optional string array.
+  -  _Basic, Legendary, World, Snow_
+- **subtypes**: Optional string array.
+- **rarity**: Required string.
+  - _Common, Uncommon, Rare, Special, Land_
+- **mana_cost**: Optional string.
+- **converted_mana_cost**: Required integer.
+- **oracle_text**: Optional string array.
+- **flavor_text**: Optional string.
+- **power**: Optional string.
+  - Only applies to cards with the _Vehicle_ or _Creature_ type.
+- **toughness**: Optional string.
+  - Only applies to cards with the _Vehicle_ or _Creature_ type.
+- **loyalty**: Optional string.
+  - Only applies to cards with the _Planeswalker_ type.
+- **multiverse_id**: Optional integer.
+- **other_part**: Optional string.
+- **color_indicator**: Optional string. Used when a card's color can't be identified by a its mana cost.
+  - _White, Blue, Black, Red, Green_
 
 ###### EXAMPLE JSON
 ```json
