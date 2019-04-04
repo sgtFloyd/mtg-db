@@ -28,7 +28,7 @@ all_set_json = Mtg::Db.sets.to_json
 all_cards = Mtg::Db.cards
 all_card_json = Mtg::Db.cards.to_json
 
-urzas_destiny_cards = Mtg::Db.cards(:uds).to_json
+aether_revolt_cards = Mtg::Db.cards(:aer).to_json
 ```
 
 # JSON Format
