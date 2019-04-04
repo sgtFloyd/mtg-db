@@ -22,19 +22,12 @@ gem install mtg-db
 ```ruby
 require 'mtg-db'
 
-# TODO
 all_sets = Mtg::Db.sets
-
-# Returns a JSON array of all Magic: The Gathering sets. See [JSON Format] for details on sets' attributes.
 all_set_json = Mtg::Db.sets.to_json
 
-# TODO
 all_cards = Mtg::Db.cards
-
-# TODO
 all_card_json = Mtg::Db.cards.to_json
 
-# TODO cards are indexed by set code
 urzas_destiny_cards = Mtg::Db.cards(:uds).to_json
 ```
 
