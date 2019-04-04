@@ -39,14 +39,10 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
 [1]: https://mtg.gamepedia.com/Set
 
 ###### ATTRIBUTES
-- **name**: The set's name as listed on Wizards of the Coasts's **[Gatherer]** card database, with some exceptions made for consistency. See [`set_name_overrides.yml`](script/data/set_name_overrides.yml)
-  - Required string. _ex: "Aether Revolt" or "Time Spiral \"Timeshifted\""_
-- **release_date**: The calendar date of the set's release. In the case of some older sets, the closest known date is used.
-  - Required string. _ex: "January 20, 2017" or "October 1993"_
-- **block**: _Deprecated._ A group of sequential expansion<sup>[2]</sup> sets with shared mechanics or flavor. Also used to group supplemental<sup>[3]</sup> sets by product line.
-  - Optional string. _ex: "Kaladesh Block" or "From the Vault Series"_
-- **code**: The unique code used to identify the set. By default the expansion code from **[Gatherer]** is used, with exceptions defined in [`set_code_overrides.yml`](script/data/set_code_overrides.yml)
-  - Required string. _ex: "aer" or "10e"_
+- **name**: Required string. The set's name as listed on Wizards of the Coasts's **[Gatherer]** card database, with some exceptions made for consistency. See [set_name_overrides.yml](script/data/set_name_overrides.yml)
+- **release_date**: Required string. The calendar date of the set's release. In the case of some older sets, the closest known date is used.
+-  ~**block**~: _Deprecated._ Optional string. A group of sequential expansion<sup>[2]</sup> sets with shared mechanics or flavor. Also used to group supplemental<sup>[3]</sup> sets by product line.
+- **code**: Required string. The unique code used to identify the set. By default the expansion code from **[Gatherer]** is used, with exceptions defined in [set_code_overrides.yml](script/data/set_code_overrides.yml)
   - Often a three-character string. Notable exceptions are Masterpiece Series, Duel Decks, and Guild Kits with codes `mps_kld`, `dd3_dvd`, `gk1_golgari`, etc.
 
 [Gatherer]: http://gatherer.wizards.com/Pages/Default.aspx
