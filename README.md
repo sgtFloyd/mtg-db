@@ -73,7 +73,7 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
   -  _Basic, Legendary, World, Snow_
 - **subtypes**: Optional string array.
 - **rarity**: Required string.
-  - _Common, Uncommon, Rare, Special, Land_
+  - _Common, Uncommon, Rare, Mythic, Special, Land_
 - **mana_cost**: Optional string.
 - **converted_mana_cost**: Required integer.
 - **oracle_text**: Optional string array.
