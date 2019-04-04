@@ -45,7 +45,7 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
 
 [1]: https://mtg.gamepedia.com/Set
 
-#### Attributes
+###### ATTRIBUTES
 - **`name`**: The set's name as listed on Wizards of the Coasts's **[Gatherer]** card database, with some exceptions made for consistency. See [`set_name_overrides.yml`](script/data/set_name_overrides.yml)
   - Required string. _ex: "Aether Revolt" or "Time Spiral \"Timeshifted\""_
 - **`release_date`**: The calendar date of the set's release. In the case of some older sets, the closest known date is used.
@@ -61,7 +61,7 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
 [2]: https://mtg.gamepedia.com/Set#Expansions
 [3]: https://mtg.gamepedia.com/Set#Supplemental_sets
 
-#### Example JSON
+###### EXAMPLE JSON
 ```json
 {
   "name": "Aether Revolt",
@@ -72,6 +72,28 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
 ```
 
 ## Cards
+
+###### ATTRIBUTES
+- **`name`**:
+- **`set_name`**:
+- **`collector_num`**:
+- **`illustrator`**:
+- **`types`**:
+- **`supertypes`**:
+- **`subtypes`**:
+- **`rarity`**:
+- **`mana_cost`**:
+- **`converted_mana_cost`**:
+- **`oracle_text`**:
+- **`flavor_text`**:
+- **`power`**: only vehicles and creatures
+- **`toughness`**: only vehicles and creatures
+- **`loyalty`**: only planeswalkers
+- **`multiverse_id`**:
+- **`other_part`**:
+- **`color_indicator`**: Used when a card's color can't be identified by a its mana cost.
+
+###### EXAMPLE JSON
 ```json
 {
   "name": "Aerial Modification",
