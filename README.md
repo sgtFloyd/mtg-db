@@ -64,8 +64,8 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
 ###### ATTRIBUTES
 - **name**: Required string. The cards's name as listed on Wizards of the Coasts's **[Gatherer]** card database.
 - **set_name**: Required string. The _Magic_ set this card is from. Multiple sets may contain the same card though `collector_num`, `rarity`, `illustrator`, `flavor_text` and `multiverse_id` will differ between printings.
-- **collector_num**: Required string. This card's collector number. First used in _Exous_, collector numbers for earlier sets have been retroactively applied using the same ordering system. May contain letters or numbers.
-- **illustrator**: Optional string. 
+- **collector_num**: Required string. This card's collector number. First used in _Exous_, collector numbers for earlier sets have been generated using the same ordering system. May contain letters or numbers.
+- **illustrator**: Optional string.
 - **types**: Required string array.
   - _Artifact, Conspiracy, Creature, Enchantment, Instant, Land, Planeswalker, Sorcery, Tribal_
 - **supertypes**: Optional string array.
