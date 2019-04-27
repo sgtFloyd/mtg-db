@@ -52,10 +52,33 @@ class Gatherer
   # Get all multiverse_ids from a set's search result page.
   def self.scrape_multiverse_ids(set_name)
     set_name = translate_set_name(set_name)
-    response = get(url(for_set: set_name), "Cookie" => COOKIE)
-    multiverse_ids = response.css('.cardItem [id$="cardPrintings"] a').map do |link|
-      link.attr(:href)[/multiverseid=(\d+)/, 1].to_i
-    end.uniq - EXCLUDED_MULTIVERSE_IDS
+    multiverse_ids = []
+
+    # Combine gk1_* and gk2_* sets into Guild Kits
+    if set_name == "GRN Guild Kit"
+      gk1_sets = ["Guild Kit: Dimir", "Guild Kit: Izzet",
+        "Guild Kit: Golgari", "Guild Kit: Boros", "Guild Kit: Selesnya"]
+      gk1_sets.each do |gk1_set_name|
+        response = get(url(for_set: gk1_set_name), "Cookie" => COOKIE)
+        multiverse_ids.concat(response.css('.cardItem [id$="cardPrintings"] a').map do |link|
+          link.attr(:href)[/multiverseid=(\d+)/, 1].to_i
+        end.uniq - EXCLUDED_MULTIVERSE_IDS)
+      end
+    elsif set_name == "RNA Guild Kit"
+      gk2_sets = ["Guild Kit: Azorius", "Guild Kit: Orzhov",
+        "Guild Kit: Rakdos", "Guild Kit: Gruul", "Guild Kit: Simic"]
+      gk2_sets.each do |gk2_set_name|
+        response = get(url(for_set: gk2_set_name), "Cookie" => COOKIE)
+        multiverse_ids.concat(response.css('.cardItem [id$="cardPrintings"] a').map do |link|
+          link.attr(:href)[/multiverseid=(\d+)/, 1].to_i
+        end.uniq - EXCLUDED_MULTIVERSE_IDS)
+      end
+    else
+      response = get(url(for_set: set_name), "Cookie" => COOKIE)
+      multiverse_ids.concat(response.css('.cardItem [id$="cardPrintings"] a').map do |link|
+        link.attr(:href)[/multiverseid=(\d+)/, 1].to_i
+      end.uniq - EXCLUDED_MULTIVERSE_IDS)
+    end
 
     # s00#13 is missing from Gatherer. This will pull the data from CARD_JSON_OVERRIDES
     multiverse_ids << 's00#13' if set_name == 'Starter 2000'
@@ -64,6 +87,7 @@ class Gatherer
     if set_name == 'Magic: The Gathering—Conspiracy'
       multiverse_ids = [382222, 382253, 382289, 382315, 382360, 382393, 382411,
         382356, 382206, 382292, 382355, 382216, 382332] + multiverse_ids
+
     # CN2 1-12 (Conspiracies) missing from standard search, but multiverse_ids exist
     elsif set_name == 'Conspiracy: Take the Crown'
       multiverse_ids = [416758, 416759, 416760, 416761, 416762, 416763, 416764,
