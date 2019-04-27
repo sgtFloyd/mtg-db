@@ -2,7 +2,7 @@ require 'json'
 
 module Mtg
   module Db
-    VERSION = '1.4.1'
+    VERSION = '1.4.2'
     CARDS_PATH = File.expand_path('../../data/sets/%s.json', __FILE__)
     SETS_PATH = File.expand_path('../../data/sets.json', __FILE__)
 
