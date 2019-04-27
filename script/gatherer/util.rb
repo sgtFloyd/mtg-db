@@ -14,12 +14,12 @@ class Gatherer
   # Return the Gatherer URL for a given card or set.
   def self.url(for_card: nil, for_set: nil)
     if for_card
-      "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=#{for_card}"
+      "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=#{for_card}"
     elsif for_set
       # TODO: Append &action=advanced&special=true to return Conspiracies, Schemes, etc.
-      "http://gatherer.wizards.com/Pages/Search/Default.aspx?sort=cn+&output=compact&set=[%22#{for_set}%22]"
+      "https://gatherer.wizards.com/Pages/Search/Default.aspx?sort=cn+&output=compact&set=[%22#{for_set}%22]"
     else
-      "http://gatherer.wizards.com/Pages/Default.aspx"
+      "https://gatherer.wizards.com/Pages/Default.aspx"
     end
   end
 
