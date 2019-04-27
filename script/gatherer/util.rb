@@ -65,11 +65,6 @@ class Gatherer
         end.uniq - EXCLUDED_MULTIVERSE_IDS)
       end
     elsif set_name == "RNA Guild Kit"
-      #1-25
-      #26-50 Orzhov
-      #51-75 Rakdos
-      #76-100 Gruul
-      #101-125 Simic
       gk2_sets = ["Guild Kit: Azorius", "Guild Kit: Orzhov",
         "Guild Kit: Rakdos", "Guild Kit: Gruul", "Guild Kit: Simic"]
       gk2_sets.each do |gk2_set_name|
