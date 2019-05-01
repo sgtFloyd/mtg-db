@@ -97,6 +97,7 @@ class Gatherer
   end
 
   def self.translate_set_name(their_name)
+    # TODO: This invert is causing the GK1/GK2 bug.
     our_name = SET_NAME_OVERRIDES.invert[their_name] || their_name
     our_name = 'Commander 2014' if our_name == 'Commander 2014 Edition' # hardcoded so it works. lazy.
     our_name

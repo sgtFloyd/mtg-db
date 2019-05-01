@@ -21,7 +21,9 @@ class StandardCard
   end
 
   memo def parse_set_name
-    SET_NAME_OVERRIDES[labeled_row(:set)] || labeled_row(:set)
+    retval = SET_NAME_OVERRIDES[labeled_row(:set)] || labeled_row(:set)
+    (require 'pry'; binding.pry) if SET_NAME_OVERRIDES.exclude?(labeled_row(:set))
+    return retval
   end
 
   memo def parse_mana_cost
