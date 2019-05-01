@@ -8,7 +8,7 @@ A JSON database of _Magic: The Gathering_ cards and sets.
 Include in your [Gemfile](https://bundler.io/gemfile.html)
 ```ruby
 source 'https://rubygems.org'
-gem 'mtg-db', '>= 1.5.0'
+gem 'mtg-db', '>= 1.5.1'
 ```
 or install from [Rubygems](https://rubygems.org/)
 ```bash
