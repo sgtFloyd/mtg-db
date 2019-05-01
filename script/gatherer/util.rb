@@ -97,6 +97,8 @@ class Gatherer
   end
 
   def self.translate_set_name(their_name)
+    # Multiple sets map to GRN/RNA Guild Kit in SET_NAME_OVERRIDES. Handle that case separately.
+    return their_name if (their_name == "GRN Guild Kit" || their_name == "RNA Guild Kit")
     our_name = SET_NAME_OVERRIDES.invert[their_name] || their_name
     our_name = 'Commander 2014' if our_name == 'Commander 2014 Edition' # hardcoded so it works. lazy.
     our_name
