@@ -9,8 +9,8 @@ class GathererSet
   # Dump each individual card for a given set.
   def card_json
     multiverse_ids = Gatherer.scrape_multiverse_ids(name)
-    # Worker.distribute(multiverse_ids, GathererCard, :dump).flatten.compact # asynchronous
-    multiverse_ids.map{|id| GathererCard.dump(id)}.flatten.compact # synchronous
+    Worker.distribute(multiverse_ids, GathererCard, :dump).flatten.compact # asynchronous
+    # multiverse_ids.map{|id| GathererCard.dump(id)}.flatten.compact # synchronous
   end
 
   def as_json(options={})
