@@ -26,11 +26,17 @@ class GathererSet
     set_names = Gatherer.scrape_set_names
     new_set_json = Worker.distribute(set_names, GathererSet, :dump)
 
+    # Override Guild Kits gk1_* and gk2_* with merged gk1 and gk2, respectively
+    new_set_json << { 'name' => 'GRN Guild Kit', 'code' => 'gk1' }
+    new_set_json << { 'name' => 'RNA Guild Kit', 'code' => 'gk2' }
+
     # Merge newly-dumped set data into existing sets.json
     old_set_json = Hash[read(SET_JSON_FILE_PATH).map{|set| [set['name'], set]}]
     new_set_json.each do |set|
+      next if set['code'].include?('gk1_') || set['code'].include?('gk2_') # GK1 and GK2 are used instead
       old_set_json[set['name']] = (old_set_json[set['name']] || {}).merge(set)
     end
+
     old_set_json.values.sort_by{|set| set['name']}
   end
 end
