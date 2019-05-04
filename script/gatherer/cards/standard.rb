@@ -9,7 +9,7 @@ class StandardCard
 
   memo def parse_name
     name_str = self.page.css('[id$="subtitleDisplay"]').text.strip.gsub("Æ", "Ae")
-    SUBTITLE_DISPLAY_OVERRIDES[self.multiverse_id] || name_str
+    CARD_NAME_OVERRIDES[self.multiverse_id] || name_str
   end
 
   memo def parse_collector_num
@@ -116,7 +116,7 @@ class StandardCard
   # replace the whole thing with `containers.first` for StandardCards?
   def container
     containers.find do |container|
-      subtitle_display = SUBTITLE_DISPLAY_OVERRIDES[self.multiverse_id] ||
+      subtitle_display = CARD_NAME_OVERRIDES[self.multiverse_id] ||
                           self.page.css('[id$="subtitleDisplay"]').text.strip
       container.css('[id$="nameRow"] .value').text.strip == subtitle_display
     end || containers.first
