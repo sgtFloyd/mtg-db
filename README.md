@@ -70,7 +70,7 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
 - **types**<sup>[3]</sup> Required string array of the card's types. Possible values are _Artifact, Conspiracy, Creature, Enchantment, Instant, Land, Planeswalker, Sorcery,_ and _Tribal_.
 - **supertypes**<sup>[4]</sup> Optional string array of the card's supertypes. Possible values are _Basic, Legendary, World,_ and _Snow_.
 - **subtypes**<sup>[5]</sup> Optional string array of the card's subtypes.
-- **rarity**<sup>[6]</sup> Required string. Rarity defines the scarcity of cards in boosters and indicates the complexity, but not the quality of the card. Possible values are _Common, Uncommon, Rare, Mythic, Special,_ and _Land_.
+- **rarity**<sup>[6]</sup> Required string. Rarity defines the scarcity of cards in boosters and indicates the complexity of the card. Possible values are _Common, Uncommon, Rare, Mythic, Special,_ and _Land_.
 - **mana_cost**<sup>[7]</sup> Optional string. The mana payment required to cast a spell. Typically determines a card's color(s).
 - **converted_mana_cost** <sup>[8]</sup> Required integer. The total amount of mana in a mana cost, regardless of color.
 - **oracle_text**<sup>[9]</sup> Optional string array of the card's up-to-date rules text. Each element of the array represents one line of rules text. Four times a year the Oracle is updated to incorporate rules changes or functional changes to cards that do not work as intended.
