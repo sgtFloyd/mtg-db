@@ -13,7 +13,7 @@ FLAVOR_TEXT_FILE_PATH = File.expand_path('../../data/flavor_text_overrides.yml',
   collector_num_overrides
   flavor_text_overrides
   illustrator_overrides
-  subtitle_display_overrides
+  card_name_overrides
   split_card_names
   partner_card_names
   mana_cost_symbols
