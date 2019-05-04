@@ -7,7 +7,7 @@ A JSON database of _Magic: The Gathering_ cards.
 Include in your [Gemfile]
 ```ruby
 source 'https://rubygems.org'
-gem 'mtg-db', '>= 1.5.2'
+gem 'mtg-db', '>= 2.0.0'
 ```
 or install from [Rubygems]
 ```bash
@@ -39,10 +39,9 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
 [1]: https://mtg.gamepedia.com/Set
 
 ###### ATTRIBUTES
-- **name**: Required string. The set's name as listed on Wizards of the Coasts's **[Gatherer]** card database.
-- **release_date**: Required string. The calendar date of the set's release. In the case of some older sets, the closest known date is used.
--  ~**block**~: _Deprecated._ Optional string.
-- **code**: Required string. The unique code used to identify the set. Often a three-character string. Notable exceptions are Masterpiece sets and Duel Decks with codes `mps_kld`, `dd3_dvd`, etc.
+- **name** Required string. The set's name as listed on Wizards of the Coasts's **[Gatherer]** card database.
+- **release_date** Required string. The calendar date of the set's release. In the case of some older sets, the closest known date is used.
+- **code** Required string. The unique code used to identify the set. Often a three-character string. Notable exceptions are Masterpiece sets and Duel Decks with codes `mps_kld`, `dd3_dvd`, etc.
 
 [Gatherer]: http://gatherer.wizards.com/Pages/Default.aspx
 
@@ -51,7 +50,6 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
 {
   "name": "Aether Revolt",
   "release_date": "January 20, 2017",
-  "block": "Kaladesh Block",
   "code": "aer"
 }
 ```
