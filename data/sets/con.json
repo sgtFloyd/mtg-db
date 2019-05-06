@@ -25,7 +25,8 @@
     "loyalty": null,
     "multiverse_id": 153946,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Asha's Favor",
@@ -52,7 +53,8 @@
     "loyalty": null,
     "multiverse_id": 150826,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Aven Squire",
@@ -80,7 +82,8 @@
     "loyalty": null,
     "multiverse_id": 184992,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Aven Trailblazer",
@@ -108,7 +111,25 @@
     "loyalty": null,
     "multiverse_id": 180278,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "A number of nonbasic lands have basic land types. Domain abilities don’t count the number of lands you control — they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you’ll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Aven Trailblazer’s second ability is a “characteristic-defining ability.” It applies at all times in all zones."
+      }
+    ]
   },
   {
     "name": "Celestial Purge",
@@ -132,7 +153,13 @@
     "loyalty": null,
     "multiverse_id": 183055,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "Lands are colorless (even if their frames have some colored elements to them). You can’t target a Swamp, a Mountain, or any other land with Celestial Purge (unless some other effect has turned that land black or red)."
+      }
+    ]
   },
   {
     "name": "Court Homunculus",
@@ -159,7 +186,8 @@
     "loyalty": null,
     "multiverse_id": 182607,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Darklit Gargoyle",
@@ -187,7 +215,8 @@
     "loyalty": null,
     "multiverse_id": 180334,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Gleam of Resistance",
@@ -212,7 +241,25 @@
     "loyalty": null,
     "multiverse_id": 179505,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Unlike the normal cycling ability, basic landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a basic land card. You don’t choose the type of basic land card you’ll find until you’re performing the search. After you choose a basic land card in your library, you reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being basic landcycled. Any ability that stops a cycling ability from being activated also stops a basic landcycling ability from being activated."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with basic landcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You can choose not to find a basic land card, even if there is one in your library."
+      }
+    ]
   },
   {
     "name": "Lapse of Certainty",
@@ -236,7 +283,8 @@
     "loyalty": null,
     "multiverse_id": 175026,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mark of Asylum",
@@ -260,7 +308,13 @@
     "loyalty": null,
     "multiverse_id": 186615,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "“Noncombat damage” is damage dealt as the result of a spell or ability. (In unusual cases involving a card like Words of War, noncombat damage can also be dealt as the result of a turn-based action.)"
+      }
+    ]
   },
   {
     "name": "Martial Coup",
@@ -284,7 +338,21 @@
     "loyalty": null,
     "multiverse_id": 178560,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Martial Coup checks the number you chose for X, not the amount of mana you actually spent."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You do what the spell says in order. If X is 5 or more, you’ll put the Soldier tokens onto the battlefield, then you’ll destroy all other creatures."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "No one can cast spells or activate abilities between the time the Soldier tokens are put onto the battlefield and the time all other creatures are destroyed. For example, you can’t sacrifice one of those Soldier tokens to regenerate a Skeletal Kathari."
+      }
+    ]
   },
   {
     "name": "Mirror-Sigil Sergeant",
@@ -312,7 +380,29 @@
     "loyalty": null,
     "multiverse_id": 158598,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "The “intervening ‘if’ clause” means that (1) the ability won’t trigger at all unless you control a permanent of the specified color, and (2) the ability will do nothing unless you control a permanent of the specified color at the time it resolves."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Normally, when a token is created by this ability, it will simply be a Mirror-Sigil Sergeant, so it’ll also have the token-creating ability. (See the other ruling for weird exceptions.) At the beginning of your next upkeep, if you still control the original Sergeant, the token copy, and a blue permanent, you’ll get two more token copies; the turn after that you’ll get four; then eight; and so on."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Here’s the detailed version of what happens. As the token is created, it checks the printed values of the Mirror-Sigil Sergeant it’s copying — or, if the Mirror-Sigil Sergeant whose ability triggered was itself a token, the original characteristics of that token as stated by the effect that put it onto the battlefield — as well as any copy effects that have been applied to it. It won’t copy counters on the Mirror-Sigil Sergeant, nor will it copy other effects that have changed Mirror-Sigil Sergeant’s power, toughness, types, color, or so on."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If Mirror-Sigil Sergeant has left the battlefield by the time its triggered ability resolves, you’ll still put a token onto the battlefield. That token has the copiable values of the characteristics of Mirror-Sigil Sergeant as it last existed on the battlefield."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Here are the weird exceptions. If any copy effects have affected the Mirror-Sigil Sergeant whose ability triggered, they're taken into account when the token is created. For example:\r\n    -- If Mirror-Sigil Sergeant's ability triggers, then Mirror-Sigil Sergeant temporarily becomes a copy of another creature before its ability resolves (due to Mirrorweave, perhaps), the token will be a copy of whatever creature the Mirror-Sigil Sergeant is currently a copy of. After the turn ends, the Mirrorweaved Mirror-Sigil Sergeant reverts back to what it was, but the token will stay as it is.\r\n    -- If the copy ability of a creature (such as Cemetery Puca, perhaps) makes it become a copy of Mirror-Sigil Sergeant and gain another ability, the token created by this creature at the beginning of your upkeep will be a Mirror-Sigil Sergeant with that additional ability."
+      }
+    ]
   },
   {
     "name": "Nacatl Hunt-Pride",
@@ -341,7 +431,17 @@
     "loyalty": null,
     "multiverse_id": 138571,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "If either ability is activated after blockers have been declared, it won’t cause those blocks to change."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If you attack with Nacatl Hunt-Pride, you get the chance to activate one of its abilities before blockers are declared."
+      }
+    ]
   },
   {
     "name": "Paragon of the Amesha",
@@ -369,7 +469,21 @@
     "loyalty": null,
     "multiverse_id": 179878,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "When Paragon of the Amesha’s activated ability resolves, Paragon of the Amesha will gain flying and lifelink in addition to its other abilities. However, becoming an Angel will make it lose all other creature types. It will no longer be a Human or a Knight."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If Paragon of the Amesha gains flying after blockers have been declared, it won’t cause those blocks to change."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "You can activate Paragon of the Amesha’s ability more than once during a turn. The second time it resolves, it will get another +3/+3 and gain another instance of lifelink. However, multiple instances of lifelink on the same creature are redundant so you won’t gain extra life from the new one."
+      }
+    ]
   },
   {
     "name": "Path to Exile",
@@ -393,7 +507,17 @@
     "loyalty": null,
     "multiverse_id": 179235,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "If the targeted creature becomes an illegal target by the time Path to Exile would resolve, the entire spell doesn’t resolve. The creature’s controller won’t search for a basic land card."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "The controller of the exiled creature isn’t required to search their library for a basic land. If that player doesn’t, the player won’t shuffle their library."
+      }
+    ]
   },
   {
     "name": "Rhox Meditant",
@@ -420,7 +544,13 @@
     "loyalty": null,
     "multiverse_id": 159634,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "The “intervening ‘if’ clause” means that (1) the ability won’t trigger at all unless you control a permanent of the specified color, and (2) the ability will do nothing unless you control a permanent of the specified color at the time it resolves."
+      }
+    ]
   },
   {
     "name": "Scepter of Dominance",
@@ -444,7 +574,8 @@
     "loyalty": null,
     "multiverse_id": 174792,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sigil of the Empty Throne",
@@ -468,7 +599,21 @@
     "loyalty": null,
     "multiverse_id": 180271,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "The triggered ability will resolve before the enchantment spell that caused it to trigger."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "When you cast an Aura spell, you have to choose a target for it before this ability puts an Angel token onto the battlefield. In other words, you can’t play an Aura spell intending to enchant the Angel that will be created as a result."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Casting Sigil of the Empty Throne won’t trigger its own ability. It has to be on the battlefield for its ability to work."
+      }
+    ]
   },
   {
     "name": "Valiant Guard",
@@ -493,7 +638,8 @@
     "loyalty": null,
     "multiverse_id": 184984,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wall of Reverence",
@@ -521,7 +667,13 @@
     "loyalty": null,
     "multiverse_id": 189874,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "If an effect changes a creature’s power “until end of turn,” it will still have the modified power during your end step."
+      }
+    ]
   },
   {
     "name": "Brackwater Elemental",
@@ -548,7 +700,8 @@
     "loyalty": null,
     "multiverse_id": 180147,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Constricting Tendrils",
@@ -573,7 +726,13 @@
     "loyalty": null,
     "multiverse_id": 180272,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      }
+    ]
   },
   {
     "name": "Controlled Instincts",
@@ -600,7 +759,17 @@
     "loyalty": null,
     "multiverse_id": 183053,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Controlled Instincts may target and may enchant an untapped creature."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Controlled Instincts can enchant only a creature that’s red or green. If at any time the enchanted creature is neither red nor green, Controlled Instincts is put into its owner’s graveyard as a state-based action."
+      }
+    ]
   },
   {
     "name": "Cumber Stone",
@@ -624,7 +793,8 @@
     "loyalty": null,
     "multiverse_id": 180322,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Esperzoa",
@@ -652,7 +822,13 @@
     "loyalty": null,
     "multiverse_id": 180158,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "When Esperzoa’s ability resolves, if you control no other artifacts, you’ll have to return Esperzoa itself."
+      }
+    ]
   },
   {
     "name": "Ethersworn Adjudicator",
@@ -682,7 +858,8 @@
     "loyalty": null,
     "multiverse_id": 175035,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Faerie Mechanist",
@@ -711,7 +888,8 @@
     "loyalty": null,
     "multiverse_id": 182608,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Frontline Sage",
@@ -739,7 +917,8 @@
     "loyalty": null,
     "multiverse_id": 184993,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Grixis Illusionist",
@@ -766,7 +945,17 @@
     "loyalty": null,
     "multiverse_id": 177927,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "You choose a basic land type as the ability resolves."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "The affected land loses its existing land types and any abilities printed on it. It becomes the chosen basic land type and now has the ability to tap to add one mana of the appropriate color to your mana pool. Grixis Illusionist’s ability doesn’t change the affected land’s name or whether it’s legendary or basic."
+      }
+    ]
   },
   {
     "name": "Inkwell Leviathan",
@@ -795,7 +984,8 @@
     "loyalty": null,
     "multiverse_id": 154081,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Master Transmuter",
@@ -823,7 +1013,21 @@
     "loyalty": null,
     "multiverse_id": 179252,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Returning an artifact you control to its owner’s hand is part of the cost of Master Transmuter’s activated ability. Paying a cost can’t be responded to (with Naturalize, for example)."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Since Master Transmuter is an artifact, you may return Master Transmuter itself to your hand. If you do, the rest of the ability will still work normally."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "The artifact card you put onto the battlefield when the ability resolves may be the same card that you returned to your hand when you paid the cost. If so, it returns to the battlefield as a new object with no relation to its previous existence."
+      }
+    ]
   },
   {
     "name": "Parasitic Strix",
@@ -851,7 +1055,13 @@
     "loyalty": null,
     "multiverse_id": 175021,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "The “intervening ‘if’ clause” means that (1) the ability won’t trigger at all unless you control a permanent of the specified color, and (2) the ability will do nothing unless you control a permanent of the specified color at the time it resolves."
+      }
+    ]
   },
   {
     "name": "Scepter of Insight",
@@ -875,7 +1085,8 @@
     "loyalty": null,
     "multiverse_id": 184989,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Scornful Aether-Lich",
@@ -903,7 +1114,8 @@
     "loyalty": null,
     "multiverse_id": 186328,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Telemin Performance",
@@ -927,7 +1139,13 @@
     "loyalty": null,
     "multiverse_id": 189085,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "If there are no creature cards in the targeted opponent’s library, that player will put their entire library into their graveyard."
+      }
+    ]
   },
   {
     "name": "Traumatic Visions",
@@ -952,7 +1170,25 @@
     "loyalty": null,
     "multiverse_id": 179508,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Unlike the normal cycling ability, basic landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a basic land card. You don’t choose the type of basic land card you’ll find until you’re performing the search. After you choose a basic land card in your library, you reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being basic landcycled. Any ability that stops a cycling ability from being activated also stops a basic landcycling ability from being activated."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with basic landcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You can choose not to find a basic land card, even if there is one in your library."
+      }
+    ]
   },
   {
     "name": "Unsummon",
@@ -976,7 +1212,8 @@
     "loyalty": null,
     "multiverse_id": 177932,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "View from Above",
@@ -1000,7 +1237,21 @@
     "loyalty": null,
     "multiverse_id": 183058,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "This checks the colors of permanents you control as it resolves."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If you control a white permanent, View from Above moves from the stack to your hand as part of its resolution. It never hits the graveyard. If you don’t control a white permanent, View from Above is put into the graveyard from the stack as normal."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If View from Above doesn’t resolve for any reason (for example, if its target has become illegal), none of its effects happen. It will be put into your graveyard as normal."
+      }
+    ]
   },
   {
     "name": "Worldly Counsel",
@@ -1024,7 +1275,25 @@
     "loyalty": null,
     "multiverse_id": 142298,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You choose the order on the bottom of your library."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "A number of nonbasic lands have basic land types. Domain abilities don’t count the number of lands you control — they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you’ll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+      }
+    ]
   },
   {
     "name": "Absorb Vis",
@@ -1049,7 +1318,25 @@
     "loyalty": null,
     "multiverse_id": 179513,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Unlike the normal cycling ability, basic landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a basic land card. You don’t choose the type of basic land card you’ll find until you’re performing the search. After you choose a basic land card in your library, you reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being basic landcycled. Any ability that stops a cycling ability from being activated also stops a basic landcycling ability from being activated."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with basic landcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You can choose not to find a basic land card, even if there is one in your library."
+      }
+    ]
   },
   {
     "name": "Corrupted Roots",
@@ -1076,7 +1363,17 @@
     "loyalty": null,
     "multiverse_id": 183054,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Corrupted Roots can enchant only a Forest or a Plains. It checks the enchanted land’s subtypes, not its name. If at any time the enchanted land is neither a Forest nor a Plains (due to Unstable Frontier’s ability, perhaps), Corrupted Roots is put into its owner’s graveyard as a state-based action."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Corrupted Roots doesn’t care why the enchanted land becomes tapped. If that land changes from being untapped to being tapped for any reason, the ability will trigger."
+      }
+    ]
   },
   {
     "name": "Drag Down",
@@ -1100,7 +1397,21 @@
     "loyalty": null,
     "multiverse_id": 179239,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "A number of nonbasic lands have basic land types. Domain abilities don’t count the number of lands you control — they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you’ll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+      }
+    ]
   },
   {
     "name": "Dreadwing",
@@ -1126,7 +1437,8 @@
     "loyalty": null,
     "multiverse_id": 159629,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Extractor Demon",
@@ -1154,7 +1466,17 @@
     "loyalty": null,
     "multiverse_id": 189082,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "If Extractor Demon and another creature leave the battlefield at the same time, Extractor Demon’s triggered ability will trigger."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "You can target any player with Extractor Demon’s triggered ability. The target doesn’t have to be the controller of the creature that left the battlefield."
+      }
+    ]
   },
   {
     "name": "Fleshformer",
@@ -1181,7 +1503,17 @@
     "loyalty": null,
     "multiverse_id": 179884,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Fleshformer’s ability has only one target: the creature. If that creature becomes an illegal target by the time Fleshformer’s ability would resolve, the entire ability doesn’t resolve. Fleshformer won’t get +2/+2 and won’t gain fear."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Fleshformer can target itself with its ability. The result is that Fleshformer gains fear, since the +2/+2 and -2/-2 parts of the effect will balance each other out. (Fleshformer’s power and toughness will each momentarily go up by 2, in case anything cares about that.)"
+      }
+    ]
   },
   {
     "name": "Grixis Slavedriver",
@@ -1209,7 +1541,8 @@
     "loyalty": null,
     "multiverse_id": 179804,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Infectious Horror",
@@ -1236,7 +1569,13 @@
     "loyalty": null,
     "multiverse_id": 157732,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "In a Two-Headed Giant game, Infectious Horror’s ability causes the opposing team to lose 4 life."
+      }
+    ]
   },
   {
     "name": "Kederekt Parasite",
@@ -1262,7 +1601,13 @@
     "loyalty": null,
     "multiverse_id": 189080,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "The “intervening ‘if’ clause” means that (1) the ability won’t trigger at all unless you control a permanent of the specified color, and (2) the ability will do nothing unless you control a permanent of the specified color at the time it resolves."
+      }
+    ]
   },
   {
     "name": "Nyxathid",
@@ -1289,7 +1634,25 @@
     "loyalty": null,
     "multiverse_id": 186616,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Nyxathid tracks the hand size of the chosen player even if that player ceases to be an opponent of its controller. (This could happen if that player gains control of Nyxathid, for example.)"
+      },
+      {
+        "date": "2/1/2009",
+        "text": "In a multiplayer game, if the chosen player leaves the game, Nyxathid’s second ability simply won’t do anything anymore."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Nyxathid’s two abilities are linked: The second one refers only to the player chosen by the first one. If another creature becomes a copy of Nyxathid (due to Mirrorweave, for example), the second ability won’t do anything because a player was never chosen as a result of the first ability. This is true even if a different ability allowed a player to be chosen as that creature entered the battlefield."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If a spell or ability causes the chosen player to draw cards and then discard cards, Nyxathid’s power and toughness changes accordingly as that spell or ability is resolving. For example, if the chosen player has five cards in hand and a spell causes that player to draw two cards then discard two cards, Nyxathid will start out as 2/2, then become 1/1, 0/0, and finally 2/2. This is because cards are always drawn one at a time, but multiple cards may be discarded at once. Although Nyxathid momentarily had 0 toughness while that spell was resolving, it isn’t put into its owner’s graveyard as a state-based action because state-based actions aren’t checked until the spell has finished resolving."
+      }
+    ]
   },
   {
     "name": "Pestilent Kathari",
@@ -1318,7 +1681,8 @@
     "loyalty": null,
     "multiverse_id": 179518,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rotting Rats",
@@ -1346,7 +1710,13 @@
     "loyalty": null,
     "multiverse_id": 150833,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "When Rotting Rats’s enters-the-battlefield ability resolves, first the player whose turn it is chooses a card to discard, then each other player in turn order does the same, then all cards are discarded at the same time. No one sees what the other players are discarding before deciding which card to discard."
+      }
+    ]
   },
   {
     "name": "Salvage Slasher",
@@ -1374,7 +1744,8 @@
     "loyalty": null,
     "multiverse_id": 179254,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Scepter of Fugue",
@@ -1398,7 +1769,8 @@
     "loyalty": null,
     "multiverse_id": 189084,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sedraxis Alchemist",
@@ -1425,7 +1797,17 @@
     "loyalty": null,
     "multiverse_id": 182306,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "The “intervening ‘if’ clause” means that (1) the ability won’t trigger at all unless you control a permanent of the specified color, and (2) the ability will do nothing unless you control a permanent of the specified color at the time it resolves."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "This ability isn’t optional. When Sedraxis Alchemist enters the battlefield, if you control a blue permanent and no other player controls a nonland permanent, you’ll have to target a nonland permanent you control."
+      }
+    ]
   },
   {
     "name": "Voices from the Void",
@@ -1449,7 +1831,21 @@
     "loyalty": null,
     "multiverse_id": 150847,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "A number of nonbasic lands have basic land types. Domain abilities don’t count the number of lands you control — they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you’ll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+      }
+    ]
   },
   {
     "name": "Wretched Banquet",
@@ -1473,7 +1869,13 @@
     "loyalty": null,
     "multiverse_id": 174907,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Wretched Banquet may target any creature. The creature’s power is checked only as Wretched Banquet resolves. If another creature has less power than the targeted creature at that time, Wretched Banquet does nothing."
+      }
+    ]
   },
   {
     "name": "Yoke of the Damned",
@@ -1500,7 +1902,8 @@
     "loyalty": null,
     "multiverse_id": 179891,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Banefire",
@@ -1525,7 +1928,21 @@
     "loyalty": null,
     "multiverse_id": 186613,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "To determine whether it can be countered and its damage can be prevented, Banefire checks the number you chose for X, not the amount of mana you actually spent or the amount of damage it will actually deal."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Banefire can be targeted by spells that try to counter it regardless of what the value of X is. If X is 5 or more, those spells will still resolve, but the part of their effect that would counter Banefire won’t do anything. Any other effects those spells have will work as normal."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If its target is illegal by the time Banefire tries to resolve, the spell isn’t countered, but it doesn’t resolve. The target won’t be dealt damage."
+      }
+    ]
   },
   {
     "name": "Bloodhall Ooze",
@@ -1552,7 +1969,17 @@
     "loyalty": null,
     "multiverse_id": 159610,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "The “intervening ‘if’ clause” means that (1) the ability won’t trigger at all unless you control a permanent of the specified color, and (2) the ability will do nothing unless you control a permanent of the specified color at the time it resolves."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "A permanent that’s both black and green will allow both abilities to trigger (as will separate black permanents and green permanents, of course)."
+      }
+    ]
   },
   {
     "name": "Canyon Minotaur",
@@ -1577,7 +2004,8 @@
     "loyalty": null,
     "multiverse_id": 184994,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dark Temper",
@@ -1601,7 +2029,17 @@
     "loyalty": null,
     "multiverse_id": 185143,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "This checks the colors of permanents you control as it resolves."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Dark Temper has a self-replacement effect, which applies before other prevention or replacement effects would. If you control a black permanent as Dark Temper resolves, it doesn’t deal damage at all (so damage prevention or redirection effects would have no effect); it simply destroys the targeted creature."
+      }
+    ]
   },
   {
     "name": "Dragonsoul Knight",
@@ -1629,7 +2067,21 @@
     "loyalty": null,
     "multiverse_id": 186392,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "When Dragonsoul Knight’s activated ability resolves, Dragonsoul Knight will gain flying and trample in addition to its other abilities. However, becoming a Dragon will make it lose all other creature types. It will no longer be a Human or a Knight."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If Dragonsoul Knight gains flying after blockers have been declared, it won’t cause those blocks to change."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You can activate Dragonsoul Knight’s ability more than once during a turn. The second time it resolves, it will probably have no visible effect other than giving Dragonsoul Knight another +5/+3."
+      }
+    ]
   },
   {
     "name": "Fiery Fall",
@@ -1654,7 +2106,25 @@
     "loyalty": null,
     "multiverse_id": 179519,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Unlike the normal cycling ability, basic landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a basic land card. You don’t choose the type of basic land card you’ll find until you’re performing the search. After you choose a basic land card in your library, you reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being basic landcycled. Any ability that stops a cycling ability from being activated also stops a basic landcycling ability from being activated."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with basic landcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You can choose not to find a basic land card, even if there is one in your library."
+      }
+    ]
   },
   {
     "name": "Goblin Razerunners",
@@ -1682,7 +2152,17 @@
     "loyalty": null,
     "multiverse_id": 179487,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "You don’t count how many +1/+1 counters are on Goblin Razerunners until its triggered ability resolves."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If Goblin Razerunners leaves the battlefield after its ability triggers but before it resolves, the amount of damage it deals is equal to the number of +1/+1 counters that were on it as it last existed on the battlefield."
+      }
+    ]
   },
   {
     "name": "Hellspark Elemental",
@@ -1710,7 +2190,8 @@
     "loyalty": null,
     "multiverse_id": 174799,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ignite Disorder",
@@ -1734,7 +2215,21 @@
     "loyalty": null,
     "multiverse_id": 183056,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "The number of targets must be at least 1 and at most 3."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You divide the damage as you cast Ignite Disorder, not as it resolves. Each target must be assigned at least 1 damage."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The number of targets chosen for Ignite Disorder must be at least 1 and at most 3. You divide the damage as you cast the spell, not as it resolves. Each target must be assigned at least 1 damage."
+      }
+    ]
   },
   {
     "name": "Kranioceros",
@@ -1760,7 +2255,8 @@
     "loyalty": null,
     "multiverse_id": 177940,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Maniacal Rage",
@@ -1787,7 +2283,8 @@
     "loyalty": null,
     "multiverse_id": 182609,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Molten Frame",
@@ -1812,7 +2309,17 @@
     "loyalty": null,
     "multiverse_id": 184988,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Any permanent that’s both an artifact and a creature is a legal target for Molten Frame."
+      }
+    ]
   },
   {
     "name": "Quenchable Fire",
@@ -1836,7 +2343,17 @@
     "loyalty": null,
     "multiverse_id": 179440,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "After Quenchable Fire resolves, the targeted player becomes able to perform a special action of paying {U}. This action may be performed any time the player has priority, and it doesn’t use the stack. It may be performed only once, and only before your next upkeep begins. If the player has performed the action by then, the “deal an additional 3 damage” ability won’t trigger. Otherwise, it will. If it triggers, the player can’t stop it by paying {U}."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Quenchable Fire’s delayed triggered ability (and the special action of paying {U}) will affect the player who was targeted by the spell, even if the original 3 damage is prevented or redirected to a different permanent or player."
+      }
+    ]
   },
   {
     "name": "Rakka Mar",
@@ -1866,7 +2383,8 @@
     "loyalty": null,
     "multiverse_id": 185810,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Toxic Iguanar",
@@ -1892,7 +2410,17 @@
     "loyalty": null,
     "multiverse_id": 170956,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "As long as at least one permanent you control is the specified color, the ability will “work” and grant this creature the bonus. Otherwise, it won’t have the bonus."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Whether Toxic Iguanar has deathtouch matters only when it deals damage (that is, at the point when its combat damage resolves, or at the point when a spell or ability that causes it to deal damage resolves). For example, if your only green permanent is a creature that receives lethal damage at the same time Toxic Iguanar deals damage to a creature, the deathtouch ability will still apply and the creature Toxic Iguanar dealt damage to will be destroyed."
+      }
+    ]
   },
   {
     "name": "Viashino Slaughtermaster",
@@ -1920,7 +2448,8 @@
     "loyalty": null,
     "multiverse_id": 179245,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Volcanic Fallout",
@@ -1945,7 +2474,13 @@
     "loyalty": null,
     "multiverse_id": 180274,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Volcanic Fallout can be targeted by spells that try to counter it (such as Countersquall). Those spells will still resolve, but the part of their effect that would counter Volcanic Fallout won’t do anything. Any other effects those spells have will work as normal."
+      }
+    ]
   },
   {
     "name": "Voracious Dragon",
@@ -1973,7 +2508,17 @@
     "loyalty": null,
     "multiverse_id": 186329,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Voracious Dragon can devour any type of creatures, not just Goblins."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "“The number of Goblins it devoured” means “The number of Goblins sacrificed as a result of its devour ability as it entered the battlefield.” For each creature that Voracious Dragon devoured, this ability checks its creature type as it last existed on the battlefield to see if it was a Goblin at that time."
+      }
+    ]
   },
   {
     "name": "Wandering Goblins",
@@ -2000,7 +2545,21 @@
     "loyalty": null,
     "multiverse_id": 180279,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "A number of nonbasic lands have basic land types. Domain abilities don’t count the number of lands you control — they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you’ll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+      }
+    ]
   },
   {
     "name": "Worldheart Phoenix",
@@ -2027,7 +2586,21 @@
     "loyalty": null,
     "multiverse_id": 175401,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Casting Worldheart Phoenix from your graveyard by paying its alternative cost doesn’t change when you can cast it. You can cast it only at the normal time you could cast a creature spell."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If you cast Worldheart Phoenix this way, it is a spell and can be countered."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "As soon as you start to cast Worldheart Phoenix from your graveyard, the card moves onto the stack. At that point, it’s too late for an opponent to prevent you from casting it by removing it from your graveyard."
+      }
+    ]
   },
   {
     "name": "Beacon Behemoth",
@@ -2053,7 +2626,8 @@
     "loyalty": null,
     "multiverse_id": 177931,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cliffrunner Behemoth",
@@ -2081,7 +2655,21 @@
     "loyalty": null,
     "multiverse_id": 159612,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "As long as at least one permanent you control is the specified color, the ability will “work” and grant this creature the bonus. Otherwise, it won’t have the bonus."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Whether Cliffrunner Behemoth has haste matters only when attackers are declared. Once it’s been declared as an attacker, it doesn’t matter if it loses haste."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Whether Cliffrunner Behemoth has lifelink matters only when it deals damage (that is, at the point when its combat damage resolves, or at the point when a spell or ability that causes it to deal damage resolves). For example, if your only white permanent is a creature that receives lethal damage at the same time Cliffrunner Behemoth deals damage, the lifelink ability will still apply and you’ll gain life."
+      }
+    ]
   },
   {
     "name": "Cylian Sunsinger",
@@ -2108,7 +2696,17 @@
     "loyalty": null,
     "multiverse_id": 189081,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "When the ability resolves, it gives the +3/+3 bonus to the source of the ability and each other creature that shares a name with that source, even if that source isn’t actually named Cylian Sunsinger. This could happen if Skill Borrower gains this ability, or if Cylian Sunsinger’s name is changed (due to Mirrorweave, perhaps) before the ability resolves."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If Cylian Sunsinger has left the battlefield by the time its ability resolves, its ability will affect each creature whose name is the same as the name Cylian Sunsinger had as it last existed on the battlefield."
+      }
+    ]
   },
   {
     "name": "Ember Weaver",
@@ -2135,7 +2733,17 @@
     "loyalty": null,
     "multiverse_id": 184990,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "As long as at least one permanent you control is the specified color, the ability will “work” and grant this creature the bonus. Otherwise, it won’t have the bonus."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Whether Ember Weaver has first strike matters only at the point that the normal combat damage step would begin, and only if there hasn't already been a first-strike combat damage step that turn. If any of your creatures has first strike at that point, a first-strike combat damage step is created.\r\n    -- If Ember Weaver has first strike at that point, it will assign and deal combat damage during that step (even if it loses first strike before that damage is dealt) and it won't deal combat damage during the normal combat damage step.\r\n    -- If Ember Weaver doesn't have first strike at that point, it will assign and deal its combat damage during the normal combat damage step (even if it gains first strike before then)."
+      }
+    ]
   },
   {
     "name": "Filigree Fracture",
@@ -2159,7 +2767,8 @@
     "loyalty": null,
     "multiverse_id": 179439,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Gluttonous Slime",
@@ -2186,7 +2795,8 @@
     "loyalty": null,
     "multiverse_id": 179512,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Matca Rioters",
@@ -2213,7 +2823,25 @@
     "loyalty": null,
     "multiverse_id": 179248,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "A number of nonbasic lands have basic land types. Domain abilities don’t count the number of lands you control — they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you’ll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Matca Rioters’ ability is a “characteristic-defining ability.” It applies at all times in all zones."
+      }
+    ]
   },
   {
     "name": "Might of Alara",
@@ -2237,7 +2865,21 @@
     "loyalty": null,
     "multiverse_id": 150810,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "A number of nonbasic lands have basic land types. Domain abilities don’t count the number of lands you control — they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you’ll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+      }
+    ]
   },
   {
     "name": "Nacatl Savage",
@@ -2264,7 +2906,13 @@
     "loyalty": null,
     "multiverse_id": 183022,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "“Protection from artifacts” means the following:\r\n    -- Nacatl Savage can't be blocked by artifact creatures.\r\n    -- Nacatl Savage can't be equipped. It also can't be enchanted by Auras that have somehow become artifacts in addition to enchantments.\r\n    -- Nacatl Savage can't be targeted by abilities from artifact sources.\r\n    -- All damage that would be dealt to Nacatl Savage by artifact sources is prevented."
+      }
+    ]
   },
   {
     "name": "Noble Hierarch",
@@ -2292,7 +2940,8 @@
     "loyalty": null,
     "multiverse_id": 179434,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Paleoloth",
@@ -2318,7 +2967,13 @@
     "loyalty": null,
     "multiverse_id": 189873,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "If Paleoloth and another creature with power 5 or greater enter the battlefield under your control at the same time, Paleoloth’s triggered ability will trigger."
+      }
+    ]
   },
   {
     "name": "Sacellum Archers",
@@ -2345,7 +3000,8 @@
     "loyalty": null,
     "multiverse_id": 179488,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Scattershot Archer",
@@ -2372,7 +3028,8 @@
     "loyalty": null,
     "multiverse_id": 185828,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Shard Convergence",
@@ -2396,7 +3053,21 @@
     "loyalty": null,
     "multiverse_id": 175034,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "You don’t have to find all four cards."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Shard Convergence checks for cards with the subtypes Plains, Island, Swamp, and Mountain, not for cards with those names. You may find nonbasic land cards this way, as long as they have appropriate subtypes."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You may find “dual lands” with Shard Convergence. The Plains card you find, for example, can have a second subtype. What subtypes it has won’t impact what other cards you can find. For example, you may find a Hallowed Fountain (which has subtypes Plains and Island) as the Plains card, and another Hallowed Fountain as the Island card."
+      }
+    ]
   },
   {
     "name": "Soul's Majesty",
@@ -2420,7 +3091,13 @@
     "loyalty": null,
     "multiverse_id": 185137,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Soul’s Majesty’s only target is the creature. If that creature becomes an illegal target by the time Soul’s Majesty would resolve, the entire spell doesn’t resolve. You won’t draw any cards."
+      }
+    ]
   },
   {
     "name": "Spore Burst",
@@ -2444,7 +3121,21 @@
     "loyalty": null,
     "multiverse_id": 185829,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "A number of nonbasic lands have basic land types. Domain abilities don’t count the number of lands you control — they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you’ll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+      }
+    ]
   },
   {
     "name": "Sylvan Bounty",
@@ -2469,7 +3160,25 @@
     "loyalty": null,
     "multiverse_id": 179523,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Unlike the normal cycling ability, basic landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a basic land card. You don’t choose the type of basic land card you’ll find until you’re performing the search. After you choose a basic land card in your library, you reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being basic landcycled. Any ability that stops a cycling ability from being activated also stops a basic landcycling ability from being activated."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with basic landcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You can choose not to find a basic land card, even if there is one in your library."
+      }
+    ]
   },
   {
     "name": "Thornling",
@@ -2500,7 +3209,13 @@
     "loyalty": null,
     "multiverse_id": 180341,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/1/2013",
+        "text": "Lethal damage and effects that say “destroy” won’t cause a creature with indestructible to be put into the graveyard. However, a creature with indestructible can be put into the graveyard for a number of reasons. The most likely reasons are if it’s sacrificed, if it’s legendary and another legendary creature with the same name is controlled by the same player, or if its toughness is 0 or less."
+      }
+    ]
   },
   {
     "name": "Tukatongue Thallid",
@@ -2526,7 +3241,8 @@
     "loyalty": null,
     "multiverse_id": 184995,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wild Leotau",
@@ -2552,7 +3268,8 @@
     "loyalty": null,
     "multiverse_id": 179489,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Apocalypse Hydra",
@@ -2571,7 +3288,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Apocalypse Hydra enters the battlefield with X +1/+1 counters on it. If X is 5 or more, it enters the battlefield with an additional X +1/+1 counters on it.",
-      "{1}{R}, Remove a +1/+1 counter from Apocalypse Hydra: Apocalypse Hydra deals 1 damage to any target."
+      "{1}{R}, Remove a +1/+1 counter from Apocalypse Hydra: It deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": "0",
@@ -2579,7 +3296,17 @@
     "loyalty": null,
     "multiverse_id": 183068,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "For example, if X is 4, Apocalypse Hydra enters the battlefield with four +1/+1 counters on it, but if X is 5, it enters the battlefield with ten +1/+1 counters on it."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "The first ability checks the number you chose for X, not the amount of mana you actually spent."
+      }
+    ]
   },
   {
     "name": "Blood Tyrant",
@@ -2607,7 +3334,21 @@
     "loyalty": null,
     "multiverse_id": 180267,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Blood Tyrant’s second ability causes each player to lose 1 life, including you. Blood Tyrant will count each player’s life loss, including yours, when determining how many +1/+1 counters it gets."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Blood Tyrant’s third ability will trigger no matter how a player loses the game: due to a state-based action (as a result of having a life total of 0 or less, trying to draw a card from an empty library, or having ten poison counters), a spell or ability that says that player loses the game, a concession, or a game loss awarded by a judge."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "In a multiplayer game using the limited range of influence option (such as a Grand Melee game), if a spell or ability says that you win the game, it instead causes all of your opponents within your range of influence to lose the game. This is another way by which Blood Tyrant’s third ability can trigger."
+      }
+    ]
   },
   {
     "name": "Charnelhoard Wurm",
@@ -2634,7 +3375,13 @@
     "loyalty": null,
     "multiverse_id": 179438,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "If Charnelhoard Wurm is dealt lethal damage at the same time it deals damage to an opponent, Charnelhoard Wurm will be in your graveyard by the time you put its ability on the stack. In that case, you can target it with its own ability."
+      }
+    ]
   },
   {
     "name": "Child of Alara",
@@ -2663,7 +3410,8 @@
     "loyalty": null,
     "multiverse_id": 180516,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Conflux",
@@ -2687,7 +3435,17 @@
     "loyalty": null,
     "multiverse_id": 179437,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "You don’t have to find all five cards."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "You may find multicolored cards with Conflux. The white card you find, for example, can be any number of colors, as long as white is one of them. What colors it is won’t impact what other cards you can find. For example, you may find a white-blue card as the white card and another white-blue card as the blue card."
+      }
+    ]
   },
   {
     "name": "Countersquall",
@@ -2711,7 +3469,13 @@
     "loyalty": null,
     "multiverse_id": 186327,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "A spell that can’t be countered is a legal target for Countersquall. The spell won’t be countered when Countersquall resolves, but its controller still loses 2 life."
+      }
+    ]
   },
   {
     "name": "Elder Mastery",
@@ -2739,7 +3503,13 @@
     "loyalty": null,
     "multiverse_id": 183024,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "The last ability triggers from any damage dealt by the enchanted creature, not just combat damage."
+      }
+    ]
   },
   {
     "name": "Esper Cormorants",
@@ -2766,7 +3536,8 @@
     "loyalty": null,
     "multiverse_id": 184983,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Exploding Borders",
@@ -2790,7 +3561,33 @@
     "loyalty": null,
     "multiverse_id": 189378,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "A number of nonbasic lands have basic land types. Domain abilities don’t count the number of lands you control — they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you’ll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You do what the spell says in order, so you’ll put a new basic land card onto the battlefield before you determine the value of X."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Exploding Borders will still deal damage even if you don’t put a land card onto the battlefield."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Exploding Borders has only one target: the player. If that player becomes an illegal target by the time Exploding Borders would resolve, the entire spell doesn’t resolve. You won’t get to search for a basic land card."
+      }
+    ]
   },
   {
     "name": "Fusion Elemental",
@@ -2814,7 +3611,8 @@
     "loyalty": null,
     "multiverse_id": 179443,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Giltspire Avenger",
@@ -2842,7 +3640,8 @@
     "loyalty": null,
     "multiverse_id": 186614,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Goblin Outlander",
@@ -2869,7 +3668,8 @@
     "loyalty": null,
     "multiverse_id": 185142,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Gwafa Hazid, Profiteer",
@@ -2899,7 +3699,17 @@
     "loyalty": null,
     "multiverse_id": 185811,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "If Gwafa Hazid leaves the battlefield, any bribery counters will remain where they are. However, without a Gwafa Hazid on the battlefield, creatures with bribery counters on them can attack and block as normal. If another Gwafa Hazid enters the battlefield, its ability will affect all creatures with bribery counters on them, including the ones that received counters from a different Gwafa Hazid."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Creatures with bribery counters on them can’t be declared as attackers or blockers. However, if a bribery counter is put on a creature that’s already been declared as an attacker or blocker, that creature will continue to attack or block that combat."
+      }
+    ]
   },
   {
     "name": "Hellkite Hatchling",
@@ -2926,7 +3736,17 @@
     "loyalty": null,
     "multiverse_id": 189146,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Hellkite Hatchling has flying and trample if at least one creature was sacrificed as a result of the Hatchling’s devour ability as it entered the battlefield. It retains those abilities even if its +1/+1 counters are somehow removed."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If another creature becomes a copy of Hellkite Hatchling (due to Mirrorweave, for example), the second ability checks to see whether that creature — not the original Hellkite Hatchling — devoured a creature as it entered the battlefield."
+      }
+    ]
   },
   {
     "name": "Jhessian Balmgiver",
@@ -2954,7 +3774,13 @@
     "loyalty": null,
     "multiverse_id": 174791,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "After blockers have been declared, activating the second ability won’t cause those blocks to change."
+      }
+    ]
   },
   {
     "name": "Knight of the Reliquary",
@@ -2982,7 +3808,25 @@
     "loyalty": null,
     "multiverse_id": 189145,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Knight of the Reliquary’s first ability applies only while it’s on the battlefield. In all other zones, it’s a 2/2 creature."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "The activated ability’s cost checks the land’s subtype, not its name. You can sacrifice a nonbasic land this way as long as it has the subtype Forest or Plains. Most nonbasic lands don’t have basic land types, even if they produce colored mana. For example, Horizon Canopy is neither a Forest nor a Plains, while Temple Garden is both."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Sacrificing a Forest or Plains is part of the cost of Knight of the Reliquary’s activated ability. Assuming that sacrificing the land puts it into your graveyard, Knight of the Reliquary’s first ability will immediately give it an additional +1/+1 when that cost is paid because there’ll be a new land card in your graveyard. Paying a cost can’t be responded to (with Shock, for example)."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Knight of the Reliquary’s activated ability lets you find any land card, not just a basic land card."
+      }
+    ]
   },
   {
     "name": "Knotvine Mystic",
@@ -3009,7 +3853,8 @@
     "loyalty": null,
     "multiverse_id": 180265,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Maelstrom Archangel",
@@ -3036,7 +3881,25 @@
     "loyalty": null,
     "multiverse_id": 185136,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "If you want to cast a card this way, you cast it as part of the resolution of Maelstrom Angel’s triggered ability. Timing restrictions based on the card’s type (such as creature or sorcery) are ignored. Other casting restrictions are not (such as “Cast [this card] only before attackers are declared”)."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If you cast a card this way, you’re casting it as a spell. It can be countered."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If you cast a card with X in its cost this way, X must be 0."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If you cast a card “without paying its mana cost,” you can’t choose to cast it for any alternative costs, such as evoke or the alternative cost provided by the morph ability. However, you can pay optional additional costs, such as conspire, and you must still pay mandatory additional costs, such as the one on Goldmeadow Stalwart."
+      }
+    ]
   },
   {
     "name": "Magister Sphinx",
@@ -3064,7 +3927,21 @@
     "loyalty": null,
     "multiverse_id": 179892,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "This ability is not optional."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "For a player’s life total to become 10, what actually happens is that the player gains or loses the appropriate amount of life. For example, if the targeted player’s life total is 4 when this ability resolves, it will cause that player to gain 6 life; alternately, if the targeted player’s life total is 17 when this ability resolves, it will cause that player to lose 7 life. Other cards that interact with life gain or life loss will interact with this effect accordingly."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "In a Two-Headed Giant game, this ability basically causes the team’s life total to become 10, but only the targeted player is considered to have actually gained or lost life."
+      }
+    ]
   },
   {
     "name": "Malfegor",
@@ -3094,7 +3971,17 @@
     "loyalty": null,
     "multiverse_id": 185812,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Malfegor’s ability is not optional. You must discard your entire hand no matter how many creatures your opponents control."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "After you discard your hand and the number of creatures each opponent must sacrifice has been determined, each opponent in turn order, starting with the player whose turn it is if that player is your opponent, chooses which creatures they will sacrifice, then all the chosen creatures are all sacrificed at the same time."
+      }
+    ]
   },
   {
     "name": "Meglonoth",
@@ -3121,7 +4008,21 @@
     "loyalty": null,
     "multiverse_id": 179886,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "You don’t check Meglonoth’s power until its triggered ability resolves."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If Meglonoth leaves the battlefield after its ability triggers but before it resolves, the amount of damage it deals is equal to its power as it last existed on the battlefield."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If Meglonoth somehow blocks more than one creature, its ability will trigger once for each creature it blocks."
+      }
+    ]
   },
   {
     "name": "Nacatl Outlander",
@@ -3148,7 +4049,8 @@
     "loyalty": null,
     "multiverse_id": 185140,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Nicol Bolas, Planeswalker",
@@ -3178,7 +4080,21 @@
     "loyalty": "5",
     "multiverse_id": 179441,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "The control-change effect has no duration. It will last until the game ends or the affected creature leaves the battlefield. It may be superseded by a later control-change effect."
+      },
+      {
+        "date": "7/1/2012",
+        "text": "If the damage from Nicol Bolas’s third ability is prevented or redirected, the rest of the effect will still happen. Specifically, the number of cards discarded and permanents sacrificed isn’t tied to the amount of damage dealt."
+      },
+      {
+        "date": "7/1/2012",
+        "text": "For the third ability, if the player is an illegal target when the ability tries to resolve, the ability doesn’t resolve and none of its effects will happen. No damage will be dealt, no cards will be discarded, and no permanents will be sacrificed."
+      }
+    ]
   },
   {
     "name": "Progenitus",
@@ -3208,7 +4124,17 @@
     "loyalty": null,
     "multiverse_id": 179496,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "“Protection from everything” means the following: Progenitus can’t be blocked, Progenitus can’t be enchanted or equipped, Progenitus can’t be the target of spells or abilities, and all damage that would be dealt to Progenitus is prevented."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Progenitus can still be affected by effects that don’t target it or deal damage to it (such as Day of Judgment)."
+      }
+    ]
   },
   {
     "name": "Rhox Bodyguard",
@@ -3237,7 +4163,8 @@
     "loyalty": null,
     "multiverse_id": 177924,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Scarland Thrinax",
@@ -3263,7 +4190,8 @@
     "loyalty": null,
     "multiverse_id": 183025,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Shambling Remains",
@@ -3291,7 +4219,8 @@
     "loyalty": null,
     "multiverse_id": 184991,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Skyward Eye Prophets",
@@ -3319,7 +4248,8 @@
     "loyalty": null,
     "multiverse_id": 174953,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sludge Strider",
@@ -3346,7 +4276,17 @@
     "loyalty": null,
     "multiverse_id": 183019,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "If Sludge Strider and another artifact enter the battlefield under your control at the same time, Sludge Strider’s triggered ability will trigger. Similarly, if Sludge Strider and another artifact you control leave the battlefield at the same time, Sludge Strider’s triggered ability will trigger."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If an artifact creature with 0 toughness enters the battlefield under your control, Sludge Strider’s ability will trigger a total of twice: Once when that creature enters the battlefield, and once when it’s put into a graveyard. Both abilities will be put on the stack after the state-based action check that puts the 0-toughness creature into the graveyard is finished."
+      }
+    ]
   },
   {
     "name": "Sphinx Summoner",
@@ -3374,7 +4314,13 @@
     "loyalty": null,
     "multiverse_id": 189079,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "The card you find must be both an artifact and a creature."
+      }
+    ]
   },
   {
     "name": "Suicidal Charge",
@@ -3398,7 +4344,13 @@
     "loyalty": null,
     "multiverse_id": 180345,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Suicidal Charge’s ability affects only the creatures your opponents control at the time it resolves. If another creature comes under the control of one of those players by the time that turn’s combat step begins, it won’t have to attack."
+      }
+    ]
   },
   {
     "name": "Vagrant Plowbeasts",
@@ -3424,7 +4376,13 @@
     "loyalty": null,
     "multiverse_id": 180344,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "This ability checks the targeted creature’s power only at the time the ability is activated and at the time it resolves. The regeneration shield it creates will work no matter what that creature’s power is at the time it would be destroyed."
+      }
+    ]
   },
   {
     "name": "Valeron Outlander",
@@ -3451,7 +4409,8 @@
     "loyalty": null,
     "multiverse_id": 185144,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vectis Agents",
@@ -3479,7 +4438,8 @@
     "loyalty": null,
     "multiverse_id": 183063,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vedalken Outlander",
@@ -3507,7 +4467,8 @@
     "loyalty": null,
     "multiverse_id": 185141,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Zombie Outlander",
@@ -3534,7 +4495,8 @@
     "loyalty": null,
     "multiverse_id": 185138,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Armillary Sphere",
@@ -3558,7 +4520,8 @@
     "loyalty": null,
     "multiverse_id": 137936,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bone Saw",
@@ -3585,7 +4548,8 @@
     "loyalty": null,
     "multiverse_id": 189270,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Font of Mythos",
@@ -3609,7 +4573,13 @@
     "loyalty": null,
     "multiverse_id": 189147,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "The triggered ability is put onto the stack after you have already drawn your card for the turn."
+      }
+    ]
   },
   {
     "name": "Kaleidostone",
@@ -3634,7 +4604,8 @@
     "loyalty": null,
     "multiverse_id": 189272,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mana Cylix",
@@ -3658,7 +4629,8 @@
     "loyalty": null,
     "multiverse_id": 189269,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Manaforce Mace",
@@ -3685,7 +4657,21 @@
     "loyalty": null,
     "multiverse_id": 180159,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "A number of nonbasic lands have basic land types. Domain abilities don’t count the number of lands you control — they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you’ll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+      }
+    ]
   },
   {
     "name": "Obelisk of Alara",
@@ -3713,7 +4699,8 @@
     "loyalty": null,
     "multiverse_id": 183018,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ancient Ziggurat",
@@ -3737,7 +4724,17 @@
     "loyalty": null,
     "multiverse_id": 189271,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Mana produced by Ancient Ziggurat can be spent on any part of a creature spell’s total cost. This includes additional costs (such as kicker) and alternative costs (such as evoke or Worldheart Phoenix’s alternative cost)."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Mana produced by Ancient Ziggurat can’t be spent on activated abilities that put a creature card directly onto the battlefield, such as unearth or ninjutsu."
+      }
+    ]
   },
   {
     "name": "Exotic Orchard",
@@ -3761,7 +4758,29 @@
     "loyalty": null,
     "multiverse_id": 189273,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "The colors of mana are white, blue, black, red, and green. Exotic Orchard can’t be tapped for colorless mana, even if a land an opponent controls could produce colorless mana."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Exotic Orchard checks the effects of all mana-producing abilities of lands your opponents control, but it doesn’t check their costs. For example, Vivid Crag has the ability “{T}, Remove a charge counter from Vivid Crag: Add one mana of any color.” If an opponent controls Vivid Crag and you control Exotic Orchard, you can tap Exotic Orchard for any color of mana. It doesn’t matter whether Vivid Crag has a charge counter on it, and it doesn’t matter whether it’s untapped."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "When determining what colors of mana your opponents’ lands could produce, Exotic Orchard takes into account any applicable replacement effects that would apply to those lands’ mana abilities (such as Contamination’s effect, for example). If there are more than one, consider them in any possible order."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Exotic Orchard doesn’t care about any restrictions or riders your opponents’ lands (such as Ancient Ziggurat or Hall of the Bandit Lord) put on the mana they produce. It just cares about colors of mana."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Lands that produce mana based only on what other lands “could produce” won’t help each other unless some other land allows one of them to actually produce some type of mana. For example, if you control an Exotic Orchard and your opponent controls an Exotic Orchard and a Reflecting Pool, none of those lands would produce mana if their mana abilities were activated. On the other hand, if you control a Forest and an Exotic Orchard, and your opponent controls an Exotic Orchard and a Reflecting Pool, then each of those lands can be tapped to produce {G}. Your opponent’s Exotic Orchard can produce {G} because you control a Forest. Your Exotic Orchard and your opponent’s Reflecting Pool can each produce {G} because your opponent’s Exotic Orchard can produce {G}."
+      }
+    ]
   },
   {
     "name": "Reliquary Tower",
@@ -3786,7 +4805,13 @@
     "loyalty": null,
     "multiverse_id": 150807,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "If multiple effects modify your hand size, apply them in timestamp order. For example, if you put Null Profusion (an enchantment that says your maximum hand size is two) onto the battlefield and then put Reliquary Tower onto the battlefield, you’ll have no maximum hand size. However, if those permanents enter the battlefield in the opposite order, your maximum hand size would be two."
+      }
+    ]
   },
   {
     "name": "Rupture Spire",
@@ -3812,7 +4837,8 @@
     "loyalty": null,
     "multiverse_id": 142301,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Unstable Frontier",
@@ -3837,6 +4863,16 @@
     "loyalty": null,
     "multiverse_id": 189078,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "You choose a basic land type as the ability resolves."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "The affected land loses its existing land types and any abilities printed on it. It becomes the chosen basic land type and now has the ability to tap to add one mana of the appropriate color to your mana pool. Unstable Frontier’s ability doesn’t change the affected land’s name or whether it’s legendary or basic."
+      }
+    ]
   }
 ]

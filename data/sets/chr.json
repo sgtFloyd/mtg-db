@@ -23,7 +23,8 @@
     "loyalty": null,
     "multiverse_id": 2838,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Active Volcano",
@@ -49,7 +50,8 @@
     "loyalty": null,
     "multiverse_id": 2839,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Akron Legionnaire",
@@ -76,7 +78,13 @@
     "loyalty": null,
     "multiverse_id": 2853,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If you have two or more Legionnaires, they can all attack."
+      }
+    ]
   },
   {
     "name": "Aladdin",
@@ -103,7 +111,17 @@
     "loyalty": null,
     "multiverse_id": 2840,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Aladdin’s ability can take control of more than one artifact, although only one each time the ability is used."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "You do not lose control of the permanent if it stops being an artifact. The validity of the target is checked only on announcement and resolution of the ability."
+      }
+    ]
   },
   {
     "name": "Angelic Voices",
@@ -127,7 +145,13 @@
     "loyalty": null,
     "multiverse_id": 2854,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You get the bonus if all of your creatures are white or artifact even if they also have other colors or qualities. So, if your only creature is a white and green creature, or a red artifact creature, you would get the bonus."
+      }
+    ]
   },
   {
     "name": "Arcades Sabboth",
@@ -159,7 +183,13 @@
     "loyalty": null,
     "multiverse_id": 2866,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "As long as Arcades Sabboth is untapped and isn’t attacking, it’ll get +0/+2 from its own third ability."
+      }
+    ]
   },
   {
     "name": "Arena of the Ancients",
@@ -184,7 +214,8 @@
     "loyalty": null,
     "multiverse_id": 2775,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Argothian Pixies",
@@ -211,7 +242,8 @@
     "loyalty": null,
     "multiverse_id": 2824,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ashnod's Altar",
@@ -235,7 +267,8 @@
     "loyalty": null,
     "multiverse_id": 2776,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ashnod's Transmogrant",
@@ -259,7 +292,13 @@
     "loyalty": null,
     "multiverse_id": 2777,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/16/2007",
+        "text": "It’s the ability, not the counter that makes the creature an artifact. The creature remains an artifact even if the +1/+1 counter is removed."
+      }
+    ]
   },
   {
     "name": "Axelrod Gunnarson",
@@ -288,7 +327,21 @@
     "loyalty": null,
     "multiverse_id": 2867,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "Each time a creature is put into a graveyard from play, check whether Axelrod Gunnarson had dealt any damage to it at any time during that turn. (This includes combat damage.) If so, Axelrod Gunnarson’s second ability will trigger. It doesn’t matter who controlled the creature or whose graveyard it was put into."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If Axelrod Gunnarson and a creature it dealt damage to are both put into a graveyard at the same time, Axelrod Gunnarson’s second ability will trigger."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The player you target with Axelrod Gunnarson’s ability doesn’t have to be the player that controlled the creature that was put into a graveyard."
+      }
+    ]
   },
   {
     "name": "Ayesha Tanaka",
@@ -318,7 +371,29 @@
     "loyalty": null,
     "multiverse_id": 2868,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a “band.” The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers’ damage is assigned."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Creatures in the same band must all attack the same player or planeswalker."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it. That player can ignore the damage assignment order when making this assignment."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text."
+      }
+    ]
   },
   {
     "name": "Azure Drake",
@@ -344,7 +419,8 @@
     "loyalty": null,
     "multiverse_id": 2796,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Banshee",
@@ -370,7 +446,13 @@
     "loyalty": null,
     "multiverse_id": 2797,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "If the targeted permanent or player is an illegal target by the time Banshee’s ability resolves, the ability doesn’t resolve. You won’t be dealt damage."
+      }
+    ]
   },
   {
     "name": "Barl's Cage",
@@ -394,7 +476,25 @@
     "loyalty": null,
     "multiverse_id": 2778,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Does not prevent a creature from untapping at other times. It just stops the “normal” untap during the untap step."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "You may target any creature with this ability. It doesn’t have to be tapped."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If the targeted creature is untapped at the time its controller’s next untap step begins, this ability has no effect. It won’t apply at some later time when the targeted creature is tapped."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Barl’s Cage doesn’t track the creature’s controller. If the affected creature changes controllers before its old controller’s next untap step, this ability will prevent it from being untapped during its new controller’s next untap step."
+      }
+    ]
   },
   {
     "name": "Beasts of Bogardan",
@@ -421,7 +521,8 @@
     "loyalty": null,
     "multiverse_id": 2841,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Blood Moon",
@@ -445,7 +546,25 @@
     "loyalty": null,
     "multiverse_id": 2842,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/29/2017",
+        "text": "If a nonbasic land has an ability that causes it to enter the battlefield tapped, it will lose that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply “as” a land enters the battlefield, such as the first ability of Cavern of Souls. This is a change from previous rulings."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "Nonbasic lands will lose any other land types and abilities they had. They will gain the land type Mountain and gain the ability “{T}: Add {R}.”"
+      },
+      {
+        "date": "3/16/2018",
+        "text": "This effect doesn’t affect names or supertypes. It won’t turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won’t be named “Mountain.”"
+      },
+      {
+        "date": "3/16/2018",
+        "text": "If a nonbasic land has an ability that triggers “when” it enters the battlefield, it will lose that ability before it triggers."
+      }
+    ]
   },
   {
     "name": "Blood of the Martyr",
@@ -469,7 +588,8 @@
     "loyalty": null,
     "multiverse_id": 2855,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bog Rats",
@@ -495,7 +615,8 @@
     "loyalty": null,
     "multiverse_id": 2798,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Book of Rass",
@@ -519,7 +640,13 @@
     "loyalty": null,
     "multiverse_id": 2779,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You can’t spend yourself to below zero life. You can’t spend life you don’t have."
+      }
+    ]
   },
   {
     "name": "Boomerang",
@@ -543,7 +670,8 @@
     "loyalty": null,
     "multiverse_id": 2799,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bronze Horse",
@@ -571,7 +699,8 @@
     "loyalty": null,
     "multiverse_id": 2780,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cat Warriors",
@@ -598,7 +727,8 @@
     "loyalty": null,
     "multiverse_id": 2825,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Chromium",
@@ -629,7 +759,8 @@
     "loyalty": null,
     "multiverse_id": 2869,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "City of Brass",
@@ -654,7 +785,21 @@
     "loyalty": null,
     "multiverse_id": 2886,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The first ability triggers no matter how the land becomes tapped."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "If you tap City of Brass while you are casting a spell or activating an ability, its ability will trigger and wait. When you finish casting that spell or activating that ability, City of Brass’s triggered ability is put on the stack on top of it. City of Brass’s ability will resolve first."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "On the other hand, you can tap City of Brass, put its triggered ability on the stack, and then respond to that ability by casting an instant or activating an ability using that mana. In that case, the instant spell or activated ability will resolve first."
+      }
+    ]
   },
   {
     "name": "Cocoon",
@@ -683,7 +828,21 @@
     "loyalty": null,
     "multiverse_id": 2826,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The creature can still be untapped using spells and abilities."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Cocoon can be used on a tapped creature."
+      },
+      {
+        "date": "8/1/2005",
+        "text": "If the Aura is moved to a different creature, the number of counters is unchanged."
+      }
+    ]
   },
   {
     "name": "Concordant Crossroads",
@@ -709,7 +868,17 @@
     "loyalty": null,
     "multiverse_id": 2827,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "This has the supertype world. When a world permanent enters the battlefield, any world permanents that were already on the battlefield are put into their owners’ graveyards. This is a state-based action called the “world rule.” The new world permanent stays on the battlefield. If two world permanents enter the battlefield at the same time, they’re both put into their owners’ graveyards."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "This ability affects all creatures, not just the ones you control."
+      }
+    ]
   },
   {
     "name": "Craw Giant",
@@ -736,7 +905,8 @@
     "loyalty": null,
     "multiverse_id": 2828,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cuombajj Witches",
@@ -763,7 +933,25 @@
     "loyalty": null,
     "multiverse_id": 2800,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "In multiplayer games you can choose a different opposing player each time it is used. You also don’t have to choose the same player that you targeted with the effect (or whose creature you targeted)."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "If either target becomes invalid, the other one is still affected."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Both targets are chosen on activation, but you choose your target before the opponent chooses."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "The two targets can be the same."
+      }
+    ]
   },
   {
     "name": "Cyclone",
@@ -787,7 +975,8 @@
     "loyalty": null,
     "multiverse_id": 2829,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dakkon Blackblade",
@@ -816,7 +1005,8 @@
     "loyalty": null,
     "multiverse_id": 2870,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dance of Many",
@@ -843,7 +1033,33 @@
     "loyalty": null,
     "multiverse_id": 2801,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Destroying the creature that was copied will not cause the token creature to be destroyed as well."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Each Dance of Many is associated only with its token creature. If one Dance leaves the battlefield, only the corresponding token is affected, not all tokens from all instances of Dance of Many."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The ability is targeted and checks the validity of the target when put on the stack and when resolving. If the creature is not still there when the copy ability resolves, the ability doesn’t resolve and no token is put onto the battlefield. This card remains on the battlefield as an enchantment with no token."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The mana cost is copied."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Treat the token as entering the battlefield as a copy of the chosen creature. If that creature normally gets counters when entering the battlefield, the token creature gets counters."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If Dance of Many leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and put a token onto the battlefield. That token won’t have any connection to a Dance of Many permanent, so it won’t be exiled when a Dance of Many leaves the battlefield."
+      }
+    ]
   },
   {
     "name": "Dandân",
@@ -870,7 +1086,8 @@
     "loyalty": null,
     "multiverse_id": 2802,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "D'Avenant Archer",
@@ -898,7 +1115,8 @@
     "loyalty": null,
     "multiverse_id": 2856,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Divine Offering",
@@ -922,7 +1140,17 @@
     "loyalty": null,
     "multiverse_id": 2857,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If the target artifact becomes illegal before resolution, you do not gain any life."
+      },
+      {
+        "date": "7/1/2013",
+        "text": "If Divine Offering resolves, but the artifact regenerates or has indestructible, you’ll still gain the life."
+      }
+    ]
   },
   {
     "name": "Emerald Dragonfly",
@@ -949,7 +1177,8 @@
     "loyalty": null,
     "multiverse_id": 2830,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Enchantment Alteration",
@@ -973,7 +1202,17 @@
     "loyalty": null,
     "multiverse_id": 2803,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2005",
+        "text": "If you change this card’s target, you can change which Aura is targeted, but you can’t choose where that Aura will be moved."
+      },
+      {
+        "date": "8/1/2005",
+        "text": "Only targets the Aura and not either of the things the Aura may be on."
+      }
+    ]
   },
   {
     "name": "Erhnam Djinn",
@@ -999,7 +1238,21 @@
     "loyalty": null,
     "multiverse_id": 2831,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "In multiplayer games you can choose a different player’s creature each upkeep. You are forced to pick a creature that some opponent controls if there is at least one creature on the battlefield that is a legal target."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "If you have more than one Djinn, you can have all of them target the same creature with their ability."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "If there are no creatures your opponent controls to target at the beginning of your upkeep, ignore this ability."
+      }
+    ]
   },
   {
     "name": "Fallen Angel",
@@ -1026,7 +1279,13 @@
     "loyalty": null,
     "multiverse_id": 2804,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Can sacrifice itself."
+      }
+    ]
   },
   {
     "name": "Feldon's Cane",
@@ -1050,7 +1309,8 @@
     "loyalty": null,
     "multiverse_id": 2781,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fire Drake",
@@ -1077,7 +1337,8 @@
     "loyalty": null,
     "multiverse_id": 2843,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fishliver Oil",
@@ -1104,7 +1365,8 @@
     "loyalty": null,
     "multiverse_id": 2805,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Flash Flood",
@@ -1130,7 +1392,8 @@
     "loyalty": null,
     "multiverse_id": 2806,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fountain of Youth",
@@ -1154,7 +1417,8 @@
     "loyalty": null,
     "multiverse_id": 2782,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Gabriel Angelfire",
@@ -1182,7 +1446,13 @@
     "loyalty": null,
     "multiverse_id": 2871,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "Gabriel Angelfire will have the ability it gains through your next untap step, but will no longer have it during your next upkeep step."
+      }
+    ]
   },
   {
     "name": "Gauntlets of Chaos",
@@ -1206,7 +1476,17 @@
     "loyalty": null,
     "multiverse_id": 2783,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "As you activate the ability, the targets you choose must be two artifacts, two creatures, or two lands. As the ability resolves, both targets will be legal only if they are two artifacts, two creatures, or two lands at that time as well, though they may be a different type than they were at the time the ability was activated. For example, if the targets were a creature and an artifact creature when the ability was activated, but the first target became a noncreature artifact by the time the ability resolves, both targets will still be legal (since they’re both artifacts)."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If one of the targets is illegal by the time the ability resolves (because the wrong player controls it, or it’s the wrong card type, or for any other reason), the exchange doesn’t happen. The target that’s still legal will remain under its controller’s control. Since the exchange doesn’t happen, no Auras are destroyed. (If both targets are illegal, the ability doesn’t resolve.)"
+      }
+    ]
   },
   {
     "name": "Ghazbán Ogre",
@@ -1232,7 +1512,8 @@
     "loyalty": null,
     "multiverse_id": 2832,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Giant Slug",
@@ -1258,7 +1539,17 @@
     "loyalty": null,
     "multiverse_id": 2807,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If the Slug changes controllers after the mana is spent, the player who activates this ability selects a landwalk during their next upkeep even if they don’t control it at the time."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "When the ability resolves, it creates another ability that triggers at the beginning of your next upkeep. When that ability resolves, you choose a basic land type."
+      }
+    ]
   },
   {
     "name": "Goblin Artisans",
@@ -1285,7 +1576,8 @@
     "loyalty": null,
     "multiverse_id": 2844,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Goblin Digging Team",
@@ -1311,7 +1603,8 @@
     "loyalty": null,
     "multiverse_id": 2845,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Goblin Shrine",
@@ -1339,7 +1632,13 @@
     "loyalty": null,
     "multiverse_id": 2846,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Works even if placed on one of your opponent’s Mountains."
+      }
+    ]
   },
   {
     "name": "Goblins of the Flarg",
@@ -1367,7 +1666,8 @@
     "loyalty": null,
     "multiverse_id": 2847,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Hasran Ogress",
@@ -1393,7 +1693,13 @@
     "loyalty": null,
     "multiverse_id": 2808,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You either take damage or pay the 2 mana during resolution."
+      }
+    ]
   },
   {
     "name": "Hell's Caretaker",
@@ -1419,7 +1725,17 @@
     "loyalty": null,
     "multiverse_id": 2809,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "Hell’s Caretaker can be the creature sacrificed to activate its ability, but it can’t be the target of its own ability."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "The upkeep step is before the draw step, after the untap step. Because the turn has already begun, creatures put onto the battlefield during your upkeep won’t be able to attack or pay a {T} cost this turn."
+      }
+    ]
   },
   {
     "name": "Horn of Deafening",
@@ -1443,7 +1759,8 @@
     "loyalty": null,
     "multiverse_id": 2784,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Indestructible Aura",
@@ -1467,7 +1784,13 @@
     "loyalty": null,
     "multiverse_id": 2858,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Despite the name, this card only prevents damage and not destroy effects. It’s also not an Aura."
+      }
+    ]
   },
   {
     "name": "Ivory Guardians",
@@ -1495,7 +1818,21 @@
     "loyalty": null,
     "multiverse_id": 2859,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The ability of an Ivory Guardians will affect itself as well as all other creatures named Ivory Guardians (not just the ones you control)."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Each ability applies a maximum of once, even if an opponent controls multiple nontoken red permanents or multiple opponents each control a nontoken red permanent."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The abilities from multiple Ivory Guardians are cumulative. For example, if you control two different Ivory Guardians and an opponent controls a nontoken red permanent, each of your Ivory Guardians will be 5/5."
+      }
+    ]
   },
   {
     "name": "Jalum Tome",
@@ -1519,7 +1856,8 @@
     "loyalty": null,
     "multiverse_id": 2785,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Jeweled Bird",
@@ -1544,7 +1882,13 @@
     "loyalty": null,
     "multiverse_id": 2786,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The card is exchanged for your entire contribution to the ante. This means that it replaces all the cards if you have more than one already contributed."
+      }
+    ]
   },
   {
     "name": "Johan",
@@ -1573,7 +1917,8 @@
     "loyalty": null,
     "multiverse_id": 2872,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Juxtapose",
@@ -1597,7 +1942,21 @@
     "loyalty": null,
     "multiverse_id": 2810,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/16/2007",
+        "text": "First creatures are exchanged, then artifacts are exchanged. It’s possible that the same artifact creature may be involved in both exchanges."
+      },
+      {
+        "date": "9/16/2007",
+        "text": "No permanents are targeted by this effect, so permanents with Shroud may be exchanged this way."
+      },
+      {
+        "date": "9/16/2007",
+        "text": "If one of the players doesn’t control a creature at the time the exchange would be made, that part of the effect does nothing, but the exchange of artifacts will still happen. Similarly, if one of the players doesn’t control an artifact at the time the exchange would be made, that part of the effect does nothing."
+      }
+    ]
   },
   {
     "name": "Keepers of the Faith",
@@ -1622,7 +1981,8 @@
     "loyalty": null,
     "multiverse_id": 2860,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Kei Takahashi",
@@ -1651,7 +2011,8 @@
     "loyalty": null,
     "multiverse_id": 2873,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Land's Edge",
@@ -1677,7 +2038,17 @@
     "loyalty": null,
     "multiverse_id": 2848,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The damage done when you discard a land only applies to lands which are discarded by choice using the Land’s Edge ability. It does not work on forced discards of any type."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "This has the supertype world. When a world permanent enters the battlefield, any world permanents that were already on the battlefield are put into their owners’ graveyards. This is a state-based action called the “world rule.” The new world permanent stays on the battlefield. If two world permanents enter the battlefield at the same time, they’re both put into their owners’ graveyards."
+      }
+    ]
   },
   {
     "name": "Living Armor",
@@ -1701,7 +2072,8 @@
     "loyalty": null,
     "multiverse_id": 2787,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Marhault Elsdragon",
@@ -1730,7 +2102,8 @@
     "loyalty": null,
     "multiverse_id": 2874,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Metamorphosis",
@@ -1755,7 +2128,21 @@
     "loyalty": null,
     "multiverse_id": 2833,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "This mana may be used on additional costs to cast the spell, such as Kicker."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell."
+      }
+    ]
   },
   {
     "name": "Mountain Yeti",
@@ -1782,7 +2169,8 @@
     "loyalty": null,
     "multiverse_id": 2849,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Nebuchadnezzar",
@@ -1811,7 +2199,17 @@
     "loyalty": null,
     "multiverse_id": 2875,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "You don’t name a card until the ability resolves. Once you name a card, it’s too late for the targeted opponent to respond."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "You may activate the ability only during your turn, but you may do so any time you have priority. (In other words, it’s not restricted to only the times you could cast a sorcery.)"
+      }
+    ]
   },
   {
     "name": "Nicol Bolas",
@@ -1842,7 +2240,13 @@
     "loyalty": null,
     "multiverse_id": 2876,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "Nicol Bolas’s third ability triggers whenever it deals damage to an opponent for any reason. It’s not limited to combat damage."
+      }
+    ]
   },
   {
     "name": "Obelisk of Undoing",
@@ -1866,7 +2270,8 @@
     "loyalty": null,
     "multiverse_id": 2788,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Palladia-Mors",
@@ -1896,7 +2301,8 @@
     "loyalty": null,
     "multiverse_id": 2877,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Petra Sphinx",
@@ -1922,7 +2328,13 @@
     "loyalty": null,
     "multiverse_id": 2861,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If the targeted player’s library is empty, that player still names a card, but nothing further happens. That player will not lose the game."
+      }
+    ]
   },
   {
     "name": "Primordial Ooze",
@@ -1949,7 +2361,13 @@
     "loyalty": null,
     "multiverse_id": 2850,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "It becomes tapped even if the damage is prevented."
+      }
+    ]
   },
   {
     "name": "Puppet Master",
@@ -1976,7 +2394,13 @@
     "loyalty": null,
     "multiverse_id": 2811,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "You only get the opportunity to pay {U}{U}{U} (and thus to return Puppet Master to its owner’s hand) if the creature card actually gets returned to its owner’s hand. If it isn’t (for instance, if it was removed from the graveyard prior to this ability resolving), you don’t get the option to pay."
+      }
+    ]
   },
   {
     "name": "Rabid Wombat",
@@ -2003,7 +2427,13 @@
     "loyalty": null,
     "multiverse_id": 2834,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2005",
+        "text": "If an Aura is removed from the Wombat, its power and toughness change immediately."
+      }
+    ]
   },
   {
     "name": "Rakalite",
@@ -2027,7 +2457,17 @@
     "loyalty": null,
     "multiverse_id": 2789,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Only returns to your hand if it is still on the battlefield at the end of the turn. If it leaves the battlefield, it does not return."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Can be used any number of times during the turn before it leaves the battlefield."
+      }
+    ]
   },
   {
     "name": "Recall",
@@ -2051,7 +2491,17 @@
     "loyalty": null,
     "multiverse_id": 2812,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "You don’t discard cards until Recall resolves. If you don’t have X cards in your hand at that time, you discard all the cards in your hand."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "You don’t choose which cards in your graveyard you’ll return to your hand until after you discard cards. You choose a card in your graveyard for each card you discarded, then you put all cards chosen this way into your hand at the same time. You may choose to return some or all of the cards you just discarded."
+      }
+    ]
   },
   {
     "name": "Remove Soul",
@@ -2075,7 +2525,13 @@
     "loyalty": null,
     "multiverse_id": 2813,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/1/2008",
+        "text": "A “creature spell” is any spell with the type Creature, even if it has other types such as Artifact or Enchantment. Older cards of type Summon are also Creature spells."
+      }
+    ]
   },
   {
     "name": "Repentant Blacksmith",
@@ -2101,7 +2557,8 @@
     "loyalty": null,
     "multiverse_id": 2862,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Revelation",
@@ -2127,7 +2584,13 @@
     "loyalty": null,
     "multiverse_id": 2835,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "This has the supertype world. When a world permanent enters the battlefield, any world permanents that were already on the battlefield are put into their owners’ graveyards. This is a state-based action called the “world rule.” The new world permanent stays on the battlefield. If two world permanents enter the battlefield at the same time, they’re both put into their owners’ graveyards."
+      }
+    ]
   },
   {
     "name": "Rubinia Soulsinger",
@@ -2156,7 +2619,21 @@
     "loyalty": null,
     "multiverse_id": 2878,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "If Rubinia Soulsinger leaves the battlefield, you no longer control it, so the duration of its control-change effect ends."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If Rubinia Soulsinger stops being tapped before its ability resolves — even if it becomes tapped again right away — you won’t gain control of the targeted creature at all. The same is true if you lose control of Rubinia Soulsinger before the ability resolves."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Once the ability resolves, it doesn’t care whether the targeted permanent remains a legal target for the ability, only that it’s on the battlefield. The effect will continue to apply to it even if it gains shroud, stops being a creature, or would no longer be a legal target for any other reason."
+      }
+    ]
   },
   {
     "name": "Runesword",
@@ -2180,7 +2657,8 @@
     "loyalty": null,
     "multiverse_id": 2790,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Safe Haven",
@@ -2205,7 +2683,41 @@
     "loyalty": null,
     "multiverse_id": 2887,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "When creatures return to the battlefield, they are put onto the battlefield as if just cast. Creatures with X in the mana cost are treated as X is zero. Creatures which can pay costs when put onto the battlefield to determine abilities must have those costs paid at this time."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Token creatures cease to exist when they leave the battlefield, so this effect just exiles them with no chance to bring them back like you can with cards."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "If changed to another land type, the creature cards are not lost but can’t be released until the land reverts to normal."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "When the creature leaves the battlefield any damage or “will be destroyed at some future time” effects are removed from the creature."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Auras on creatures are put into the graveyard and counters on creatures are removed when the creatures are sent to the Haven."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Creatures return to the control of their owners, regardless of who controls the Haven when it is sacrificed."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "All cards in the Haven stay there even if they cease to be creatures. When the Haven is sacrificed, the cards come back onto the battlefield whether or not they are creatures."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Creatures return to the battlefield simultaneously."
+      }
+    ]
   },
   {
     "name": "Scavenger Folk",
@@ -2231,7 +2743,8 @@
     "loyalty": null,
     "multiverse_id": 2836,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sentinel",
@@ -2258,7 +2771,13 @@
     "loyalty": null,
     "multiverse_id": 2791,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "You apply power/toughness changing effects in a series of sublayers in the following order: (a) effects from characteristic-defining abilities; (b) effects that set power and/or toughness to a specific number or value; (c) effects that modify power and/or toughness but don’t set power and/or toughness to a specific number or value; (d) changes from counters; (e) effects that switch a creature’s power and toughness. This card’s effect is always applied in (b), which means that effects applied in sublayer (c), (d), or (e) will not be overwritten; they will be applied to the new value."
+      }
+    ]
   },
   {
     "name": "Serpent Generator",
@@ -2282,7 +2801,8 @@
     "loyalty": null,
     "multiverse_id": 2792,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Shield Wall",
@@ -2306,7 +2826,8 @@
     "loyalty": null,
     "multiverse_id": 2863,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Shimian Night Stalker",
@@ -2332,7 +2853,13 @@
     "loyalty": null,
     "multiverse_id": 2814,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Can redirect damage from combat and from abilities, but the creature must be attacking before you can use this card’s ability."
+      }
+    ]
   },
   {
     "name": "Sivitri Scarzam",
@@ -2358,7 +2885,8 @@
     "loyalty": null,
     "multiverse_id": 2879,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sol'kanar the Swamp King",
@@ -2387,7 +2915,13 @@
     "loyalty": null,
     "multiverse_id": 2880,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Will not trigger off itself being cast."
+      }
+    ]
   },
   {
     "name": "Stangg",
@@ -2416,7 +2950,13 @@
     "loyalty": null,
     "multiverse_id": 2881,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "If Stangg leaves the battlefield before its ability has resolved, that ability will still create a Stangg Twin token, but its delayed triggered ability that exiles the token will never have a chance to trigger. That token will remain on the battlefield."
+      }
+    ]
   },
   {
     "name": "Storm Seeker",
@@ -2440,7 +2980,8 @@
     "loyalty": null,
     "multiverse_id": 2837,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Takklemaggot",
@@ -2468,7 +3009,25 @@
     "loyalty": null,
     "multiverse_id": 2815,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If the creature leaves the battlefield without going to the graveyard, Takklemaggot is simply put into its owner’s graveyard."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "Takklemaggot’s controller no longer changes as it returns to the battlefield. The player who controlled it when it left the battlefield is the same player that controls it when it returns to the battlefield, even though a different player may be choosing what it will be attached to after returning onto the battlefield."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "When the enchanted creature is put into a graveyard, Takklemaggot’s second ability triggers, then Takklemaggot is put into its owner’s graveyard as a state-based action. When the ability resolves, if Takklemaggot is still in that graveyard, it’s returned to the battlefield."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The player who controlled the creature that went to the graveyard (and caused Takklemaggot’s second ability to trigger) chooses what creature Takklemaggot will return to the battlefield attached to. The creature isn’t chosen until the ability resolves, so no player can respond between the time the creature is chosen and the time Takklemaggot returns to the battlefield attached to it. The ability doesn’t target a creature, so a creature with shroud, for example, can be chosen. However, only a creature that can be legally enchanted by Takklemaggot can be chosen, so a creature with protection from black, for example, can’t be chosen. If the player can choose a creature, they must do so, no matter who controls it. If the player can’t choose a creature, Takklemaggot returns to the battlefield as a non-Aura enchantment, and that player is the player that Takklemaggot will deal damage to."
+      }
+    ]
   },
   {
     "name": "Teleport",
@@ -2493,7 +3052,8 @@
     "loyalty": null,
     "multiverse_id": 2816,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "The Fallen",
@@ -2519,7 +3079,25 @@
     "loyalty": null,
     "multiverse_id": 2817,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "It stops damaging players and forgets which players it damaged when it leaves the battlefield."
+      },
+      {
+        "date": "9/16/2007",
+        "text": "If The Fallen phases out and back in, it remembers which players it has dealt damage to this game."
+      },
+      {
+        "date": "9/16/2007",
+        "text": "The Fallen’s ability causes it to deal damage only to opponents of its current controller. If The Fallen has dealt damage to you, and then you gain control of it, you won’t be damaged during your upkeep."
+      },
+      {
+        "date": "9/16/2007",
+        "text": "The effect isn’t cumulative. When it resolves, The Fallen deals 1 damage to each opponent previously dealt damage by it, regardless of how many times The Fallen dealt damage to that opponent before."
+      }
+    ]
   },
   {
     "name": "The Wretched",
@@ -2545,7 +3123,37 @@
     "loyalty": null,
     "multiverse_id": 2818,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "The ability grants you control of all creatures that are blocking it as the ability resolves. This will include any creatures that were put onto the battlefield blocking it."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Any blocking creatures that regenerated during combat will have been removed from combat. Since such creatures are no longer in combat, they cannot be blocking The Wretched, which means you won’t be able to gain control of them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If The Wretched itself regenerated during combat, then it will have been removed from combat. Since it is no longer in combat, there cannot be any creatures blocking it, which means you won’t be able to gain control of any creatures."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The Wretched’s ability triggers only if it’s still on the battlefield when the end of combat step begins (after the combat damage step). For example, if it’s blocked by a 7/7 creature and is destroyed, its ability won’t trigger at all."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If The Wretched leaves the battlefield, you no longer control it, so the duration of its control-change effect ends."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If you lose control of The Wretched before its ability resolves, you won’t gain control of the creatures blocking it at all."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Once the ability resolves, it doesn’t care whether the permanents you gained control of remain creatures, only that they remain on the battlefield."
+      }
+    ]
   },
   {
     "name": "Tobias Andrion",
@@ -2572,7 +3180,8 @@
     "loyalty": null,
     "multiverse_id": 2882,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tor Wauki",
@@ -2601,7 +3210,8 @@
     "loyalty": null,
     "multiverse_id": 2883,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tormod's Crypt",
@@ -2625,7 +3235,8 @@
     "loyalty": null,
     "multiverse_id": 2793,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Transmutation",
@@ -2649,7 +3260,21 @@
     "loyalty": null,
     "multiverse_id": 2819,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/1/2005",
+        "text": "Note that the wording “Effects that alter the creature’s power alter its toughness instead, and vice versa, this turn” has been removed."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Effects that switch power and toughness apply after all other effects that change power and/or toughness, regardless of which effect was created first."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Switching a creature’s power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches."
+      }
+    ]
   },
   {
     "name": "Triassic Egg",
@@ -2676,7 +3301,13 @@
     "loyalty": null,
     "multiverse_id": 2794,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You can use the sacrifice ability even if it is tapped."
+      }
+    ]
   },
   {
     "name": "Urza's Mine",
@@ -2703,7 +3334,13 @@
     "loyalty": null,
     "multiverse_id": 2889,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If you have at least one of each of the three Urza’s lands on the battlefield, you must take the 2 mana instead of just one."
+      }
+    ]
   },
   {
     "name": "Urza's Mine",
@@ -2730,7 +3367,13 @@
     "loyalty": null,
     "multiverse_id": 2890,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If you have at least one of each of the three Urza’s lands on the battlefield, you must take the 2 mana instead of just one."
+      }
+    ]
   },
   {
     "name": "Urza's Mine",
@@ -2757,7 +3400,13 @@
     "loyalty": null,
     "multiverse_id": 2891,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If you have at least one of each of the three Urza’s lands on the battlefield, you must take the 2 mana instead of just one."
+      }
+    ]
   },
   {
     "name": "Urza's Mine",
@@ -2784,7 +3433,13 @@
     "loyalty": null,
     "multiverse_id": 2888,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If you have at least one of each of the three Urza’s lands on the battlefield, you must take the 2 mana instead of just one."
+      }
+    ]
   },
   {
     "name": "Urza's Power Plant",
@@ -2811,7 +3466,13 @@
     "loyalty": null,
     "multiverse_id": 2895,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If you have at least one of each of the three Urza’s lands on the battlefield, you must take the 2 mana instead of just one."
+      }
+    ]
   },
   {
     "name": "Urza's Power Plant",
@@ -2838,7 +3499,13 @@
     "loyalty": null,
     "multiverse_id": 2894,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If you have at least one of each of the three Urza’s lands on the battlefield, you must take the 2 mana instead of just one."
+      }
+    ]
   },
   {
     "name": "Urza's Power Plant",
@@ -2865,7 +3532,13 @@
     "loyalty": null,
     "multiverse_id": 2892,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If you have at least one of each of the three Urza’s lands on the battlefield, you must take the 2 mana instead of just one."
+      }
+    ]
   },
   {
     "name": "Urza's Power Plant",
@@ -2892,7 +3565,13 @@
     "loyalty": null,
     "multiverse_id": 2893,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If you have at least one of each of the three Urza’s lands on the battlefield, you must take the 2 mana instead of just one."
+      }
+    ]
   },
   {
     "name": "Urza's Tower",
@@ -2919,7 +3598,8 @@
     "loyalty": null,
     "multiverse_id": 2897,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Urza's Tower",
@@ -2946,7 +3626,8 @@
     "loyalty": null,
     "multiverse_id": 2898,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Urza's Tower",
@@ -2973,7 +3654,8 @@
     "loyalty": null,
     "multiverse_id": 2899,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Urza's Tower",
@@ -3000,7 +3682,8 @@
     "loyalty": null,
     "multiverse_id": 2896,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vaevictis Asmadi",
@@ -3033,7 +3716,8 @@
     "loyalty": null,
     "multiverse_id": 2884,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Voodoo Doll",
@@ -3059,7 +3743,21 @@
     "loyalty": null,
     "multiverse_id": 2795,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "Voodoo Doll’s second ability has an “intervening ‘if’ clause.” That means (1) the ability won’t trigger at all unless Voodoo Doll is untapped, and (2) the ability will do nothing if Voodoo Doll is tapped by the time it resolves. If Voodoo Doll is no longer on the battlefield as the ability resolves, its last existence on the battlefield is checked to see if it was tapped or untapped."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Each X in the cost of Voodoo Doll’s third ability is the number of pin counters on Voodoo Doll at the time you activate the ability. The X in the ability’s effect is the number of pin counters on Voodoo Doll at the time it resolves, which may not be the same number (if a spell or ability put counters on it or removed counters from it in the meantime). If Voodoo Doll is no longer on the battlefield as the ability resolves, its last existence on the battlefield is checked to see how many pin counters were on it."
+      },
+      {
+        "date": "1/1/2011",
+        "text": "Voodoo Doll’s second ability causes it to be destroyed regardless of whether it actually deals damage to you or not. Voodoo Doll is destroyed even if all the damage is prevented or redirected."
+      }
+    ]
   },
   {
     "name": "Wall of Heat",
@@ -3085,7 +3783,8 @@
     "loyalty": null,
     "multiverse_id": 2851,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wall of Opposition",
@@ -3112,7 +3811,8 @@
     "loyalty": null,
     "multiverse_id": 2852,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wall of Shadows",
@@ -3140,7 +3840,13 @@
     "loyalty": null,
     "multiverse_id": 2820,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Can be targeted by a modal spell that can target a non-Wall in one of its modes, even if it has a mode that targets only Walls. That spell can, in theory, target a non-Wall, so it is not a “spell that can target only Walls”."
+      }
+    ]
   },
   {
     "name": "Wall of Vapor",
@@ -3167,7 +3873,8 @@
     "loyalty": null,
     "multiverse_id": 2821,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wall of Wonder",
@@ -3194,7 +3901,13 @@
     "loyalty": null,
     "multiverse_id": 2822,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Paying to make the Wall capable of attacking does not override the normal rule that a creature may not attack unless it began your turn on the battlefield."
+      }
+    ]
   },
   {
     "name": "War Elephant",
@@ -3220,7 +3933,25 @@
     "loyalty": null,
     "multiverse_id": 2864,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a “band.” The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers’ damage is assigned."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Creatures in the same band must all attack the same player or planeswalker."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it. That player can ignore the damage assignment order when making this assignment."
+      }
+    ]
   },
   {
     "name": "Witch Hunter",
@@ -3248,7 +3979,8 @@
     "loyalty": null,
     "multiverse_id": 2865,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Xira Arien",
@@ -3278,7 +4010,8 @@
     "loyalty": null,
     "multiverse_id": 2885,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Yawgmoth Demon",
@@ -3306,6 +4039,12 @@
     "loyalty": null,
     "multiverse_id": 2823,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The sacrificing of an artifact is not mandatory. You can choose not to sacrifice an artifact but will pay the consequences."
+      }
+    ]
   }
 ]

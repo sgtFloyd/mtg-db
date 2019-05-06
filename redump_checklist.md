@@ -1,6 +1,6 @@
 - [x] rake cards aer arb all akh mps_akh ath atq arn arc e01
-- [ ] rake cards avr brb bfz bbd btd bok bng chk chr 6ed csp
-- [ ] rake cards cmd c13 c14 c15 c16 c17 c18 cma cm2 cm1 con
+- [x] rake cards avr brb bfz bbd btd bok bng chk chr 6ed csp
+- [x] rake cards cmd c13 c14 c15 c16 c17 c18 cma cm2 cm1 con
 - [ ] rake cards cns cn2 dka dst dkm dis dom dgm dtk dd3_dvd dd3_evg
 - [ ] rake cards dd3_gvl dd3_jvc ddh ddq ddc ddf evg ddu ddd ddl ddj
 - [ ] rake cards dd2 ddm ddo ddg ddt dds ddr dde ddk ddn ddi
