@@ -2,15 +2,15 @@
 - [x] rake cards avr brb bfz bbd btd bok bng chk chr 6ed csp
 - [x] rake cards cmd c13 c14 c15 c16 c17 c18 cma cm2 cm1 con
 - [ ] rake cards cns cn2 dka dst dkm dis dom dgm dtk dd3_dvd dd3_evg
-- [ ] rake cards dd3_gvl dd3_jvc ddh ddq ddc ddf evg ddu ddd ddl ddj
+- [x] rake cards dd3_gvl dd3_jvc ddh ddq ddc ddf evg ddu ddd ddl ddj
 - [ ] rake cards dd2 ddm ddo ddg ddt dds ddr dde ddk ddn ddi
-- [ ] rake cards ddp 8ed emn ema eve exo e02 fem frf 5dn 5ed
+- [x] rake cards ddp 8ed emn ema eve exo e02 fem frf 5dn 5ed
 - [ ] rake cards 4ed v15 v14 drb v09 v11 v16 v12 v10 v17 v13
-- [ ] rake cards fut gk1 gnt gtc g18 gs1 gpt grn mps_grn hml hou
+- [x] rake cards fut gk1 gnt gtc g18 gs1 gpt grn mps_grn hml hou
 - [ ] rake cards ice ima isd inv xln jou jud kld mps_kld ktk leg
-- [ ] rake cards lgn lea leb lrw m10 m11 m12 m13 m14 m15 m19
+- [x] rake cards lgn lea leb lrw m10 m11 m12 m13 m14 m15 m19
 - [ ] rake cards ori a25 mmq mir mrd mbs md1 mma mm2 mm3 mor
-- [ ] rake cards nem nph 9ed ogw ody ons plc hop pc2 pca pls
+- [x] rake cards nem nph 9ed ogw ody ons plc hop pc2 pca pls
 - [ ] rake cards por po2 ptk pd2 pd3 h09 pcy gk2 rna mps_rna rav
 - [ ] rake cards rtr 3ed roe rix sok som scg 7ed shm soi ala
 - [ ] rake cards ss1 s99 s00 sth tmp 10e drk ths tsp tsb tor

@@ -22,7 +22,13 @@
     "loyalty": null,
     "multiverse_id": 205366,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      }
+    ]
   },
   {
     "name": "Congregate",
@@ -46,7 +52,13 @@
     "loyalty": null,
     "multiverse_id": 205387,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Creatures are counted during resolution."
+      }
+    ]
   },
   {
     "name": "Kor Sanctifiers",
@@ -74,7 +86,8 @@
     "loyalty": null,
     "multiverse_id": 205342,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Oblivion Ring",
@@ -99,7 +112,25 @@
     "loyalty": null,
     "multiverse_id": 205396,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2007",
+        "text": "If Oblivion Ring leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted nonland permanent forever."
+      },
+      {
+        "date": "10/1/2007",
+        "text": "If there are no nonland permanents on the battlefield other than an Oblivion Ring, and the card it exiled was another Oblivion Ring, casting a third Oblivion Ring will result in an involuntary infinite loop that will end the game in a draw (unless someone chooses to break it by putting another nonland permanent onto the battlefield or destroying one of the Oblivion Rings, for example)."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If the exiled card is an Aura, that card’s owner chooses what it will enchant as it comes back onto the battlefield. An Aura put onto the battlefield this way doesn’t target anything, but the Aura’s enchant ability restricts what it can be attached to. If the Aura can’t legally be attached to anything, it remains exiled forever."
+      },
+      {
+        "date": "7/1/2012",
+        "text": "Auras attached to the exiled permanent will be put into their owners’ graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist."
+      }
+    ]
   },
   {
     "name": "Orim's Thunder",
@@ -124,7 +155,8 @@
     "loyalty": null,
     "multiverse_id": 205385,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Prison Term",
@@ -152,7 +184,17 @@
     "loyalty": null,
     "multiverse_id": 205402,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "The last ability works only if Prison Term is already on the battlefield. You may move it from the creature it’s currently enchanting onto the new creature."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text."
+      }
+    ]
   },
   {
     "name": "Soul Warden",
@@ -179,7 +221,25 @@
     "loyalty": null,
     "multiverse_id": 205351,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Does not trigger on a card on the battlefield being changed into a creature."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The ability will not trigger on itself entering the battlefield, but it will trigger on any other creature that is put onto the battlefield at the same time."
+      },
+      {
+        "date": "8/1/2005",
+        "text": "Two Soul Wardens entering the battlefield at the same time will each cause the other’s ability to trigger."
+      },
+      {
+        "date": "8/1/2005",
+        "text": "The life gain is mandatory."
+      }
+    ]
   },
   {
     "name": "Broodstar",
@@ -207,7 +267,8 @@
     "loyalty": null,
     "multiverse_id": 205277,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fabricate",
@@ -231,7 +292,8 @@
     "loyalty": null,
     "multiverse_id": 205348,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Keep Watch",
@@ -255,7 +317,8 @@
     "loyalty": null,
     "multiverse_id": 205346,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Master of Etherium",
@@ -284,7 +347,21 @@
     "loyalty": null,
     "multiverse_id": 205325,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "The first ability works in all zones."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Since Master of Etherium is an artifact itself, while it’s on the battlefield you will usually control at least one artifact."
+      }
+    ]
   },
   {
     "name": "Qumulox",
@@ -311,7 +388,8 @@
     "loyalty": null,
     "multiverse_id": 205332,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sarcomite Myr",
@@ -339,7 +417,13 @@
     "loyalty": null,
     "multiverse_id": 205339,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "Sarcomite Myr is an artifact creature, just like Ornithopter. The only difference between this and any other artifact creature is that Sarcomite Myr is blue since it has blue mana in its mana cost."
+      }
+    ]
   },
   {
     "name": "Thirst for Knowledge",
@@ -363,7 +447,13 @@
     "loyalty": null,
     "multiverse_id": 205311,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "You can discard either one artifact card or two cards which may or may not be artifacts. If you really want to, you can discard two artifact cards."
+      }
+    ]
   },
   {
     "name": "Vedalken Engineer",
@@ -390,7 +480,8 @@
     "loyalty": null,
     "multiverse_id": 205338,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Whiplash Trap",
@@ -417,7 +508,29 @@
     "loyalty": null,
     "multiverse_id": 205343,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "You may ignore a Trap’s alternative cost condition and simply cast it for its normal mana cost. This is true even if its alternative cost condition has been met."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Casting a Trap by paying its alternative cost doesn’t change its mana cost or converted mana cost. The only difference is the cost you actually pay."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Effects that increase or reduce the cost to cast a Trap will apply to whichever cost you chose to pay."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "You must target two creatures as you cast Whiplash Trap. If you can’t (because just one creature is on the battlefield, perhaps), you can’t cast the spell."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "You can target any two creatures, not just ones that entered the battlefield this turn."
+      }
+    ]
   },
   {
     "name": "Ascendant Evincar",
@@ -447,7 +560,13 @@
     "loyalty": null,
     "multiverse_id": 205263,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/15/2007",
+        "text": "If Ascendant Evincar stops being black, it gives itself -1/-1."
+      }
+    ]
   },
   {
     "name": "Beacon of Unrest",
@@ -471,7 +590,13 @@
     "loyalty": null,
     "multiverse_id": 205418,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/15/2007",
+        "text": "If a Beacon is countered or doesn’t resolve, it’s put into its owner’s graveyard, not shuffled into the library."
+      }
+    ]
   },
   {
     "name": "Beseech the Queen",
@@ -496,7 +621,25 @@
     "loyalty": null,
     "multiverse_id": 205399,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "If an effect reduces the cost to cast a spell by an amount of generic mana, it applies to a monocolored hybrid spell only if you’ve chosen a method of paying for it that includes generic mana."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "A card with a monocolored hybrid mana symbol in its mana cost is each of the colors that appears in its mana cost, regardless of what mana was spent to cast it. Thus, Beseech the Queen is black even if you spend six red mana to cast it."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "A card with monocolored hybrid mana symbols in its mana cost has a converted mana cost equal to the highest possible cost it could be cast for. Its converted mana cost never changes. Thus, Beseech the Queen has a converted mana cost of 6, even if you spend {B}{B}{B} to cast it."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "If a cost includes more than one monocolored hybrid mana symbol, you can choose a different way to pay for each symbol. For example, you can pay for Beseech the Queen by spending {B}{B}{B}, {2}{B}{B}, {4}{B}, or {6}."
+      }
+    ]
   },
   {
     "name": "Cadaverous Knight",
@@ -524,7 +667,8 @@
     "loyalty": null,
     "multiverse_id": 205423,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Consume Spirit",
@@ -549,7 +693,17 @@
     "loyalty": null,
     "multiverse_id": 205347,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The amount of life you gain is equal to the number chosen for X, not the amount of damage Consume Spirit deals (in case some of it is prevented)."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If the targeted permanent or player is an illegal target by the time Consume Spirit would resolve, the entire spell doesn’t resolve. You won’t gain any life."
+      }
+    ]
   },
   {
     "name": "Corpse Harvester",
@@ -576,7 +730,13 @@
     "loyalty": null,
     "multiverse_id": 205419,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You do not have to find a Zombie card or swamp card if you do not want to, even if you have them in your library."
+      }
+    ]
   },
   {
     "name": "Cruel Revival",
@@ -600,7 +760,8 @@
     "loyalty": null,
     "multiverse_id": 205367,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dark Ritual",
@@ -624,7 +785,8 @@
     "loyalty": null,
     "multiverse_id": 205422,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Death Baron",
@@ -651,7 +813,21 @@
     "loyalty": null,
     "multiverse_id": 205322,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "A creature that’s both a Skeleton and a Zombie will get the bonus only once."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Death Baron doesn’t normally affect itself. If you manage to turn it into a Skeleton, however, then it will give itself +1/+1 and deathtouch."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Because damage remains marked on a creature until it’s removed as the turn ends, nonlethal damage dealt to a Skeleton or Zombie you control may become lethal if Death Baron leaves the battlefield during that turn."
+      }
+    ]
   },
   {
     "name": "Dregscape Zombie",
@@ -677,7 +853,29 @@
     "loyalty": null,
     "multiverse_id": 205323,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "If you activate a card’s unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Activating a creature card’s unearth ability isn’t the same as casting the creature card. The unearth ability is put on the stack, but the creature card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Remove Soul) will not."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "At the beginning of the end step, a creature returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Stifle or Voidslime that counter triggered abilities. If the ability is countered, the creature will stay on the battlefield and the delayed trigger won’t trigger again. However, the replacement effect will still exile the creature when it eventually leaves the battlefield."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Unearth grants haste to the creature that’s returned to the battlefield. However, neither of the “exile” abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If a creature returned to the battlefield with unearth would leave the battlefield for any reason, it’s exiled instead — unless the spell or ability that’s causing the creature to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If it later returns the creature card to the battlefield (as Oblivion Ring or Flickerwisp might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The unearth effect will no longer apply to it."
+      }
+    ]
   },
   {
     "name": "Festering Goblin",
@@ -704,7 +902,8 @@
     "loyalty": null,
     "multiverse_id": 205267,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Grave Pact",
@@ -728,7 +927,13 @@
     "loyalty": null,
     "multiverse_id": 205269,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Each other player sacrifices a creature for each creature you control that goes to a graveyard."
+      }
+    ]
   },
   {
     "name": "Gravedigger",
@@ -754,7 +959,13 @@
     "loyalty": null,
     "multiverse_id": 205349,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "A “creature card” is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards."
+      }
+    ]
   },
   {
     "name": "Helldozer",
@@ -781,7 +992,8 @@
     "loyalty": null,
     "multiverse_id": 205360,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Hideous End",
@@ -805,7 +1017,13 @@
     "loyalty": null,
     "multiverse_id": 205341,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "If the targeted creature is an illegal target by the time Hideous End resolves, the entire spell doesn’t resolve. No one loses life."
+      }
+    ]
   },
   {
     "name": "Incremental Blight",
@@ -829,7 +1047,13 @@
     "loyalty": null,
     "multiverse_id": 205400,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "You must target three different creatures. If you can’t, you can’t cast Incremental Blight."
+      }
+    ]
   },
   {
     "name": "Innocent Blood",
@@ -853,7 +1077,13 @@
     "loyalty": null,
     "multiverse_id": 205364,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "You can cast Innocent Blood even if some (or all) players control no creatures. Those players are simply unaffected."
+      }
+    ]
   },
   {
     "name": "Nefashu",
@@ -880,7 +1110,8 @@
     "loyalty": null,
     "multiverse_id": 205274,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Noxious Ghoul",
@@ -906,7 +1137,8 @@
     "loyalty": null,
     "multiverse_id": 205420,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Phyrexian Arena",
@@ -930,7 +1162,8 @@
     "loyalty": null,
     "multiverse_id": 205417,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Phyrexian Ghoul",
@@ -956,7 +1189,8 @@
     "loyalty": null,
     "multiverse_id": 205389,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Profane Command",
@@ -984,7 +1218,13 @@
     "loyalty": null,
     "multiverse_id": 205397,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2007",
+        "text": "The value chosen for X applies to each X in the spell’s effect. You pay {X} only once."
+      }
+    ]
   },
   {
     "name": "Rotting Rats",
@@ -1012,7 +1252,13 @@
     "loyalty": null,
     "multiverse_id": 205344,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "When Rotting Rats’s enters-the-battlefield ability resolves, first the player whose turn it is chooses a card to discard, then each other player in turn order does the same, then all cards are discarded at the same time. No one sees what the other players are discarding before deciding which card to discard."
+      }
+    ]
   },
   {
     "name": "Shepherd of Rot",
@@ -1039,7 +1285,8 @@
     "loyalty": null,
     "multiverse_id": 205372,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Soulless One",
@@ -1066,7 +1313,8 @@
     "loyalty": null,
     "multiverse_id": 205373,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Syphon Mind",
@@ -1090,7 +1338,8 @@
     "loyalty": null,
     "multiverse_id": 205374,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Syphon Soul",
@@ -1114,7 +1363,8 @@
     "loyalty": null,
     "multiverse_id": 205375,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Undead Warchief",
@@ -1141,7 +1391,8 @@
     "loyalty": null,
     "multiverse_id": 205410,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Withered Wretch",
@@ -1168,7 +1419,8 @@
     "loyalty": null,
     "multiverse_id": 205411,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Arc Lightning",
@@ -1192,7 +1444,17 @@
     "loyalty": null,
     "multiverse_id": 205386,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/20/2014",
+        "text": "You choose how many targets Arc Lightning has and how the damage is divided as you cast the spell. Each target must receive at least 1 damage."
+      },
+      {
+        "date": "9/20/2014",
+        "text": "If some of the creatures are illegal targets as Arc Lightning tries to resolve, the original division of damage still applies but no damage is dealt to the illegal targets. If all targets are illegal, Arc Lightning doesn’t resolve."
+      }
+    ]
   },
   {
     "name": "Blaze",
@@ -1216,7 +1478,8 @@
     "loyalty": null,
     "multiverse_id": 205264,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bogardan Firefiend",
@@ -1243,7 +1506,13 @@
     "loyalty": null,
     "multiverse_id": 205265,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You must pick a target creature, even if you are the only player with creatures on the battlefield."
+      }
+    ]
   },
   {
     "name": "Bogardan Rager",
@@ -1270,7 +1539,8 @@
     "loyalty": null,
     "multiverse_id": 205407,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Browbeat",
@@ -1294,7 +1564,8 @@
     "loyalty": null,
     "multiverse_id": 205416,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cinder Elemental",
@@ -1312,7 +1583,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{X}{R}, {T}, Sacrifice Cinder Elemental: Cinder Elemental deals X damage to any target."
+      "{X}{R}, {T}, Sacrifice Cinder Elemental: It deals X damage to any target."
     ],
     "flavor_text": "Their rage can grow to such proportions that they explode in a cloud of fire.",
     "power": "2",
@@ -1320,7 +1591,8 @@
     "loyalty": null,
     "multiverse_id": 205414,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cone of Flame",
@@ -1344,7 +1616,17 @@
     "loyalty": null,
     "multiverse_id": 205266,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/18/2014",
+        "text": "Each of the three targets must be different. If there aren’t three different legal targets available, you can’t cast the spell."
+      },
+      {
+        "date": "7/18/2014",
+        "text": "If one or two of Cone of Flame’s targets are illegal when it resolves, you can’t change how much damage will be dealt to the remaining legal targets."
+      }
+    ]
   },
   {
     "name": "Flamekin Harbinger",
@@ -1371,7 +1653,8 @@
     "loyalty": null,
     "multiverse_id": 205395,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Flametongue Kavu",
@@ -1397,7 +1680,13 @@
     "loyalty": null,
     "multiverse_id": 205392,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If it enters the battlefield as the only targetable creature, it must target itself."
+      }
+    ]
   },
   {
     "name": "Furnace of Rath",
@@ -1421,7 +1710,29 @@
     "loyalty": null,
     "multiverse_id": 205268,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If a spell or ability damages multiple things, divide up the damage before applying this effect. This means you can’t normally end up with an odd amount of damage on something."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The trample rules cause damage to be divided before it is doubled."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "If you have two of these on the battlefield, the damage is multiplied by 4."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The multiplied damage counts in all ways as if it came from the original source. Furnace of Rath is not the source."
+      },
+      {
+        "date": "8/1/2005",
+        "text": "If multiple effects modify how damage will be dealt, the player who would be dealt damage or the controller of the creature that would be dealt damage chooses the order to apply the effects. For example, Mending Hands says, “Prevent the next 4 damage that would be dealt to any target this turn.” Suppose a spell would deal 5 damage to a player who has cast Mending Hands targeting themselves. That player can either (a) prevent 4 damage first and then let Furnace of Rath double the remaining 1 damage, taking 2 damage, or (b) double the damage to 10 and then prevent 4 damage, taking 6 damage."
+      }
+    ]
   },
   {
     "name": "Goblin Offensive",
@@ -1445,7 +1756,13 @@
     "loyalty": null,
     "multiverse_id": 205388,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The tokens are named “Goblin” and are of creature type “Goblin”."
+      }
+    ]
   },
   {
     "name": "Insurrection",
@@ -1469,7 +1786,13 @@
     "loyalty": null,
     "multiverse_id": 205369,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You untap all creatures, control all creatures, and give all creatures Haste."
+      }
+    ]
   },
   {
     "name": "Keldon Champion",
@@ -1498,7 +1821,8 @@
     "loyalty": null,
     "multiverse_id": 205801,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Menacing Ogre",
@@ -1525,7 +1849,13 @@
     "loyalty": null,
     "multiverse_id": 205370,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You have to choose zero or a positive number. It must be an integer number."
+      }
+    ]
   },
   {
     "name": "Pyrotechnics",
@@ -1549,7 +1879,21 @@
     "loyalty": null,
     "multiverse_id": 205405,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/24/2014",
+        "text": "The number of targets chosen for Pyrotechnics must be at least one and at most four. You choose how the damage is divided as you cast the spell, not as it resolves. Each target must be assigned at least 1 damage."
+      },
+      {
+        "date": "11/24/2014",
+        "text": "If some but not all of Pyrotechnics’s targets become illegal, you can’t change the division of damage. Damage that would have been dealt to illegal targets simply isn’t dealt."
+      },
+      {
+        "date": "11/24/2014",
+        "text": "If an effect creates a copy of Pyrotechnics, the number of targets and division of damage can’t be changed. The effect that creates the copy may allow you to change the targets, however."
+      }
+    ]
   },
   {
     "name": "Reckless Charge",
@@ -1574,7 +1918,8 @@
     "loyalty": null,
     "multiverse_id": 205365,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Relentless Assault",
@@ -1598,7 +1943,25 @@
     "loyalty": null,
     "multiverse_id": 205271,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If you manage to cast this during a main phase of your opponent’s turn, that opponent’s creatures will untap and that opponent will be able to attack again. It will not allow you to attack during their turn."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Abilities that trigger when a creature attacks, blocks, or is blocked will trigger during each combat that turn. Thus, a creature with Rampage will get the bonus added during each attack."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "A creature that must attack each turn, must only attack once that turn. It is not forced into each attack that turn."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "It only creates an additional combat and main phase if it resolves during a main phase."
+      }
+    ]
   },
   {
     "name": "Rockslide Elemental",
@@ -1625,7 +1988,8 @@
     "loyalty": null,
     "multiverse_id": 205327,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rolling Thunder",
@@ -1649,7 +2013,25 @@
     "loyalty": null,
     "multiverse_id": 205391,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If X is greater than 0, you can’t choose zero targets. You must choose between one and X targets. If X is 0, you can’t choose any targets."
+      },
+      {
+        "date": "8/25/2015",
+        "text": "You choose how many targets Rolling Thunder has and how the damage is divided as you cast the spell. Each target must receive at least 1 damage."
+      },
+      {
+        "date": "8/25/2015",
+        "text": "If some, but not all, of the targets become illegal by the time Rolling Thunder tries to resolve, the original division of damage still applies, but no damage is dealt to illegal targets. If all the targets are illegal, the spell won’t resolve."
+      },
+      {
+        "date": "8/25/2015",
+        "text": "If Rolling Thunder is copied, the copy will retain the original damage divsion. The spell or ability will likely allow you to choose new targets, but you can’t change the way damage is divided."
+      }
+    ]
   },
   {
     "name": "Rorix Bladewing",
@@ -1677,7 +2059,8 @@
     "loyalty": null,
     "multiverse_id": 205371,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Smokebraider",
@@ -1704,7 +2087,21 @@
     "loyalty": null,
     "multiverse_id": 205398,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2007",
+        "text": "The mana can be two mana of the same color, or one mana of each of two different colors. The mana can’t be colorless."
+      },
+      {
+        "date": "10/1/2007",
+        "text": "You can use this mana to pay an alternative cost (such as evoke) or additional cost incurred while casting an Elemental spell. It’s not limited to just that spell’s mana cost."
+      },
+      {
+        "date": "10/1/2007",
+        "text": "The mana can’t be spent to activate activated abilities of Elemental sources that aren’t on the battlefield."
+      }
+    ]
   },
   {
     "name": "Taurean Mauler",
@@ -1731,7 +2128,8 @@
     "loyalty": null,
     "multiverse_id": 205404,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Beast Hunt",
@@ -1755,7 +2153,13 @@
     "loyalty": null,
     "multiverse_id": 205340,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "If there are three or fewer cards in your library, you’ll reveal all of them."
+      }
+    ]
   },
   {
     "name": "Briarhorn",
@@ -1783,7 +2187,13 @@
     "loyalty": null,
     "multiverse_id": 205393,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first."
+      }
+    ]
   },
   {
     "name": "Explosive Vegetation",
@@ -1807,7 +2217,8 @@
     "loyalty": null,
     "multiverse_id": 205368,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fertile Ground",
@@ -1834,7 +2245,8 @@
     "loyalty": null,
     "multiverse_id": 205394,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fertilid",
@@ -1861,7 +2273,13 @@
     "loyalty": null,
     "multiverse_id": 205403,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/1/2008",
+        "text": "Although the targeted player doesn’t need to find a basic land card if they don’t want to, that player must shuffle their library."
+      }
+    ]
   },
   {
     "name": "Forgotten Ancient",
@@ -1888,7 +2306,25 @@
     "loyalty": null,
     "multiverse_id": 205273,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "It does not get counters for copies of spells (as with Storm), just for spells that are actually cast."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The moving of counters is not a targeted ability."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "You decide how many counters to move and where to move them when the ability resolves."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Putting on a counter is optional. If you forget to do so, it means you chose not to do so."
+      }
+    ]
   },
   {
     "name": "Ivy Elemental",
@@ -1914,7 +2350,8 @@
     "loyalty": null,
     "multiverse_id": 206024,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Living Hive",
@@ -1942,7 +2379,8 @@
     "loyalty": null,
     "multiverse_id": 205315,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rampant Growth",
@@ -1966,7 +2404,17 @@
     "loyalty": null,
     "multiverse_id": 205350,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The land does not count toward your one per turn limit because it was put onto the battlefield by an effect."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to."
+      }
+    ]
   },
   {
     "name": "Search for Tomorrow",
@@ -1991,7 +2439,49 @@
     "loyalty": null,
     "multiverse_id": 205408,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      }
+    ]
   },
   {
     "name": "Silverglade Elemental",
@@ -2017,7 +2507,13 @@
     "loyalty": null,
     "multiverse_id": 205415,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to."
+      }
+    ]
   },
   {
     "name": "Tornado Elemental",
@@ -2044,7 +2540,21 @@
     "loyalty": null,
     "multiverse_id": 205333,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/27/2018",
+        "text": "You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it."
+      },
+      {
+        "date": "4/27/2018",
+        "text": "When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the player or planeswalker this creature is attacking. You can’t split the damage assignment between them."
+      },
+      {
+        "date": "4/27/2018",
+        "text": "If blocked by a creature with banding, the defending player decides whether or not the damage is assigned “as though it weren’t blocked”."
+      }
+    ]
   },
   {
     "name": "Tribal Unity",
@@ -2068,7 +2578,8 @@
     "loyalty": null,
     "multiverse_id": 205376,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Verdant Force",
@@ -2094,7 +2605,17 @@
     "loyalty": null,
     "multiverse_id": 205272,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2006",
+        "text": "In Two-Headed Giant, triggers only once per upkeep, not once for each player."
+      },
+      {
+        "date": "4/27/2018",
+        "text": "Verdant Force’s ability triggers at the beginning of each upkeep, not just each of your upkeeps."
+      }
+    ]
   },
   {
     "name": "Boros Swiftblade",
@@ -2121,7 +2642,8 @@
     "loyalty": null,
     "multiverse_id": 205359,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Branching Bolt",
@@ -2147,7 +2669,13 @@
     "loyalty": null,
     "multiverse_id": 205320,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "You may choose just the first mode (targeting a creature with flying), just the second mode (targeting a creature without flying), or both modes (targeting a creature with flying and a creature without flying). You can’t choose a mode unless there’s a legal target for it."
+      }
+    ]
   },
   {
     "name": "Bull Cerodon",
@@ -2173,7 +2701,8 @@
     "loyalty": null,
     "multiverse_id": 205321,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Captain's Maneuver",
@@ -2197,7 +2726,17 @@
     "loyalty": null,
     "multiverse_id": 205382,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If the second target is no longer on the battlefield, or if the second target is no longer a creature, player, or planeswalker when the damage would be redirected, the damage is dealt to the first target as if this spell was not cast."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "If the first target is no longer on the battlefield, then the damage will not be dealt at all, so it can’t be redirected by this ability."
+      }
+    ]
   },
   {
     "name": "Cerodon Yearling",
@@ -2223,7 +2762,8 @@
     "loyalty": null,
     "multiverse_id": 205802,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fires of Yavimaya",
@@ -2248,7 +2788,8 @@
     "loyalty": null,
     "multiverse_id": 205412,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Glory of Warfare",
@@ -2273,7 +2814,13 @@
     "loyalty": null,
     "multiverse_id": 205318,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "There is never a point at which Glory of Warfare will give a creature you control +2/+2 or +0/+0. A creature that’s normally 1/1, for example, will change from being 3/1 to being 1/3 when your turn ends and another player’s turn begins. At no time will it be 3/3 or 1/1."
+      }
+    ]
   },
   {
     "name": "Hull Breach",
@@ -2300,7 +2847,8 @@
     "loyalty": null,
     "multiverse_id": 205413,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Lightning Helix",
@@ -2324,7 +2872,13 @@
     "loyalty": null,
     "multiverse_id": 205361,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If the chosen target is illegal when Lightning Helix tries to resolve, it won’t resolve and none of its effects will happen. You won’t gain 3 life."
+      }
+    ]
   },
   {
     "name": "Mage Slayer",
@@ -2351,7 +2905,17 @@
     "loyalty": null,
     "multiverse_id": 205319,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "This ability triggers and resolves in the declare attackers step. The creature will still deal its combat damage as normal later on during the combat phase."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the equipped creature attacks, the first ability will trigger. When that ability resolves, that creature will deal damage equal to its power to player or planeswalker it’s attacking, even if Mage Slayer has left the battlefield or is equipping a different creature by that time."
+      }
+    ]
   },
   {
     "name": "Razia, Boros Archangel",
@@ -2380,7 +2944,17 @@
     "loyalty": null,
     "multiverse_id": 205362,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "The 3 damage doesn’t have to be from the same source, and it doesn’t have to be all dealt at once. If only 2 damage is redirected, the next 1 damage will also be redirected."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "If either target creature leaves the battlefield before damage is dealt, that damage won’t be redirected. It doesn’t matter if Razia leaves the battlefield."
+      }
+    ]
   },
   {
     "name": "Rumbling Slum",
@@ -2406,7 +2980,8 @@
     "loyalty": null,
     "multiverse_id": 205354,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Savage Twister",
@@ -2430,7 +3005,8 @@
     "loyalty": null,
     "multiverse_id": 205355,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sludge Strider",
@@ -2457,7 +3033,17 @@
     "loyalty": null,
     "multiverse_id": 205345,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "If Sludge Strider and another artifact enter the battlefield under your control at the same time, Sludge Strider’s triggered ability will trigger. Similarly, if Sludge Strider and another artifact you control leave the battlefield at the same time, Sludge Strider’s triggered ability will trigger."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If an artifact creature with 0 toughness enters the battlefield under your control, Sludge Strider’s ability will trigger a total of twice: Once when that creature enters the battlefield, and once when it’s put into a graveyard. Both abilities will be put on the stack after the state-based action check that puts the 0-toughness creature into the graveyard is finished."
+      }
+    ]
   },
   {
     "name": "Arsenal Thresher",
@@ -2484,7 +3070,17 @@
     "loyalty": null,
     "multiverse_id": 205317,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "If multiple Arsenal Threshers are entering the battlefield at the same time (for example, if Warp World is resolving), you may reveal the same artifact cards from your hand for each of them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If Arsenal Thresher and another artifact are entering the battlefield from your hand at the same time, you may reveal that other artifact for Arsenal Thresher. If that artifact is a second Arsenal Thresher, you may reveal each Arsenal Thresher for the other."
+      }
+    ]
   },
   {
     "name": "Balefire Liege",
@@ -2514,7 +3110,13 @@
     "loyalty": null,
     "multiverse_id": 205377,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The abilities are separate and cumulative. If another creature you control is both of the listed colors, it will get a total of +2/+2."
+      }
+    ]
   },
   {
     "name": "Battlegate Mimic",
@@ -2540,7 +3142,25 @@
     "loyalty": null,
     "multiverse_id": 205378,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The ability triggers whenever you cast a spell that’s both of its listed colors. It doesn’t matter whether that spell also happens to be any other colors."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If you cast a spell that’s the two appropriate colors for the second time in a turn, the ability triggers again. The Mimic will once again become the power and toughness stated in its ability, which could overwrite power- and toughness-setting effects that have been applied to it in the meantime."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Any other abilities the Mimic may have gained are not affected."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The effect from the ability overwrites other effects that set power and/or toughness if and only if those effects existed before the ability resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the ability resolves. Effects that switch the creature’s power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created."
+      }
+    ]
   },
   {
     "name": "Boros Guildmage",
@@ -2568,7 +3188,8 @@
     "loyalty": null,
     "multiverse_id": 205357,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Double Cleave",
@@ -2592,7 +3213,8 @@
     "loyalty": null,
     "multiverse_id": 205379,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Duergar Hedge-Mage",
@@ -2620,7 +3242,25 @@
     "loyalty": null,
     "multiverse_id": 205380,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Each of the triggered abilities has an “intervening ‘if’ clause.” That means (1) the ability won’t trigger at all unless you control two or more lands of the appropriate land type when the Hedge-Mage enters the battlefield, and (2) the ability will do nothing if you don’t control two or more lands of the appropriate land type by the time it resolves."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Both abilities trigger at the same time. You can put them on the stack in any order."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Each of the triggered abilities look at your lands individually. This means that if you only control two dual-lands of the appropriate types, both of the abilities will trigger."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Both abilities are optional; you choose whether to use them when they resolve. If an ability has a target, you must choose a target even if you don’t plan to use the ability."
+      }
+    ]
   },
   {
     "name": "Hearthfire Hobgoblin",
@@ -2647,7 +3287,8 @@
     "loyalty": null,
     "multiverse_id": 205381,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Assault (Assault/Battery)",
@@ -2671,7 +3312,8 @@
     "loyalty": null,
     "multiverse_id": 205409,
     "other_part": "Battery (Assault/Battery)",
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Battery (Assault/Battery)",
@@ -2695,7 +3337,8 @@
     "loyalty": null,
     "multiverse_id": 205409,
     "other_part": "Assault (Assault/Battery)",
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Order (Order/Chaos)",
@@ -2719,7 +3362,8 @@
     "loyalty": null,
     "multiverse_id": 205384,
     "other_part": "Chaos (Order/Chaos)",
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Chaos (Order/Chaos)",
@@ -2743,7 +3387,8 @@
     "loyalty": null,
     "multiverse_id": 205384,
     "other_part": "Order (Order/Chaos)",
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Arcbound Crusher",
@@ -2772,7 +3417,13 @@
     "loyalty": null,
     "multiverse_id": 205335,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/25/2006",
+        "text": "If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield."
+      }
+    ]
   },
   {
     "name": "Arcbound Slith",
@@ -2800,7 +3451,13 @@
     "loyalty": null,
     "multiverse_id": 205336,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/25/2006",
+        "text": "If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield."
+      }
+    ]
   },
   {
     "name": "Boros Signet",
@@ -2824,7 +3481,8 @@
     "loyalty": null,
     "multiverse_id": 205358,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bosh, Iron Golem",
@@ -2854,7 +3512,8 @@
     "loyalty": null,
     "multiverse_id": 205276,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Copper Myr",
@@ -2881,7 +3540,8 @@
     "loyalty": null,
     "multiverse_id": 205278,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cranial Plating",
@@ -2909,7 +3569,8 @@
     "loyalty": null,
     "multiverse_id": 205328,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Darksteel Forge",
@@ -2933,7 +3594,8 @@
     "loyalty": null,
     "multiverse_id": 205337,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Door to Nothingness",
@@ -2958,7 +3620,8 @@
     "loyalty": null,
     "multiverse_id": 205329,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Etched Oracle",
@@ -2986,7 +3649,8 @@
     "loyalty": null,
     "multiverse_id": 205330,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Gold Myr",
@@ -3013,7 +3677,8 @@
     "loyalty": null,
     "multiverse_id": 205283,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Iron Myr",
@@ -3040,7 +3705,8 @@
     "loyalty": null,
     "multiverse_id": 205285,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Leaden Myr",
@@ -3067,7 +3733,8 @@
     "loyalty": null,
     "multiverse_id": 205290,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Lodestone Myr",
@@ -3095,7 +3762,8 @@
     "loyalty": null,
     "multiverse_id": 205291,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Loxodon Warhammer",
@@ -3122,7 +3790,8 @@
     "loyalty": null,
     "multiverse_id": 205270,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mask of Memory",
@@ -3149,7 +3818,8 @@
     "loyalty": null,
     "multiverse_id": 205316,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Myr Enforcer",
@@ -3176,7 +3846,8 @@
     "loyalty": null,
     "multiverse_id": 205296,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Nuisance Engine",
@@ -3200,7 +3871,8 @@
     "loyalty": null,
     "multiverse_id": 205297,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Pentad Prism",
@@ -3225,7 +3897,8 @@
     "loyalty": null,
     "multiverse_id": 205331,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Pentavus",
@@ -3254,7 +3927,17 @@
     "loyalty": null,
     "multiverse_id": 205298,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/22/2011",
+        "text": "You can remove any +1/+1 counter on Pentavus to activate its first activated ability, not just ones created by Pentavus’s other abilities."
+      },
+      {
+        "date": "9/22/2011",
+        "text": "You can sacrifice any Pentavite creature you control (such as an Adaptive Automaton with Pentavite as its chosen type) to activate Pentavus’s second activated ability, not just ones created by Pentavus’s other abilities."
+      }
+    ]
   },
   {
     "name": "Relic of Progenitus",
@@ -3279,7 +3962,17 @@
     "loyalty": null,
     "multiverse_id": 205326,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "If you activate Relic of Progenitus’s first ability, the targeted player chooses which card to exile. The choice is made as the ability resolves."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "You can activate Relic of Progenitus’s second ability even if no players have any cards in their graveyards. You’ll still draw a card."
+      }
+    ]
   },
   {
     "name": "Serum Tank",
@@ -3304,7 +3997,8 @@
     "loyalty": null,
     "multiverse_id": 205304,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Silver Myr",
@@ -3331,7 +4025,8 @@
     "loyalty": null,
     "multiverse_id": 205305,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Skeleton Shard",
@@ -3355,7 +4050,13 @@
     "loyalty": null,
     "multiverse_id": 205306,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You can pay either of the two costs (but not both at the same time) to activate the ability."
+      }
+    ]
   },
   {
     "name": "Suntouched Myr",
@@ -3382,7 +4083,8 @@
     "loyalty": null,
     "multiverse_id": 205334,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wizard Replica",
@@ -3410,7 +4112,8 @@
     "loyalty": null,
     "multiverse_id": 205314,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ancient Den",
@@ -3436,7 +4139,8 @@
     "loyalty": null,
     "multiverse_id": 205275,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Boros Garrison",
@@ -3462,7 +4166,13 @@
     "loyalty": null,
     "multiverse_id": 205356,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Cabal Coffers",
@@ -3486,7 +4196,8 @@
     "loyalty": null,
     "multiverse_id": 205421,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Great Furnace",
@@ -3511,7 +4222,8 @@
     "loyalty": null,
     "multiverse_id": 205284,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Gruul Turf",
@@ -3537,7 +4249,13 @@
     "loyalty": null,
     "multiverse_id": 205353,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Leechridden Swamp",
@@ -3565,7 +4283,8 @@
     "loyalty": null,
     "multiverse_id": 205401,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Seat of the Synod",
@@ -3591,7 +4310,8 @@
     "loyalty": null,
     "multiverse_id": 205303,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Shivan Oasis",
@@ -3616,7 +4336,8 @@
     "loyalty": null,
     "multiverse_id": 205406,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sunhome, Fortress of the Legion",
@@ -3641,7 +4362,17 @@
     "loyalty": null,
     "multiverse_id": 205363,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "If you give double strike to a creature with first strike after first-strike combat damage has been dealt, that creature will also deal damage during the normal combat damage step."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "If you give double strike to a creature after either first-strike or normal combat damage has been dealt, it won’t help that creature deal any additional combat damage."
+      }
+    ]
   },
   {
     "name": "Terramorphic Expanse",
@@ -3665,7 +4396,8 @@
     "loyalty": null,
     "multiverse_id": 205352,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tree of Tales",
@@ -3691,7 +4423,8 @@
     "loyalty": null,
     "multiverse_id": 205312,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vault of Whispers",
@@ -3717,7 +4450,8 @@
     "loyalty": null,
     "multiverse_id": 205313,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -3745,7 +4479,8 @@
     "loyalty": null,
     "multiverse_id": 205436,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -3773,7 +4508,8 @@
     "loyalty": null,
     "multiverse_id": 205440,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -3801,7 +4537,8 @@
     "loyalty": null,
     "multiverse_id": 205428,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -3829,7 +4566,8 @@
     "loyalty": null,
     "multiverse_id": 205430,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -3857,7 +4595,8 @@
     "loyalty": null,
     "multiverse_id": 205301,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -3885,7 +4624,8 @@
     "loyalty": null,
     "multiverse_id": 205288,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -3913,7 +4653,8 @@
     "loyalty": null,
     "multiverse_id": 205289,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -3941,7 +4682,8 @@
     "loyalty": null,
     "multiverse_id": 205287,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -3969,7 +4711,8 @@
     "loyalty": null,
     "multiverse_id": 205286,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -3997,7 +4740,8 @@
     "loyalty": null,
     "multiverse_id": 205309,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -4025,7 +4769,8 @@
     "loyalty": null,
     "multiverse_id": 205442,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -4053,7 +4798,8 @@
     "loyalty": null,
     "multiverse_id": 205434,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -4081,7 +4827,8 @@
     "loyalty": null,
     "multiverse_id": 205443,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -4109,7 +4856,8 @@
     "loyalty": null,
     "multiverse_id": 205446,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -4137,7 +4885,8 @@
     "loyalty": null,
     "multiverse_id": 205435,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -4165,7 +4914,8 @@
     "loyalty": null,
     "multiverse_id": 205292,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -4193,7 +4943,8 @@
     "loyalty": null,
     "multiverse_id": 205468,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -4221,7 +4972,8 @@
     "loyalty": null,
     "multiverse_id": 205441,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -4249,7 +5001,8 @@
     "loyalty": null,
     "multiverse_id": 205447,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -4277,7 +5030,8 @@
     "loyalty": null,
     "multiverse_id": 205469,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -4305,7 +5059,8 @@
     "loyalty": null,
     "multiverse_id": 205471,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -4333,7 +5088,8 @@
     "loyalty": null,
     "multiverse_id": 205470,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -4361,7 +5117,8 @@
     "loyalty": null,
     "multiverse_id": 205432,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -4389,7 +5146,8 @@
     "loyalty": null,
     "multiverse_id": 205467,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -4417,7 +5175,8 @@
     "loyalty": null,
     "multiverse_id": 205464,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -4445,7 +5204,8 @@
     "loyalty": null,
     "multiverse_id": 205279,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -4473,7 +5233,8 @@
     "loyalty": null,
     "multiverse_id": 205465,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -4501,6 +5262,7 @@
     "loyalty": null,
     "multiverse_id": 205466,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]

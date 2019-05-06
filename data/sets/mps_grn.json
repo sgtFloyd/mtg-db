@@ -27,7 +27,17 @@
     "loyalty": "4",
     "multiverse_id": 456589,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/1/2011",
+        "text": "Emblems behave similarly to enchantments: They have an ability that, in a general sense, continually affects the game. The primary difference between them is that emblems aren’t permanents and don’t exist on the battlefield. Nothing in the game can remove an emblem, simply because no other spell or ability references them. Once you get an emblem, you keep it for the rest of the game. Emblems have no color, name, card type, or other characteristics beyond the listed ability."
+      },
+      {
+        "date": "7/1/2013",
+        "text": "Lethal damage and effects that say “destroy” won’t cause a permanent with indestructible to be put into the graveyard. However, a permanent with indestructible can be put into the graveyard for a number of reasons. The most likely reasons are if it’s sacrificed, if it’s a creature whose toughness is 0 or less, or if it’s an Aura that’s either unattached or attached to something illegal."
+      }
+    ]
   },
   {
     "name": "Liliana, the Last Hope",
@@ -57,7 +67,21 @@
     "loyalty": "3",
     "multiverse_id": 456590,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2016",
+        "text": "You can activate Liliana’s first ability without any targets just to add a loyalty counter to her."
+      },
+      {
+        "date": "7/13/2016",
+        "text": "Liliana’s second ability doesn’t target the card to return to your hand. After putting the top two cards of your library into your graveyard, you may choose from among any creature cards there."
+      },
+      {
+        "date": "7/13/2016",
+        "text": "While resolving the triggered ability of Liliana’s emblem, if you control zero Zombies, you’ll get two Zombie tokens."
+      }
+    ]
   },
   {
     "name": "Daretti, Ingenious Iconoclast",
@@ -87,7 +111,17 @@
     "loyalty": "3",
     "multiverse_id": 456591,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/23/2016",
+        "text": "For the second ability, you choose the target artifact or creature as you activate the ability. You choose whether to sacrifice an artifact and which artifact to sacrifice as the ability resolves."
+      },
+      {
+        "date": "8/23/2016",
+        "text": "For the last ability, if you choose an artifact on the battlefield as the target, and that artifact is no longer on the battlefield as the ability tries to resolve, the ability won’t resolve and none of its effects will happen. You won’t get any tokens. This is true even if the card that represented that artifact is now in a graveyard. That card will be a different object than it was on the battlefield."
+      }
+    ]
   },
   {
     "name": "Nicol Bolas, Planeswalker",
@@ -117,7 +151,21 @@
     "loyalty": "5",
     "multiverse_id": 456592,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "The control-change effect has no duration. It will last until the game ends or the affected creature leaves the battlefield. It may be superseded by a later control-change effect."
+      },
+      {
+        "date": "7/1/2012",
+        "text": "If the damage from Nicol Bolas’s third ability is prevented or redirected, the rest of the effect will still happen. Specifically, the number of cards discarded and permanents sacrificed isn’t tied to the amount of damage dealt."
+      },
+      {
+        "date": "7/1/2012",
+        "text": "For the third ability, if the player is an illegal target when the ability tries to resolve, the ability doesn’t resolve and none of its effects will happen. No damage will be dealt, no cards will be discarded, and no permanents will be sacrificed."
+      }
+    ]
   },
   {
     "name": "Ral, Izzet Viceroy",
@@ -147,7 +195,29 @@
     "loyalty": "5",
     "multiverse_id": 456593,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/5/2018",
+        "text": "If you have only one card in your library, Ral’s first ability puts it into your hand. Nothing is put into your graveyard."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "If any exiled cards you own are face down, they have no characteristics. If they’re normally instants or sorceries, they won’t be counted for Ral’s second ability."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "The emblem created by Ral’s last ability is colorless. The damage it deals is from a colorless source."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "The triggered ability of Ral’s emblem resolves before the spell that caused it to trigger. It resolves even if that spell is countered."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "If the target permanent or player becomes an illegal target for the triggered ability of Ral’s emblem, the ability doesn’t resolve. You don’t draw two cards."
+      }
+    ]
   },
   {
     "name": "Teferi, Hero of Dominaria",
@@ -177,7 +247,17 @@
     "loyalty": "4",
     "multiverse_id": 456594,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/27/2018",
+        "text": "You don’t decide which two lands to untap until the next end step."
+      },
+      {
+        "date": "4/27/2018",
+        "text": "You choose the target for the triggered ability of Teferi’s emblem after you’ve seen the card you drew."
+      }
+    ]
   },
   {
     "name": "Tezzeret, Agent of Bolas",
@@ -207,7 +287,25 @@
     "loyalty": "3",
     "multiverse_id": 456595,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2011",
+        "text": "The artifact targeted by the second ability will retain any types, subtypes, or supertypes it has. Notably, if an Equipment becomes an artifact creature, it can’t be attached to another creature. If it was attached to a creature, it becomes unattached."
+      },
+      {
+        "date": "6/1/2011",
+        "text": "If the target of the second ability is already an artifact creature, its power and toughness will each become 5. This overwrites all previous effects that set the creature’s power and toughness to specific values. Any power- or toughness-setting effects that start to apply after this ability resolves will overwrite this effect."
+      },
+      {
+        "date": "6/1/2011",
+        "text": "Effects that modify that creature’s power or toughness, such as the effects of Giant Growth, will apply to it no matter when they started to take effect. The same is true for counters that change the creature’s power or toughness (such as -1/-1 counters) and effects that switch its power and toughness."
+      },
+      {
+        "date": "6/1/2011",
+        "text": "The number of artifacts you control is counted when the last ability resolves, not when it is activated."
+      }
+    ]
   },
   {
     "name": "Vraska, Golgari Queen",
@@ -237,6 +335,20 @@
     "loyalty": "4",
     "multiverse_id": 456596,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/5/2018",
+        "text": "You choose whether to sacrifice a permanent (and which one to sacrifice) while Vraska’s first ability is resolving. No player may take actions between the time you choose which permanent to sacrifice and the time you do so."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "Tokens that aren’t a copy of something else don’t have a mana cost. Anything without a mana cost normally has a converted mana cost of 0."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "If a permanent has {X} in its mana cost, X is considered to be 0."
+      }
+    ]
   }
 ]
