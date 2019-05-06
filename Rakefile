@@ -13,3 +13,8 @@ task :cards do
   ruby "script/dump_cards.rb #{ARGV[1..-1].join(' ')}"
   ARGV[1..-1].map{|_| task(_.to_sym){}} # Rake tries to execute ARGV as tasks
 end
+
+desc "Update card data for sets not included in Gatherer."
+task :non_gatherer_cards do
+  ruby "script/update_non_gatherer_sets.rb"
+end

@@ -26,20 +26,29 @@ end
 NON_GATHERER_SETS_WITH_SOURCES.each do |set_code, source_set_codes|
   set_json_path = File.expand_path("../../data/sets/#{set_code}.json", __FILE__)
   non_gatherer_set_json = read(set_json_path)
+  new_set_json = []
 
   # Search through sets printed before this non-gatherer set to find a prior
   # printing of each card. Take oracle text, types, rulings, etc from Gatherer card.
-  non_gatherer_set_json.map{|c| c['name']}.each do |card_name|
-    candidates = []
+  non_gatherer_set_json.each do |card_json|
+    card_candidates = []
     source_set_codes.each do |source_set_code|
       source_json = $set_json_cache[source_set_code]
-      candidates += source_json.select{|card| card['name'] == card_name}
+      card_candidates += source_json.select{|card| card['name'] == card_json['name']}
     end
 
-    # If all candidates have the same rules text, just use it.
-    candidates = candidates.uniq do |c|
-      [c['oracle_text'], c['types'], c['supertypes'], c['subtypes'], c['rulings']]
-    end
-    require 'pry'; binding.pry
+    candidate = card_candidates.first
+    new_set_json << card_json.merge({
+      'types' => candidate['types'],
+      'supertypes' => candidate['supertypes'],
+      'subtypes' => candidate['subtypes'],
+      'mana_cost' => candidate['mana_cost'],
+      'converted_mana_cost' => candidate['converted_mana_cost'],
+      'oracle_text' => candidate['oracle_text'],
+      'power' => candidate['power'],
+      'toughness' => candidate['toughness'],
+      'rulings' => candidate['rulings']
+    })
   end
+  write(set_json_path, new_set_json)
 end
