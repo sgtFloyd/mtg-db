@@ -81,6 +81,13 @@ class StandardCard
     color_indicator_str.split(', ').join(' ') if color_indicator_str
   end
 
+  def parse_rulings
+    container.css(".rulingsTable tr.post").map do |post|
+      { 'date' => post.css("[id$=\"rulingDate\"]").text.strip,
+        'text' => post.css("[id$=\"rulingText\"]").text.strip }
+    end
+  end
+
   CARD_NAME_REPLACEMENTS = {
     'kongming, "sleeping dragon"' => 'Kongming, “Sleeping Dragon”',
     'pang tong, "young phoenix"' => 'Pang Tong, “Young Phoenix”',
@@ -108,6 +115,7 @@ class StandardCard
       'multiverse_id'       => self.multiverse_id,
       'other_part'          => nil, # only relevant for split, flip, etc.
       'color_indicator'     => parse_color_indicator,
+      'rulings'             => parse_rulings,
     }
   end
 
