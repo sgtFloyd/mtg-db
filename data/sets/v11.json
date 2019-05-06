@@ -26,7 +26,13 @@
     "loyalty": null,
     "multiverse_id": 244670,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/20/2013",
+        "text": "If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn."
+      }
+    ]
   },
   {
     "name": "Captain Sisay",
@@ -55,7 +61,13 @@
     "loyalty": null,
     "multiverse_id": 244665,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to."
+      }
+    ]
   },
   {
     "name": "Doran, the Siege Tower",
@@ -84,7 +96,21 @@
     "loyalty": null,
     "multiverse_id": 244674,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2007",
+        "text": "Doran’s ability means, for example, that a 2/3 creature will assign 3 damage in combat instead of 2."
+      },
+      {
+        "date": "10/1/2007",
+        "text": "Doran’s ability doesn’t actually change creatures’ power; it changes only the value of the combat damage they assign. All other rules and effects that check power or toughness use the real values."
+      },
+      {
+        "date": "10/1/2007",
+        "text": "This effect is mandatory and affects all creatures."
+      }
+    ]
   },
   {
     "name": "Kiki-Jiki, Mirror Breaker",
@@ -114,7 +140,29 @@
     "loyalty": null,
     "multiverse_id": 244666,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "The token copies exactly what was printed on the creature and nothing else (unless that creature was copying something else or was a token; see below). It doesn’t copy whether that creature was tapped or untapped, whether it had any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If the copied creature had {X} in its mana cost, X is 0."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If the copied creature was copying something else, the tokens enter the battlefield as whatever that creature was copying."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If the copied creature is a token, the tokens created by Kiki-Jiki’s ability copies the original characteristics of that token as stated by the effect that put it onto the battlefield."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Any enters-the-battlefield abilities of the copied creature will trigger when the tokens enter the battlefield. Any “As [this creature] enters the battlefield” or “[This creature] enters the battlefield with” abilities of the copied creature will also work."
+      }
+    ]
   },
   {
     "name": "Kresh the Bloodbraided",
@@ -143,7 +191,13 @@
     "loyalty": null,
     "multiverse_id": 244672,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "X is equal to the power of the creature as it last existed on the battlefield."
+      }
+    ]
   },
   {
     "name": "Mikaeus, the Lunarch",
@@ -174,7 +228,8 @@
     "loyalty": null,
     "multiverse_id": 259296,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Omnath, Locus of Mana",
@@ -203,7 +258,21 @@
     "loyalty": null,
     "multiverse_id": 259295,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/1/2010",
+        "text": "You can keep green mana in your mana pool indefinitely while Omnath is on the battlefield. That means if you add a green mana to your mana pool during one step or phase, you can spend it during a later step or phase, or even a later turn. Other types of mana will continue to empty from your mana pool as each step and phase ends."
+      },
+      {
+        "date": "3/1/2010",
+        "text": "If a green mana you add to your mana pool has certain restrictions or riders associated with it (for example, if it was produced by Ancient Ziggurat), they’ll apply to that mana no matter when you spend it."
+      },
+      {
+        "date": "3/1/2010",
+        "text": "Once Omnath leaves the battlefield, you have until the end of the current step or phase to spend whatever green mana is in your mana pool before it too empties as normal. There is no penalty associated with this other than the loss of the mana."
+      }
+    ]
   },
   {
     "name": "Oona, Queen of the Fae",
@@ -233,7 +302,17 @@
     "loyalty": null,
     "multiverse_id": 244668,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "You target the opponent when you activate Oona’s ability. You don’t choose the color until the ability resolves."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "The tokens enter the battlefield under your control."
+      }
+    ]
   },
   {
     "name": "Progenitus",
@@ -263,7 +342,17 @@
     "loyalty": null,
     "multiverse_id": 244675,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "“Protection from everything” means the following: Progenitus can’t be blocked, Progenitus can’t be enchanted or equipped, Progenitus can’t be the target of spells or abilities, and all damage that would be dealt to Progenitus is prevented."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Progenitus can still be affected by effects that don’t target it or deal damage to it (such as Day of Judgment)."
+      }
+    ]
   },
   {
     "name": "Rafiq of the Many",
@@ -293,7 +382,33 @@
     "loyalty": null,
     "multiverse_id": 244669,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If you attack with multiple creatures, but then all but one are removed from combat, your exalted abilities won’t trigger."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they’re ignored by exalted abilities. They won’t cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Exalted abilities will resolve before blockers are declared."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Exalted bonuses last until end of turn. If an effect creates an additional combat phase during your turn, a creature that attacked alone during the first combat phase will still have its exalted bonuses in that new phase. If a creature attacks alone during the second combat phase, all your exalted abilities will trigger again."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "In a Two-Headed Giant game, a creature “attacks alone” if it’s the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate’s exalted abilities won’t."
+      }
+    ]
   },
   {
     "name": "Sharuum the Hegemon",
@@ -323,7 +438,8 @@
     "loyalty": null,
     "multiverse_id": 244664,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sun Quan, Lord of Wu",
@@ -352,7 +468,17 @@
     "loyalty": null,
     "multiverse_id": 244663,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Sun Quan’s ability affects Sun Quan itself."
+      }
+    ]
   },
   {
     "name": "Teferi, Mage of Zhalfir",
@@ -383,7 +509,25 @@
     "loyalty": null,
     "multiverse_id": 244667,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "If you have Teferi on the battlefield and there’s a Split Second spell on the stack (such as Sudden Death), you can’t Suspend creatures until after the Split Second spell resolves."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Teferi’s last ability means that in order for an opponent to cast a spell, it must be that opponent’s turn, during a main phase, and the stack must be empty. This is true even if the player doesn’t have a sorcery they are able to cast, or if a rule or effect allows a sorcery to be cast at another time."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If you have Teferi on the battlefield, you may exile creature cards in your hand with suspend any time you could cast an instant."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a spell or ability lets an opponent cast a card as part of its effect (such as suspend and rebound do), that opponent can’t cast that card since the currently resolving ability is still on the stack. This is true even if that card is an instant."
+      }
+    ]
   },
   {
     "name": "Ulamog, the Infinite Gyre",
@@ -414,7 +558,25 @@
     "loyalty": null,
     "multiverse_id": 261321,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won’t be able to block."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn’t blocked, it simply won’t deal combat damage to anything."
+      },
+      {
+        "date": "7/1/2013",
+        "text": "Lethal damage and effects that say “destroy” won’t cause a creature with indestructible to be put into the graveyard. However, a creature with indestructible can be put into the graveyard for a number of reasons. The most likely reasons are if it’s sacrificed, if it’s legendary and another legendary creature with the same name is controlled by the same player, or if its toughness is 0 or less."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "Ulamog’s ability triggers as you cast it, and that ability resolves before the spell itself. It resolves even if that spell is countered."
+      }
+    ]
   },
   {
     "name": "Visara the Dreadful",
@@ -443,6 +605,7 @@
     "loyalty": null,
     "multiverse_id": 244677,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]

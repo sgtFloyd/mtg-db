@@ -27,7 +27,25 @@
     "loyalty": "3",
     "multiverse_id": 368535,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/22/2011",
+        "text": "The emblems are cumulative. If you get two of them, creatures you control will get +2/+0."
+      },
+      {
+        "date": "1/22/2011",
+        "text": "You can target a token creature with Sorin, Lord of Innistrad’s third ability, but it won’t return to the battlefield."
+      },
+      {
+        "date": "1/22/2011",
+        "text": "If a creature with undying is destroyed by Sorin, Lord of Innistrad’s third ability, the undying ability will trigger, but the creature will already have been returned to the battlefield by Sorin. The undying ability won’t do anything when it resolves."
+      },
+      {
+        "date": "1/22/2011",
+        "text": "If Sorin, Lord of Innistrad somehow becomes a creature, it can be chosen as a target of its own third ability. If Sorin, Lord of Innistrad is still on the battlefield when that ability resolves, it will then destroy Sorin and return him to the battlefield under your control."
+      }
+    ]
   },
   {
     "name": "Doomed Traveler",
@@ -54,7 +72,8 @@
     "loyalty": null,
     "multiverse_id": 368503,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vampire Lacerator",
@@ -81,7 +100,13 @@
     "loyalty": null,
     "multiverse_id": 368481,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "Whether an opponent has 10 or less life is checked only as Vampire Lacerator’s ability resolves."
+      }
+    ]
   },
   {
     "name": "Wall of Omens",
@@ -108,7 +133,8 @@
     "loyalty": null,
     "multiverse_id": 368516,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Child of Night",
@@ -126,7 +152,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Lifelink (Damage dealt by this creature also causes you to gain that much life.)"
+      "Lifelink"
     ],
     "flavor_text": "Sins that would be too gruesome in the light of day are made more pleasing in the dark of night.",
     "power": "2",
@@ -134,7 +160,8 @@
     "loyalty": null,
     "multiverse_id": 368520,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Duskhunter Bat",
@@ -161,7 +188,8 @@
     "loyalty": null,
     "multiverse_id": 368541,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mesmeric Fiend",
@@ -189,7 +217,13 @@
     "loyalty": null,
     "multiverse_id": 368519,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "If Mesmeric Fiend leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile a nonland card from the target opponent’s hand indefinitely."
+      }
+    ]
   },
   {
     "name": "Gatekeeper of Malakir",
@@ -217,7 +251,8 @@
     "loyalty": null,
     "multiverse_id": 368479,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Twilight Drover",
@@ -244,7 +279,25 @@
     "loyalty": null,
     "multiverse_id": 368549,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "The first ability only cares that creature tokens leave the battlefield. It doesn’t matter where they went."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "If a player leaves a multiplayer game, all creature tokens that player owns also leave the game. Twilight Drover’s ability will trigger once per token."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "If Spirit tokens created by Twilight Drover leave the battlefield, they will trigger its first ability."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "Note that Twilight Drover doesn’t have any way to sacrifice tokens or otherwise cause them to leave the battlefield."
+      }
+    ]
   },
   {
     "name": "Bloodrage Vampire",
@@ -270,7 +323,8 @@
     "loyalty": null,
     "multiverse_id": 368543,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fiend Hunter",
@@ -298,7 +352,25 @@
     "loyalty": null,
     "multiverse_id": 368496,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "If Fiend Hunter leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the target creature indefinitely. This is different from abilities on other cards that exile a permanent “until” something happens."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "Once the exiled creature returns, it’s considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners’ graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If a token is exiled this way, it won’t return to the battlefield."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "In a multiplayer game, if you lose the game, the creature exiled with Fiend Hunter remains exiled indefinitely. This is also different from abilities on other cards that exile a permanent “until” something happens."
+      }
+    ]
   },
   {
     "name": "Vampire Nighthawk",
@@ -325,7 +397,8 @@
     "loyalty": null,
     "multiverse_id": 368534,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mausoleum Guard",
@@ -352,7 +425,8 @@
     "loyalty": null,
     "multiverse_id": 368547,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Phantom General",
@@ -379,7 +453,13 @@
     "loyalty": null,
     "multiverse_id": 368546,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2012",
+        "text": "A creature token that’s a copy of a nontoken creature is still a token. It will get +1/+1, but the original nontoken creature will not."
+      }
+    ]
   },
   {
     "name": "Vampire Outcasts",
@@ -406,7 +486,8 @@
     "loyalty": null,
     "multiverse_id": 368537,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Revenant Patriarch",
@@ -433,7 +514,8 @@
     "loyalty": null,
     "multiverse_id": 368532,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sengir Vampire",
@@ -460,7 +542,21 @@
     "loyalty": null,
     "multiverse_id": 368525,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/15/2007",
+        "text": "If Sengir Vampire deals nonlethal damage to a creature and then a different effect or damage source causes that creature to be put into a graveyard later in the turn, Sengir Vampire’s ability will trigger and it will get a +1/+1 counter."
+      },
+      {
+        "date": "9/22/2011",
+        "text": "Each time a creature is put into a graveyard from the battlefield, check whether Sengir Vampire had dealt any damage to it at any time during that turn. If so, Sengir Vampire’s ability will trigger. It doesn’t matter who controlled the creature or whose graveyard it was put into."
+      },
+      {
+        "date": "9/22/2011",
+        "text": "If Sengir Vampire and a creature it dealt damage to are both put into a graveyard at the same time, Sengir Vampire’s ability will trigger, but it will do nothing when it resolves."
+      }
+    ]
   },
   {
     "name": "Butcher of Malakir",
@@ -488,7 +584,25 @@
     "loyalty": null,
     "multiverse_id": 368501,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/1/2010",
+        "text": "When the triggered ability resolves, first the player whose turn it is (if that player is an opponent) chooses which creature they will sacrifice, then each other opponent in turn order does the same, then all chosen creatures are sacrificed at the same time."
+      },
+      {
+        "date": "3/1/2010",
+        "text": "If multiple creatures you control (possibly including Butcher of Malakir itself) are put into their owners’ graveyards at the same time, Butcher of Malakir’s triggered ability will trigger that many times."
+      },
+      {
+        "date": "3/1/2010",
+        "text": "If you control more than one Butcher of Malakir and a creature you control is put into a graveyard, each of those Butchers’ abilities will trigger. Each opponent will sacrifice a creature each time one of those abilities resolves."
+      },
+      {
+        "date": "3/1/2010",
+        "text": "If you and an opponent each control a Butcher of Malakir and a creature is put into a graveyard, a chain reaction happens. First the ability of one player’s Butcher will trigger, causing each opponent to sacrifice a creature. That sacrifice causes the ability of the other player’s Butcher to trigger, and so on."
+      }
+    ]
   },
   {
     "name": "Vampire's Bite",
@@ -513,7 +627,8 @@
     "loyalty": null,
     "multiverse_id": 368472,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Decompose",
@@ -537,7 +652,8 @@
     "loyalty": null,
     "multiverse_id": 368506,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sorin's Thirst",
@@ -561,7 +677,13 @@
     "loyalty": null,
     "multiverse_id": 368509,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/3/2019",
+        "text": "If the target creature is an illegal target by the time Sorin’s Thirst tries to resolve, the spell doesn’t resolve. You won’t gain 2 life."
+      }
+    ]
   },
   {
     "name": "Urge to Feed",
@@ -585,7 +707,21 @@
     "loyalty": null,
     "multiverse_id": 368522,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/1/2010",
+        "text": "You don’t choose which untapped Vampire creatures you control to tap (if any) until Urge to Feed resolves."
+      },
+      {
+        "date": "3/1/2010",
+        "text": "If you cast Urge to Feed targeting an untapped Vampire creature you control with toughness 3, its toughness will be reduced to 0 by the -3/-3 effect. However, state-based actions aren’t checked until the spell has finished resolving. You may then tap that Vampire and put a +1/+1 counter on it, raising its toughness to 1. It will remain on the battlefield."
+      },
+      {
+        "date": "3/1/2010",
+        "text": "If the targeted creature is an illegal target by the time Urge to Feed resolves, the entire spell doesn’t resolve. You can’t tap any Vampires."
+      }
+    ]
   },
   {
     "name": "Zealous Persecution",
@@ -609,7 +745,8 @@
     "loyalty": null,
     "multiverse_id": 368542,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Lingering Souls",
@@ -634,7 +771,8 @@
     "loyalty": null,
     "multiverse_id": 368485,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mortify",
@@ -658,7 +796,13 @@
     "loyalty": null,
     "multiverse_id": 368498,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2006",
+        "text": "This spell isn’t Modal. When it resolves, it will destroy the target if it’s a creature or an enchantment, even if it changed from one to the other between targeting and resolution."
+      }
+    ]
   },
   {
     "name": "Spectral Procession",
@@ -682,7 +826,25 @@
     "loyalty": null,
     "multiverse_id": 368515,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "If an effect reduces the cost to cast a spell by an amount of generic mana, it applies to a monocolored hybrid spell only if you’ve chosen a method of paying for it that includes generic mana."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "A card with a monocolored hybrid mana symbol in its mana cost is each of the colors that appears in its mana cost, regardless of what mana was spent to cast it. Thus, Spectral Procession is white even if you spend six blue mana to cast it."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "A card with monocolored hybrid mana symbols in its mana cost has a converted mana cost equal to the highest possible cost it could be cast for. Its converted mana cost never changes. Thus, Spectral Procession has a converted mana cost of 6, even if you spend {W}{W}{W} to cast it."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "If a cost includes more than one monocolored hybrid mana symbol, you can choose a different way to pay for each symbol. For example, you can pay for Spectral Procession by spending {W}{W}{W}, {2}{W}{W}, {4}{W}, or {6}."
+      }
+    ]
   },
   {
     "name": "Unmake",
@@ -706,7 +868,8 @@
     "loyalty": null,
     "multiverse_id": 368514,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ancient Craving",
@@ -730,7 +893,8 @@
     "loyalty": null,
     "multiverse_id": 368540,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mark of the Vampire",
@@ -757,7 +921,13 @@
     "loyalty": null,
     "multiverse_id": 368499,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/29/2017",
+        "text": "Multiple instances of lifelink on the same creature are redundant."
+      }
+    ]
   },
   {
     "name": "Field of Souls",
@@ -781,7 +951,13 @@
     "loyalty": null,
     "multiverse_id": 368510,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "A creature card that you own but don’t control will be put into your graveyard if that creature dies, and Field of Souls’s ability will trigger."
+      }
+    ]
   },
   {
     "name": "Absorb Vis",
@@ -806,7 +982,25 @@
     "loyalty": null,
     "multiverse_id": 368527,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Unlike the normal cycling ability, basic landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a basic land card. You don’t choose the type of basic land card you’ll find until you’re performing the search. After you choose a basic land card in your library, you reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being basic landcycled. Any ability that stops a cycling ability from being activated also stops a basic landcycling ability from being activated."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with basic landcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You can choose not to find a basic land card, even if there is one in your library."
+      }
+    ]
   },
   {
     "name": "Death Grasp",
@@ -830,7 +1024,8 @@
     "loyalty": null,
     "multiverse_id": 368495,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Evolving Wilds",
@@ -854,7 +1049,8 @@
     "loyalty": null,
     "multiverse_id": 368505,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tainted Field",
@@ -879,7 +1075,8 @@
     "loyalty": null,
     "multiverse_id": 368529,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -907,7 +1104,8 @@
     "loyalty": null,
     "multiverse_id": 368473,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -935,7 +1133,8 @@
     "loyalty": null,
     "multiverse_id": 368480,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -963,7 +1162,8 @@
     "loyalty": null,
     "multiverse_id": 368508,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tibalt, the Fiend-Blooded",
@@ -993,7 +1193,17 @@
     "loyalty": "2",
     "multiverse_id": 368531,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2012",
+        "text": "The number of cards in the target player’s hand is determined when Tibalt’s second ability resolves."
+      },
+      {
+        "date": "5/1/2012",
+        "text": "When Tibalt’s third ability resolves, all creatures will become untapped and gain haste, including ones you controlled before the ability resolved."
+      }
+    ]
   },
   {
     "name": "Goblin Arsonist",
@@ -1020,7 +1230,8 @@
     "loyalty": null,
     "multiverse_id": 368478,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Scorched Rusalka",
@@ -1046,7 +1257,8 @@
     "loyalty": null,
     "multiverse_id": 368504,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Reassembling Skeleton",
@@ -1073,7 +1285,8 @@
     "loyalty": null,
     "multiverse_id": 368551,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ashmouth Hound",
@@ -1100,7 +1313,13 @@
     "loyalty": null,
     "multiverse_id": 368476,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/22/2011",
+        "text": "Ashmouth Hound’s ability triggers once for each creature it blocks or becomes blocked by."
+      }
+    ]
   },
   {
     "name": "Hellspark Elemental",
@@ -1128,7 +1347,8 @@
     "loyalty": null,
     "multiverse_id": 368477,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vithian Stinger",
@@ -1156,7 +1376,29 @@
     "loyalty": null,
     "multiverse_id": 368548,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "If you activate a card’s unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Activating a creature card’s unearth ability isn’t the same as casting the creature card. The unearth ability is put on the stack, but the creature card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Remove Soul) will not."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "At the beginning of the end step, a creature returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Stifle or Voidslime that counter triggered abilities. If the ability is countered, the creature will stay on the battlefield and the delayed trigger won’t trigger again. However, the replacement effect will still exile the creature when it eventually leaves the battlefield."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Unearth grants haste to the creature that’s returned to the battlefield. However, neither of the “exile” abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If a creature returned to the battlefield with unearth would leave the battlefield for any reason, it’s exiled instead — unless the spell or ability that’s causing the creature to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If it later returns the creature card to the battlefield (as Oblivion Ring or Flickerwisp might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The unearth effect will no longer apply to it."
+      }
+    ]
   },
   {
     "name": "Shambling Remains",
@@ -1184,7 +1426,8 @@
     "loyalty": null,
     "multiverse_id": 368489,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Coal Stoker",
@@ -1210,7 +1453,17 @@
     "loyalty": null,
     "multiverse_id": 368533,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/25/2011",
+        "text": "You get the mana whether you want it or not. If you don’t spend it, it will disappear at the end of the current step (or phase)."
+      },
+      {
+        "date": "9/20/2013",
+        "text": "If a creature (such as Clone) enters the battlefield as a copy of this creature, the copy’s “enters-the-battlefield” ability will still trigger as long as you cast that creature spell from your hand."
+      }
+    ]
   },
   {
     "name": "Lavaborn Muse",
@@ -1236,7 +1489,13 @@
     "loyalty": null,
     "multiverse_id": 368526,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The number of cards in hand is checked both at the beginning of upkeep and when the triggered ability resolves."
+      }
+    ]
   },
   {
     "name": "Mad Prophet",
@@ -1264,7 +1523,13 @@
     "loyalty": null,
     "multiverse_id": 368474,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2012",
+        "text": "Discarding a card is part of the ability’s activation cost. You can’t activate the ability if you have no cards in hand."
+      }
+    ]
   },
   {
     "name": "Hellrider",
@@ -1291,7 +1556,13 @@
     "loyalty": null,
     "multiverse_id": 368530,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "Creatures you control may attack multiple players and/or planeswalkers. For each attacking creature, Hellrider will deal damage to the corresponding player or planeswalker."
+      }
+    ]
   },
   {
     "name": "Skirsdag Cultist",
@@ -1318,7 +1589,8 @@
     "loyalty": null,
     "multiverse_id": 368488,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Corpse Connoisseur",
@@ -1346,7 +1618,29 @@
     "loyalty": null,
     "multiverse_id": 368487,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "If you activate a card’s unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Activating a creature card’s unearth ability isn’t the same as casting the creature card. The unearth ability is put on the stack, but the creature card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Remove Soul) will not."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "At the beginning of the end step, a creature returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Stifle or Voidslime that counter triggered abilities. If the ability is countered, the creature will stay on the battlefield and the delayed trigger won’t trigger again. However, the replacement effect will still exile the creature when it eventually leaves the battlefield."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Unearth grants haste to the creature that’s returned to the battlefield. However, neither of the “exile” abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If a creature returned to the battlefield with unearth would leave the battlefield for any reason, it’s exiled instead — unless the spell or ability that’s causing the creature to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If it later returns the creature card to the battlefield (as Oblivion Ring or Flickerwisp might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The unearth effect will no longer apply to it."
+      }
+    ]
   },
   {
     "name": "Scourge Devil",
@@ -1373,7 +1667,33 @@
     "loyalty": null,
     "multiverse_id": 368513,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "If you activate a card’s unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Activating a creature card’s unearth ability isn’t the same as casting the creature card. The unearth ability is put on the stack, but the creature card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Remove Soul) will not."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "At the beginning of the end step, a creature returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Stifle or Voidslime that counter triggered abilities. If the ability is countered, the creature will stay on the battlefield and the delayed trigger won’t trigger again. However, the replacement effect will still exile the creature when it eventually leaves the battlefield."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Unearth grants haste to the creature that’s returned to the battlefield. However, neither of the “exile” abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If a creature returned to the battlefield with unearth would leave the battlefield for any reason, it’s exiled instead — unless the spell or ability that’s causing the creature to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If it later returns the creature card to the battlefield (as Oblivion Ring or Flickerwisp might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The unearth effect will no longer apply to it."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "Scourge Devil’s triggered ability affects only creatures you control at the time it resolves, including Scourge Devil itself. Creatures you begin to control later in the turn won’t get +1/+0."
+      }
+    ]
   },
   {
     "name": "Gang of Devils",
@@ -1399,7 +1719,13 @@
     "loyalty": null,
     "multiverse_id": 368539,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2012",
+        "text": "You divide the damage as you put Gang of Devils’s triggered ability on the stack, not as it resolves. Each target must be assigned at least 1 damage. (In other words, as you put the ability on the stack, you choose whether to have it deal 3 damage to a single target, 2 damage to one target and 1 damage to another target, or 1 damage to each of three targets.)"
+      }
+    ]
   },
   {
     "name": "Bump in the Night",
@@ -1424,7 +1750,8 @@
     "loyalty": null,
     "multiverse_id": 368490,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Blazing Salvo",
@@ -1448,7 +1775,8 @@
     "loyalty": null,
     "multiverse_id": 368507,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Faithless Looting",
@@ -1473,7 +1801,13 @@
     "loyalty": null,
     "multiverse_id": 368475,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "You draw two cards and discard two cards all while Faithless Looting is resolving. Nothing can happen between the two, and no player may choose to take actions."
+      }
+    ]
   },
   {
     "name": "Flame Slash",
@@ -1497,7 +1831,8 @@
     "loyalty": null,
     "multiverse_id": 368536,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Geistflame",
@@ -1522,7 +1857,8 @@
     "loyalty": null,
     "multiverse_id": 368524,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Pyroclasm",
@@ -1546,7 +1882,8 @@
     "loyalty": null,
     "multiverse_id": 368545,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Recoup",
@@ -1571,7 +1908,8 @@
     "loyalty": null,
     "multiverse_id": 368517,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Terminate",
@@ -1595,7 +1933,8 @@
     "loyalty": null,
     "multiverse_id": 368491,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Strangling Soot",
@@ -1620,7 +1959,8 @@
     "loyalty": null,
     "multiverse_id": 368521,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Browbeat",
@@ -1644,7 +1984,8 @@
     "loyalty": null,
     "multiverse_id": 368528,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Breaking Point",
@@ -1668,7 +2009,8 @@
     "loyalty": null,
     "multiverse_id": 368486,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sulfuric Vortex",
@@ -1693,7 +2035,8 @@
     "loyalty": null,
     "multiverse_id": 368550,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Blightning",
@@ -1717,7 +2060,13 @@
     "loyalty": null,
     "multiverse_id": 368483,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "The targeted player will discard two cards even if some or all of Blightning’s damage is prevented or redirected."
+      }
+    ]
   },
   {
     "name": "Flame Javelin",
@@ -1742,7 +2091,25 @@
     "loyalty": null,
     "multiverse_id": 368544,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "If an effect reduces the cost to cast a spell by an amount of generic mana, it applies to a monocolored hybrid spell only if you’ve chosen a method of paying for it that includes generic mana."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "A card with a monocolored hybrid mana symbol in its mana cost is each of the colors that appears in its mana cost, regardless of what mana was spent to cast it. Thus, Flame Javelin is red even if you spend six green mana to cast it."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "A card with monocolored hybrid mana symbols in its mana cost has a converted mana cost equal to the highest possible cost it could be cast for. Its converted mana cost never changes. Thus, Flame Javelin has a converted mana cost of 6, even if you spend {R}{R}{R} to cast it."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "If a cost includes more than one monocolored hybrid mana symbol, you can choose a different way to pay for each symbol. For example, you can pay for Flame Javelin by spending {R}{R}{R}, {2}{R}{R}, {4}{R}, or {6}."
+      }
+    ]
   },
   {
     "name": "Torrent of Souls",
@@ -1766,7 +2133,21 @@
     "loyalty": null,
     "multiverse_id": 368511,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "This spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid mana symbol in its cost."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "This spell checks on resolution to see if any mana of the appropriate colors were spent to pay its cost. It doesn’t matter how much mana of that color was spent; the effect isn’t multiplied."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "If this spell is copied, the copy will not have had any colors of mana paid for it, no matter what colors were spent on the original spell."
+      }
+    ]
   },
   {
     "name": "Devil's Play",
@@ -1791,7 +2172,8 @@
     "loyalty": null,
     "multiverse_id": 368518,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Akoum Refuge",
@@ -1817,7 +2199,8 @@
     "loyalty": null,
     "multiverse_id": 368523,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rakdos Carnarium",
@@ -1843,7 +2226,13 @@
     "loyalty": null,
     "multiverse_id": 368493,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Mountain",
@@ -1871,7 +2260,8 @@
     "loyalty": null,
     "multiverse_id": 368500,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -1899,7 +2289,8 @@
     "loyalty": null,
     "multiverse_id": 368502,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -1927,7 +2318,8 @@
     "loyalty": null,
     "multiverse_id": 368512,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -1955,7 +2347,8 @@
     "loyalty": null,
     "multiverse_id": 368482,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -1983,7 +2376,8 @@
     "loyalty": null,
     "multiverse_id": 368484,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -2011,7 +2405,8 @@
     "loyalty": null,
     "multiverse_id": 368492,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -2039,7 +2434,8 @@
     "loyalty": null,
     "multiverse_id": 368494,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -2067,7 +2463,8 @@
     "loyalty": null,
     "multiverse_id": 368497,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -2095,6 +2492,7 @@
     "loyalty": null,
     "multiverse_id": 368538,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]

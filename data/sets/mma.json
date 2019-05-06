@@ -26,7 +26,13 @@
     "loyalty": null,
     "multiverse_id": 370543,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/15/2006",
+        "text": "Adarkar Valkyrie’s ability can target a token creature, but since token creatures cease to exist when they leave the battlefield, it won’t be returned to the battlefield."
+      }
+    ]
   },
   {
     "name": "Amrou Scout",
@@ -54,7 +60,8 @@
     "loyalty": null,
     "multiverse_id": 370571,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Amrou Seekers",
@@ -81,7 +88,8 @@
     "loyalty": null,
     "multiverse_id": 370576,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Angel's Grace",
@@ -106,7 +114,53 @@
     "loyalty": null,
     "multiverse_id": 370545,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/25/2006",
+        "text": "The last sentence applies only if your life total is being reduced by damage. Other effects or costs (such as “lose 1 life” or “pay 1 life”) can reduce your life total below 1 as normal."
+      },
+      {
+        "date": "9/25/2006",
+        "text": "You can’t pay more life than you have."
+      },
+      {
+        "date": "9/25/2006",
+        "text": "If your life total goes below 1, being dealt damage will not increase it back up to 1."
+      },
+      {
+        "date": "9/25/2006",
+        "text": "After the effect wears off during the cleanup step, you’ll lose the game if your total is 0 or less (or you have ten or more poison counters)."
+      },
+      {
+        "date": "9/25/2006",
+        "text": "Angel’s Grace doesn’t prevent damage. It only changes the result of damage dealt to you. For example, a creature with lifelink that deals damage to you will still cause its controller to gain life, even if that damage would reduce your life total to less than 1."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Players still get priority while a card with split second is on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Split second doesn’t prevent players from activating mana abilities."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Split second doesn’t prevent triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Split second doesn’t prevent players from performing special actions. Notably, players may turn face-down creatures face up while a spell with split second is on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Casting a spell with split second won’t affect spells and abilities that are already on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the resolution of a triggered ability involves casting a spell, that spell can’t be cast if a spell with split second is on the stack."
+      }
+    ]
   },
   {
     "name": "Auriok Salvagers",
@@ -133,7 +187,13 @@
     "loyalty": null,
     "multiverse_id": 370370,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If a card in a graveyard has X in its mana cost, X is considered to be 0."
+      }
+    ]
   },
   {
     "name": "Avian Changeling",
@@ -160,7 +220,8 @@
     "loyalty": null,
     "multiverse_id": 370489,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Blinding Beam",
@@ -187,7 +248,13 @@
     "loyalty": null,
     "multiverse_id": 370431,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "The second mode affects all creatures during the player’s next untap step, including creatures controlled by other players (who may have untapped because of Seedborn Muse, for example) and creatures that weren’t on the battlefield when Blinding Beam resolved."
+      }
+    ]
   },
   {
     "name": "Bound in Silence",
@@ -216,7 +283,17 @@
     "loyalty": null,
     "multiverse_id": 370396,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "If you put Bound in Silence onto the battlefield without casting it, perhaps using the “recruiting” ability of a card like Amrou Scout, it will enter attached to a creature. You choose that creature as you’re putting it onto the battlefield. If there’s no creature on the battlefield it can be attached to, it stays in whatever zone it was in."
+      },
+      {
+        "date": "5/1/2007",
+        "text": "Bound in Silence isn’t a creature and isn’t affected by any effect that affects creatures or Rebel creatures."
+      }
+    ]
   },
   {
     "name": "Cenn's Enlistment",
@@ -241,7 +318,25 @@
     "loyalty": null,
     "multiverse_id": 370373,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A retrace card cast from your graveyard follows the normal timing rules for its card type."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard."
+      }
+    ]
   },
   {
     "name": "Cloudgoat Ranger",
@@ -269,7 +364,8 @@
     "loyalty": null,
     "multiverse_id": 370553,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Court Homunculus",
@@ -296,7 +392,8 @@
     "loyalty": null,
     "multiverse_id": 370495,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dispeller's Capsule",
@@ -320,7 +417,13 @@
     "loyalty": null,
     "multiverse_id": 370527,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager."
+      }
+    ]
   },
   {
     "name": "Elspeth, Knight-Errant",
@@ -350,7 +453,17 @@
     "loyalty": "4",
     "multiverse_id": 370551,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/1/2011",
+        "text": "Emblems behave similarly to enchantments: They have an ability that, in a general sense, continually affects the game. The primary difference between them is that emblems aren’t permanents and don’t exist on the battlefield. Nothing in the game can remove an emblem, simply because no other spell or ability references them. Once you get an emblem, you keep it for the rest of the game. Emblems have no color, name, card type, or other characteristics beyond the listed ability."
+      },
+      {
+        "date": "7/1/2013",
+        "text": "Lethal damage and effects that say “destroy” won’t cause a permanent with indestructible to be put into the graveyard. However, a permanent with indestructible can be put into the graveyard for a number of reasons. The most likely reasons are if it’s sacrificed, if it’s a creature whose toughness is 0 or less, or if it’s an Aura that’s either unattached or attached to something illegal."
+      }
+    ]
   },
   {
     "name": "Ethersworn Canonist",
@@ -378,7 +491,25 @@
     "loyalty": null,
     "multiverse_id": 370504,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "In other words: Each turn, each player can cast any number of artifact spells plus a maximum of one nonartifact spell."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "This effect counts all nonartifact spells that are cast, even those that are countered."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "This effect takes into account spells that were cast earlier in the turn that Ethersworn Canonist entered the battlefield, including any spells still on the stack. However, any spells on the stack as Ethersworn Canonist enters the battlefield have already been cast by that point, so they’re not affected by it."
+      }
+    ]
   },
   {
     "name": "Feudkiller's Verdict",
@@ -405,7 +536,13 @@
     "loyalty": null,
     "multiverse_id": 370438,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Feudkiller’s Verdict doesn’t target an opponent. If you have more life than any opponent when that part of the effect happens, you’ll put the token onto the battlefield."
+      }
+    ]
   },
   {
     "name": "Flickerwisp",
@@ -432,7 +569,17 @@
     "loyalty": null,
     "multiverse_id": 370449,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The exiled card will return to the battlefield at the beginning of the end step even if Flickerwisp is no longer on the battlefield."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the permanent that returns to the battlefield has any abilities that trigger at the beginning of the end step, those abilities won’t trigger that turn."
+      }
+    ]
   },
   {
     "name": "Gleam of Resistance",
@@ -457,7 +604,25 @@
     "loyalty": null,
     "multiverse_id": 370371,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Unlike the normal cycling ability, basic landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a basic land card. You don’t choose the type of basic land card you’ll find until you’re performing the search. After you choose a basic land card in your library, you reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being basic landcycled. Any ability that stops a cycling ability from being activated also stops a basic landcycling ability from being activated."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with basic landcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You can choose not to find a basic land card, even if there is one in your library."
+      }
+    ]
   },
   {
     "name": "Hillcomber Giant",
@@ -484,7 +649,8 @@
     "loyalty": null,
     "multiverse_id": 370386,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ivory Giant",
@@ -511,7 +677,49 @@
     "loyalty": null,
     "multiverse_id": 370415,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      }
+    ]
   },
   {
     "name": "Kataki, War's Wage",
@@ -539,7 +747,8 @@
     "loyalty": null,
     "multiverse_id": 370414,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Kithkin Greatheart",
@@ -566,7 +775,13 @@
     "loyalty": null,
     "multiverse_id": 370422,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If, after dealing first-strike combat damage, Kithkin Greatheart loses first strike (perhaps because the Giant you controlled was destroyed by first-strike combat damage), it won’t deal regular combat damage."
+      }
+    ]
   },
   {
     "name": "Meadowboon",
@@ -593,7 +808,33 @@
     "loyalty": null,
     "multiverse_id": 370513,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/1/2008",
+        "text": "Evoke doesn’t change the timing of when you can cast the creature that has it. If you could cast that creature spell only when you could cast a sorcery, the same is true for cast it with evoke."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "If a creature spell cast with evoke changes controllers before it enters the battlefield, it will still be sacrificed when it enters the battlefield. Similarly, if a creature cast with evoke changes controllers after it enters the battlefield but before its sacrifice ability resolves, it will still be sacrificed. In both cases, the controller of the creature at the time it left the battlefield will control its leaves-the-battlefield ability."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "When you cast a spell by paying its evoke cost, its mana cost doesn’t change. You just pay the evoke cost instead."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "Effects that cause you to pay more or less to cast a spell will cause you to pay that much more or less while casting it for its evoke cost, too. That’s because they affect the total cost of the spell, not its mana cost."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "Whether evoke’s sacrifice ability triggers when the creature enters the battlefield depends on whether the spell’s controller chose to pay the evoke cost, not whether they actually paid it (if it was reduced or otherwise altered by another ability, for example)."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "If you’re casting a spell “without paying its mana cost,” you can’t use its evoke ability."
+      }
+    ]
   },
   {
     "name": "Otherworldly Journey",
@@ -619,7 +860,21 @@
     "loyalty": null,
     "multiverse_id": 370460,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "The creature comes back onto the battlefield as a new creature, with one +1/+1 counter on it (plus any other counters that it would normally enter the battlefield with)."
+      },
+      {
+        "date": "8/1/2005",
+        "text": "Any Aura attached to the creature is put into its owner’s graveyard as a state-based action. Equipment attached to the creature become unattached but remain on the battlefield."
+      },
+      {
+        "date": "8/1/2005",
+        "text": "If Otherworldly Journey is cast during an end step, the creature won’t return until the beginning of the next end step."
+      }
+    ]
   },
   {
     "name": "Pallid Mycoderm",
@@ -647,7 +902,13 @@
     "loyalty": null,
     "multiverse_id": 370348,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2007",
+        "text": "Pallid Mycoderm gives a creature that’s both a Saproling and a Fungus (such as Mistform Ultimus) +1/+1, not +2/+2."
+      }
+    ]
   },
   {
     "name": "Path to Exile",
@@ -671,7 +932,17 @@
     "loyalty": null,
     "multiverse_id": 370408,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "If the targeted creature becomes an illegal target by the time Path to Exile would resolve, the entire spell doesn’t resolve. The creature’s controller won’t search for a basic land card."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "The controller of the exiled creature isn’t required to search their library for a basic land. If that player doesn’t, the player won’t shuffle their library."
+      }
+    ]
   },
   {
     "name": "Reveillark",
@@ -699,7 +970,37 @@
     "loyalty": null,
     "multiverse_id": 370493,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/1/2008",
+        "text": "Evoke doesn’t change the timing of when you can cast the creature that has it. If you could cast that creature spell only when you could cast a sorcery, the same is true for cast it with evoke."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "If a creature spell cast with evoke changes controllers before it enters the battlefield, it will still be sacrificed when it enters the battlefield. Similarly, if a creature cast with evoke changes controllers after it enters the battlefield but before its sacrifice ability resolves, it will still be sacrificed. In both cases, the controller of the creature at the time it left the battlefield will control its leaves-the-battlefield ability."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "When you cast a spell by paying its evoke cost, its mana cost doesn’t change. You just pay the evoke cost instead."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "Effects that cause you to pay more or less to cast a spell will cause you to pay that much more or less while casting it for its evoke cost, too. That’s because they affect the total cost of the spell, not its mana cost."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "Whether evoke’s sacrifice ability triggers when the creature enters the battlefield depends on whether the spell’s controller chose to pay the evoke cost, not whether they actually paid it (if it was reduced or otherwise altered by another ability, for example)."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "If you’re casting a spell “without paying its mana cost,” you can’t use its evoke ability."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "Reveillark’s ability may target zero, one, or two creature cards in your graveyard. Each target must have power 2 or less."
+      }
+    ]
   },
   {
     "name": "Saltfield Recluse",
@@ -727,7 +1028,8 @@
     "loyalty": null,
     "multiverse_id": 370536,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sanctum Gargoyle",
@@ -755,7 +1057,13 @@
     "loyalty": null,
     "multiverse_id": 370485,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager."
+      }
+    ]
   },
   {
     "name": "Sandsower",
@@ -781,7 +1089,13 @@
     "loyalty": null,
     "multiverse_id": 370392,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Because the cost of Sandsower’s ability doesn’t include the {T} symbol, you can tap any three untapped creatures you control (including Sandsower itself), even if those creatures haven’t been under your control continuously since the beginning of your most recent turn."
+      }
+    ]
   },
   {
     "name": "Stir the Pride",
@@ -808,7 +1122,17 @@
     "loyalty": null,
     "multiverse_id": 370507,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Only creatures you control when Stir the Pride resolves will get the bonuses."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Notably, the ability granted by the second mode isn’t lifelink. It’s a triggered ability that triggers whenever the creature with that ability deals damage. If that creature also has lifelink, you’ll gain life as a result of that damage and also when the triggered ability resolves. Multiple instances of this ability trigger separately."
+      }
+    ]
   },
   {
     "name": "Stonehewer Giant",
@@ -836,7 +1160,17 @@
     "loyalty": null,
     "multiverse_id": 370515,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/1/2008",
+        "text": "This ability doesn’t target a creature. You may attach the Equipment to a creature that has shroud, for example. However, the creature must be able to be legally equipped by the Equipment. You can’t attach the Equipment to a creature that has protection from artifacts, for example."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "If there is no legal creature for you to attach the Equipment to, it remains on the battlefield unattached."
+      }
+    ]
   },
   {
     "name": "Terashi's Grasp",
@@ -862,7 +1196,8 @@
     "loyalty": null,
     "multiverse_id": 370555,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Test of Faith",
@@ -886,7 +1221,13 @@
     "loyalty": null,
     "multiverse_id": 370554,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "The +1/+1 counters are put onto the creature at the same time the damage is prevented. If a 1/1 creature would be dealt 6 damage, 3 damage is prevented and three +1/+1 counters are put on the creature. The creature ends up as a 4/4 creature with 3 damage marked on it."
+      }
+    ]
   },
   {
     "name": "Veteran Armorer",
@@ -913,7 +1254,8 @@
     "loyalty": null,
     "multiverse_id": 370361,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Yosei, the Morning Star",
@@ -943,7 +1285,29 @@
     "loyalty": null,
     "multiverse_id": 370574,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If any of the targets of Yosei’s ability are illegal, they won’t be tapped."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If all of the permanents targeted by Yosei’s ability become illegal targets, nothing becomes tapped, but the target player still skips their untap step."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If the player becomes an illegal target, the target permanents are tapped, but the player doesn’t skip their untap step."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a permanent won’t untap during its controller’s next untap step, that effect waits to apply until its controller has an untap step that isn’t skipped."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If more than one effect instructs a player to skip their next untap step, such as if Yosei dies more than once in a turn, that player skips that many untap steps. This is different from effects that state that something doesn’t untap during an untap step."
+      }
+    ]
   },
   {
     "name": "Aethersnipe",
@@ -970,7 +1334,17 @@
     "loyalty": null,
     "multiverse_id": 370430,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "Aethersnipe can be the target of its own ability. If it’s the only nonland permanent on the battlefield, it must be the target of its ability."
+      }
+    ]
   },
   {
     "name": "Careful Consideration",
@@ -994,7 +1368,8 @@
     "loyalty": null,
     "multiverse_id": 370531,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cryptic Command",
@@ -1022,7 +1397,17 @@
     "loyalty": null,
     "multiverse_id": 370439,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You choose both modes as you cast Cryptic Command. You must choose two different modes."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Look at both chosen modes to determine how many targets Cryptic Command has, if any. If it has at least one target, and all its targets are illegal when it tries to resolve, then it won’t resolve and none of its effects will happen. For example, if you choose the second and fourth modes, and the permanent is an illegal target when Cryptic Command tries to resolve, you won’t draw a card."
+      }
+    ]
   },
   {
     "name": "Dampen Thought",
@@ -1049,7 +1434,25 @@
     "loyalty": null,
     "multiverse_id": 370538,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A card with a splice ability can’t be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word “target” on the resulting spell."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If all of the spell’s targets are illegal when the spell tries to resolve, it won’t resolve and none of its effects will happen."
+      }
+    ]
   },
   {
     "name": "Echoing Truth",
@@ -1073,7 +1476,8 @@
     "loyalty": null,
     "multiverse_id": 370394,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Errant Ephemeron",
@@ -1100,7 +1504,49 @@
     "loyalty": null,
     "multiverse_id": 370491,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      }
+    ]
   },
   {
     "name": "Erratic Mutation",
@@ -1124,7 +1570,13 @@
     "loyalty": null,
     "multiverse_id": 370575,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2007",
+        "text": "The target creature is chosen as the spell is cast. You don’t reveal cards until the spell resolves."
+      }
+    ]
   },
   {
     "name": "Esperzoa",
@@ -1152,7 +1604,13 @@
     "loyalty": null,
     "multiverse_id": 370498,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "When Esperzoa’s ability resolves, if you control no other artifacts, you’ll have to return Esperzoa itself."
+      }
+    ]
   },
   {
     "name": "Etherium Sculptor",
@@ -1180,7 +1638,21 @@
     "loyalty": null,
     "multiverse_id": 370378,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "This effect doesn’t change the mana cost or converted mana cost of an artifact spell. Rather, it reduces the total cost of the spell, which is the amount you actually pay while casting it. The total cost takes into account additional or alternative costs."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "This effect can reduce only the generic portion of the artifact spell’s total cost."
+      }
+    ]
   },
   {
     "name": "Faerie Mechanist",
@@ -1209,7 +1681,8 @@
     "loyalty": null,
     "multiverse_id": 370421,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Gifts Ungiven",
@@ -1233,7 +1706,13 @@
     "loyalty": null,
     "multiverse_id": 370368,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "You can choose to find fewer than four cards if you want. If you find one or two cards, your opponent must choose for them to be put into your graveyard, even if they don’t want to."
+      }
+    ]
   },
   {
     "name": "Glen Elendra Archmage",
@@ -1262,7 +1741,37 @@
     "loyalty": null,
     "multiverse_id": 370522,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist stops being a creature, persist will still work."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point."
+      }
+    ]
   },
   {
     "name": "Keiga, the Tide Star",
@@ -1292,7 +1801,13 @@
     "loyalty": null,
     "multiverse_id": 370542,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Keiga’s effect lasts indefinitely. It doesn’t wear off during the cleanup step."
+      }
+    ]
   },
   {
     "name": "Kira, Great Glass-Spinner",
@@ -1321,7 +1836,8 @@
     "loyalty": null,
     "multiverse_id": 370349,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Latchkey Faerie",
@@ -1350,7 +1866,8 @@
     "loyalty": null,
     "multiverse_id": 370382,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Logic Knot",
@@ -1375,7 +1892,13 @@
     "loyalty": null,
     "multiverse_id": 370529,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "Using delve doesn’t reduce the value of X. It just reduces the amount of mana Logic Knot’s controller has to pay."
+      }
+    ]
   },
   {
     "name": "Meloku the Clouded Mirror",
@@ -1405,7 +1928,8 @@
     "loyalty": null,
     "multiverse_id": 370385,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mothdust Changeling",
@@ -1432,7 +1956,13 @@
     "loyalty": null,
     "multiverse_id": 370508,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/1/2008",
+        "text": "Since the activated ability doesn’t have a tap symbol in its cost, you can tap a creature (including Mothdust Changeling itself) that hasn’t been under your control since your most recent turn began to pay the cost."
+      }
+    ]
   },
   {
     "name": "Mulldrifter",
@@ -1460,7 +1990,25 @@
     "loyalty": null,
     "multiverse_id": 370535,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Evoke is an alternative cost to cast the spell with evoke. It can’t be combined with other alternative costs, such as casting a spell “without paying its mana cost.”"
+      },
+      {
+        "date": "7/13/2018",
+        "text": "To determine the total cost of a spell, start with the mana cost or alternative cost (such as an evoke cost) you’re paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a creature with evoke enters the battlefield without being cast, you won’t have to sacrifice it."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "The ability that causes you to sacrifice an evoked creature is a triggered ability. Players may respond to this triggered ability while the creature is still on the battlefield."
+      }
+    ]
   },
   {
     "name": "Narcomoeba",
@@ -1487,7 +2035,17 @@
     "loyalty": null,
     "multiverse_id": 370359,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "If Narcomoeba is revealed or looked at while moving from your library to your graveyard (such as with Mind Funeral), its ability will trigger when it’s put into your graveyard. It was still in your library while it was revealed or being looked at."
+      },
+      {
+        "date": "5/1/2007",
+        "text": "If Narcomoeba is removed from your graveyard before its ability resolves, it won’t be put onto the battlefield."
+      }
+    ]
   },
   {
     "name": "Pact of Negation",
@@ -1512,7 +2070,13 @@
     "loyalty": null,
     "multiverse_id": 370354,
     "other_part": null,
-    "color_indicator": "Blue"
+    "color_indicator": "Blue",
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can’t be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it."
+      }
+    ]
   },
   {
     "name": "Peer Through Depths",
@@ -1538,7 +2102,13 @@
     "loyalty": null,
     "multiverse_id": 370540,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "If you don’t reveal an instant or sorcery card, put all the revealed cards on the bottom of your library in any order."
+      }
+    ]
   },
   {
     "name": "Perilous Research",
@@ -1562,7 +2132,8 @@
     "loyalty": null,
     "multiverse_id": 370487,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Pestermite",
@@ -1591,7 +2162,8 @@
     "loyalty": null,
     "multiverse_id": 370440,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Petals of Insight",
@@ -1617,7 +2189,13 @@
     "loyalty": null,
     "multiverse_id": 370395,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If you choose to put the three cards on the bottom of your library, Petals of Insight will return to your hand directly from the stack. It never goes to a graveyard."
+      }
+    ]
   },
   {
     "name": "Reach Through Mists",
@@ -1643,7 +2221,8 @@
     "loyalty": null,
     "multiverse_id": 370506,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Riftwing Cloudskate",
@@ -1671,7 +2250,49 @@
     "loyalty": null,
     "multiverse_id": 370350,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      }
+    ]
   },
   {
     "name": "Scion of Oona",
@@ -1701,7 +2322,8 @@
     "loyalty": null,
     "multiverse_id": 370572,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Spell Snare",
@@ -1725,7 +2347,8 @@
     "loyalty": null,
     "multiverse_id": 370447,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Spellstutter Sprite",
@@ -1754,7 +2377,13 @@
     "loyalty": null,
     "multiverse_id": 370380,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2007",
+        "text": "The value of X needs to be determined both when the ability triggers (so you can choose a target) and again when the ability resolves (to check if that target is still legal). If the number of Faeries you control has decreased enough in that time to make the target illegal, Spellstutter Sprite’s ability won’t resolve (and the targeted spell will resolve as normal)."
+      }
+    ]
   },
   {
     "name": "Take Possession",
@@ -1782,7 +2411,33 @@
     "loyalty": null,
     "multiverse_id": 370453,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Players still get priority while a card with split second is on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Split second doesn’t prevent players from activating mana abilities."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Split second doesn’t prevent triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Split second doesn’t prevent players from performing special actions. Notably, players may turn face-down creatures face up while a spell with split second is on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Casting a spell with split second won’t affect spells and abilities that are already on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the resolution of a triggered ability involves casting a spell, that spell can’t be cast if a spell with split second is on the stack."
+      }
+    ]
   },
   {
     "name": "Thirst for Knowledge",
@@ -1806,7 +2461,13 @@
     "loyalty": null,
     "multiverse_id": 370525,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "You can discard either one artifact card or two cards which may or may not be artifacts. If you really want to, you can discard two artifact cards."
+      }
+    ]
   },
   {
     "name": "Traumatic Visions",
@@ -1831,7 +2492,25 @@
     "loyalty": null,
     "multiverse_id": 370369,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Unlike the normal cycling ability, basic landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a basic land card. You don’t choose the type of basic land card you’ll find until you’re performing the search. After you choose a basic land card in your library, you reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being basic landcycled. Any ability that stops a cycling ability from being activated also stops a basic landcycling ability from being activated."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with basic landcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You can choose not to find a basic land card, even if there is one in your library."
+      }
+    ]
   },
   {
     "name": "Vedalken Dismisser",
@@ -1858,7 +2537,13 @@
     "loyalty": null,
     "multiverse_id": 370550,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If Vedalken Dismisser is the only creature on the battlefield when its ability triggers, you’ll have to choose it as the target."
+      }
+    ]
   },
   {
     "name": "Vendilion Clique",
@@ -1889,7 +2574,8 @@
     "loyalty": null,
     "multiverse_id": 370390,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Absorb Vis",
@@ -1914,7 +2600,25 @@
     "loyalty": null,
     "multiverse_id": 370360,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Unlike the normal cycling ability, basic landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a basic land card. You don’t choose the type of basic land card you’ll find until you’re performing the search. After you choose a basic land card in your library, you reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being basic landcycled. Any ability that stops a cycling ability from being activated also stops a basic landcycling ability from being activated."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with basic landcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You can choose not to find a basic land card, even if there is one in your library."
+      }
+    ]
   },
   {
     "name": "Auntie's Snitch",
@@ -1943,7 +2647,17 @@
     "loyalty": null,
     "multiverse_id": 370533,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/1/2008",
+        "text": "The last ability will trigger only if Auntie’s Snitch is in your graveyard at the moment a Goblin or Rogue deals combat damage to a player. The ability will check again when it tries to resolve. If Auntie’s Snitch hasn’t left the graveyard by this time, you may return it to your hand."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "If a Goblin or Rogue you control deals combat damage to a player while Auntie’s Snitch is in your graveyard, you can return Auntie’s Snitch to your hand, then you can cast it for its prowl cost that turn."
+      }
+    ]
   },
   {
     "name": "Blightspeaker",
@@ -1972,7 +2686,8 @@
     "loyalty": null,
     "multiverse_id": 370567,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bridge from Below",
@@ -1997,7 +2712,25 @@
     "loyalty": null,
     "multiverse_id": 370353,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "While Bridge from Below is on the battlefield, it has no effect. It does something only if it’s in a graveyard. Yes, this is a bit weird."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "Neither ability cares who controlled the creature that died, only which graveyard it was put into. This means that if an opponent controls a creature you own, its death causes Bridge from Below’s first ability to trigger, not its second."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If Bridge from Below isn’t in your graveyard immediately before a creature dies, its abilities won’t trigger at all. If Bridge from Below isn’t still in your graveyard as its first ability resolves, you won’t create a token."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If a nontoken creature you control and a creature an opponent controls die at the same time, you choose the order in which Bridge from Below’s triggered abilities resolve. You can create a token before you exile Bridge from Below."
+      }
+    ]
   },
   {
     "name": "Dark Confidant",
@@ -2024,7 +2757,8 @@
     "loyalty": null,
     "multiverse_id": 370413,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Death Cloud",
@@ -2048,7 +2782,13 @@
     "loyalty": null,
     "multiverse_id": 370381,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If you control a permanent that’s a creature and a land, and you choose to sacrifice it as you sacrifice creatures, it won’t be on the battlefield when you sacrifice lands. You can’t sacrifice it again."
+      }
+    ]
   },
   {
     "name": "Death Denied",
@@ -2074,7 +2814,8 @@
     "loyalty": null,
     "multiverse_id": 370492,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Death Rattle",
@@ -2099,7 +2840,17 @@
     "loyalty": null,
     "multiverse_id": 370477,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Delve reduces only the generic mana requirement of the spell."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you sacrifice permanents or discard cards while casting the spell (for example, activating the mana ability of Blood Pet), those cards can be exiled using delve to reduce the spell’s cost."
+      }
+    ]
   },
   {
     "name": "Deepcavern Imp",
@@ -2127,7 +2878,13 @@
     "loyalty": null,
     "multiverse_id": 370569,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "If you have no cards in hand, you can’t pay the echo cost and Deepcavern Imp will be sacrificed."
+      }
+    ]
   },
   {
     "name": "Drag Down",
@@ -2151,7 +2908,21 @@
     "loyalty": null,
     "multiverse_id": 370391,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "A number of nonbasic lands have basic land types. Domain abilities don’t count the number of lands you control — they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you’ll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+      }
+    ]
   },
   {
     "name": "Dreamspoiler Witches",
@@ -2179,7 +2950,8 @@
     "loyalty": null,
     "multiverse_id": 370473,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Earwig Squad",
@@ -2207,7 +2979,13 @@
     "loyalty": null,
     "multiverse_id": 370530,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "The cards are exiled face up. All players will know what they are."
+      }
+    ]
   },
   {
     "name": "Executioner's Capsule",
@@ -2231,7 +3009,13 @@
     "loyalty": null,
     "multiverse_id": 370462,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager."
+      }
+    ]
   },
   {
     "name": "Extirpate",
@@ -2256,7 +3040,33 @@
     "loyalty": null,
     "multiverse_id": 370384,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Players still get priority while a card with split second is on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Split second doesn’t prevent players from activating mana abilities."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Split second doesn’t prevent triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Split second doesn’t prevent players from performing special actions. Notably, players may turn face-down creatures face up while a spell with split second is on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Casting a spell with split second won’t affect spells and abilities that are already on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the resolution of a triggered ability involves casting a spell, that spell can’t be cast if a spell with split second is on the stack."
+      }
+    ]
   },
   {
     "name": "Facevaulter",
@@ -2283,7 +3093,8 @@
     "loyalty": null,
     "multiverse_id": 370499,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Faerie Macabre",
@@ -2311,7 +3122,17 @@
     "loyalty": null,
     "multiverse_id": 370410,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "Faerie Macabre’s second ability can be activated only while it’s in your hand. You can do this any time you could cast an instant."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "The targeted cards may be in the same graveyard or in different graveyards."
+      }
+    ]
   },
   {
     "name": "Festering Goblin",
@@ -2338,7 +3159,8 @@
     "loyalty": null,
     "multiverse_id": 370358,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Horobi's Whisper",
@@ -2365,7 +3187,29 @@
     "loyalty": null,
     "multiverse_id": 370426,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2005",
+        "text": "Horobi’s Whisper can target a creature even if you don’t control a Swamp, but the spell does nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A card with a splice ability can’t be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word “target” on the resulting spell."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If all of the spell’s targets are illegal when the spell tries to resolve, it won’t resolve and none of its effects will happen."
+      }
+    ]
   },
   {
     "name": "Kokusho, the Evening Star",
@@ -2395,7 +3239,8 @@
     "loyalty": null,
     "multiverse_id": 370502,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mad Auntie",
@@ -2423,7 +3268,13 @@
     "loyalty": null,
     "multiverse_id": 370496,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2007",
+        "text": "The second ability can target any Goblin permanent except the Mad Auntie whose ability is being activated. It can target a different Mad Auntie."
+      }
+    ]
   },
   {
     "name": "Marsh Flitter",
@@ -2452,7 +3303,13 @@
     "loyalty": null,
     "multiverse_id": 370374,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The effect from the ability overwrites other effects that set power and/or toughness if and only if those effects existed before the ability resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the ability resolves. Effects that switch the creature’s power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created."
+      }
+    ]
   },
   {
     "name": "Peppersmoke",
@@ -2479,7 +3336,13 @@
     "loyalty": null,
     "multiverse_id": 370481,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Peppersmoke checks if you control a Faerie only when it resolves."
+      }
+    ]
   },
   {
     "name": "Phthisis",
@@ -2504,7 +3367,53 @@
     "loyalty": null,
     "multiverse_id": 370383,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the creature’s power is less than 0, use its actual value to determine the total life loss. However, if this total is 0 or less, no life is lost. For example, if Phthisis destroys a -2/3 creature, its controller would lose 1 life. If it destroys a -4/3 creature, its controller would lose no life."
+      }
+    ]
   },
   {
     "name": "Rathi Trapper",
@@ -2532,7 +3441,13 @@
     "loyalty": null,
     "multiverse_id": 370570,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2007",
+        "text": "This is the timeshifted version of Master Decoy."
+      }
+    ]
   },
   {
     "name": "Raven's Crime",
@@ -2557,7 +3472,25 @@
     "loyalty": null,
     "multiverse_id": 370478,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A retrace card cast from your graveyard follows the normal timing rules for its card type."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard."
+      }
+    ]
   },
   {
     "name": "Skeletal Vampire",
@@ -2587,7 +3520,13 @@
     "loyalty": null,
     "multiverse_id": 370363,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2006",
+        "text": "You may pay the cost of Skeletal Vampire’s activated abilities by sacrificing any Bat, not just a Bat token it created."
+      }
+    ]
   },
   {
     "name": "Slaughter Pact",
@@ -2612,7 +3551,13 @@
     "loyalty": null,
     "multiverse_id": 370457,
     "other_part": null,
-    "color_indicator": "Black"
+    "color_indicator": "Black",
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can’t be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it."
+      }
+    ]
   },
   {
     "name": "Stinkweed Imp",
@@ -2640,7 +3585,25 @@
     "loyalty": null,
     "multiverse_id": 370450,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Dredge lets you replace any card draw, not just the one during your draw step."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Once you decide to replace a draw using a card’s dredge ability, that card can’t be removed from your graveyard “in response.” (Replacement effects don’t use the stack.)"
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You can’t use dredge unless you’re going to draw a card and the card with dredge is already in your graveyard."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Notably, Stinkweed Imp’s ability isn’t deathtouch. It’s a triggered ability that triggers only on combat damage."
+      }
+    ]
   },
   {
     "name": "Street Wraith",
@@ -2667,7 +3630,13 @@
     "loyalty": null,
     "multiverse_id": 370428,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      }
+    ]
   },
   {
     "name": "Syphon Life",
@@ -2692,7 +3661,25 @@
     "loyalty": null,
     "multiverse_id": 370474,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A retrace card cast from your graveyard follows the normal timing rules for its card type."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard."
+      }
+    ]
   },
   {
     "name": "Thieving Sprite",
@@ -2720,7 +3707,13 @@
     "loyalty": null,
     "multiverse_id": 370451,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "The number of cards that are revealed is equal to the number of Faeries you control when the ability resolves."
+      }
+    ]
   },
   {
     "name": "Tombstalker",
@@ -2747,7 +3740,17 @@
     "loyalty": null,
     "multiverse_id": 370539,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Delve reduces only the generic mana requirement of the spell."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you sacrifice permanents or discard cards while casting the spell (for example, activating the mana ability of Blood Pet), those cards can be exiled using delve to reduce the spell’s cost."
+      }
+    ]
   },
   {
     "name": "Warren Pilferers",
@@ -2774,7 +3777,17 @@
     "loyalty": null,
     "multiverse_id": 370357,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2007",
+        "text": "The ability checks whether the targeted card is a Goblin when the ability resolves."
+      },
+      {
+        "date": "10/1/2007",
+        "text": "If the card is an illegla target as the ability resolves, the ability won’t resolve and none of its effects will happen. Warren Pilferers won’t gain haste."
+      }
+    ]
   },
   {
     "name": "Warren Weirding",
@@ -2801,7 +3814,8 @@
     "loyalty": null,
     "multiverse_id": 370488,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Blind-Spot Giant",
@@ -2828,7 +3842,13 @@
     "loyalty": null,
     "multiverse_id": 370377,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Blind-Spot Giant checks if you control another Giant only as you declare it as an attacking or blocking creature. Once you do, if you lose control of your other Giants, Blind-Spot Giant won’t stop attacking or blocking."
+      }
+    ]
   },
   {
     "name": "Blood Moon",
@@ -2852,7 +3872,25 @@
     "loyalty": null,
     "multiverse_id": 370419,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/29/2017",
+        "text": "If a nonbasic land has an ability that causes it to enter the battlefield tapped, it will lose that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply “as” a land enters the battlefield, such as the first ability of Cavern of Souls. This is a change from previous rulings."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "Nonbasic lands will lose any other land types and abilities they had. They will gain the land type Mountain and gain the ability “{T}: Add {R}.”"
+      },
+      {
+        "date": "3/16/2018",
+        "text": "This effect doesn’t affect names or supertypes. It won’t turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won’t be named “Mountain.”"
+      },
+      {
+        "date": "3/16/2018",
+        "text": "If a nonbasic land has an ability that triggers “when” it enters the battlefield, it will lose that ability before it triggers."
+      }
+    ]
   },
   {
     "name": "Brute Force",
@@ -2876,7 +3914,13 @@
     "loyalty": null,
     "multiverse_id": 370454,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2007",
+        "text": "This is the timeshifted version of Giant Growth."
+      }
+    ]
   },
   {
     "name": "Countryside Crusher",
@@ -2904,7 +3948,17 @@
     "loyalty": null,
     "multiverse_id": 370544,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/1/2008",
+        "text": "The first ability will keep putting cards from the top of your library into your graveyard until you reveal a nonland card. That nonland card remains on top of your library."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "Each time you put a land card into your graveyard with the first ability, the second ability will trigger. Those triggers wait to be put onto the stack until the first ability has completely finished resolving."
+      }
+    ]
   },
   {
     "name": "Crush Underfoot",
@@ -2931,7 +3985,13 @@
     "loyalty": null,
     "multiverse_id": 370446,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Crush Underfoot doesn’t target the Giant creature you control. You choose that Giant as Crush Underfoot resolves. If you don’t control a Giant creature at that time, the spell will finish resolving with no effect."
+      }
+    ]
   },
   {
     "name": "Desperate Ritual",
@@ -2958,7 +4018,29 @@
     "loyalty": null,
     "multiverse_id": 370546,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A card with a splice ability can’t be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word “target” on the resulting spell."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If all of the spell’s targets are illegal when the spell tries to resolve, it won’t resolve and none of its effects will happen."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Desperate Ritual isn’t a mana ability. When cast, it (or the spell it’s spliced onto) goes on the stack like any spell and can be responded to."
+      }
+    ]
   },
   {
     "name": "Dragonstorm",
@@ -2983,7 +4065,25 @@
     "loyalty": null,
     "multiverse_id": 370537,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "The copies are put directly onto the stack. They aren’t cast and won’t be counted by other spells with storm cast later in the turn."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Spells cast from zones other than a player’s hand and spells that were countered are counted by the storm ability."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won’t affect the copies."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack."
+      }
+    ]
   },
   {
     "name": "Empty the Warrens",
@@ -3008,7 +4108,25 @@
     "loyalty": null,
     "multiverse_id": 370480,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "The copies are put directly onto the stack. They aren’t cast and won’t be counted by other spells with storm cast later in the turn."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Spells cast from zones other than a player’s hand and spells that were countered are counted by the storm ability."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won’t affect the copies."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack."
+      }
+    ]
   },
   {
     "name": "Fiery Fall",
@@ -3033,7 +4151,25 @@
     "loyalty": null,
     "multiverse_id": 370367,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Unlike the normal cycling ability, basic landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a basic land card. You don’t choose the type of basic land card you’ll find until you’re performing the search. After you choose a basic land card in your library, you reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being basic landcycled. Any ability that stops a cycling ability from being activated also stops a basic landcycling ability from being activated."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with basic landcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You can choose not to find a basic land card, even if there is one in your library."
+      }
+    ]
   },
   {
     "name": "Fury Charm",
@@ -3060,7 +4196,8 @@
     "loyalty": null,
     "multiverse_id": 370465,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Glacial Ray",
@@ -3087,7 +4224,25 @@
     "loyalty": null,
     "multiverse_id": 370552,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A card with a splice ability can’t be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word “target” on the resulting spell."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If all of the spell’s targets are illegal when the spell tries to resolve, it won’t resolve and none of its effects will happen."
+      }
+    ]
   },
   {
     "name": "Grapeshot",
@@ -3112,7 +4267,29 @@
     "loyalty": null,
     "multiverse_id": 370472,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "The copies are put directly onto the stack. They aren’t cast and won’t be counted by other spells with storm cast later in the turn."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Spells cast from zones other than a player’s hand and spells that were countered are counted by the storm ability."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won’t affect the copies."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You may choose new targets for any of the copies. You can choose differently for each copy."
+      }
+    ]
   },
   {
     "name": "Greater Gargadon",
@@ -3139,7 +4316,49 @@
     "loyalty": null,
     "multiverse_id": 370560,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      }
+    ]
   },
   {
     "name": "Grinning Ignus",
@@ -3165,7 +4384,17 @@
     "loyalty": null,
     "multiverse_id": 370418,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "Although Grinning Ignus’s ability has a timing restriction, it’s still a mana ability. It doesn’t use the stack and it can’t be responded to."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If you cast this as normal during your main phase, it will enter the battlefield and you’ll receive priority. If no abilities trigger because of this, you can activate its ability immediately, before any other player has a chance to remove it from the battlefield."
+      }
+    ]
   },
   {
     "name": "Hammerheim Deadeye",
@@ -3193,7 +4422,8 @@
     "loyalty": null,
     "multiverse_id": 370401,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Kiki-Jiki, Mirror Breaker",
@@ -3223,7 +4453,29 @@
     "loyalty": null,
     "multiverse_id": 370534,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "The token copies exactly what was printed on the creature and nothing else (unless that creature was copying something else or was a token; see below). It doesn’t copy whether that creature was tapped or untapped, whether it had any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If the copied creature had {X} in its mana cost, X is 0."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If the copied creature was copying something else, the tokens enter the battlefield as whatever that creature was copying."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If the copied creature is a token, the tokens created by Kiki-Jiki’s ability copies the original characteristics of that token as stated by the effect that put it onto the battlefield."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Any enters-the-battlefield abilities of the copied creature will trigger when the tokens enter the battlefield. Any “As [this creature] enters the battlefield” or “[This creature] enters the battlefield with” abilities of the copied creature will also work."
+      }
+    ]
   },
   {
     "name": "Lava Spike",
@@ -3249,7 +4501,8 @@
     "loyalty": null,
     "multiverse_id": 370409,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mogg War Marshal",
@@ -3277,7 +4530,8 @@
     "loyalty": null,
     "multiverse_id": 370547,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Molten Disaster",
@@ -3303,7 +4557,37 @@
     "loyalty": null,
     "multiverse_id": 370437,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "If Molten Disaster was kicked, Molten Disaster has split second as long as it’s on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Players still get priority while a card with split second is on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Split second doesn’t prevent players from activating mana abilities."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Split second doesn’t prevent triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Split second doesn’t prevent players from performing special actions. Notably, players may turn face-down creatures face up while a spell with split second is on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Casting a spell with split second won’t affect spells and abilities that are already on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the resolution of a triggered ability involves casting a spell, that spell can’t be cast if a spell with split second is on the stack."
+      }
+    ]
   },
   {
     "name": "Pardic Dragon",
@@ -3332,7 +4616,49 @@
     "loyalty": null,
     "multiverse_id": 370464,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      }
+    ]
   },
   {
     "name": "Pyromancer's Swath",
@@ -3357,7 +4683,21 @@
     "loyalty": null,
     "multiverse_id": 370397,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "Pyromancer’s Swath doesn’t change the source or recipient of the damage."
+      },
+      {
+        "date": "5/1/2007",
+        "text": "If all damage from a source is prevented (because of Pay No Heed, for example) or if a source would deal 0 damage, the effect of Pyromancer’s Swath will not apply as that source is no longer dealing damage."
+      },
+      {
+        "date": "5/1/2007",
+        "text": "If damage is being dealt to multiple creatures and/or players at the same time, the damage being dealt to each one is increased by 2."
+      }
+    ]
   },
   {
     "name": "Rift Bolt",
@@ -3382,7 +4722,49 @@
     "loyalty": null,
     "multiverse_id": 370469,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      }
+    ]
   },
   {
     "name": "Rift Elemental",
@@ -3408,7 +4790,17 @@
     "loyalty": null,
     "multiverse_id": 370468,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "The counter is removed as a cost, so it can’t be responded to."
+      },
+      {
+        "date": "5/1/2007",
+        "text": "If an suspended card’s last time counter is removed this way, the suspend triggered ability is put on the stack on top of the Rift Elemental ability. The same is true for the vanishing ability of a permanent that loses its last time counter."
+      }
+    ]
   },
   {
     "name": "Ryusei, the Falling Star",
@@ -3438,7 +4830,8 @@
     "loyalty": null,
     "multiverse_id": 370559,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Shrapnel Blast",
@@ -3463,7 +4856,17 @@
     "loyalty": null,
     "multiverse_id": 370573,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/18/2014",
+        "text": "You must sacrifice exactly one artifact to cast this spell; you can’t cast it without sacrificing an artifact, and you can’t sacrifice additional artifacts."
+      },
+      {
+        "date": "7/18/2014",
+        "text": "Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the artifact you sacrificed to prevent you from casting this spell."
+      }
+    ]
   },
   {
     "name": "Squee, Goblin Nabob",
@@ -3491,7 +4894,13 @@
     "loyalty": null,
     "multiverse_id": 370461,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "If Squee isn’t in your graveyard as your upkeep begins, its ability won’t trigger. You can’t take any actions during your turn before your upkeep begins."
+      }
+    ]
   },
   {
     "name": "Stingscourger",
@@ -3519,7 +4928,8 @@
     "loyalty": null,
     "multiverse_id": 370402,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Stinkdrinker Daredevil",
@@ -3546,7 +4956,8 @@
     "loyalty": null,
     "multiverse_id": 370483,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sudden Shock",
@@ -3571,7 +4982,33 @@
     "loyalty": null,
     "multiverse_id": 370388,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Players still get priority while a card with split second is on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Split second doesn’t prevent players from activating mana abilities."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Split second doesn’t prevent triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Split second doesn’t prevent players from performing special actions. Notably, players may turn face-down creatures face up while a spell with split second is on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Casting a spell with split second won’t affect spells and abilities that are already on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the resolution of a triggered ability involves casting a spell, that spell can’t be cast if a spell with split second is on the stack."
+      }
+    ]
   },
   {
     "name": "Tar Pitcher",
@@ -3598,7 +5035,8 @@
     "loyalty": null,
     "multiverse_id": 370467,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Thundercloud Shaman",
@@ -3625,7 +5063,8 @@
     "loyalty": null,
     "multiverse_id": 370399,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Thundering Giant",
@@ -3651,7 +5090,8 @@
     "loyalty": null,
     "multiverse_id": 370452,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Torrent of Stone",
@@ -3678,7 +5118,29 @@
     "loyalty": null,
     "multiverse_id": 370558,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2005",
+        "text": "You can sacrifice any two lands that have the subtype Mountain to splice Torrent of Stone onto an Arcane spell, not just lands named Mountain."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A card with a splice ability can’t be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word “target” on the resulting spell."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If all of the spell’s targets are illegal when the spell tries to resolve, it won’t resolve and none of its effects will happen."
+      }
+    ]
   },
   {
     "name": "Tribal Flames",
@@ -3702,7 +5164,21 @@
     "loyalty": null,
     "multiverse_id": 370362,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "A number of nonbasic lands have basic land types. Domain abilities don’t count the number of lands you control — they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you’ll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+      }
+    ]
   },
   {
     "name": "War-Spike Changeling",
@@ -3729,7 +5205,8 @@
     "loyalty": null,
     "multiverse_id": 370479,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Citanul Woodreaders",
@@ -3757,7 +5234,8 @@
     "loyalty": null,
     "multiverse_id": 370501,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Doubling Season",
@@ -3782,7 +5260,25 @@
     "loyalty": null,
     "multiverse_id": 370387,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "The tokens and counters that Doubling Season creates are exact copies of the kind of tokens and counters that were being created in the first place."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "Doubling Season affects cards that “enter the battlefield with” a certain number of counters. Triskelion, for example, would enter the battlefield with six +1/+1 counters on it rather than three."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "If there are two Doubling Seasons on the battlefield, then the number of tokens or counters is four times the original number. If there are three on the battlefield, then the number of tokens or counters is eight times the original number, and so on."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "Planeswalkers will enter the battlefield with double the normal amount of loyalty counters. However, if you activate an ability whose cost has you put loyalty counters on a planeswalker, the number you put on isn’t doubled. This is because those counters are put on as a cost, not as an effect."
+      }
+    ]
   },
   {
     "name": "Durkwood Baloth",
@@ -3808,7 +5304,49 @@
     "loyalty": null,
     "multiverse_id": 370482,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      }
+    ]
   },
   {
     "name": "Echoing Courage",
@@ -3832,7 +5370,25 @@
     "loyalty": null,
     "multiverse_id": 370393,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "Echoing Courage has only one target. Other creatures with that name are not targeted. For example, a creature with protection from green will still get +2/+2 if it has the same name as the target creature."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "If the target creature is an illegal target by the time Echoing Courage tries to resolve, the spell doesn’t resolve. No creatures get +2/+2."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "The name of a creature token is the same as the creature types it was created with, unless the token is a copy of another creature or the effect that created the token specifically gave it a different name. For example, a 1/1 Cat Soldier creature token is named “Cat Soldier.”"
+      },
+      {
+        "date": "3/16/2018",
+        "text": "A face-down creature has no name, so it can’t share a name with anything. This includes other creatures with no name."
+      }
+    ]
   },
   {
     "name": "Eternal Witness",
@@ -3859,7 +5415,13 @@
     "loyalty": null,
     "multiverse_id": 370427,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "If an instant or sorcery spell puts Eternal Witness onto the battlefield, its ability can target that card in your graveyard."
+      }
+    ]
   },
   {
     "name": "Giant Dustwasp",
@@ -3886,7 +5448,49 @@
     "loyalty": null,
     "multiverse_id": 370433,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      }
+    ]
   },
   {
     "name": "Greater Mossdog",
@@ -3913,7 +5517,21 @@
     "loyalty": null,
     "multiverse_id": 370511,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Dredge lets you replace any card draw, not just the one during your draw step."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Once you decide to replace a draw using a card’s dredge ability, that card can’t be removed from your graveyard “in response.” (Replacement effects don’t use the stack.)"
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You can’t use dredge unless you’re going to draw a card and the card with dredge is already in your graveyard."
+      }
+    ]
   },
   {
     "name": "Hana Kami",
@@ -3939,7 +5557,8 @@
     "loyalty": null,
     "multiverse_id": 370475,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Imperiosaur",
@@ -3965,7 +5584,29 @@
     "loyalty": null,
     "multiverse_id": 370561,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "Mana from any source other than a land with the supertype “basic” can’t be spent to cast Imperiosaur."
+      },
+      {
+        "date": "5/1/2007",
+        "text": "Many mana-producing effects (such as Heartbeat of Spring or Utopia Sprawl, for example) add mana to a player’s mana pool whenever a land becomes tapped. This mana is produced by the enchantment, not the land, so it can’t be used to pay for Imperiosaur."
+      },
+      {
+        "date": "5/1/2007",
+        "text": "A small number of effects (Pulse of Llanowar and Hall of Gemstone, for example) state that a land “produces” certain mana instead of what it would normally produce. If the land is basic, then mana produced this way can be spent to cast Imperiosaur."
+      },
+      {
+        "date": "5/1/2007",
+        "text": "If a basic land gains a mana ability (from Riftstone Portal, Joiner Adept, or Rain of Filth, for example), the mana produced this way can be used to cast for Imperiosaur."
+      },
+      {
+        "date": "5/1/2007",
+        "text": "Imperiosaur’s restriction applies to the total cost to cast it. If there are any additional costs (such as from Feroz’s Ban, for example), those costs would have to be paid with mana produced by basic lands as well."
+      }
+    ]
   },
   {
     "name": "Incremental Growth",
@@ -3989,7 +5630,17 @@
     "loyalty": null,
     "multiverse_id": 370541,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/20/2014",
+        "text": "You must choose three different targets in order to cast Incremental Growth. You decide how many +1/+1 counters each creature will get as part of casting the spell."
+      },
+      {
+        "date": "9/20/2014",
+        "text": "If some of the creatures are illegal targets as Incremental Growth tries to resolve, the remaining legal targets still get the appropriate number of +1/+1 counters. If all targets are illegal, Incremental Growth doesn’t resolve."
+      }
+    ]
   },
   {
     "name": "Jugan, the Rising Star",
@@ -4019,7 +5670,17 @@
     "loyalty": null,
     "multiverse_id": 370564,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You choose how many targets Jugan’s triggered ability has and how the counters are distributed as you put the ability onto the stack. Each target must receive at least one counter."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If some of the creatures are illegal targets as Jugan’s triggered ability tries to resolve, the original distribution of counters still applies and the counters that would have been put on the illegal targets are lost. They won’t be put instead on a legal target."
+      }
+    ]
   },
   {
     "name": "Kodama's Reach",
@@ -4045,7 +5706,13 @@
     "loyalty": null,
     "multiverse_id": 370417,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "You can get just one basic land card if you wish (or even none at all). If you get only one land card, you put it onto the battlefield tapped."
+      }
+    ]
   },
   {
     "name": "Krosan Grip",
@@ -4070,7 +5737,33 @@
     "loyalty": null,
     "multiverse_id": 370557,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Players still get priority while a card with split second is on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Split second doesn’t prevent players from activating mana abilities."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Split second doesn’t prevent triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Split second doesn’t prevent players from performing special actions. Notably, players may turn face-down creatures face up while a spell with split second is on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Casting a spell with split second won’t affect spells and abilities that are already on the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the resolution of a triggered ability involves casting a spell, that spell can’t be cast if a spell with split second is on the stack."
+      }
+    ]
   },
   {
     "name": "Life from the Loam",
@@ -4095,7 +5788,21 @@
     "loyalty": null,
     "multiverse_id": 370398,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Dredge lets you replace any card draw, not just the one during your draw step."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Once you decide to replace a draw using a card’s dredge ability, that card can’t be removed from your graveyard “in response.” (Replacement effects don’t use the stack.)"
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You can’t use dredge unless you’re going to draw a card and the card with dredge is already in your graveyard."
+      }
+    ]
   },
   {
     "name": "Masked Admirers",
@@ -4123,7 +5830,17 @@
     "loyalty": null,
     "multiverse_id": 370416,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "The second triggered ability triggers only if Masked Admirers is in your graveyard when you cast a creature spell."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Masked Admirers will return to your hand before the creature spell you cast resolves."
+      }
+    ]
   },
   {
     "name": "Moldervine Cloak",
@@ -4151,7 +5868,21 @@
     "loyalty": null,
     "multiverse_id": 370444,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Dredge lets you replace any card draw, not just the one during your draw step."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Once you decide to replace a draw using a card’s dredge ability, that card can’t be removed from your graveyard “in response.” (Replacement effects don’t use the stack.)"
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You can’t use dredge unless you’re going to draw a card and the card with dredge is already in your graveyard."
+      }
+    ]
   },
   {
     "name": "Nantuko Shaman",
@@ -4179,7 +5910,49 @@
     "loyalty": null,
     "multiverse_id": 370484,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      }
+    ]
   },
   {
     "name": "Penumbra Spider",
@@ -4206,7 +5979,8 @@
     "loyalty": null,
     "multiverse_id": 370516,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Reach of Branches",
@@ -4234,7 +6008,17 @@
     "loyalty": null,
     "multiverse_id": 370412,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/1/2008",
+        "text": "The triggered ability will trigger whenever any land with the subtype Forest enters the battlefield under your control, not just one named Forest."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "If Reach of Branches leaves your graveyard before its triggered ability resolves, the ability will have no effect, even if the card returns to your graveyard before then."
+      }
+    ]
   },
   {
     "name": "Riftsweeper",
@@ -4261,7 +6045,21 @@
     "loyalty": null,
     "multiverse_id": 370365,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "It doesn’t matter why the card was exiled or who owns it."
+      },
+      {
+        "date": "5/1/2007",
+        "text": "If Riftsweeper affects a suspended card, the card loses its time counters and is no longer suspended."
+      },
+      {
+        "date": "5/1/2007",
+        "text": "If Riftsweeper affects a card that’s haunting a creature, the haunt effect ends."
+      }
+    ]
   },
   {
     "name": "Rude Awakening",
@@ -4288,7 +6086,17 @@
     "loyalty": null,
     "multiverse_id": 370470,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Lands that enter the battlefield or otehrwise come under your control after Rude Awakening resolves won’t be affected."
+      }
+    ]
   },
   {
     "name": "Search for Tomorrow",
@@ -4313,7 +6121,49 @@
     "loyalty": null,
     "multiverse_id": 370526,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      }
+    ]
   },
   {
     "name": "Sporesower Thallid",
@@ -4340,7 +6190,13 @@
     "loyalty": null,
     "multiverse_id": 370441,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/25/2006",
+        "text": "Sporesower Thallid’s triggered ability will put a spore counter on each Fungus creature you control, even if that Fungus doesn’t have any abilities that makes use of them."
+      }
+    ]
   },
   {
     "name": "Sporoloth Ancient",
@@ -4367,7 +6223,17 @@
     "loyalty": null,
     "multiverse_id": 370503,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "All creatures you control gain the ability, regardless of whether they have spore counters on them, which means for example, they would lose the bonus from Muraganda Petroglyphs."
+      },
+      {
+        "date": "5/1/2007",
+        "text": "Your other creatures that produce spore counters (such as Thallids) can create a Saproling by removing two spore counters (by using this ability) or by removing three spore counters (by using their own ability)."
+      }
+    ]
   },
   {
     "name": "Summoner's Pact",
@@ -4392,7 +6258,13 @@
     "loyalty": null,
     "multiverse_id": 370563,
     "other_part": null,
-    "color_indicator": "Green"
+    "color_indicator": "Green",
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can’t be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it."
+      }
+    ]
   },
   {
     "name": "Sylvan Bounty",
@@ -4417,7 +6289,25 @@
     "loyalty": null,
     "multiverse_id": 370372,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Unlike the normal cycling ability, basic landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a basic land card. You don’t choose the type of basic land card you’ll find until you’re performing the search. After you choose a basic land card in your library, you reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being basic landcycled. Any ability that stops a cycling ability from being activated also stops a basic landcycling ability from being activated."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with basic landcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You can choose not to find a basic land card, even if there is one in your library."
+      }
+    ]
   },
   {
     "name": "Tarmogoyf",
@@ -4443,7 +6333,25 @@
     "loyalty": null,
     "multiverse_id": 370404,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "The ability that defines Tarmogoyf’s power and toughness works in all zones, not just the battlefield. If Tarmogoyf is in your graveyard, it will count itself."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "Tarmogoyf counts card types, not cards. If the only card in all graveyards is a single artifact creature, Tarmogoyf will be 2/3. If the only cards in all graveyards are ten artifact creatures, Tarmogoyf will still be 2/3."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "The card types that can appear on cards in a graveyard are artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal. Legendary, basic, and snow are supertypes, not card types."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If an instant or sorcery spell deals damage to Tarmogoyf or lowers its toughness, that spell is put into its owner’s graveyard before state-based actions are performed. If that spell is the first of its type to enter a graveyard, it will raise Tarmogoyf’s toughness before the game checks to see if Tarmogoyf dies."
+      }
+    ]
   },
   {
     "name": "Thallid",
@@ -4470,7 +6378,8 @@
     "loyalty": null,
     "multiverse_id": 370352,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Thallid Germinator",
@@ -4498,7 +6407,8 @@
     "loyalty": null,
     "multiverse_id": 370500,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Thallid Shell-Dweller",
@@ -4526,7 +6436,8 @@
     "loyalty": null,
     "multiverse_id": 370486,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tooth and Nail",
@@ -4553,7 +6464,8 @@
     "loyalty": null,
     "multiverse_id": 370432,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tromp the Domains",
@@ -4577,7 +6489,33 @@
     "loyalty": null,
     "multiverse_id": 370364,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/25/2006",
+        "text": "The creatures get trample once; they don’t get trample for each basic land type."
+      },
+      {
+        "date": "9/25/2006",
+        "text": "The effect counts basic land *types*, not the number of basic lands. Therefore the maximum bonus is +5/+5."
+      },
+      {
+        "date": "9/25/2006",
+        "text": "The affected creatures and the power/toughness bonus are fixed when Tromp the Domains resolves."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "A number of nonbasic lands have basic land types. Domain abilities don’t count the number of lands you control — they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you’ll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+      }
+    ]
   },
   {
     "name": "Verdeloth the Ancient",
@@ -4607,7 +6545,13 @@
     "loyalty": null,
     "multiverse_id": 370494,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Verdeloth won’t give himself +1/+1 unless he somehow becomes a Saproling."
+      }
+    ]
   },
   {
     "name": "Walker of the Grove",
@@ -4634,7 +6578,33 @@
     "loyalty": null,
     "multiverse_id": 370519,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/1/2008",
+        "text": "Evoke doesn’t change the timing of when you can cast the creature that has it. If you could cast that creature spell only when you could cast a sorcery, the same is true for cast it with evoke."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "If a creature spell cast with evoke changes controllers before it enters the battlefield, it will still be sacrificed when it enters the battlefield. Similarly, if a creature cast with evoke changes controllers after it enters the battlefield but before its sacrifice ability resolves, it will still be sacrificed. In both cases, the controller of the creature at the time it left the battlefield will control its leaves-the-battlefield ability."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "When you cast a spell by paying its evoke cost, its mana cost doesn’t change. You just pay the evoke cost instead."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "Effects that cause you to pay more or less to cast a spell will cause you to pay that much more or less while casting it for its evoke cost, too. That’s because they affect the total cost of the spell, not its mana cost."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "Whether evoke’s sacrifice ability triggers when the creature enters the battlefield depends on whether the spell’s controller chose to pay the evoke cost, not whether they actually paid it (if it was reduced or otherwise altered by another ability, for example)."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "If you’re casting a spell “without paying its mana cost,” you can’t use its evoke ability."
+      }
+    ]
   },
   {
     "name": "Woodfall Primus",
@@ -4663,7 +6633,37 @@
     "loyalty": null,
     "multiverse_id": 370406,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist stops being a creature, persist will still work."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point."
+      }
+    ]
   },
   {
     "name": "Electrolyze",
@@ -4688,7 +6688,21 @@
     "loyalty": null,
     "multiverse_id": 370376,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You divide the damage as you cast Electrolyze, not as it resolves. Each target must be assigned at least 1 damage. In other words, as you cast Electrolyze, you choose whether to have it deal 2 damage to a single target, or deal 1 damage to each of two targets."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If Electrolyze targets two creatures and one becomes an illegal target, the remaining target is dealt 1 damage, not 2. You’ll still draw a card."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If all chosen targets are illegal as Electrolyze tries to resolve, it won’t resolve and none of its effects will happen. No damage will be dealt and you won’t draw a card."
+      }
+    ]
   },
   {
     "name": "Grand Arbiter Augustin IV",
@@ -4719,7 +6733,17 @@
     "loyalty": null,
     "multiverse_id": 370420,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2006",
+        "text": "Spells you cast that are both blue and white cost {2} less to cast."
+      },
+      {
+        "date": "5/1/2006",
+        "text": "This reduces only generic mana portion of mana costs. A spell you cast with mana cost {1}{W}{U} will cost {W}{U} to cast."
+      }
+    ]
   },
   {
     "name": "Jhoira of the Ghitu",
@@ -4748,7 +6772,41 @@
     "loyalty": null,
     "multiverse_id": 370548,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      }
+    ]
   },
   {
     "name": "Knight of the Reliquary",
@@ -4776,7 +6834,25 @@
     "loyalty": null,
     "multiverse_id": 370379,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Knight of the Reliquary’s first ability applies only while it’s on the battlefield. In all other zones, it’s a 2/2 creature."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "The activated ability’s cost checks the land’s subtype, not its name. You can sacrifice a nonbasic land this way as long as it has the subtype Forest or Plains. Most nonbasic lands don’t have basic land types, even if they produce colored mana. For example, Horizon Canopy is neither a Forest nor a Plains, while Temple Garden is both."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Sacrificing a Forest or Plains is part of the cost of Knight of the Reliquary’s activated ability. Assuming that sacrificing the land puts it into your graveyard, Knight of the Reliquary’s first ability will immediately give it an additional +1/+1 when that cost is paid because there’ll be a new land card in your graveyard. Paying a cost can’t be responded to (with Shock, for example)."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Knight of the Reliquary’s activated ability lets you find any land card, not just a basic land card."
+      }
+    ]
   },
   {
     "name": "Lightning Helix",
@@ -4800,7 +6876,13 @@
     "loyalty": null,
     "multiverse_id": 370528,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If the chosen target is illegal when Lightning Helix tries to resolve, it won’t resolve and none of its effects will happen. You won’t gain 3 life."
+      }
+    ]
   },
   {
     "name": "Maelstrom Pulse",
@@ -4824,7 +6906,29 @@
     "loyalty": null,
     "multiverse_id": 370521,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "A face-down creature has no name, so it doesn’t have the same name as anything else."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "Maelstrom Pulse has only one target. Other permanents with the same name will be destroyed even if they have hexproof or protection."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If the target permanent becomes an illegal target for Maelstrom Pulse, the spell doesn’t resolve. Nothing is destroyed."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "The name of a creature token is the same as the creature types it was created with unless the token is a copy of another creature or the effect that created the token specifically gives it a different name. For example, a 1/1 red Elemental creature token created by Young Pyromancer and a 4/4 green Elemental creature token created by Walker of the Grove are both named “Elemental.”"
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If Maelstrom Pulse resolves but the target permanent isn’t destroyed (perhaps because it regenerates or has indestructible), all other permanents with the same name as it will still be destroyed."
+      }
+    ]
   },
   {
     "name": "Mind Funeral",
@@ -4848,7 +6952,13 @@
     "loyalty": null,
     "multiverse_id": 370509,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "The four land cards, as well as all the other cards revealed during this process, are put into the graveyard. If there aren’t four land cards left in the targeted opponent’s library, that player’s entire library is put into the graveyard."
+      }
+    ]
   },
   {
     "name": "Progenitus",
@@ -4878,7 +6988,17 @@
     "loyalty": null,
     "multiverse_id": 370405,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "“Protection from everything” means the following: Progenitus can’t be blocked, Progenitus can’t be enchanted or equipped, Progenitus can’t be the target of spells or abilities, and all damage that would be dealt to Progenitus is prevented."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Progenitus can still be affected by effects that don’t target it or deal damage to it (such as Day of Judgment)."
+      }
+    ]
   },
   {
     "name": "Sarkhan Vol",
@@ -4908,7 +7028,21 @@
     "loyalty": "4",
     "multiverse_id": 370566,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "You may activate the first ability even if you control no creatures. Sarkhan Vol gains a loyalty counter, but the ability will have no effect."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Sarkhan Vol’s first ability affects only creatures you control when that ability resolves."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "You may target any creature with the second ability, not just a creature an opponent controls. If you target a creature you already control, you’ll gain control of it (which will usually have no visible effect), it’ll untap, and it’ll gain haste until end of turn."
+      }
+    ]
   },
   {
     "name": "Tidehollow Sculler",
@@ -4936,7 +7070,13 @@
     "loyalty": null,
     "multiverse_id": 370375,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If Tidehollow Sculler leaves the battlefield before its first ability has resolved, its second ability will trigger. This ability will do nothing when it resolves. Then its first ability will resolve and exile the chosen card forever."
+      }
+    ]
   },
   {
     "name": "Trygon Predator",
@@ -4963,7 +7103,8 @@
     "loyalty": null,
     "multiverse_id": 370476,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cold-Eyed Selkie",
@@ -4991,7 +7132,8 @@
     "loyalty": null,
     "multiverse_id": 370505,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Demigod of Revenge",
@@ -5019,7 +7161,21 @@
     "loyalty": null,
     "multiverse_id": 370463,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "This ability triggers when you cast Demigod of Revenge as a spell. It won’t trigger if Demigod of Revenge is put directly onto the battlefield."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "The triggered ability will resolve before Demigod of Revenge will."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "If Demigod of Revenge is countered *before* its triggered ability resolves, the ability will still resolve. It will return that Demigod of Revenge from your graveyard to the battlefield, as well as any others. If you’re casting a spell to counter Demigod of Revenge, it’s important to clarify you’re casting it *after* the triggered ability resolves if you don’t want that Demigod of Revenge to be put onto the battlefield."
+      }
+    ]
   },
   {
     "name": "Divinity of Pride",
@@ -5047,7 +7203,8 @@
     "loyalty": null,
     "multiverse_id": 370565,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Figure of Destiny",
@@ -5075,7 +7232,29 @@
     "loyalty": null,
     "multiverse_id": 370466,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "None of these abilities has a duration. If one of them resolves, it will remain in effect until the game ends, Figure of Destiny leaves the battlefield, or some subsequent effect changes its characteristics, whichever comes first."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Figure of Destiny’s abilities overwrite its power, toughness, and creature types. Typically, those abilities are activated in the order they appear on the card. However, if Figure of Destiny is an 8/8 Kithkin Spirit Warrior Avatar with flying and first strike, and you activate its first ability, it will become a 2/2 Kithkin Spirit that still has flying and first strike."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "You can activate Figure of Destiny’s second and third abilities regardless of what creature types it is. Each of those abilities checks Figure of Destiny’s creature types when that ability resolves. If Figure of Destiny isn’t the appropriate creature type at that time, the ability does nothing."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Figure of Destiny’s second ability checks whether it’s a Spirit, and its third ability checks whether it’s a Warrior. It doesn’t matter how it became the appropriate creature type."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The effect from the ability overwrites other effects that set power and/or toughness if and only if those effects existed before the ability resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the ability resolves. Effects that switch the creature’s power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created."
+      }
+    ]
   },
   {
     "name": "Kitchen Finks",
@@ -5102,7 +7281,37 @@
     "loyalty": null,
     "multiverse_id": 370458,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist stops being a creature, persist will still work."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point."
+      }
+    ]
   },
   {
     "name": "Manamorphose",
@@ -5127,7 +7336,8 @@
     "loyalty": null,
     "multiverse_id": 370568,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Murderous Redcap",
@@ -5155,7 +7365,41 @@
     "loyalty": null,
     "multiverse_id": 370518,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "Murderous Redcap’s power is checked at the time the ability resolves. If it’s left the battlefield by then, its last known information is used."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist stops being a creature, persist will still work."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point."
+      }
+    ]
   },
   {
     "name": "Oona, Queen of the Fae",
@@ -5185,7 +7429,17 @@
     "loyalty": null,
     "multiverse_id": 370429,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "You target the opponent when you activate Oona’s ability. You don’t choose the color until the ability resolves."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "The tokens enter the battlefield under your control."
+      }
+    ]
   },
   {
     "name": "Plumeveil",
@@ -5212,7 +7466,8 @@
     "loyalty": null,
     "multiverse_id": 370423,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Worm Harvest",
@@ -5237,7 +7492,41 @@
     "loyalty": null,
     "multiverse_id": 370532,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A retrace card cast from your graveyard follows the normal timing rules for its card type."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If you cast Worm Harvest from your graveyard by using retrace, the land you discard as an additional cost will be counted by Worm Harvest when it resolves."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Casting a card with retrace from your graveyard follows the normal timing rules for its card type."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "When a retrace card you cast from your graveyard resolves or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again. If it’s your turn, you may do so before any other player may take actions to try to remove it from your graveyard."
+      }
+    ]
   },
   {
     "name": "Aether Spellbomb",
@@ -5262,7 +7551,8 @@
     "loyalty": null,
     "multiverse_id": 370524,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Aether Vial",
@@ -5287,7 +7577,17 @@
     "loyalty": null,
     "multiverse_id": 370514,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If Aether Vial leaves the battlefield while its second ability is on the stack, use its last known number of charge counters to determine what you may put from your hand onto the battlefield."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a card in a player’s hand has {X} in its mana cost, X is considered to be 0."
+      }
+    ]
   },
   {
     "name": "Arcbound Ravager",
@@ -5315,7 +7615,13 @@
     "loyalty": null,
     "multiverse_id": 370510,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/25/2006",
+        "text": "If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield."
+      }
+    ]
   },
   {
     "name": "Arcbound Stinger",
@@ -5343,7 +7649,13 @@
     "loyalty": null,
     "multiverse_id": 370443,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/25/2006",
+        "text": "If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield."
+      }
+    ]
   },
   {
     "name": "Arcbound Wanderer",
@@ -5370,7 +7682,25 @@
     "loyalty": null,
     "multiverse_id": 370523,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "This card has modular—sunburst, a combination of two keyword abilities. The sunburst ability sets the number for the modular ability. Basically, the number of +1/+1 counters the Wanderer gets as it enters the battlefield is equal to the number of colors of mana used to pay its cost."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "For the leaves-the-battlefield ability, the number of counters on Arcbound Wanderer at the time it left the battlefield is what’s relevant; the number of colors of mana used to pay its cost doesn’t matter anymore."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "When the Wanderer leaves the battlefield, you may put the counters onto a single target artifact creature. You can’t split them among two or more artifact creatures."
+      },
+      {
+        "date": "9/25/2006",
+        "text": "If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield."
+      }
+    ]
   },
   {
     "name": "Arcbound Worker",
@@ -5397,7 +7727,13 @@
     "loyalty": null,
     "multiverse_id": 370517,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/25/2006",
+        "text": "If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield."
+      }
+    ]
   },
   {
     "name": "Bonesplitter",
@@ -5424,7 +7760,8 @@
     "loyalty": null,
     "multiverse_id": 370442,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Chalice of the Void",
@@ -5449,7 +7786,25 @@
     "loyalty": null,
     "multiverse_id": 370411,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "A mana cost of {X}{X} means that you pay twice X. If you want X to be 3, you pay {6} to cast Chalice of the Void."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "The number of counters on Chalice of the Void matters only at the time the spell is cast. Changing the number of charge counters on Chalice of the Void after a spell has been cast won’t change whether the ability counters the spell."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "If there are zero charge counters on Chalice of the Void, it counters each spell with a converted mana cost of 0. This includes face-down creature spells cast with morph’s alternative cost."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "Chalice of the Void has to be on the battlefield at the end of casting a spell for the ability to trigger. If you sacrifice Chalice of the Void as a cost to cast a spell, its ability can’t trigger. However, if it leaves the battlefield once its ability has triggered, that ability will still counter the spell."
+      }
+    ]
   },
   {
     "name": "Engineered Explosives",
@@ -5474,7 +7829,25 @@
     "loyalty": null,
     "multiverse_id": 370549,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "If Engineered Explosives had no charge counters on it when you sacrificed it, it won’t destroy an animated land, because that permanent is a land in addition to being a creature."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "You can choose any value for X as you cast Engineered Explosives. The value chosen for X doesn’t directly affect the number of charge counters Engineered Explosives enters the battlefield with, but it does let you pay more mana and thus spend more colors of mana to cast it."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "Colorless mana won’t give Engineered Explosives another charge counter. Colorless is not a color."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "A token has a converted mana cost of 0 unless it is copying something else."
+      }
+    ]
   },
   {
     "name": "Epochrasite",
@@ -5502,7 +7875,53 @@
     "loyalty": null,
     "multiverse_id": 370497,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "Epochrasite will enter the battlefield with three +1/+1 counters on it if you cast it from a zone other than your hand, or if an effect let you put it directly onto the battlefield."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      }
+    ]
   },
   {
     "name": "Etched Oracle",
@@ -5530,7 +7949,8 @@
     "loyalty": null,
     "multiverse_id": 370435,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Frogmite",
@@ -5557,7 +7977,8 @@
     "loyalty": null,
     "multiverse_id": 370434,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Lotus Bloom",
@@ -5582,7 +8003,53 @@
     "loyalty": null,
     "multiverse_id": 370562,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      },
+      {
+        "date": "9/20/2016",
+        "text": "This has no mana cost, which means its mana cost can’t be paid for effects such as replicate from Djinn Illuminatus or flashback from Snapcaster Mage."
+      }
+    ]
   },
   {
     "name": "Myr Enforcer",
@@ -5609,7 +8076,8 @@
     "loyalty": null,
     "multiverse_id": 370436,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Myr Retriever",
@@ -5636,7 +8104,8 @@
     "loyalty": null,
     "multiverse_id": 370520,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Paradise Mantle",
@@ -5663,7 +8132,8 @@
     "loyalty": null,
     "multiverse_id": 370448,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Pyrite Spellbomb",
@@ -5688,7 +8158,8 @@
     "loyalty": null,
     "multiverse_id": 370512,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Relic of Progenitus",
@@ -5713,7 +8184,17 @@
     "loyalty": null,
     "multiverse_id": 370556,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "If you activate Relic of Progenitus’s first ability, the targeted player chooses which card to exile. The choice is made as the ability resolves."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "You can activate Relic of Progenitus’s second ability even if no players have any cards in their graveyards. You’ll still draw a card."
+      }
+    ]
   },
   {
     "name": "Runed Stalactite",
@@ -5740,7 +8221,8 @@
     "loyalty": null,
     "multiverse_id": 370445,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Skyreach Manta",
@@ -5768,7 +8250,8 @@
     "loyalty": null,
     "multiverse_id": 370356,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sword of Fire and Ice",
@@ -5796,7 +8279,13 @@
     "loyalty": null,
     "multiverse_id": 370471,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "The triggered ability has one target: the permanent or player to be dealt 2 damage. If that permanent or player is an illegal target when the ability tries to resolve, it won’t resolve and none of its effects will happen. You won’t draw a card."
+      }
+    ]
   },
   {
     "name": "Sword of Light and Shadow",
@@ -5824,7 +8313,13 @@
     "loyalty": null,
     "multiverse_id": 370455,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You may put the triggered ability with no targets. However, If you choose a target creature in your graveyard, and that card is an illegal target when the ability tries to resolve, it won’t resolve and none of its effects will happen. You won’t gain 3 life."
+      }
+    ]
   },
   {
     "name": "Vedalken Shackles",
@@ -5849,7 +8344,21 @@
     "loyalty": null,
     "multiverse_id": 370366,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "The creature’s power and the number of Islands you control matter only when the ability is activated and when it resolves. After that, only the fact that Vedalken Shackles remains tapped matters. If the creature stops being a creature, you’ll keep control of it."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "If Vedalken Shackles becomes untapped before its ability resolves, you won’t gain control of the creature."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "If Vedalken Shackles leaves the battlefield, it’s no longer tapped, so the control-changing effect ends."
+      }
+    ]
   },
   {
     "name": "Academy Ruins",
@@ -5876,7 +8385,8 @@
     "loyalty": null,
     "multiverse_id": 370424,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Blinkmoth Nexus",
@@ -5902,7 +8412,25 @@
     "loyalty": null,
     "multiverse_id": 370407,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "Blinkmoth Nexus gains the creature type “Blinkmoth” when it becomes a creature. This means that it ends up with three types (land, artifact, and creature), plus one creature subtype (Blinkmoth)."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "The “target Blinkmoth gets +1/+1” ability can target any creature with the creature type Blinkmoth."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Activating the ability that turns it into a creature while it’s already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply."
+      }
+    ]
   },
   {
     "name": "City of Brass",
@@ -5927,7 +8455,21 @@
     "loyalty": null,
     "multiverse_id": 370490,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The first ability triggers no matter how the land becomes tapped."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "If you tap City of Brass while you are casting a spell or activating an ability, its ability will trigger and wait. When you finish casting that spell or activating that ability, City of Brass’s triggered ability is put on the stack on top of it. City of Brass’s ability will resolve first."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "On the other hand, you can tap City of Brass, put its triggered ability on the stack, and then respond to that ability by casting an instant or activating an ability using that mana. In that case, the instant spell or activated ability will resolve first."
+      }
+    ]
   },
   {
     "name": "Dakmor Salvage",
@@ -5953,7 +8495,21 @@
     "loyalty": null,
     "multiverse_id": 370456,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Dredge lets you replace any card draw, not just the one during your draw step."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Once you decide to replace a draw using a card’s dredge ability, that card can’t be removed from your graveyard “in response.” (Replacement effects don’t use the stack.)"
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You can’t use dredge unless you’re going to draw a card and the card with dredge is already in your graveyard."
+      }
+    ]
   },
   {
     "name": "Glimmervoid",
@@ -5978,7 +8534,8 @@
     "loyalty": null,
     "multiverse_id": 370425,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Terramorphic Expanse",
@@ -6002,7 +8559,8 @@
     "loyalty": null,
     "multiverse_id": 370459,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vivid Crag",
@@ -6028,7 +8586,8 @@
     "loyalty": null,
     "multiverse_id": 370400,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vivid Creek",
@@ -6054,7 +8613,8 @@
     "loyalty": null,
     "multiverse_id": 370355,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vivid Grove",
@@ -6080,7 +8640,8 @@
     "loyalty": null,
     "multiverse_id": 370403,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vivid Marsh",
@@ -6106,7 +8667,8 @@
     "loyalty": null,
     "multiverse_id": 370389,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vivid Meadow",
@@ -6132,6 +8694,7 @@
     "loyalty": null,
     "multiverse_id": 370351,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]

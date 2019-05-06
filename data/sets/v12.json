@@ -21,7 +21,8 @@
     "loyalty": null,
     "multiverse_id": 288994,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Boseiju, Who Shelters All",
@@ -48,7 +49,17 @@
     "loyalty": null,
     "multiverse_id": 291507,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "The spell can’t be countered if the mana produced by Boseiju is spent to cover any cost of the spell, even an additional cost such as a splice cost. This is true even if you pay an additional cost while casting a spell “without paying its mana cost.”"
+      },
+      {
+        "date": "12/1/2004",
+        "text": "Suppose mana produced by Boseiju is spent on a spell and an effect creates a copy of that spell. The copy can be countered, even though the original can’t."
+      }
+    ]
   },
   {
     "name": "Cephalid Coliseum",
@@ -73,7 +84,8 @@
     "loyalty": null,
     "multiverse_id": 288995,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Desert",
@@ -100,7 +112,17 @@
     "loyalty": null,
     "multiverse_id": 287341,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The ability can be used on any player’s attacking creatures. This includes your own and creatures in an attack you are not involved in (for multiplayer games)."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "Desert is a land subtype with no special meaning. It doesn’t grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts."
+      }
+    ]
   },
   {
     "name": "Dryad Arbor",
@@ -128,7 +150,29 @@
     "loyalty": null,
     "multiverse_id": 282542,
     "other_part": null,
-    "color_indicator": "Green"
+    "color_indicator": "Green",
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "Forest is a land type. Dryad is a creature type."
+      },
+      {
+        "date": "5/1/2007",
+        "text": "Dryad Arbor is played as a land. It doesn’t use the stack, it’s not a spell, it can’t be responded to, it has no mana cost, and it counts as your land play for the turn."
+      },
+      {
+        "date": "5/1/2007",
+        "text": "If a Dryad Arbor gains flash, or you have the ability to play Dryad Arbor as though it had flash (due to Teferi, Mage of Zhalfir or Scout’s Warning, for example), you can ignore the normal timing rules for playing a land, but not any other restrictions. You can’t play Dryad Arbor during another player’s turn, and you can’t play Dryad Arbor if it’s your turn and you’ve already played a land."
+      },
+      {
+        "date": "9/22/2011",
+        "text": "If Dryad Arbor is changed into another basic land type (such as by Sea’s Claim), it continues to be a creature and a Dryad."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can’t be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it."
+      }
+    ]
   },
   {
     "name": "Forbidden Orchard",
@@ -153,7 +197,8 @@
     "loyalty": null,
     "multiverse_id": 282541,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Glacial Chasm",
@@ -180,7 +225,13 @@
     "loyalty": null,
     "multiverse_id": 288996,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "When Glacial Chasm’s enters-the-battlefield ability resolves, if you don’t control any other lands, you must sacrifice Glacial Chasm itself."
+      }
+    ]
   },
   {
     "name": "Grove of the Burnwillows",
@@ -205,7 +256,8 @@
     "loyalty": null,
     "multiverse_id": 287335,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "High Market",
@@ -230,7 +282,8 @@
     "loyalty": null,
     "multiverse_id": 287336,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Maze of Ith",
@@ -254,7 +307,21 @@
     "loyalty": null,
     "multiverse_id": 287329,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "Maze of Ith can target an untapped attacking creature. It will still prevent damage in that case."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "The creature isn’t removed from combat; it just has its damage prevented. It’s still an attacking creature until the combat phase is complete."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "You can activate Maze of Ith’s ability targeting an attacking creature you control during the combat damage step or the end of combat step. It’ll be untapped and the damage it had already dealt won’t be undone."
+      }
+    ]
   },
   {
     "name": "Murmuring Bosk",
@@ -282,7 +349,13 @@
     "loyalty": null,
     "multiverse_id": 287334,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/1/2008",
+        "text": "Murmuring Bosk is a Forest, but it isn’t a basic land. Things that affect basic lands don’t affect it. Things that affect basic land types do. For example, you can’t find Murmuring Bosk with Fertilid’s ability (“searches their library for a basic land card”), but you can find Murmuring Bosk with Everbark Shaman’s ability (“search your library for two Forest cards”)."
+      }
+    ]
   },
   {
     "name": "Shivan Gorge",
@@ -309,7 +382,13 @@
     "loyalty": null,
     "multiverse_id": 288997,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The damage has no color. It is not red."
+      }
+    ]
   },
   {
     "name": "Urborg, Tomb of Yawgmoth",
@@ -335,7 +414,21 @@
     "loyalty": null,
     "multiverse_id": 287330,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "Urborg, Tomb of Yawgmoth isn’t a Swamp while it’s not on the battlefield."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "Land cards not on the battlefield aren’t Swamps while Urborg is on the battlefield."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "Urborg’s ability causes each land on the battlefield to have the land type Swamp. Any land that’s a Swamp has the ability “{T}: Add {B}.” Nothing else changes about those lands, including their names, other subtypes, other abilities, and whether they’re legendary, basic, or snow."
+      }
+    ]
   },
   {
     "name": "Vesuva",
@@ -359,7 +452,25 @@
     "loyalty": null,
     "multiverse_id": 287332,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/25/2006",
+        "text": "Vesuva has no intrinsic mana abilities."
+      },
+      {
+        "date": "9/25/2006",
+        "text": "If you don’t choose a land on the battlefield, Vesuva enters the battlefield untapped as itself."
+      },
+      {
+        "date": "10/15/2006",
+        "text": "Cornered Market won’t prevent Vesuva from being played (unless there’s a Vesuva on the battlefield copying nothing), since you play it before it becomes named something else."
+      },
+      {
+        "date": "4/27/2018",
+        "text": "If Vesuva somehow enters the battlefield at the same time as another land, Vesuva can’t become a copy of that land. You may choose only a land that’s already on the battlefield."
+      }
+    ]
   },
   {
     "name": "Windbrisk Heights",
@@ -385,6 +496,12 @@
     "loyalty": null,
     "multiverse_id": 287338,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2007",
+        "text": "At the time the ability resolves, you’ll get to play the card if you declared three different creatures as attackers at any point in the turn. A creature declared as an attacker in two different attack phases counts only once. A creature that entered the battlefield attacking (such as a token created by Militia’s Pride) doesn’t count because you never attacked with it."
+      }
+    ]
   }
 ]

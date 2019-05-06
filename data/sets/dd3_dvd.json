@@ -25,7 +25,13 @@
     "loyalty": null,
     "multiverse_id": 394005,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "The “legend rule” cares about legendary permanents with the exact same English name. You can control Akroma, Angel of Wrath and Akroma, Angel of Fury at the same time."
+      }
+    ]
   },
   {
     "name": "Icatian Priest",
@@ -52,7 +58,8 @@
     "loyalty": null,
     "multiverse_id": 394032,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Angelic Page",
@@ -80,7 +87,8 @@
     "loyalty": null,
     "multiverse_id": 394009,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Charging Paladin",
@@ -107,7 +115,8 @@
     "loyalty": null,
     "multiverse_id": 394016,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Venerable Monk",
@@ -135,7 +144,8 @@
     "loyalty": null,
     "multiverse_id": 394064,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Angelic Protector",
@@ -162,7 +172,13 @@
     "loyalty": null,
     "multiverse_id": 394010,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The ability triggers when Angelic Protector is chosen as a target for a spell or ability. The Protectors ability will be put on the stack above that spell or ability, and so resolve first."
+      }
+    ]
   },
   {
     "name": "Serra Advocate",
@@ -189,7 +205,8 @@
     "loyalty": null,
     "multiverse_id": 394050,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sustainer of the Realm",
@@ -216,7 +233,13 @@
     "loyalty": null,
     "multiverse_id": 394057,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "It gets the bonus only once, not once per creature it blocks."
+      }
+    ]
   },
   {
     "name": "Angel of Mercy",
@@ -243,7 +266,8 @@
     "loyalty": null,
     "multiverse_id": 394006,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Serra Angel",
@@ -269,7 +293,8 @@
     "loyalty": null,
     "multiverse_id": 394051,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Twilight Shepherd",
@@ -297,7 +322,37 @@
     "loyalty": null,
     "multiverse_id": 394062,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist stops being a creature, persist will still work."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point."
+      }
+    ]
   },
   {
     "name": "Luminous Angel",
@@ -324,7 +379,8 @@
     "loyalty": null,
     "multiverse_id": 394035,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Reya Dawnbringer",
@@ -353,7 +409,8 @@
     "loyalty": null,
     "multiverse_id": 394047,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Healing Salve",
@@ -379,7 +436,8 @@
     "loyalty": null,
     "multiverse_id": 394031,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Angelsong",
@@ -404,7 +462,13 @@
     "loyalty": null,
     "multiverse_id": 394011,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      }
+    ]
   },
   {
     "name": "Otherworldly Journey",
@@ -430,7 +494,21 @@
     "loyalty": null,
     "multiverse_id": 394038,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "The creature comes back onto the battlefield as a new creature, with one +1/+1 counter on it (plus any other counters that it would normally enter the battlefield with)."
+      },
+      {
+        "date": "8/1/2005",
+        "text": "Any Aura attached to the creature is put into its owner’s graveyard as a state-based action. Equipment attached to the creature become unattached but remain on the battlefield."
+      },
+      {
+        "date": "8/1/2005",
+        "text": "If Otherworldly Journey is cast during an end step, the creature won’t return until the beginning of the next end step."
+      }
+    ]
   },
   {
     "name": "Pacifism",
@@ -457,7 +535,8 @@
     "loyalty": null,
     "multiverse_id": 394040,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Serra's Boon",
@@ -484,7 +563,8 @@
     "loyalty": null,
     "multiverse_id": 394052,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Angelic Benediction",
@@ -509,7 +589,37 @@
     "loyalty": null,
     "multiverse_id": 394008,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If you attack with multiple creatures, but then all but one are removed from combat, your exalted abilities won’t trigger."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they’re ignored by exalted abilities. They won’t cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Exalted abilities will resolve before blockers are declared."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Exalted bonuses last until end of turn. If an effect creates an additional combat phase during your turn, a creature that attacked alone during the first combat phase will still have its exalted bonuses in that new phase. If a creature attacks alone during the second combat phase, all your exalted abilities will trigger again."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "In a Two-Headed Giant game, a creature “attacks alone” if it’s the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate’s exalted abilities won’t."
+      },
+      {
+        "date": "7/1/2012",
+        "text": "The creature you target with the last ability will become tapped before blockers are declared."
+      }
+    ]
   },
   {
     "name": "Faith's Fetters",
@@ -537,7 +647,21 @@
     "loyalty": null,
     "multiverse_id": 394028,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords (such as equip) are activated abilities and will have colons in their reminder text."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "Faith’s Fetters doesn’t stop static abilities, triggered abilities, or mana abilities from working. A mana ability is an ability that produces mana, not an ability that costs mana."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If the target permanent is an illegal target by the time Faith’s Fetters tries to resolve, the Aura spell doesn’t resolve. It won’t enter the battlefield, so its enters-the-battlefield ability won’t trigger."
+      }
+    ]
   },
   {
     "name": "Serra's Embrace",
@@ -564,7 +688,8 @@
     "loyalty": null,
     "multiverse_id": 394053,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Righteous Cause",
@@ -588,7 +713,8 @@
     "loyalty": null,
     "multiverse_id": 394048,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Angel's Feather",
@@ -612,7 +738,17 @@
     "loyalty": null,
     "multiverse_id": 394007,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The ability triggers whenever any player, not just you, casts a white spell."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If a player casts a white spell, Angel’s Feather’s ability triggers and is put on the stack on top of that spell. Angel’s Feather’s ability will resolve (causing you to gain 1 life) before the spell does."
+      }
+    ]
   },
   {
     "name": "Marble Diamond",
@@ -637,7 +773,8 @@
     "loyalty": null,
     "multiverse_id": 394036,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Secluded Steppe",
@@ -663,7 +800,13 @@
     "loyalty": null,
     "multiverse_id": 394049,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      }
+    ]
   },
   {
     "name": "Plains",
@@ -691,7 +834,8 @@
     "loyalty": null,
     "multiverse_id": 394041,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -719,7 +863,8 @@
     "loyalty": null,
     "multiverse_id": 394042,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -747,7 +892,8 @@
     "loyalty": null,
     "multiverse_id": 394043,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -775,7 +921,8 @@
     "loyalty": null,
     "multiverse_id": 394044,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Lord of the Pit",
@@ -802,7 +949,21 @@
     "loyalty": null,
     "multiverse_id": 394034,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If you control any other creatures as Lord of the Pit’s triggered ability resolves, you must sacrifice one. You can’t choose to be dealt 7 damage instead."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If Lord of the Pit has gained lifelink, being dealt 7 damage by it doesn’t cause your life total to change, even though you gain and lose life. If your life total is less than 7, you won’t lose the game."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If you have two Lords of the Pit, you can sacrifice them to each other."
+      }
+    ]
   },
   {
     "name": "Abyssal Gatekeeper",
@@ -828,7 +989,17 @@
     "loyalty": null,
     "multiverse_id": 394003,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The “sacrifice a creature” effect is not targeted. It can affect creatures with protection from black, for example."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "The player whose turn it is chooses a creature to sacrifice, then each other player in turn order chooses a creature to sacrifice, then all chosen creatures are sacrificed at the same time."
+      }
+    ]
   },
   {
     "name": "Foul Imp",
@@ -855,7 +1026,13 @@
     "loyalty": null,
     "multiverse_id": 394030,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You can cast this if you have less than 2 life, since the life is lost as an effect and not a payment."
+      }
+    ]
   },
   {
     "name": "Daggerclaw Imp",
@@ -882,7 +1059,8 @@
     "loyalty": null,
     "multiverse_id": 394020,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dusk Imp",
@@ -908,7 +1086,8 @@
     "loyalty": null,
     "multiverse_id": 394027,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Overeager Apprentice",
@@ -935,7 +1114,8 @@
     "loyalty": null,
     "multiverse_id": 394039,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Stinkweed Imp",
@@ -963,7 +1143,25 @@
     "loyalty": null,
     "multiverse_id": 394056,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Dredge lets you replace any card draw, not just the one during your draw step."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Once you decide to replace a draw using a card’s dredge ability, that card can’t be removed from your graveyard “in response.” (Replacement effects don’t use the stack.)"
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You can’t use dredge unless you’re going to draw a card and the card with dredge is already in your graveyard."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Notably, Stinkweed Imp’s ability isn’t deathtouch. It’s a triggered ability that triggers only on combat damage."
+      }
+    ]
   },
   {
     "name": "Soot Imp",
@@ -990,7 +1188,17 @@
     "loyalty": null,
     "multiverse_id": 394054,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "This ability affects all players, including you."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A hybrid spell that’s black and another color is *not* a nonblack spell. Since it’s black, it can’t be nonblack!"
+      }
+    ]
   },
   {
     "name": "Demon's Jester",
@@ -1017,7 +1225,8 @@
     "loyalty": null,
     "multiverse_id": 394024,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Souldrinker",
@@ -1043,7 +1252,8 @@
     "loyalty": null,
     "multiverse_id": 394055,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Abyssal Specter",
@@ -1070,7 +1280,8 @@
     "loyalty": null,
     "multiverse_id": 394004,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cackling Imp",
@@ -1097,7 +1308,8 @@
     "loyalty": null,
     "multiverse_id": 394015,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fallen Angel",
@@ -1124,7 +1336,13 @@
     "loyalty": null,
     "multiverse_id": 394029,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Can sacrifice itself."
+      }
+    ]
   },
   {
     "name": "Reiver Demon",
@@ -1151,7 +1369,13 @@
     "loyalty": null,
     "multiverse_id": 394046,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/20/2013",
+        "text": "If a creature (such as Clone) enters the battlefield as a copy of this creature, the copy’s “enters-the-battlefield” ability will still trigger as long as you cast that creature spell from your hand."
+      }
+    ]
   },
   {
     "name": "Kuro, Pitlord",
@@ -1181,7 +1405,8 @@
     "loyalty": null,
     "multiverse_id": 394033,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dark Ritual",
@@ -1205,7 +1430,8 @@
     "loyalty": null,
     "multiverse_id": 394022,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Duress",
@@ -1229,7 +1455,8 @@
     "loyalty": null,
     "multiverse_id": 394026,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Unholy Strength",
@@ -1256,7 +1483,8 @@
     "loyalty": null,
     "multiverse_id": 394063,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cruel Edict",
@@ -1280,7 +1508,8 @@
     "loyalty": null,
     "multiverse_id": 394019,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Demonic Tutor",
@@ -1296,7 +1525,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Search your library for a card and put that card into your hand. Then shuffle your library."
+      "Search your library for a card, put that card into your hand, then shuffle your library."
     ],
     "flavor_text": "Liliana learned the secrets she sought, but at a price that was etched on her fate.",
     "power": null,
@@ -1304,7 +1533,21 @@
     "loyalty": null,
     "multiverse_id": 394025,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You pick a card on resolution."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "You don’t reveal the card to your opponent."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "This card is put directly into your hand. It is not drawn."
+      }
+    ]
   },
   {
     "name": "Dark Banishing",
@@ -1328,7 +1571,8 @@
     "loyalty": null,
     "multiverse_id": 394021,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Oni Possession",
@@ -1357,7 +1601,8 @@
     "loyalty": null,
     "multiverse_id": 394037,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Barter in Blood",
@@ -1381,7 +1626,21 @@
     "loyalty": null,
     "multiverse_id": 394013,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2012",
+        "text": "The active player chooses which creatures will be sacrificed first, then each other player in turn order does the same. Then all creatures are sacrificed simultaneously."
+      },
+      {
+        "date": "5/1/2012",
+        "text": "If a player controls only one creature, that creature is sacrificed."
+      },
+      {
+        "date": "5/1/2012",
+        "text": "Barter in Blood doesn’t target any creatures and may be cast even if a player controls fewer than two creatures."
+      }
+    ]
   },
   {
     "name": "Breeding Pit",
@@ -1406,7 +1665,13 @@
     "loyalty": null,
     "multiverse_id": 394014,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Breeding Pit must actually be on the battlefield at the beginning of the endstep in order for you to get a Thrull. The getting of the Thrull is not part of paying the upkeep, it is part of having the card on the battlefield."
+      }
+    ]
   },
   {
     "name": "Promise of Power",
@@ -1433,7 +1698,21 @@
     "loyalty": null,
     "multiverse_id": 394045,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The power/toughness of the token is set when this spell resolves."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "The power and toughness of the Demon token are set when Promise of Power resolves. They’re unaffected if the number of cards in your hand changes later."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "If you pay the entwine cost, you draw five cards, then lose five life, then put the Demon token onto the battlefield. The five cards you draw count toward the Demon’s power and toughness."
+      }
+    ]
   },
   {
     "name": "Corrupt",
@@ -1457,7 +1736,25 @@
     "loyalty": null,
     "multiverse_id": 394018,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The swamps are counted on resolution."
+      },
+      {
+        "date": "8/15/2010",
+        "text": "The life you gain is equal to the damage dealt by Corrupt, not necessarily to the number of Swamps you control (if some or all of the damage is prevented, for example)."
+      },
+      {
+        "date": "8/15/2010",
+        "text": "The amount of damage dealt to a creature is not bounded by its toughness, and the amount of damage dealt to a player is not bounded by that player’s life total. For example, if Corrupt deals 6 damage to a 2/2 creature, you’ll gain 6 life."
+      },
+      {
+        "date": "7/1/2013",
+        "text": "Corrupt counts any land you control with the subtype Swamp, not just ones named Swamp."
+      }
+    ]
   },
   {
     "name": "Consume Spirit",
@@ -1482,7 +1779,17 @@
     "loyalty": null,
     "multiverse_id": 394017,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The amount of life you gain is equal to the number chosen for X, not the amount of damage Consume Spirit deals (in case some of it is prevented)."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If the targeted permanent or player is an illegal target by the time Consume Spirit would resolve, the entire spell doesn’t resolve. You won’t gain any life."
+      }
+    ]
   },
   {
     "name": "Demon's Horn",
@@ -1506,7 +1813,17 @@
     "loyalty": null,
     "multiverse_id": 394023,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The ability triggers whenever any player, not just you, casts a black spell."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If a player casts a black spell, Demon’s Horn’s ability triggers and is put on the stack on top of that spell. Demon’s Horn’s ability will resolve (causing you to gain 1 life) before the spell does."
+      }
+    ]
   },
   {
     "name": "Barren Moor",
@@ -1532,7 +1849,13 @@
     "loyalty": null,
     "multiverse_id": 394012,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      }
+    ]
   },
   {
     "name": "Swamp",
@@ -1560,7 +1883,8 @@
     "loyalty": null,
     "multiverse_id": 394058,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -1588,7 +1912,8 @@
     "loyalty": null,
     "multiverse_id": 394059,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -1616,7 +1941,8 @@
     "loyalty": null,
     "multiverse_id": 394060,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -1644,6 +1970,7 @@
     "loyalty": null,
     "multiverse_id": 394061,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]

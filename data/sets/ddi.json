@@ -27,7 +27,41 @@
     "loyalty": "3",
     "multiverse_id": 266078,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/1/2011",
+        "text": "Emblems behave similarly to enchantments: They have an ability that, in a general sense, continually affects the game. The primary difference between them is that emblems aren’t permanents and don’t exist on the battlefield. Nothing in the game can remove an emblem, simply because no other spell or ability references them. Once you get an emblem, you keep it for the rest of the game. Emblems have no color, name, card type, or other characteristics beyond the listed ability."
+      },
+      {
+        "date": "1/1/2011",
+        "text": "The first ability can target any permanent you own, including those another player controls."
+      },
+      {
+        "date": "1/1/2011",
+        "text": "If the first ability exiles a token, that token will cease to exist. It won’t return to the battlefield."
+      },
+      {
+        "date": "1/1/2011",
+        "text": "A permanent exiled by the first ability will return to the battlefield under your control at the beginning of the next end step even if you no longer control Venser at that time."
+      },
+      {
+        "date": "1/1/2011",
+        "text": "Venser’s second ability doesn’t lock in what it applies to. That’s because the effect states a true thing about creatures, but doesn’t actually change the characteristics of those creatures. As a result, all creatures can’t be blocked that turn, including creatures you don’t control, creatures that weren’t on the battlefield at the time the ability resolved, and creatures that have lost all abilities."
+      },
+      {
+        "date": "1/1/2011",
+        "text": "Venser’s last ability creates an emblem with a triggered ability. The emblem is the source of the triggered ability. Because emblems are colorless, you can target permanents with protection from white or from blue, for example, with the triggered ability."
+      },
+      {
+        "date": "1/1/2011",
+        "text": "Whenever you cast a spell, the emblem’s ability triggers and goes on the stack on top of it. It will resolve before the spell does."
+      },
+      {
+        "date": "1/1/2011",
+        "text": "If you control more than one such emblem, each one’s ability will trigger separately whenever you cast a spell."
+      }
+    ]
   },
   {
     "name": "Whitemane Lion",
@@ -54,7 +88,17 @@
     "loyalty": null,
     "multiverse_id": 270859,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "You may return this creature itself to its owner’s hand as its triggered ability resolves. If you don’t control enough other creatures, you must return it."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "The ability doesn’t target any creature. You don’t choose what to return until the ability resolves. Once the ability has started to resolve, no one can respond to the choice."
+      }
+    ]
   },
   {
     "name": "Augury Owl",
@@ -81,7 +125,8 @@
     "loyalty": null,
     "multiverse_id": 270841,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Coral Fighters",
@@ -108,7 +153,13 @@
     "loyalty": null,
     "multiverse_id": 282600,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step."
+      }
+    ]
   },
   {
     "name": "Minamo Sightbender",
@@ -135,7 +186,8 @@
     "loyalty": null,
     "multiverse_id": 282602,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mistmeadow Witch",
@@ -162,7 +214,8 @@
     "loyalty": null,
     "multiverse_id": 282603,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Scroll Thief",
@@ -189,7 +242,17 @@
     "loyalty": null,
     "multiverse_id": 270845,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/15/2010",
+        "text": "The ability triggers just once each time Scroll Thief deals combat damage to a player, regardless of how much damage it deals."
+      },
+      {
+        "date": "8/15/2010",
+        "text": "The ability is mandatory. You must draw a card when it resolves."
+      }
+    ]
   },
   {
     "name": "Neurok Invisimancer",
@@ -217,7 +280,8 @@
     "loyalty": null,
     "multiverse_id": 270868,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Slith Strider",
@@ -244,7 +308,8 @@
     "loyalty": null,
     "multiverse_id": 270851,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sky Spirit",
@@ -270,7 +335,8 @@
     "loyalty": null,
     "multiverse_id": 284485,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wall of Denial",
@@ -297,7 +363,8 @@
     "loyalty": null,
     "multiverse_id": 270829,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Galepowder Mage",
@@ -325,7 +392,21 @@
     "loyalty": null,
     "multiverse_id": 270839,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2007",
+        "text": "Galepowder Mage’s ability can target a creature controlled by any player. It’s not optional."
+      },
+      {
+        "date": "10/1/2007",
+        "text": "The exiled card will be returned to the battlefield at the beginning of the end step even if Galepowder Mage is no longer on the battlefield at that time."
+      },
+      {
+        "date": "10/1/2007",
+        "text": "If Galepowder Mage is the only creature on the battlefield when it attacks, its ability has no effect."
+      }
+    ]
   },
   {
     "name": "Kor Cartographer",
@@ -352,7 +433,8 @@
     "loyalty": null,
     "multiverse_id": 270875,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Clone",
@@ -378,7 +460,41 @@
     "loyalty": null,
     "multiverse_id": 270842,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/15/2007",
+        "text": "If the chosen creature is copying something else (for example, if the chosen creature is another Clone), then your Clone enters the battlefield as whatever the chosen creature copied."
+      },
+      {
+        "date": "7/15/2007",
+        "text": "If the chosen creature is a token, Clone copies the original characteristics of that token as stated by the effect that put it onto the battlefield. Clone is not a token."
+      },
+      {
+        "date": "7/15/2007",
+        "text": "Any enters-the-battlefield abilities of the copied creature will trigger when Clone enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the chosen creature will also work."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If the chosen creature has {X} in its mana cost (such as Protean Hydra), X is considered to be zero."
+      },
+      {
+        "date": "7/1/2012",
+        "text": "Clone copies exactly what was printed on the original creature and nothing more (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on."
+      },
+      {
+        "date": "7/1/2012",
+        "text": "If Clone somehow enters the battlefield at the same time as another creature, Clone can’t become a copy of that creature. You may choose only a creature that’s already on the battlefield."
+      },
+      {
+        "date": "7/1/2012",
+        "text": "You can choose not to copy anything. In that case, Clone enters the battlefield as a 0/0 Shapeshifter creature, and is probably put into the graveyard immediately."
+      },
+      {
+        "date": "7/1/2013",
+        "text": "Clone’s ability doesn’t target the chosen creature."
+      }
+    ]
   },
   {
     "name": "Cryptic Annelid",
@@ -405,7 +521,13 @@
     "loyalty": null,
     "multiverse_id": 270836,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "You do the three different scry actions in sequence, in the order they’re printed on the card."
+      }
+    ]
   },
   {
     "name": "Primal Plasma",
@@ -432,7 +554,29 @@
     "loyalty": null,
     "multiverse_id": 270857,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2007",
+        "text": "If a creature that’s already on the battlefield becomes a copy of Primal Plasma, it copies the power, toughness, and abilities that were chosen for Primal Plasma when it entered the battlefield."
+      },
+      {
+        "date": "2/1/2007",
+        "text": "This is the timeshifted version of Primal Clay."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "In zones other than the battlefield, this creature card is 0/0."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "If another permanent enters the battlefield as a copy of this creature, the controller of that permanent will get to make a new choice. The copy won’t necessarily have the same power, toughness, and abilities as the original."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "If a creature that’s already on the battlefield becomes a copy of this creature, it copies the power, toughness, and abilities that were chosen for this creature as it entered the battlefield."
+      }
+    ]
   },
   {
     "name": "Sawtooth Loon",
@@ -460,7 +604,17 @@
     "loyalty": null,
     "multiverse_id": 270861,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Both triggered abilities trigger at the same time so you can decide which order they go on the stack. If you have no cards in hand, you would likely choose the order where you draw and put on the library before unsummoning the creature that is on the battlefield."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "You choose the creature to return on resolution of the triggered ability. This is not targeted."
+      }
+    ]
   },
   {
     "name": "Cache Raiders",
@@ -487,7 +641,13 @@
     "loyalty": null,
     "multiverse_id": 282599,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "This ability isn’t targeted. You choose a permanent to return when the ability resolves. No one will be able to respond to the choice."
+      }
+    ]
   },
   {
     "name": "Windreaver",
@@ -517,7 +677,17 @@
     "loyalty": null,
     "multiverse_id": 270835,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "Effects that switch power and toughness apply after all other effects that change power and/or toughness, regardless of which effect was created first."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Switching a creature’s power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches."
+      }
+    ]
   },
   {
     "name": "Jedit's Dragoons",
@@ -545,7 +715,8 @@
     "loyalty": null,
     "multiverse_id": 282601,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sunblast Angel",
@@ -572,7 +743,13 @@
     "loyalty": null,
     "multiverse_id": 284489,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/1/2011",
+        "text": "The second ability destroys each creature that’s tapped at the time it resolves, including creatures you control. If Sunblast Angel has become tapped by the time its ability resolves, it will be destroyed too."
+      }
+    ]
   },
   {
     "name": "Sphinx of Uthuun",
@@ -599,7 +776,21 @@
     "loyalty": null,
     "multiverse_id": 284486,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You (not your opponent) choose which pile to put into your hand and which to put into your graveyard."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "A pile can have no cards in it. In this case, you’ll choose whether to put all the revealed cards into your hand or into your graveyard."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "In multiplayer games, you choose an opponent to separate the cards when the ability resolves. This doesn’t target that opponent. Because the cards are revealed, all players may see the cards and offer opinions."
+      }
+    ]
   },
   {
     "name": "Path to Exile",
@@ -623,7 +814,17 @@
     "loyalty": null,
     "multiverse_id": 266017,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "If the targeted creature becomes an illegal target by the time Path to Exile would resolve, the entire spell doesn’t resolve. The creature’s controller won’t search for a basic land card."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "The controller of the exiled creature isn’t required to search their library for a basic land. If that player doesn’t, the player won’t shuffle their library."
+      }
+    ]
   },
   {
     "name": "Preordain",
@@ -647,7 +848,8 @@
     "loyalty": null,
     "multiverse_id": 265979,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sigil of Sleep",
@@ -674,7 +876,8 @@
     "loyalty": null,
     "multiverse_id": 270813,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Revoke Existence",
@@ -698,7 +901,8 @@
     "loyalty": null,
     "multiverse_id": 284488,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Angelic Shield",
@@ -723,7 +927,13 @@
     "loyalty": null,
     "multiverse_id": 284487,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "Angelic Shield goes to the graveyard when you activate the ability, but the targeted creature does not get returned until the ability resolves. All your creatures lose the bonus while the ability is on the stack which may result in the targeted creature being destroyed before the return can take effect."
+      }
+    ]
   },
   {
     "name": "Oblivion Ring",
@@ -748,7 +958,25 @@
     "loyalty": null,
     "multiverse_id": 270848,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2007",
+        "text": "If Oblivion Ring leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted nonland permanent forever."
+      },
+      {
+        "date": "10/1/2007",
+        "text": "If there are no nonland permanents on the battlefield other than an Oblivion Ring, and the card it exiled was another Oblivion Ring, casting a third Oblivion Ring will result in an involuntary infinite loop that will end the game in a draw (unless someone chooses to break it by putting another nonland permanent onto the battlefield or destroying one of the Oblivion Rings, for example)."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If the exiled card is an Aura, that card’s owner chooses what it will enchant as it comes back onto the battlefield. An Aura put onto the battlefield this way doesn’t target anything, but the Aura’s enchant ability restricts what it can be attached to. If the Aura can’t legally be attached to anything, it remains exiled forever."
+      },
+      {
+        "date": "7/1/2012",
+        "text": "Auras attached to the exiled permanent will be put into their owners’ graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist."
+      }
+    ]
   },
   {
     "name": "Safe Passage",
@@ -772,7 +1000,25 @@
     "loyalty": null,
     "multiverse_id": 270844,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "Safe Passage prevents all damage, not just combat damage, that would be dealt to you and creatures you control this turn."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Safe Passage will prevent damage dealt to creatures that weren’t on the battlefield at the time it resolved."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Safe Passage doesn’t prevent damage that would be dealt to planeswalkers you control."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Safe Passage has no effect on damage that’s already been dealt."
+      }
+    ]
   },
   {
     "name": "Steel of the Godhead",
@@ -800,7 +1046,13 @@
     "loyalty": null,
     "multiverse_id": 270866,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "If the enchanted creature is both of the listed colors, it will get both bonuses."
+      }
+    ]
   },
   {
     "name": "Vanish into Memory",
@@ -824,7 +1076,21 @@
     "loyalty": null,
     "multiverse_id": 270831,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "Vanish into Memory cares about the creature’s power just before it left the battlefield and its toughness just after it returns to the battlefield. For example, if you target a 2/2 creature with two +1/+1 counters on it, you’ll draw four cards, then when it returns to the battlefield without any counters on it, you’ll discard two cards."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "If the creature exiled with Vanish into Memory never returns to the battlefield (because it was a token creature, for example), you don’t discard any cards."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "If the creature exiled with Vanish into Memory isn’t a creature card (for example, a crewed Vehicle), that card will still be returned to the battlefield, but not as a creature. Since the card returned to the battlefield has no toughness, you discard no cards."
+      }
+    ]
   },
   {
     "name": "Overrule",
@@ -848,7 +1114,13 @@
     "loyalty": null,
     "multiverse_id": 270834,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2006",
+        "text": "You gain the life whether or not the spell’s controller pays {X} and whether or not the spell is countered."
+      }
+    ]
   },
   {
     "name": "Azorius Chancery",
@@ -874,7 +1146,13 @@
     "loyalty": null,
     "multiverse_id": 270826,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Flood Plain",
@@ -899,7 +1177,13 @@
     "loyalty": null,
     "multiverse_id": 270849,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to."
+      }
+    ]
   },
   {
     "name": "New Benalia",
@@ -925,7 +1209,8 @@
     "loyalty": null,
     "multiverse_id": 270837,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sejiri Refuge",
@@ -951,7 +1236,8 @@
     "loyalty": null,
     "multiverse_id": 270876,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Soaring Seacliff",
@@ -977,7 +1263,8 @@
     "loyalty": null,
     "multiverse_id": 270877,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -1005,7 +1292,8 @@
     "loyalty": null,
     "multiverse_id": 284498,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -1033,7 +1321,8 @@
     "loyalty": null,
     "multiverse_id": 284499,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -1061,7 +1350,8 @@
     "loyalty": null,
     "multiverse_id": 284497,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -1089,7 +1379,8 @@
     "loyalty": null,
     "multiverse_id": 284490,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -1117,7 +1408,8 @@
     "loyalty": null,
     "multiverse_id": 284492,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -1145,7 +1437,8 @@
     "loyalty": null,
     "multiverse_id": 284491,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Koth of the Hammer",
@@ -1175,7 +1468,29 @@
     "loyalty": "3",
     "multiverse_id": 266362,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/1/2011",
+        "text": "Emblems behave similarly to enchantments: They have an ability that, in a general sense, continually affects the game. The primary difference between them is that emblems aren’t permanents and don’t exist on the battlefield. Nothing in the game can remove an emblem, simply because no other spell or ability references them. Once you get an emblem, you keep it for the rest of the game. Emblems have no color, name, card type, or other characteristics beyond the listed ability."
+      },
+      {
+        "date": "1/1/2011",
+        "text": "Koth’s first ability can target any Mountain, including an untapped Mountain and/or a Mountain another player controls."
+      },
+      {
+        "date": "1/1/2011",
+        "text": "If Koth’s first ability animates a Mountain that came under your control that turn, it will have “summoning sickness” and be unable to attack. It will also be unable to be tapped to activate an ability with the {T} symbol in its cost, such as the Mountain’s mana ability or the ability granted to it by Koth’s emblem."
+      },
+      {
+        "date": "1/1/2011",
+        "text": "Loyalty abilities can’t be mana abilities. Koth’s second ability uses the stack and can be countered or otherwise responded to. Like all loyalty abilities, it can be activated only once per turn, during your main phase, when the stack is empty, and only if no other loyalty abilities of this permanent have been activated this turn."
+      },
+      {
+        "date": "1/1/2011",
+        "text": "Koth’s emblem grants an activated ability to each Mountain you control at any given time for the rest of the game. It will continuously check which permanents you control are Mountains to determine what has the ability. For example, a Mountain that comes under your control later in the game will have the ability, while a Mountain you controlled at the time the emblem was created, but that later came under the control of another player, will no longer have the ability."
+      }
+    ]
   },
   {
     "name": "Plated Geopede",
@@ -1202,7 +1517,17 @@
     "loyalty": null,
     "multiverse_id": 266210,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The landfall ability triggers whenever a land enters the battlefield under your control for any reason. It triggers whenever you play a land, as well as whenever a spell or ability (such as Rampant Growth) causes you to put a land onto the battlefield under your control. It will even trigger when a spell or ability causes another player to put a land onto the battlefield under your control (as can happen with Yavimaya Dryad’s ability, for example)."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "When a land enters the battlefield under your control, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one that resolves."
+      }
+    ]
   },
   {
     "name": "Pygmy Pyrosaur",
@@ -1229,7 +1554,8 @@
     "loyalty": null,
     "multiverse_id": 279859,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Pilgrim's Eye",
@@ -1257,7 +1583,8 @@
     "loyalty": null,
     "multiverse_id": 270872,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Aether Membrane",
@@ -1284,7 +1611,13 @@
     "loyalty": null,
     "multiverse_id": 270856,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2007",
+        "text": "The blocked creature is returned to its owner’s hand at end of combat only if the blocked creature is still on the battlefield. It doesn’t matter whether Aether Membrane is on the battlefield."
+      }
+    ]
   },
   {
     "name": "Fiery Hellhound",
@@ -1311,7 +1644,8 @@
     "loyalty": null,
     "multiverse_id": 279855,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vulshok Sorcerer",
@@ -1339,7 +1673,8 @@
     "loyalty": null,
     "multiverse_id": 270806,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Anger",
@@ -1366,7 +1701,13 @@
     "loyalty": null,
     "multiverse_id": 266061,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The timestamp for the “in your graveyard” ability is set at the time that this card goes to your graveyard, regardless of whether you control a Mountain at that time."
+      }
+    ]
   },
   {
     "name": "Cosi's Ravager",
@@ -1392,7 +1733,17 @@
     "loyalty": null,
     "multiverse_id": 270871,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/1/2010",
+        "text": "The landfall ability triggers whenever a land enters the battlefield under your control for any reason. It triggers whenever you play a land, as well as whenever a spell or ability (such as Rampant Growth) causes you to put a land onto the battlefield under your control. It will even trigger when a spell or ability causes another player to put a land onto the battlefield under your control (as can happen with Yavimaya Dryad’s ability, for example)."
+      },
+      {
+        "date": "3/1/2010",
+        "text": "When a land enters the battlefield under your control, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one that resolves."
+      }
+    ]
   },
   {
     "name": "Vulshok Berserker",
@@ -1419,7 +1770,8 @@
     "loyalty": null,
     "multiverse_id": 270846,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bloodfire Kavu",
@@ -1437,7 +1789,7 @@
     "mana_cost": "2RR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{R}, Sacrifice Bloodfire Kavu: Bloodfire Kavu deals 2 damage to each creature."
+      "{R}, Sacrifice Bloodfire Kavu: It deals 2 damage to each creature."
     ],
     "flavor_text": "Heart of fire, blood of lava, teeth of stone.",
     "power": "2",
@@ -1445,7 +1797,8 @@
     "loyalty": null,
     "multiverse_id": 270812,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Stone Giant",
@@ -1471,7 +1824,25 @@
     "loyalty": null,
     "multiverse_id": 279856,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If the Giant’s power and/or toughness change so that its toughness is less than its power, you can have the ability target the Giant itself."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "To work as an evasion ability, an attacking creature must already have flying when the declare blockers step begins. Once a creature has become blocked, giving it flying won’t change that."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If Stone Giant’s ability is activated during a turn’s end step, the delayed triggered ability won’t trigger until the beginning of the next turn’s end step. The targeted creature will be destroyed at that time."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "When the delayed triggered ability resolves, the targeted creature is destroyed, even if it’s no longer a creature, no longer under your control, or no longer has toughness less than Stone Giant’s power at that time."
+      }
+    ]
   },
   {
     "name": "Geyser Glider",
@@ -1498,7 +1869,17 @@
     "loyalty": null,
     "multiverse_id": 270874,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The landfall ability triggers whenever a land enters the battlefield under your control for any reason. It triggers whenever you play a land, as well as whenever a spell or ability (such as Rampant Growth) causes you to put a land onto the battlefield under your control. It will even trigger when a spell or ability causes another player to put a land onto the battlefield under your control (as can happen with Yavimaya Dryad’s ability, for example)."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "When a land enters the battlefield under your control, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one that resolves."
+      }
+    ]
   },
   {
     "name": "Lithophage",
@@ -1524,7 +1905,8 @@
     "loyalty": null,
     "multiverse_id": 270850,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Torchling",
@@ -1554,7 +1936,21 @@
     "loyalty": null,
     "multiverse_id": 270858,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2007",
+        "text": "When the third ability resolves, you must change the target if able. If you can’t choose a legal target for the spell when this ability resolves, that spell’s target doesn’t change."
+      },
+      {
+        "date": "2/1/2007",
+        "text": "If a spell targets multiple things, you can’t target it with Torchling’s third ability, even if all but one of those targets has become illegal."
+      },
+      {
+        "date": "2/1/2007",
+        "text": "If a spell has multiple targets, but it’s targeting Torchling with all of them (such as Seeds of Strength targeting Torchling three times), you can target that spell with Torchling’s third ability. In that case, you change all of those targets to the same new target, as long as it meets each of the spell’s targeting conditions."
+      }
+    ]
   },
   {
     "name": "Chartooth Cougar",
@@ -1582,7 +1978,25 @@
     "loyalty": null,
     "multiverse_id": 270828,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Unlike the normal cycling ability, Mountaincycling doesn’t allow you to draw a card. Instead, it lets you search your library for a Mountain card. After you find a Mountain card in your library, you reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Mountaincycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on Mountaincycling this card. Any ability that stops a cycling ability from being activated also stops Mountaincycling from being activated."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Mountaincycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with Mountaincycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You can choose to find any card with the Mountain land type, including nonbasic lands. You can also choose not to find a card, even if there is a Mountain card in your library."
+      }
+    ]
   },
   {
     "name": "Earth Servant",
@@ -1608,7 +2022,13 @@
     "loyalty": null,
     "multiverse_id": 270843,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/15/2010",
+        "text": "The ability cares about lands with the land type Mountain, not necessarily lands named Mountain."
+      }
+    ]
   },
   {
     "name": "Greater Stone Spirit",
@@ -1636,7 +2056,17 @@
     "loyalty": null,
     "multiverse_id": 279857,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/15/2006",
+        "text": "After Greater Stone Spirit’s activated ability is activated, the affected creature gains an activated ability that only that creature’s controller can activate."
+      },
+      {
+        "date": "5/1/2007",
+        "text": "Creatures with the Reach ability (such as Giant Spider) can block this because they don’t actually have Flying."
+      }
+    ]
   },
   {
     "name": "Bloodfire Colossus",
@@ -1654,7 +2084,7 @@
     "mana_cost": "6RR",
     "converted_mana_cost": 8,
     "oracle_text": [
-      "{R}, Sacrifice Bloodfire Colossus: Bloodfire Colossus deals 6 damage to each creature and each player."
+      "{R}, Sacrifice Bloodfire Colossus: It deals 6 damage to each creature and each player."
     ],
     "flavor_text": "It took all its strength to contain the fire within.",
     "power": "6",
@@ -1662,7 +2092,8 @@
     "loyalty": null,
     "multiverse_id": 270805,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wayfarer's Bauble",
@@ -1686,7 +2117,8 @@
     "loyalty": null,
     "multiverse_id": 270807,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Armillary Sphere",
@@ -1710,7 +2142,8 @@
     "loyalty": null,
     "multiverse_id": 270825,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Journeyer's Kite",
@@ -1734,7 +2167,8 @@
     "loyalty": null,
     "multiverse_id": 282591,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vulshok Morningstar",
@@ -1761,7 +2195,8 @@
     "loyalty": null,
     "multiverse_id": 270810,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Searing Blaze",
@@ -1786,7 +2221,37 @@
     "loyalty": null,
     "multiverse_id": 270873,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/1/2010",
+        "text": "Whether you had a land enter the battlefield under your control this turn is checked as this spell resolves, not as you cast it."
+      },
+      {
+        "date": "3/1/2010",
+        "text": "Having more than one land enter the battlefield under your control this turn provides no additional benefit."
+      },
+      {
+        "date": "3/1/2010",
+        "text": "The landfall ability checks for an action that has happened in the past. It doesn’t matter if a land that entered the battlefield under your control previously in the turn is still on the battlefield, is still under your control, or is still a land."
+      },
+      {
+        "date": "3/1/2010",
+        "text": "Once the spell resolves, having a land enter the battlefield under your control provides no further benefit."
+      },
+      {
+        "date": "3/1/2010",
+        "text": "The effect of this spell’s landfall ability replaces its normal effect. If you had a land enter the battlefield under your control this turn, only the landfall-based effect happens."
+      },
+      {
+        "date": "3/1/2010",
+        "text": "You must choose two targets as you cast Searing Blaze: a player and a creature that player controls. If you can’t (because there are no creatures on the battlefield, perhaps), then you can’t cast the spell."
+      },
+      {
+        "date": "3/1/2010",
+        "text": "If either target is illegal by the time Searing Blaze resolves, it still deals damage to the other target."
+      }
+    ]
   },
   {
     "name": "Vulshok Battlegear",
@@ -1813,7 +2278,8 @@
     "loyalty": null,
     "multiverse_id": 270852,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Downhill Charge",
@@ -1838,7 +2304,8 @@
     "loyalty": null,
     "multiverse_id": 270854,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Seismic Strike",
@@ -1862,7 +2329,8 @@
     "loyalty": null,
     "multiverse_id": 270840,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Spire Barrage",
@@ -1886,7 +2354,8 @@
     "loyalty": null,
     "multiverse_id": 270878,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Jaws of Stone",
@@ -1910,7 +2379,21 @@
     "loyalty": null,
     "multiverse_id": 270833,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "The amount of damage is locked in as you cast Jaws of Stone. It won’t change, even if the number of Mountains you control changes."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "If you control no Mountains as you cast Jaws of Stone, the number of targets must be zero."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "If you control any Mountains as you cast Jaws of Stone, the number of targets must be at least one and at most X. You divide the damage among the targets as you cast Jaws of Stone. Each target must be assigned at least 1 damage."
+      }
+    ]
   },
   {
     "name": "Volley of Boulders",
@@ -1935,7 +2418,13 @@
     "loyalty": null,
     "multiverse_id": 270855,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You can’t choose zero targets. You must choose between 1 and 6 targets."
+      }
+    ]
   },
   {
     "name": "Mountain",
@@ -1963,7 +2452,8 @@
     "loyalty": null,
     "multiverse_id": 284495,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -1991,7 +2481,8 @@
     "loyalty": null,
     "multiverse_id": 284494,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -2019,7 +2510,8 @@
     "loyalty": null,
     "multiverse_id": 284493,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -2047,6 +2539,7 @@
     "loyalty": null,
     "multiverse_id": 284496,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]

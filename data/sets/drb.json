@@ -28,7 +28,8 @@
     "loyalty": null,
     "multiverse_id": 178014,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bogardan Hellkite",
@@ -56,7 +57,17 @@
     "loyalty": null,
     "multiverse_id": 178017,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You choose how many targets Bogardan Hellkite’s triggered ability has and how the damage is divided as you put the ability onto the stack. Each target must receive at least 1 damage."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If some of the creatures or players are illegal targets as Bogardan Hellkite’s triggered ability tries to resolve, the original division of damage still applies and the damage that would have been dealt to the illegal targets is lost. It won’t be dealt instead to a legal target."
+      }
+    ]
   },
   {
     "name": "Draco",
@@ -85,7 +96,21 @@
     "loyalty": null,
     "multiverse_id": 178018,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "To determine the number of basic land types among lands you control, look at the lands you have on the battlefield and ask yourself whether the subtypes Plains, Island, Swamp, Mountain, and Forest appear within that group. The number of times you say yes (topping out at five) tells you how powerful your domain abilities will be."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "How many lands you control of a particular basic land type is irrelevant to a domain ability, as long as that number is greater than zero. As far as domain is concerned, ten Forests is the same as one Forest."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "A number of nonbasic lands have basic land types. Domain abilities don’t count the number of lands you control — they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you’ll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out."
+      }
+    ]
   },
   {
     "name": "Dragon Whelp",
@@ -112,7 +137,17 @@
     "loyalty": null,
     "multiverse_id": 178019,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The first three times Dragon Whelp’s ability is activated in a turn will do nothing other than give it +1/+0 until end of turn. Any subsequent activations will also cause its delayed triggered ability to trigger. That means if you activate Dragon Whelp’s ability five times, for example, two different delayed triggered abilities will trigger at the beginning of the next end step and cause you to sacrifice Dragon Whelp."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If the fourth (or more) time Dragon Whelp’s ability is activated during the same turn happens to be during that turn’s end step, the delayed triggered ability won’t trigger until the beginning of the next turn’s end step. You’ll have to sacrifice Dragon Whelp at that time."
+      }
+    ]
   },
   {
     "name": "Dragonstorm",
@@ -137,7 +172,25 @@
     "loyalty": null,
     "multiverse_id": 178015,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "The copies are put directly onto the stack. They aren’t cast and won’t be counted by other spells with storm cast later in the turn."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Spells cast from zones other than a player’s hand and spells that were countered are counted by the storm ability."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won’t affect the copies."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack."
+      }
+    ]
   },
   {
     "name": "Ebon Dragon",
@@ -164,7 +217,8 @@
     "loyalty": null,
     "multiverse_id": 178021,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Form of the Dragon",
@@ -190,7 +244,21 @@
     "loyalty": null,
     "multiverse_id": 178016,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If you life total was above 5 at end of turn, then you lose life to make your total 5. If it was less than 5, you gain life to bring it to 5."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "It sets your life total at the beginning of the end step of every player’s turn, not just your own."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Unless some effect explicitly says otherwise, a creature that can’t attack you can still attack a planeswalker you control."
+      }
+    ]
   },
   {
     "name": "Hellkite Overlord",
@@ -218,7 +286,8 @@
     "loyalty": null,
     "multiverse_id": 178028,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Kokusho, the Evening Star",
@@ -248,7 +317,8 @@
     "loyalty": null,
     "multiverse_id": 178022,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Nicol Bolas",
@@ -279,7 +349,13 @@
     "loyalty": null,
     "multiverse_id": 178020,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "Nicol Bolas’s third ability triggers whenever it deals damage to an opponent for any reason. It’s not limited to combat damage."
+      }
+    ]
   },
   {
     "name": "Niv-Mizzet, the Firemind",
@@ -310,7 +386,17 @@
     "loyalty": null,
     "multiverse_id": 178023,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "If a spell or ability causes you to draw multiple cards, Niv-Mizzet’s ability triggers that many times."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "If dealing 1 damage to a permanent or player causes you to draw a card, perhaps because Niv-Mizzet is enchanted by Curiosity, you’ll continue this loop until the loop is interrupted, perhaps by a player losing the game."
+      }
+    ]
   },
   {
     "name": "Rith, the Awakener",
@@ -339,7 +425,13 @@
     "loyalty": null,
     "multiverse_id": 178024,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You choose the color during resolution. This means your opponent does not get to react after knowing the color you chose."
+      }
+    ]
   },
   {
     "name": "Shivan Dragon",
@@ -366,7 +458,8 @@
     "loyalty": null,
     "multiverse_id": 178025,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Thunder Dragon",
@@ -393,7 +486,8 @@
     "loyalty": null,
     "multiverse_id": 178026,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Two-Headed Dragon",
@@ -422,6 +516,7 @@
     "loyalty": null,
     "multiverse_id": 178027,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]
