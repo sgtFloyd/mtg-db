@@ -22,7 +22,37 @@
     "loyalty": null,
     "multiverse_id": 185054,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Aven Mimeomancer",
@@ -50,7 +80,29 @@
     "loyalty": null,
     "multiverse_id": 180608,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "If the second ability affects a creature, it doesn’t cause that creature to lose any of its abilities. It just gives that creature flying as well."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "The affected creature remains 3/1 and has flying as long as it has a feather counter on it. The effect continues even if Aven Mimeomancer leaves the battlefield."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You may put a feather counter on a creature that already has a feather counter on it. Doing so has no visible effect unless some other effect has changed the creature’s power or toughness, or caused it to lose flying, since the last feather counter was put on it."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If all feather counters on a creature are moved to a different creature, the ability doesn’t follow them. The first creature stops being affected by the ability because it no longer has a feather counter on it. The second creature is not affected by the ability because Aven Mimeomancer didn’t target it."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The effect from the ability overwrites other effects that set power and/or toughness if and only if those effects existed before the ability resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the ability resolves. Effects that switch the creature’s power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created."
+      }
+    ]
   },
   {
     "name": "Ethercaste Knight",
@@ -78,7 +130,8 @@
     "loyalty": null,
     "multiverse_id": 179542,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ethersworn Shieldmage",
@@ -107,7 +160,13 @@
     "loyalty": null,
     "multiverse_id": 179578,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "When Ethersworn Shieldmage’s triggered ability resolves, it doesn’t lock in which permanents will be affected. For the rest of the turn, any time damage would be dealt to a permanent, check whether it’s an artifact creature at that time. If it is, that damage is prevented."
+      }
+    ]
   },
   {
     "name": "Fieldmist Borderpost",
@@ -133,7 +192,25 @@
     "loyalty": null,
     "multiverse_id": 183005,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Casting this card by paying its alternative cost doesn’t change when you can cast it. You can cast it only at the normal time you could cast an artifact spell. It also doesn’t change the spell’s mana cost or converted mana cost. The only difference is the cost you actually pay."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Effects that increase or reduce the cost to cast this card will apply to whichever cost you chose to pay."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "To satisfy the alternative cost, you may return any basic land you control to its owner’s hand, regardless of that land’s subtype or whether it’s tapped."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "As you cast a spell, you get a chance to activate mana abilities before you pay that spell’s costs. Therefore, you may tap a basic land for mana, then both spend that mana and return that land to your hand to pay this card’s alternative cost. (Of course, you can return a different basic land instead.)"
+      }
+    ]
   },
   {
     "name": "Filigree Angel",
@@ -161,7 +238,13 @@
     "loyalty": null,
     "multiverse_id": 188965,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Filigree Angel’s enters-the-battlefield ability counts Filigree Angel itself, assuming that it’s still on the battlefield and still an artifact by the time the ability resolves."
+      }
+    ]
   },
   {
     "name": "Glassdust Hulk",
@@ -189,7 +272,13 @@
     "loyalty": null,
     "multiverse_id": 179576,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      }
+    ]
   },
   {
     "name": "Meddling Mage",
@@ -217,7 +306,33 @@
     "loyalty": null,
     "multiverse_id": 179547,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "No one can cast spells or activate abilities between the time a card is named and the time that Meddling Mage’s ability starts to work."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Spells with the chosen name that somehow happen to already be on the stack when Meddling Mage enters the battlefield are not affected by Meddling Mage’s ability."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Although the named card can’t be cast, it can still be put onto the battlefield by a spell or ability (if it’s a permanent card)."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You can name either half of a split card, but not both. If you do so, that half (and both halves, if the split card has fuse) can’t be cast. The other half is unaffected."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a card with morph is named, that card may still be cast face down. Face-down cards have no names."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Once Meddling Mage leaves the battlefield, the named card can be cast again."
+      }
+    ]
   },
   {
     "name": "Offering to Asha",
@@ -241,7 +356,13 @@
     "loyalty": null,
     "multiverse_id": 183007,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "You gain 4 life whether or not the targeted spell’s controller pays {4} and whether or not the targeted spell is countered."
+      }
+    ]
   },
   {
     "name": "Sanctum Plowbeast",
@@ -269,7 +390,29 @@
     "loyalty": null,
     "multiverse_id": 144282,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Unlike the normal cycling ability, landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a land card of the specified land type, reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being landcycled. Any ability that stops a cycling ability from being activated also stops a landcycling ability from being activated."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You can choose to find any card with the appropriate land type, including nonbasic lands. You can also choose not to find a card, even if there is a land card with the appropriate type in your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "A landcycling ability lets you search for any card in your library with the stated land type. It doesn’t have to be a basic land."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You may only activate one landcycling ability at a time. You must specify which landcycling ability you are activating as you cycle this card, not as the ability resolves."
+      }
+    ]
   },
   {
     "name": "Shield of the Righteous",
@@ -297,7 +440,21 @@
     "loyalty": null,
     "multiverse_id": 185063,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "When the equipped creature blocks a creature, Shield of the Righteous’s second ability doesn’t tap the blocked creature (in case it happens to be untapped due to vigilance, for example). It just causes that creature to not untap during its controller’s next untap step."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If the blocked creature is already untapped at the time its controller’s next untap step begins, this ability has no effect. It won’t apply at some later time when that creature is tapped."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Shield of the Righteous’s second ability doesn’t track the blocked creature’s controller. If that creature changes controllers before its old controller’s next untap step, this ability will prevent it from untapping during its new controller’s next untap step."
+      }
+    ]
   },
   {
     "name": "Sovereigns of Lost Alara",
@@ -324,7 +481,37 @@
     "loyalty": null,
     "multiverse_id": 180600,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Any Aura card you find with Sovereigns of Lost Alara’s second ability must be able to enchant the attacking creature as it currently exists. You need to check the Aura’s enchant ability as well as any effects, such as protection, that would make it illegal to attach that Aura to the attacking creature. For example, if the attacking creature were an artifact creature with protection from blue, you could find an Aura with “enchant artifact,” but you could not find a blue Aura."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you choose to search your library but no applicable Aura card is left in your deck (or you choose not to find one), then nothing enters the battlefield and you simply shuffle your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "The attacking creature is not targeted by either this ability or the Aura, so a creature with shroud can be enchanted this way."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If the attacking creature has left the battlefield by the time Sovereigns of Lost Alara’s second ability resolves, you can’t put an Aura onto the battlefield this way. You may still choose to search your library just to shuffle it."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "Any Aura card you find with Sovereigns of Lost Alara’s second ability must be able to enchant the attacking creature as it currently exists. You need to check the Aura’s enchant ability as well as any effects, such as protection, that would make it illegal to attach that Aura to the attacking creature. For example, if the attacking creature were an artifact creature with protection from blue, you could find an Aura with “enchant artifact,” but you could not find a blue Aura."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If you choose to search your library but no applicable Aura card is left in your library (or you choose not to find one), then nothing enters the battlefield and you simply shuffle your library."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If the attacking creature has left the battlefield by the time Sovereigns of Lost Alara’s second ability resolves, you can’t put an Aura onto the battlefield this way. You may still choose to search your library just to shuffle it."
+      }
+    ]
   },
   {
     "name": "Stormcaller's Boon",
@@ -349,7 +536,37 @@
     "loyalty": null,
     "multiverse_id": 179534,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Talon Trooper",
@@ -376,7 +593,8 @@
     "loyalty": null,
     "multiverse_id": 179537,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Unbender Tine",
@@ -400,7 +618,8 @@
     "loyalty": null,
     "multiverse_id": 138217,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wall of Denial",
@@ -427,7 +646,8 @@
     "loyalty": null,
     "multiverse_id": 179601,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Architects of Will",
@@ -456,7 +676,13 @@
     "loyalty": null,
     "multiverse_id": 179597,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      }
+    ]
   },
   {
     "name": "Brainbite",
@@ -481,7 +707,17 @@
     "loyalty": null,
     "multiverse_id": 179607,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "You may target an opponent who has no cards in hand."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When Brainbite resolves, you’ll draw a card even if the targeted opponent has no cards in hand."
+      }
+    ]
   },
   {
     "name": "Deny Reality",
@@ -506,7 +742,37 @@
     "loyalty": null,
     "multiverse_id": 185045,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Etherium Abomination",
@@ -533,7 +799,8 @@
     "loyalty": null,
     "multiverse_id": 179573,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Illusory Demon",
@@ -561,7 +828,13 @@
     "loyalty": null,
     "multiverse_id": 179596,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "If you cast a spell, the spell goes on the stack, then Illusory Demon’s triggered ability goes on the stack on top of it. The triggered ability will resolve (and you’ll sacrifice Illusory Demon) before the spell resolves."
+      }
+    ]
   },
   {
     "name": "Jhessian Zombies",
@@ -588,7 +861,29 @@
     "loyalty": null,
     "multiverse_id": 144286,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Unlike the normal cycling ability, landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a land card of the specified land type, reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being landcycled. Any ability that stops a cycling ability from being activated also stops a landcycling ability from being activated."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You can choose to find any card with the appropriate land type, including nonbasic lands. You can also choose not to find a card, even if there is a land card with the appropriate type in your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "A landcycling ability lets you search for any card in your library with the stated land type. It doesn’t have to be a basic land."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You may only activate one landcycling ability at a time. You must specify which landcycling ability you are activating as you cycle this card, not as the ability resolves."
+      }
+    ]
   },
   {
     "name": "Kathari Remnant",
@@ -617,7 +912,37 @@
     "loyalty": null,
     "multiverse_id": 185060,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Lich Lord of Unx",
@@ -645,7 +970,13 @@
     "loyalty": null,
     "multiverse_id": 179555,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "The second ability counts all Zombies you control, not just the tokens put onto the battlefield with the first ability. It will count Lich Lord of Unx itself if it’s still under your control and still a Zombie when the ability resolves."
+      }
+    ]
   },
   {
     "name": "Mask of Riddles",
@@ -673,7 +1004,13 @@
     "loyalty": null,
     "multiverse_id": 179584,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "If a Mask of Riddles you control somehow winds up equipping a creature you don’t control, Mask of Riddles’s triggered ability will still trigger whenever that creature deals combat damage to a player (even if that player is you). You will control that ability, so you may draw a card."
+      }
+    ]
   },
   {
     "name": "Mind Funeral",
@@ -697,7 +1034,13 @@
     "loyalty": null,
     "multiverse_id": 179599,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "The four land cards, as well as all the other cards revealed during this process, are put into the graveyard. If there aren’t four land cards left in the targeted opponent’s library, that player’s entire library is put into the graveyard."
+      }
+    ]
   },
   {
     "name": "Mistvein Borderpost",
@@ -723,7 +1066,25 @@
     "loyalty": null,
     "multiverse_id": 161276,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Casting this card by paying its alternative cost doesn’t change when you can cast it. You can cast it only at the normal time you could cast an artifact spell. It also doesn’t change the spell’s mana cost or converted mana cost. The only difference is the cost you actually pay."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Effects that increase or reduce the cost to cast this card will apply to whichever cost you chose to pay."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "To satisfy the alternative cost, you may return any basic land you control to its owner’s hand, regardless of that land’s subtype or whether it’s tapped."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "As you cast a spell, you get a chance to activate mana abilities before you pay that spell’s costs. Therefore, you may tap a basic land for mana, then both spend that mana and return that land to your hand to pay this card’s alternative cost. (Of course, you can return a different basic land instead.)"
+      }
+    ]
   },
   {
     "name": "Nemesis of Reason",
@@ -750,7 +1111,13 @@
     "loyalty": null,
     "multiverse_id": 188962,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "If the defending player has fewer than ten cards in their library, that player’s entire library is put into their graveyard."
+      }
+    ]
   },
   {
     "name": "Soul Manipulation",
@@ -776,7 +1143,17 @@
     "loyalty": null,
     "multiverse_id": 183008,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "You may choose just the first mode (targeting a creature spell), just the second mode (targeting a creature card in your graveyard), or both modes (targeting a creature spell and a creature card in your graveyard). You can’t choose a mode unless there’s a legal target for it."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you choose both modes, you choose their targets at the same time. You can’t counter your own creature spell and then return that card from your graveyard to your hand."
+      }
+    ]
   },
   {
     "name": "Soulquake",
@@ -800,7 +1177,8 @@
     "loyalty": null,
     "multiverse_id": 179409,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Time Sieve",
@@ -824,7 +1202,13 @@
     "loyalty": null,
     "multiverse_id": 189649,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "One of the five artifacts you sacrifice may be Time Sieve itself."
+      }
+    ]
   },
   {
     "name": "Vedalken Ghoul",
@@ -851,7 +1235,8 @@
     "loyalty": null,
     "multiverse_id": 183010,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Anathemancer",
@@ -879,7 +1264,8 @@
     "loyalty": null,
     "multiverse_id": 179538,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bituminous Blast",
@@ -904,7 +1290,37 @@
     "loyalty": null,
     "multiverse_id": 185057,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Breath of Malfegor",
@@ -928,7 +1344,8 @@
     "loyalty": null,
     "multiverse_id": 161291,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Deathbringer Thoctar",
@@ -948,7 +1365,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Whenever another creature dies, you may put a +1/+1 counter on Deathbringer Thoctar.",
-      "Remove a +1/+1 counter from Deathbringer Thoctar: Deathbringer Thoctar deals 1 damage to any target."
+      "Remove a +1/+1 counter from Deathbringer Thoctar: It deals 1 damage to any target."
     ],
     "flavor_text": null,
     "power": "3",
@@ -956,7 +1373,17 @@
     "loyalty": null,
     "multiverse_id": 180622,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "If Deathbringer Thoctar and another creature are dealt lethal damage at the same time, Deathbringer Thoctar will be put into a graveyard before it would receive any counters. Its ability will still trigger, but it will do nothing when it resolves."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You may remove any +1/+1 counter from Deathbringer Thoctar to activate its second ability, not just a +1/+1 counter put on it with its first ability."
+      }
+    ]
   },
   {
     "name": "Defiler of Souls",
@@ -983,7 +1410,8 @@
     "loyalty": null,
     "multiverse_id": 189646,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Demonic Dread",
@@ -1008,7 +1436,37 @@
     "loyalty": null,
     "multiverse_id": 185062,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Demonspine Whip",
@@ -1035,7 +1493,21 @@
     "loyalty": null,
     "multiverse_id": 180311,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "When the first ability resolves, the +X/+0 bonus is given to the creature that Demonspine Whip is attached to at that time, regardless of what creature (if any) it was attached to when the ability was activated. If Demonspine Whip is on the battlefield but not attached to a creature at this time, no creature gets the bonus."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Once Demonspine Whip’s ability resolves and gives the +X/+0 bonus to a creature, that bonus stays with that creature for the rest of the turn even if Demonspine Whip moves to another creature or leaves the battlefield."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If Demonspine Whip is no longer on the battlefield by the time its first ability resolves, the game checks whether it was attached to a creature at the time it left the battlefield. If it was, that creature gets the +X/+0 bonus. If it wasn’t, no creature gets the bonus."
+      }
+    ]
   },
   {
     "name": "Igneous Pouncer",
@@ -1062,7 +1534,29 @@
     "loyalty": null,
     "multiverse_id": 144276,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Unlike the normal cycling ability, landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a land card of the specified land type, reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being landcycled. Any ability that stops a cycling ability from being activated also stops a landcycling ability from being activated."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You can choose to find any card with the appropriate land type, including nonbasic lands. You can also choose not to find a card, even if there is a land card with the appropriate type in your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "A landcycling ability lets you search for any card in your library with the stated land type. It doesn’t have to be a basic land."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You may only activate one landcycling ability at a time. You must specify which landcycling ability you are activating as you cycle this card, not as the ability resolves."
+      }
+    ]
   },
   {
     "name": "Kathari Bomber",
@@ -1091,7 +1585,13 @@
     "loyalty": null,
     "multiverse_id": 179602,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "When Kathari Bomber’s triggered ability resolves, you create two Goblin tokens regardless of how much combat damage Kathari Bomber dealt to the player. You create the tokens even if you can’t sacrifice Kathari Bomber."
+      }
+    ]
   },
   {
     "name": "Lightning Reaver",
@@ -1120,7 +1620,8 @@
     "loyalty": null,
     "multiverse_id": 180617,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Monstrous Carabid",
@@ -1147,7 +1648,13 @@
     "loyalty": null,
     "multiverse_id": 185051,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      }
+    ]
   },
   {
     "name": "Sanity Gnawers",
@@ -1173,7 +1680,8 @@
     "loyalty": null,
     "multiverse_id": 179623,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Singe-Mind Ogre",
@@ -1200,7 +1708,8 @@
     "loyalty": null,
     "multiverse_id": 179574,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Terminate",
@@ -1224,7 +1733,8 @@
     "loyalty": null,
     "multiverse_id": 176449,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Thought Hemorrhage",
@@ -1248,7 +1758,29 @@
     "loyalty": null,
     "multiverse_id": 180596,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "The card is named as Thought Hemorrhage resolves. Spells and abilities can’t be cast or activated between the time a card is named and the time that Thought Hemorrhage has the rest of its effect."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If the targeted player has multiple cards with the chosen name in their hand, the damage dealt by Thought Hemorrhage is all considered to be the same instance of damage. A single effect that prevents “the next time a source would deal damage,” for example, will prevent all of it."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Thought Hemorrhage has no effect on cards on the battlefield that have the same name as the named card."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "The cards you’re searching for must be found if they’re in the graveyard, because that’s a zone everyone can see. Finding those cards in the hand and library is optional, though. This is true even though the targeted player has revealed their hand."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would."
+      }
+    ]
   },
   {
     "name": "Veinfire Borderpost",
@@ -1274,7 +1806,25 @@
     "loyalty": null,
     "multiverse_id": 189640,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Casting this card by paying its alternative cost doesn’t change when you can cast it. You can cast it only at the normal time you could cast an artifact spell. It also doesn’t change the spell’s mana cost or converted mana cost. The only difference is the cost you actually pay."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Effects that increase or reduce the cost to cast this card will apply to whichever cost you chose to pay."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "To satisfy the alternative cost, you may return any basic land you control to its owner’s hand, regardless of that land’s subtype or whether it’s tapped."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "As you cast a spell, you get a chance to activate mana abilities before you pay that spell’s costs. Therefore, you may tap a basic land for mana, then both spend that mana and return that land to your hand to pay this card’s alternative cost. (Of course, you can return a different basic land instead.)"
+      }
+    ]
   },
   {
     "name": "Blitz Hellion",
@@ -1301,7 +1851,17 @@
     "loyalty": null,
     "multiverse_id": 179406,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Blitz Hellion’s last ability triggers at the end of each turn in which it’s on the battlefield. If it’s not on the battlefield by the time this ability resolves, nothing happens. Blitz Hellion stays wherever it is, and its owner doesn’t shuffle their library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "A token that’s copying Blitz Hellion will be shuffled into its owner’s library when this ability resolves, then will cease to exist. For practical purposes, the token should not actually be put into the library, though the library is still shuffled."
+      }
+    ]
   },
   {
     "name": "Bloodbraid Elf",
@@ -1329,7 +1889,37 @@
     "loyalty": null,
     "multiverse_id": 185053,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Colossal Might",
@@ -1353,7 +1943,8 @@
     "loyalty": null,
     "multiverse_id": 179624,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Deadshot Minotaur",
@@ -1380,7 +1971,17 @@
     "loyalty": null,
     "multiverse_id": 179543,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "The enters-the-battlefield ability is mandatory. If you’re the only player who controls a creature with flying, you must target one of those creatures."
+      }
+    ]
   },
   {
     "name": "Dragon Broodmother",
@@ -1407,7 +2008,17 @@
     "loyalty": null,
     "multiverse_id": 189648,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Putting a token creature with devour onto the battlefield works the same as putting any other creature with devour onto the battlefield. The token may devour Dragon Broodmother itself!"
+      },
+      {
+        "date": "5/1/2009",
+        "text": "In a Two-Headed Giant game, Dragon Broodmother’s second ability triggers only once at the beginning of each team’s upkeep, not once for each player. You’ll get one Dragon token at the beginning of your team’s upkeep and one Dragon token at the beginning of the opposing team’s upkeep."
+      }
+    ]
   },
   {
     "name": "Firewild Borderpost",
@@ -1433,7 +2044,25 @@
     "loyalty": null,
     "multiverse_id": 188974,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Casting this card by paying its alternative cost doesn’t change when you can cast it. You can cast it only at the normal time you could cast an artifact spell. It also doesn’t change the spell’s mana cost or converted mana cost. The only difference is the cost you actually pay."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Effects that increase or reduce the cost to cast this card will apply to whichever cost you chose to pay."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "To satisfy the alternative cost, you may return any basic land you control to its owner’s hand, regardless of that land’s subtype or whether it’s tapped."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "As you cast a spell, you get a chance to activate mana abilities before you pay that spell’s costs. Therefore, you may tap a basic land for mana, then both spend that mana and return that land to your hand to pay this card’s alternative cost. (Of course, you can return a different basic land instead.)"
+      }
+    ]
   },
   {
     "name": "Godtracker of Jund",
@@ -1460,7 +2089,8 @@
     "loyalty": null,
     "multiverse_id": 183994,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Gorger Wurm",
@@ -1486,7 +2116,8 @@
     "loyalty": null,
     "multiverse_id": 179561,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mage Slayer",
@@ -1513,7 +2144,17 @@
     "loyalty": null,
     "multiverse_id": 179567,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "This ability triggers and resolves in the declare attackers step. The creature will still deal its combat damage as normal later on during the combat phase."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the equipped creature attacks, the first ability will trigger. When that ability resolves, that creature will deal damage equal to its power to player or planeswalker it’s attacking, even if Mage Slayer has left the battlefield or is equipping a different creature by that time."
+      }
+    ]
   },
   {
     "name": "Predatory Advantage",
@@ -1537,7 +2178,21 @@
     "loyalty": null,
     "multiverse_id": 180602,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Predatory Advantage’s ability has an “intervening ‘if’ clause.” That means (1) the ability won’t trigger at all unless the opponent whose turn it is didn’t cast a creature spell that turn, and (2) the ability will do nothing unless the opponent whose turn it is still hasn’t cast a creature spell by the time it resolves."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Predatory Advantage checks whether a player cast a creature spell, not whether a creature entered the battlefield under that player’s control. If that player cast a creature spell but you countered it, for example, you won’t get a Lizard token that turn."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "In a Two-Headed Giant game, Predatory Advantage’s ability triggers twice at the end of the opposing team’s turn: once for each player. If neither of those players cast a creature spell that turn, you’ll get two Lizards. If one of those players cast a creature spell but the other didn’t, you’ll get one Lizard."
+      }
+    ]
   },
   {
     "name": "Rhox Brute",
@@ -1562,7 +2217,8 @@
     "loyalty": null,
     "multiverse_id": 189650,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Spellbreaker Behemoth",
@@ -1589,7 +2245,21 @@
     "loyalty": null,
     "multiverse_id": 179551,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Any spells or abilities that would counter Spellbreaker Behemoth or (once it’s on the battlefield) a creature spell you control with power 5 or greater can still be cast or activated and will still resolve. They just won’t counter that spell. Any other effects they have will happen as normal."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Effects that affect a creature’s power (such as the one from Glorious Anthem, for example) apply only to creatures on the battlefield, not to creature spells on the stack."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a creature card has “*” in its power, the ability that defines “*” works in all zones, including the stack."
+      }
+    ]
   },
   {
     "name": "Valley Rannet",
@@ -1615,7 +2285,29 @@
     "loyalty": null,
     "multiverse_id": 144260,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Unlike the normal cycling ability, landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a land card of the specified land type, reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being landcycled. Any ability that stops a cycling ability from being activated also stops a landcycling ability from being activated."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You can choose to find any card with the appropriate land type, including nonbasic lands. You can also choose not to find a card, even if there is a land card with the appropriate type in your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "A landcycling ability lets you search for any card in your library with the stated land type. It doesn’t have to be a basic land."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You may only activate one landcycling ability at a time. You must specify which landcycling ability you are activating as you cycle this card, not as the ability resolves."
+      }
+    ]
   },
   {
     "name": "Vengeful Rebirth",
@@ -1640,7 +2332,25 @@
     "loyalty": null,
     "multiverse_id": 179628,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "You can return a land card to your hand with Vengeful Rebirth. It just won’t deal any damage to the target permanent or player if you do."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If the target permanent or player becomes an illegal target but the target card in your graveyard doesn’t, Vengeful Rebirth will still return that card from your graveyard to your hand, but it won’t deal any damage. Vengeful Rebirth will then be exiled."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If the target card in your graveyard becomes an illegal target but the target permanent or player doesn’t, Vengeful Rebirth won’t return that card to your hand and it won’t deal any damage (because you didn’t return a nonland card to your hand this way). Vengeful Rebirth will still be exiled."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If both targets are illegal, Vengeful Rebirth doesn’t resolve. It will be put into your graveyard."
+      }
+    ]
   },
   {
     "name": "Violent Outburst",
@@ -1665,7 +2375,37 @@
     "loyalty": null,
     "multiverse_id": 185056,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Vithian Renegades",
@@ -1692,7 +2432,13 @@
     "loyalty": null,
     "multiverse_id": 179535,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "The enters-the-battlefield ability is mandatory. If you’re the only player who controls any artifacts, you must target one of them."
+      }
+    ]
   },
   {
     "name": "Behemoth Sledge",
@@ -1719,7 +2465,13 @@
     "loyalty": null,
     "multiverse_id": 179545,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "multiple instances of lifelink on the same creature are redundant. If a creature with multiple instances of lifelink deals damage, its controller still only gains life equal to the damage dealt."
+      }
+    ]
   },
   {
     "name": "Captured Sunlight",
@@ -1744,7 +2496,37 @@
     "loyalty": null,
     "multiverse_id": 185064,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Dauntless Escort",
@@ -1771,7 +2553,21 @@
     "loyalty": null,
     "multiverse_id": 180614,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/1/2013",
+        "text": "Once Dauntless Escort’s ability resolves, the set of creatures it affects is locked in. It won’t affect creatures that enter the battlefield after the ability has finished resolving."
+      },
+      {
+        "date": "7/1/2013",
+        "text": "If any creature leaves your control, it will retain indestructible."
+      },
+      {
+        "date": "7/1/2013",
+        "text": "Lethal damage and effects that say “destroy” won’t cause a creature with indestructible to be put into the graveyard. However, a creature with indestructible can be put into the graveyard for a number of reasons. The most likely reasons are if it’s sacrificed, if it’s legendary and another legendary creature with the same name is controlled by the same player, or if its toughness is 0 or less."
+      }
+    ]
   },
   {
     "name": "Enlisted Wurm",
@@ -1797,7 +2593,37 @@
     "loyalty": null,
     "multiverse_id": 185047,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Grizzled Leotau",
@@ -1821,7 +2647,8 @@
     "loyalty": null,
     "multiverse_id": 189647,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Knight of New Alara",
@@ -1848,7 +2675,13 @@
     "loyalty": null,
     "multiverse_id": 189642,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "For example, a white creature gets no bonus. A white and blue creature gets +2/+2. A white, blue, and black creature gets +3/+3, and so on."
+      }
+    ]
   },
   {
     "name": "Knotvine Paladin",
@@ -1875,7 +2708,13 @@
     "loyalty": null,
     "multiverse_id": 180624,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "The number of untapped creatures you control is counted as the ability resolves, and the bonus is locked in at that time. By this point, other attacking creatures will already be tapped (unless they have vigilance)."
+      }
+    ]
   },
   {
     "name": "Leonin Armorguard",
@@ -1902,7 +2741,13 @@
     "loyalty": null,
     "multiverse_id": 180606,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Leonin Armorguard gets this bonus too."
+      }
+    ]
   },
   {
     "name": "Mycoid Shepherd",
@@ -1928,7 +2773,21 @@
     "loyalty": null,
     "multiverse_id": 179548,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Mycoid Shepherd’s ability will trigger when it’s put into a graveyard from the battlefield no matter what its power is at that time."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If another creature you control is put into a graveyard from the battlefield, Mycoid Shepherd’s ability checks that creature’s power as it last existed on the battlefield. If it was 5 or greater, the ability will trigger."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If Mycoid Shepherd and another creature you control with power 5 or greater are put into a graveyard from the battlefield at the same time, Mycoid Shepherd’s ability will trigger twice."
+      }
+    ]
   },
   {
     "name": "Pale Recluse",
@@ -1955,7 +2814,29 @@
     "loyalty": null,
     "multiverse_id": 144249,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Unlike the normal cycling ability, landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a land card of the specified land type, reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being landcycled. Any ability that stops a cycling ability from being activated also stops a landcycling ability from being activated."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You can choose to find any card with the appropriate land type, including nonbasic lands. You can also choose not to find a card, even if there is a land card with the appropriate type in your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "A landcycling ability lets you search for any card in your library with the stated land type. It doesn’t have to be a basic land."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You may only activate one landcycling ability at a time. You must specify which landcycling ability you are activating as you cycle this card, not as the ability resolves."
+      }
+    ]
   },
   {
     "name": "Qasali Pridemage",
@@ -1983,7 +2864,8 @@
     "loyalty": null,
     "multiverse_id": 179556,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Reborn Hope",
@@ -2007,7 +2889,8 @@
     "loyalty": null,
     "multiverse_id": 175256,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sigil Captain",
@@ -2034,7 +2917,25 @@
     "loyalty": null,
     "multiverse_id": 179560,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Sigil Captain’s ability has an “intervening ‘if’ clause.” That means (1) the ability won’t trigger at all unless the creature that enters the battlefield under your control is 1/1, and (2) the ability will do nothing unless that creature is still 1/1 at the time the ability resolves."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "For that reason, two Sigil Captains don’t work well together. When a 1/1 creature enters the battlefield under your control, the abilities of both Sigil Captains will trigger. When the first resolves, two +1/+1 counters are put on the 1/1 creature. When the second resolves, it will do nothing because the creature that entered the battlefield is now 3/3."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Sigil Captain’s ability checks a creature’s initial power and toughness upon being put on the battlefield, so it will take into account counters that it enters the battlefield with and static abilities that may give it a continuous power boost once it’s on the battlefield (such as the one on Glorious Anthem). After the creature is already on the battlefield, changing its power and toughness to 1/1 with a spell, activated ability, or triggered ability won’t allow this ability to trigger; it’s too late by then."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If, for some reason, Sigil Captain enters the battlefield as a 1/1 creature (due to a pair of Engineered Plagues, for example), it will cause its own ability to trigger."
+      }
+    ]
   },
   {
     "name": "Sigil of the Nayan Gods",
@@ -2062,7 +2963,17 @@
     "loyalty": null,
     "multiverse_id": 179630,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Sigil of the Nayan Gods’s ability counts the number of creatures you control, regardless of who controls the creature the Aura is enchanting. If you control the creature it’s enchanting, the bonus will include that creature too."
+      }
+    ]
   },
   {
     "name": "Sigiled Behemoth",
@@ -2088,7 +2999,8 @@
     "loyalty": null,
     "multiverse_id": 159688,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wildfield Borderpost",
@@ -2114,7 +3026,25 @@
     "loyalty": null,
     "multiverse_id": 179590,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Casting this card by paying its alternative cost doesn’t change when you can cast it. You can cast it only at the normal time you could cast an artifact spell. It also doesn’t change the spell’s mana cost or converted mana cost. The only difference is the cost you actually pay."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Effects that increase or reduce the cost to cast this card will apply to whichever cost you chose to pay."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "To satisfy the alternative cost, you may return any basic land you control to its owner’s hand, regardless of that land’s subtype or whether it’s tapped."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "As you cast a spell, you get a chance to activate mana abilities before you pay that spell’s costs. Therefore, you may tap a basic land for mana, then both spend that mana and return that land to your hand to pay this card’s alternative cost. (Of course, you can return a different basic land instead.)"
+      }
+    ]
   },
   {
     "name": "Identity Crisis",
@@ -2138,7 +3068,8 @@
     "loyalty": null,
     "multiverse_id": 175109,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Necromancer's Covenant",
@@ -2163,7 +3094,17 @@
     "loyalty": null,
     "multiverse_id": 183011,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "The Zombie tokens are put onto the battlefield under your control."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Necromancer’s Covenant grants lifelink to all Zombies you control, not just the tokens put onto the battlefield with its first ability."
+      }
+    ]
   },
   {
     "name": "Tainted Sigil",
@@ -2187,7 +3128,25 @@
     "loyalty": null,
     "multiverse_id": 180618,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Tainted Sigil’s ability counts the life lost by all players, including you."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When Tainted Sigil’s ability resolves, it checks how much life each player lost over the course of the turn, then it totals that number and you gain that much life in one shot. It doesn’t matter how a player lost life or what caused it. It also doesn’t matter if Tainted Sigil wasn’t on the battlefield when some or all of the life was lost."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you lose enough life to lower your life total to 0 or less, you’ll lose the game as a state-based actions before you activate Tainted Sigil’s ability."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Tainted Sigil’s ability checks only whether life was lost. It doesn’t care whether life was also gained. For example, say one player lost 4 life during the turn and no one else lost any, but that same player also gained 6 life that turn. That player has a higher life total than they started the turn with — but Tainted Sigil’s ability counts only the life loss, so you’ll gain 4 life."
+      }
+    ]
   },
   {
     "name": "Vectis Dominator",
@@ -2215,7 +3174,8 @@
     "loyalty": null,
     "multiverse_id": 179592,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Zealous Persecution",
@@ -2239,7 +3199,8 @@
     "loyalty": null,
     "multiverse_id": 179575,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cloven Casting",
@@ -2263,7 +3224,29 @@
     "loyalty": null,
     "multiverse_id": 189653,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "This ability triggers only once for each multicolored instant or sorcery spell you cast. You can’t use a single Cloven Casting to copy the same spell twice."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You can copy the spell that caused Cloven Casting’s ability to trigger even if it’s been countered by the time that ability resolves."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "The copy will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a modal spell is copied, the copy will have the same mode as the original."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Abilities that trigger when a spell is cast (such as this ability or cascade) won’t trigger when you create a copy this way."
+      }
+    ]
   },
   {
     "name": "Double Negative",
@@ -2287,7 +3270,21 @@
     "loyalty": null,
     "multiverse_id": 179544,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "You may cast Double Negative with no targets, one target, or two targets."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "In order to counter two target spells, both of those spells must be on the stack at the time you cast Double Negative. Two spells can be on the stack at the same time as the result of an ability (such as cascade or replicate), as the result of a copy effect (such as the one from Cloven Casting or Twincast), or because a spell has been cast in response to another spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "It’s unusual for a player to cast a spell in response to their own spell, and that will be specifically called out when it happens. Under normal circumstances, if a player casts a spell, it is assumed that the player passes priority afterward. If that player casts another spell, it is assumed that each other player has also passed priority, which caused the first spell to resolve and the first player to receive priority again. Unless the first player says otherwise, only one spell will be on the stack at a time in that scenario."
+      }
+    ]
   },
   {
     "name": "Magefire Wings",
@@ -2314,7 +3311,8 @@
     "loyalty": null,
     "multiverse_id": 179591,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Skyclaw Thrash",
@@ -2342,7 +3340,13 @@
     "loyalty": null,
     "multiverse_id": 179569,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "If you lose the flip, nothing happens. Skyclaw Thrash continues to attack as normal."
+      }
+    ]
   },
   {
     "name": "Spellbound Dragon",
@@ -2369,7 +3373,13 @@
     "loyalty": null,
     "multiverse_id": 180611,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "You’ll discard a card even if some other effect replaces the draw."
+      }
+    ]
   },
   {
     "name": "Lord of Extinction",
@@ -2395,7 +3405,17 @@
     "loyalty": null,
     "multiverse_id": 177922,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "The ability that defines Lord of Extinction’s power and toughness works in all zones, not just the battlefield. If Lord of Extinction is in your graveyard, it will count itself."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If an instant or sorcery spell deals damage to Lord of Extinction or lowers its toughness, that spell is put into its owner’s graveyard before state-based actions are performed. That card will raise Lord of Extinction’s toughness before the game checks to see if it dies."
+      }
+    ]
   },
   {
     "name": "Maelstrom Pulse",
@@ -2419,7 +3439,29 @@
     "loyalty": null,
     "multiverse_id": 180613,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "A face-down creature has no name, so it doesn’t have the same name as anything else."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "Maelstrom Pulse has only one target. Other permanents with the same name will be destroyed even if they have hexproof or protection."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If the target permanent becomes an illegal target for Maelstrom Pulse, the spell doesn’t resolve. Nothing is destroyed."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "The name of a creature token is the same as the creature types it was created with unless the token is a copy of another creature or the effect that created the token specifically gives it a different name. For example, a 1/1 red Elemental creature token created by Young Pyromancer and a 4/4 green Elemental creature token created by Walker of the Grove are both named “Elemental.”"
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If Maelstrom Pulse resolves but the target permanent isn’t destroyed (perhaps because it regenerates or has indestructible), all other permanents with the same name as it will still be destroyed."
+      }
+    ]
   },
   {
     "name": "Marrow Chomper",
@@ -2447,7 +3489,8 @@
     "loyalty": null,
     "multiverse_id": 183014,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Morbid Bloom",
@@ -2471,7 +3514,17 @@
     "loyalty": null,
     "multiverse_id": 179614,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "If the targeted card is removed from the graveyard before Morbid Bloom resolves, the spell doesn’t resolve. You won’t get any Saproling tokens."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a creature card has “*” in its toughness, the ability that defines “*” works in all zones. The value of X is equal to the toughness of the targeted creature card as it last existed in the graveyard."
+      }
+    ]
   },
   {
     "name": "Putrid Leech",
@@ -2498,7 +3551,8 @@
     "loyalty": null,
     "multiverse_id": 179612,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cerodon Yearling",
@@ -2524,7 +3578,8 @@
     "loyalty": null,
     "multiverse_id": 180604,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fight to the Death",
@@ -2548,7 +3603,25 @@
     "loyalty": null,
     "multiverse_id": 179562,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "A “blocking creature” is one that has been declared as a blocker this combat, or one that was put onto the battlefield blocking this combat. Unless that creature leaves combat, it continues to be a blocking creature through the end of combat step, even if the creature or creatures that it was blocking are no longer on the battlefield or have otherwise left combat by then."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "A “blocked creature” is an attacking creature that has been blocked by a creature this combat, or has become blocked as the result of a spell or ability this combat. Unless the attacking creature leaves combat, it continues to be a blocked creature through the end of combat step, even if the creature or creatures that blocked it are no longer on the battlefield or have otherwise left combat by then."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Attacking creatures that haven’t been blocked are unaffected by Fight to the Death."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If Fight to the Death is cast before blockers are declared or after combat ends, it won’t do anything."
+      }
+    ]
   },
   {
     "name": "Glory of Warfare",
@@ -2573,7 +3646,13 @@
     "loyalty": null,
     "multiverse_id": 179611,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "There is never a point at which Glory of Warfare will give a creature you control +2/+2 or +0/+0. A creature that’s normally 1/1, for example, will change from being 3/1 to being 1/3 when your turn ends and another player’s turn begins. At no time will it be 3/3 or 1/1."
+      }
+    ]
   },
   {
     "name": "Intimidation Bolt",
@@ -2597,7 +3676,21 @@
     "loyalty": null,
     "multiverse_id": 179568,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "If the targeted creature has become an illegal target by the time Intimidation Bolt resolves, Intimidation Bolt doesn’t resolve. Creatures will still be able to attack that turn."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If the targeted creature survives the damage, it can attack this turn, but no other creatures can. If the targeted creature is destroyed, no creatures can attack this turn, including creatures that enter the battlefield later on."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "For the second part of Intimidation Bolt’s effect to do anything, it must be cast before attackers are declared."
+      }
+    ]
   },
   {
     "name": "Stun Sniper",
@@ -2624,7 +3717,8 @@
     "loyalty": null,
     "multiverse_id": 179589,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Lorescale Coatl",
@@ -2650,7 +3744,17 @@
     "loyalty": null,
     "multiverse_id": 179633,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "If a spell or ability causes you to draw multiple cards, Lorescale Coatl’s ability triggers that many times."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "If a spell or ability causes you to put cards in your hand without specifically using the word “draw,” Lorescale Coatl’s ability won’t trigger."
+      }
+    ]
   },
   {
     "name": "Nulltread Gargantuan",
@@ -2676,7 +3780,17 @@
     "loyalty": null,
     "multiverse_id": 179580,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Nulltread Gargantuan’s ability doesn’t target the creature you put on top of its owner’s library. You don’t choose one until the ability resolves. No one can respond to the choice."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you control no other creatures, you’ll have to put Nulltread Gargantuan on top of its owner’s library."
+      }
+    ]
   },
   {
     "name": "Sages of the Anima",
@@ -2703,7 +3817,33 @@
     "loyalty": null,
     "multiverse_id": 180601,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Other players don’t get to see the order that you put the cards on the bottom of your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If an effect would cause you to draw multiple cards, each individual draw is replaced by Sages of the Anima’s effect. Process the draws one at a time."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If there are fewer than three cards in your library, you’ll reveal all of them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "This effect is mandatory. Even if there are no more creature cards in your library, you have to do this instead of drawing a card."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell or ability causes you to put cards in your hand without specifically using the word “draw,” Sages of the Anima’s ability won’t affect it."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If two or more replacement effects would apply to a card-drawing event, the player who’s drawing the card chooses what order to apply them. It’s possible that after applying one of them, the others will no longer be applicable because the player would no longer draw a card. For example, if you have more than one Sages of the Anima on the battlefield and you would draw a card, each Sages of the Anima’s replacement effect could apply. Once you use one, the rest are no longer applicable."
+      }
+    ]
   },
   {
     "name": "Vedalken Heretic",
@@ -2730,7 +3870,13 @@
     "loyalty": null,
     "multiverse_id": 180619,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Vedalken Heretic’s ability triggers when it deals any damage to an opponent, not just combat damage."
+      }
+    ]
   },
   {
     "name": "Winged Coatl",
@@ -2758,7 +3904,8 @@
     "loyalty": null,
     "multiverse_id": 179603,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Enigma Sphinx",
@@ -2787,7 +3934,49 @@
     "loyalty": null,
     "multiverse_id": 180597,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After Enigma Sphinx’s middle ability triggers, if Enigma Sphinx is removed from your graveyard in response, it won’t be put into your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you have zero or one card left in your library when Enigma Sphinx’s middle ability resolves, Enigma Sphinx is put on the bottom of your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you control an Enigma Sphinx that’s owned by another player, it’s put into that player’s graveyard from the battlefield, so Enigma Sphinx’s middle ability won’t trigger."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Esper Sojourners",
@@ -2816,7 +4005,29 @@
     "loyalty": null,
     "multiverse_id": 188967,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "The triggered ability acts as a cycle-triggered ability or as a leaves-the-battlefield ability, as appropriate. The player who controls the triggered ability is the player who cycled the Sojourner, or the player who last controlled the Sojourner on the battlefield."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cycle this card, the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "The cycling ability and the triggered ability are separate. If the triggered ability doesn’t resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you’ll draw a card."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You can cycle this card even if there are no targets for the triggered ability. That’s because the cycling ability itself has no targets."
+      }
+    ]
   },
   {
     "name": "Etherwrought Page",
@@ -2843,7 +4054,17 @@
     "loyalty": null,
     "multiverse_id": 179618,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "You choose a mode when the ability triggers."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You may choose a different mode each time it triggers."
+      }
+    ]
   },
   {
     "name": "Sen Triplets",
@@ -2873,7 +4094,45 @@
     "loyalty": null,
     "multiverse_id": 180607,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Playing a card this way works just like playing any other card, with one exception: You're playing the card from your opponent's hand rather than your own. To be specific:\r\n    -- A card played this way follows the normal timing rules for its card type, as well as any other applicable restrictions such as “Cast [this card] only during combat.” For example, you can't play a card from the targeted opponent's hand during your end step unless it's an instant or has flash.\r\n    -- To cast a nonland card from your opponent's hand this way, you must pay its mana cost.\r\n    -- You can play a land card from the targeted opponent's hand only if you haven't played a land yet that turn."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You control the spells you cast from your opponent’s hand, so you make decisions for them as appropriate. For example, if one of those spells says “target creature you control,” you’ll target one of your creatures, not one of your opponent’s creatures."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast a spell with cascade this way, you’ll control the cascade ability. When it resolves, you’ll find a new card to cast from your own library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You can cast spells from the targeted player’s hand, but you can’t activate abilities. Specifically, you can’t cycle cards in that player’s hand."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "This ability doesn’t prevent the targeted opponent’s triggered abilities from triggering. If one does, that player puts it on the stack and, if applicable, chooses targets for it. Those abilities will resolve as normal."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If the resolution of a spell or ability involves having the targeted player cast a spell, that part of the effect simply won’t work."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After this ability resolves, the targeted player still gets priority at the appropriate times, and can still perform special actions (such as turning a face-down creature face up). However, since that player can’t cast any spells or activate abilities — including mana abilities — there’s not much they can actually accomplish this way."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you start to play a card from the targeted opponent’s hand, there’s no way for the opponent to get rid of that card in response (like discarding it to pay Gathan Raiders’s morph cost, for example). That’s because the first thing that happens when you start to cast a spell is that it moves to the stack, so it’s not in your opponent’s hand anymore."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Once Sen Triplets’s ability resolves, it remains in effect for the rest of the turn whether or not you still control Sen Triplets."
+      }
+    ]
   },
   {
     "name": "Sphinx of the Steel Wind",
@@ -2900,7 +4159,8 @@
     "loyalty": null,
     "multiverse_id": 189641,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Drastic Revelation",
@@ -2924,7 +4184,21 @@
     "loyalty": null,
     "multiverse_id": 179587,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "You discard your hand as part of Drastic Revelation’s effect, not as an additional cost. If you have no cards in hand at this point, you simply don’t discard any; the rest of the spell will still have its effect."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You’ll discard three cards at random even if some other effect replaces your seven draws."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If there are fewer than seven cards left in your library, you’ll draw all the cards in your library, then you’ll discard three cards at random. Then you’ll lose the game as a state-based action."
+      }
+    ]
   },
   {
     "name": "Grixis Sojourners",
@@ -2952,7 +4226,33 @@
     "loyalty": null,
     "multiverse_id": 188972,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "The triggered ability acts as a cycle-triggered ability or as a leaves-the-battlefield ability, as appropriate. The player who controls the triggered ability is the player who cycled the Sojourner, or the player who last controlled the Sojourner on the battlefield."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cycle this card, the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "The cycling ability and the triggered ability are separate. If the triggered ability doesn’t resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you’ll draw a card."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You can cycle this card even if there are no targets for the triggered ability. That’s because the cycling ability itself has no targets."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Grixis Sojourner’s triggered ability may target Grixis Sojourners itself. By the time the ability triggers, Grixis Sojourner will already be in your graveyard."
+      }
+    ]
   },
   {
     "name": "Thraximundar",
@@ -2983,7 +4283,17 @@
     "loyalty": null,
     "multiverse_id": 180595,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Thraximundar’s middle ability resolves during the declare attackers step. The defending player sacrifices a creature before it would get a chance to block."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Thraximundar’s last ability triggers whenever any player (including you) sacrifices a creature for any reason. It doesn’t trigger only when a creature is sacrificed due to its middle ability. Note that Thraximundar itself doesn’t allow you to sacrifice any creatures."
+      }
+    ]
   },
   {
     "name": "Unscythe, Killer of Kings",
@@ -3013,7 +4323,21 @@
     "loyalty": null,
     "multiverse_id": 189651,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Whenever a creature is put into a graveyard from the battlefield, check whether that creature had been dealt damage this turn by the creature that Unscythe is currently attached to. If so, Unscythe’s second ability will trigger. This is true even if Unscythe wasn’t attached to the creature at the time it dealt that damage. Only the currently equipped creature is checked, not any creatures that Unscythe may have been attached to earlier in the turn."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Unscythe’s second ability cares about any damage, not just combat damage."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If Unscythe’s second ability triggers, but the creature that was put into a graveyard is somehow removed from the graveyard in response (or it was a token), it won’t be able to be exiled with Unscythe’s ability. You won’t get a Zombie token."
+      }
+    ]
   },
   {
     "name": "Dragon Appeasement",
@@ -3038,7 +4362,13 @@
     "loyalty": null,
     "multiverse_id": 180616,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Dragon Appeasement itself doesn’t allow you to sacrifice any creatures. Its last ability triggers whenever you sacrifice a creature because some other spell, ability, or cost instructed you to."
+      }
+    ]
   },
   {
     "name": "Jund Sojourners",
@@ -3066,7 +4396,29 @@
     "loyalty": null,
     "multiverse_id": 188966,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "The triggered ability acts as a cycle-triggered ability or as a leaves-the-battlefield ability, as appropriate. The player who controls the triggered ability is the player who cycled the Sojourner, or the player who last controlled the Sojourner on the battlefield."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cycle this card, the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "The cycling ability and the triggered ability are separate. If the triggered ability doesn’t resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you’ll draw a card."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You can cycle this card even if there are no targets for the triggered ability. That’s because the cycling ability itself has no targets."
+      }
+    ]
   },
   {
     "name": "Karrthus, Tyrant of Jund",
@@ -3096,7 +4448,17 @@
     "loyalty": null,
     "multiverse_id": 180587,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "The triggered ability’s control-change effect has no duration. Each Dragon you gain control of this way will remain under your control until the game ends, that permanent leaves the battlefield, or some other effect changes its controller."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the triggered ability resolves, you’ll gain control of all Dragons, including the Dragons you already control (such as Karrthus itself). Usually this will have no appreciable effect, though it will override any previous control-change abilities (such as if you had gained control of one of those Dragons only for the rest of the turn). Then you’ll untap all Dragons, including the ones you already controlled and Karrthus itself (if it had somehow managed to become tapped by then)."
+      }
+    ]
   },
   {
     "name": "Lavalanche",
@@ -3120,7 +4482,17 @@
     "loyalty": null,
     "multiverse_id": 180612,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "If the targeted player has become an illegal target by the time Lavalanche resolves, Lavalanche doesn’t resolve. Nothing will be dealt damage."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Because Lavalanche doesn’t target any creatures, it will deal damage to creatures with shroud. Any damage it would deal to creatures with appropriate protection abilities will still be prevented, however."
+      }
+    ]
   },
   {
     "name": "Madrush Cyclops",
@@ -3147,7 +4519,13 @@
     "loyalty": null,
     "multiverse_id": 180625,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Madrush Cyclops gives itself haste."
+      }
+    ]
   },
   {
     "name": "Gloryscale Viashino",
@@ -3174,7 +4552,8 @@
     "loyalty": null,
     "multiverse_id": 189654,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mayael's Aria",
@@ -3198,7 +4577,17 @@
     "loyalty": null,
     "multiverse_id": 180620,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "This ability triggers at the beginning of each of your upkeeps. Whether you control any applicable creatures is checked only when the ability resolves."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "The three parts of the ability happen sequentially. For example, if you control a creature with 9 power when the ability starts to resolve, you’ll put a +1/+1 counter on each creature you control — and now, since you control a creature with 10 power, you’ll gain 10 life."
+      }
+    ]
   },
   {
     "name": "Naya Sojourners",
@@ -3226,7 +4615,29 @@
     "loyalty": null,
     "multiverse_id": 188970,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "The triggered ability acts as a cycle-triggered ability or as a leaves-the-battlefield ability, as appropriate. The player who controls the triggered ability is the player who cycled the Sojourner, or the player who last controlled the Sojourner on the battlefield."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cycle this card, the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "The cycling ability and the triggered ability are separate. If the triggered ability doesn’t resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you’ll draw a card."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You can cycle this card even if there are no targets for the triggered ability. That’s because the cycling ability itself has no targets."
+      }
+    ]
   },
   {
     "name": "Retaliator Griffin",
@@ -3253,7 +4664,29 @@
     "loyalty": null,
     "multiverse_id": 147530,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "The source of combat damage is the creature that dealt it."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell causes damage to be dealt, that spell will always identify the source of the damage. In most cases, the source is the spell itself. For example, Breath of Malfegor says “Breath of Malfegor deals 5 damage to each opponent.”"
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If an ability causes damage to be dealt, that ability will always identify the source of the damage. The ability itself is never the source. However, the source of the ability is often the source of the damage. For example, Deathbringer Thoctar’s ability says “Deathbringer Thoctar deals 1 damage to any target.”"
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If the source of the damage is a permanent, Retaliator Griffin checks whether an opponent controls that permanent at the time that damage is dealt. If the permanent has left the battlefield by then, its last known information is used. If the source of the damage is a spell, whether it’s controlled by an opponent is obvious. If the source of the damage is a card in some other zone (such as a cycled Jund Sojourners), Retaliator Griffin checks whether the card’s owner, rather than its controller, is an opponent."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If Retaliator Griffin is dealt lethal damage at the same time that you’re dealt damage by a source an opponent controls, Retaliator Griffin will be put into a graveyard before it would receive any counters. Its ability will still trigger, but it will do nothing when it resolves."
+      }
+    ]
   },
   {
     "name": "Uril, the Miststalker",
@@ -3282,7 +4715,8 @@
     "loyalty": null,
     "multiverse_id": 189645,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bant Sojourners",
@@ -3310,7 +4744,25 @@
     "loyalty": null,
     "multiverse_id": 188963,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "The triggered ability acts as a cycle-triggered ability or as a leaves-the-battlefield ability, as appropriate. The player who controls the triggered ability is the player who cycled the Sojourner, or the player who last controlled the Sojourner on the battlefield."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cycle this card, the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "The cycling ability and the triggered ability are separate. If the triggered ability doesn’t resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you’ll draw a card."
+      }
+    ]
   },
   {
     "name": "Finest Hour",
@@ -3335,7 +4787,17 @@
     "loyalty": null,
     "multiverse_id": 180609,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Finest Hour’s second ability has an “intervening ‘if’ clause.” The ability won’t trigger at all unless it’s the first combat phase of the turn."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Unlike other similar cards, Finest Hour doesn’t create a main phase in between the two combat phases. The second combat phase will begin immediately after the current one ends."
+      }
+    ]
   },
   {
     "name": "Flurry of Wings",
@@ -3359,7 +4821,21 @@
     "loyalty": null,
     "multiverse_id": 179605,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "An “attacking creature” is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Flurry of Wings counts the number of creatures that are attacking as it resolves. It doesn’t matter how many creatures were originally declared as attackers that turn. It also doesn’t matter who controls those creatures, or who or what they’re attacking."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If Flurry of Wings is cast before attackers have been declared or after combat ends, it won’t do anything."
+      }
+    ]
   },
   {
     "name": "Jenara, Asura of War",
@@ -3388,7 +4864,8 @@
     "loyalty": null,
     "multiverse_id": 180605,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wargate",
@@ -3412,7 +4889,17 @@
     "loyalty": null,
     "multiverse_id": 180592,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "A permanent card is an artifact, creature, enchantment, land, or planeswalker card."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You may always find a permanent card with converted mana cost 0. (If X is 0, that’s all you can find.) Cards with no mana cost (such as land cards), cards with mana cost {0}, and cards with mana cost {X} all have converted mana cost 0."
+      }
+    ]
   },
   {
     "name": "Maelstrom Nexus",
@@ -3436,7 +4923,53 @@
     "loyalty": null,
     "multiverse_id": 179540,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Maelstrom Nexus affects the first spell you cast each turn, not just the first spell you cast on your own turn."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If the first spell you cast in a turn already has cascade, both cascade abilities will trigger separately. Deal with them one at a time: First one cascade ability will resolve, and you’ll cast the applicable card if you want. That new spell will resolve. Then the other cascade ability will resolve in the same way. Finally, the original spell will resolve."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "This effect takes into account spells that were cast earlier in the turn that Maelstrom Nexus entered the battlefield, including any spells still on the stack. If you’ve already cast any spells that turn (including Maelstrom Nexus itself), this ability won’t give any of your spells cascade that turn."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "A spell’s converted mana cost is determined solely by the mana symbols printed in its upper right corner. If its mana cost includes {X}, take the chosen value of X into account. Ignore any alternative costs, additional costs, cost increases, or cost reductions."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Arsenal Thresher",
@@ -3463,7 +4996,17 @@
     "loyalty": null,
     "multiverse_id": 189652,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "If multiple Arsenal Threshers are entering the battlefield at the same time (for example, if Warp World is resolving), you may reveal the same artifact cards from your hand for each of them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If Arsenal Thresher and another artifact are entering the battlefield from your hand at the same time, you may reveal that other artifact for Arsenal Thresher. If that artifact is a second Arsenal Thresher, you may reveal each Arsenal Thresher for the other."
+      }
+    ]
   },
   {
     "name": "Esper Stormblade",
@@ -3491,7 +5034,8 @@
     "loyalty": null,
     "multiverse_id": 188968,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Thopter Foundry",
@@ -3515,7 +5059,13 @@
     "loyalty": null,
     "multiverse_id": 183017,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "The nontoken artifact you sacrifice may be Thopter Foundry itself."
+      }
+    ]
   },
   {
     "name": "Grixis Grimblade",
@@ -3542,7 +5092,8 @@
     "loyalty": null,
     "multiverse_id": 188976,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sewn-Eye Drake",
@@ -3569,7 +5120,8 @@
     "loyalty": null,
     "multiverse_id": 179594,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Slave of Bolas",
@@ -3593,7 +5145,17 @@
     "loyalty": null,
     "multiverse_id": 188971,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "You may target a creature you already control."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you don’t control the targeted creature when the “at end of turn” ability resolves, it won’t be sacrificed. If it’s still on the battlefield but under another player’s control, the ability won’t try to have you sacrifice it again at the end of the turn after that."
+      }
+    ]
   },
   {
     "name": "Giant Ambush Beetle",
@@ -3620,7 +5182,25 @@
     "loyalty": null,
     "multiverse_id": 179598,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "You decide whether to have the targeted creature block Giant Ambush Beetle this turn if able at the time the enters-the-battlefield ability resolves, not at the time Giant Ambush Beetle attacks."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Deciding to have the targeted creature block doesn’t force you to attack with Giant Ambush Beetle that turn. If Giant Ambush Beetle doesn’t attack, the targeted creature is free to block whichever creature its controller chooses, or block no creatures at all."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you choose to have the targeted creature block but that creature isn’t able to block Giant Ambush Beetle (for example, because the targeted creature can block only creatures with flying), the requirement to block does nothing. The targeted creature is free to block whichever creature its controller chooses, or block no creatures at all."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Tapped creatures, creatures that can’t block as the result of an effect, creatures with unpaid costs to block (such as those from War Cadence), and creatures that aren’t controlled by the defending player are exempt from effects that would require them to block. Such creatures can be targeted by Giant Ambush Beetle’s ability, but the requirement to block does nothing."
+      }
+    ]
   },
   {
     "name": "Jund Hackblade",
@@ -3647,7 +5227,8 @@
     "loyalty": null,
     "multiverse_id": 188973,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sangrite Backlash",
@@ -3674,7 +5255,8 @@
     "loyalty": null,
     "multiverse_id": 179553,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Marisi's Twinclaws",
@@ -3701,7 +5283,8 @@
     "loyalty": null,
     "multiverse_id": 179585,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Naya Hushblade",
@@ -3728,7 +5311,8 @@
     "loyalty": null,
     "multiverse_id": 188969,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Trace of Abundance",
@@ -3756,7 +5340,8 @@
     "loyalty": null,
     "multiverse_id": 161292,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bant Sureblade",
@@ -3783,7 +5368,8 @@
     "loyalty": null,
     "multiverse_id": 188975,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Crystallization",
@@ -3811,7 +5397,13 @@
     "loyalty": null,
     "multiverse_id": 179621,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "When the enchanted creature becomes the target of a spell or ability, Crystallization’s last ability will trigger. When that ability resolves, that creature will be exiled, even if Crystallization has left the battlefield or is enchanting a different creature by that time. If Crystallization is still enchanting the same creature, Crystallization will then be put into its owner’s graveyard as a state-based action."
+      }
+    ]
   },
   {
     "name": "Messenger Falcons",
@@ -3838,6 +5430,7 @@
     "loyalty": null,
     "multiverse_id": 189644,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]

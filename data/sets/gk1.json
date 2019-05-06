@@ -27,7 +27,29 @@
     "loyalty": null,
     "multiverse_id": 455904,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/5/2018",
+        "text": "If the player controls no creatures, Etrata’s ability doesn’t resolve. Etrata remains on the battlefield and its owner doesn’t shuffle their library. The same is true if the target creature is an illegal target when Etrata’s ability tries to resolve."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "If Etrata leaves the battlefield while its triggered ability is on the stack, it remains in its new zone and Etrata’s owner shuffles their library."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "If Etrata’s ability exiles a token creature, it won’t count to determine whether three cards are exiled with hit counters."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "Etrata’s owner shuffles it into their library as the triggered ability resolves, regardless of how many cards are in exile or whether the player loses the game."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "In a Commander game, if Etrata is your commander, you may put it into the command zone as its ability resolves. You’ll still shuffle your library."
+      }
+    ]
   },
   {
     "name": "Stolen Identity",
@@ -52,7 +74,77 @@
     "loyalty": null,
     "multiverse_id": 455905,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/24/2013",
+        "text": "If the token you create is a copy of a creature, you can exile Stolen Identity encoded on that token."
+      },
+      {
+        "date": "1/24/2013",
+        "text": "The token copies exactly what was printed on the original artifact or creature and nothing else (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether it is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on."
+      },
+      {
+        "date": "1/24/2013",
+        "text": "If the copied permanent has {X} in its mana cost, X is considered to be zero."
+      },
+      {
+        "date": "1/24/2013",
+        "text": "If the copied permanent is copying something else (for example, if the copied creature is a Clone), then the token enters the battlefield as whatever that creature copied."
+      },
+      {
+        "date": "1/24/2013",
+        "text": "If the copied permanent is a token, the token that’s created copies the original characteristics of that token as stated by the effect that put the token onto the battlefield."
+      },
+      {
+        "date": "1/24/2013",
+        "text": "Any enters-the-battlefield abilities of the copied permanent will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the chosen permanent will also work."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The spell with cipher is encoded on the creature as part of that spell’s resolution, just after the spell’s other effects. That card goes directly from the stack to exile. It never goes to the graveyard."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "You choose the creature as the spell resolves. The cipher ability doesn’t target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If the spell with cipher doesn’t resolve, none of its effects will happen, including cipher. The card will go to its owner’s graveyard and won’t be encoded on a creature."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The copy of the card with cipher is created in and cast from exile."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "You cast the copy of the card with cipher during the resolution of the triggered ability. Ignore timing restrictions based on the card’s type."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If you choose not to cast the copy, or you can’t cast it (perhaps because there are no legal targets available), the copy will cease to exist the next time state-based actions are performed. You won’t get a chance to cast the copy at a later time."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The exiled card with cipher grants a triggered ability to the creature it’s encoded on. If that creature loses that ability and subsequently deals combat damage to a player, the triggered ability won’t trigger. However, the exiled card will continue to be encoded on that creature."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If another player gains control of the creature, that player will control the triggered ability. That player will create a copy of the encoded card and may cast it."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If a creature with an encoded card deals combat damage to more than one player simultaneously (perhaps because some of the combat damage was redirected), the triggered ability will trigger once for each player it deals combat damage to. Each ability will create a copy of the exiled card and allow you to cast it."
+      }
+    ]
   },
   {
     "name": "Syncopate",
@@ -76,7 +168,8 @@
     "loyalty": null,
     "multiverse_id": 455906,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Telling Time",
@@ -100,7 +193,13 @@
     "loyalty": null,
     "multiverse_id": 455907,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "If there are fewer than three cards in your library, follow the instructions in the order given for any cards that are there."
+      }
+    ]
   },
   {
     "name": "Last Gasp",
@@ -124,7 +223,8 @@
     "loyalty": null,
     "multiverse_id": 455908,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Netherborn Phalanx",
@@ -151,7 +251,8 @@
     "loyalty": null,
     "multiverse_id": 455909,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ribbons of Night",
@@ -175,7 +276,8 @@
     "loyalty": null,
     "multiverse_id": 455910,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Call of the Nightwing",
@@ -200,7 +302,57 @@
     "loyalty": null,
     "multiverse_id": 455911,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/24/2013",
+        "text": "You can exile Call of the Nightwing encoded on the Horror creature token it just created."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The spell with cipher is encoded on the creature as part of that spell’s resolution, just after the spell’s other effects. That card goes directly from the stack to exile. It never goes to the graveyard."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "You choose the creature as the spell resolves. The cipher ability doesn’t target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If the spell with cipher doesn’t resolve, none of its effects will happen, including cipher. The card will go to its owner’s graveyard and won’t be encoded on a creature."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The copy of the card with cipher is created in and cast from exile."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "You cast the copy of the card with cipher during the resolution of the triggered ability. Ignore timing restrictions based on the card’s type."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If you choose not to cast the copy, or you can’t cast it (perhaps because there are no legal targets available), the copy will cease to exist the next time state-based actions are performed. You won’t get a chance to cast the copy at a later time."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The exiled card with cipher grants a triggered ability to the creature it’s encoded on. If that creature loses that ability and subsequently deals combat damage to a player, the triggered ability won’t trigger. However, the exiled card will continue to be encoded on that creature."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If another player gains control of the creature, that player will control the triggered ability. That player will create a copy of the encoded card and may cast it."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If a creature with an encoded card deals combat damage to more than one player simultaneously (perhaps because some of the combat damage was redirected), the triggered ability will trigger once for each player it deals combat damage to. Each ability will create a copy of the exiled card and allow you to cast it."
+      }
+    ]
   },
   {
     "name": "Circu, Dimir Lobotomist",
@@ -231,7 +383,25 @@
     "loyalty": null,
     "multiverse_id": 455912,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "If you cast a blue and black spell, both of Circu’s triggered abilities trigger. You can target two different players or target the same player twice."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "Circu’s last ability applies to all of its controller’s opponents, not just the owner of the exiled card."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "Circu’s last ability doesn’t prevent copies of the exiled cards from being cast because copies aren’t cards."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "If a split card is exiled this way, opponents can’t cast either half of the split card."
+      }
+    ]
   },
   {
     "name": "Consuming Aberration",
@@ -258,7 +428,17 @@
     "loyalty": null,
     "multiverse_id": 455913,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/24/2013",
+        "text": "If any opponent has no land cards in their library, all the cards from that library will be revealed and put into their graveyard."
+      },
+      {
+        "date": "1/24/2013",
+        "text": "The cards will be put into graveyards before the spell you cast to cause the ability to trigger resolves. However, none of those cards will be in a graveyard as you cast that spell, so they can’t be chosen as a target of that spell."
+      }
+    ]
   },
   {
     "name": "Dimir Charm",
@@ -285,7 +465,8 @@
     "loyalty": null,
     "multiverse_id": 455914,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dimir Doppelganger",
@@ -311,7 +492,17 @@
     "loyalty": null,
     "multiverse_id": 455915,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "This creature becomes an exact copy of a copied card, except that it also has Dimir Doppelganger’s activated ability. If it becomes a copy of a different creature card, the new copy will overwrite the old copy."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "A permanent’s ability that refers to cards the creature exiled (such as Sisters of Stone Death’s third ability) only affects cards exiled by other abilities intrinsic to that permanent (such as Sisters of Stone Death’s second ability). Suppose that (a) Dimir Doppelganger copies Arc-Slogger, (b) its “deal 2 damage” ability is activated, and then (c) it copies Sisters of Stone Death. Creatures exiled by Arc-Slogger’s ability can’t be returned with Sisters of Stone Death’s ability."
+      }
+    ]
   },
   {
     "name": "Dimir Guildmage",
@@ -340,7 +531,8 @@
     "loyalty": null,
     "multiverse_id": 455916,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dinrova Horror",
@@ -366,7 +558,21 @@
     "loyalty": null,
     "multiverse_id": 455917,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "If the target permanent is an illegal target when Dinrova Horror’s ability tries to resolve, the ability won’t resolve and none of its effects will happen. No player will discard a card."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "If a player has no cards in their hand and Dinrova Horror returns a card to that player’s hand, the player must discard that card. They won’t have the opportunity to cast that card (or do anything else with it) before discarding it."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "A token permanent returned to a player’s hand isn’t a card and can’t be discarded. It will cease to exist when state-based actions are performed after the ability finishes resolving."
+      }
+    ]
   },
   {
     "name": "Glimpse the Unthinkable",
@@ -390,7 +596,8 @@
     "loyalty": null,
     "multiverse_id": 455918,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Lazav, Dimir Mastermind",
@@ -419,7 +626,25 @@
     "loyalty": null,
     "multiverse_id": 455919,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/24/2013",
+        "text": "Lazav, Dimir Mastermind becomes a copy of the creature card in the graveyard. If that card is no longer in the graveyard when Lazav’s ability resolves, use the characteristics of that card as it last existed in the graveyard. Notably, copy effects that applied to the creature card when it was on the battlefield won’t be copied by Lazav. For example, if a Clone is put into an opponent’s graveyard from the battlefield and you use Lazav’s ability, it will become 0/0. It won’t become a copy of whatever Clone was copying."
+      },
+      {
+        "date": "1/24/2013",
+        "text": "If multiple creature cards are put into an opponent’s graveyard at the same time, you choose the order that Lazav’s triggered abilities go on the stack."
+      },
+      {
+        "date": "1/24/2013",
+        "text": "Enters-the-battlefield abilities of the creature card Lazav is copying won’t trigger as Lazav is already on the battlefield when it becomes a copy of that creature card."
+      },
+      {
+        "date": "1/24/2013",
+        "text": "Token creatures dying won’t cause Lazav’s triggered ability to trigger."
+      }
+    ]
   },
   {
     "name": "Mirko Vosk, Mind Drinker",
@@ -448,7 +673,13 @@
     "loyalty": null,
     "multiverse_id": 455920,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If the player has fewer than four land cards in their library, all cards from that library will be revealed and put into that player’s graveyard."
+      }
+    ]
   },
   {
     "name": "Moroii",
@@ -475,7 +706,8 @@
     "loyalty": null,
     "multiverse_id": 455921,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Nightveil Specter",
@@ -503,7 +735,21 @@
     "loyalty": null,
     "multiverse_id": 455922,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/24/2013",
+        "text": "The card is exiled face up. All players may look at it."
+      },
+      {
+        "date": "1/24/2013",
+        "text": "Playing a card exiled with Nightveil Specter follows all the normal rules for playing that card. You must pay its costs, and you must follow all timing restrictions, for example."
+      },
+      {
+        "date": "1/24/2013",
+        "text": "Nightveil Specter’s last ability applies to cards exiled with that specific Nightveil Specter, not any other creature named Nightveil Specter. You should keep cards exiled by different Nightveil Specters separate."
+      }
+    ]
   },
   {
     "name": "Szadek, Lord of Secrets",
@@ -532,7 +778,13 @@
     "loyalty": null,
     "multiverse_id": 455923,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "If another effect would prevent Szadek’s combat damage from being dealt to the defending player or replace it with something else, that player chooses which effect applies first. For example, the player can choose to first have Mending Hands prevent 4 of the damage and then apply Szadek’s ability so that it gets only one counter."
+      }
+    ]
   },
   {
     "name": "Warped Physique",
@@ -556,7 +808,17 @@
     "loyalty": null,
     "multiverse_id": 455924,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "Use the number of cards in your hand as Warped Physique resolves to determine the value of X. Warped Physique won’t be in your hand at that time."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Once Warped Physique resolves, the effect won’t change if the number of cards in your hand changes."
+      }
+    ]
   },
   {
     "name": "Dimir Signet",
@@ -580,7 +842,8 @@
     "loyalty": null,
     "multiverse_id": 455925,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dimir Aqueduct",
@@ -606,7 +869,13 @@
     "loyalty": null,
     "multiverse_id": 455926,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Island",
@@ -634,7 +903,8 @@
     "loyalty": null,
     "multiverse_id": 455927,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -662,7 +932,8 @@
     "loyalty": null,
     "multiverse_id": 455928,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Niv-Mizzet, the Firemind",
@@ -693,7 +964,17 @@
     "loyalty": null,
     "multiverse_id": 456216,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "If a spell or ability causes you to draw multiple cards, Niv-Mizzet’s ability triggers that many times."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "If dealing 1 damage to a permanent or player causes you to draw a card, perhaps because Niv-Mizzet is enchanted by Curiosity, you’ll continue this loop until the loop is interrupted, perhaps by a player losing the game."
+      }
+    ]
   },
   {
     "name": "Thunderheads",
@@ -718,7 +999,8 @@
     "loyalty": null,
     "multiverse_id": 456217,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Char",
@@ -742,7 +1024,8 @@
     "loyalty": null,
     "multiverse_id": 456218,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Electrickery",
@@ -767,7 +1050,37 @@
     "loyalty": null,
     "multiverse_id": 456219,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If you don’t pay the overload cost of a spell, that spell will have a single target. If you pay the overload cost, the spell won’t have any targets."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Because a spell with overload doesn’t target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Note that if the spell with overload is dealing damage, protection from that spell’s color will still prevent that damage."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Overload doesn’t change when you can cast the spell."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Casting a spell with overload doesn’t change that spell’s mana cost. You just pay the overload cost instead."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Effects that cause you to pay more or less for a spell will cause you to pay that much more or less while casting it for its overload cost, too."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If you are instructed to cast a spell with overload “without paying its mana cost,” you can’t choose to pay its overload cost instead."
+      }
+    ]
   },
   {
     "name": "Goblin Rally",
@@ -791,7 +1104,8 @@
     "loyalty": null,
     "multiverse_id": 456220,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Guttersnipe",
@@ -818,7 +1132,17 @@
     "loyalty": null,
     "multiverse_id": 456221,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Guttersnipe’s triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "In a Two-Headed Giant game, Guttersnipe’s ability causes the opposing team to lose 4 life."
+      }
+    ]
   },
   {
     "name": "Mizzium Mortars",
@@ -843,7 +1167,37 @@
     "loyalty": null,
     "multiverse_id": 456222,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If you don’t pay the overload cost of a spell, that spell will have a single target. If you pay the overload cost, the spell won’t have any targets."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Because a spell with overload doesn’t target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Note that if the spell with overload is dealing damage, protection from that spell’s color will still prevent that damage."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Overload doesn’t change when you can cast the spell."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Casting a spell with overload doesn’t change that spell’s mana cost. You just pay the overload cost instead."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Effects that cause you to pay more or less for a spell will cause you to pay that much more or less while casting it for its overload cost, too."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If you are instructed to cast a spell with overload “without paying its mana cost,” you can’t choose to pay its overload cost instead."
+      }
+    ]
   },
   {
     "name": "Pyromatics",
@@ -868,7 +1222,8 @@
     "loyalty": null,
     "multiverse_id": 456223,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Shattering Spree",
@@ -893,7 +1248,8 @@
     "loyalty": null,
     "multiverse_id": 456224,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cerebral Vortex",
@@ -917,7 +1273,8 @@
     "loyalty": null,
     "multiverse_id": 456225,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Djinn Illuminatus",
@@ -945,7 +1302,17 @@
     "loyalty": null,
     "multiverse_id": 456226,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2006",
+        "text": "If you cast a spell that already has replicate while you have this creature on the battlefield, the spell will have two replicate abilities: one with a replicate cost as printed on it, and one with a replicate cost equal to its mana cost. (In this set, both costs are always the same.) You may use either ability, or both abilities, to replicate the spell."
+      },
+      {
+        "date": "2/1/2006",
+        "text": "If you cast an instant or sorcery spell that has {X} in its mana cost, the value of X in the spell’s replicate cost will be the same as the value of X you chose for its mana cost."
+      }
+    ]
   },
   {
     "name": "Electrolyze",
@@ -970,7 +1337,21 @@
     "loyalty": null,
     "multiverse_id": 456227,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You divide the damage as you cast Electrolyze, not as it resolves. Each target must be assigned at least 1 damage. In other words, as you cast Electrolyze, you choose whether to have it deal 2 damage to a single target, or deal 1 damage to each of two targets."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If Electrolyze targets two creatures and one becomes an illegal target, the remaining target is dealt 1 damage, not 2. You’ll still draw a card."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If all chosen targets are illegal as Electrolyze tries to resolve, it won’t resolve and none of its effects will happen. No damage will be dealt and you won’t draw a card."
+      }
+    ]
   },
   {
     "name": "Gelectrode",
@@ -997,7 +1378,8 @@
     "loyalty": null,
     "multiverse_id": 456228,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Hypersonic Dragon",
@@ -1024,7 +1406,17 @@
     "loyalty": null,
     "multiverse_id": 456229,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Hypersonic Dragon’s last ability applies to sorcery cards in any zone, provided something is allowing you to cast them. For example, you could cast a sorcery with flashback as though it had flash."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Hypersonic Dragon’s last ability has no effect on abilities that you can activate “any time you could cast a sorcery.”"
+      }
+    ]
   },
   {
     "name": "Invoke the Firemind",
@@ -1050,7 +1442,13 @@
     "loyalty": null,
     "multiverse_id": 456230,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2006",
+        "text": "As you cast Invoke the Firemind, first you choose the mode (draw cards or deal damage), then you choose the value of X. You then choose a target, but only if you chose the second mode."
+      }
+    ]
   },
   {
     "name": "Izzet Charm",
@@ -1077,7 +1475,8 @@
     "loyalty": null,
     "multiverse_id": 456231,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Nivix Guildmage",
@@ -1105,7 +1504,33 @@
     "loyalty": null,
     "multiverse_id": 456232,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2012",
+        "text": "Nivix Guildmage’s second ability can target (and copy) any instant or sorcery spell you control, not just one with targets."
+      },
+      {
+        "date": "10/1/2012",
+        "text": "When the second ability resolves, it creates a copy of a spell. That copy is created on the stack, so it’s not “cast.” Abilities that trigger when a player casts a spell won’t trigger. The copy will then resolve like a normal spell, after players get a chance to cast spells and activate abilities."
+      },
+      {
+        "date": "10/1/2012",
+        "text": "The copy will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can’t choose a new legal target, then it remains unchanged (even if the current target is illegal)."
+      },
+      {
+        "date": "10/1/2012",
+        "text": "If the copied spell is modal (that is, it says “Choose one —” or the like), the copy will have the same mode. You can’t choose a different one."
+      },
+      {
+        "date": "10/1/2012",
+        "text": "If the copied spell has an X whose value was determined as it was cast (like Sphinx’s Revelation does), the copy has the same value of X."
+      },
+      {
+        "date": "10/1/2012",
+        "text": "You can’t choose to pay any additional costs for the copy. However, effects based on any additional or alternative costs that were paid for the original spell are copied as though those same costs were paid for the copy too. For example, if you copy a spell that you cast by paying its overload cost, the copy will resolve as though its overload cost had been paid as well."
+      }
+    ]
   },
   {
     "name": "Stitch in Time",
@@ -1129,7 +1554,8 @@
     "loyalty": null,
     "multiverse_id": 456233,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tibor and Lumia",
@@ -1159,7 +1585,13 @@
     "loyalty": null,
     "multiverse_id": 456234,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2006",
+        "text": "A spell you cast that’s blue and red will trigger both abilities. You can put them on the stack in either order."
+      }
+    ]
   },
   {
     "name": "Turn (Turn/Burn)",
@@ -1184,7 +1616,69 @@
     "loyalty": null,
     "multiverse_id": 456235,
     "other_part": "Burn (Turn/Burn)",
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "Turn will cause the creature lose all other colors and creature types, but it will retain any other card types (such as artifact) it may have."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Turn overwrites all previous effects that set the targeted creature’s power or toughness to specific values. Effects that set its power or toughness to specific values that start to apply after Turn resolves will overwrite this effect."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Turn doesn’t counter abilities that have already triggered or been activated. In particular, there is no way to cast this to stop a creature’s “At the beginning of your upkeep” or “When this creature enters the battlefield” abilities from triggering."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If the affected creature gains an ability after Turn resolves, it will keep that ability."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Effects that modify the targeted creature’s power or toughness, such as the effects of Phytoburst or Legion’s Initiative, will apply to it no matter when they started to take effect. The same is true for counters that change the creature’s power or toughness (such as +1/+1 counters) and effects that switch its power and toughness."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If you’re casting a split card with fuse from any zone other than your hand, you can’t cast both halves. You’ll only be able to cast one half or the other."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "You can choose the same object as the target of each half of a fused split spell, if appropriate."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn’t resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can’t perform any actions or have any actions performed on it."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "On the stack, a split spell that hasn’t been fused has only that half’s characteristics and converted mana cost. The other half is treated as though it didn’t exist."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Some split cards with fuse have two halves that are both multicolored. That card is multicolored no matter which half is cast, or if both halves are cast. It’s also multicolored while not on the stack."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If a player names a card, the player may name either half of a split card, but not both. A split card has the chosen name if one of its two names matches the chosen name."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If you cast a split card with fuse from your hand without paying its mana cost, you can choose to use its fuse ability and cast both halves without paying their mana costs."
+      }
+    ]
   },
   {
     "name": "Burn (Turn/Burn)",
@@ -1209,7 +1703,49 @@
     "loyalty": null,
     "multiverse_id": 456235,
     "other_part": "Turn (Turn/Burn)",
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If you’re casting a split card with fuse from any zone other than your hand, you can’t cast both halves. You’ll only be able to cast one half or the other."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its converted mana cost is the total amount of mana in both costs."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "You can choose the same object as the target of each half of a fused split spell, if appropriate."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn’t resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can’t perform any actions or have any actions performed on it."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "On the stack, a split spell that hasn’t been fused has only that half’s characteristics and converted mana cost. The other half is treated as though it didn’t exist."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Some split cards with fuse have two halves that are both multicolored. That card is multicolored no matter which half is cast, or if both halves are cast. It’s also multicolored while not on the stack."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If a player names a card, the player may name either half of a split card, but not both. A split card has the chosen name if one of its two names matches the chosen name."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If you cast a split card with fuse from your hand without paying its mana cost, you can choose to use its fuse ability and cast both halves without paying their mana costs."
+      }
+    ]
   },
   {
     "name": "Izzet Signet",
@@ -1233,7 +1769,8 @@
     "loyalty": null,
     "multiverse_id": 456236,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Izzet Boilerworks",
@@ -1259,7 +1796,13 @@
     "loyalty": null,
     "multiverse_id": 456237,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Island",
@@ -1287,7 +1830,8 @@
     "loyalty": null,
     "multiverse_id": 456238,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -1315,7 +1859,8 @@
     "loyalty": null,
     "multiverse_id": 456239,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Izoni, Thousand-Eyed",
@@ -1345,7 +1890,21 @@
     "loyalty": null,
     "multiverse_id": 456054,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/5/2018",
+        "text": "You can activate Izoni’s last ability while its undergrowth ability is on the stack. This will increase the number of Insect tokens you’ll create."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "Creature cards with other types, such as artifact creature cards, count for undergrowth abilities."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "Because tokens aren’t cards, they never count for undergrowth abilities."
+      }
+    ]
   },
   {
     "name": "Darkblast",
@@ -1370,7 +1929,21 @@
     "loyalty": null,
     "multiverse_id": 456055,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Dredge lets you replace any card draw, not just the one during your draw step."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Once you decide to replace a draw using a card’s dredge ability, that card can’t be removed from your graveyard “in response.” (Replacement effects don’t use the stack.)"
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You can’t use dredge unless you’re going to draw a card and the card with dredge is already in your graveyard."
+      }
+    ]
   },
   {
     "name": "Slum Reaper",
@@ -1396,7 +1969,21 @@
     "loyalty": null,
     "multiverse_id": 456056,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "As Slum Reaper’s ability resolves, first the player whose turn it is chooses a creature they control, then each other player in turn order does the same, knowing the choices made before them. Then all the chosen creatures are sacrificed at the same time."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If any player controls no creatures, that player simply doesn’t sacrifice anything. Each other player still sacrifices a creature."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "Slum Reaper may be the creature its controller sacrifices for its own ability."
+      }
+    ]
   },
   {
     "name": "Stinkweed Imp",
@@ -1424,7 +2011,25 @@
     "loyalty": null,
     "multiverse_id": 456057,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Dredge lets you replace any card draw, not just the one during your draw step."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Once you decide to replace a draw using a card’s dredge ability, that card can’t be removed from your graveyard “in response.” (Replacement effects don’t use the stack.)"
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You can’t use dredge unless you’re going to draw a card and the card with dredge is already in your graveyard."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Notably, Stinkweed Imp’s ability isn’t deathtouch. It’s a triggered ability that triggers only on combat damage."
+      }
+    ]
   },
   {
     "name": "Vigor Mortis",
@@ -1448,7 +2053,13 @@
     "loyalty": null,
     "multiverse_id": 456058,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "The +1/+1 counter from this ability is in addition to any other counters the creature enters the battlefield with."
+      }
+    ]
   },
   {
     "name": "Deadbridge Goliath",
@@ -1474,7 +2085,13 @@
     "loyalty": null,
     "multiverse_id": 456059,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "Exiling the creature card with scavenge is part of the cost of activating the scavenge ability. Once the ability is activated and the cost is paid, it’s too late to stop the ability from being activated by trying to remove the creature card from the graveyard."
+      }
+    ]
   },
   {
     "name": "Elves of Deep Shadow",
@@ -1501,7 +2118,8 @@
     "loyalty": null,
     "multiverse_id": 456060,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Abrupt Decay",
@@ -1526,7 +2144,17 @@
     "loyalty": null,
     "multiverse_id": 456061,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "The converted mana cost of a creature token is 0, unless that token is a copy of another creature, in which case it copies that creature’s mana cost."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "If a permanent has {X} in its mana cost, X is considered to be 0."
+      }
+    ]
   },
   {
     "name": "Deadbridge Chant",
@@ -1551,7 +2179,21 @@
     "loyalty": null,
     "multiverse_id": 456062,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "The card is chosen at random as the ability resolves. If any player responds to the ability, that player won’t yet know what card will be chosen."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Because the last ability doesn’t target any card in your graveyard, any card put into your graveyard in response to the ability may be chosen."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Each card in your graveyard must have an equal chance of being chosen. Assigning them each a number and rolling a die is an easy way to do this. In formats that allow you to rearrange your graveyard—including Standard, Modern, and Return to Ravnica block Limited formats, you may also shuffle your graveyard face down and choose a card at random."
+      }
+    ]
   },
   {
     "name": "Deathrite Shaman",
@@ -1580,7 +2222,17 @@
     "loyalty": null,
     "multiverse_id": 456063,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "Because the first ability requires a target, it is not a mana ability. It uses the stack and can be responded to."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "If the target of any of Deathrite Shaman’s three abilities is an illegal target when that ability tries to resolve, it won’t resolve and none of its effects will happen. You won’t add mana to your mana pool, no opponent will lose life, or you won’t gain life, as appropriate."
+      }
+    ]
   },
   {
     "name": "Drown in Filth",
@@ -1604,7 +2256,13 @@
     "loyalty": null,
     "multiverse_id": 456064,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "You choose the target of Drown in Filth as you cast the spell. You won’t necessarily know what will happen to that creature’s power and toughness at that time."
+      }
+    ]
   },
   {
     "name": "Gaze of Granite",
@@ -1628,7 +2286,17 @@
     "loyalty": null,
     "multiverse_id": 456065,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If a permanent has {X} in its mana cost, the value of that X is 0."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The converted mana cost of a creature token is 0 unless that token is a copy of another creature, in which case it copies that creature’s mana cost."
+      }
+    ]
   },
   {
     "name": "Golgari Charm",
@@ -1655,7 +2323,8 @@
     "loyalty": null,
     "multiverse_id": 456066,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Grave-Shell Scarab",
@@ -1682,7 +2351,13 @@
     "loyalty": null,
     "multiverse_id": 456067,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "You may sacrifice Grave-Shell Scarab to pay for its first ability, then replace that draw using the Scarab’s dredge ability. The result is that the top card of your library is put into your graveyard and Grave-Shell Scarab returns to your hand (after a brief trip to the graveyard)."
+      }
+    ]
   },
   {
     "name": "Grisly Salvage",
@@ -1706,7 +2381,8 @@
     "loyalty": null,
     "multiverse_id": 456068,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Jarad, Golgari Lich Lord",
@@ -1737,7 +2413,25 @@
     "loyalty": null,
     "multiverse_id": 456069,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2012",
+        "text": "Jarad’s first ability applies only when Jarad is on the battlefield."
+      },
+      {
+        "date": "10/1/2012",
+        "text": "The life loss is based on the power of the sacrificed creature as it last existed on the battlefield."
+      },
+      {
+        "date": "10/1/2012",
+        "text": "To activate Jarad’s last ability, you must sacrifice two lands. It doesn’t matter what other land types the two lands have, as long as one is a Swamp and one is a Forest. Even if one of the lands you sacrifice is both a Swamp and a Forest, you have to sacrifice another land that is a Swamp or a Forest."
+      },
+      {
+        "date": "10/1/2012",
+        "text": "You can sacrifice any land with the land type Swamp or Forest, not just ones named Swamp or Forest. For example, you could sacrifice two Overgrown Tombs."
+      }
+    ]
   },
   {
     "name": "Korozda Guildmage",
@@ -1765,7 +2459,13 @@
     "loyalty": null,
     "multiverse_id": 456070,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2012",
+        "text": "Use the sacrificed creature’s toughness when it was last on the battlefield to determine the value of X."
+      }
+    ]
   },
   {
     "name": "Lotleth Troll",
@@ -1794,7 +2494,8 @@
     "loyalty": null,
     "multiverse_id": 456071,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Putrefy",
@@ -1818,7 +2519,13 @@
     "loyalty": null,
     "multiverse_id": 456072,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2006",
+        "text": "This spell isn’t Modal. When it resolves, it will destroy the target if it’s a creature or an artifact, even if it changed from one to the other between targeting and resolution."
+      }
+    ]
   },
   {
     "name": "Savra, Queen of the Golgari",
@@ -1848,7 +2555,21 @@
     "loyalty": null,
     "multiverse_id": 456073,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "These abilities trigger specifically when you “sacrifice” a creature. They won’t trigger when a creature is put into your graveyard for any other reason."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "Savra itself doesn’t let you sacrifice creatures, and you can’t sacrifice them spontaneously. You must have another spell or ability that lets you sacrifice creatures."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "Sacrificing a creature that’s both black and green will make both abilities trigger. You may put them on the stack in whichever order you want."
+      }
+    ]
   },
   {
     "name": "Shambling Shell",
@@ -1876,7 +2597,8 @@
     "loyalty": null,
     "multiverse_id": 456074,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sisters of Stone Death",
@@ -1906,7 +2628,13 @@
     "loyalty": null,
     "multiverse_id": 456075,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "The third ability can get back any creature card exiled by the second ability, no matter when it was exiled. If a card that’s not a creature card (such as Svogthos, the Restless Tomb) was exiled, the third ability can’t return it."
+      }
+    ]
   },
   {
     "name": "Treasured Find",
@@ -1930,7 +2658,8 @@
     "loyalty": null,
     "multiverse_id": 456076,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Golgari Signet",
@@ -1954,7 +2683,8 @@
     "loyalty": null,
     "multiverse_id": 456077,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Golgari Rot Farm",
@@ -1980,7 +2710,13 @@
     "loyalty": null,
     "multiverse_id": 456078,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Swamp",
@@ -2008,7 +2744,8 @@
     "loyalty": null,
     "multiverse_id": 456079,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -2036,7 +2773,8 @@
     "loyalty": null,
     "multiverse_id": 456080,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Aurelia, the Warleader",
@@ -2065,7 +2803,21 @@
     "loyalty": null,
     "multiverse_id": 455754,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/24/2013",
+        "text": "You untap all creatures you control, including ones that aren’t attacking."
+      },
+      {
+        "date": "1/24/2013",
+        "text": "You don’t have to attack with any creatures during the additional combat phase."
+      },
+      {
+        "date": "1/24/2013",
+        "text": "If Aurelia is put onto the battlefield attacking, the triggered ability won’t trigger."
+      }
+    ]
   },
   {
     "name": "Boros Elite",
@@ -2092,7 +2844,21 @@
     "loyalty": null,
     "multiverse_id": 455755,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "The three attacking creatures don’t have to be attacking the same player or planeswalker."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Once a battalion ability has triggered, it doesn’t matter how many creatures are still attacking when that ability resolves."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The effects of battalion abilities vary from card to card. Read each card carefully."
+      }
+    ]
   },
   {
     "name": "Daring Skyjek",
@@ -2119,7 +2885,21 @@
     "loyalty": null,
     "multiverse_id": 455756,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "The three attacking creatures don’t have to be attacking the same player or planeswalker."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Once a battalion ability has triggered, it doesn’t matter how many creatures are still attacking when that ability resolves."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The effects of battalion abilities vary from card to card. Read each card carefully."
+      }
+    ]
   },
   {
     "name": "Bomber Corps",
@@ -2146,7 +2926,21 @@
     "loyalty": null,
     "multiverse_id": 455757,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "The three attacking creatures don’t have to be attacking the same player or planeswalker."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Once a battalion ability has triggered, it doesn’t matter how many creatures are still attacking when that ability resolves."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The effects of battalion abilities vary from card to card. Read each card carefully."
+      }
+    ]
   },
   {
     "name": "Frenzied Goblin",
@@ -2173,7 +2967,13 @@
     "loyalty": null,
     "multiverse_id": 455758,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "Frenzied Goblin’s ability has only one target. You can’t pay {R} multiple times to stop multiple creatures from blocking."
+      }
+    ]
   },
   {
     "name": "Legion Loyalist",
@@ -2201,7 +3001,21 @@
     "loyalty": null,
     "multiverse_id": 455759,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "The three attacking creatures don’t have to be attacking the same player or planeswalker."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Once a battalion ability has triggered, it doesn’t matter how many creatures are still attacking when that ability resolves."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The effects of battalion abilities vary from card to card. Read each card carefully."
+      }
+    ]
   },
   {
     "name": "Agrus Kos, Wojek Veteran",
@@ -2230,7 +3044,13 @@
     "loyalty": null,
     "multiverse_id": 455760,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "Attacking creatures (including Agrus Kos) that are both red and white get +2/+2 until end of turn."
+      }
+    ]
   },
   {
     "name": "Boros Charm",
@@ -2257,7 +3077,17 @@
     "loyalty": null,
     "multiverse_id": 455761,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/1/2013",
+        "text": "If you choose the second mode, permanents that come under your control later in the turn will not have indestructible."
+      },
+      {
+        "date": "7/1/2013",
+        "text": "Planeswalkers with indestructible will still have loyalty counters removed from them as they are dealt damage. If planeswalker with indestructible has no loyalty counters, it will still be put into its owner’s graveyard, as the rule that does this doesn’t destroy the planeswalker."
+      }
+    ]
   },
   {
     "name": "Boros Reckoner",
@@ -2285,7 +3115,21 @@
     "loyalty": null,
     "multiverse_id": 455762,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "Boros Reckoner’s first ability will trigger even if it is dealt lethal damage. For example, if it blocks a 7/7 creature, its ability will trigger and Boros Reckoner will deal 7 damage to the target."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "Damage dealt by Boros Reckoner due to its first ability isn’t combat damage, even if it was combat damage that caused that ability to trigger."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "If Boros Reckoner is dealt damage by multiple sources at once, such as by two creatures blocking it, its ability triggers once and one target is dealt that much damage."
+      }
+    ]
   },
   {
     "name": "Boros Swiftblade",
@@ -2312,7 +3156,8 @@
     "loyalty": null,
     "multiverse_id": 455763,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Brightflame",
@@ -2336,7 +3181,33 @@
     "loyalty": null,
     "multiverse_id": 455764,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "You gain life equal to the total damage dealt by Brightflame to all creatures. You don’t gain life for any damage that was prevented."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "All creatures that share a color are affected, even your own."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "A creature “shares a color” with any creature that is at least one of its colors. For example, a green-white creature shares a color with creatures that are green, white, green-white, red-white, black-green, and so on."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "If it targets a colorless creature, it doesn’t affect any other creatures. A colorless creature shares a color with nothing, not even other colorless creatures."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "You check which creatures share a color with the target when the spell resolves."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "Only one creature is targeted. If that creature leaves the battlefield or otherwise becomes an illegal target, the entire spell doesn’t resolve. No other creatures are affected."
+      }
+    ]
   },
   {
     "name": "Firemane Angel",
@@ -2364,7 +3235,13 @@
     "loyalty": null,
     "multiverse_id": 455765,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If Firemane Angel is put into your graveyard from the battlefield or returned from your graveyard to the battlefield during your upkeep before its triggered ability resolves, you won’t gain 1 life."
+      }
+    ]
   },
   {
     "name": "Firemane Avenger",
@@ -2391,7 +3268,29 @@
     "loyalty": null,
     "multiverse_id": 455766,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/24/2013",
+        "text": "If the target permanent or player is an illegal target when Firemane Avenger’s battalion ability tries to resolve, the ability won’t resolve and none of its effects will happen. You won’t gain life."
+      },
+      {
+        "date": "1/24/2013",
+        "text": "If Firemane Avenger’s battalion ability resolves but some or all of the damage is prevented, you’ll still gain 3 life."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The three attacking creatures don’t have to be attacking the same player or planeswalker."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Once a battalion ability has triggered, it doesn’t matter how many creatures are still attacking when that ability resolves."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The effects of battalion abilities vary from card to card. Read each card carefully."
+      }
+    ]
   },
   {
     "name": "Lightning Helix",
@@ -2415,7 +3314,13 @@
     "loyalty": null,
     "multiverse_id": 455767,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If the chosen target is illegal when Lightning Helix tries to resolve, it won’t resolve and none of its effects will happen. You won’t gain 3 life."
+      }
+    ]
   },
   {
     "name": "Martial Glory",
@@ -2440,7 +3345,13 @@
     "loyalty": null,
     "multiverse_id": 455768,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/24/2013",
+        "text": "You may choose the same creature for both targets since the card says “target creature” multiple times. You may also choose two different creatures."
+      }
+    ]
   },
   {
     "name": "Master Warcraft",
@@ -2466,7 +3377,25 @@
     "loyalty": null,
     "multiverse_id": 455769,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "You choose attackers and make blocking assignments regardless of whether it’s your turn and regardless of whether the creatures are attacking you. Your choices must be legal within the normal rules for attacking and blocking."
+      },
+      {
+        "date": "1/1/2006",
+        "text": "You can decide that a creature won’t block."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "If the defending player controls a planeswalker, the person who cast Master Warcraft first chooses the complete group of creatures that are going to attack. Then, for each of those creatures, the active player chooses who or what it’s going to attack."
+      },
+      {
+        "date": "9/20/2013",
+        "text": "If a turn has multiple combat phases, this spell can only be cast before the beginning of the Declare Attackers Step of the first combat phase in that turn."
+      }
+    ]
   },
   {
     "name": "Razia, Boros Archangel",
@@ -2495,7 +3424,17 @@
     "loyalty": null,
     "multiverse_id": 455770,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "The 3 damage doesn’t have to be from the same source, and it doesn’t have to be all dealt at once. If only 2 damage is redirected, the next 1 damage will also be redirected."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "If either target creature leaves the battlefield before damage is dealt, that damage won’t be redirected. It doesn’t matter if Razia leaves the battlefield."
+      }
+    ]
   },
   {
     "name": "Spark Trooper",
@@ -2523,7 +3462,8 @@
     "loyalty": null,
     "multiverse_id": 455771,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sunhome Guildmage",
@@ -2551,7 +3491,13 @@
     "loyalty": null,
     "multiverse_id": 455772,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/24/2013",
+        "text": "Only creatures you control when Sunhome Guildmage’s first ability resolves will get +1/+0. Creatures that come under your control later in the turn will not."
+      }
+    ]
   },
   {
     "name": "Boros Keyrune",
@@ -2576,7 +3522,17 @@
     "loyalty": null,
     "multiverse_id": 455773,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "Until the ability that turns the Keyrune into a creature resolves, the Keyrune is colorless."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Activating the ability that turns the Keyrune into a creature while it’s already a creature will override any effects that set its power and/or toughness to another number, but effects that modify power and/or toughness without directly setting them will still apply."
+      }
+    ]
   },
   {
     "name": "Boros Signet",
@@ -2600,7 +3556,8 @@
     "loyalty": null,
     "multiverse_id": 455774,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Boros Garrison",
@@ -2626,7 +3583,13 @@
     "loyalty": null,
     "multiverse_id": 455775,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Sunhome, Fortress of the Legion",
@@ -2651,7 +3614,17 @@
     "loyalty": null,
     "multiverse_id": 455776,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "If you give double strike to a creature with first strike after first-strike combat damage has been dealt, that creature will also deal damage during the normal combat damage step."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "If you give double strike to a creature after either first-strike or normal combat damage has been dealt, it won’t help that creature deal any additional combat damage."
+      }
+    ]
   },
   {
     "name": "Plains",
@@ -2679,7 +3652,8 @@
     "loyalty": null,
     "multiverse_id": 455777,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -2707,7 +3681,8 @@
     "loyalty": null,
     "multiverse_id": 455778,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Trostani, Selesnya's Voice",
@@ -2736,7 +3711,37 @@
     "loyalty": null,
     "multiverse_id": 456360,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2012",
+        "text": "Trostani’s first ability checks the creature’s toughness as it resolves. If that creature has left the battlefield, use its toughness from when it was last on the battlefield. You can’t lose life this way if that creature’s toughness was less than 0."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "You can choose any creature token you control for populate. If a spell or ability puts a token onto the battlefield under your control and then instructs you to populate (as Coursers’ Accord does), you may choose to copy the token you just created, or you may choose to copy another creature token you control."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If you choose to copy a creature token that’s a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The new creature token copies the characteristics of the original token as stated by the effect that put the original token onto the battlefield."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The new token doesn’t copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the new token will work."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If you control no creature tokens when you populate, nothing will happen."
+      }
+    ]
   },
   {
     "name": "Devouring Light",
@@ -2761,7 +3766,45 @@
     "loyalty": null,
     "multiverse_id": 456361,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/18/2014",
+        "text": "You can tap untapped attacking or blocking creatures you control to help cast Devouring Light. This doesn’t remove those creatures from combat."
+      },
+      {
+        "date": "7/18/2014",
+        "text": "The declare blockers step is the last chance to cast Devouring Light before creatures deal their combat damage. However, a creature remains an attacking or blocking creature during the combat damage step and end of combat step. Devouring Light may be cast targeting such a creature during those steps, after the creature has dealt combat damage."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "You can tap an untapped creature you haven’t controlled continuously since the beginning of your most recent turn to convoke a spell."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "Convoke doesn’t change a spell’s mana cost or converted mana cost."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "When calculating a spell’s total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "Because convoke isn’t an alternative cost, it can be used in conjunction with alternative costs."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature’s colors."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell’s total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Worldsoul Colossus (a spell with convoke and mana cost {X}{G}{W}) and choose X to be 3, the total cost is {3}{G}{W}. If you tap two green creatures and two white creatures, you’ll have to pay {1}."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell’s costs. You won’t be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won’t be on the battlefield when you pay the spell’s costs, so you won’t be able to tap it for convoke."
+      }
+    ]
   },
   {
     "name": "Hour of Reckoning",
@@ -2786,7 +3829,37 @@
     "loyalty": null,
     "multiverse_id": 456362,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/5/2018",
+        "text": "You can tap an untapped creature you haven’t controlled continuously since the beginning of your most recent turn to convoke a spell."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "Convoke doesn’t change a spell’s mana cost or converted mana cost."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "When calculating a spell’s total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "Because convoke isn’t an alternative cost, it can be used in conjunction with alternative costs."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature’s colors."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell’s total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Worldsoul Colossus (a spell with convoke and mana cost {X}{G}{W}) and choose X to be 3, the total cost is {3}{G}{W}. If you tap two green creatures and two white creatures, you’ll have to pay {1}."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell’s costs. You won’t be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won’t be on the battlefield when you pay the spell’s costs, so you won’t be able to tap it for convoke."
+      }
+    ]
   },
   {
     "name": "Gather Courage",
@@ -2811,7 +3884,37 @@
     "loyalty": null,
     "multiverse_id": 456363,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/5/2018",
+        "text": "You can tap an untapped creature you haven’t controlled continuously since the beginning of your most recent turn to convoke a spell."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "Convoke doesn’t change a spell’s mana cost or converted mana cost."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "When calculating a spell’s total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "Because convoke isn’t an alternative cost, it can be used in conjunction with alternative costs."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature’s colors."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell’s total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Worldsoul Colossus (a spell with convoke and mana cost {X}{G}{W}) and choose X to be 3, the total cost is {3}{G}{W}. If you tap two green creatures and two white creatures, you’ll have to pay {1}."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell’s costs. You won’t be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won’t be on the battlefield when you pay the spell’s costs, so you won’t be able to tap it for convoke."
+      }
+    ]
   },
   {
     "name": "Scatter the Seeds",
@@ -2836,7 +3939,37 @@
     "loyalty": null,
     "multiverse_id": 456364,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/5/2018",
+        "text": "You can tap an untapped creature you haven’t controlled continuously since the beginning of your most recent turn to convoke a spell."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "Convoke doesn’t change a spell’s mana cost or converted mana cost."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "When calculating a spell’s total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "Because convoke isn’t an alternative cost, it can be used in conjunction with alternative costs."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature’s colors."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell’s total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Worldsoul Colossus (a spell with convoke and mana cost {X}{G}{W}) and choose X to be 3, the total cost is {3}{G}{W}. If you tap two green creatures and two white creatures, you’ll have to pay {1}."
+      },
+      {
+        "date": "10/5/2018",
+        "text": "If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell’s costs. You won’t be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won’t be on the battlefield when you pay the spell’s costs, so you won’t be able to tap it for convoke."
+      }
+    ]
   },
   {
     "name": "Advent of the Wurm",
@@ -2860,7 +3993,8 @@
     "loyalty": null,
     "multiverse_id": 456365,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Armada Wurm",
@@ -2887,7 +4021,8 @@
     "loyalty": null,
     "multiverse_id": 456366,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Call of the Conclave",
@@ -2911,7 +4046,8 @@
     "loyalty": null,
     "multiverse_id": 456367,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Centaur Healer",
@@ -2938,7 +4074,8 @@
     "loyalty": null,
     "multiverse_id": 456368,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dryad Militant",
@@ -2965,7 +4102,17 @@
     "loyalty": null,
     "multiverse_id": 456369,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2012",
+        "text": "If an instant or sorcery spell destroys Dryad Militant directly (like Murder does), that instant or sorcery card will be put into its owner’s graveyard. However, if an instant or sorcery card deals lethal damage to Dryad Militant, Dryad Militant will remain on the battlefield until the next time state-based actions are checked, which is after the instant or sorcery finishes resolving. The instant or sorcery will be exiled."
+      },
+      {
+        "date": "10/1/2012",
+        "text": "If an instant or sorcery card is discarded while Dryad Militant is on the battlefield, abilities that function when a card is discarded (such as madness) still work, even though that card never reaches a graveyard. In addition, spells or abilities that check the characteristics of a discarded card (such as Chandra Ablaze’s first ability) can find that card in exile."
+      }
+    ]
   },
   {
     "name": "Glare of Subdual",
@@ -2989,7 +4136,8 @@
     "loyalty": null,
     "multiverse_id": 456370,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Growing Ranks",
@@ -3013,7 +4161,33 @@
     "loyalty": null,
     "multiverse_id": 456371,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "You can choose any creature token you control for populate. If a spell or ability puts a token onto the battlefield under your control and then instructs you to populate (as Coursers’ Accord does), you may choose to copy the token you just created, or you may choose to copy another creature token you control."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If you choose to copy a creature token that’s a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The new creature token copies the characteristics of the original token as stated by the effect that put the original token onto the battlefield."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The new token doesn’t copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the new token will work."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If you control no creature tokens when you populate, nothing will happen."
+      }
+    ]
   },
   {
     "name": "Loxodon Hierarch",
@@ -3041,7 +4215,13 @@
     "loyalty": null,
     "multiverse_id": 456372,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "The second ability sets up individual regeneration shields for each creature you control. They are each used up as necessary during the turn and wear off when the turn ends."
+      }
+    ]
   },
   {
     "name": "Pollenbright Wings",
@@ -3069,7 +4249,8 @@
     "loyalty": null,
     "multiverse_id": 456373,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Privileged Position",
@@ -3094,7 +4275,8 @@
     "loyalty": null,
     "multiverse_id": 456374,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Selesnya Charm",
@@ -3121,7 +4303,8 @@
     "loyalty": null,
     "multiverse_id": 456375,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Selesnya Evangel",
@@ -3148,7 +4331,8 @@
     "loyalty": null,
     "multiverse_id": 456376,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Selesnya Guildmage",
@@ -3176,7 +4360,8 @@
     "loyalty": null,
     "multiverse_id": 456377,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sundering Growth",
@@ -3200,7 +4385,37 @@
     "loyalty": null,
     "multiverse_id": 456378,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "You can choose any creature token you control for populate. If a spell or ability puts a token onto the battlefield under your control and then instructs you to populate (as Coursers’ Accord does), you may choose to copy the token you just created, or you may choose to copy another creature token you control."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If you choose to copy a creature token that’s a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The new creature token copies the characteristics of the original token as stated by the effect that put the original token onto the battlefield."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The new token doesn’t copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the new token will work."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "If you control no creature tokens when you populate, nothing will happen."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "You must target an artifact or enchantment to cast Sundering Growth. If that artifact or enchantment is an illegal target when Sundering Growth tries to resolve, it won’t resolve and none of its effects will happen. You won’t populate."
+      }
+    ]
   },
   {
     "name": "Tolsimir Wolfblood",
@@ -3231,7 +4446,21 @@
     "loyalty": null,
     "multiverse_id": 456379,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "Other creatures you control that are both green and white, including Voja, get +2/+2."
+      },
+      {
+        "date": "10/1/2005",
+        "text": "The token is named “Voja” and has creature type “Wolf.” This is different from most creature tokens, where the name and creature type are the same."
+      },
+      {
+        "date": "7/1/2013",
+        "text": "The “legend rule” means that creating a second Voja while one is already under your control will result in one of them being put into its owner’s graveyard (where it promptly ceases to exist). You choose which of the two remains on the battlefield and which is put into the graveyard."
+      }
+    ]
   },
   {
     "name": "Watchwolf",
@@ -3255,7 +4484,8 @@
     "loyalty": null,
     "multiverse_id": 456380,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Selesnya Signet",
@@ -3279,7 +4509,8 @@
     "loyalty": null,
     "multiverse_id": 456381,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Grove of the Guardian",
@@ -3304,7 +4535,17 @@
     "loyalty": null,
     "multiverse_id": 456382,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2012",
+        "text": "To activate Grove of the Guardian’s second ability you can tap any two untapped creatures you control, including ones you haven’t controlled continuously since the beginning of your most recent turn."
+      },
+      {
+        "date": "10/1/2012",
+        "text": "You can’t tap Grove of the Guardian to activate both abilities at the same time."
+      }
+    ]
   },
   {
     "name": "Selesnya Sanctuary",
@@ -3330,7 +4571,13 @@
     "loyalty": null,
     "multiverse_id": 456383,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Plains",
@@ -3358,7 +4605,8 @@
     "loyalty": null,
     "multiverse_id": 456384,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -3386,6 +4634,7 @@
     "loyalty": null,
     "multiverse_id": 456385,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]

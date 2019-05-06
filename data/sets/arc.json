@@ -24,7 +24,8 @@
     "loyalty": null,
     "multiverse_id": 220527,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Metallurgeon",
@@ -52,7 +53,13 @@
     "loyalty": null,
     "multiverse_id": 220460,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager."
+      }
+    ]
   },
   {
     "name": "Oblivion Ring",
@@ -77,7 +84,25 @@
     "loyalty": null,
     "multiverse_id": 220586,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2007",
+        "text": "If Oblivion Ring leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted nonland permanent forever."
+      },
+      {
+        "date": "10/1/2007",
+        "text": "If there are no nonland permanents on the battlefield other than an Oblivion Ring, and the card it exiled was another Oblivion Ring, casting a third Oblivion Ring will result in an involuntary infinite loop that will end the game in a draw (unless someone chooses to break it by putting another nonland permanent onto the battlefield or destroying one of the Oblivion Rings, for example)."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If the exiled card is an Aura, that card’s owner chooses what it will enchant as it comes back onto the battlefield. An Aura put onto the battlefield this way doesn’t target anything, but the Aura’s enchant ability restricts what it can be attached to. If the Aura can’t legally be attached to anything, it remains exiled forever."
+      },
+      {
+        "date": "7/1/2012",
+        "text": "Auras attached to the exiled permanent will be put into their owners’ graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist."
+      }
+    ]
   },
   {
     "name": "Path to Exile",
@@ -101,7 +126,17 @@
     "loyalty": null,
     "multiverse_id": 220511,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "If the targeted creature becomes an illegal target by the time Path to Exile would resolve, the entire spell doesn’t resolve. The creature’s controller won’t search for a basic land card."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "The controller of the exiled creature isn’t required to search their library for a basic land. If that player doesn’t, the player won’t shuffle their library."
+      }
+    ]
   },
   {
     "name": "Sanctum Gargoyle",
@@ -129,7 +164,13 @@
     "loyalty": null,
     "multiverse_id": 220462,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager."
+      }
+    ]
   },
   {
     "name": "March of the Machines",
@@ -153,7 +194,29 @@
     "loyalty": null,
     "multiverse_id": 220529,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "If a noncreature artifact is also another card type, such as enchantment or land, it will retain those types in addition to being an artifact creature."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "If an Equipment becomes a creature, it can no longer equip a creature. If it’s currently attached to a creature, it becomes unattached (but remains on the battlefield). You can activate the Equipment’s equip ability, but it won’t do anything."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "Each artifact land has a converted mana cost of 0. March of the Machines makes them 0/0 creatures, which are put into the graveyard as a state-based action."
+      },
+      {
+        "date": "7/15/2007",
+        "text": "If a noncreature artifact becomes an artifact creature this way and then another effect animates it, the new effect overrides March of the Machines’s effect. For example, Chimeric Staff is a 4/4 creature while March of the Machines is on the battlefield. If you activate Chimeric Staff’s ability and choose X = 5, Chimeric Staff will be a 5/5 artifact creature for the rest of the turn."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "A noncreature permanent that turns into a creature is subject to the “summoning sickness” rule: It can only attack, and its {T} abilities can only be activated, if its controller has continuously controlled that permanent since the beginning of their most recent turn."
+      }
+    ]
   },
   {
     "name": "Master Transmuter",
@@ -181,7 +244,21 @@
     "loyalty": null,
     "multiverse_id": 220510,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Returning an artifact you control to its owner’s hand is part of the cost of Master Transmuter’s activated ability. Paying a cost can’t be responded to (with Naturalize, for example)."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Since Master Transmuter is an artifact, you may return Master Transmuter itself to your hand. If you do, the rest of the ability will still work normally."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "The artifact card you put onto the battlefield when the ability resolves may be the same card that you returned to your hand when you paid the cost. If so, it returns to the battlefield as a new object with no relation to its previous existence."
+      }
+    ]
   },
   {
     "name": "Spin into Myth",
@@ -205,7 +282,13 @@
     "loyalty": null,
     "multiverse_id": 220497,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "The opponent chosen for the fateseal action doesn’t have to be the player who controlled the target creature."
+      }
+    ]
   },
   {
     "name": "Avatar of Woe",
@@ -233,7 +316,13 @@
     "loyalty": null,
     "multiverse_id": 220562,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The converted mana cost of this card is still 8, even if you only pay {B}{B} to cast it."
+      }
+    ]
   },
   {
     "name": "Beacon of Unrest",
@@ -257,7 +346,13 @@
     "loyalty": null,
     "multiverse_id": 220482,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/15/2007",
+        "text": "If a Beacon is countered or doesn’t resolve, it’s put into its owner’s graveyard, not shuffled into the library."
+      }
+    ]
   },
   {
     "name": "Bog Witch",
@@ -284,7 +379,13 @@
     "loyalty": null,
     "multiverse_id": 220556,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The ability is a mana ability."
+      }
+    ]
   },
   {
     "name": "Cemetery Reaper",
@@ -311,7 +412,17 @@
     "loyalty": null,
     "multiverse_id": 220476,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "Cemetery Reaper grants +1/+1 to all other Zombie creatures you control, not just the ones its ability puts onto the battlefield."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The creature card in a graveyard is exiled as part of the activated ability’s effect, not as a cost. If that card has left the graveyard by the time the ability would resolve, the ability doesn’t resolve and you don’t get a Zombie token."
+      }
+    ]
   },
   {
     "name": "Corpse Connoisseur",
@@ -339,7 +450,29 @@
     "loyalty": null,
     "multiverse_id": 220567,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "If you activate a card’s unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Activating a creature card’s unearth ability isn’t the same as casting the creature card. The unearth ability is put on the stack, but the creature card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Remove Soul) will not."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "At the beginning of the end step, a creature returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Stifle or Voidslime that counter triggered abilities. If the ability is countered, the creature will stay on the battlefield and the delayed trigger won’t trigger again. However, the replacement effect will still exile the creature when it eventually leaves the battlefield."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Unearth grants haste to the creature that’s returned to the battlefield. However, neither of the “exile” abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If a creature returned to the battlefield with unearth would leave the battlefield for any reason, it’s exiled instead — unless the spell or ability that’s causing the creature to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If it later returns the creature card to the battlefield (as Oblivion Ring or Flickerwisp might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The unearth effect will no longer apply to it."
+      }
+    ]
   },
   {
     "name": "Dregscape Zombie",
@@ -365,7 +498,29 @@
     "loyalty": null,
     "multiverse_id": 220457,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "If you activate a card’s unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Activating a creature card’s unearth ability isn’t the same as casting the creature card. The unearth ability is put on the stack, but the creature card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Remove Soul) will not."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "At the beginning of the end step, a creature returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Stifle or Voidslime that counter triggered abilities. If the ability is countered, the creature will stay on the battlefield and the delayed trigger won’t trigger again. However, the replacement effect will still exile the creature when it eventually leaves the battlefield."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Unearth grants haste to the creature that’s returned to the battlefield. However, neither of the “exile” abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If a creature returned to the battlefield with unearth would leave the battlefield for any reason, it’s exiled instead — unless the spell or ability that’s causing the creature to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If it later returns the creature card to the battlefield (as Oblivion Ring or Flickerwisp might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The unearth effect will no longer apply to it."
+      }
+    ]
   },
   {
     "name": "Extractor Demon",
@@ -393,7 +548,17 @@
     "loyalty": null,
     "multiverse_id": 220507,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "If Extractor Demon and another creature leave the battlefield at the same time, Extractor Demon’s triggered ability will trigger."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "You can target any player with Extractor Demon’s triggered ability. The target doesn’t have to be the controller of the creature that left the battlefield."
+      }
+    ]
   },
   {
     "name": "Festering Goblin",
@@ -420,7 +585,8 @@
     "loyalty": null,
     "multiverse_id": 220489,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Incremental Blight",
@@ -444,7 +610,13 @@
     "loyalty": null,
     "multiverse_id": 220546,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "You must target three different creatures. If you can’t, you can’t cast Incremental Blight."
+      }
+    ]
   },
   {
     "name": "Infectious Horror",
@@ -471,7 +643,13 @@
     "loyalty": null,
     "multiverse_id": 220508,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "In a Two-Headed Giant game, Infectious Horror’s ability causes the opposing team to lose 4 life."
+      }
+    ]
   },
   {
     "name": "Infest",
@@ -495,7 +673,8 @@
     "loyalty": null,
     "multiverse_id": 220459,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Makeshift Mannequin",
@@ -519,7 +698,8 @@
     "loyalty": null,
     "multiverse_id": 220569,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Reanimate",
@@ -543,7 +723,29 @@
     "loyalty": null,
     "multiverse_id": 220576,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "If a card in a player’s graveyard has {X} in its mana cost, X is considered to be 0."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "The amount of life you lose is determined by the converted mana cost of the card in your graveyard, not the creature once it’s on the battlefield."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "You lose life after the creature is already on the battlefield. Any abilities it has that interact with loss of life, such as that of Platinum Emperion, apply to that loss of life."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If any abilities trigger on the creature entering the battlefield, those abilities resolve after you lose life. If losing life results in you losing the game, those abilities won’t resolve."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the creature you control from Reanimate is exiled."
+      }
+    ]
   },
   {
     "name": "Reassembling Skeleton",
@@ -570,7 +772,8 @@
     "loyalty": null,
     "multiverse_id": 220515,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Scion of Darkness",
@@ -598,7 +801,17 @@
     "loyalty": null,
     "multiverse_id": 220588,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If this card destroys a creature in combat and at the same time (using its Trample ability) it damages a player, you will be able to target the destroyed creature (if it was a card and not a token) to be brought back."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      }
+    ]
   },
   {
     "name": "Shriekmaw",
@@ -626,7 +839,13 @@
     "loyalty": null,
     "multiverse_id": 220572,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first."
+      }
+    ]
   },
   {
     "name": "Sign in Blood",
@@ -650,7 +869,8 @@
     "loyalty": null,
     "multiverse_id": 220480,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Twisted Abomination",
@@ -678,7 +898,25 @@
     "loyalty": null,
     "multiverse_id": 220564,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "Unlike the normal cycling ability, Swampcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a Swamp card. After you find a Swamp card in your library, you reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "Swampcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on Swampcycling this card. Any ability that stops a cycling ability from being activated also stops Swampcycling from being activated."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "Swampcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with Swampcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "You can choose to find any card with the Swamp land type, including nonbasic lands. You can also choose not to find a card, even if there is a Swamp card in your library."
+      }
+    ]
   },
   {
     "name": "Urborg Syphon-Mage",
@@ -705,7 +943,8 @@
     "loyalty": null,
     "multiverse_id": 220559,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Zombie Infestation",
@@ -729,7 +968,8 @@
     "loyalty": null,
     "multiverse_id": 220579,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Zombify",
@@ -753,7 +993,8 @@
     "loyalty": null,
     "multiverse_id": 220580,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Battering Craghorn",
@@ -781,7 +1022,8 @@
     "loyalty": null,
     "multiverse_id": 220488,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Breath of Darigaaz",
@@ -806,7 +1048,8 @@
     "loyalty": null,
     "multiverse_id": 220499,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Chandra's Outrage",
@@ -830,7 +1073,13 @@
     "loyalty": null,
     "multiverse_id": 220513,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "If the target creature is an illegal target by the time Chandra’s Outrage resolves, the spell doesn’t resolve. No player is dealt damage."
+      }
+    ]
   },
   {
     "name": "Dragon Breath",
@@ -859,7 +1108,8 @@
     "loyalty": null,
     "multiverse_id": 220473,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dragon Fodder",
@@ -883,7 +1133,8 @@
     "loyalty": null,
     "multiverse_id": 220456,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dragon Whelp",
@@ -910,7 +1161,17 @@
     "loyalty": null,
     "multiverse_id": 220477,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The first three times Dragon Whelp’s ability is activated in a turn will do nothing other than give it +1/+0 until end of turn. Any subsequent activations will also cause its delayed triggered ability to trigger. That means if you activate Dragon Whelp’s ability five times, for example, two different delayed triggered abilities will trigger at the beginning of the next end step and cause you to sacrifice Dragon Whelp."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If the fourth (or more) time Dragon Whelp’s ability is activated during the same turn happens to be during that turn’s end step, the delayed triggered ability won’t trigger until the beginning of the next turn’s end step. You’ll have to sacrifice Dragon Whelp at that time."
+      }
+    ]
   },
   {
     "name": "Dragonspeaker Shaman",
@@ -938,7 +1199,8 @@
     "loyalty": null,
     "multiverse_id": 220474,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fireball",
@@ -963,7 +1225,25 @@
     "loyalty": null,
     "multiverse_id": 220478,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "For example, if X is 5 and you choose three target creatures, Fireball has a total cost of {7}{R} (even though its mana cost is just {5}{R} and its converted mana cost is 6). If those creatures are all still legal targets as Fireball resolves, it deals 1 damage to each of them."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "You may cast Fireball with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Fireball’s damage is divided as Fireball resolves, not as it’s cast, because there are no choices involved. The division involves only targets that are still legal as Fireball resolves."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "You can target more than X creatures. However, if the number of legal targets at the time Fireball resolves is greater than X, none of them will be dealt any damage."
+      }
+    ]
   },
   {
     "name": "Flameblast Dragon",
@@ -990,7 +1270,13 @@
     "loyalty": null,
     "multiverse_id": 220458,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "You choose the target when the ability triggers. When the ability resolves, you choose a value for X and decide whether to pay {X}{R}. If you do decide to pay {X}{R}, it’s too late for any player to respond since the ability is already in the midst of resolving."
+      }
+    ]
   },
   {
     "name": "Furnace Whelp",
@@ -1017,7 +1303,8 @@
     "loyalty": null,
     "multiverse_id": 220483,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Gathan Raiders",
@@ -1045,7 +1332,8 @@
     "loyalty": null,
     "multiverse_id": 220495,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Hellkite Charger",
@@ -1072,7 +1360,25 @@
     "loyalty": null,
     "multiverse_id": 220468,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "You decide whether to pay {5}{R}{R} as Hellkite Charger’s ability resolves."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If you pay {5}{R}{R}, the new combat phase immediately follows the current combat phase. There is no main phase in between."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Hellkite Charger’s ability may trigger multiple times in the same turn, since its own ability gives it multiple chances to attack. Each time it resolves, you may create an additional combat phase."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If two Hellkite Chargers attack at the same time, both of their abilities trigger. If you pay {5}{R}{R} for each, two new combat phases will be created. However, all attacking creatures untap as those abilities resolve, not as the combat phases start. Any creature that attacks in the second combat phase will remain tapped during the third combat phase."
+      }
+    ]
   },
   {
     "name": "Imperial Hellkite",
@@ -1100,7 +1406,17 @@
     "loyalty": null,
     "multiverse_id": 220464,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You do not have to find a Dragon card if you do not want to, even if you have one in your library."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The trigger occurs when you use the Morph ability to turn the card face up, or when an effect turns it face up. It will not trigger on being revealed or on leaving the battlefield."
+      }
+    ]
   },
   {
     "name": "Inferno Trap",
@@ -1127,7 +1443,37 @@
     "loyalty": null,
     "multiverse_id": 220469,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "You may ignore a Trap’s alternative cost condition and simply cast it for its normal mana cost. This is true even if its alternative cost condition has been met."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Casting a Trap by paying its alternative cost doesn’t change its mana cost or converted mana cost. The only difference is the cost you actually pay."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Effects that increase or reduce the cost to cast a Trap will apply to whichever cost you chose to pay."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Inferno Trap’s alternative cost condition checks for any damage, not just combat damage."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The alternative cost condition doesn’t check who controlled the creatures that dealt damage to you. Damage dealt to you by your own creatures counts."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The alternative cost condition is satisfied only if two different creatures dealt damage to you, not if one creature dealt damage to you twice. The damage may have been dealt to you simultaneously (as with combat damage), or at separate times."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "You may target any creature, not just one that dealt damage to you this turn."
+      }
+    ]
   },
   {
     "name": "Kilnmouth Dragon",
@@ -1155,7 +1501,8 @@
     "loyalty": null,
     "multiverse_id": 220465,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ryusei, the Falling Star",
@@ -1185,7 +1532,8 @@
     "loyalty": null,
     "multiverse_id": 220471,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Seething Song",
@@ -1209,7 +1557,8 @@
     "loyalty": null,
     "multiverse_id": 220561,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Skirk Commando",
@@ -1236,7 +1585,8 @@
     "loyalty": null,
     "multiverse_id": 220493,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Skirk Marauder",
@@ -1263,7 +1613,13 @@
     "loyalty": null,
     "multiverse_id": 220466,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The trigger occurs when you use the Morph ability to turn the card face up, or when an effect turns it face up. It will not trigger on being revealed or on leaving the battlefield."
+      }
+    ]
   },
   {
     "name": "Taurean Mauler",
@@ -1290,7 +1646,8 @@
     "loyalty": null,
     "multiverse_id": 220453,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Two-Headed Dragon",
@@ -1319,7 +1676,8 @@
     "loyalty": null,
     "multiverse_id": 220472,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Volcanic Fallout",
@@ -1344,7 +1702,13 @@
     "loyalty": null,
     "multiverse_id": 220512,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Volcanic Fallout can be targeted by spells that try to counter it (such as Countersquall). Those spells will still resolve, but the part of their effect that would counter Volcanic Fallout won’t do anything. Any other effects those spells have will work as normal."
+      }
+    ]
   },
   {
     "name": "Chameleon Colossus",
@@ -1372,7 +1736,8 @@
     "loyalty": null,
     "multiverse_id": 220451,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Feral Hydra",
@@ -1400,7 +1765,8 @@
     "loyalty": null,
     "multiverse_id": 220684,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fertilid",
@@ -1427,7 +1793,13 @@
     "loyalty": null,
     "multiverse_id": 220452,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/1/2008",
+        "text": "Although the targeted player doesn’t need to find a basic land card if they don’t want to, that player must shuffle their library."
+      }
+    ]
   },
   {
     "name": "Fierce Empath",
@@ -1453,7 +1825,8 @@
     "loyalty": null,
     "multiverse_id": 220475,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fog",
@@ -1477,7 +1850,8 @@
     "loyalty": null,
     "multiverse_id": 220479,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forgotten Ancient",
@@ -1504,7 +1878,25 @@
     "loyalty": null,
     "multiverse_id": 220583,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "It does not get counters for copies of spells (as with Storm), just for spells that are actually cast."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The moving of counters is not a targeted ability."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "You decide how many counters to move and where to move them when the ability resolves."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Putting on a counter is optional. If you forget to do so, it means you chose not to do so."
+      }
+    ]
   },
   {
     "name": "Gleeful Sabotage",
@@ -1529,7 +1921,8 @@
     "loyalty": null,
     "multiverse_id": 220585,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Harmonize",
@@ -1553,7 +1946,13 @@
     "loyalty": null,
     "multiverse_id": 220584,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2007",
+        "text": "This is the timeshifted version of Concentrate."
+      }
+    ]
   },
   {
     "name": "Hunting Moa",
@@ -1581,7 +1980,13 @@
     "loyalty": null,
     "multiverse_id": 220563,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You get a +1/+1 counter both when it enters the battlefield and when it goes to a graveyard from the battlefield."
+      }
+    ]
   },
   {
     "name": "Kamahl, Fist of Krosa",
@@ -1611,7 +2016,21 @@
     "loyalty": null,
     "multiverse_id": 220490,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The second ability only applies to creatures you control at the time it resolves."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The Legend rule only applies to two legendary permanents with identical names. If the names are different, even if they depict the same character, the rule does not apply."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature."
+      }
+    ]
   },
   {
     "name": "Krosan Tusker",
@@ -1639,7 +2058,21 @@
     "loyalty": null,
     "multiverse_id": 220491,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "The cycling ability and the triggered ability are separate. If the triggered ability doesn’t resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you’ll draw a card."
+      }
+    ]
   },
   {
     "name": "Leaf Gilder",
@@ -1666,7 +2099,8 @@
     "loyalty": null,
     "multiverse_id": 220568,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Molimo, Maro-Sorcerer",
@@ -1695,7 +2129,8 @@
     "loyalty": null,
     "multiverse_id": 220485,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plummet",
@@ -1719,7 +2154,8 @@
     "loyalty": null,
     "multiverse_id": 220514,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Primal Command",
@@ -1747,7 +2183,17 @@
     "loyalty": null,
     "multiverse_id": 220571,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "Primal Command’s modes are performed in the order listed. If you put a noncreature permanent on top of its owner’s library and have that player shuffle their graveyard into their library, that card is shuffled away."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "Primal Command won’t be put into your graveyard until after it’s finished resolving, which means it won’t be shuffled into your library as part of its own effect if you target yourself with its third mode."
+      }
+    ]
   },
   {
     "name": "Rancor",
@@ -1775,7 +2221,13 @@
     "loyalty": null,
     "multiverse_id": 220577,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "If the creature this Aura would enchant is an illegal target by the time Rancor tries to resolve, the Aura spell doesn’t resolve. It won’t enter the battlefield, so it won’t be put into a graveyard from the battlefield and its ability won’t trigger."
+      }
+    ]
   },
   {
     "name": "Sakura-Tribe Elder",
@@ -1802,7 +2254,8 @@
     "loyalty": null,
     "multiverse_id": 220582,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Shinen of Life's Roar",
@@ -1829,7 +2282,8 @@
     "loyalty": null,
     "multiverse_id": 220587,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Spider Umbra",
@@ -1857,7 +2311,77 @@
     "loyalty": null,
     "multiverse_id": 220555,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it and destroy the Aura that has totem armor instead."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Doom Blade). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a creature enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time the totem armor’s effect will replace all of them and save the creature."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a spell or ability (such as Planar Cleansing) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Vendetta does) won’t prevent totem armor’s effect from being applied."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Say you control a permanent enchanted with an Aura that has totem armor, and the enchanted permanent has gained a regeneration shield. The next time it would be destroyed, you choose whether to apply the regeneration effect or the totem armor effect. The other effect is unused and remains, in case the permanent would be destroyed again."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability causes the Aura to be destroyed instead. (This matters for cards such as Karmic Justice.) Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has totem armor instead."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Putrefy). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a permanent enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness) totem armor’s effect will replace all of them and save the creature."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a spell or ability (such as Akroma’s Vengeance) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Putrefy does) won’t prevent totem armor’s effect from being applied."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability is what causes the Aura to be destroyed instead. Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor has no effect if the enchanted permanent is put into a graveyard for any other reason, such as if it’s sacrificed, if the “legend rule” applies to it, or if its toughness is 0 or less."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a permanent enchanted with an Aura that has totem armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Totem armor won’t do anything because it won’t have to."
+      }
+    ]
   },
   {
     "name": "Thelonite Hermit",
@@ -1886,7 +2410,8 @@
     "loyalty": null,
     "multiverse_id": 220558,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Verdeloth the Ancient",
@@ -1916,7 +2441,13 @@
     "loyalty": null,
     "multiverse_id": 220565,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "Verdeloth won’t give himself +1/+1 unless he somehow becomes a Saproling."
+      }
+    ]
   },
   {
     "name": "Wall of Roots",
@@ -1944,7 +2475,13 @@
     "loyalty": null,
     "multiverse_id": 220566,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If you must sacrifice a creature to pay a casting or activation cost that also includes mana, such as that of Bubbling Cauldron’s abilities, you may put a -0/-1 counter on Wall of Roots to make its toughness 0 and then sacrifice it to pay that cost."
+      }
+    ]
   },
   {
     "name": "Wickerbough Elder",
@@ -1972,7 +2509,17 @@
     "loyalty": null,
     "multiverse_id": 220575,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "You must choose a target artifact or enchantment to activate Wickerbough Elder’s last ability. You can’t pay {G} just to remove a -1/-1 counter from it without a legal target."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If an effect puts Wickerbough Elder onto the battlefield with one or more +1/+1 counters, its -1/-1 counter and one of those +1/+1 counters are removed as a state-based action before you can activate its ability."
+      }
+    ]
   },
   {
     "name": "Yavimaya Dryad",
@@ -1999,7 +2546,13 @@
     "loyalty": null,
     "multiverse_id": 220560,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/25/2006",
+        "text": "You may target yourself with Yavimaya Dryad’s ability."
+      }
+    ]
   },
   {
     "name": "Agony Warp",
@@ -2024,7 +2577,13 @@
     "loyalty": null,
     "multiverse_id": 220454,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "The two targets may be the same creature or they may be different creatures."
+      }
+    ]
   },
   {
     "name": "Architects of Will",
@@ -2053,7 +2612,13 @@
     "loyalty": null,
     "multiverse_id": 220517,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      }
+    ]
   },
   {
     "name": "Armadillo Cloak",
@@ -2081,7 +2646,17 @@
     "loyalty": null,
     "multiverse_id": 220498,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "While Armadillo Cloak’s last ability is similar to lifelink, it isn’t lifelink—it’s a normal triggered ability. If a creature you control with lifelink wears an Armadillo Cloak and deals damage, first you’ll gain that much life for lifelink, and then Armadillo Cloak’s triggered ability is put onto the stack. This also means that multiple instances of Armadillo Cloak’s triggered ability do trigger separately."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "If Armadillo Cloak enchants a creature you don’t control, you’ll gain life when it deals damage, as long as that damage hasn’t already caused you to lose the game."
+      }
+    ]
   },
   {
     "name": "Avatar of Discord",
@@ -2109,7 +2684,8 @@
     "loyalty": null,
     "multiverse_id": 220539,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Batwing Brume",
@@ -2133,7 +2709,21 @@
     "loyalty": null,
     "multiverse_id": 220573,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid part of its cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The spell checks on resolution to see if any mana of the stated colors was spent to pay its cost. If so, it doesn’t matter how much mana of that color was spent."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the spell is copied, the copy will never have had mana of the stated color paid for it, no matter what colors were spent on the original spell."
+      }
+    ]
   },
   {
     "name": "Bituminous Blast",
@@ -2158,7 +2748,37 @@
     "loyalty": null,
     "multiverse_id": 220518,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Branching Bolt",
@@ -2184,7 +2804,13 @@
     "loyalty": null,
     "multiverse_id": 220455,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "You may choose just the first mode (targeting a creature with flying), just the second mode (targeting a creature without flying), or both modes (targeting a creature with flying and a creature without flying). You can’t choose a mode unless there’s a legal target for it."
+      }
+    ]
   },
   {
     "name": "Colossal Might",
@@ -2208,7 +2834,8 @@
     "loyalty": null,
     "multiverse_id": 220519,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ethersworn Shieldmage",
@@ -2237,7 +2864,13 @@
     "loyalty": null,
     "multiverse_id": 220520,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "When Ethersworn Shieldmage’s triggered ability resolves, it doesn’t lock in which permanents will be affected. For the rest of the turn, any time damage would be dealt to a permanent, check whether it’s an artifact creature at that time. If it is, that damage is prevented."
+      }
+    ]
   },
   {
     "name": "Fieldmist Borderpost",
@@ -2263,7 +2896,25 @@
     "loyalty": null,
     "multiverse_id": 220521,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Casting this card by paying its alternative cost doesn’t change when you can cast it. You can cast it only at the normal time you could cast an artifact spell. It also doesn’t change the spell’s mana cost or converted mana cost. The only difference is the cost you actually pay."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Effects that increase or reduce the cost to cast this card will apply to whichever cost you chose to pay."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "To satisfy the alternative cost, you may return any basic land you control to its owner’s hand, regardless of that land’s subtype or whether it’s tapped."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "As you cast a spell, you get a chance to activate mana abilities before you pay that spell’s costs. Therefore, you may tap a basic land for mana, then both spend that mana and return that land to your hand to pay this card’s alternative cost. (Of course, you can return a different basic land instead.)"
+      }
+    ]
   },
   {
     "name": "Fires of Yavimaya",
@@ -2288,7 +2939,8 @@
     "loyalty": null,
     "multiverse_id": 220500,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Heroes' Reunion",
@@ -2312,7 +2964,8 @@
     "loyalty": null,
     "multiverse_id": 220501,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Kaervek the Merciless",
@@ -2341,7 +2994,8 @@
     "loyalty": null,
     "multiverse_id": 220557,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Magister Sphinx",
@@ -2369,7 +3023,21 @@
     "loyalty": null,
     "multiverse_id": 220509,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "This ability is not optional."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "For a player’s life total to become 10, what actually happens is that the player gains or loses the appropriate amount of life. For example, if the targeted player’s life total is 4 when this ability resolves, it will cause that player to gain 6 life; alternately, if the targeted player’s life total is 17 when this ability resolves, it will cause that player to lose 7 life. Other cards that interact with life gain or life loss will interact with this effect accordingly."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "In a Two-Headed Giant game, this ability basically causes the team’s life total to become 10, but only the targeted player is considered to have actually gained or lost life."
+      }
+    ]
   },
   {
     "name": "Mistvein Borderpost",
@@ -2395,7 +3063,25 @@
     "loyalty": null,
     "multiverse_id": 220522,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Casting this card by paying its alternative cost doesn’t change when you can cast it. You can cast it only at the normal time you could cast an artifact spell. It also doesn’t change the spell’s mana cost or converted mana cost. The only difference is the cost you actually pay."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Effects that increase or reduce the cost to cast this card will apply to whichever cost you chose to pay."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "To satisfy the alternative cost, you may return any basic land you control to its owner’s hand, regardless of that land’s subtype or whether it’s tapped."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "As you cast a spell, you get a chance to activate mana abilities before you pay that spell’s costs. Therefore, you may tap a basic land for mana, then both spend that mana and return that land to your hand to pay this card’s alternative cost. (Of course, you can return a different basic land instead.)"
+      }
+    ]
   },
   {
     "name": "Pale Recluse",
@@ -2422,7 +3108,29 @@
     "loyalty": null,
     "multiverse_id": 220523,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Unlike the normal cycling ability, landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a land card of the specified land type, reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being landcycled. Any ability that stops a cycling ability from being activated also stops a landcycling ability from being activated."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You can choose to find any card with the appropriate land type, including nonbasic lands. You can also choose not to find a card, even if there is a land card with the appropriate type in your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "A landcycling ability lets you search for any card in your library with the stated land type. It doesn’t have to be a basic land."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You may only activate one landcycling ability at a time. You must specify which landcycling ability you are activating as you cycle this card, not as the ability resolves."
+      }
+    ]
   },
   {
     "name": "Rakdos Guildmage",
@@ -2451,7 +3159,13 @@
     "loyalty": null,
     "multiverse_id": 220542,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2006",
+        "text": "If the second ability is activated during the End step, the token won’t be exiled until the following turn’s End step."
+      }
+    ]
   },
   {
     "name": "Savage Twister",
@@ -2475,7 +3189,8 @@
     "loyalty": null,
     "multiverse_id": 220505,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Selesnya Guildmage",
@@ -2503,7 +3218,8 @@
     "loyalty": null,
     "multiverse_id": 220549,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Terminate",
@@ -2527,7 +3243,8 @@
     "loyalty": null,
     "multiverse_id": 220524,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Torrent of Souls",
@@ -2551,7 +3268,21 @@
     "loyalty": null,
     "multiverse_id": 220547,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "This spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid mana symbol in its cost."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "This spell checks on resolution to see if any mana of the appropriate colors were spent to pay its cost. It doesn’t matter how much mana of that color was spent; the effect isn’t multiplied."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "If this spell is copied, the copy will not have had any colors of mana paid for it, no matter what colors were spent on the original spell."
+      }
+    ]
   },
   {
     "name": "Unbender Tine",
@@ -2575,7 +3306,8 @@
     "loyalty": null,
     "multiverse_id": 220552,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Unmake",
@@ -2599,7 +3331,8 @@
     "loyalty": null,
     "multiverse_id": 220574,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vampiric Dragon",
@@ -2628,7 +3361,8 @@
     "loyalty": null,
     "multiverse_id": 220578,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Watchwolf",
@@ -2652,7 +3386,8 @@
     "loyalty": null,
     "multiverse_id": 220551,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wax (Wax/Wane)",
@@ -2676,7 +3411,8 @@
     "loyalty": null,
     "multiverse_id": 220502,
     "other_part": "Wane (Wax/Wane)",
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wane (Wax/Wane)",
@@ -2700,7 +3436,8 @@
     "loyalty": null,
     "multiverse_id": 220502,
     "other_part": "Wax (Wax/Wane)",
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Aether Spellbomb",
@@ -2725,7 +3462,8 @@
     "loyalty": null,
     "multiverse_id": 220525,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Azorius Signet",
@@ -2749,7 +3487,8 @@
     "loyalty": null,
     "multiverse_id": 220540,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dimir Signet",
@@ -2773,7 +3512,8 @@
     "loyalty": null,
     "multiverse_id": 220548,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dreamstone Hedron",
@@ -2798,7 +3538,8 @@
     "loyalty": null,
     "multiverse_id": 220554,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Duplicant",
@@ -2826,7 +3567,29 @@
     "loyalty": null,
     "multiverse_id": 220526,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "If no creature card is imprinted on Duplicant, it has its normal power, toughness, and creature type."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "Duplicant’s base power and toughness change to the imprinted card’s power and toughness. Counters and other effects that modify Duplicant’s power and toughness still apply."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "Abilities that define a creature’s power and toughness apply while that card is in exile, but abilities that add or subtract from it don’t. For example, the ability of Battle Squadron applies to determine Duplicant’s power and toughness, but the ability of Werebear doesn’t. Duplicant’s power and toughness are constantly updated if the exiled card’s power and/or toughness change."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "Duplicant keeps all creature types it had when the card was imprinted, including any types that Duplicant had gained."
+      },
+      {
+        "date": "7/13/2016",
+        "text": "If a melded permanent is exiled by Duplicant’s triggered ability, that ability’s controller chooses the relative timestamp of the two meld cards. Duplicant looks at the information of the one with the later timestamp."
+      }
+    ]
   },
   {
     "name": "Everflowing Chalice",
@@ -2852,7 +3615,13 @@
     "loyalty": null,
     "multiverse_id": 220534,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/1/2010",
+        "text": "If Everflowing Chalice has no charge counters on it, you can still activate its last ability. That ability is still a mana ability, even though it produces no mana as it resolves."
+      }
+    ]
   },
   {
     "name": "Gruul Signet",
@@ -2876,7 +3645,8 @@
     "loyalty": null,
     "multiverse_id": 220504,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Juggernaut",
@@ -2904,7 +3674,13 @@
     "loyalty": null,
     "multiverse_id": 220484,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/27/2018",
+        "text": "If Juggernaut can’t attack for any reason (such as being tapped or having come under that player’s control that turn), then it doesn’t attack. If there’s a cost associated with having it attack, its controller isn’t forced to pay that cost, so it doesn’t have to attack in that case either."
+      }
+    ]
   },
   {
     "name": "Lightning Greaves",
@@ -2931,7 +3707,13 @@
     "loyalty": null,
     "multiverse_id": 220528,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "You are not allowed to “unequip” equipment from a creature. If Lightning Greaves is attached to the only creature you control, you won’t be able to attach other equipment to it (or target it with anything else) until you have another creature onto which you can move Lightning Greaves."
+      }
+    ]
   },
   {
     "name": "Lodestone Golem",
@@ -2958,7 +3740,21 @@
     "loyalty": null,
     "multiverse_id": 220536,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/1/2010",
+        "text": "The ability affects each spell that’s not an artifact spell, including your own."
+      },
+      {
+        "date": "3/1/2010",
+        "text": "The ability affects the total cost of each nonartifact spell, but it doesn’t change that spell’s mana cost or converted mana cost. The extra mana also doesn’t change how many times you kicked the spell or what the value of X is (if applicable)."
+      },
+      {
+        "date": "3/1/2010",
+        "text": "When determining a spell’s total cost, effects that increase the cost are applied before effects that reduce the cost."
+      }
+    ]
   },
   {
     "name": "Memnarch",
@@ -2988,7 +3784,17 @@
     "loyalty": null,
     "multiverse_id": 220532,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "The effects of Memnarch’s abilities don’t end at end of turn, and they don’t end when Memnarch leaves the battlefield. Both effects last until the affected permanent leaves the battlefield."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "You can use the first ability on a nonartifact permanent, wait for the ability to resolve, and then use the second ability on that permanent."
+      }
+    ]
   },
   {
     "name": "Obelisk of Esper",
@@ -3012,7 +3818,8 @@
     "loyalty": null,
     "multiverse_id": 220461,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rakdos Signet",
@@ -3036,7 +3843,8 @@
     "loyalty": null,
     "multiverse_id": 220543,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Skullcage",
@@ -3060,7 +3868,17 @@
     "loyalty": null,
     "multiverse_id": 220537,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "Skullcage’s ability deals damage if the player has zero, one, two, five, or more than five cards in hand when its ability resolves."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "Skullcage doesn’t check hand size when it triggers, only when it resolves."
+      }
+    ]
   },
   {
     "name": "Sorcerer's Strongbox",
@@ -3084,7 +3902,17 @@
     "loyalty": null,
     "multiverse_id": 222702,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/15/2010",
+        "text": "If you lose the flip, nothing happens."
+      },
+      {
+        "date": "8/15/2010",
+        "text": "If you no longer control Sorcerer’s Strongbox by the time you win the flip, you won’t be able to sacrifice it. You’ll still draw three cards, though."
+      }
+    ]
   },
   {
     "name": "Sun Droplet",
@@ -3109,7 +3937,13 @@
     "loyalty": null,
     "multiverse_id": 220530,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2006",
+        "text": "In Two-Headed Giant, triggers only once per upkeep, not once for each player."
+      }
+    ]
   },
   {
     "name": "Sundering Titan",
@@ -3136,7 +3970,25 @@
     "loyalty": null,
     "multiverse_id": 220533,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "Sundering Titan’s ability isn’t targeted. When it resolves, Sundering Titan’s controller must choose one land for each basic land type (Plains, Island, Swamp, Mountain, and Forest), and then they are destroyed simultaneously."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "Players can’t take actions in between the time you choose the lands and the time you destroy them. Notably, they can’t activate mana abilities of those lands."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "If one of the basic land types isn’t present, it isn’t chosen. If the only land of a certain type is one you control, you must choose it."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "If a land has more than one basic land type, it can be chosen more than once."
+      }
+    ]
   },
   {
     "name": "Synod Centurion",
@@ -3163,7 +4015,8 @@
     "loyalty": null,
     "multiverse_id": 220538,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Synod Sanctum",
@@ -3188,7 +4041,8 @@
     "loyalty": null,
     "multiverse_id": 220531,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Thran Dynamo",
@@ -3212,7 +4066,8 @@
     "loyalty": null,
     "multiverse_id": 220506,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Thunderstaff",
@@ -3237,7 +4092,13 @@
     "loyalty": null,
     "multiverse_id": 220581,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "If Thunderstaff is untapped, it prevents 1 damage from each creature, each time it would deal combat damage to you. So if three creatures with double strike attack you and aren’t blocked, Thunderstaff will prevent a total of 6 damage."
+      }
+    ]
   },
   {
     "name": "Artisan of Kozilek",
@@ -3264,7 +4125,17 @@
     "loyalty": null,
     "multiverse_id": 220553,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won’t be able to block."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn’t blocked, it simply won’t deal combat damage to anything."
+      }
+    ]
   },
   {
     "name": "Barren Moor",
@@ -3290,7 +4161,13 @@
     "loyalty": null,
     "multiverse_id": 220487,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      }
+    ]
   },
   {
     "name": "Graypelt Refuge",
@@ -3316,7 +4193,8 @@
     "loyalty": null,
     "multiverse_id": 220467,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Kazandu Refuge",
@@ -3342,7 +4220,8 @@
     "loyalty": null,
     "multiverse_id": 220470,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Khalni Garden",
@@ -3368,7 +4247,8 @@
     "loyalty": null,
     "multiverse_id": 220535,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Krosan Verge",
@@ -3394,7 +4274,8 @@
     "loyalty": null,
     "multiverse_id": 220544,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Llanowar Reborn",
@@ -3420,7 +4301,13 @@
     "loyalty": null,
     "multiverse_id": 220496,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "The +1/+1 counter won’t affect Llanowar Reborn in any way unless another effect turns it into a creature."
+      }
+    ]
   },
   {
     "name": "Mosswort Bridge",
@@ -3446,7 +4333,8 @@
     "loyalty": null,
     "multiverse_id": 220570,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Nantuko Monastery",
@@ -3471,7 +4359,17 @@
     "loyalty": null,
     "multiverse_id": 220545,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Activating the ability that turns it into a creature while it’s already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply."
+      }
+    ]
   },
   {
     "name": "Rakdos Carnarium",
@@ -3497,7 +4395,13 @@
     "loyalty": null,
     "multiverse_id": 220541,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Secluded Steppe",
@@ -3523,7 +4427,13 @@
     "loyalty": null,
     "multiverse_id": 220492,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      }
+    ]
   },
   {
     "name": "Terramorphic Expanse",
@@ -3547,7 +4457,8 @@
     "loyalty": null,
     "multiverse_id": 220481,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tranquil Thicket",
@@ -3573,7 +4484,13 @@
     "loyalty": null,
     "multiverse_id": 220494,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      }
+    ]
   },
   {
     "name": "Vitu-Ghazi, the City-Tree",
@@ -3598,7 +4515,8 @@
     "loyalty": null,
     "multiverse_id": 220550,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -3626,7 +4544,8 @@
     "loyalty": null,
     "multiverse_id": 221309,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -3654,7 +4573,8 @@
     "loyalty": null,
     "multiverse_id": 221310,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -3682,7 +4602,8 @@
     "loyalty": null,
     "multiverse_id": 221301,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -3710,7 +4631,8 @@
     "loyalty": null,
     "multiverse_id": 221300,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -3738,7 +4660,8 @@
     "loyalty": null,
     "multiverse_id": 221302,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -3766,7 +4689,8 @@
     "loyalty": null,
     "multiverse_id": 221312,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -3794,7 +4718,8 @@
     "loyalty": null,
     "multiverse_id": 221311,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -3822,7 +4747,8 @@
     "loyalty": null,
     "multiverse_id": 221313,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -3850,7 +4776,8 @@
     "loyalty": null,
     "multiverse_id": 221305,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -3878,7 +4805,8 @@
     "loyalty": null,
     "multiverse_id": 221304,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -3906,7 +4834,8 @@
     "loyalty": null,
     "multiverse_id": 221303,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -3934,7 +4863,8 @@
     "loyalty": null,
     "multiverse_id": 221295,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -3962,7 +4892,8 @@
     "loyalty": null,
     "multiverse_id": 221297,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -3990,6 +4921,7 @@
     "loyalty": null,
     "multiverse_id": 221296,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]

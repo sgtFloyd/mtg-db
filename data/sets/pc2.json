@@ -23,7 +23,8 @@
     "loyalty": null,
     "multiverse_id": 271234,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Auramancer",
@@ -50,7 +51,8 @@
     "loyalty": null,
     "multiverse_id": 271171,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Auratouched Mage",
@@ -77,7 +79,13 @@
     "loyalty": null,
     "multiverse_id": 271207,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "Any Aura card you find must be able to enchant Auratouched Mage as it currently exists, or as it most recently existed on the battlefield if it’s no longer on the battlefield. If an effect has made the Mage an artifact, for example, you could search for an Aura with “enchant artifact.”"
+      }
+    ]
   },
   {
     "name": "Cage of Hands",
@@ -105,7 +113,8 @@
     "loyalty": null,
     "multiverse_id": 271205,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Celestial Ancient",
@@ -132,7 +141,8 @@
     "loyalty": null,
     "multiverse_id": 271236,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Felidar Umbra",
@@ -161,7 +171,17 @@
     "loyalty": null,
     "multiverse_id": 270736,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2012",
+        "text": "If Felidar Umbra is enchanting a creature with first strike, you can activate its ability and attach it to a creature without first strike during the first combat damage step. Each of those creatures will have lifelink when dealing combat damage and you’ll gain life accordingly."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "It’s not possible for Felidar Umbra to save two creatures that are being destroyed simultaneously."
+      }
+    ]
   },
   {
     "name": "Ghostly Prison",
@@ -185,7 +205,17 @@
     "loyalty": null,
     "multiverse_id": 275264,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2007",
+        "text": "In the Two-Headed Giant format, you still only have to pay once per creature."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Unless some effect explicitly says otherwise, a creature that can’t attack you can still attack a planeswalker you control."
+      }
+    ]
   },
   {
     "name": "Hyena Umbra",
@@ -213,7 +243,77 @@
     "loyalty": null,
     "multiverse_id": 271150,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it and destroy the Aura that has totem armor instead."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Doom Blade). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a creature enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time the totem armor’s effect will replace all of them and save the creature."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a spell or ability (such as Planar Cleansing) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Vendetta does) won’t prevent totem armor’s effect from being applied."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Say you control a permanent enchanted with an Aura that has totem armor, and the enchanted permanent has gained a regeneration shield. The next time it would be destroyed, you choose whether to apply the regeneration effect or the totem armor effect. The other effect is unused and remains, in case the permanent would be destroyed again."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability causes the Aura to be destroyed instead. (This matters for cards such as Karmic Justice.) Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has totem armor instead."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Putrefy). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a permanent enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness) totem armor’s effect will replace all of them and save the creature."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a spell or ability (such as Akroma’s Vengeance) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Putrefy does) won’t prevent totem armor’s effect from being applied."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability is what causes the Aura to be destroyed instead. Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor has no effect if the enchanted permanent is put into a graveyard for any other reason, such as if it’s sacrificed, if the “legend rule” applies to it, or if its toughness is 0 or less."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a permanent enchanted with an Aura that has totem armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Totem armor won’t do anything because it won’t have to."
+      }
+    ]
   },
   {
     "name": "Kor Spiritdancer",
@@ -241,7 +341,17 @@
     "loyalty": null,
     "multiverse_id": 271151,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "If you cast an Aura spell, Kor Spiritdancer’s second ability triggers and goes on the stack on top of it. The ability will resolve before the spell does."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "The second ability triggers when you cast any Aura spell, not just one that targets Kor Spiritdancer."
+      }
+    ]
   },
   {
     "name": "Mammoth Umbra",
@@ -269,7 +379,77 @@
     "loyalty": null,
     "multiverse_id": 271152,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it and destroy the Aura that has totem armor instead."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Doom Blade). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a creature enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time the totem armor’s effect will replace all of them and save the creature."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a spell or ability (such as Planar Cleansing) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Vendetta does) won’t prevent totem armor’s effect from being applied."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Say you control a permanent enchanted with an Aura that has totem armor, and the enchanted permanent has gained a regeneration shield. The next time it would be destroyed, you choose whether to apply the regeneration effect or the totem armor effect. The other effect is unused and remains, in case the permanent would be destroyed again."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability causes the Aura to be destroyed instead. (This matters for cards such as Karmic Justice.) Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has totem armor instead."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Putrefy). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a permanent enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness) totem armor’s effect will replace all of them and save the creature."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a spell or ability (such as Akroma’s Vengeance) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Putrefy does) won’t prevent totem armor’s effect from being applied."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability is what causes the Aura to be destroyed instead. Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor has no effect if the enchanted permanent is put into a graveyard for any other reason, such as if it’s sacrificed, if the “legend rule” applies to it, or if its toughness is 0 or less."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a permanent enchanted with an Aura that has totem armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Totem armor won’t do anything because it won’t have to."
+      }
+    ]
   },
   {
     "name": "Sigil of the Empty Throne",
@@ -293,7 +473,21 @@
     "loyalty": null,
     "multiverse_id": 275258,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "The triggered ability will resolve before the enchantment spell that caused it to trigger."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "When you cast an Aura spell, you have to choose a target for it before this ability puts an Angel token onto the battlefield. In other words, you can’t play an Aura spell intending to enchant the Angel that will be created as a result."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Casting Sigil of the Empty Throne won’t trigger its own ability. It has to be on the battlefield for its ability to work."
+      }
+    ]
   },
   {
     "name": "Spirit Mantle",
@@ -320,7 +514,8 @@
     "loyalty": null,
     "multiverse_id": 275265,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Three Dreams",
@@ -344,7 +539,8 @@
     "loyalty": null,
     "multiverse_id": 275260,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Augury Owl",
@@ -371,7 +567,8 @@
     "loyalty": null,
     "multiverse_id": 271192,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cancel",
@@ -395,7 +592,8 @@
     "loyalty": null,
     "multiverse_id": 271172,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Concentrate",
@@ -419,7 +617,8 @@
     "loyalty": null,
     "multiverse_id": 271220,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Guard Gomazoa",
@@ -446,7 +645,8 @@
     "loyalty": null,
     "multiverse_id": 279846,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Higure, the Still Wind",
@@ -477,7 +677,17 @@
     "loyalty": null,
     "multiverse_id": 271181,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2005",
+        "text": "If Higure deals regular combat damage and you use its ability to search for another Ninja, that card won’t be in your hand in time to activate its ninjutsu ability to put it onto the battlefield and deal damage. However, the card you searched for could still be swapped for an unblocked creature, including Higure, as long as you activate its ninjutsu ability before the end of combat."
+      },
+      {
+        "date": "2/1/2005",
+        "text": "If Higure deals first strike damage (or the first part of double strike damage), the triggered ability would resolve before regular combat damage, and the searched-for Ninja would be able to get swapped with an unblocked creature and still deal its regular damage."
+      }
+    ]
   },
   {
     "name": "Illusory Angel",
@@ -505,7 +715,17 @@
     "loyalty": null,
     "multiverse_id": 265143,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/18/2014",
+        "text": "It doesn’t matter whether the other spell resolved. It could have been countered or, if you’ve somehow cast Illusory Angel as though it had flash, it could still be on the stack."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "It doesn’t matter whether the other spell resolved. It could have been countered or, if you’ve somehow cast Illusory Angel as though it had flash, it could still be on the stack."
+      }
+    ]
   },
   {
     "name": "Mistblade Shinobi",
@@ -533,7 +753,8 @@
     "loyalty": null,
     "multiverse_id": 271183,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ninja of the Deep Hours",
@@ -561,7 +782,8 @@
     "loyalty": null,
     "multiverse_id": 271184,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Peregrine Drake",
@@ -588,7 +810,13 @@
     "loyalty": null,
     "multiverse_id": 271190,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "You choose which lands to untap as the triggered ability resolves. They aren’t targeted, and they don’t have to be lands that you control."
+      }
+    ]
   },
   {
     "name": "Primal Plasma",
@@ -615,7 +843,29 @@
     "loyalty": null,
     "multiverse_id": 271175,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2007",
+        "text": "If a creature that’s already on the battlefield becomes a copy of Primal Plasma, it copies the power, toughness, and abilities that were chosen for Primal Plasma when it entered the battlefield."
+      },
+      {
+        "date": "2/1/2007",
+        "text": "This is the timeshifted version of Primal Clay."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "In zones other than the battlefield, this creature card is 0/0."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "If another permanent enters the battlefield as a copy of this creature, the controller of that permanent will get to make a new choice. The copy won’t necessarily have the same power, toughness, and abilities as the original."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "If a creature that’s already on the battlefield becomes a copy of this creature, it copies the power, toughness, and abilities that were chosen for this creature as it entered the battlefield."
+      }
+    ]
   },
   {
     "name": "Sakashima's Student",
@@ -643,7 +893,41 @@
     "loyalty": null,
     "multiverse_id": 265159,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2012",
+        "text": "Because you return the unblocked attacking creature to its owner’s hand while activating the ninjutsu ability, you can’t have Sakashima’s Student enter the battlefield as a copy of that creature."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "Sakashima’s Student copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below) and it is a Ninja in addition to its other types. It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "If the chosen creature has {X} in its mana cost, X is zero."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "If the chosen creature is copying something else (for example, if the chosen creature is another Sakashima’s Student), then your Sakashima’s Student enters the battlefield as whatever the chosen creature copied."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "If the chosen creature is a token, Sakashima’s Student copies the original characteristics of that token as stated by the effect that put the token onto the battlefield. Sakashima’s Student is not a token."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "Any enters-the-battlefield abilities of the copied creature will trigger when Sakashima’s Student enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the chosen creature (like devour) will also work."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "If Sakashima’s Student somehow enters the battlefield at the same time as another creature, Sakashima’s Student can’t become a copy of that creature. You may choose only a creature that’s already on the battlefield."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "You can choose not to copy anything. In that case, Sakashima’s Student enters the battlefield as a 0/0 creature, and is probably put into the graveyard immediately."
+      }
+    ]
   },
   {
     "name": "See Beyond",
@@ -667,7 +951,17 @@
     "loyalty": null,
     "multiverse_id": 271154,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "The card you shuffle into your library may be any card from your hand. It doesn’t have to be one of the cards you drew with the spell."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "You have to shuffle a card from your hand into your library even if you don’t draw any cards (due to replacement effects or Maralen of the Mornsong’s ability, for example). If your hand is empty, you don’t shuffle your library."
+      }
+    ]
   },
   {
     "name": "Sunken Hope",
@@ -691,7 +985,8 @@
     "loyalty": null,
     "multiverse_id": 271202,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Walker of Secret Ways",
@@ -720,7 +1015,8 @@
     "loyalty": null,
     "multiverse_id": 271188,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wall of Frost",
@@ -747,7 +1043,17 @@
     "loyalty": null,
     "multiverse_id": 271197,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/18/2014",
+        "text": "Wall of Frost’s ability tracks the creature, not the creature’s controller. That is, if the creature changes controllers before its first controller’s next untap step, then it won’t untap during its new controller’s next untap step."
+      },
+      {
+        "date": "7/18/2014",
+        "text": "If the creature isn’t tapped during its controller’s next untap step (perhaps because it was untapped by a spell), Wall of Frost’s ability has no effect at that time. It won’t try to keep the creature tapped on subsequent turns."
+      }
+    ]
   },
   {
     "name": "Whirlpool Warrior",
@@ -775,7 +1081,8 @@
     "loyalty": null,
     "multiverse_id": 271165,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Assassinate",
@@ -799,7 +1106,8 @@
     "loyalty": null,
     "multiverse_id": 271218,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cadaver Imp",
@@ -826,7 +1134,8 @@
     "loyalty": null,
     "multiverse_id": 271157,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dark Hatchling",
@@ -853,7 +1162,8 @@
     "loyalty": null,
     "multiverse_id": 271217,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ink-Eyes, Servant of Oni",
@@ -884,7 +1194,13 @@
     "loyalty": null,
     "multiverse_id": 271182,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2005",
+        "text": "If, during the combat damage step, a creature is destroyed during combat and Ink-Eyes also deals combat damage to a player, the destroyed creature can be a legal target for Ink-Eyes’s ability."
+      }
+    ]
   },
   {
     "name": "Liliana's Specter",
@@ -911,7 +1227,8 @@
     "loyalty": null,
     "multiverse_id": 271194,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Okiba-Gang Shinobi",
@@ -939,7 +1256,13 @@
     "loyalty": null,
     "multiverse_id": 271185,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2005",
+        "text": "If the defending player has two or fewer cards in hand when Okiba-Gang Shinobi deals combat damage to that player, they are all discarded."
+      }
+    ]
   },
   {
     "name": "Skullsnatcher",
@@ -967,7 +1290,13 @@
     "loyalty": null,
     "multiverse_id": 271186,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2005",
+        "text": "Skullsnatcher’s ability can target zero, one, or two cards in that player’s graveyard."
+      }
+    ]
   },
   {
     "name": "Throat Slitter",
@@ -995,7 +1324,8 @@
     "loyalty": null,
     "multiverse_id": 271187,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tormented Soul",
@@ -1021,7 +1351,8 @@
     "loyalty": null,
     "multiverse_id": 271174,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Arc Trail",
@@ -1045,7 +1376,8 @@
     "loyalty": null,
     "multiverse_id": 275254,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Beetleback Chief",
@@ -1072,7 +1404,8 @@
     "loyalty": null,
     "multiverse_id": 265145,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Erratic Explosion",
@@ -1096,7 +1429,13 @@
     "loyalty": null,
     "multiverse_id": 271191,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If all your cards are lands, no damage is dealt."
+      }
+    ]
   },
   {
     "name": "Fiery Conclusion",
@@ -1121,7 +1460,17 @@
     "loyalty": null,
     "multiverse_id": 275259,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell."
+      }
+    ]
   },
   {
     "name": "Fiery Fall",
@@ -1146,7 +1495,25 @@
     "loyalty": null,
     "multiverse_id": 271138,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Unlike the normal cycling ability, basic landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a basic land card. You don’t choose the type of basic land card you’ll find until you’re performing the search. After you choose a basic land card in your library, you reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being basic landcycled. Any ability that stops a cycling ability from being activated also stops a basic landcycling ability from being activated."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with basic landcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You can choose not to find a basic land card, even if there is one in your library."
+      }
+    ]
   },
   {
     "name": "Fling",
@@ -1171,7 +1538,25 @@
     "loyalty": null,
     "multiverse_id": 271225,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/15/2010",
+        "text": "The sacrificed creature’s last known existence on the battlefield is checked to determine its power."
+      },
+      {
+        "date": "8/15/2010",
+        "text": "If you sacrifice an attacking or blocking creature during the declare blockers step, it won’t deal combat damage. If you wait until the combat damage step, but that creature is dealt lethal damage, it’ll be destroyed before you get a chance to sacrifice it."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell."
+      }
+    ]
   },
   {
     "name": "Hellion Eruption",
@@ -1195,7 +1580,8 @@
     "loyalty": null,
     "multiverse_id": 271158,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Hissing Iguanar",
@@ -1221,7 +1607,13 @@
     "loyalty": null,
     "multiverse_id": 271160,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "If Hissing Iguanar dies at the same time as another creature, Hissing Iguanar’s ability triggers."
+      }
+    ]
   },
   {
     "name": "Mark of Mutiny",
@@ -1245,7 +1637,17 @@
     "loyalty": null,
     "multiverse_id": 271135,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Mark of Mutiny can target any creature, even one that you already control or that is already untapped."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "The +1/+1 counter remains on the creature after the control-changing effect ends."
+      }
+    ]
   },
   {
     "name": "Mass Mutiny",
@@ -1269,7 +1671,25 @@
     "loyalty": null,
     "multiverse_id": 270743,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2012",
+        "text": "The phrase “up to one” was inadvertently omitted from Mass Mutiny’s rules text. The card has received errata to correct this."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "You can cast Mass Mutiny even if an opponent doesn’t control any creatures. You simply won’t choose a target for that opponent."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "Mass Mutiny can target untapped creatures."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it. However, if you gain control of a creature enchanted by an Aura with totem armor and that creature would be destroyed that turn, instead the Aura will be destroyed and the creature will survive."
+      }
+    ]
   },
   {
     "name": "Mudbutton Torchrunner",
@@ -1296,7 +1716,8 @@
     "loyalty": null,
     "multiverse_id": 271222,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Preyseizer Dragon",
@@ -1324,7 +1745,13 @@
     "loyalty": null,
     "multiverse_id": 265150,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2012",
+        "text": "Preyseizer Dragon’s ability counts the number of +1/+1 counters on it when the ability resolves. It counts any +1/+1 counters, not just ones put on it due to devour."
+      }
+    ]
   },
   {
     "name": "Rivals' Duel",
@@ -1348,7 +1775,21 @@
     "loyalty": null,
     "multiverse_id": 271200,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/1/2008",
+        "text": "The two creatures may be controlled by the same player."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "If either one of the creatures leaves the battlefield before Rivals’ Duel resolves, no damage is dealt to or by the remaining creature. If both creatures leave the battlefield before Rivals’ Duel resolves, the spell doesn’t resolve for having no legal targets."
+      },
+      {
+        "date": "4/1/2008",
+        "text": "If, by the time Rivals’ Duel resolves, an effect has caused the two target creatures to share a creature type, Rivals’ Duel doesn’t resolve for having no legal targets."
+      }
+    ]
   },
   {
     "name": "Thorn-Thrash Viashino",
@@ -1376,7 +1817,25 @@
     "loyalty": null,
     "multiverse_id": 271162,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "You may choose not to sacrifice any creatures for the Devour ability."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If you cast this as a spell, you choose how many and which creatures to devour as part of the resolution of that spell. (It can’t be countered at this point.) The same is true of a spell or ability that lets you put a creature with devour onto the battlefield."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "You may sacrifice only creatures that are already on the battlefield. If a creature with devour and another creature are entering the battlefield under your control at the same time, the creature with devour can’t devour that other creature. The creature with devour also can’t devour itself."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If multiple creatures with devour are entering the battlefield under your control at the same time, you may use each one’s devour ability. A creature you already control can be devoured by only one of them, however. (In other words, you can’t sacrifice the same creature to satisfy multiple devour abilities.) All creatures devoured this way are sacrificed at the same time."
+      }
+    ]
   },
   {
     "name": "Thunder-Thrash Elder",
@@ -1403,7 +1862,25 @@
     "loyalty": null,
     "multiverse_id": 271163,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "You may choose not to sacrifice any creatures for the Devour ability."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If you cast this as a spell, you choose how many and which creatures to devour as part of the resolution of that spell. (It can’t be countered at this point.) The same is true of a spell or ability that lets you put a creature with devour onto the battlefield."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "You may sacrifice only creatures that are already on the battlefield. If a creature with devour and another creature are entering the battlefield under your control at the same time, the creature with devour can’t devour that other creature. The creature with devour also can’t devour itself."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If multiple creatures with devour are entering the battlefield under your control at the same time, you may use each one’s devour ability. A creature you already control can be devoured by only one of them, however. (In other words, you can’t sacrifice the same creature to satisfy multiple devour abilities.) All creatures devoured this way are sacrificed at the same time."
+      }
+    ]
   },
   {
     "name": "Warstorm Surge",
@@ -1427,7 +1904,17 @@
     "loyalty": null,
     "multiverse_id": 271226,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/22/2011",
+        "text": "The creature that entered the battlefield deals damage equal to its current power to the targeted permanent or player. If it’s no longer on the battlefield, its last known existence on the battlefield is checked to determine its power."
+      },
+      {
+        "date": "9/22/2011",
+        "text": "Warstorm Surge is the source of the ability, but the creature is the source of the damage. The ability couldn’t target a creature with protection from red, for example. It could target a creature with protection from creatures, but all the damage would be prevented. Since damage is dealt by the creature, abilities like lifelink, deathtouch and infect are taken into account, even if the creature has left the battlefield by the time it deals damage."
+      }
+    ]
   },
   {
     "name": "Aura Gnarlid",
@@ -1454,7 +1941,17 @@
     "loyalty": null,
     "multiverse_id": 271147,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "The power of each potential blocking creature is checked against Aura Gnarlid’s power only as blockers are declared. Once a creature blocks Aura Gnarlid, increasing the Gnarlid’s power or decreasing the blocking creature’s power won’t undo that block."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Aura Gnarlid’s second ability counts each Aura regardless of who controls it."
+      }
+    ]
   },
   {
     "name": "Awakening Zone",
@@ -1478,7 +1975,8 @@
     "loyalty": null,
     "multiverse_id": 271156,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Beast Within",
@@ -1502,7 +2000,17 @@
     "loyalty": null,
     "multiverse_id": 275255,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2011",
+        "text": "If the permanent is an illegal target when Beast Within tries to resolve, the spell won’t resolve and none of its effects will happen. The permanent’s controller won’t get a Beast token."
+      },
+      {
+        "date": "7/1/2013",
+        "text": "If the permanent is still a legal target but is not destroyed (perhaps because it regenerated or has indestructible), its controller still gets the Beast token."
+      }
+    ]
   },
   {
     "name": "Boar Umbra",
@@ -1530,7 +2038,77 @@
     "loyalty": null,
     "multiverse_id": 271148,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it and destroy the Aura that has totem armor instead."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Doom Blade). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a creature enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time the totem armor’s effect will replace all of them and save the creature."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a spell or ability (such as Planar Cleansing) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Vendetta does) won’t prevent totem armor’s effect from being applied."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Say you control a permanent enchanted with an Aura that has totem armor, and the enchanted permanent has gained a regeneration shield. The next time it would be destroyed, you choose whether to apply the regeneration effect or the totem armor effect. The other effect is unused and remains, in case the permanent would be destroyed again."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability causes the Aura to be destroyed instead. (This matters for cards such as Karmic Justice.) Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has totem armor instead."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Putrefy). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a permanent enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness) totem armor’s effect will replace all of them and save the creature."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a spell or ability (such as Akroma’s Vengeance) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Putrefy does) won’t prevent totem armor’s effect from being applied."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability is what causes the Aura to be destroyed instead. Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor has no effect if the enchanted permanent is put into a graveyard for any other reason, such as if it’s sacrificed, if the “legend rule” applies to it, or if its toughness is 0 or less."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a permanent enchanted with an Aura that has totem armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Totem armor won’t do anything because it won’t have to."
+      }
+    ]
   },
   {
     "name": "Bramble Elemental",
@@ -1556,7 +2134,8 @@
     "loyalty": null,
     "multiverse_id": 271208,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Brindle Shoat",
@@ -1582,7 +2161,8 @@
     "loyalty": null,
     "multiverse_id": 265141,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Brutalizer Exarch",
@@ -1610,7 +2190,8 @@
     "loyalty": null,
     "multiverse_id": 275256,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cultivate",
@@ -1634,7 +2215,13 @@
     "loyalty": null,
     "multiverse_id": 271193,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/15/2010",
+        "text": "If you choose to find only one basic land card, you put it onto the battlefield tapped."
+      }
+    ]
   },
   {
     "name": "Dowsing Shaman",
@@ -1661,7 +2248,8 @@
     "loyalty": null,
     "multiverse_id": 271210,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dreampod Druid",
@@ -1688,7 +2276,17 @@
     "loyalty": null,
     "multiverse_id": 270742,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2012",
+        "text": "Dreampod Druid’s ability checks to see if it’s enchanted at the beginning of each upkeep. If it’s not, the ability won’t trigger. If the ability triggers but Dreampod Druid isn’t enchanted when that ability resolves, the ability will do nothing."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "Notably, if Dreampod Druid leaves the battlefield while its ability is on the stack, that ability will use Dreampod Druid’s last known information to determine whether or not it was enchanted. If it was enchanted when it left the battlefield, the ability will resolve and create a Saproling."
+      }
+    ]
   },
   {
     "name": "Gluttonous Slime",
@@ -1715,7 +2313,8 @@
     "loyalty": null,
     "multiverse_id": 271140,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Lumberknot",
@@ -1742,7 +2341,8 @@
     "loyalty": null,
     "multiverse_id": 271235,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mitotic Slime",
@@ -1768,7 +2368,8 @@
     "loyalty": null,
     "multiverse_id": 271195,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mycoloth",
@@ -1795,7 +2396,29 @@
     "loyalty": null,
     "multiverse_id": 271161,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "You may choose not to sacrifice any creatures for the Devour ability."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If you cast this as a spell, you choose how many and which creatures to devour as part of the resolution of that spell. (It can’t be countered at this point.) The same is true of a spell or ability that lets you put a creature with devour onto the battlefield."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "You may sacrifice only creatures that are already on the battlefield. If a creature with devour and another creature are entering the battlefield under your control at the same time, the creature with devour can’t devour that other creature. The creature with devour also can’t devour itself."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If multiple creatures with devour are entering the battlefield under your control at the same time, you may use each one’s devour ability. A creature you already control can be devoured by only one of them, however. (In other words, you can’t sacrifice the same creature to satisfy multiple devour abilities.) All creatures devoured this way are sacrificed at the same time."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "The number of Saproling tokens created by the triggered ability is based on the number of +1/+1 counters on Mycoloth, not on the number of creatures Mycoloth devoured. It doesn’t matter where the +1/+1 counters came from."
+      }
+    ]
   },
   {
     "name": "Nest Invader",
@@ -1822,7 +2445,8 @@
     "loyalty": null,
     "multiverse_id": 275261,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Nullmage Advocate",
@@ -1849,7 +2473,13 @@
     "loyalty": null,
     "multiverse_id": 271178,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You can’t activate this ability unless a single opponent has at least two cards in their graveyard to target."
+      }
+    ]
   },
   {
     "name": "Ondu Giant",
@@ -1876,7 +2506,8 @@
     "loyalty": null,
     "multiverse_id": 271153,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Overrun",
@@ -1900,7 +2531,13 @@
     "loyalty": null,
     "multiverse_id": 271201,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "Overrun affects only creatures you control at the time it resolves. It won’t affect creatures that come under your control later in the turn."
+      }
+    ]
   },
   {
     "name": "Penumbra Spider",
@@ -1927,7 +2564,8 @@
     "loyalty": null,
     "multiverse_id": 271223,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Predatory Urge",
@@ -1954,7 +2592,29 @@
     "loyalty": null,
     "multiverse_id": 271136,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The controller of the enchanted creature may activate the ability, not the controller of Predatory Urge."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If the enchanted creature’s ability is activated, that creature is the one that will deal and be dealt damage when the ability resolves. It doesn’t matter if Predatory Urge leaves the battlefield or somehow becomes attached to another creature by that time."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If the targeted creature leaves the battlefield (or otherwise becomes an illegal target) before the ability resolves, the ability doesn’t resolve. The enchanted creature isn’t dealt damage."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "On the other hand, if the enchanted creature leaves the battlefield before the ability resolves, the ability continues to resolve. The enchanted creature deals damage to the targeted creature equal to the power the enchanted creature had as it last existed on the battlefield."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "You may have the enchanted creature target itself with its own ability. If you do, it will deal damage to itself equal to its power, then immediately do it again."
+      }
+    ]
   },
   {
     "name": "Quiet Disrepair",
@@ -1983,7 +2643,17 @@
     "loyalty": null,
     "multiverse_id": 271238,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "If you choose the “destroy” mode and Quiet Disrepair is moved to a different permanent while the ability is on the stack, the newly enchanted permanent will be destroyed when the ability resolves."
+      },
+      {
+        "date": "5/1/2007",
+        "text": "If you choose the “destroy” mode and Quiet Disrepair leaves the battlefield while the ability is on the stack, the last permanent it enchanted will be destroyed."
+      }
+    ]
   },
   {
     "name": "Rancor",
@@ -2011,7 +2681,13 @@
     "loyalty": null,
     "multiverse_id": 275266,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "If the creature this Aura would enchant is an illegal target by the time Rancor tries to resolve, the Aura spell doesn’t resolve. It won’t enter the battlefield, so it won’t be put into a graveyard from the battlefield and its ability won’t trigger."
+      }
+    ]
   },
   {
     "name": "Silhana Ledgewalker",
@@ -2039,7 +2715,13 @@
     "loyalty": null,
     "multiverse_id": 271230,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "Creatures with the Reach ability (such as Giant Spider) don’t actually have Flying, so they can’t block this."
+      }
+    ]
   },
   {
     "name": "Snake Umbra",
@@ -2067,7 +2749,85 @@
     "loyalty": null,
     "multiverse_id": 271155,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it and destroy the Aura that has totem armor instead."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Doom Blade). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a creature enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time the totem armor’s effect will replace all of them and save the creature."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a spell or ability (such as Planar Cleansing) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Vendetta does) won’t prevent totem armor’s effect from being applied."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Say you control a permanent enchanted with an Aura that has totem armor, and the enchanted permanent has gained a regeneration shield. The next time it would be destroyed, you choose whether to apply the regeneration effect or the totem armor effect. The other effect is unused and remains, in case the permanent would be destroyed again."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability causes the Aura to be destroyed instead. (This matters for cards such as Karmic Justice.) Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Snake Umbra grants the triggered ability to the creature. It triggers whenever the enchanted creature deals damage to an opponent of its controller (who is not necessarily an opponent of the Aura’s controller). In other words, if your Snake Umbra winds up enchanting your opponent’s creature, that opponent will draw a card whenever that creature damages you."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "The ability triggers when the enchanted creature deals any damage, not just combat damage."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has totem armor instead."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Putrefy). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a permanent enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness) totem armor’s effect will replace all of them and save the creature."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a spell or ability (such as Akroma’s Vengeance) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Putrefy does) won’t prevent totem armor’s effect from being applied."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability is what causes the Aura to be destroyed instead. Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Totem armor has no effect if the enchanted permanent is put into a graveyard for any other reason, such as if it’s sacrificed, if the “legend rule” applies to it, or if its toughness is 0 or less."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a permanent enchanted with an Aura that has totem armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Totem armor won’t do anything because it won’t have to."
+      }
+    ]
   },
   {
     "name": "Tukatongue Thallid",
@@ -2093,7 +2853,8 @@
     "loyalty": null,
     "multiverse_id": 271143,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Viridian Emissary",
@@ -2120,7 +2881,8 @@
     "loyalty": null,
     "multiverse_id": 271146,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wall of Blossoms",
@@ -2148,7 +2910,8 @@
     "loyalty": null,
     "multiverse_id": 275262,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Baleful Strix",
@@ -2176,7 +2939,8 @@
     "loyalty": null,
     "multiverse_id": 265156,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bituminous Blast",
@@ -2201,7 +2965,37 @@
     "loyalty": null,
     "multiverse_id": 271166,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Bloodbraid Elf",
@@ -2229,7 +3023,37 @@
     "loyalty": null,
     "multiverse_id": 271167,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Deny Reality",
@@ -2254,7 +3078,37 @@
     "loyalty": null,
     "multiverse_id": 271168,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Dimir Infiltrator",
@@ -2281,7 +3135,8 @@
     "loyalty": null,
     "multiverse_id": 271214,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dragonlair Spider",
@@ -2308,7 +3163,17 @@
     "loyalty": null,
     "multiverse_id": 270726,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2012",
+        "text": "The triggered ability will resolve and the Insect will be created before the spell that caused it to trigger resolves."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "The triggered ability won’t be affected if the spell that caused it to trigger is countered."
+      }
+    ]
   },
   {
     "name": "Elderwood Scion",
@@ -2336,7 +3201,29 @@
     "loyalty": null,
     "multiverse_id": 270725,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2012",
+        "text": "None of Elderwood Scion’s abilities affect abilities that target it."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "Aura spells require a target when they are cast. Elderwood Scion’s cost-reduction ability will affect Aura spells cast targeting it."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "Spells you cast that target Elderwood Scion will cost {2} less to cast even if those spells have additional targets. The same is true for spells your opponents cast costing {2} more."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "Elderwood Scion’s cost-reduction ability can’t reduce the colored mana requirement of a spell."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "Elderwood Scion’s cost-reduction ability can apply to any cost of a spell, including additional or alternative costs."
+      }
+    ]
   },
   {
     "name": "Enigma Sphinx",
@@ -2365,7 +3252,49 @@
     "loyalty": null,
     "multiverse_id": 271169,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After Enigma Sphinx’s middle ability triggers, if Enigma Sphinx is removed from your graveyard in response, it won’t be put into your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you have zero or one card left in your library when Enigma Sphinx’s middle ability resolves, Enigma Sphinx is put on the bottom of your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you control an Enigma Sphinx that’s owned by another player, it’s put into that player’s graveyard from the battlefield, so Enigma Sphinx’s middle ability won’t trigger."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Enlisted Wurm",
@@ -2391,7 +3320,37 @@
     "loyalty": null,
     "multiverse_id": 271170,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Etherium-Horn Sorcerer",
@@ -2420,7 +3379,13 @@
     "loyalty": null,
     "multiverse_id": 265144,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2012",
+        "text": "Etherium-Horn Sorcerer’s first ability can only be activated when it is on the battlefield. If Etherium-Horn Sorcerer isn’t on the battlefield when the ability resolves, the ability won’t do anything."
+      }
+    ]
   },
   {
     "name": "Fires of Yavimaya",
@@ -2445,7 +3410,8 @@
     "loyalty": null,
     "multiverse_id": 276068,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fusion Elemental",
@@ -2469,7 +3435,8 @@
     "loyalty": null,
     "multiverse_id": 271139,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Glen Elendra Liege",
@@ -2498,7 +3465,13 @@
     "loyalty": null,
     "multiverse_id": 271215,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "The abilities are separate and cumulative. If another creature you control is both of the listed colors, it will get a total of +2/+2."
+      }
+    ]
   },
   {
     "name": "Hellkite Hatchling",
@@ -2525,7 +3498,17 @@
     "loyalty": null,
     "multiverse_id": 271141,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Hellkite Hatchling has flying and trample if at least one creature was sacrificed as a result of the Hatchling’s devour ability as it entered the battlefield. It retains those abilities even if its +1/+1 counters are somehow removed."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If another creature becomes a copy of Hellkite Hatchling (due to Mirrorweave, for example), the second ability checks to see whether that creature — not the original Hellkite Hatchling — devoured a creature as it entered the battlefield."
+      }
+    ]
   },
   {
     "name": "Indrik Umbra",
@@ -2553,7 +3536,17 @@
     "loyalty": null,
     "multiverse_id": 270724,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2012",
+        "text": "Indrik Umbra does not give any creature the ability to block the enchanted creature. It just forces those creatures which are already able to block that creature to do so."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "If, during a player’s declare blockers step, a creature is tapped or it’s affected by a spell or ability that says it can’t block, then it doesn’t block. If there’s a cost associated with having a creature block, its controller isn’t forced to pay that cost. The creature doesn’t have to block."
+      }
+    ]
   },
   {
     "name": "Inkfathom Witch",
@@ -2581,7 +3574,29 @@
     "loyalty": null,
     "multiverse_id": 271216,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "An “unblocked creature” is a creature that attacked and wasn’t blocked. Creatures aren’t “blocked” or “unblocked” until the declare blockers step, so activating this ability before then (or after combat ends) will have no effect."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "Creatures stop being unblocked as the combat phase ends. However, they’ll stay 4/1 until turn ends."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "Inkfathom Witch doesn’t cause creatures to lose their abilities."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "If Inkfathom Witch is attacking and unblocked, it can make itself 4/1."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The effect from the ability overwrites other effects that set power and/or toughness if and only if those effects existed before the ability resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the ability resolves. Effects that switch the creature’s power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created."
+      }
+    ]
   },
   {
     "name": "Kathari Remnant",
@@ -2610,7 +3625,37 @@
     "loyalty": null,
     "multiverse_id": 271189,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If a spell with cascade is countered, the cascade ability will still resolve normally."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You exile the cards face-up. All players will be able to see them."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you cast the last exiled card, you’re casting it as a spell. It can be countered. If that card has cascade, the new spell’s cascade ability will trigger, and you’ll repeat the process for the new spell."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "After you’re done exiling cards and casting the last one if you chose to do so, the remaining exiled cards are randomly placed on the bottom of your library. Neither you nor any other player is allowed to know the order of those cards."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "The converted mana cost of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves."
+      }
+    ]
   },
   {
     "name": "Krond the Dawn-Clad",
@@ -2639,7 +3684,13 @@
     "loyalty": null,
     "multiverse_id": 270738,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2012",
+        "text": "If Krond isn’t enchanted when it’s declared as an attacking creature, the ability won’t trigger. If Krond isn’t enchanted when the ability resolves, the ability won’t do anything."
+      }
+    ]
   },
   {
     "name": "Last Stand",
@@ -2663,7 +3714,8 @@
     "loyalty": null,
     "multiverse_id": 271164,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Maelstrom Wanderer",
@@ -2692,7 +3744,21 @@
     "loyalty": null,
     "multiverse_id": 265154,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "Maelstrom Wanderer gives itself haste."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "Each instance of cascade triggers and resolves separately. The spell you cast due to the first cascade ability will go on the stack on top of the second cascade ability. That spell will resolve before you exile cards for the second cascade ability."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "No matter what spell you cast with the first cascade trigger (or with any cascade triggers that result from casting that spell), the second cascade trigger will look for a spell with converted mana cost less than Maelstrom Wanderer’s converted mana cost of 8."
+      }
+    ]
   },
   {
     "name": "Noggle Ransacker",
@@ -2719,7 +3785,13 @@
     "loyalty": null,
     "multiverse_id": 271144,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "First the player whose turn it is draws two cards, then each other player in turn order does so. Then the player whose turn it is randomly selects a card from their hand, then each other player in turn order does so. Finally, all cards selected this way are discarded at the same time."
+      }
+    ]
   },
   {
     "name": "Pollenbright Wings",
@@ -2747,7 +3819,8 @@
     "loyalty": null,
     "multiverse_id": 271211,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Shardless Agent",
@@ -2775,7 +3848,8 @@
     "loyalty": null,
     "multiverse_id": 270733,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Silent-Blade Oni",
@@ -2803,7 +3877,21 @@
     "loyalty": null,
     "multiverse_id": 270727,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2012",
+        "text": "If you cast a permanent spell this way, it will enter the battlefield under your control when it resolves. If you cast an instant or sorcery spell this way, that card will be put into its owner’s graveyard when it resolves."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "The nonland card you cast via the triggered ability is cast as part of the resolution of that ability. Timing restrictions based on the card’s type are ignored. Other restrictions, such as “Cast [this card] only during an opponent’s turn,” are not."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "If you cast a card without paying its mana cost, you can’t choose to cast it for any alternative costs, such as evoke or the alternative cost provided by the morph ability. If it has {X} in its mana cost, X must be 0. However, you can pay optional additional costs, such as kicker, and you must still pay mandatory additional costs, such as the one on Fling."
+      }
+    ]
   },
   {
     "name": "Thromok the Insatiable",
@@ -2831,7 +3919,13 @@
     "loyalty": null,
     "multiverse_id": 265155,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2012",
+        "text": "For example, if Thromok devours one creature, it will enter the battlefield with one +1/+1 counter on it. If it devours two creatures, it will enter with two +1/+1 counters for each of them, for a total of four +1/+1 counters. Devouring three creatures will produce nine +1/+1 counters, and so on."
+      }
+    ]
   },
   {
     "name": "Vela the Night-Clad",
@@ -2862,7 +3956,13 @@
     "loyalty": null,
     "multiverse_id": 270729,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2012",
+        "text": "If Vela leaves the battlefield at the same time as other creatures you control, its ability will trigger for each of those creatures."
+      }
+    ]
   },
   {
     "name": "Armillary Sphere",
@@ -2886,7 +3986,8 @@
     "loyalty": null,
     "multiverse_id": 271137,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Farsight Mask",
@@ -2910,7 +4011,25 @@
     "loyalty": null,
     "multiverse_id": 275263,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "This triggers each time a source an opponent controls deals damage to you. If the same source deals damage more than once in a turn, it triggers for each of those times."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "You draw no more than one card each time a source an opponent controls damages you, no matter how much damage the source deals."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "Farsight Mask must be untapped both when the damage is dealt and when you would draw the card."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "Each instance of each creature’s combat damage is counted separately. If three creatures with double strike attack you and all of them are unblocked, you may draw up to six cards."
+      }
+    ]
   },
   {
     "name": "Flayer Husk",
@@ -2938,7 +4057,8 @@
     "loyalty": null,
     "multiverse_id": 271145,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fractured Powerstone",
@@ -2963,7 +4083,17 @@
     "loyalty": null,
     "multiverse_id": 265151,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2012",
+        "text": "In non-Planechase games, Fractured Powerstone’s second ability will have no effect."
+      },
+      {
+        "date": "6/1/2012",
+        "text": "Rolling the planar die this way doesn’t count when determining the cost of the special action of rolling the planar die. For example, if you roll the planar die twice in a turn, then activate Fractured Powerstone to roll it a third time, rolling the planar die again that turn will cost {2}."
+      }
+    ]
   },
   {
     "name": "Quietus Spike",
@@ -2991,7 +4121,21 @@
     "loyalty": null,
     "multiverse_id": 271219,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "That player loses half their life after combat damage has been subtracted from the player’s life total. The amount of life the player loses is determined as the triggered ability resolves."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If multiple Quietus Spikes trigger at the same time, that player loses half their life when the first ability resolves, then loses half of the remainder when the next ability resolves, and so on. The player does not lose the same amount each time."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "In a Two-Headed Giant game, after combat damage is dealt, Quietus Spike looks at that player’s life total (which is the same as the team’s life total) when determining how much life the team will lose, which basically means the team’s life total is halved. Here’s an example of the math: The team has 19 life, so the player has 19 life. Quietus Spike causes the team to lose 10 life (19 divided by 2, rounded up). The team’s life total becomes 9 (19 minus 10)."
+      }
+    ]
   },
   {
     "name": "Sai of the Shinobi",
@@ -3019,7 +4163,13 @@
     "loyalty": null,
     "multiverse_id": 270731,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "If you choose not to attach Sai of the Shinobi to a creature that enters the battlefield, or if you can’t (most likely because the creature has left the battlefield by the time the triggered ability resolves), Sai of the Shinobi doesn’t move."
+      }
+    ]
   },
   {
     "name": "Thran Golem",
@@ -3046,7 +4196,8 @@
     "loyalty": null,
     "multiverse_id": 271173,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Whispersilk Cloak",
@@ -3073,7 +4224,8 @@
     "loyalty": null,
     "multiverse_id": 271198,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dimir Aqueduct",
@@ -3099,7 +4251,13 @@
     "loyalty": null,
     "multiverse_id": 271209,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Exotic Orchard",
@@ -3123,7 +4281,29 @@
     "loyalty": null,
     "multiverse_id": 275257,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "The colors of mana are white, blue, black, red, and green. Exotic Orchard can’t be tapped for colorless mana, even if a land an opponent controls could produce colorless mana."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Exotic Orchard checks the effects of all mana-producing abilities of lands your opponents control, but it doesn’t check their costs. For example, Vivid Crag has the ability “{T}, Remove a charge counter from Vivid Crag: Add one mana of any color.” If an opponent controls Vivid Crag and you control Exotic Orchard, you can tap Exotic Orchard for any color of mana. It doesn’t matter whether Vivid Crag has a charge counter on it, and it doesn’t matter whether it’s untapped."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "When determining what colors of mana your opponents’ lands could produce, Exotic Orchard takes into account any applicable replacement effects that would apply to those lands’ mana abilities (such as Contamination’s effect, for example). If there are more than one, consider them in any possible order."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Exotic Orchard doesn’t care about any restrictions or riders your opponents’ lands (such as Ancient Ziggurat or Hall of the Bandit Lord) put on the mana they produce. It just cares about colors of mana."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Lands that produce mana based only on what other lands “could produce” won’t help each other unless some other land allows one of them to actually produce some type of mana. For example, if you control an Exotic Orchard and your opponent controls an Exotic Orchard and a Reflecting Pool, none of those lands would produce mana if their mana abilities were activated. On the other hand, if you control a Forest and an Exotic Orchard, and your opponent controls an Exotic Orchard and a Reflecting Pool, then each of those lands can be tapped to produce {G}. Your opponent’s Exotic Orchard can produce {G} because you control a Forest. Your Exotic Orchard and your opponent’s Reflecting Pool can each produce {G} because your opponent’s Exotic Orchard can produce {G}."
+      }
+    ]
   },
   {
     "name": "Graypelt Refuge",
@@ -3149,7 +4329,8 @@
     "loyalty": null,
     "multiverse_id": 271131,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Gruul Turf",
@@ -3175,7 +4356,13 @@
     "loyalty": null,
     "multiverse_id": 271228,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Jwar Isle Refuge",
@@ -3201,7 +4388,8 @@
     "loyalty": null,
     "multiverse_id": 271132,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Kazandu Refuge",
@@ -3227,7 +4415,8 @@
     "loyalty": null,
     "multiverse_id": 271133,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Khalni Garden",
@@ -3253,7 +4442,8 @@
     "loyalty": null,
     "multiverse_id": 271227,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Krosan Verge",
@@ -3279,7 +4469,8 @@
     "loyalty": null,
     "multiverse_id": 271177,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rupture Spire",
@@ -3305,7 +4496,8 @@
     "loyalty": null,
     "multiverse_id": 271142,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Selesnya Sanctuary",
@@ -3331,7 +4523,13 @@
     "loyalty": null,
     "multiverse_id": 271212,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Shimmering Grotto",
@@ -3356,7 +4554,8 @@
     "loyalty": null,
     "multiverse_id": 271203,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Skarrg, the Rage Pits",
@@ -3381,7 +4580,8 @@
     "loyalty": null,
     "multiverse_id": 271231,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tainted Isle",
@@ -3406,7 +4606,8 @@
     "loyalty": null,
     "multiverse_id": 271239,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Terramorphic Expanse",
@@ -3430,7 +4631,8 @@
     "loyalty": null,
     "multiverse_id": 271196,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vitu-Ghazi, the City-Tree",
@@ -3455,7 +4657,8 @@
     "loyalty": null,
     "multiverse_id": 271213,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vivid Creek",
@@ -3481,7 +4684,8 @@
     "loyalty": null,
     "multiverse_id": 271204,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -3509,7 +4713,8 @@
     "loyalty": null,
     "multiverse_id": 276461,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -3537,7 +4742,8 @@
     "loyalty": null,
     "multiverse_id": 276469,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -3565,7 +4771,8 @@
     "loyalty": null,
     "multiverse_id": 276473,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -3593,7 +4800,8 @@
     "loyalty": null,
     "multiverse_id": 276459,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -3621,7 +4829,8 @@
     "loyalty": null,
     "multiverse_id": 276458,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -3649,7 +4858,8 @@
     "loyalty": null,
     "multiverse_id": 276462,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -3677,7 +4887,8 @@
     "loyalty": null,
     "multiverse_id": 276453,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -3705,7 +4916,8 @@
     "loyalty": null,
     "multiverse_id": 276466,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -3733,7 +4945,8 @@
     "loyalty": null,
     "multiverse_id": 276471,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -3761,7 +4974,8 @@
     "loyalty": null,
     "multiverse_id": 276452,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -3789,7 +5003,8 @@
     "loyalty": null,
     "multiverse_id": 276455,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -3817,7 +5032,8 @@
     "loyalty": null,
     "multiverse_id": 276472,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -3845,7 +5061,8 @@
     "loyalty": null,
     "multiverse_id": 276457,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -3873,7 +5090,8 @@
     "loyalty": null,
     "multiverse_id": 276448,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -3901,7 +5119,8 @@
     "loyalty": null,
     "multiverse_id": 276463,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -3929,7 +5148,8 @@
     "loyalty": null,
     "multiverse_id": 276465,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -3957,7 +5177,8 @@
     "loyalty": null,
     "multiverse_id": 276447,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -3985,7 +5206,8 @@
     "loyalty": null,
     "multiverse_id": 276449,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -4013,7 +5235,8 @@
     "loyalty": null,
     "multiverse_id": 276470,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -4041,7 +5264,8 @@
     "loyalty": null,
     "multiverse_id": 276464,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -4069,7 +5293,8 @@
     "loyalty": null,
     "multiverse_id": 276456,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -4097,7 +5322,8 @@
     "loyalty": null,
     "multiverse_id": 276454,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -4125,7 +5351,8 @@
     "loyalty": null,
     "multiverse_id": 276460,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -4153,7 +5380,8 @@
     "loyalty": null,
     "multiverse_id": 276468,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -4181,6 +5409,7 @@
     "loyalty": null,
     "multiverse_id": 276467,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]

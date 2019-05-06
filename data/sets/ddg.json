@@ -25,7 +25,25 @@
     "loyalty": null,
     "multiverse_id": 243416,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Knight of the Reliquary’s first ability applies only while it’s on the battlefield. In all other zones, it’s a 2/2 creature."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "The activated ability’s cost checks the land’s subtype, not its name. You can sacrifice a nonbasic land this way as long as it has the subtype Forest or Plains. Most nonbasic lands don’t have basic land types, even if they produce colored mana. For example, Horizon Canopy is neither a Forest nor a Plains, while Temple Garden is both."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Sacrificing a Forest or Plains is part of the cost of Knight of the Reliquary’s activated ability. Assuming that sacrificing the land puts it into your graveyard, Knight of the Reliquary’s first ability will immediately give it an additional +1/+1 when that cost is paid because there’ll be a new land card in your graveyard. Paying a cost can’t be responded to (with Shock, for example)."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Knight of the Reliquary’s activated ability lets you find any land card, not just a basic land card."
+      }
+    ]
   },
   {
     "name": "Caravan Escort",
@@ -57,7 +75,29 @@
     "loyalty": null,
     "multiverse_id": 243418,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "The abilities a leveler grants to itself don’t overwrite any other abilities it may have. In particular, they don’t overwrite the creature’s level up ability; it always has that."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Effects that set a leveler’s power or toughness to a specific value, including the effects from a level symbol’s ability, apply in timestamp order. The timestamp of each level symbol’s ability is the same as the timestamp of the leveler itself, regardless of when the most recent level counter was put on it."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Effects that modify a leveler’s power or toughness, such as the effects of Giant Growth or Glorious Anthem, will apply to it no matter when they started to take effect. The same is true for counters that change the creature’s power or toughness (such as +1/+1 counters) and effects that switch its power and toughness."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If another creature becomes a copy of a leveler, all of the leveler’s printed abilities — including those represented by level symbols — are copied. The current characteristics of the leveler, and the number of level counters on it, are not. The abilities, power, and toughness of the copy will be determined based on how many level counters are on the copy."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "A creature’s level is based on how many level counters it has on it, not how many times its level up ability has been activated or has resolved. If a leveler gets level counters due to some other effect (such as Clockspinning) or loses level counters for some reason (such as Vampire Hexmage), its level is changed accordingly."
+      }
+    ]
   },
   {
     "name": "Lionheart Maverick",
@@ -85,7 +125,8 @@
     "loyalty": null,
     "multiverse_id": 243420,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Knight of Cliffhaven",
@@ -118,7 +159,29 @@
     "loyalty": null,
     "multiverse_id": 243421,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "The abilities a leveler grants to itself don’t overwrite any other abilities it may have. In particular, they don’t overwrite the creature’s level up ability; it always has that."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Effects that set a leveler’s power or toughness to a specific value, including the effects from a level symbol’s ability, apply in timestamp order. The timestamp of each level symbol’s ability is the same as the timestamp of the leveler itself, regardless of when the most recent level counter was put on it."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Effects that modify a leveler’s power or toughness, such as the effects of Giant Growth or Glorious Anthem, will apply to it no matter when they started to take effect. The same is true for counters that change the creature’s power or toughness (such as +1/+1 counters) and effects that switch its power and toughness."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If another creature becomes a copy of a leveler, all of the leveler’s printed abilities — including those represented by level symbols — are copied. The current characteristics of the leveler, and the number of level counters on it, are not. The abilities, power, and toughness of the copy will be determined based on how many level counters are on the copy."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "A creature’s level is based on how many level counters it has on it, not how many times its level up ability has been activated or has resolved. If a leveler gets level counters due to some other effect (such as Clockspinning) or loses level counters for some reason (such as Vampire Hexmage), its level is changed accordingly."
+      }
+    ]
   },
   {
     "name": "Knight of Meadowgrain",
@@ -146,7 +209,8 @@
     "loyalty": null,
     "multiverse_id": 243422,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Knight of the White Orchid",
@@ -174,7 +238,17 @@
     "loyalty": null,
     "multiverse_id": 243423,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Knight of the White Orchid’s triggered ability has an “intervening ‘if’ clause.” That means (1) the ability won’t trigger at all unless any one of your opponents controls more lands than you, and (2) the ability will do nothing if you control at least as many lands as each of your opponents by the time it resolves."
+      },
+      {
+        "date": "6/22/2015",
+        "text": "The Plains you search for doesn’t have to be basic. For example, you could put a Sacred Foundry onto the battlefield."
+      }
+    ]
   },
   {
     "name": "Leonin Skyhunter",
@@ -201,7 +275,8 @@
     "loyalty": null,
     "multiverse_id": 243424,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Silver Knight",
@@ -228,7 +303,8 @@
     "loyalty": null,
     "multiverse_id": 243425,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "White Knight",
@@ -256,7 +332,8 @@
     "loyalty": null,
     "multiverse_id": 243426,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Knotvine Paladin",
@@ -283,7 +360,13 @@
     "loyalty": null,
     "multiverse_id": 243427,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "The number of untapped creatures you control is counted as the ability resolves, and the bonus is locked in at that time. By this point, other attacking creatures will already be tapped (unless they have vigilance)."
+      }
+    ]
   },
   {
     "name": "Steward of Valeron",
@@ -312,7 +395,8 @@
     "loyalty": null,
     "multiverse_id": 243428,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Benalish Lancer",
@@ -340,7 +424,8 @@
     "loyalty": null,
     "multiverse_id": 243429,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Zhalfirin Commander",
@@ -368,7 +453,8 @@
     "loyalty": null,
     "multiverse_id": 243430,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Knight Exemplar",
@@ -396,7 +482,25 @@
     "loyalty": null,
     "multiverse_id": 243431,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/15/2010",
+        "text": "If an effect would simultaneously destroy Knight Exemplar and another Knight creature you control, only Knight Exemplar is destroyed."
+      },
+      {
+        "date": "7/1/2013",
+        "text": "Lethal damage, damage from a source with deathtouch, and effects that say “destroy” won’t cause a creature with indestructible to be put into the graveyard. However, a creature with indestructible can be put into the graveyard for a number of reasons. The most likely reasons are if it’s sacrificed, if it’s legendary and another legendary creature with the same name is controlled by the same player, or if its toughness is 0 or less."
+      },
+      {
+        "date": "7/1/2013",
+        "text": "If another Knight creature you control is dealt lethal damage, the creature isn’t destroyed, but the damage remains marked on it. If, at some point later in that turn, you no longer control Knight Exemplar or it loses its abilities, the other Knight creature will lose indestructible and will be destroyed."
+      },
+      {
+        "date": "7/1/2013",
+        "text": "If you control two Knight Exemplars, each one causes the other to get +1/+1 and have indestructible."
+      }
+    ]
   },
   {
     "name": "Wilt-Leaf Cavaliers",
@@ -423,7 +527,8 @@
     "loyalty": null,
     "multiverse_id": 243432,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Kabira Vindicator",
@@ -456,7 +561,29 @@
     "loyalty": null,
     "multiverse_id": 243433,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "The abilities a leveler grants to itself don’t overwrite any other abilities it may have. In particular, they don’t overwrite the creature’s level up ability; it always has that."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Effects that set a leveler’s power or toughness to a specific value, including the effects from a level symbol’s ability, apply in timestamp order. The timestamp of each level symbol’s ability is the same as the timestamp of the leveler itself, regardless of when the most recent level counter was put on it."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Effects that modify a leveler’s power or toughness, such as the effects of Giant Growth or Glorious Anthem, will apply to it no matter when they started to take effect. The same is true for counters that change the creature’s power or toughness (such as +1/+1 counters) and effects that switch its power and toughness."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If another creature becomes a copy of a leveler, all of the leveler’s printed abilities — including those represented by level symbols — are copied. The current characteristics of the leveler, and the number of level counters on it, are not. The abilities, power, and toughness of the copy will be determined based on how many level counters are on the copy."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "A creature’s level is based on how many level counters it has on it, not how many times its level up ability has been activated or has resolved. If a leveler gets level counters due to some other effect (such as Clockspinning) or loses level counters for some reason (such as Vampire Hexmage), its level is changed accordingly."
+      }
+    ]
   },
   {
     "name": "Kinsbaile Cavalier",
@@ -483,7 +610,8 @@
     "loyalty": null,
     "multiverse_id": 243434,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Alaborn Cavalier",
@@ -510,7 +638,8 @@
     "loyalty": null,
     "multiverse_id": 243435,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Skyhunter Patrol",
@@ -537,7 +666,8 @@
     "loyalty": null,
     "multiverse_id": 243436,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plover Knights",
@@ -564,7 +694,8 @@
     "loyalty": null,
     "multiverse_id": 243437,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Juniper Order Ranger",
@@ -591,7 +722,13 @@
     "loyalty": null,
     "multiverse_id": 243438,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/15/2006",
+        "text": "The creature doesn’t enter the battlefield with a +1/+1 counter on it. It enters the battlefield, then the ability triggers. If either that creature or Juniper Order Ranger leaves the battlefield before the ability resolves, the remaining creature will still get a +1/+1 counter."
+      }
+    ]
   },
   {
     "name": "Paladin of Prahv",
@@ -619,7 +756,8 @@
     "loyalty": null,
     "multiverse_id": 243439,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Harm's Way",
@@ -643,7 +781,29 @@
     "loyalty": null,
     "multiverse_id": 243440,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "As you cast Harm’s Way, you target that the redirected damage will be dealt to. As Harm’s Way resolves, you choose a source of damage. You never choose the original recipient of the damage; Harm’s Way will apply to whatever the chosen source tries to deal damage to, as long as it’s you or a permanent you control."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If the chosen source would deal just 1 damage to you or a permanent you control, Harm’s Way’s effect will redirect that damage and still have a “shield” left for another 1 damage from that source later in the turn."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If the chosen source would simultaneously deal damage to multiple permanents you control (like Pyroclasm could) or to you and at least one permanent you control (like Earthquake could), Harm’s Way will redirect just 2 of that damage. It won’t redirect the next 2 damage that would be dealt to each recipient. You choose which 2 damage is redirected. If you like, you can choose to redirect 1 damage that would be dealt by the chosen source to each of two different recipients."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "After Harm’s Way resolves, it no longer checks to see if the target is a legal target. However, if that permanent or player can’t be dealt damage at the time the chosen source would deal damage (perhaps because the creature is no longer on the battlefield or is no longer a creature, or because the player is no longer in the game), the damage can’t be redirected. It’s dealt to the original recipient."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Harm’s Way has no effect on damage that’s already been dealt."
+      }
+    ]
   },
   {
     "name": "Reciprocate",
@@ -667,7 +827,8 @@
     "loyalty": null,
     "multiverse_id": 243441,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Edge of Autumn",
@@ -692,7 +853,13 @@
     "loyalty": null,
     "multiverse_id": 243442,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      }
+    ]
   },
   {
     "name": "Mighty Leap",
@@ -716,7 +883,13 @@
     "loyalty": null,
     "multiverse_id": 243443,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Giving a creature flying after it’s already been blocked won’t change or undo that block. If you want to affect what can block the creature, you must cast Mighty Leap during the declare attackers step at the latest."
+      }
+    ]
   },
   {
     "name": "Reprisal",
@@ -740,7 +913,8 @@
     "loyalty": null,
     "multiverse_id": 243444,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Test of Faith",
@@ -764,7 +938,13 @@
     "loyalty": null,
     "multiverse_id": 243445,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "The +1/+1 counters are put onto the creature at the same time the damage is prevented. If a 1/1 creature would be dealt 6 damage, 3 damage is prevented and three +1/+1 counters are put on the creature. The creature ends up as a 4/4 creature with 3 damage marked on it."
+      }
+    ]
   },
   {
     "name": "Heroes' Reunion",
@@ -788,7 +968,8 @@
     "loyalty": null,
     "multiverse_id": 243446,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sigil Blessing",
@@ -812,7 +993,13 @@
     "loyalty": null,
     "multiverse_id": 243447,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "If the targeted creature becomes an illegal target by the time Sigil Blessing resolves, the entire spell won’t resolve. Your other creatures won’t get +1/+1."
+      }
+    ]
   },
   {
     "name": "Loxodon Warhammer",
@@ -839,7 +1026,8 @@
     "loyalty": null,
     "multiverse_id": 243448,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Spidersilk Armor",
@@ -863,7 +1051,8 @@
     "loyalty": null,
     "multiverse_id": 243449,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Griffin Guide",
@@ -891,7 +1080,13 @@
     "loyalty": null,
     "multiverse_id": 243450,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/25/2006",
+        "text": "If Griffin Guide and the enchanted creature go to the graveyard at the same time, Griffin Guide’s ability will trigger."
+      }
+    ]
   },
   {
     "name": "Oblivion Ring",
@@ -916,7 +1111,25 @@
     "loyalty": null,
     "multiverse_id": 243451,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2007",
+        "text": "If Oblivion Ring leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted nonland permanent forever."
+      },
+      {
+        "date": "10/1/2007",
+        "text": "If there are no nonland permanents on the battlefield other than an Oblivion Ring, and the card it exiled was another Oblivion Ring, casting a third Oblivion Ring will result in an involuntary infinite loop that will end the game in a draw (unless someone chooses to break it by putting another nonland permanent onto the battlefield or destroying one of the Oblivion Rings, for example)."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If the exiled card is an Aura, that card’s owner chooses what it will enchant as it comes back onto the battlefield. An Aura put onto the battlefield this way doesn’t target anything, but the Aura’s enchant ability restricts what it can be attached to. If the Aura can’t legally be attached to anything, it remains exiled forever."
+      },
+      {
+        "date": "7/1/2012",
+        "text": "Auras attached to the exiled permanent will be put into their owners’ graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist."
+      }
+    ]
   },
   {
     "name": "Grasslands",
@@ -941,7 +1154,13 @@
     "loyalty": null,
     "multiverse_id": 243452,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You do not have to find a plains or forest card if you do not want to."
+      }
+    ]
   },
   {
     "name": "Sejiri Steppe",
@@ -967,7 +1186,8 @@
     "loyalty": null,
     "multiverse_id": 243453,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Selesnya Sanctuary",
@@ -993,7 +1213,13 @@
     "loyalty": null,
     "multiverse_id": 243454,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Treetop Village",
@@ -1011,7 +1237,7 @@
     "oracle_text": [
       "Treetop Village enters the battlefield tapped.",
       "{T}: Add {G}.",
-      "{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (If it would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to the player or planeswalker it's attacking.)"
+      "{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (It can deal excess combat damage to the player or planeswalker it's attacking.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1019,7 +1245,17 @@
     "loyalty": null,
     "multiverse_id": 243455,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Activating the ability that turns it into a creature while it’s already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply."
+      }
+    ]
   },
   {
     "name": "Plains",
@@ -1047,7 +1283,8 @@
     "loyalty": null,
     "multiverse_id": 243458,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -1075,7 +1312,8 @@
     "loyalty": null,
     "multiverse_id": 243457,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -1103,7 +1341,8 @@
     "loyalty": null,
     "multiverse_id": 243456,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -1131,7 +1370,8 @@
     "loyalty": null,
     "multiverse_id": 243459,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -1159,7 +1399,8 @@
     "loyalty": null,
     "multiverse_id": 243461,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -1187,7 +1428,8 @@
     "loyalty": null,
     "multiverse_id": 243463,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -1215,7 +1457,8 @@
     "loyalty": null,
     "multiverse_id": 243462,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -1243,7 +1486,8 @@
     "loyalty": null,
     "multiverse_id": 243460,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bogardan Hellkite",
@@ -1271,7 +1515,17 @@
     "loyalty": null,
     "multiverse_id": 243464,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You choose how many targets Bogardan Hellkite’s triggered ability has and how the damage is divided as you put the ability onto the stack. Each target must receive at least 1 damage."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If some of the creatures or players are illegal targets as Bogardan Hellkite’s triggered ability tries to resolve, the original division of damage still applies and the damage that would have been dealt to the illegal targets is lost. It won’t be dealt instead to a legal target."
+      }
+    ]
   },
   {
     "name": "Cinder Wall",
@@ -1298,7 +1552,8 @@
     "loyalty": null,
     "multiverse_id": 243466,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Skirk Prospector",
@@ -1324,7 +1579,8 @@
     "loyalty": null,
     "multiverse_id": 243465,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bloodmark Mentor",
@@ -1351,7 +1607,8 @@
     "loyalty": null,
     "multiverse_id": 243467,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fire-Belly Changeling",
@@ -1378,7 +1635,8 @@
     "loyalty": null,
     "multiverse_id": 243469,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mudbutton Torchrunner",
@@ -1405,7 +1663,8 @@
     "loyalty": null,
     "multiverse_id": 243470,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dragonspeaker Shaman",
@@ -1433,7 +1692,8 @@
     "loyalty": null,
     "multiverse_id": 243471,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dragon Whelp",
@@ -1460,7 +1720,17 @@
     "loyalty": null,
     "multiverse_id": 243472,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The first three times Dragon Whelp’s ability is activated in a turn will do nothing other than give it +1/+0 until end of turn. Any subsequent activations will also cause its delayed triggered ability to trigger. That means if you activate Dragon Whelp’s ability five times, for example, two different delayed triggered abilities will trigger at the beginning of the next end step and cause you to sacrifice Dragon Whelp."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If the fourth (or more) time Dragon Whelp’s ability is activated during the same turn happens to be during that turn’s end step, the delayed triggered ability won’t trigger until the beginning of the next turn’s end step. You’ll have to sacrifice Dragon Whelp at that time."
+      }
+    ]
   },
   {
     "name": "Henge Guardian",
@@ -1488,7 +1758,8 @@
     "loyalty": null,
     "multiverse_id": 243473,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Voracious Dragon",
@@ -1516,7 +1787,17 @@
     "loyalty": null,
     "multiverse_id": 243474,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Voracious Dragon can devour any type of creatures, not just Goblins."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "“The number of Goblins it devoured” means “The number of Goblins sacrificed as a result of its devour ability as it entered the battlefield.” For each creature that Voracious Dragon devoured, this ability checks its creature type as it last existed on the battlefield to see if it was a Goblin at that time."
+      }
+    ]
   },
   {
     "name": "Bogardan Rager",
@@ -1543,7 +1824,8 @@
     "loyalty": null,
     "multiverse_id": 243475,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mordant Dragon",
@@ -1571,7 +1853,8 @@
     "loyalty": null,
     "multiverse_id": 243476,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Kilnmouth Dragon",
@@ -1599,7 +1882,8 @@
     "loyalty": null,
     "multiverse_id": 243477,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Shivan Hellkite",
@@ -1626,7 +1910,8 @@
     "loyalty": null,
     "multiverse_id": 243478,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Thunder Dragon",
@@ -1653,7 +1938,8 @@
     "loyalty": null,
     "multiverse_id": 243479,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Armillary Sphere",
@@ -1677,7 +1963,8 @@
     "loyalty": null,
     "multiverse_id": 243480,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dragon's Claw",
@@ -1701,7 +1988,17 @@
     "loyalty": null,
     "multiverse_id": 243481,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The ability triggers whenever any player, not just you, casts a red spell."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If a player casts a red spell, Dragon’s Claw’s ability triggers and is put on the stack on top of that spell. Dragon’s Claw’s ability will resolve (causing you to gain 1 life) before the spell does."
+      }
+    ]
   },
   {
     "name": "Breath of Darigaaz",
@@ -1726,7 +2023,8 @@
     "loyalty": null,
     "multiverse_id": 243482,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dragon Fodder",
@@ -1750,7 +2048,8 @@
     "loyalty": null,
     "multiverse_id": 243468,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Punishing Fire",
@@ -1775,7 +2074,21 @@
     "loyalty": null,
     "multiverse_id": 243483,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "Punishing Fire’s triggered ability triggers only if it’s already in your graveyard at the time an opponent gains life. For example, you can cast it in response to a spell or ability that will cause an opponent to gain life. In that case, Punishing Fire will resolve first, so it will be in the graveyard by the time the opponent gains life. However, if you wait until an opponent actually gains life and then cast Punishing Fire, you won’t be able to return it to your hand at that time."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "You choose whether to pay {R} as the triggered ability resolves."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If Punishing Fire has left your graveyard by the time its triggered ability resolves, you may still pay {R}, but you won’t return it to your hand. This is true even if Punishing Fire has left your graveyard and returned to it by the time its triggered ability resolves."
+      }
+    ]
   },
   {
     "name": "Spitting Earth",
@@ -1799,7 +2112,8 @@
     "loyalty": null,
     "multiverse_id": 243484,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Captive Flame",
@@ -1823,7 +2137,8 @@
     "loyalty": null,
     "multiverse_id": 243485,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ghostfire",
@@ -1848,7 +2163,13 @@
     "loyalty": null,
     "multiverse_id": 243486,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "Ghostfire is colorless in all zones. Its damage comes from a colorless source."
+      }
+    ]
   },
   {
     "name": "Seething Song",
@@ -1872,7 +2193,8 @@
     "loyalty": null,
     "multiverse_id": 243487,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Seismic Strike",
@@ -1896,7 +2218,8 @@
     "loyalty": null,
     "multiverse_id": 243488,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Claws of Valakut",
@@ -1923,7 +2246,8 @@
     "loyalty": null,
     "multiverse_id": 243489,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Temporary Insanity",
@@ -1947,7 +2271,8 @@
     "loyalty": null,
     "multiverse_id": 243490,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Shiv's Embrace",
@@ -1975,7 +2300,17 @@
     "loyalty": null,
     "multiverse_id": 243491,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/15/2010",
+        "text": "Only Shiv’s Embrace’s controller (who is not necessarily the enchanted creature’s controller) can activate its activated ability."
+      },
+      {
+        "date": "8/15/2010",
+        "text": "When Shiv’s Embrace’s activated ability resolves, the creature Shiv’s Embrace is enchanting at that time will get +1/+0 (regardless of what creature Shiv’s Embrace was enchanting when the ability was activated). If Shiv’s Embrace has left the battlefield by then, the creature it was enchanting at the time it left the battlefield will get +1/+0."
+      }
+    ]
   },
   {
     "name": "Cone of Flame",
@@ -1999,7 +2334,17 @@
     "loyalty": null,
     "multiverse_id": 243492,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/18/2014",
+        "text": "Each of the three targets must be different. If there aren’t three different legal targets available, you can’t cast the spell."
+      },
+      {
+        "date": "7/18/2014",
+        "text": "If one or two of Cone of Flame’s targets are illegal when it resolves, you can’t change how much damage will be dealt to the remaining legal targets."
+      }
+    ]
   },
   {
     "name": "Fiery Fall",
@@ -2024,7 +2369,25 @@
     "loyalty": null,
     "multiverse_id": 243493,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Unlike the normal cycling ability, basic landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a basic land card. You don’t choose the type of basic land card you’ll find until you’re performing the search. After you choose a basic land card in your library, you reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being basic landcycled. Any ability that stops a cycling ability from being activated also stops a basic landcycling ability from being activated."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with basic landcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You can choose not to find a basic land card, even if there is one in your library."
+      }
+    ]
   },
   {
     "name": "Jaws of Stone",
@@ -2048,7 +2411,21 @@
     "loyalty": null,
     "multiverse_id": 243494,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "The amount of damage is locked in as you cast Jaws of Stone. It won’t change, even if the number of Mountains you control changes."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "If you control no Mountains as you cast Jaws of Stone, the number of targets must be zero."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "If you control any Mountains as you cast Jaws of Stone, the number of targets must be at least one and at most X. You divide the damage among the targets as you cast Jaws of Stone. Each target must be assigned at least 1 damage."
+      }
+    ]
   },
   {
     "name": "Mountain",
@@ -2076,7 +2453,8 @@
     "loyalty": null,
     "multiverse_id": 243497,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -2104,7 +2482,8 @@
     "loyalty": null,
     "multiverse_id": 243495,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -2132,7 +2511,8 @@
     "loyalty": null,
     "multiverse_id": 243496,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -2160,6 +2540,7 @@
     "loyalty": null,
     "multiverse_id": 243498,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]

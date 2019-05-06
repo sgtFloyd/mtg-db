@@ -81,6 +81,15 @@ class StandardCard
     color_indicator_str.split(', ').join(' ') if color_indicator_str
   end
 
+  def parse_rulings
+    container.css("tr.post").map do |post|
+      # "translate" text to parse <img> symbols into appropriate text shorthand
+      post_text = Gatherer.translate_oracle_text(post.css("[id$=\"rulingText\"]"))[0]
+      { 'date' => post.css("[id$=\"rulingDate\"]").text.strip,
+        'text' => post_text }
+    end
+  end
+
   CARD_NAME_REPLACEMENTS = {
     'kongming, "sleeping dragon"' => 'Kongming, “Sleeping Dragon”',
     'pang tong, "young phoenix"' => 'Pang Tong, “Young Phoenix”',
@@ -108,6 +117,7 @@ class StandardCard
       'multiverse_id'       => self.multiverse_id,
       'other_part'          => nil, # only relevant for split, flip, etc.
       'color_indicator'     => parse_color_indicator,
+      'rulings'             => parse_rulings,
     }
   end
 

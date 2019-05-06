@@ -24,7 +24,8 @@
     "loyalty": null,
     "multiverse_id": 146006,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ballynock Trapper",
@@ -52,7 +53,8 @@
     "loyalty": null,
     "multiverse_id": 153480,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cenn's Enlistment",
@@ -77,7 +79,25 @@
     "loyalty": null,
     "multiverse_id": 153469,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A retrace card cast from your graveyard follows the normal timing rules for its card type."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard."
+      }
+    ]
   },
   {
     "name": "Endless Horizons",
@@ -102,7 +122,17 @@
     "loyalty": null,
     "multiverse_id": 157975,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If Endless Horizons leaves the battlefield, the remaining Plains cards stay exiled. If Endless Horizons returns to the battlefield, it’s a new object with no relation to its previous existence. The previously exiled Plains cards will still stay exiled."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If a different player gains control of Endless Horizons, its ability will trigger at the beginning of that player’s upkeep, but it won’t do anything when it resolves."
+      }
+    ]
   },
   {
     "name": "Endure",
@@ -126,7 +156,8 @@
     "loyalty": null,
     "multiverse_id": 157199,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Flickerwisp",
@@ -153,7 +184,17 @@
     "loyalty": null,
     "multiverse_id": 151089,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The exiled card will return to the battlefield at the beginning of the end step even if Flickerwisp is no longer on the battlefield."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the permanent that returns to the battlefield has any abilities that trigger at the beginning of the end step, those abilities won’t trigger that turn."
+      }
+    ]
   },
   {
     "name": "Hallowed Burial",
@@ -177,7 +218,17 @@
     "loyalty": null,
     "multiverse_id": 157394,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "All creatures leave the battlefield simultaneously. They’re not destroyed; they’re just put on the bottom of their owners’ libraries. This includes token creatures, though they’ll cease to exist as soon as Hallowed Burial finishes resolving."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Each player chooses the relative order of the cards they are putting on the bottom of their library, regardless of who controlled them while they were on the battlefield. Players don’t reveal this order to other players."
+      }
+    ]
   },
   {
     "name": "Kithkin Spellduster",
@@ -206,7 +257,37 @@
     "loyalty": null,
     "multiverse_id": 152096,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist stops being a creature, persist will still work."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point."
+      }
+    ]
   },
   {
     "name": "Kithkin Zealot",
@@ -233,7 +314,13 @@
     "loyalty": null,
     "multiverse_id": 154346,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Each permanent is counted only once. For example, if the targeted player controls a black creature, a red enchantment, and a black-red creature, you’ll gain 3 life."
+      }
+    ]
   },
   {
     "name": "Light from Within",
@@ -257,7 +344,21 @@
     "loyalty": null,
     "multiverse_id": 151139,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Chroma abilities check only mana costs, which are found in a card’s upper right corner. They don’t count mana symbols that appear in a card’s text box."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Chroma abilities count hybrid mana symbols of the appropriate color. For example, a card with mana cost {3}{U/R}{U/R} has two red mana symbols in its mana cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Light from Within affects each creature individually. For example, if you control a creature with mana cost {1}{W}{W} and a creature with mana cost {W/B}{W/B}{W/B}{W/B}{W/B}, the first creature gets +2/+2 and the second creature gets +5/+5."
+      }
+    ]
   },
   {
     "name": "Loyal Gyrfalcon",
@@ -284,7 +385,8 @@
     "loyalty": null,
     "multiverse_id": 151059,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Patrol Signaler",
@@ -311,7 +413,21 @@
     "loyalty": null,
     "multiverse_id": 157210,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If the permanent is already untapped, you can’t activate its {Q} ability. That’s because you can’t pay the “Untap this permanent” cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The “summoning sickness” rule applies to {Q}. If a creature with an {Q} ability hasn’t been under your control since your most recent turn began, you can’t activate that ability. Ignore this rule if the creature also has haste."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When you activate an {Q} ability, you untap the creature with that ability as a cost. The untap can’t be responded to. (The actual ability can be responded to, of course.)"
+      }
+    ]
   },
   {
     "name": "Recumbent Bliss",
@@ -339,7 +455,13 @@
     "loyalty": null,
     "multiverse_id": 153435,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The triggered ability is on the Aura, not the creature. It triggers at the beginning of the upkeep of Recumbent Bliss’s controller, not the enchanted creature’s controller, and Recumbent Bliss’s controller will gain the life."
+      }
+    ]
   },
   {
     "name": "Spirit of the Hearth",
@@ -367,7 +489,8 @@
     "loyalty": null,
     "multiverse_id": 151169,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Springjack Shepherd",
@@ -394,7 +517,21 @@
     "loyalty": null,
     "multiverse_id": 153032,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Chroma abilities check only mana costs, which are found in a card’s upper right corner. They don’t count mana symbols that appear in a card’s text box."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Chroma abilities count hybrid mana symbols of the appropriate color. For example, a card with mana cost {3}{U/R}{U/R} has two red mana symbols in its mana cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The effect counts the mana symbols in this cards mana cost as well."
+      }
+    ]
   },
   {
     "name": "Suture Spirit",
@@ -421,7 +558,8 @@
     "loyalty": null,
     "multiverse_id": 153420,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Banishing Knack",
@@ -445,7 +583,17 @@
     "loyalty": null,
     "multiverse_id": 154350,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The targeted creature’s controller, not Banishing Knack’s controller, is the one who can activate the creature’s new ability."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "“Summoning sickness” applies. The new ability can’t be activated unless the targeted creature has been under its controller’s control since the beginning of that player’s most recent turn or it has haste."
+      }
+    ]
   },
   {
     "name": "Cache Raiders",
@@ -472,7 +620,13 @@
     "loyalty": null,
     "multiverse_id": 153419,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "This ability isn’t targeted. You choose a permanent to return when the ability resolves. No one will be able to respond to the choice."
+      }
+    ]
   },
   {
     "name": "Dream Fracture",
@@ -497,7 +651,8 @@
     "loyalty": null,
     "multiverse_id": 153036,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dream Thief",
@@ -525,7 +680,17 @@
     "loyalty": null,
     "multiverse_id": 157207,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Dream Thief doesn’t check whether you’ve cast another blue spell until its enters-the-battlefield ability resolves. If Dream Thief’s enters-the-battlefield ability triggers, then you cast a blue instant spell in response, you’ll get the bonus."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Although Dream Thief says it looks for “another blue spell,” there’s no requirement that Dream Thief actually be cast as a spell (or be blue) for this part of its ability to work. For example, if a spell such as Zombify puts Dream Thief directly onto the battlefield, its ability will still check whether you’ve cast a blue spell this turn, even though you didn’t cast Dream Thief itself as a spell."
+      }
+    ]
   },
   {
     "name": "Glamerdye",
@@ -550,7 +715,49 @@
     "loyalty": null,
     "multiverse_id": 153439,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A retrace card cast from your graveyard follows the normal timing rules for its card type."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Glamerdye’s effect has no duration. It will last until the game ends or the affected spell or permanent leaves the relevant zone, with the following exception: If Glamerdye affects an artifact, creature, enchantment, or planeswalker spell, it will also affect the permanent that spell becomes when it resolves."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "You choose the two color words when Glamerdye resolves. You can’t change a word to the same word; you must choose a different word."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Glamerdye affects each instance of the chosen word in the text box of the spell or permanent, as long as it’s being used as a color word. Glamerdye won’t change such words in card names, such as White Knight. It also won’t change mana symbols."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Glamerdye can change color words preceded by “non.” For example, if you have it change “red” to “green,” it will also change “nonred” to “nongreen.”"
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Glamerdye changes only words actually printed on the spell or permanent (if it’s a card), words that are part of the spell or permanent’s original characteristics as stated by the effect that created it (if it’s a token or a copy of a spell), or words that were granted to the spell or permanent as part of a copy effect. It won’t change words that are granted to the spell or permanent by any other effects. For example, if an Aura grants a creature protection from blue, you can change that to protection from red by targeting the Aura, but not by targeting the creature. Glamerdye also can’t change what color was chosen for a permanent (such as Painter’s Servant) as it entered the battlefield."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Glamerdye can’t affect the keyword fear."
+      }
+    ]
   },
   {
     "name": "Glen Elendra Archmage",
@@ -579,7 +786,37 @@
     "loyalty": null,
     "multiverse_id": 157977,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist stops being a creature, persist will still work."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point."
+      }
+    ]
   },
   {
     "name": "Idle Thoughts",
@@ -603,7 +840,13 @@
     "loyalty": null,
     "multiverse_id": 157412,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "You can activate the ability whether or not you have any cards in your hand. However, you’ll draw a card only if your hand is empty when the ability resolves. (This card works differently than the _Tempest_(TM) card Fool’s Tome.)"
+      }
+    ]
   },
   {
     "name": "Indigo Faerie",
@@ -631,7 +874,21 @@
     "loyalty": null,
     "multiverse_id": 153422,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "This ability doesn’t overwrite any previous colors. Rather, it adds another color."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If something affected by Indigo Faerie’s ability is normally colorless, it will simply be blue. It won’t be both blue and colorless."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "After Indigo Faerie’s ability resolves, an effect that changes the affected permanent’s colors will overwrite Indigo Faerie’s effect. For example, if Indigo Faerie’s ability is activated on Llanowar Elves, the Elves will be blue and green; if Aphotic Wisps is then cast on the same creature, it’ll be just black."
+      }
+    ]
   },
   {
     "name": "Inundate",
@@ -655,7 +912,13 @@
     "loyalty": null,
     "multiverse_id": 142010,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "A hybrid creature that’s blue and another color is *not* a nonblue creature. Since it’s blue, it can’t be nonblue!"
+      }
+    ]
   },
   {
     "name": "Merrow Levitator",
@@ -683,7 +946,8 @@
     "loyalty": null,
     "multiverse_id": 151088,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Oona's Grace",
@@ -708,7 +972,25 @@
     "loyalty": null,
     "multiverse_id": 153475,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A retrace card cast from your graveyard follows the normal timing rules for its card type."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard."
+      }
+    ]
   },
   {
     "name": "Razorfin Abolisher",
@@ -735,7 +1017,17 @@
     "loyalty": null,
     "multiverse_id": 153442,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Razorfin Abolisher’s ability can target a creature with any kind of counter on it, not just a -1/-1 counter."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the targeted creature no longer has any counters on it when the ability resolves, the ability won’t resolve because its only target is illegal. The creature will stay on the battlefield."
+      }
+    ]
   },
   {
     "name": "Sanity Grinding",
@@ -759,7 +1051,21 @@
     "loyalty": null,
     "multiverse_id": 157204,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Chroma abilities check only mana costs, which are found in a card’s upper right corner. They don’t count mana symbols that appear in a card’s text box."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Chroma abilities count hybrid mana symbols of the appropriate color. For example, a card with mana cost {3}{U/R}{U/R} has two red mana symbols in its mana cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If there are fewer than ten cards in your library, reveal them all. For each blue mana symbol in those cards’ mana costs, the targeted opponent puts the top card of their library into their graveyard. Then you reorder your entire library as you choose."
+      }
+    ]
   },
   {
     "name": "Talonrend",
@@ -786,7 +1092,8 @@
     "loyalty": null,
     "multiverse_id": 153430,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wake Thrasher",
@@ -813,7 +1120,13 @@
     "loyalty": null,
     "multiverse_id": 157405,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If permanents you control become untapped during your untap step, Wake Thresher’s ability will trigger that many times. However, since no player gets priority during the untap step, those abilities wait to be put on the stack until your upkeep starts. At that time, all your “beginning of upkeep” triggers will also trigger. You can put them and Wake Thresher’s abilities on the stack in any order."
+      }
+    ]
   },
   {
     "name": "Wilderness Hypnotist",
@@ -840,7 +1153,8 @@
     "loyalty": null,
     "multiverse_id": 153476,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ashling, the Extinguisher",
@@ -869,7 +1183,13 @@
     "loyalty": null,
     "multiverse_id": 151137,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/1/2013",
+        "text": "The target of the ability is chosen when Ashling’s ability is put on the stack. When the ability resolves, the player dealt combat damage by Ashling sacrifices that creature if they still control it. Neither regeneration nor indestructible can save a creature from being sacrificed."
+      }
+    ]
   },
   {
     "name": "Creakwood Ghoul",
@@ -896,7 +1216,13 @@
     "loyalty": null,
     "multiverse_id": 157206,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If the targeted card is removed from the graveyard before the ability resolves, the entire ability doesn’t resolve. You won’t gain 1 life."
+      }
+    ]
   },
   {
     "name": "Crumbling Ashes",
@@ -920,7 +1246,21 @@
     "loyalty": null,
     "multiverse_id": 158103,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "This ability is mandatory. If you’re the only player who controls a creature with a -1/-1 counter on it as your upkeep begins, you must target one of your own creatures."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "You can’t target a creature unless it already has a -1/-1 counter on it as your upkeep begins. Putting a -1/-1 counter on a creature during your upkeep won’t let Crumbling Ashes destroy it that turn."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the targeted creature loses all its -1/-1 counters by the time the ability resolves, the ability won’t resolve because its only target is illegal. The creature won’t be destroyed."
+      }
+    ]
   },
   {
     "name": "Lingering Tormentor",
@@ -947,7 +1287,37 @@
     "loyalty": null,
     "multiverse_id": 147437,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist stops being a creature, persist will still work."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point."
+      }
+    ]
   },
   {
     "name": "Merrow Bonegnawer",
@@ -975,7 +1345,13 @@
     "loyalty": null,
     "multiverse_id": 151158,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The targeted player chooses which card to exile."
+      }
+    ]
   },
   {
     "name": "Necroskitter",
@@ -1002,7 +1378,21 @@
     "loyalty": null,
     "multiverse_id": 152080,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "It doesn’t matter whose graveyard the creature is put into. It matters only that an opponent controlled it when it left the battlefield."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "It doesn’t matter how many -1/-1 counters were on the creature when it was put into a graveyard from the battlefield, as long as it had at least one."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The card returns to the battlefield without any -1/-1 counters on it (unless some other effect causes it to enter the battlefield with some)."
+      }
+    ]
   },
   {
     "name": "Needle Specter",
@@ -1030,7 +1420,8 @@
     "loyalty": null,
     "multiverse_id": 153474,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Nightmare Incursion",
@@ -1054,7 +1445,13 @@
     "loyalty": null,
     "multiverse_id": 157414,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The cards are exiled face up, so everyone can see what they are. (This is true of every effect that exiles cards, unless the effect specifically says it exiles those cards face down.)"
+      }
+    ]
   },
   {
     "name": "Raven's Crime",
@@ -1079,7 +1476,25 @@
     "loyalty": null,
     "multiverse_id": 153487,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A retrace card cast from your graveyard follows the normal timing rules for its card type."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard."
+      }
+    ]
   },
   {
     "name": "Smoldering Butcher",
@@ -1106,7 +1521,8 @@
     "loyalty": null,
     "multiverse_id": 157211,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Soot Imp",
@@ -1133,7 +1549,17 @@
     "loyalty": null,
     "multiverse_id": 158900,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "This ability affects all players, including you."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A hybrid spell that’s black and another color is *not* a nonblack spell. Since it’s black, it can’t be nonblack!"
+      }
+    ]
   },
   {
     "name": "Soul Reap",
@@ -1157,7 +1583,21 @@
     "loyalty": null,
     "multiverse_id": 151150,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "A hybrid creature that’s green and another color is *not* a nongreen creature. Since it’s green, it can’t be nongreen!"
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Soul Reap doesn’t check whether you’ve cast another black spell until Soul Reap resolves. If you cast Soul Reap, then cast a black instant in response, the creature’s controller will lose the life when Soul Reap resolves."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Although Soul Reap says it looks for “another black spell,” there’s no requirement that Soul Reap actually be cast (or be black) for this part of its ability to work. For example, if a spell such as Commandeer causes you to gain control of Soul Reap, it’ll still check whether you cast a black spell this turn, even though you didn’t cast Soul Reap itself."
+      }
+    ]
   },
   {
     "name": "Soul Snuffers",
@@ -1184,7 +1624,13 @@
     "loyalty": null,
     "multiverse_id": 142054,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The ability puts a -1/-1 counter on Soul Snuffers, too."
+      }
+    ]
   },
   {
     "name": "Syphon Life",
@@ -1209,7 +1655,25 @@
     "loyalty": null,
     "multiverse_id": 153447,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A retrace card cast from your graveyard follows the normal timing rules for its card type."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard."
+      }
+    ]
   },
   {
     "name": "Talara's Bane",
@@ -1233,7 +1697,13 @@
     "loyalty": null,
     "multiverse_id": 151142,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If the creature card has “*” in its power or toughness, the ability that defines “*” works in all zones. Note that the card is in the opponent’s hand when Talara’s Bane checks its toughness."
+      }
+    ]
   },
   {
     "name": "Umbra Stalker",
@@ -1259,7 +1729,21 @@
     "loyalty": null,
     "multiverse_id": 157399,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "This is a characteristic-defining ability, which means it functions in all zones. You include the symbols in the Stalker’s own mana cost if you need to determine its power and/or toughness while it’s in the graveyard."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Chroma abilities check only mana costs, which are found in a card’s upper right corner. They don’t count mana symbols that appear in a card’s text box."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Chroma abilities count hybrid mana symbols of the appropriate color. For example, a card with mana cost {3}{U/R}{U/R} has two red mana symbols in its mana cost."
+      }
+    ]
   },
   {
     "name": "Chaotic Backlash",
@@ -1283,7 +1767,13 @@
     "loyalty": null,
     "multiverse_id": 158903,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Each permanent is counted only once. For example, if the targeted player controls a white creature, a blue enchantment, and a white-blue creature, Chaotic Backlash will deal 6 damage to that player."
+      }
+    ]
   },
   {
     "name": "Cinder Pyromancer",
@@ -1311,7 +1801,8 @@
     "loyalty": null,
     "multiverse_id": 151067,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Duergar Cave-Guard",
@@ -1339,7 +1830,8 @@
     "loyalty": null,
     "multiverse_id": 153437,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fiery Bombardment",
@@ -1363,7 +1855,17 @@
     "loyalty": null,
     "multiverse_id": 157200,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Chroma abilities check only mana costs, which are found in a card’s upper right corner. They don’t count mana symbols that appear in a card’s text box."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Chroma abilities count hybrid mana symbols of the appropriate color. For example, a card with mana cost {3}{U/R}{U/R} has two red mana symbols in its mana cost."
+      }
+    ]
   },
   {
     "name": "Flame Jab",
@@ -1388,7 +1890,25 @@
     "loyalty": null,
     "multiverse_id": 153432,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A retrace card cast from your graveyard follows the normal timing rules for its card type."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard."
+      }
+    ]
   },
   {
     "name": "Hatchet Bully",
@@ -1415,7 +1935,8 @@
     "loyalty": null,
     "multiverse_id": 147413,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Hateflayer",
@@ -1442,7 +1963,25 @@
     "loyalty": null,
     "multiverse_id": 152155,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If the permanent is already untapped, you can’t activate its {Q} ability. That’s because you can’t pay the “Untap this permanent” cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The “summoning sickness” rule applies to {Q}. If a creature with an {Q} ability hasn’t been under your control since your most recent turn began, you can’t activate that ability. Ignore this rule if the creature also has haste."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When you activate an {Q} ability, you untap the creature with that ability as a cost. The untap can’t be responded to. (The actual ability can be responded to, of course.)"
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Wither applies to any damage Hateflayer deals to a creature, which includes both its combat damage and damage from its activated ability."
+      }
+    ]
   },
   {
     "name": "Heartlash Cinder",
@@ -1470,7 +2009,21 @@
     "loyalty": null,
     "multiverse_id": 141942,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Chroma abilities check only mana costs, which are found in a card’s upper right corner. They don’t count mana symbols that appear in a card’s text box."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Chroma abilities count hybrid mana symbols of the appropriate color. For example, a card with mana cost {3}{U/R}{U/R} has two red mana symbols in its mana cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The effect counts the mana symbols in this cards mana cost as well."
+      }
+    ]
   },
   {
     "name": "Hotheaded Giant",
@@ -1498,7 +2051,17 @@
     "loyalty": null,
     "multiverse_id": 153426,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Hotheaded Giant doesn’t check whether you’ve cast another red spell until Hotheaded Giant enters the battlefield."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Although Hotheaded Giant says it looks for “another red spell,” there’s no requirement that Hotheaded Giant actually be cast as a spell (or be red) for this part of its ability to work. For example, if a spell such as Zombify puts Hotheaded Giant directly onto the battlefield, its ability will still check whether you’ve cast a red spell this turn even though you didn’t cast Hotheaded Giant itself as a spell."
+      }
+    ]
   },
   {
     "name": "Impelled Giant",
@@ -1526,7 +2089,17 @@
     "loyalty": null,
     "multiverse_id": 152049,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Since the activated ability doesn’t have a tap symbol in its cost, you can tap creatures that haven’t been under your control since your most recent turn began to pay the cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The power of the creature you tap is checked as the ability resolves, not as the creature is tapped, and not at any later time should the power of that creature change. If that creature is no longer on the battlefield as the ability resolves, use the power it had when it was last on the battlefield."
+      }
+    ]
   },
   {
     "name": "Outrage Shaman",
@@ -1553,7 +2126,21 @@
     "loyalty": null,
     "multiverse_id": 153473,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Chroma abilities check only mana costs, which are found in a card’s upper right corner. They don’t count mana symbols that appear in a card’s text box."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Chroma abilities count hybrid mana symbols of the appropriate color. For example, a card with mana cost {3}{U/R}{U/R} has two red mana symbols in its mana cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The effect counts the mana symbols in this cards mana cost as well."
+      }
+    ]
   },
   {
     "name": "Puncture Blast",
@@ -1578,7 +2165,13 @@
     "loyalty": null,
     "multiverse_id": 152034,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "This is the only instant or sorcery spell that has wither. It works like anything else with wither: If it deals damage to a creature, the damage results in -1/-1 counters; if it deals damage to a player or planeswalker, the damage behaves normally."
+      }
+    ]
   },
   {
     "name": "Rekindled Flame",
@@ -1603,7 +2196,17 @@
     "loyalty": null,
     "multiverse_id": 158108,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Rekindled Flame’s triggered ability has an “intervening ‘if’ clause.” That means (1) the ability won’t trigger at all unless one of your opponents already has no cards in hand as your upkeep begins, and (2) the ability will do nothing if each of your opponents manages to get a card in hand by the time it resolves."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "You don’t specify an opponent; the ability will check all of them to see if at least one meets the condition. The opponent that meets the condition when the ability triggers and the one who meets the condition when it resolves can be different players."
+      }
+    ]
   },
   {
     "name": "Stigma Lasher",
@@ -1631,7 +2234,17 @@
     "loyalty": null,
     "multiverse_id": 153049,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Once the last ability resolves, it will be in effect for the rest of the game. It doesn’t matter if Stigma Lasher remains on the battlefield or not."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If a player has been dealt damage by Stigma Lasher, the following things are true: — Spells and abilities that would normally cause that player to gain life still resolve, but the life-gain part simply has no effect. — If a cost includes having that player gain life (like Invigorate’s alternative cost does), that cost can’t be paid. — Effects that would replace having that player gain life with some other effect won’t be able to do anything because it’s impossible for that player to gain life. — Effects that replace an event with having that player gain life (like Words of Worship’s effect does) will end up replacing the event with nothing. — If an effect says to set that player’s life total to a certain number, and that number is higher than the player’s current life total, that part of the effect won’t do anything. (If the number is lower than that player’s current life total, the effect will work as normal.)"
+      }
+    ]
   },
   {
     "name": "Thunderblust",
@@ -1659,7 +2272,37 @@
     "loyalty": null,
     "multiverse_id": 157411,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist stops being a creature, persist will still work."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point."
+      }
+    ]
   },
   {
     "name": "Unwilling Recruit",
@@ -1683,7 +2326,13 @@
     "loyalty": null,
     "multiverse_id": 157202,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "You may target a creature you already control with Unwilling Recruit. If you do, you’ll gain control of that creature (which usually won’t have any visible effect), untap it, and it’ll get +X/+0 until end of turn."
+      }
+    ]
   },
   {
     "name": "Aerie Ouphes",
@@ -1710,7 +2359,41 @@
     "loyalty": null,
     "multiverse_id": 153427,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If Aerie Ouphes has no -1/-1 counters on it when you sacrifice it to activate its first ability, persist will return Aerie Ouphes to the battlefield with a -1/-1 counter on it before that ability resolves. The ability will check the power of Aerie Ouphes at the time you sacrificed it, not the power of the returned Aerie Ouphes (which is actually a new object with no relation to its previous existence)."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist stops being a creature, persist will still work."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point."
+      }
+    ]
   },
   {
     "name": "Bloom Tender",
@@ -1737,7 +2420,21 @@
     "loyalty": null,
     "multiverse_id": 158901,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "For each color (white, blue, black, red, and green), check to see if you control a permanent of that color. You can count the same permanent for multiple colors. For example, if you control a green enchantment and a white-black creature, Bloom Tender’s ability produces {W}{B}{G}."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Bloom Tender won’t add more than one mana of any particular color to your mana pool. At most, it will produce {W}{U}{B}{R}{G}."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Bloom Tender can’t add colorless mana to your mana pool, even if you control a colorless permanent."
+      }
+    ]
   },
   {
     "name": "Duskdale Wurm",
@@ -1763,7 +2460,8 @@
     "loyalty": null,
     "multiverse_id": 151164,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Helix Pinnacle",
@@ -1789,7 +2487,17 @@
     "loyalty": null,
     "multiverse_id": 150992,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Helix Pinnacle’s triggered ability has an “intervening ‘if’ clause.” That means (1) the ability won’t trigger at all unless Helix Pinnacle already has 100 or more tower counters on it as your upkeep begins, and (2) the ability will do nothing if Helix Pinnacle has lost enough counters such that it has fewer than 100 counters on it when the ability resolves."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If Helix Pinnacle leaves the battlefield before its triggered ability resolves, check the number of counters that were on it as it last existed on the battlefield."
+      }
+    ]
   },
   {
     "name": "Marshdrinker Giant",
@@ -1816,7 +2524,8 @@
     "loyalty": null,
     "multiverse_id": 142015,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Monstrify",
@@ -1841,7 +2550,25 @@
     "loyalty": null,
     "multiverse_id": 153441,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A retrace card cast from your graveyard follows the normal timing rules for its card type."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard."
+      }
+    ]
   },
   {
     "name": "Nettle Sentinel",
@@ -1869,7 +2596,13 @@
     "loyalty": null,
     "multiverse_id": 151095,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "Nettle Sentinel’s triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered."
+      }
+    ]
   },
   {
     "name": "Phosphorescent Feast",
@@ -1893,7 +2626,17 @@
     "loyalty": null,
     "multiverse_id": 151113,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Chroma abilities check only mana costs, which are found in a card’s upper right corner. They don’t count mana symbols that appear in a card’s text box."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Chroma abilities count hybrid mana symbols of the appropriate color. For example, a card with mana cost {3}{U/R}{U/R} has two red mana symbols in its mana cost."
+      }
+    ]
   },
   {
     "name": "Primalcrux",
@@ -1920,7 +2663,21 @@
     "loyalty": null,
     "multiverse_id": 153431,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "This will count the number of symbols in its mana cost while it’s on the battlefield. The ability functions while it’s in other zones, but since it isn’t a permanent while in those zones it won’t count itself."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Chroma abilities check only mana costs, which are found in a card’s upper right corner. They don’t count mana symbols that appear in a card’s text box."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Chroma abilities count hybrid mana symbols of the appropriate color. For example, a card with mana cost {3}{U/R}{U/R} has two red mana symbols in its mana cost."
+      }
+    ]
   },
   {
     "name": "Regal Force",
@@ -1946,7 +2703,13 @@
     "loyalty": null,
     "multiverse_id": 147373,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "If Regal Force is still on the battlefield as its triggered ability resolves, its ability will count itself."
+      }
+    ]
   },
   {
     "name": "Savage Conception",
@@ -1971,7 +2734,25 @@
     "loyalty": null,
     "multiverse_id": 153438,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A retrace card cast from your graveyard follows the normal timing rules for its card type."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard."
+      }
+    ]
   },
   {
     "name": "Swirling Spriggan",
@@ -1998,7 +2779,13 @@
     "loyalty": null,
     "multiverse_id": 154348,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "You can choose any color or combination of colors. You can’t choose colorless."
+      }
+    ]
   },
   {
     "name": "Talara's Battalion",
@@ -2026,7 +2813,8 @@
     "loyalty": null,
     "multiverse_id": 157395,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tilling Treefolk",
@@ -2053,7 +2841,8 @@
     "loyalty": null,
     "multiverse_id": 151096,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Twinblade Slasher",
@@ -2081,7 +2870,8 @@
     "loyalty": null,
     "multiverse_id": 153436,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wickerbough Elder",
@@ -2109,7 +2899,17 @@
     "loyalty": null,
     "multiverse_id": 151097,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "You must choose a target artifact or enchantment to activate Wickerbough Elder’s last ability. You can’t pay {G} just to remove a -1/-1 counter from it without a legal target."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If an effect puts Wickerbough Elder onto the battlefield with one or more +1/+1 counters, its -1/-1 counter and one of those +1/+1 counters are removed as a state-based action before you can activate its ability."
+      }
+    ]
   },
   {
     "name": "Batwing Brume",
@@ -2133,7 +2933,21 @@
     "loyalty": null,
     "multiverse_id": 157407,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid part of its cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The spell checks on resolution to see if any mana of the stated colors was spent to pay its cost. If so, it doesn’t matter how much mana of that color was spent."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the spell is copied, the copy will never have had mana of the stated color paid for it, no matter what colors were spent on the original spell."
+      }
+    ]
   },
   {
     "name": "Beckon Apparition",
@@ -2157,7 +2971,21 @@
     "loyalty": null,
     "multiverse_id": 157415,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The controller of Beckon Apparition gets the token."
+      },
+      {
+        "date": "1/24/2013",
+        "text": "Beckon Apparition will be on the stack when you choose its target. It can’t target itself."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If the target card becomes an illegal target for Beckon Apparition, the spell doesn’t resolve. You don’t create a token."
+      }
+    ]
   },
   {
     "name": "Bloodied Ghost",
@@ -2184,7 +3012,8 @@
     "loyalty": null,
     "multiverse_id": 151098,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cauldron Haze",
@@ -2208,7 +3037,45 @@
     "loyalty": null,
     "multiverse_id": 151060,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If a nontoken creature that gains persist this way is put into a graveyard, that card will be returned to the battlefield with a -1/-1 counter on it. However, because it’s a new object with no relation to its previous existence, that permanent will not have persist."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If a creature has multiple instances of persist, the result is largely the same as having just one instance of persist. When the creature is put into a graveyard, each persist ability will trigger. The first one to resolve will return the creature to the battlefield with a -1/-1 counter on it. The rest will do nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist stops being a creature, persist will still work."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point."
+      }
+    ]
   },
   {
     "name": "Deathbringer Liege",
@@ -2237,7 +3104,21 @@
     "loyalty": null,
     "multiverse_id": 157288,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The abilities are separate and cumulative. If another creature you control is both of the listed colors, it will get a total of +2/+2."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If you cast a spell that’s both white and black, the last two abilities will both trigger. You may use them together to destroy any creature. To do so, put the “destroy” ability on the stack first, then put the “tap” ability on the stack, with each one targeting the same creature. When the abilities resolve, they’ll tap the creature, then destroy it."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "The last ability can target any creature, not just a tapped creature (it doesn’t say “target tapped creature”). When the ability resolves, check whether the creature is tapped or not. If it’s tapped, you may destroy it. If it’s not tapped, the ability does nothing."
+      }
+    ]
   },
   {
     "name": "Divinity of Pride",
@@ -2265,7 +3146,8 @@
     "loyalty": null,
     "multiverse_id": 150995,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Edge of the Divinity",
@@ -2293,7 +3175,13 @@
     "loyalty": null,
     "multiverse_id": 151155,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If the enchanted creature is both of the listed colors, it will get both bonuses."
+      }
+    ]
   },
   {
     "name": "Evershrike",
@@ -2322,7 +3210,25 @@
     "loyalty": null,
     "multiverse_id": 157978,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "You can activate Evershrike’s ability only while it’s in your graveyard."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "You can’t put an Aura onto the battlefield this way unless that Aura can legally be attached to Evershrike. For example, you can’t put an Aura card with “enchant player” onto the battlefield this way."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "You can activate Evershrike’s ability with X = 0. If you do, you’ll return Evershrike to the battlefield from your graveyard, then exile it. (There are no Aura cards with converted mana cost 0.)"
+      },
+      {
+        "date": "8/1/2008",
+        "text": "You can activate Evershrike’s ability even if you have no Auras in your hand, or if you have an Aura in your hand that you don’t want to put on it or can’t put on it. In either case, you’ll return Evershrike to the battlefield from your graveyard, then exile it. No player has the opportunity to cast spells or activate abilities while Evershrike is on the battlefield."
+      }
+    ]
   },
   {
     "name": "Gwyllion Hedge-Mage",
@@ -2350,7 +3256,25 @@
     "loyalty": null,
     "multiverse_id": 159069,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Each of the triggered abilities has an “intervening ‘if’ clause.” That means (1) the ability won’t trigger at all unless you control two or more lands of the appropriate land type when the Hedge-Mage enters the battlefield, and (2) the ability will do nothing if you don’t control two or more lands of the appropriate land type by the time it resolves."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Both abilities trigger at the same time. You can put them on the stack in any order."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Each of the triggered abilities look at your lands individually. This means that if you only control two dual-lands of the appropriate types, both of the abilities will trigger."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Both abilities are optional; you choose whether to use them when they resolve. If an ability has a target, you must choose a target even if you don’t plan to use the ability."
+      }
+    ]
   },
   {
     "name": "Harvest Gwyllion",
@@ -2376,7 +3300,8 @@
     "loyalty": null,
     "multiverse_id": 152089,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Nightsky Mimic",
@@ -2402,7 +3327,25 @@
     "loyalty": null,
     "multiverse_id": 151099,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The ability triggers whenever you cast a spell that’s both of its listed colors. It doesn’t matter whether that spell also happens to be any other colors."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If you cast a spell that’s the two appropriate colors for the second time in a turn, the ability triggers again. The Mimic will once again become the power and toughness stated in its ability, which could overwrite power- and toughness-setting effects that have been applied to it in the meantime."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Any other abilities the Mimic may have gained are not affected."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The effect from the ability overwrites other effects that set power and/or toughness if and only if those effects existed before the ability resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the ability resolves. Effects that switch the creature’s power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created."
+      }
+    ]
   },
   {
     "name": "Nip Gwyllion",
@@ -2428,7 +3371,8 @@
     "loyalty": null,
     "multiverse_id": 150986,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Pyrrhic Revival",
@@ -2452,7 +3396,13 @@
     "loyalty": null,
     "multiverse_id": 157397,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Pyrrhic Revival can cause creatures to be put onto the battlefield that have 0 toughness due to the -1/-1 counter from this effect. Those creatures are put right back into their owners’ graveyards as a state-based action. No spells or abilities that would remove counters or otherwise affect those creatures can be cast or activated before that happens. Still, the creatures did momentarily pop onto the battlefield, so any relevant triggered abilities (including their own enters-the-battlefield or leaves-the-battlefield abilities) will trigger. They’ll be put on the stack after state-based actions are checked."
+      }
+    ]
   },
   {
     "name": "Restless Apparition",
@@ -2479,7 +3429,37 @@
     "loyalty": null,
     "multiverse_id": 157291,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist stops being a creature, persist will still work."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point."
+      }
+    ]
   },
   {
     "name": "Stillmoon Cavalier",
@@ -2509,7 +3489,8 @@
     "loyalty": null,
     "multiverse_id": 153037,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Unmake",
@@ -2533,7 +3514,8 @@
     "loyalty": null,
     "multiverse_id": 151083,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Voracious Hatchling",
@@ -2562,7 +3544,17 @@
     "loyalty": null,
     "multiverse_id": 153444,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If you cast a spell that’s both of the listed colors, both abilities will trigger. You’ll remove a total of two -1/-1 counters from the Hatchling."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If there are no -1/-1 counters on it when the triggered ability resolves, the ability does nothing. There is no penalty for not being able to remove a counter."
+      }
+    ]
   },
   {
     "name": "Call the Skybreaker",
@@ -2587,7 +3579,25 @@
     "loyalty": null,
     "multiverse_id": 157400,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A retrace card cast from your graveyard follows the normal timing rules for its card type."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard."
+      }
+    ]
   },
   {
     "name": "Clout of the Dominus",
@@ -2615,7 +3625,13 @@
     "loyalty": null,
     "multiverse_id": 152092,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If the enchanted creature is both of the listed colors, it will get both bonuses."
+      }
+    ]
   },
   {
     "name": "Crackleburr",
@@ -2642,7 +3658,25 @@
     "loyalty": null,
     "multiverse_id": 157420,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If the permanent is already untapped, you can’t activate its {Q} ability. That’s because you can’t pay the “Untap this permanent” cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The “summoning sickness” rule applies to {Q}. If a creature with an {Q} ability hasn’t been under your control since your most recent turn began, you can’t activate that ability. Ignore this rule if the creature also has haste."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When you activate an {Q} ability, you untap the creature with that ability as a cost. The untap can’t be responded to. (The actual ability can be responded to, of course.)"
+      },
+      {
+        "date": "8/1/2008",
+        "text": "To activate either ability, you’ll need Crackleburr plus two other creatures. Crackleburr must have been under your control since your most recent turn began (or have haste), but the other two creatures don’t."
+      }
+    ]
   },
   {
     "name": "Crag Puca",
@@ -2668,7 +3702,17 @@
     "loyalty": null,
     "multiverse_id": 157285,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "Effects that switch power and toughness apply after all other effects that change power and/or toughness, regardless of which effect was created first."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Switching a creature’s power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches."
+      }
+    ]
   },
   {
     "name": "Dominus of Fealty",
@@ -2696,7 +3740,13 @@
     "loyalty": null,
     "multiverse_id": 151154,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If you already control the targeted permanent when the ability resolves, you still need to choose whether or not to apply the effect. If you choose to apply it, the permanent untaps and gains haste. If you don’t, it doesn’t."
+      }
+    ]
   },
   {
     "name": "Inside Out",
@@ -2721,7 +3771,17 @@
     "loyalty": null,
     "multiverse_id": 154263,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "Effects that switch power and toughness apply after all other effects that change power and/or toughness, regardless of which effect was created first."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Switching a creature’s power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches."
+      }
+    ]
   },
   {
     "name": "Mindwrack Liege",
@@ -2749,7 +3809,13 @@
     "loyalty": null,
     "multiverse_id": 151132,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The abilities are separate and cumulative. If another creature you control is both of the listed colors, it will get a total of +2/+2."
+      }
+    ]
   },
   {
     "name": "Mirror Sheen",
@@ -2773,7 +3839,21 @@
     "loyalty": null,
     "multiverse_id": 152106,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The targeted spell can have any number of targets, as long as you are one of them."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "It doesn’t matter who controls the spell."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The copy will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them."
+      }
+    ]
   },
   {
     "name": "Noggle Bandit",
@@ -2800,7 +3880,8 @@
     "loyalty": null,
     "multiverse_id": 157286,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Noggle Bridgebreaker",
@@ -2827,7 +3908,8 @@
     "loyalty": null,
     "multiverse_id": 158899,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Noggle Hedge-Mage",
@@ -2855,7 +3937,25 @@
     "loyalty": null,
     "multiverse_id": 159066,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Each of the triggered abilities has an “intervening ‘if’ clause.” That means (1) the ability won’t trigger at all unless you control two or more lands of the appropriate land type when the Hedge-Mage enters the battlefield, and (2) the ability will do nothing if you don’t control two or more lands of the appropriate land type by the time it resolves."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Both abilities trigger at the same time. You can put them on the stack in any order."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Each of the triggered abilities look at your lands individually. This means that if you only control two dual-lands of the appropriate types, both of the abilities will trigger."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Both abilities are optional; you choose whether to use them when they resolve. If an ability has a target, you must choose a target even if you don’t plan to use the ability."
+      }
+    ]
   },
   {
     "name": "Noggle Ransacker",
@@ -2882,7 +3982,13 @@
     "loyalty": null,
     "multiverse_id": 152032,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "First the player whose turn it is draws two cards, then each other player in turn order does so. Then the player whose turn it is randomly selects a card from their hand, then each other player in turn order does so. Finally, all cards selected this way are discarded at the same time."
+      }
+    ]
   },
   {
     "name": "Nucklavee",
@@ -2909,7 +4015,8 @@
     "loyalty": null,
     "multiverse_id": 153058,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Riverfall Mimic",
@@ -2935,7 +4042,25 @@
     "loyalty": null,
     "multiverse_id": 151068,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The ability triggers whenever you cast a spell that’s both of its listed colors. It doesn’t matter whether that spell also happens to be any other colors."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If you cast a spell that’s the two appropriate colors for the second time in a turn, the ability triggers again. The Mimic will once again become the power and toughness stated in its ability, which could overwrite power- and toughness-setting effects that have been applied to it in the meantime."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Any other abilities the Mimic may have gained are not affected."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The effect from the ability overwrites other effects that set power and/or toughness if and only if those effects existed before the ability resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the ability resolves. Effects that switch the creature’s power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created."
+      }
+    ]
   },
   {
     "name": "Shrewd Hatchling",
@@ -2964,7 +4089,17 @@
     "loyalty": null,
     "multiverse_id": 153486,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If you cast a spell that’s both of the listed colors, both abilities will trigger. You’ll remove a total of two -1/-1 counters from the Hatchling."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If there are no -1/-1 counters on it when the triggered ability resolves, the ability does nothing. There is no penalty for not being able to remove a counter."
+      }
+    ]
   },
   {
     "name": "Stream Hopper",
@@ -2990,7 +4125,8 @@
     "loyalty": null,
     "multiverse_id": 151124,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Unnerving Assault",
@@ -3014,7 +4150,29 @@
     "loyalty": null,
     "multiverse_id": 157416,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid part of its cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The spell checks on resolution to see if any mana of the stated colors was spent to pay its cost. If so, it doesn’t matter how much mana of that color was spent."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the spell is copied, the copy will never have had mana of the stated color paid for it, no matter what colors were spent on the original spell."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Unnerving Assault affects only creatures on the battlefield at the time it resolves. If a creature enters the battlefield later that turn, it won’t be affected."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If a creature changes controllers later in the turn, that won’t change how Unnerving Assault affected it."
+      }
+    ]
   },
   {
     "name": "Canker Abomination",
@@ -3041,7 +4199,13 @@
     "loyalty": null,
     "multiverse_id": 152033,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "You choose an opponent while Canker Abomination is entering the battlefield. No player may take actions between the time you choose the opponent and the time Canker Abomination gets -1/-1 counters."
+      }
+    ]
   },
   {
     "name": "Cankerous Thirst",
@@ -3065,7 +4229,41 @@
     "loyalty": null,
     "multiverse_id": 157393,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid part of its cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The spell checks on resolution to see if any mana of the stated colors was spent to pay its cost. If so, it doesn’t matter how much mana of that color was spent."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the spell is copied, the copy will never have had mana of the stated color paid for it, no matter what colors were spent on the original spell."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid part of its cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When you cast the spell, you choose its targets before you pay for it."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The spell checks on resolution to see if any mana of the stated colors was spent to pay its cost. If so, it doesn’t matter how much mana of that color was spent."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the spell is copied, the copy will never have had mana of the stated color paid for it, no matter what colors were spent on the original spell."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "As you cast Cankerous Thirst, you must target a creature for the first effect and you must target a creature for the second effect. Both targets may be the same. As Cankerous Thirst resolves, you decide whether to apply either effect."
+      }
+    ]
   },
   {
     "name": "Creakwood Liege",
@@ -3093,7 +4291,17 @@
     "loyalty": null,
     "multiverse_id": 157406,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The abilities are separate and cumulative. If another creature you control is both of the listed colors, it will get a total of +2/+2."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Since the token is black and green, it will get +2/+2 from Creakwood Liege as long as the Liege is on the battlefield."
+      }
+    ]
   },
   {
     "name": "Deity of Scars",
@@ -3122,7 +4330,21 @@
     "loyalty": null,
     "multiverse_id": 153488,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "You can pay {B/G} and remove a -1/-1 counter to activate the ability any time you want. Deity of Scars doesn’t need to be in danger of being destroyed."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Removing a -1/-1 counter from Deity of Scars is a cost of activating its activated ability. You can’t activate the ability if there are no -1/-1 counters on Deity of Scars."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Deity of Scars’s ability causes it to have more toughness when you activate the ability (as a result of losing a -1/-1 counter) and then puts a regeneration shield on it when the ability resolves. If you activate the ability in advance of Deity of Scars being dealt 5 damage, for example, Deity of Scars will be 6/6 before the damage is dealt to it. It won’t use the regeneration shield unless it’s dealt more damage that turn."
+      }
+    ]
   },
   {
     "name": "Desecrator Hag",
@@ -3148,7 +4370,17 @@
     "loyalty": null,
     "multiverse_id": 157419,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "This ability doesn’t target a card. It will determine which card is returned to your hand as it resolves. If there’s a tie, you choose which of the tied cards to return to your hand at that time."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the creature card has “*” in its power or toughness, the ability that defines “*” works in all zones."
+      }
+    ]
   },
   {
     "name": "Doomgape",
@@ -3175,7 +4407,13 @@
     "loyalty": null,
     "multiverse_id": 146010,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If you have no other creatures to sacrifice, you’ll have to sacrifice Doomgape itself. You’ll gain life equal to its toughness."
+      }
+    ]
   },
   {
     "name": "Drain the Well",
@@ -3199,7 +4437,8 @@
     "loyalty": null,
     "multiverse_id": 151079,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Gift of the Deity",
@@ -3227,7 +4466,13 @@
     "loyalty": null,
     "multiverse_id": 151153,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If the enchanted creature is both of the listed colors, it will get both bonuses."
+      }
+    ]
   },
   {
     "name": "Hag Hedge-Mage",
@@ -3255,7 +4500,25 @@
     "loyalty": null,
     "multiverse_id": 157980,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Each of the triggered abilities has an “intervening ‘if’ clause.” That means (1) the ability won’t trigger at all unless you control two or more lands of the appropriate land type when the Hedge-Mage enters the battlefield, and (2) the ability will do nothing if you don’t control two or more lands of the appropriate land type by the time it resolves."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Both abilities trigger at the same time. You can put them on the stack in any order."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Each of the triggered abilities look at your lands individually. This means that if you only control two dual-lands of the appropriate types, both of the abilities will trigger."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Both abilities are optional; you choose whether to use them when they resolve. If an ability has a target, you must choose a target even if you don’t plan to use the ability."
+      }
+    ]
   },
   {
     "name": "Noxious Hatchling",
@@ -3284,7 +4547,17 @@
     "loyalty": null,
     "multiverse_id": 153448,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If you cast a spell that’s both of the listed colors, both abilities will trigger. You’ll remove a total of two -1/-1 counters from the Hatchling."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If there are no -1/-1 counters on it when the triggered ability resolves, the ability does nothing. There is no penalty for not being able to remove a counter."
+      }
+    ]
   },
   {
     "name": "Odious Trow",
@@ -3310,7 +4583,8 @@
     "loyalty": null,
     "multiverse_id": 150977,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Quillspike",
@@ -3336,7 +4610,8 @@
     "loyalty": null,
     "multiverse_id": 152086,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rendclaw Trow",
@@ -3363,7 +4638,37 @@
     "loyalty": null,
     "multiverse_id": 158902,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist stops being a creature, persist will still work."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point."
+      }
+    ]
   },
   {
     "name": "Sapling of Colfenor",
@@ -3393,7 +4698,25 @@
     "loyalty": null,
     "multiverse_id": 157973,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The triggered ability results in three sequential events: you gain some life (subject to effects that might alter life gain), then lose some life (subject to other effects that might alter life loss), and then put the card into your hand."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If a creature card has “*” in its power or toughness, the ability that defines “*” works in all zones. Note that the card is in your library when Sapling of Colfenor’s ability checks the card’s power and toughness."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the revealed card is not a creature card, it remains on top of your library."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Lethal damage and effects that say “destroy” won’t cause Sapling of Colfenor to be put into the graveyard. However, Sapling of Colfenor could be put into the graveyard if its toughness becomes 0 or less, if it’s sacrificed, or if you control another Sapling of Colfenor (due to the “legend rule”)."
+      }
+    ]
   },
   {
     "name": "Stalker Hag",
@@ -3419,7 +4742,8 @@
     "loyalty": null,
     "multiverse_id": 151120,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Woodlurker Mimic",
@@ -3445,7 +4769,25 @@
     "loyalty": null,
     "multiverse_id": 158599,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The ability triggers whenever you cast a spell that’s both of its listed colors. It doesn’t matter whether that spell also happens to be any other colors."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If you cast a spell that’s the two appropriate colors for the second time in a turn, the ability triggers again. The Mimic will once again become the power and toughness stated in its ability, which could overwrite power- and toughness-setting effects that have been applied to it in the meantime."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Any other abilities the Mimic may have gained are not affected."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The effect from the ability overwrites other effects that set power and/or toughness if and only if those effects existed before the ability resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the ability resolves. Effects that switch the creature’s power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created."
+      }
+    ]
   },
   {
     "name": "Worm Harvest",
@@ -3470,7 +4812,41 @@
     "loyalty": null,
     "multiverse_id": 151135,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A retrace card cast from your graveyard follows the normal timing rules for its card type."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If you cast Worm Harvest from your graveyard by using retrace, the land you discard as an additional cost will be counted by Worm Harvest when it resolves."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Casting a card with retrace from your graveyard follows the normal timing rules for its card type."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "When a retrace card you cast from your graveyard resolves or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again. If it’s your turn, you may do so before any other player may take actions to try to remove it from your graveyard."
+      }
+    ]
   },
   {
     "name": "Balefire Liege",
@@ -3500,7 +4876,13 @@
     "loyalty": null,
     "multiverse_id": 158104,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The abilities are separate and cumulative. If another creature you control is both of the listed colors, it will get a total of +2/+2."
+      }
+    ]
   },
   {
     "name": "Battlegate Mimic",
@@ -3526,7 +4908,25 @@
     "loyalty": null,
     "multiverse_id": 151165,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The ability triggers whenever you cast a spell that’s both of its listed colors. It doesn’t matter whether that spell also happens to be any other colors."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If you cast a spell that’s the two appropriate colors for the second time in a turn, the ability triggers again. The Mimic will once again become the power and toughness stated in its ability, which could overwrite power- and toughness-setting effects that have been applied to it in the meantime."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Any other abilities the Mimic may have gained are not affected."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The effect from the ability overwrites other effects that set power and/or toughness if and only if those effects existed before the ability resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the ability resolves. Effects that switch the creature’s power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created."
+      }
+    ]
   },
   {
     "name": "Belligerent Hatchling",
@@ -3555,7 +4955,17 @@
     "loyalty": null,
     "multiverse_id": 153478,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If you cast a spell that’s both of the listed colors, both abilities will trigger. You’ll remove a total of two -1/-1 counters from the Hatchling."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If there are no -1/-1 counters on it when the triggered ability resolves, the ability does nothing. There is no penalty for not being able to remove a counter."
+      }
+    ]
   },
   {
     "name": "Double Cleave",
@@ -3579,7 +4989,8 @@
     "loyalty": null,
     "multiverse_id": 153039,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Duergar Assailant",
@@ -3606,7 +5017,8 @@
     "loyalty": null,
     "multiverse_id": 150975,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Duergar Hedge-Mage",
@@ -3634,7 +5046,25 @@
     "loyalty": null,
     "multiverse_id": 159068,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Each of the triggered abilities has an “intervening ‘if’ clause.” That means (1) the ability won’t trigger at all unless you control two or more lands of the appropriate land type when the Hedge-Mage enters the battlefield, and (2) the ability will do nothing if you don’t control two or more lands of the appropriate land type by the time it resolves."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Both abilities trigger at the same time. You can put them on the stack in any order."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Each of the triggered abilities look at your lands individually. This means that if you only control two dual-lands of the appropriate types, both of the abilities will trigger."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Both abilities are optional; you choose whether to use them when they resolve. If an ability has a target, you must choose a target even if you don’t plan to use the ability."
+      }
+    ]
   },
   {
     "name": "Duergar Mine-Captain",
@@ -3661,7 +5091,25 @@
     "loyalty": null,
     "multiverse_id": 151106,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If the permanent is already untapped, you can’t activate its {Q} ability. That’s because you can’t pay the “Untap this permanent” cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The “summoning sickness” rule applies to {Q}. If a creature with an {Q} ability hasn’t been under your control since your most recent turn began, you can’t activate that ability. Ignore this rule if the creature also has haste."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When you activate an {Q} ability, you untap the creature with that ability as a cost. The untap can’t be responded to. (The actual ability can be responded to, of course.)"
+      },
+      {
+        "date": "8/1/2008",
+        "text": "This ability affects only creatures that are attacking at the time it resolves. It won’t affect creatures that attack later in the turn."
+      }
+    ]
   },
   {
     "name": "Figure of Destiny",
@@ -3689,7 +5137,29 @@
     "loyalty": null,
     "multiverse_id": 158106,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "None of these abilities has a duration. If one of them resolves, it will remain in effect until the game ends, Figure of Destiny leaves the battlefield, or some subsequent effect changes its characteristics, whichever comes first."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Figure of Destiny’s abilities overwrite its power, toughness, and creature types. Typically, those abilities are activated in the order they appear on the card. However, if Figure of Destiny is an 8/8 Kithkin Spirit Warrior Avatar with flying and first strike, and you activate its first ability, it will become a 2/2 Kithkin Spirit that still has flying and first strike."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "You can activate Figure of Destiny’s second and third abilities regardless of what creature types it is. Each of those abilities checks Figure of Destiny’s creature types when that ability resolves. If Figure of Destiny isn’t the appropriate creature type at that time, the ability does nothing."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Figure of Destiny’s second ability checks whether it’s a Spirit, and its third ability checks whether it’s a Warrior. It doesn’t matter how it became the appropriate creature type."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The effect from the ability overwrites other effects that set power and/or toughness if and only if those effects existed before the ability resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the ability resolves. Effects that switch the creature’s power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created."
+      }
+    ]
   },
   {
     "name": "Fire at Will",
@@ -3713,7 +5183,17 @@
     "loyalty": null,
     "multiverse_id": 151149,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The number of targets must be at least 1 and at most 3. You divide the damage as you cast Fire at Will, not as it resolves. Each target must be assigned at least 1 damage."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "You may target both attacking creatures and blocking creatures as you cast Fire at Will."
+      }
+    ]
   },
   {
     "name": "Hearthfire Hobgoblin",
@@ -3740,7 +5220,8 @@
     "loyalty": null,
     "multiverse_id": 157201,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Hobgoblin Dragoon",
@@ -3767,7 +5248,8 @@
     "loyalty": null,
     "multiverse_id": 151090,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Moonhold",
@@ -3791,7 +5273,45 @@
     "loyalty": null,
     "multiverse_id": 157403,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid part of its cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The spell checks on resolution to see if any mana of the stated colors was spent to pay its cost. If so, it doesn’t matter how much mana of that color was spent."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the spell is copied, the copy will never have had mana of the stated color paid for it, no matter what colors were spent on the original spell."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid part of its cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When you cast the spell, you choose its targets before you pay for it."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The spell checks on resolution to see if any mana of the stated colors was spent to pay its cost. If so, it doesn’t matter how much mana of that color was spent."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the spell is copied, the copy will never have had mana of the stated color paid for it, no matter what colors were spent on the original spell."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Moonhold is not a counterspell. It will have no effect on creature spells the targeted player cast before Moonhold resolved."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Moonhold doesn’t stop effects that “put a card onto the battlefield.”"
+      }
+    ]
   },
   {
     "name": "Nobilis of War",
@@ -3819,7 +5339,13 @@
     "loyalty": null,
     "multiverse_id": 154258,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "This is a static ability. Attacking creatures you control will get +2/+0 from the moment they’re declared as attackers (or enter the battlefield attacking) until the moment the combat phase ends, they’re removed from combat, or Nobilis of War leaves the battlefield, whichever comes first."
+      }
+    ]
   },
   {
     "name": "Rise of the Hobgoblins",
@@ -3844,7 +5370,13 @@
     "loyalty": null,
     "multiverse_id": 151114,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "When the enters-the-battlefield ability resolves, you choose the value of X, pay for it, and put the tokens onto the battlefield. You can activate mana abilities to pay for {X}, but no one can cast spells or activate abilities in response to this choice."
+      }
+    ]
   },
   {
     "name": "Scourge of the Nobilis",
@@ -3872,7 +5404,21 @@
     "loyalty": null,
     "multiverse_id": 152015,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If the enchanted creature is both of the listed colors, it will get both bonuses."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The controller of the enchanted creature, not the controller of Scourge of the Nobilis, can activate the +1/+0 ability."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Once the +1/+0 ability is activated, it exists independently of the creature and Scourge of the Nobilis. It will resolve, and the creature will retain the bonus for the rest of the turn, even if Scourge of the Nobilis stops enchanting that creature."
+      }
+    ]
   },
   {
     "name": "Spitemare",
@@ -3898,7 +5444,13 @@
     "loyalty": null,
     "multiverse_id": 152044,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Even if the amount of damage dealt to Spitemare is enough to destroy it, Spitemare’s ability will trigger and it will deal the full amount of damage to the target."
+      }
+    ]
   },
   {
     "name": "Waves of Aggression",
@@ -3923,7 +5475,33 @@
     "loyalty": null,
     "multiverse_id": 158107,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A retrace card cast from your graveyard follows the normal timing rules for its card type."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Waves of Aggression untaps all creatures that attacked this turn, not just those that attacked during the most recent combat phase."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If it’s somehow not a main phase when Waves of Aggression resolves, all it does is untap all creatures that attacked that turn. No new phases are created."
+      }
+    ]
   },
   {
     "name": "Cold-Eyed Selkie",
@@ -3951,7 +5529,8 @@
     "loyalty": null,
     "multiverse_id": 153471,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fable of Wolf and Owl",
@@ -3976,7 +5555,8 @@
     "loyalty": null,
     "multiverse_id": 152087,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Favor of the Overbeing",
@@ -4004,7 +5584,13 @@
     "loyalty": null,
     "multiverse_id": 151118,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If the enchanted creature is both of the listed colors, it will get both bonuses."
+      }
+    ]
   },
   {
     "name": "Gilder Bairn",
@@ -4030,7 +5616,25 @@
     "loyalty": null,
     "multiverse_id": 152046,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If the permanent is already untapped, you can’t activate its {Q} ability. That’s because you can’t pay the “Untap this permanent” cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The “summoning sickness” rule applies to {Q}. If a creature with an {Q} ability hasn’t been under your control since your most recent turn began, you can’t activate that ability. Ignore this rule if the creature also has haste."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When you activate an {Q} ability, you untap the creature with that ability as a cost. The untap can’t be responded to. (The actual ability can be responded to, of course.)"
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Gilder Bairn’s ability will replicate each kind of counter on the targeted permanent, not just +1/+1 or -1/-1 counters."
+      }
+    ]
   },
   {
     "name": "Grazing Kelpie",
@@ -4057,7 +5661,37 @@
     "loyalty": null,
     "multiverse_id": 153428,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist stops being a creature, persist will still work."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point."
+      }
+    ]
   },
   {
     "name": "Groundling Pouncer",
@@ -4083,7 +5717,13 @@
     "loyalty": null,
     "multiverse_id": 153056,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "It matters that an opponent controls a creature with flying only as you activate this ability. Once you’ve activated it, Groundling Pouncer will still get +1/+3 and gain flying, even if all of your opponents’ creatures with flying leave the battlefield in response to the ability or after the ability resolves."
+      }
+    ]
   },
   {
     "name": "Invert the Skies",
@@ -4107,7 +5747,29 @@
     "loyalty": null,
     "multiverse_id": 151108,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid part of its cost."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "The spell checks on resolution to see if any mana of the stated colors was spent to pay its cost. If so, it doesn’t matter how much mana of that color was spent."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the spell is copied, the copy will never have had mana of the stated color paid for it, no matter what colors were spent on the original spell."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Invert the Skies affects only creatures on the battlefield at the time it resolves. If a creature enters the battlefield later that turn, it won’t be affected."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If a creature changes controllers later in the turn, that won’t change how Invert the Skies affected it."
+      }
+    ]
   },
   {
     "name": "Murkfiend Liege",
@@ -4135,7 +5797,25 @@
     "loyalty": null,
     "multiverse_id": 152091,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The abilities are separate and cumulative. If another creature you control is both of the listed colors, it will get a total of +2/+2."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "All your green and/or blue creatures untap during each other player’s untap step. You have no choice about what untaps. Those creatures untap at the same time as the active player’s permanents."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "During each other player’s untap step, effects that would otherwise cause your green and/or blue creatures to stay tapped don’t apply because they only apply during *your* untap step. For example, if you control Nettle Sentinel (a green creature that says “Nettle Sentinel doesn’t untap during your untap step”), you untap it during each other player’s untap step."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Multiple Murkfiend Lieges are redundant when it comes to the untap effect. You can’t untap your permanents more than once in a single untap step."
+      }
+    ]
   },
   {
     "name": "Overbeing of Myth",
@@ -4163,7 +5843,8 @@
     "loyalty": null,
     "multiverse_id": 151151,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Selkie Hedge-Mage",
@@ -4191,7 +5872,25 @@
     "loyalty": null,
     "multiverse_id": 159067,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Each of the triggered abilities has an “intervening ‘if’ clause.” That means (1) the ability won’t trigger at all unless you control two or more lands of the appropriate land type when the Hedge-Mage enters the battlefield, and (2) the ability will do nothing if you don’t control two or more lands of the appropriate land type by the time it resolves."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Both abilities trigger at the same time. You can put them on the stack in any order."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Each of the triggered abilities look at your lands individually. This means that if you only control two dual-lands of the appropriate types, both of the abilities will trigger."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Both abilities are optional; you choose whether to use them when they resolve. If an ability has a target, you must choose a target even if you don’t plan to use the ability."
+      }
+    ]
   },
   {
     "name": "Shorecrasher Mimic",
@@ -4217,7 +5916,25 @@
     "loyalty": null,
     "multiverse_id": 151147,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The ability triggers whenever you cast a spell that’s both of its listed colors. It doesn’t matter whether that spell also happens to be any other colors."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If you cast a spell that’s the two appropriate colors for the second time in a turn, the ability triggers again. The Mimic will once again become the power and toughness stated in its ability, which could overwrite power- and toughness-setting effects that have been applied to it in the meantime."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Any other abilities the Mimic may have gained are not affected."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The effect from the ability overwrites other effects that set power and/or toughness if and only if those effects existed before the ability resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the ability resolves. Effects that switch the creature’s power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created."
+      }
+    ]
   },
   {
     "name": "Slippery Bogle",
@@ -4243,7 +5960,8 @@
     "loyalty": null,
     "multiverse_id": 150999,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Snakeform",
@@ -4268,7 +5986,25 @@
     "loyalty": null,
     "multiverse_id": 157401,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Snakeform doesn’t counter abilities that have already triggered or been activated. In particular, there is no way to cast this to stop a creature’s “At the beginning of your upkeep” or “When this creature enters the battlefield” abilities from triggering."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the affected creature gains an ability after Snakeform resolves, it will keep that ability."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If Snakeform affects a creature with changeling, the creature will lose its changeling ability, and will no longer be all creature types."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The power/toughness-setting effect overwrites other effects that set power and toughness only if those effects existed before this spell resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after this spell resolves. Effects that switch the creature’s power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created."
+      }
+    ]
   },
   {
     "name": "Spitting Image",
@@ -4293,7 +6029,29 @@
     "loyalty": null,
     "multiverse_id": 154261,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A retrace card cast from your graveyard follows the normal timing rules for its card type."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "As the token is created, it checks the printed values of the creature it’s copying — or, if that creature is itself a token, the original characteristics of that token as stated by the effect that put it onto the battlefield — as well as any copy effects that have been applied to it. It won’t copy counters on the creature, nor will it copy other effects that have changed the creature’s power, toughness, types, color, or so on."
+      }
+    ]
   },
   {
     "name": "Sturdy Hatchling",
@@ -4322,7 +6080,17 @@
     "loyalty": null,
     "multiverse_id": 153477,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If you cast a spell that’s both of the listed colors, both abilities will trigger. You’ll remove a total of two -1/-1 counters from the Hatchling."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If there are no -1/-1 counters on it when the triggered ability resolves, the ability does nothing. There is no penalty for not being able to remove a counter."
+      }
+    ]
   },
   {
     "name": "Trapjaw Kelpie",
@@ -4349,7 +6117,37 @@
     "loyalty": null,
     "multiverse_id": 152140,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist stops being a creature, persist will still work."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point."
+      }
+    ]
   },
   {
     "name": "Wistful Selkie",
@@ -4376,7 +6174,8 @@
     "loyalty": null,
     "multiverse_id": 151143,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Altar Golem",
@@ -4406,7 +6205,8 @@
     "loyalty": null,
     "multiverse_id": 157974,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Antler Skulkin",
@@ -4433,7 +6233,45 @@
     "loyalty": null,
     "multiverse_id": 158293,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If a nontoken creature that gains persist this way is put into a graveyard, that card will be returned to the battlefield with a -1/-1 counter on it. However, because it’s a new object with no relation to its previous existence, that permanent will not have persist."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If a creature has multiple instances of persist, the result is largely the same as having just one instance of persist. When the creature is put into a graveyard, each persist ability will trigger. The first one to resolve will return the creature to the battlefield with a -1/-1 counter on it. The rest will do nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist stops being a creature, persist will still work."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point."
+      }
+    ]
   },
   {
     "name": "Fang Skulkin",
@@ -4460,7 +6298,8 @@
     "loyalty": null,
     "multiverse_id": 158296,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Hoof Skulkin",
@@ -4487,7 +6326,8 @@
     "loyalty": null,
     "multiverse_id": 158294,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Jawbone Skulkin",
@@ -4514,7 +6354,8 @@
     "loyalty": null,
     "multiverse_id": 158295,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Leering Emblem",
@@ -4541,7 +6382,13 @@
     "loyalty": null,
     "multiverse_id": 157971,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The bonus is given to the creature Leering Emblem is attached to as the ability resolves."
+      }
+    ]
   },
   {
     "name": "Scarecrone",
@@ -4569,7 +6416,8 @@
     "loyalty": null,
     "multiverse_id": 157979,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Shell Skulkin",
@@ -4596,7 +6444,8 @@
     "loyalty": null,
     "multiverse_id": 158297,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ward of Bones",
@@ -4621,7 +6470,13 @@
     "loyalty": null,
     "multiverse_id": 157972,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Spelling this out completely: — Each opponent who controls more creatures than you can’t play creature cards. — Each opponent who controls more artifacts than you can’t play artifact cards. — Each opponent who controls more enchantments than you can’t play enchantment cards. — Each opponent who controls more lands than you can’t play land cards."
+      }
+    ]
   },
   {
     "name": "Cascade Bluffs",
@@ -4646,7 +6501,8 @@
     "loyalty": null,
     "multiverse_id": 153433,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fetid Heath",
@@ -4671,7 +6527,8 @@
     "loyalty": null,
     "multiverse_id": 153446,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Flooded Grove",
@@ -4696,7 +6553,8 @@
     "loyalty": null,
     "multiverse_id": 153481,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rugged Prairie",
@@ -4721,7 +6579,8 @@
     "loyalty": null,
     "multiverse_id": 153434,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Springjack Pasture",
@@ -4747,7 +6606,21 @@
     "loyalty": null,
     "multiverse_id": 157976,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Springjack Pasture’s last ability is a mana ability. The whole ability — including the life gain — doesn’t use the stack and therefore can’t be responded to."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If you sacrifice no Goats, you’ll add no mana to your mana pool and you’ll gain no life."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "You can sacrifice any Goats you control to activate the third ability, not just Goats created by Springjack Pasture."
+      }
+    ]
   },
   {
     "name": "Twilight Mire",
@@ -4772,6 +6645,7 @@
     "loyalty": null,
     "multiverse_id": 153425,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]

@@ -24,7 +24,13 @@
     "loyalty": null,
     "multiverse_id": 438567,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/25/2015",
+        "text": "Scion of Ugin is colorless. It isn’t monocolored, nor is it an artifact."
+      }
+    ]
   },
   {
     "name": "Abzan Battle Priest",
@@ -52,7 +58,17 @@
     "loyalty": null,
     "multiverse_id": 438568,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/20/2014",
+        "text": "The cost to activate a creature’s outlast ability includes the tap symbol ({T}). A creature’s outlast ability can’t be activated unless that creature has been under your control continuously since the beginning of your turn."
+      },
+      {
+        "date": "9/20/2014",
+        "text": "Several creatures with outlast also grant an ability to creatures you control with +1/+1 counters on them, including themselves. These counters could come from an outlast ability, but any +1/+1 counter on the creature will count."
+      }
+    ]
   },
   {
     "name": "Abzan Falconer",
@@ -80,7 +96,17 @@
     "loyalty": null,
     "multiverse_id": 438569,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/20/2014",
+        "text": "The cost to activate a creature’s outlast ability includes the tap symbol ({T}). A creature’s outlast ability can’t be activated unless that creature has been under your control continuously since the beginning of your turn."
+      },
+      {
+        "date": "9/20/2014",
+        "text": "Several creatures with outlast also grant an ability to creatures you control with +1/+1 counters on them, including themselves. These counters could come from an outlast ability, but any +1/+1 counter on the creature will count."
+      }
+    ]
   },
   {
     "name": "Ainok Bond-Kin",
@@ -108,7 +134,17 @@
     "loyalty": null,
     "multiverse_id": 438570,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/20/2014",
+        "text": "The cost to activate a creature’s outlast ability includes the tap symbol ({T}). A creature’s outlast ability can’t be activated unless that creature has been under your control continuously since the beginning of your turn."
+      },
+      {
+        "date": "9/20/2014",
+        "text": "Several creatures with outlast also grant an ability to creatures you control with +1/+1 counters on them, including themselves. These counters could come from an outlast ability, but any +1/+1 counter on the creature will count."
+      }
+    ]
   },
   {
     "name": "Ajani's Pridemate",
@@ -127,7 +163,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever you gain life, you may put a +1/+1 counter on Ajani's Pridemate."
+      "Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate."
     ],
     "flavor_text": "\"When one of us prospers, the pride prospers.\"\n—Jazal Goldmane",
     "power": "2",
@@ -135,7 +171,29 @@
     "loyalty": null,
     "multiverse_id": 438571,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/3/2019",
+        "text": "The ability of Ajani’s Pridemate triggers just once for each life-gaining event, whether it’s 1 life from Ajani’s Welcome or 2 life from Battlefield Promotion."
+      },
+      {
+        "date": "5/3/2019",
+        "text": "If Ajani’s Pridemate is dealt lethal damage at the same time that you gain life, it won’t receive a counter from its ability in time to save it."
+      },
+      {
+        "date": "5/3/2019",
+        "text": "Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Ajani’s Pridemate’s ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once."
+      },
+      {
+        "date": "5/3/2019",
+        "text": "If you gain an amount of life “for each” of something, that life is gained as one event and the ability of Ajani’s Pridemate triggers only once."
+      },
+      {
+        "date": "5/3/2019",
+        "text": "In a Two-Headed Giant game, life gained by your teammate won’t cause the ability to trigger, even though it caused your team’s life total to increase."
+      }
+    ]
   },
   {
     "name": "Angel of Mercy",
@@ -162,7 +220,8 @@
     "loyalty": null,
     "multiverse_id": 438572,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Angelic Accord",
@@ -186,7 +245,21 @@
     "loyalty": null,
     "multiverse_id": 438573,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Angelic Accord’s ability checks how much life you’ve gained during the turn, not what your life total is compared to what it was when the turn began. For example, if you start the turn at 10 life, gain 6 life during the turn, then lose 6 life later that turn, the ability will trigger."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If you haven’t gained 4 or more life during the turn when the end step begins, the ability won’t trigger at all. Gaining life during the end step won’t cause the ability to trigger."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "In a Two-Headed Giant game, life gained by your teammate isn’t considered, even though it causes your team’s life total to increase."
+      }
+    ]
   },
   {
     "name": "Archangel of Thune",
@@ -214,7 +287,25 @@
     "loyalty": null,
     "multiverse_id": 438574,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Archangel of Thune’s last ability triggers just once for each life-gaining event, whether it’s 1 life from Auriok Champion or 6 life from Tavern Swindler."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a creature you control is dealt lethal damage at the same time that you gain life, it won’t receive a counter from Archangel of Thune’s last ability in time to save it."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Archangel of Thune’s last ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "In a Two-Headed Giant game, life gained by your teammate won’t cause the ability to trigger, even though it causes your team’s life total to increase."
+      }
+    ]
   },
   {
     "name": "Auriok Champion",
@@ -242,7 +333,13 @@
     "loyalty": null,
     "multiverse_id": 438575,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "Gaining life when a creature enters the battlefield is optional."
+      }
+    ]
   },
   {
     "name": "Austere Command",
@@ -270,7 +367,21 @@
     "loyalty": null,
     "multiverse_id": 438576,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Each of the chosen modes happens sequentially. If a permanent has an ability that triggers whenever it or another permanent is destroyed, it will see permanents destroyed at the same time as it or before it, but not permanents destroyed by later modes."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If the first and third modes are chosen, an artifact creature with converted mana cost 3 or less will have to be regenerated twice to survive. This is because the modes happen sequentially, and the regeneration “shield” is used up by the first one. (A similar thing happens with most of the other combinations.)"
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a card is exiled “until” another permanent leaves the battlefield, the exiled card returns to the battlefield immediately after that permanent leaves the battlefield during Austere Command’s resolution, and it may be destroyed by a later mode."
+      }
+    ]
   },
   {
     "name": "Avacyn, Angel of Hope",
@@ -299,7 +410,25 @@
     "loyalty": null,
     "multiverse_id": 438577,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "A permanent with indestructible can’t be destroyed, but it can still be sacrificed, exiled, put into a graveyard, and so on. Notably, a permanent with indestructible can be put into its owner’s graveyard due to the “legend rule.”"
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Creatures with indestructible still have damage marked on them, even though that damage won’t destroy them. If Avacyn leaves the battlefield, creatures that lose indestructible and have lethal damage marked on them will be destroyed."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "A creature with 0 toughness is put into its owner’s graveyard even if it has indestructible."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "A planeswalker with indestructible still loses loyalty as it’s dealt damage. It is put into its owner’s graveyard if its loyalty becomes 0."
+      }
+    ]
   },
   {
     "name": "Benevolent Ancestor",
@@ -326,7 +455,13 @@
     "loyalty": null,
     "multiverse_id": 438578,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If the target would be dealt damage by multiple sources at once, that player or that permanent’s controller chooses one of those sources at the time damage would be dealt, and 1 of that damage from that source is prevented."
+      }
+    ]
   },
   {
     "name": "Blinding Mage",
@@ -353,7 +488,8 @@
     "loyalty": null,
     "multiverse_id": 438579,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Burrenton Forge-Tender",
@@ -381,7 +517,21 @@
     "loyalty": null,
     "multiverse_id": 438580,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If the red source you chose changes colors before it deals damage, the damage-prevention effect doesn’t apply."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "The last ability of Burrenton Forge-Tender doesn’t target anything. You choose a source of damage as the ability resolves, if able. You can activate it even if there is no source to choose."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a permanent spell is chosen as the source of damage, Burrenton Forge-Tender’s prevention effect continues to apply for the rest of the turn to the permanent that spell becomes once it has entered the battlefield."
+      }
+    ]
   },
   {
     "name": "Disenchant",
@@ -405,7 +555,13 @@
     "loyalty": null,
     "multiverse_id": 438581,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "This is not modal. If the target changes from an artifact to an enchantment or vice versa, this still destroys it."
+      }
+    ]
   },
   {
     "name": "Doomed Traveler",
@@ -432,7 +588,8 @@
     "loyalty": null,
     "multiverse_id": 438582,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dragon Bell Monk",
@@ -460,7 +617,25 @@
     "loyalty": null,
     "multiverse_id": 438583,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/24/2014",
+        "text": "Any spell you cast that doesn’t have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won’t cause prowess to trigger. Playing a land also won’t cause prowess to trigger."
+      },
+      {
+        "date": "11/24/2014",
+        "text": "Prowess triggers only once for any spell, even if that spell has multiple types."
+      },
+      {
+        "date": "11/24/2014",
+        "text": "Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell."
+      },
+      {
+        "date": "11/24/2014",
+        "text": "Once it triggers, prowess isn’t connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve."
+      }
+    ]
   },
   {
     "name": "Elesh Norn, Grand Cenobite",
@@ -490,7 +665,13 @@
     "loyalty": null,
     "multiverse_id": 438584,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If a second Elesh Norn, Grand Cenobite comes under your control, you’ll put one into its owner’s graveyard due to the “legend rule” at the same time that any of your opponents’ creatures getting -4/-4 are put into their owner’s graveyard for having 0 or less toughness."
+      }
+    ]
   },
   {
     "name": "Emerge Unscathed",
@@ -515,7 +696,45 @@
     "loyalty": null,
     "multiverse_id": 438585,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "If a spell with rebound that you cast from your hand doesn’t resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won’t get to cast it again next turn."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent’s hand due to Sen Triplets), rebound won’t have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Rebound will have no effect on copies of spells because you don’t cast them from your hand."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a spell with rebound from your hand and it resolves, it isn’t put into your graveyard. Rather, it’s exiled directly from the stack. Effects that care about cards being put into your graveyard won’t do anything."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won’t get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "You choose the color as Emerge Unscathed resolves. Once you choose a color, it’s too late for players to respond."
+      }
+    ]
   },
   {
     "name": "Emeria Angel",
@@ -542,7 +761,17 @@
     "loyalty": null,
     "multiverse_id": 438586,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The landfall ability triggers whenever a land enters the battlefield under your control for any reason. It triggers whenever you play a land, as well as whenever a spell or ability (such as Rampant Growth) causes you to put a land onto the battlefield under your control. It will even trigger when a spell or ability causes another player to put a land onto the battlefield under your control (as can happen with Yavimaya Dryad’s ability, for example)."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "When a land enters the battlefield under your control, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one that resolves."
+      }
+    ]
   },
   {
     "name": "Great Teacher's Decree",
@@ -567,7 +796,45 @@
     "loyalty": null,
     "multiverse_id": 438587,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/25/2015",
+        "text": "Casting the card again due to the delayed triggered ability is optional. If you choose not to cast the card, or if you can’t (perhaps because there are no legal targets available), the card will stay exiled. You won’t get another chance to cast it on a future turn."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "If a spell with rebound that you cast from your hand doesn’t resolve for any reason (either because another spell or ability counters it or because all its targets are illegal as it tries to resolve), none of its effects will happen, including rebound. The spell will be put into its owner’s graveyard and you won’t get to cast it again on your next turn."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions, such as “Cast [this spell] only during combat,” must be followed."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "As long as you cast a spell with rebound from your hand, rebound will work regardless of whether you paid its mana cost or an alternative cost you were permitted to pay."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "If you cast a spell with rebound from any zone other than your hand (including your opponent’s hand), rebound will have no effect."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "If a replacement effect (such as the one created by Rest in Peace) would cause a spell with rebound that you cast from your hand to be put somewhere other than into your graveyard as it resolves, you can choose whether to apply the rebound effect or the other effect as the spell resolves."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "Rebound will have no effect on copies of spells because you don’t cast them from your hand."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "If you cast a card from exile this way, it will go to its owner’s graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Great Teacher’s Decree affects only creatures you control at the time it resolves. It won’t affect creatures that come under your control later in the turn."
+      }
+    ]
   },
   {
     "name": "Guard Duty",
@@ -594,7 +861,8 @@
     "loyalty": null,
     "multiverse_id": 438588,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Guided Strike",
@@ -619,7 +887,13 @@
     "loyalty": null,
     "multiverse_id": 438589,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If the creature is an illegal target when Guided Strike tries to resolve, it won’t resolve and none of its effects will happen. You won’t draw a card."
+      }
+    ]
   },
   {
     "name": "Infantry Veteran",
@@ -646,7 +920,13 @@
     "loyalty": null,
     "multiverse_id": 438590,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/15/2010",
+        "text": "An “attacking creature” is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat."
+      }
+    ]
   },
   {
     "name": "Iona's Judgment",
@@ -670,7 +950,8 @@
     "loyalty": null,
     "multiverse_id": 438591,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Path of Bravery",
@@ -695,7 +976,25 @@
     "loyalty": null,
     "multiverse_id": 438592,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Your starting life total is the life total you began the game with. For most two-player formats, this is 20. For Two-Headed Giant, it’s the life total your team started with, usually 30. In Commander games, your starting life total is 40."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a creature you control is dealt damage at the same time that you gain life (most likely because a source you control with lifelink deals damage at the same time), and your life total becomes greater than or equal to your starting life total, apply Path of Bravery’s effect before considering whether or not the damage dealt to that creature is lethal."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Path of Bravery’s triggered ability triggers only once, after attacking creatures are declared. For example, if you attack with five creatures, you’ll gain 5 life as a single event."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a creature enters the battlefield attacking after attacking creatures have been declared, the ability won’t trigger again because you didn’t declare that creature as an attacking creature. However, if such a creature enters the battlefield before the ability resolves, it will be counted when determining how much life is gained."
+      }
+    ]
   },
   {
     "name": "Pentarch Ward",
@@ -724,7 +1023,8 @@
     "loyalty": null,
     "multiverse_id": 438593,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Restoration Angel",
@@ -752,7 +1052,25 @@
     "loyalty": null,
     "multiverse_id": 438594,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Once the exiled creature returns, it’s considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners’ graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "The returned creature won’t be the target of any spells or abilities that targeted it before. Any spells that don’t target it, such as Austere Command, will still affect it."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If you target a creature that you control but don’t own, you control the returned creature indefinitely after it returns. When you leave a multiplayer game, exile any objects that you put onto the battlefield under your control but don’t own."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a token is exiled this way, it will cease to exist and won’t return to the battlefield."
+      }
+    ]
   },
   {
     "name": "Seeker of the Way",
@@ -780,7 +1098,25 @@
     "loyalty": null,
     "multiverse_id": 438595,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/20/2014",
+        "text": "Any spell you cast that doesn’t have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won’t cause prowess to trigger. Playing a land also won’t cause prowess to trigger."
+      },
+      {
+        "date": "9/20/2014",
+        "text": "Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell."
+      },
+      {
+        "date": "9/20/2014",
+        "text": "Once it triggers, prowess isn’t connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Multiple instances of lifelink on the same creature are redundant."
+      }
+    ]
   },
   {
     "name": "Serra Angel",
@@ -806,7 +1142,8 @@
     "loyalty": null,
     "multiverse_id": 438596,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Serra Ascendant",
@@ -834,7 +1171,17 @@
     "loyalty": null,
     "multiverse_id": 438597,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If Serra Ascendant is dealt damage at the same time that you gain life (most likely because it dealt combat damage to a creature blocking or blocked by it), and your life total becomes 30 or greater, apply its last effect before considering whether or not the damage dealt to it is lethal."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "In a Two-Headed Giant game, anything that cares about your life total checks your team’s life total. Serra Ascendant gets +5/+5 and has flying as long as your team has 30 or more life."
+      }
+    ]
   },
   {
     "name": "Stalwart Aven",
@@ -862,7 +1209,21 @@
     "loyalty": null,
     "multiverse_id": 438598,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/22/2015",
+        "text": "Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player."
+      },
+      {
+        "date": "6/22/2015",
+        "text": "If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger."
+      },
+      {
+        "date": "6/22/2015",
+        "text": "If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger."
+      }
+    ]
   },
   {
     "name": "Student of Ojutai",
@@ -889,7 +1250,8 @@
     "loyalty": null,
     "multiverse_id": 438599,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Survival Cache",
@@ -914,7 +1276,45 @@
     "loyalty": null,
     "multiverse_id": 438600,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "If a spell with rebound that you cast from your hand doesn’t resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won’t get to cast it again next turn."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent’s hand due to Sen Triplets), rebound won’t have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Rebound will have no effect on copies of spells because you don’t cast them from your hand."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a spell with rebound from your hand and it resolves, it isn’t put into your graveyard. Rather, it’s exiled directly from the stack. Effects that care about cards being put into your graveyard won’t do anything."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won’t get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "In a Two-Headed Giant game, anything that cares about your life total checks the life total of your team. For example, say that your team has 10 life and your opponent’s team has 11 life when you cast Survival Cache. You’ll gain 2 life, so your team’s life total becomes 12. Since your life total (12) is greater than an opponent’s life total (11), you’ll draw a card."
+      }
+    ]
   },
   {
     "name": "Sustainer of the Realm",
@@ -941,7 +1341,13 @@
     "loyalty": null,
     "multiverse_id": 438601,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "It gets the bonus only once, not once per creature it blocks."
+      }
+    ]
   },
   {
     "name": "Swords to Plowshares",
@@ -965,7 +1371,17 @@
     "loyalty": null,
     "multiverse_id": 438602,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "The amount of life gained is equal to the power of the targeted creature as it last existed on the battlefield."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "If the creature’s power is negative, its controller doesn’t lose or gain life."
+      }
+    ]
   },
   {
     "name": "Topan Freeblade",
@@ -993,7 +1409,21 @@
     "loyalty": null,
     "multiverse_id": 438603,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/22/2015",
+        "text": "Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player."
+      },
+      {
+        "date": "6/22/2015",
+        "text": "If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger."
+      },
+      {
+        "date": "6/22/2015",
+        "text": "If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger."
+      }
+    ]
   },
   {
     "name": "Wing Shards",
@@ -1018,7 +1448,29 @@
     "loyalty": null,
     "multiverse_id": 438604,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "The copies are put directly onto the stack. They aren’t cast and won’t be counted by other spells with storm cast later in the turn."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Spells cast from zones other than a player’s hand and spells that were countered are counted by the storm ability."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won’t affect the copies."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You may choose new targets for any of the copies. You can choose differently for each copy."
+      }
+    ]
   },
   {
     "name": "Yosei, the Morning Star",
@@ -1048,7 +1500,29 @@
     "loyalty": null,
     "multiverse_id": 438605,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If any of the targets of Yosei’s ability are illegal, they won’t be tapped."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If all of the permanents targeted by Yosei’s ability become illegal targets, nothing becomes tapped, but the target player still skips their untap step."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If the player becomes an illegal target, the target permanents are tapped, but the player doesn’t skip their untap step."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a permanent won’t untap during its controller’s next untap step, that effect waits to apply until its controller has an untap step that isn’t skipped."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If more than one effect instructs a player to skip their next untap step, such as if Yosei dies more than once in a turn, that player skips that many untap steps. This is different from effects that state that something doesn’t untap during an untap step."
+      }
+    ]
   },
   {
     "name": "Aetherize",
@@ -1072,7 +1546,13 @@
     "loyalty": null,
     "multiverse_id": 438606,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "An “attacking creature” is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat. There’s no such thing as an attacking creature outside of the combat phase."
+      }
+    ]
   },
   {
     "name": "Amass the Components",
@@ -1096,7 +1576,13 @@
     "loyalty": null,
     "multiverse_id": 438607,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If you cast Amass the Components with fewer than three cards in your library, you’ll draw the remaining cards in your library, put a card from your hand on the bottom of your library, then lose the game for drawing a card from a library with no cards in it the next time state-based actions are performed."
+      }
+    ]
   },
   {
     "name": "Ancestral Vision",
@@ -1121,7 +1607,57 @@
     "loyalty": null,
     "multiverse_id": 438608,
     "other_part": null,
-    "color_indicator": "Blue"
+    "color_indicator": "Blue",
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can’t be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it."
+      },
+      {
+        "date": "9/20/2016",
+        "text": "This has no mana cost, which means its mana cost can’t be paid for effects such as replicate from Djinn Illuminatus or flashback from Snapcaster Mage."
+      }
+    ]
   },
   {
     "name": "Bewilder",
@@ -1146,7 +1682,13 @@
     "loyalty": null,
     "multiverse_id": 438609,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If the creature is an illegal target when Bewilder tries to resolve, it won’t resolve and none of its effects will happen. You won’t draw a card."
+      }
+    ]
   },
   {
     "name": "Cephalid Broker",
@@ -1172,7 +1714,13 @@
     "loyalty": null,
     "multiverse_id": 438610,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You draw two cards and discard two cards all while Cephalid Broker’s ability is resolving. Nothing can happen between the two, and no player may choose to take actions."
+      }
+    ]
   },
   {
     "name": "Claustrophobia",
@@ -1200,7 +1748,17 @@
     "loyalty": null,
     "multiverse_id": 438611,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/22/2015",
+        "text": "Claustrophobia can target and enchant a tapped or untapped creature."
+      },
+      {
+        "date": "6/22/2015",
+        "text": "The enchanted creature can still be untapped in other ways. Claustrophobia will remain attached, and the creature will continue to not untap during its controller’s untap step."
+      }
+    ]
   },
   {
     "name": "Condescend",
@@ -1224,7 +1782,17 @@
     "loyalty": null,
     "multiverse_id": 438612,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You must be able to target another spell to cast Condescend. Condescend can’t target itself."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "You scry 2 even if the spell’s controller pays {X}."
+      }
+    ]
   },
   {
     "name": "Consecrated Sphinx",
@@ -1251,7 +1819,21 @@
     "loyalty": null,
     "multiverse_id": 438613,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You may either draw two cards or not draw at all. You can’t choose to draw only one card."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "The ability triggers once for each card an opponent draws. You choose whether to draw two cards as each of those abilities resolves."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If each player controls a Consecrated Sphinx, their abilities will cause each other to trigger until one player chooses not to draw cards."
+      }
+    ]
   },
   {
     "name": "Cryptic Command",
@@ -1279,7 +1861,17 @@
     "loyalty": null,
     "multiverse_id": 438614,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You choose both modes as you cast Cryptic Command. You must choose two different modes."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Look at both chosen modes to determine how many targets Cryptic Command has, if any. If it has at least one target, and all its targets are illegal when it tries to resolve, then it won’t resolve and none of its effects will happen. For example, if you choose the second and fourth modes, and the permanent is an illegal target when Cryptic Command tries to resolve, you won’t draw a card."
+      }
+    ]
   },
   {
     "name": "Day of the Dragons",
@@ -1304,7 +1896,25 @@
     "loyalty": null,
     "multiverse_id": 438615,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Auras attached to the exiled creatures will be put into their owners’ graveyards. Equipment attached to the exiled creatures will become unattached and remain on the battlefield. Any counters on the exiled creatures will cease to exist."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Token creatures will count to determine how many Dragon tokens you create, but they won’t be returned to the battlefield when Day of the Dragons leaves the battlefield."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If Day of the Dragons leaves the battlefield before its first ability has resolved, its second ability will trigger and you’ll sacrifice any Dragons you already control. Then its first ability will resolve and exile your creatures forever, leaving you with that many Dragon tokens."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "All of the nontoken creatures you exiled return to the battlefield when Day of the Dragons leaves the battlefield, even if some or all of the Dragon tokens had already left the battlefield."
+      }
+    ]
   },
   {
     "name": "Diminish",
@@ -1328,7 +1938,17 @@
     "loyalty": null,
     "multiverse_id": 438616,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Diminish overwrites all previous effects that set the target creature’s power and toughness to specific values. Other effects that set its power or toughness to specific values that start to apply after Diminish resolves will overwrite this effect."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Effects that modify the target creature’s power or toughness, such as the effects of Elesh Norn, Grand Cenobite or prowess, will apply to it no matter when they started to take effect. The same is true for counters that change the creature’s power or toughness (such as +1/+1 counters)."
+      }
+    ]
   },
   {
     "name": "Dissolve",
@@ -1352,7 +1972,25 @@
     "loyalty": null,
     "multiverse_id": 438617,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      }
+    ]
   },
   {
     "name": "Distortion Strike",
@@ -1377,7 +2015,45 @@
     "loyalty": null,
     "multiverse_id": 438618,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "If a spell with rebound that you cast from your hand doesn’t resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won’t get to cast it again next turn."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent’s hand due to Sen Triplets), rebound won’t have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Rebound will have no effect on copies of spells because you don’t cast them from your hand."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a spell with rebound from your hand and it resolves, it isn’t put into your graveyard. Rather, it’s exiled directly from the stack. Effects that care about cards being put into your graveyard won’t do anything."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won’t get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Distortion Strike doesn’t grant an ability to the targeted creature. Rather, it affects the game rules and states something that’s now true about that creature. The creature can’t be blocked even if it loses all abilities."
+      }
+    ]
   },
   {
     "name": "Doorkeeper",
@@ -1404,7 +2080,13 @@
     "loyalty": null,
     "multiverse_id": 438619,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2012",
+        "text": "The number of creatures with defender you control is counted when the ability resolves."
+      }
+    ]
   },
   {
     "name": "Elusive Spellfist",
@@ -1431,7 +2113,13 @@
     "loyalty": null,
     "multiverse_id": 438620,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Once Elusive Spellfist has been blocked, causing its ability to trigger won’t change or undo that block."
+      }
+    ]
   },
   {
     "name": "Flusterstorm",
@@ -1456,7 +2144,29 @@
     "loyalty": null,
     "multiverse_id": 438621,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "The copies are put directly onto the stack. They aren’t cast and won’t be counted by other spells with storm cast later in the turn."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Spells cast from zones other than a player’s hand and spells that were countered are counted by the storm ability."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won’t affect the copies."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "You may choose new targets for any of the copies. You can choose differently for each copy."
+      }
+    ]
   },
   {
     "name": "Fog Bank",
@@ -1483,7 +2193,13 @@
     "loyalty": null,
     "multiverse_id": 438622,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Fog Bank’s prevention effect isn’t considered while assigning combat damage from a creature with trample. For example, if it blocks a 5/5 creature with trample, that creature’s controller must assign 2 of that creature’s combat damage to Fog Bank and the remainder can be assigned to the defending player or planeswalker."
+      }
+    ]
   },
   {
     "name": "Frost Lynx",
@@ -1510,7 +2226,13 @@
     "loyalty": null,
     "multiverse_id": 438623,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Frost Lynx’s ability can target a creature that’s already tapped. That creature still won’t untap during its controller’s next untap step."
+      }
+    ]
   },
   {
     "name": "Illusory Ambusher",
@@ -1538,7 +2260,17 @@
     "loyalty": null,
     "multiverse_id": 438624,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Creatures may be dealt damage greater than their toughness. For example, if a source deals 5 damage to Illusory Ambusher, you’ll draw five cards."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If Illusory Ambusher blocks a creature with trample, that creature’s controller can assign any amount of damage from 1 to that creature’s power to Illusory Ambusher. Excess damage doesn’t have to be assigned to the defending player."
+      }
+    ]
   },
   {
     "name": "Illusory Angel",
@@ -1566,7 +2298,17 @@
     "loyalty": null,
     "multiverse_id": 438625,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/18/2014",
+        "text": "It doesn’t matter whether the other spell resolved. It could have been countered or, if you’ve somehow cast Illusory Angel as though it had flash, it could still be on the stack."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "It doesn’t matter whether the other spell resolved. It could have been countered or, if you’ve somehow cast Illusory Angel as though it had flash, it could still be on the stack."
+      }
+    ]
   },
   {
     "name": "Jace's Phantasm",
@@ -1593,7 +2335,21 @@
     "loyalty": null,
     "multiverse_id": 438626,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "The last ability of Jace’s Phantasm constantly monitors each opponent’s graveyard to see if the bonus applies. If the stated condition becomes no longer true, the bonus immediately stops applying."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If Jace’s Phantasm is dealt lethal damage at the same time as an opponent’s creature, and that creature will become that opponent’s tenth card in their graveyard, Jace’s Phantasm will be destroyed before it gets +4/+4. This is because all creatures that have been dealt lethal damage are destroyed at the same time."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "In a multiplayer game, a single opponent must have ten or more cards in their graveyard for the bonus to apply, although this opponent may change over the course of the game. You don’t have to pick a single opponent; the ability will monitor each opponent’s graveyard."
+      }
+    ]
   },
   {
     "name": "Jhessian Thief",
@@ -1621,7 +2377,21 @@
     "loyalty": null,
     "multiverse_id": 438627,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/22/2015",
+        "text": "Any spell you cast that doesn’t have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won’t cause prowess to trigger. Playing a land also won’t cause prowess to trigger."
+      },
+      {
+        "date": "6/22/2015",
+        "text": "Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell."
+      },
+      {
+        "date": "6/22/2015",
+        "text": "Once it triggers, prowess isn’t connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve."
+      }
+    ]
   },
   {
     "name": "Jin-Gitaxias, Core Augur",
@@ -1651,7 +2421,21 @@
     "loyalty": null,
     "multiverse_id": 438628,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If a player has more cards in their hand than their maximum hand size during the cleanup step of that player’s turn, that player discards until they have that many cards. A player’s maximum hand size isn’t checked at any time other than their own cleanup step."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Jin-Gitaxias doesn’t affect the maximum hand size of its controller. Because the cleanup step is after the end step, its controller may have to discard some of the cards that were just drawn."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Unless another spell or ability is affecting your opponent’s maximum hand size, Jin-Gitaxias’s ability will result in your opponent having a maximum hand size of zero. They will discard each card from their hand during their cleanup step."
+      }
+    ]
   },
   {
     "name": "Keiga, the Tide Star",
@@ -1681,7 +2465,13 @@
     "loyalty": null,
     "multiverse_id": 438629,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Keiga’s effect lasts indefinitely. It doesn’t wear off during the cleanup step."
+      }
+    ]
   },
   {
     "name": "Mahamoti Djinn",
@@ -1707,7 +2497,8 @@
     "loyalty": null,
     "multiverse_id": 438630,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mana Drain",
@@ -1731,7 +2522,21 @@
     "loyalty": null,
     "multiverse_id": 438631,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Mana Drain can target a spell that can’t be countered. When Mana Drain resolves, that spell won’t be countered, but you’ll still add mana to your mana pool at the beginning of your next main phase."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If the target spell is an illegal target when Mana Drain tries to resolve, it won’t resolve and none of its effects will happen. You won’t get any mana."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Mana Drain’s delayed triggered ability will usually trigger at the beginning of your precombat main phase. However, if you cast Mana Drain during your precombat main phase or during your combat phase, its delayed triggered ability will trigger at the beginning of that turn’s postcombat main phase."
+      }
+    ]
   },
   {
     "name": "Mana Leak",
@@ -1755,7 +2560,8 @@
     "loyalty": null,
     "multiverse_id": 438632,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mnemonic Wall",
@@ -1782,7 +2588,8 @@
     "loyalty": null,
     "multiverse_id": 438633,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ojutai's Breath",
@@ -1807,7 +2614,45 @@
     "loyalty": null,
     "multiverse_id": 438634,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/25/2015",
+        "text": "Casting the card again due to the delayed triggered ability is optional. If you choose not to cast the card, or if you can’t (perhaps because there are no legal targets available), the card will stay exiled. You won’t get another chance to cast it on a future turn."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "If a spell with rebound that you cast from your hand doesn’t resolve for any reason (either because another spell or ability counters it or because all its targets are illegal as it tries to resolve), none of its effects will happen, including rebound. The spell will be put into its owner’s graveyard and you won’t get to cast it again on your next turn."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions, such as “Cast [this spell] only during combat,” must be followed."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "As long as you cast a spell with rebound from your hand, rebound will work regardless of whether you paid its mana cost or an alternative cost you were permitted to pay."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "If you cast a spell with rebound from any zone other than your hand (including your opponent’s hand), rebound will have no effect."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "If a replacement effect (such as the one created by Rest in Peace) would cause a spell with rebound that you cast from your hand to be put somewhere other than into your graveyard as it resolves, you can choose whether to apply the rebound effect or the other effect as the spell resolves."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "Rebound will have no effect on copies of spells because you don’t cast them from your hand."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "If you cast a card from exile this way, it will go to its owner’s graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Ojutai’s Breath can target a creature that’s already tapped. It still won’t untap during its controller’s next untap step."
+      }
+    ]
   },
   {
     "name": "Phantom Monster",
@@ -1833,7 +2678,8 @@
     "loyalty": null,
     "multiverse_id": 438635,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Repeal",
@@ -1858,7 +2704,8 @@
     "loyalty": null,
     "multiverse_id": 438636,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Riverwheel Aerialists",
@@ -1886,7 +2733,21 @@
     "loyalty": null,
     "multiverse_id": 438637,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/20/2014",
+        "text": "Any spell you cast that doesn’t have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won’t cause prowess to trigger. Playing a land also won’t cause prowess to trigger."
+      },
+      {
+        "date": "9/20/2014",
+        "text": "Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell."
+      },
+      {
+        "date": "9/20/2014",
+        "text": "Once it triggers, prowess isn’t connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve."
+      }
+    ]
   },
   {
     "name": "Shriekgeist",
@@ -1913,7 +2774,8 @@
     "loyalty": null,
     "multiverse_id": 438638,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Skywise Teachings",
@@ -1937,7 +2799,13 @@
     "loyalty": null,
     "multiverse_id": 438639,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "While resolving the triggered ability of Skywise Teachings, you can’t pay {1}{U} multiple times to create more tokens."
+      }
+    ]
   },
   {
     "name": "Sphinx of Uthuun",
@@ -1964,7 +2832,21 @@
     "loyalty": null,
     "multiverse_id": 438640,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You (not your opponent) choose which pile to put into your hand and which to put into your graveyard."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "A pile can have no cards in it. In this case, you’ll choose whether to put all the revealed cards into your hand or into your graveyard."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "In multiplayer games, you choose an opponent to separate the cards when the ability resolves. This doesn’t target that opponent. Because the cards are revealed, all players may see the cards and offer opinions."
+      }
+    ]
   },
   {
     "name": "Teferi, Mage of Zhalfir",
@@ -1995,7 +2877,25 @@
     "loyalty": null,
     "multiverse_id": 438641,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "If you have Teferi on the battlefield and there’s a Split Second spell on the stack (such as Sudden Death), you can’t Suspend creatures until after the Split Second spell resolves."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Teferi’s last ability means that in order for an opponent to cast a spell, it must be that opponent’s turn, during a main phase, and the stack must be empty. This is true even if the player doesn’t have a sorcery they are able to cast, or if a rule or effect allows a sorcery to be cast at another time."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If you have Teferi on the battlefield, you may exile creature cards in your hand with suspend any time you could cast an instant."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a spell or ability lets an opponent cast a card as part of its effect (such as suspend and rebound do), that opponent can’t cast that card since the currently resolving ability is still on the stack. This is true even if that card is an instant."
+      }
+    ]
   },
   {
     "name": "Thought Scour",
@@ -2020,7 +2920,17 @@
     "loyalty": null,
     "multiverse_id": 438642,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/22/2011",
+        "text": "If the target player is an illegal target when Thought Scour tries to resolve, it won’t resolve and none of its effects will happen. You won’t draw a card."
+      },
+      {
+        "date": "1/22/2011",
+        "text": "Follow the instructions in the order listed on the card: if you target yourself, you’ll put the top two cards of your library into your graveyard and then draw a card."
+      }
+    ]
   },
   {
     "name": "Windfall",
@@ -2044,7 +2954,8 @@
     "loyalty": null,
     "multiverse_id": 438643,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Abyssal Persecutor",
@@ -2071,7 +2982,33 @@
     "loyalty": null,
     "multiverse_id": 438644,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "No game effect can cause you to win the game or cause any opponent to lose the game while you control Abyssal Persecutor. It doesn’t matter whether an opponent has 0 or less life, an opponent is forced to draw a card while their library is empty, an opponent has ten or more poison counters, an opponent is dealt combat damage by Phage the Untouchable, you control Felidar Sovereign and have 40 or more life, or so on. You keep playing."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Other circumstances can still cause an opponent to lose the game, however. An opponent will lose a game if they concede, if that player is penalized with a Game Loss or a Match Loss during a sanctioned tournament due to a DCI rules infraction, or if that player’s Magic Online® game clock runs out of time."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Effects that say the game is a draw, such as the _Legends_(TM) card Divine Intervention, are not affected by Abyssal Persecutor."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Abyssal Persecutor won’t preclude an opponent’s life total from reaching 0 or less. It will just preclude that player from losing the game as a result."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If Abyssal Persecutor leaves the battlefield while an opponent has 0 or less life, that opponent will lose the game as a state-based action. No player can respond between the time Abyssal Persecutor leaves the battlefield and the time that player loses the game."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Even though your opponents can’t lose the game, a player can’t pay an amount of life that’s greater than their life total. If a player’s life total is 0 or less, that player can’t pay life at all, with one exception: a player may always pay 0 life."
+      }
+    ]
   },
   {
     "name": "Bala Ged Scorpion",
@@ -2097,7 +3034,13 @@
     "loyalty": null,
     "multiverse_id": 438645,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "The power of the targeted creature is checked both as you target it and as the ability resolves."
+      }
+    ]
   },
   {
     "name": "Balustrade Spy",
@@ -2125,7 +3068,13 @@
     "loyalty": null,
     "multiverse_id": 438646,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If the target player has no land cards in their library, all cards from that library will be revealed and put into their graveyard."
+      }
+    ]
   },
   {
     "name": "Bladewing's Thrall",
@@ -2152,7 +3101,13 @@
     "loyalty": null,
     "multiverse_id": 438647,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "The second ability of Bladewing’s Thrall triggers even if a Dragon enters the battlefield under an opponent’s control. The owner of Bladewing’s Thrall, not the controller of that Dragon, will control Bladewing’s Thrall."
+      }
+    ]
   },
   {
     "name": "Bloodghast",
@@ -2181,7 +3136,21 @@
     "loyalty": null,
     "multiverse_id": 438648,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The landfall ability triggers whenever a land enters the battlefield under your control for any reason. It triggers whenever you play a land, as well as whenever a spell or ability (such as Rampant Growth) causes you to put a land onto the battlefield under your control. It will even trigger when a spell or ability causes another player to put a land onto the battlefield under your control (as can happen with Yavimaya Dryad’s ability, for example)."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "When a land enters the battlefield under your control, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one that resolves."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Bloodghast’s landfall ability triggers only if it’s already in your graveyard at the time a land enters the battlefield under your control."
+      }
+    ]
   },
   {
     "name": "Bogbrew Witch",
@@ -2208,7 +3177,13 @@
     "loyalty": null,
     "multiverse_id": 438649,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You don’t have to declare which card you’re searching for when you activate Bogbrew Witch’s ability. You may find either while you’re searching."
+      }
+    ]
   },
   {
     "name": "Butcher's Glee",
@@ -2232,7 +3207,13 @@
     "loyalty": null,
     "multiverse_id": 438650,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Multiple instances of lifelink on the same creature are redundant."
+      }
+    ]
   },
   {
     "name": "Child of Night",
@@ -2250,7 +3231,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Lifelink (Damage dealt by this creature also causes you to gain that much life.)"
+      "Lifelink"
     ],
     "flavor_text": "Sins that would be too gruesome in the light of day are made more pleasing in the dark of night.",
     "power": "2",
@@ -2258,7 +3239,8 @@
     "loyalty": null,
     "multiverse_id": 438651,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dead Reveler",
@@ -2284,7 +3266,25 @@
     "loyalty": null,
     "multiverse_id": 438652,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "You make the choice to have the creature with unleash enter the battlefield with a +1/+1 counter or not as it’s entering the battlefield. At that point, it’s too late for a player to respond to the creature spell by trying to counter it, for example."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The unleash ability applies no matter where the creature is entering the battlefield from."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "A creature with unleash can’t block if it has any +1/+1 counter on it, not just one put on it by the unleash ability."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Putting a +1/+1 counter on a creature with unleash that’s already blocking won’t remove it from combat. It will continue to block."
+      }
+    ]
   },
   {
     "name": "Doom Blade",
@@ -2308,7 +3308,8 @@
     "loyalty": null,
     "multiverse_id": 438653,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Duress",
@@ -2332,7 +3333,8 @@
     "loyalty": null,
     "multiverse_id": 438654,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Eternal Thirst",
@@ -2359,7 +3361,17 @@
     "loyalty": null,
     "multiverse_id": 438655,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Multiple instances of lifelink on the same creature are redundant."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If the enchanted creature is dealt lethal damage at the same time as a creature an opponent controls, they’re destroyed at the same time. It won’t receive a +1/+1 counter from its ability in time to save it."
+      }
+    ]
   },
   {
     "name": "Festering Newt",
@@ -2385,7 +3397,13 @@
     "loyalty": null,
     "multiverse_id": 438656,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Whether you control a creature named Bogbrew Witch is checked only as the triggered ability resolves. How the target creature is affected won’t change if you gain or lose control of all your Bogbrew Witches later in the turn."
+      }
+    ]
   },
   {
     "name": "Foul-Tongue Invocation",
@@ -2410,7 +3428,25 @@
     "loyalty": null,
     "multiverse_id": 438657,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/25/2015",
+        "text": "You may cast Foul-Tongue Invocation targeting a player who controls no creatures. If you qualify for the “Dragon bonus,” you’ll just gain 4 life."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "If one of these spells is copied, the controller of the copy will get the “Dragon bonus” only if a Dragon card was revealed as an additional cost. The copy wasn’t cast, so whether you controlled a Dragon won’t matter."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "You can’t reveal more than one Dragon card to multiply the bonus. There is also no additional benefit for both revealing a Dragon card as an additional cost and controlling a Dragon as you cast the spell."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "If you don’t reveal a Dragon card from your hand, you must control a Dragon as you are finished casting the spell to get the bonus. For example, if you lose control of your only Dragon while casting the spell (because, for example, you sacrificed it to activate a mana ability), you won’t get the bonus."
+      }
+    ]
   },
   {
     "name": "Grisly Spectacle",
@@ -2434,7 +3470,17 @@
     "loyalty": null,
     "multiverse_id": 438658,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Use the creature’s power the last time it was on the battlefield to determine how many cards its controller puts into their graveyard."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If the creature is an illegal target when Grisly Spectacle tries to resolve, it won’t resolve and none of its effects will happen. The creature’s controller won’t put any cards into their graveyard."
+      }
+    ]
   },
   {
     "name": "Haunting Hymn",
@@ -2458,7 +3504,8 @@
     "loyalty": null,
     "multiverse_id": 438659,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Indulgent Tormentor",
@@ -2485,7 +3532,17 @@
     "loyalty": null,
     "multiverse_id": 438660,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "The opponent chooses whether they sacrifice a creature, pays 3 life, or allows you to draw a card. That player can’t make an impossible choice, such as sacrificing a creature while they control no creatures."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If there are no legal targets to choose, perhaps because all your opponents have hexproof, the ability is removed from the stack with no effect. You won’t draw a card. This is also true if the target opponent becomes an illegal target in response to the ability."
+      }
+    ]
   },
   {
     "name": "Kokusho, the Evening Star",
@@ -2515,7 +3572,8 @@
     "loyalty": null,
     "multiverse_id": 438661,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Lord of the Pit",
@@ -2542,7 +3600,21 @@
     "loyalty": null,
     "multiverse_id": 438662,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If you control any other creatures as Lord of the Pit’s triggered ability resolves, you must sacrifice one. You can’t choose to be dealt 7 damage instead."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If Lord of the Pit has gained lifelink, being dealt 7 damage by it doesn’t cause your life total to change, even though you gain and lose life. If your life total is less than 7, you won’t lose the game."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If you have two Lords of the Pit, you can sacrifice them to each other."
+      }
+    ]
   },
   {
     "name": "Mer-Ek Nightblade",
@@ -2570,7 +3642,17 @@
     "loyalty": null,
     "multiverse_id": 438663,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/20/2014",
+        "text": "The cost to activate a creature’s outlast ability includes the tap symbol ({T}). A creature’s outlast ability can’t be activated unless that creature has been under your control continuously since the beginning of your turn."
+      },
+      {
+        "date": "9/20/2014",
+        "text": "Several creatures with outlast also grant an ability to creatures you control with +1/+1 counters on them, including themselves. These counters could come from an outlast ability, but any +1/+1 counter on the creature will count."
+      }
+    ]
   },
   {
     "name": "Necropotence",
@@ -2596,7 +3678,21 @@
     "loyalty": null,
     "multiverse_id": 438664,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If a discarded card isn’t put into your graveyard (due to an effect such as that of Obstinate Baloth) or leaves your graveyard (perhaps because another effect returned it to your hand), it won’t be exiled."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If you discard a card with madness and wish to cast it, Necropotence’s ability won’t exile that card. If you don’t wish to cast it, you choose whether it ends up exiled or in your graveyard."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Necropotence’s last ability creates a delayed triggered ability that will put the exiled card into your hand. That ability still triggers even if Necropotence is removed from the battlefield before your end step."
+      }
+    ]
   },
   {
     "name": "Night of Souls' Betrayal",
@@ -2622,7 +3718,13 @@
     "loyalty": null,
     "multiverse_id": 438665,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If a second Night of Souls’ Betrayal comes under your control, you’ll put one into its owner’s graveyard due to the “legend rule” at the same time that any creatures getting -2/-2 are put into their owner’s graveyard for having 0 or less toughness."
+      }
+    ]
   },
   {
     "name": "Noxious Dragon",
@@ -2649,7 +3751,13 @@
     "loyalty": null,
     "multiverse_id": 438666,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/24/2014",
+        "text": "A face-down creature has a converted mana cost of 0. However, its converted mana cost changes when it’s turned face up. Thus, if a creature is turned face up in response to being targeted by Noxious Dragon’s ability, it may become an illegal target."
+      }
+    ]
   },
   {
     "name": "Ob Nixilis, the Fallen",
@@ -2677,7 +3785,17 @@
     "loyalty": null,
     "multiverse_id": 438667,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The landfall ability triggers whenever a land enters the battlefield under your control for any reason. It triggers whenever you play a land, as well as whenever a spell or ability (such as Rampant Growth) causes you to put a land onto the battlefield under your control. It will even trigger when a spell or ability causes another player to put a land onto the battlefield under your control (as can happen with Yavimaya Dryad’s ability, for example)."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "When a land enters the battlefield under your control, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one that resolves."
+      }
+    ]
   },
   {
     "name": "Phyrexian Rager",
@@ -2703,7 +3821,8 @@
     "loyalty": null,
     "multiverse_id": 438668,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rakdos Drake",
@@ -2730,7 +3849,25 @@
     "loyalty": null,
     "multiverse_id": 438669,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "You make the choice to have the creature with unleash enter the battlefield with a +1/+1 counter or not as it’s entering the battlefield. At that point, it’s too late for a player to respond to the creature spell by trying to counter it, for example."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The unleash ability applies no matter where the creature is entering the battlefield from."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "A creature with unleash can’t block if it has any +1/+1 counter on it, not just one put on it by the unleash ability."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Putting a +1/+1 counter on a creature with unleash that’s already blocking won’t remove it from combat. It will continue to block."
+      }
+    ]
   },
   {
     "name": "Reave Soul",
@@ -2754,7 +3891,8 @@
     "loyalty": null,
     "multiverse_id": 438670,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rotfeaster Maggot",
@@ -2780,7 +3918,13 @@
     "loyalty": null,
     "multiverse_id": 438671,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/18/2014",
+        "text": "Rotfeaster Maggot’s ability is mandatory. If you are the only player with creature cards in your graveyard, you must target one of them."
+      }
+    ]
   },
   {
     "name": "Rune-Scarred Demon",
@@ -2807,7 +3951,8 @@
     "loyalty": null,
     "multiverse_id": 438672,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sanguine Bond",
@@ -2831,7 +3976,13 @@
     "loyalty": null,
     "multiverse_id": 438673,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "Sanguine Bond’s ability triggers just once for each life-gaining event, whether it’s 1 life from Soul Warden or 8 life from Tendrils of Corruption."
+      }
+    ]
   },
   {
     "name": "Sheoldred, Whispering One",
@@ -2861,7 +4012,25 @@
     "loyalty": null,
     "multiverse_id": 438674,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Swampwalk is a keyword ability that means “This creature can’t be blocked if defending player controls a Swamp.” Most nonbasic lands don’t have basic land types, even if they produce colored mana. For example, Graven Cairns is neither a Swamp nor a Mountain, while Blood Crypt is both."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If another triggered ability during your upkeep causes you to sacrifice a creature, such as that of Lord of the Pit, you won’t be able to target it with Sheoldred’s triggered ability as that ability is put on the stack."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "The opponent whose upkeep it is chooses a creature to sacrifice when Sheoldred’s second triggered ability resolves."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "In a Two-Headed Giant game, the last ability will trigger twice at the beginning of the opposing team’s upkeep, once for each player on that team. Each player sacrifices only a creature they control."
+      }
+    ]
   },
   {
     "name": "Tavern Swindler",
@@ -2888,7 +4057,13 @@
     "loyalty": null,
     "multiverse_id": 438675,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You can’t activate Tavern Swindler’s ability if your life total is less than 3. You can activate it if your life total is exactly 3, but it’s probably a bad idea. You’ll lose the game before the ability resolves."
+      }
+    ]
   },
   {
     "name": "Thoughtseize",
@@ -2912,7 +4087,17 @@
     "loyalty": null,
     "multiverse_id": 438676,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "The loss of life is part of the spell’s effect. It’s not an additional cost. If Thoughtseize doesn’t resolve, you won’t lose life."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would."
+      }
+    ]
   },
   {
     "name": "Thrill-Kill Assassin",
@@ -2940,7 +4125,25 @@
     "loyalty": null,
     "multiverse_id": 438677,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "You make the choice to have the creature with unleash enter the battlefield with a +1/+1 counter or not as it’s entering the battlefield. At that point, it’s too late for a player to respond to the creature spell by trying to counter it, for example."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The unleash ability applies no matter where the creature is entering the battlefield from."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "A creature with unleash can’t block if it has any +1/+1 counter on it, not just one put on it by the unleash ability."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Putting a +1/+1 counter on a creature with unleash that’s already blocking won’t remove it from combat. It will continue to block."
+      }
+    ]
   },
   {
     "name": "Ulcerate",
@@ -2964,7 +4167,13 @@
     "loyalty": null,
     "multiverse_id": 438678,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "The loss of life isn’t a cost. If the target creature is an illegal target when Ulcerate tries to resolve, it won’t resolve and none of its effects will happen. You won’t lose any life."
+      }
+    ]
   },
   {
     "name": "Virulent Swipe",
@@ -2989,7 +4198,41 @@
     "loyalty": null,
     "multiverse_id": 438679,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "If a spell with rebound that you cast from your hand doesn’t resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won’t get to cast it again next turn."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent’s hand due to Sen Triplets), rebound won’t have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Rebound will have no effect on copies of spells because you don’t cast them from your hand."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a spell with rebound from your hand and it resolves, it isn’t put into your graveyard. Rather, it’s exiled directly from the stack. Effects that care about cards being put into your graveyard won’t do anything."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won’t get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile."
+      }
+    ]
   },
   {
     "name": "Wight of Precinct Six",
@@ -3015,7 +4258,17 @@
     "loyalty": null,
     "multiverse_id": 438680,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Wight of Precinct Six’s ability applies only while it’s on the battlefield. In all other zones, it’s a 1/1 creature."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If Wight of Precinct Six is dealt lethal damage at the same time as a creature an opponent controls, they’re destroyed at the same time. It won’t get an additional +1/+1 from its ability in time to save it."
+      }
+    ]
   },
   {
     "name": "Wrench Mind",
@@ -3039,7 +4292,13 @@
     "loyalty": null,
     "multiverse_id": 438681,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "You can discard either one artifact card or two cards which may or may not be artifacts. If you really want to, you can discard two artifact cards."
+      }
+    ]
   },
   {
     "name": "Anger of the Gods",
@@ -3063,7 +4322,13 @@
     "loyalty": null,
     "multiverse_id": 438682,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Creatures don’t necessarily have to be dealt lethal damage by Anger of the Gods to be exiled. After being dealt damage, if they would die for any reason that turn, they’ll be exiled instead."
+      }
+    ]
   },
   {
     "name": "Battle-Rattle Shaman",
@@ -3090,7 +4355,17 @@
     "loyalty": null,
     "multiverse_id": 438683,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "Battle-Rattle Shaman’s ability triggers when the beginning of combat step starts during each of your turns. It resolves before you declare attackers."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "If a spell or ability causes your turn to have multiple combat phases, Battle Rattle Shaman’s ability triggers during each of them."
+      }
+    ]
   },
   {
     "name": "Bogardan Hellkite",
@@ -3118,7 +4393,17 @@
     "loyalty": null,
     "multiverse_id": 438684,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You choose how many targets Bogardan Hellkite’s triggered ability has and how the damage is divided as you put the ability onto the stack. Each target must receive at least 1 damage."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If some of the creatures or players are illegal targets as Bogardan Hellkite’s triggered ability tries to resolve, the original division of damage still applies and the damage that would have been dealt to the illegal targets is lost. It won’t be dealt instead to a legal target."
+      }
+    ]
   },
   {
     "name": "Borderland Marauder",
@@ -3145,7 +4430,8 @@
     "loyalty": null,
     "multiverse_id": 438685,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Charmbreaker Devils",
@@ -3172,7 +4458,21 @@
     "loyalty": null,
     "multiverse_id": 438686,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "The instant or sorcery card returned to your hand is chosen at random as Charmbreaker Devils’s first ability resolves. If any player responds to the ability, that player won’t yet know what card will be returned."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Because the first ability doesn’t target the instant or sorcery card, any instants or sorceries put into your graveyard in response to that ability may be returned to your hand."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "All players get to see which card you chose at random as it’s returned to your hand."
+      }
+    ]
   },
   {
     "name": "Coordinated Assault",
@@ -3196,7 +4496,8 @@
     "loyalty": null,
     "multiverse_id": 438687,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Crucible of Fire",
@@ -3220,7 +4521,8 @@
     "loyalty": null,
     "multiverse_id": 438688,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Draconic Roar",
@@ -3245,7 +4547,25 @@
     "loyalty": null,
     "multiverse_id": 438689,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/25/2015",
+        "text": "Draconic Roar targets only the creature, not its controller. If that creature becomes an illegal target before Draconic Roar resolves, the spell doesn’t resolve and none of its effects will occur. No damage is dealt."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "If one of these spells is copied, the controller of the copy will get the “Dragon bonus” only if a Dragon card was revealed as an additional cost. The copy wasn’t cast, so whether you controlled a Dragon won’t matter."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "You can’t reveal more than one Dragon card to multiply the bonus. There is also no additional benefit for both revealing a Dragon card as an additional cost and controlling a Dragon as you cast the spell."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "If you don’t reveal a Dragon card from your hand, you must control a Dragon as you are finished casting the spell to get the bonus. For example, if you lose control of your only Dragon while casting the spell (because, for example, you sacrificed it to activate a mana ability), you won’t get the bonus."
+      }
+    ]
   },
   {
     "name": "Dragon Egg",
@@ -3273,7 +4593,8 @@
     "loyalty": null,
     "multiverse_id": 438690,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dragon Tempest",
@@ -3298,7 +4619,21 @@
     "loyalty": null,
     "multiverse_id": 438691,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "The amount of damage dealt by the Dragon that entered the battlefield is based on the number of Dragons you control when the ability resolves."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a Dragon entering the battlefield causes Dragon Tempest’s second ability to trigger but leaves the battlefield before that ability resolves, that Dragon still deals damage."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "The two abilities aren’t mutually exclusive. If a Dragon with flying (which is most of them) enters the battlefield under your control, both abilities will trigger."
+      }
+    ]
   },
   {
     "name": "Dragonlord's Servant",
@@ -3325,7 +4660,21 @@
     "loyalty": null,
     "multiverse_id": 438692,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/25/2015",
+        "text": "Dragonlord’s Servant can’t reduce the colored mana requirement of a Dragon spell you cast."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "If there are any additional costs to cast a Dragon spell, apply those before applying Dragonlord’s Servant and any other cost reductions."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "The ability can apply to alternative costs to cast a Dragon spell."
+      }
+    ]
   },
   {
     "name": "Earth Elemental",
@@ -3349,7 +4698,8 @@
     "loyalty": null,
     "multiverse_id": 438693,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fireball",
@@ -3374,7 +4724,25 @@
     "loyalty": null,
     "multiverse_id": 438694,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "For example, if X is 5 and you choose three target creatures, Fireball has a total cost of {7}{R} (even though its mana cost is just {5}{R} and its converted mana cost is 6). If those creatures are all still legal targets as Fireball resolves, it deals 1 damage to each of them."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "You may cast Fireball with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Fireball’s damage is divided as Fireball resolves, not as it’s cast, because there are no choices involved. The division involves only targets that are still legal as Fireball resolves."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "You can target more than X creatures. However, if the number of legal targets at the time Fireball resolves is greater than X, none of them will be dealt any damage."
+      }
+    ]
   },
   {
     "name": "Furnace Whelp",
@@ -3401,7 +4769,8 @@
     "loyalty": null,
     "multiverse_id": 438695,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fury Charm",
@@ -3428,7 +4797,8 @@
     "loyalty": null,
     "multiverse_id": 438696,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Guttersnipe",
@@ -3455,7 +4825,17 @@
     "loyalty": null,
     "multiverse_id": 438697,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Guttersnipe’s triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "In a Two-Headed Giant game, Guttersnipe’s ability causes the opposing team to lose 4 life."
+      }
+    ]
   },
   {
     "name": "Hammerhand",
@@ -3483,7 +4863,8 @@
     "loyalty": null,
     "multiverse_id": 438698,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Heat Ray",
@@ -3507,7 +4888,8 @@
     "loyalty": null,
     "multiverse_id": 438699,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Hoarding Dragon",
@@ -3535,7 +4917,21 @@
     "loyalty": null,
     "multiverse_id": 438700,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "The artifact card you find is exiled face up. All players can see what it is."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Hoarding Dragon’s two abilities are linked. The second ability refers only to the card exiled by that Hoarding Dragon’s first ability. In other words, each Dragon has its own hoard."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If Hoarding Dragon dies before its first ability resolves, its second ability will trigger and do nothing. Then its first ability will resolve. If you choose to exile an artifact card from your library, it will be exiled indefinitely."
+      }
+    ]
   },
   {
     "name": "Keldon Halberdier",
@@ -3563,7 +4959,49 @@
     "loyalty": null,
     "multiverse_id": 438701,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      }
+    ]
   },
   {
     "name": "Kiki-Jiki, Mirror Breaker",
@@ -3593,7 +5031,29 @@
     "loyalty": null,
     "multiverse_id": 438702,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "The token copies exactly what was printed on the creature and nothing else (unless that creature was copying something else or was a token; see below). It doesn’t copy whether that creature was tapped or untapped, whether it had any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If the copied creature had {X} in its mana cost, X is 0."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If the copied creature was copying something else, the tokens enter the battlefield as whatever that creature was copying."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If the copied creature is a token, the tokens created by Kiki-Jiki’s ability copies the original characteristics of that token as stated by the effect that put it onto the battlefield."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Any enters-the-battlefield abilities of the copied creature will trigger when the tokens enter the battlefield. Any “As [this creature] enters the battlefield” or “[This creature] enters the battlefield with” abilities of the copied creature will also work."
+      }
+    ]
   },
   {
     "name": "Kiln Fiend",
@@ -3620,7 +5080,13 @@
     "loyalty": null,
     "multiverse_id": 438703,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "If you cast an instant or sorcery spell, Kiln Fiend’s ability triggers and goes on the stack on top of it. The ability will resolve before the spell does."
+      }
+    ]
   },
   {
     "name": "Magus of the Moon",
@@ -3647,7 +5113,25 @@
     "loyalty": null,
     "multiverse_id": 438704,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/29/2017",
+        "text": "If a nonbasic land has an ability that causes it to enter the battlefield tapped, it will lose that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply “as” a land enters the battlefield, such as the first ability of Cavern of Souls. This is a change from previous rulings."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "Nonbasic lands will lose any other land types and abilities they had. They will gain the land type Mountain and gain the ability “{T}: Add {R}.”"
+      },
+      {
+        "date": "3/16/2018",
+        "text": "This effect doesn’t affect names or supertypes. It won’t turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won’t be named “Mountain.”"
+      },
+      {
+        "date": "3/16/2018",
+        "text": "If a nonbasic land has an ability that triggers “when” it enters the battlefield, it will lose that ability before it triggers."
+      }
+    ]
   },
   {
     "name": "Mark of Mutiny",
@@ -3671,7 +5155,17 @@
     "loyalty": null,
     "multiverse_id": 438705,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Mark of Mutiny can target any creature, even one that you already control or that is already untapped."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "The +1/+1 counter remains on the creature after the control-changing effect ends."
+      }
+    ]
   },
   {
     "name": "Monastery Swiftspear",
@@ -3699,7 +5193,21 @@
     "loyalty": null,
     "multiverse_id": 438706,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/20/2014",
+        "text": "Any spell you cast that doesn’t have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won’t cause prowess to trigger. Playing a land also won’t cause prowess to trigger."
+      },
+      {
+        "date": "9/20/2014",
+        "text": "Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell."
+      },
+      {
+        "date": "9/20/2014",
+        "text": "Once it triggers, prowess isn’t connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve."
+      }
+    ]
   },
   {
     "name": "Pillar of Flame",
@@ -3723,7 +5231,17 @@
     "loyalty": null,
     "multiverse_id": 438707,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "A creature dealt damage by Pillar of Flame that dies this turn will be exiled even if it wasn’t the target of Pillar of Flame (because the damage was redirected somehow). If the target creature isn’t dealt damage (most likely because the damage was prevented), it won’t be exiled if it dies that turn."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "A creature dealt damage by Pillar of Flame will be exiled no matter why the creature would die that turn. It could have its toughness reduced to 0 or less or be destroyed by another spell or ability."
+      }
+    ]
   },
   {
     "name": "Prodigal Pyromancer",
@@ -3750,7 +5268,13 @@
     "loyalty": null,
     "multiverse_id": 438708,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2007",
+        "text": "This is the timeshifted version of Prodigal Sorcerer."
+      }
+    ]
   },
   {
     "name": "Rift Bolt",
@@ -3775,7 +5299,49 @@
     "loyalty": null,
     "multiverse_id": 438709,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      }
+    ]
   },
   {
     "name": "Ryusei, the Falling Star",
@@ -3805,7 +5371,8 @@
     "loyalty": null,
     "multiverse_id": 438710,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Scourge of Valkas",
@@ -3833,7 +5400,17 @@
     "loyalty": null,
     "multiverse_id": 438711,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "The amount of damage dealt by the Dragon that entered the battlefield is based on the number of Dragons you control when the ability resolves."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a Dragon entering the battlefield causes Scourge of Valkas’s ability to trigger but leaves the battlefield before that ability resolves, that Dragon still deals damage."
+      }
+    ]
   },
   {
     "name": "Splatter Thug",
@@ -3861,7 +5438,25 @@
     "loyalty": null,
     "multiverse_id": 438712,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "You make the choice to have the creature with unleash enter the battlefield with a +1/+1 counter or not as it’s entering the battlefield. At that point, it’s too late for a player to respond to the creature spell by trying to counter it, for example."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "The unleash ability applies no matter where the creature is entering the battlefield from."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "A creature with unleash can’t block if it has any +1/+1 counter on it, not just one put on it by the unleash ability."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Putting a +1/+1 counter on a creature with unleash that’s already blocking won’t remove it from combat. It will continue to block."
+      }
+    ]
   },
   {
     "name": "Staggershock",
@@ -3886,7 +5481,41 @@
     "loyalty": null,
     "multiverse_id": 438713,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "If a spell with rebound that you cast from your hand doesn’t resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won’t get to cast it again next turn."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent’s hand due to Sen Triplets), rebound won’t have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Rebound will have no effect on copies of spells because you don’t cast them from your hand."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a spell with rebound from your hand and it resolves, it isn’t put into your graveyard. Rather, it’s exiled directly from the stack. Effects that care about cards being put into your graveyard won’t do anything."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won’t get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile."
+      }
+    ]
   },
   {
     "name": "Surreal Memoir",
@@ -3911,7 +5540,65 @@
     "loyalty": null,
     "multiverse_id": 438714,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "If a spell with rebound that you cast from your hand doesn’t resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won’t get to cast it again next turn."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent’s hand due to Sen Triplets), rebound won’t have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Rebound will have no effect on copies of spells because you don’t cast them from your hand."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a spell with rebound from your hand and it resolves, it isn’t put into your graveyard. Rather, it’s exiled directly from the stack. Effects that care about cards being put into your graveyard won’t do anything."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won’t get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Surreal Memoir isn’t targeted. You don’t choose an instant card at random from your graveyard until it resolves. Once you randomly select a card, it’s too late for players to respond."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you have only one instant card in your graveyard as Surreal Memoir resolves, that’s the one you’ll return to your hand."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you’re playing a format involving only cards from the _Urza’s Saga_(TM) set and later, you may change the order of your graveyard at any time. That means the easiest way to choose an instant card at random from your graveyard is to take all the instant cards in your graveyard, turn them face down, shuffle them, and pick a card. Then you just put the rest back."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you’re playing a format involving cards printed earlier than the _Urza’s Saga_ set, you may not reorder your graveyard. In this case, you need to be more careful when selecting an instant card at random, perhaps by using dice, writing the names of the instant cards on slips of paper and choosing one of them randomly, or carefully noting the existing graveyard order so you can reestablish it after performing the method suggested above, for example."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you have multiple instant cards in your graveyard with the same name, and one of them is being targeted by another spell on the stack or is enchanted (with Spellweaver Volute, for example), you must differentiate them so you know which one (if any) is chosen at random. In that case, it may be better to use dice or another method that allows you to differentiate between the instant cards to choose one at random."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "All players get to see which card you chose at random."
+      }
+    ]
   },
   {
     "name": "Thundermaw Hellkite",
@@ -3939,7 +5626,17 @@
     "loyalty": null,
     "multiverse_id": 438715,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Thundermaw Hellkite will deal 1 damage to each creature with flying your opponents control whether those creatures are tapped or untapped."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If the damage that would be dealt to a creature with flying is prevented, that creature will still be tapped. If that damage is redirected to another creature, the creature with flying will be tapped, not necessarily the creature that ultimately was dealt damage."
+      }
+    ]
   },
   {
     "name": "Tormenting Voice",
@@ -3964,7 +5661,13 @@
     "loyalty": null,
     "multiverse_id": 438716,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "You must discard exactly one card to cast Tormenting Voice; you can’t cast it without discarding a card, and you can’t discard additional cards."
+      }
+    ]
   },
   {
     "name": "Trumpet Blast",
@@ -3988,7 +5691,21 @@
     "loyalty": null,
     "multiverse_id": 438717,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "An “attacking creature” is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Even though Trumpet Blast affects only attacking creatures, the bonus will remain for the rest of the turn."
+      },
+      {
+        "date": "9/20/2014",
+        "text": "Only creatures that are attacking as Trumpet Blast resolves will receive the bonus. In other words, casting it before you’ve declared attackers usually won’t do anything."
+      }
+    ]
   },
   {
     "name": "Urabrask the Hidden",
@@ -4017,7 +5734,17 @@
     "loyalty": null,
     "multiverse_id": 438718,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Urabrask the Hidden gives itself haste while it’s on the battlefield."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a creature an opponent controls enters the battlefield at the same time that Urabrask the Hidden enters the battlefield under your control, Urabrask’s effect doesn’t apply to your opponent’s creature."
+      }
+    ]
   },
   {
     "name": "Vent Sentinel",
@@ -4044,7 +5771,8 @@
     "loyalty": null,
     "multiverse_id": 438719,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Aerial Predation",
@@ -4068,7 +5796,21 @@
     "loyalty": null,
     "multiverse_id": 438720,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2012",
+        "text": "You must be able to target a creature with flying to cast Aerial Predation."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "You must be able to target a creature with flying to cast Aerial Predation."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If the creature with flying is an illegal target when Aerial Predation tries to resolve, it won’t resolve and none of its effects will happen. You won’t gain 2 life."
+      }
+    ]
   },
   {
     "name": "Assault Formation",
@@ -4094,7 +5836,17 @@
     "loyalty": null,
     "multiverse_id": 438721,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "For example, a 2/3 creature will assign 3 combat damage rather than 2."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Assault Formation’s first ability doesn’t actually change any creature’s power. It changes only the amount of combat damage it assigns. All other rules and effects that check power or toughness use the real values. For example, Hunt the Weak won’t cause a creature to fight with its toughness."
+      }
+    ]
   },
   {
     "name": "Carven Caryatid",
@@ -4121,7 +5873,8 @@
     "loyalty": null,
     "multiverse_id": 438722,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Channel",
@@ -4145,7 +5898,13 @@
     "loyalty": null,
     "multiverse_id": 438723,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Once your life total is 0, you can’t pay any more life, even if you’ve somehow not lost the game yet."
+      }
+    ]
   },
   {
     "name": "Crowned Ceratok",
@@ -4172,7 +5931,8 @@
     "loyalty": null,
     "multiverse_id": 438724,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Curse of Predation",
@@ -4200,7 +5960,29 @@
     "loyalty": null,
     "multiverse_id": 438725,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/17/2013",
+        "text": "A Curse spell targets the player it will enchant like any other Aura spell, and a Curse stays on the battlefield like any other Aura. If the enchanted player gains protection from the Curse’s color (or any other characteristic the Curse has), the Curse will be put into its owner’s graveyard."
+      },
+      {
+        "date": "10/17/2013",
+        "text": "Each of the Curses can be attached to any player, including the player who cast the Curse."
+      },
+      {
+        "date": "10/17/2013",
+        "text": "Curse is an enchantment type, not a creature type (or any other kind of subtype)."
+      },
+      {
+        "date": "10/17/2013",
+        "text": "The ability won’t trigger when a creature attacks a planeswalker controlled by the enchanted player."
+      },
+      {
+        "date": "10/17/2013",
+        "text": "The Curse subtype has no inherent rules meaning, but two cards in the Innistrad set (Bitterheart Witch and Witchbane Orb) refer to Curses."
+      }
+    ]
   },
   {
     "name": "Durkwood Baloth",
@@ -4226,7 +6008,49 @@
     "loyalty": null,
     "multiverse_id": 438726,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      }
+    ]
   },
   {
     "name": "Duskdale Wurm",
@@ -4252,7 +6076,8 @@
     "loyalty": null,
     "multiverse_id": 438727,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Enlarge",
@@ -4268,7 +6093,7 @@
     "mana_cost": "3GG",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Target creature gets +7/+7 and gains trample until end of turn. It must be blocked this turn if able. (If a creature with trample would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to the player or planeswalker it's attacking.)"
+      "Target creature gets +7/+7 and gains trample until end of turn. It must be blocked this turn if able. (A creature with trample can deal excess combat damage to the player or planeswalker it's attacking.)"
     ],
     "flavor_text": "For Mittens, it was just another day at the beach.",
     "power": null,
@@ -4276,7 +6101,13 @@
     "loyalty": null,
     "multiverse_id": 438728,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If the creature attacks, the defending player must assign at least one blocker to it during the declare blockers step if that player controls any creatures that could block it. Other creatures that player controls can block other attackers or not block at all."
+      }
+    ]
   },
   {
     "name": "Genesis Hydra",
@@ -4304,7 +6135,33 @@
     "loyalty": null,
     "multiverse_id": 438729,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Genesis Hydra’s first ability will resolve before Genesis Hydra does. Notably, if you put an Aura card onto the battlefield this way, it can’t enchant Genesis Hydra."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If you have fewer than X cards in your library, you reveal all of them."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a card in a player’s library has {X} in its mana cost, X is considered to be 0."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "A nonland permanent card is an artifact, creature, enchantment, or planeswalker card."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If you put an Aura onto the battlefield this way, you choose what it enchants as it enters the battlefield. This doesn’t target any permanent or player, but it must be able to enchant that permanent or player. For example, you could put a green Aura onto the battlefield enchanting a creature with hexproof controlled by an opponent, but not one with protection from green."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If “the rest” is zero cards, either because X was 0 or because X was 1 and that card was put onto the battlefield, the library is still shuffled."
+      }
+    ]
   },
   {
     "name": "Genesis Wave",
@@ -4328,7 +6185,33 @@
     "loyalty": null,
     "multiverse_id": 438730,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If you have fewer than X cards in your library, you reveal all of them."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a card in a player’s library has {X} in its mana cost, X is considered to be 0."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "A permanent card is an artifact, creature, enchantment, land, or planeswalker card."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a card in your library has no mana symbols in its upper right corner (because it’s a land card, for example), its converted mana cost is 0. Such cards can always be put onto the battlefield with Genesis Wave."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "You don’t have to put permanent cards revealed this way onto the battlefield if you choose not to, regardless of their converted mana costs."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "All of the permanents put onto the battlefield this way enter at the same time. If any have triggered abilities that trigger on something else entering the battlefield, they’ll see each other."
+      }
+    ]
   },
   {
     "name": "Greater Basilisk",
@@ -4354,7 +6237,8 @@
     "loyalty": null,
     "multiverse_id": 438731,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Heroes' Bane",
@@ -4381,7 +6265,17 @@
     "loyalty": null,
     "multiverse_id": 438732,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "The value of X is determined using the power of Heroes’ Bane when the ability resolves."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If Heroes’ Bane’s power is less than 0 when its second ability resolves, X is considered to be 0."
+      }
+    ]
   },
   {
     "name": "Hunt the Weak",
@@ -4405,7 +6299,21 @@
     "loyalty": null,
     "multiverse_id": 438733,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/19/2018",
+        "text": "You can’t cast Hunt the Weak unless you choose both a creature you control and a creature you don’t control as targets."
+      },
+      {
+        "date": "1/19/2018",
+        "text": "If either target is an illegal target as Hunt the Weak resolves, neither creature will deal or be dealt damage."
+      },
+      {
+        "date": "1/19/2018",
+        "text": "If the creature you control is an illegal target as Hunt the Weak tries to resolve, you won’t put a +1/+1 counter on it. If that creature is a legal target but the other creature isn’t, you’ll still put the counter on the creature you control."
+      }
+    ]
   },
   {
     "name": "Hunting Pack",
@@ -4430,7 +6338,25 @@
     "loyalty": null,
     "multiverse_id": 438734,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "The copies are put directly onto the stack. They aren’t cast and won’t be counted by other spells with storm cast later in the turn."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Spells cast from zones other than a player’s hand and spells that were countered are counted by the storm ability."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won’t affect the copies."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack."
+      }
+    ]
   },
   {
     "name": "Inspiring Call",
@@ -4454,7 +6380,17 @@
     "loyalty": null,
     "multiverse_id": 438735,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Once a creature gains indestructible, it will have it for the turn, even if it loses all its +1/+1 counters."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Creatures you control that have +1/+1 counters put on them after Inspiring Call resolves won’t gain indestructible."
+      }
+    ]
   },
   {
     "name": "Ivy Elemental",
@@ -4480,7 +6416,8 @@
     "loyalty": null,
     "multiverse_id": 438736,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Jaddi Offshoot",
@@ -4507,7 +6444,21 @@
     "loyalty": null,
     "multiverse_id": 438737,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/25/2015",
+        "text": "A landfall ability triggers whenever a land enters the battlefield under your control for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control."
+      },
+      {
+        "date": "8/25/2015",
+        "text": "When a land enters the battlefield under your control, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve."
+      },
+      {
+        "date": "8/25/2015",
+        "text": "If the ability has an additional or replacement effect that depends on the land having a certain basic land type, the ability will check that land’s type as the ability resolves. If, at that time, the land that entered the battlefield is no longer on the battlefield, use its types when it left the battlefield to determine what happens."
+      }
+    ]
   },
   {
     "name": "Jugan, the Rising Star",
@@ -4537,7 +6488,17 @@
     "loyalty": null,
     "multiverse_id": 438738,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You choose how many targets Jugan’s triggered ability has and how the counters are distributed as you put the ability onto the stack. Each target must receive at least one counter."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If some of the creatures are illegal targets as Jugan’s triggered ability tries to resolve, the original distribution of counters still applies and the counters that would have been put on the illegal targets are lost. They won’t be put instead on a legal target."
+      }
+    ]
   },
   {
     "name": "Lead the Stampede",
@@ -4561,7 +6522,8 @@
     "loyalty": null,
     "multiverse_id": 438739,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Lotus Cobra",
@@ -4587,7 +6549,21 @@
     "loyalty": null,
     "multiverse_id": 438740,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The landfall ability triggers whenever a land enters the battlefield under your control for any reason. It triggers whenever you play a land, as well as whenever a spell or ability (such as Rampant Growth) causes you to put a land onto the battlefield under your control. It will even trigger when a spell or ability causes another player to put a land onto the battlefield under your control (as can happen with Yavimaya Dryad’s ability, for example)."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "When a land enters the battlefield under your control, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one that resolves."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Lotus Cobra’s ability isn’t a mana ability. Opponents may respond to it before you have that mana."
+      }
+    ]
   },
   {
     "name": "Lure",
@@ -4614,7 +6590,17 @@
     "loyalty": null,
     "multiverse_id": 438741,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Lure doesn’t give any creatures the ability to block the target creature. It just forces those creatures that are already able to block the creature to do so."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "As blockers are declared, any creature that’s tapped or affected by a spell or ability that says it can’t block doesn’t block. If there’s a cost associated with having the creature block, no player is forced to pay that cost, so it doesn’t block if that cost isn’t paid."
+      }
+    ]
   },
   {
     "name": "Nantuko Shaman",
@@ -4642,7 +6628,49 @@
     "loyalty": null,
     "multiverse_id": 438742,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      }
+    ]
   },
   {
     "name": "Nature's Claim",
@@ -4666,7 +6694,13 @@
     "loyalty": null,
     "multiverse_id": 438743,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If the target artifact or enchantment is an illegal target when Nature’s Claim tries to resolve, the entire spell doesn’t resolve. No one gains any life."
+      }
+    ]
   },
   {
     "name": "Netcaster Spider",
@@ -4693,7 +6727,8 @@
     "loyalty": null,
     "multiverse_id": 438744,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Obstinate Baloth",
@@ -4720,7 +6755,17 @@
     "loyalty": null,
     "multiverse_id": 438745,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If a spell or ability an opponent controls causes you to discard Obstinate Baloth, and both Obstinate Baloth’s ability and another ability (such as that of an opponent’s Leyline of the Void) instruct you to put Obstinate Baloth somewhere else instead of putting it into your graveyard, you choose which one to apply."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If you discard Obstinate Baloth and put it onto the battlefield, you’ve still discarded it. Abilities that trigger when you discard a card (such as that of Raiders’ Wake) will still trigger."
+      }
+    ]
   },
   {
     "name": "Overgrown Battlement",
@@ -4747,7 +6792,13 @@
     "loyalty": null,
     "multiverse_id": 438746,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Overgrown Battlement’s last ability is a mana ability. It doesn’t use the stack and can’t be responded to (such as by removing creatures with defender you control)."
+      }
+    ]
   },
   {
     "name": "Phantom Tiger",
@@ -4775,7 +6826,25 @@
     "loyalty": null,
     "multiverse_id": 438747,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If this card takes damage from multiple sources at once (for example if it is blocked by multiple creatures in combat), it only loses one counter."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "If unpreventable damage is applied to this card, you still remove a counter even though the prevention fails."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Remove one counter each time it would be damaged. If it was going to take more than one point of damage, you prevent all the damage and still only remove one counter."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The damage prevention ability works even if it has no counters, as long as some effect keeps its toughness above zero."
+      }
+    ]
   },
   {
     "name": "Prey's Vengeance",
@@ -4800,7 +6869,41 @@
     "loyalty": null,
     "multiverse_id": 438748,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "If a spell with rebound that you cast from your hand doesn’t resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won’t get to cast it again next turn."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent’s hand due to Sen Triplets), rebound won’t have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "Rebound will have no effect on copies of spells because you don’t cast them from your hand."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a spell with rebound from your hand and it resolves, it isn’t put into your graveyard. Rather, it’s exiled directly from the stack. Effects that care about cards being put into your graveyard won’t do anything."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won’t get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps)."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile."
+      }
+    ]
   },
   {
     "name": "Primeval Titan",
@@ -4827,7 +6930,13 @@
     "loyalty": null,
     "multiverse_id": 438749,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You may find any land cards, not just basic land cards."
+      }
+    ]
   },
   {
     "name": "Rampaging Baloths",
@@ -4854,7 +6963,17 @@
     "loyalty": null,
     "multiverse_id": 438750,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The landfall ability triggers whenever a land enters the battlefield under your control for any reason. It triggers whenever you play a land, as well as whenever a spell or ability (such as Rampant Growth) causes you to put a land onto the battlefield under your control. It will even trigger when a spell or ability causes another player to put a land onto the battlefield under your control (as can happen with Yavimaya Dryad’s ability, for example)."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "When a land enters the battlefield under your control, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one that resolves."
+      }
+    ]
   },
   {
     "name": "Search for Tomorrow",
@@ -4879,7 +6998,49 @@
     "loyalty": null,
     "multiverse_id": 438751,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effect that affects when you could cast it (such as flash) and any other effects that could stop you from casting it (such as Meddling Mage’s effect) to determine if and when you can do this. Whether or not you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or requires a target even if no legal targets are available at that time."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Exiling a card with suspend isn’t casting that card. This action doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it’s exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again during the card’s owner’s next upkeep."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "When the last time counter is removed, the second triggered ability of suspend will trigger. It doesn’t matter why the last time counter was removed or what effect removed it."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the second triggered ability of suspend (the one that lets you cast the card) is countered, the card can’t be cast. It remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "As the second triggered ability resolves, you must cast the card if able. Timing restrictions based on the card’s type are ignored."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If you can’t cast the card, perhaps because there are no legal targets available, it remains exiled with no time counters on it, and it’s no longer suspended."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "If the spell has any mandatory additional costs, you must pay those if able. However, if an additional cost includes a mana payment, you are forced to pay that cost only if there’s enough mana in your mana pool at the time you cast the spell. You aren’t forced to activate any mana abilities, although you may do so if you wish."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
+      }
+    ]
   },
   {
     "name": "Sultai Flayer",
@@ -4906,7 +7067,13 @@
     "loyalty": null,
     "multiverse_id": 438752,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If Sultai Flayer dies, and its toughness is still 4 or greater, its own ability will trigger."
+      }
+    ]
   },
   {
     "name": "Timberland Guide",
@@ -4933,7 +7100,13 @@
     "loyalty": null,
     "multiverse_id": 438753,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You may choose Timberland Guide as the target of its own ability."
+      }
+    ]
   },
   {
     "name": "Undercity Troll",
@@ -4960,7 +7133,21 @@
     "loyalty": null,
     "multiverse_id": 438754,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/22/2015",
+        "text": "Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player."
+      },
+      {
+        "date": "6/22/2015",
+        "text": "If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger."
+      },
+      {
+        "date": "6/22/2015",
+        "text": "If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger."
+      }
+    ]
   },
   {
     "name": "Vorinclex, Voice of Hunger",
@@ -4990,7 +7177,21 @@
     "loyalty": null,
     "multiverse_id": 438755,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "The types of mana are white, blue, black, red, green, and colorless."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a land you control produces multiple mana of more than one type, Vorinclex’s first triggered ability adds one mana of only one of those types. You choose which of those types it adds."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If Vorinclex leaves the battlefield after its second ability has triggered, that ability still resolves and the affected land won’t untap during its controller’s next untap step."
+      }
+    ]
   },
   {
     "name": "Wall of Roots",
@@ -5018,7 +7219,13 @@
     "loyalty": null,
     "multiverse_id": 438756,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If you must sacrifice a creature to pay a casting or activation cost that also includes mana, such as that of Bubbling Cauldron’s abilities, you may put a -0/-1 counter on Wall of Roots to make its toughness 0 and then sacrifice it to pay that cost."
+      }
+    ]
   },
   {
     "name": "Wildsize",
@@ -5043,7 +7250,8 @@
     "loyalty": null,
     "multiverse_id": 438757,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Azorius Charm",
@@ -5070,7 +7278,13 @@
     "loyalty": null,
     "multiverse_id": 438758,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Multiple instances of lifelink on the same creature are redundant."
+      }
+    ]
   },
   {
     "name": "Bladewing the Risen",
@@ -5101,7 +7315,8 @@
     "loyalty": null,
     "multiverse_id": 438759,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Blizzard Specter",
@@ -5132,7 +7347,17 @@
     "loyalty": null,
     "multiverse_id": 438760,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You choose the mode when you put Blizzard Specter’s triggered ability on the stack. Blizzard Specter’s second mode may be chosen even if the player’s hand is empty."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If Blizzard Specter’s first mode is chosen, the player who was dealt damage chooses the permanent to return to hand when the ability resolves. A permanent with hexproof or protection from black may be chosen this way."
+      }
+    ]
   },
   {
     "name": "Blood Baron of Vizkopa",
@@ -5159,7 +7384,13 @@
     "loyalty": null,
     "multiverse_id": 438761,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "In a Two-Headed Giant game, Blood Baron of Vizkopa gets +6/+6 and has flying as long as your team has 30 or more life and an opposing team has 10 or less life."
+      }
+    ]
   },
   {
     "name": "Chronicler of Heroes",
@@ -5186,7 +7417,13 @@
     "loyalty": null,
     "multiverse_id": 438762,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Whether you control a creature with a +1/+1 counter on it is checked only when Chronicler of Heroes’s ability resolves."
+      }
+    ]
   },
   {
     "name": "Corpsejack Menace",
@@ -5212,7 +7449,17 @@
     "loyalty": null,
     "multiverse_id": 438763,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If a creature you control would enter the battlefield with a number of +1/+1 counters on it, it enters with twice that many instead."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If you control two Corpsejack Menaces, the number of +1/+1 counters put on a creature is four times the original number. Three Corpsejack Menaces multiplies the original number by eight, and so on."
+      }
+    ]
   },
   {
     "name": "Electrolyze",
@@ -5237,7 +7484,21 @@
     "loyalty": null,
     "multiverse_id": 438764,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You divide the damage as you cast Electrolyze, not as it resolves. Each target must be assigned at least 1 damage. In other words, as you cast Electrolyze, you choose whether to have it deal 2 damage to a single target, or deal 1 damage to each of two targets."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If Electrolyze targets two creatures and one becomes an illegal target, the remaining target is dealt 1 damage, not 2. You’ll still draw a card."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If all chosen targets are illegal as Electrolyze tries to resolve, it won’t resolve and none of its effects will happen. No damage will be dealt and you won’t draw a card."
+      }
+    ]
   },
   {
     "name": "Firemane Angel",
@@ -5265,7 +7526,13 @@
     "loyalty": null,
     "multiverse_id": 438765,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If Firemane Angel is put into your graveyard from the battlefield or returned from your graveyard to the battlefield during your upkeep before its triggered ability resolves, you won’t gain 1 life."
+      }
+    ]
   },
   {
     "name": "Glimpse the Unthinkable",
@@ -5289,7 +7556,8 @@
     "loyalty": null,
     "multiverse_id": 438766,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Hypersonic Dragon",
@@ -5316,7 +7584,17 @@
     "loyalty": null,
     "multiverse_id": 438767,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Hypersonic Dragon’s last ability applies to sorcery cards in any zone, provided something is allowing you to cast them. For example, you could cast a sorcery with flashback as though it had flash."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Hypersonic Dragon’s last ability has no effect on abilities that you can activate “any time you could cast a sorcery.”"
+      }
+    ]
   },
   {
     "name": "Jungle Barrier",
@@ -5344,7 +7622,8 @@
     "loyalty": null,
     "multiverse_id": 438768,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Knight of the Reliquary",
@@ -5372,7 +7651,25 @@
     "loyalty": null,
     "multiverse_id": 438769,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Knight of the Reliquary’s first ability applies only while it’s on the battlefield. In all other zones, it’s a 2/2 creature."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "The activated ability’s cost checks the land’s subtype, not its name. You can sacrifice a nonbasic land this way as long as it has the subtype Forest or Plains. Most nonbasic lands don’t have basic land types, even if they produce colored mana. For example, Horizon Canopy is neither a Forest nor a Plains, while Temple Garden is both."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Sacrificing a Forest or Plains is part of the cost of Knight of the Reliquary’s activated ability. Assuming that sacrificing the land puts it into your graveyard, Knight of the Reliquary’s first ability will immediately give it an additional +1/+1 when that cost is paid because there’ll be a new land card in your graveyard. Paying a cost can’t be responded to (with Shock, for example)."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Knight of the Reliquary’s activated ability lets you find any land card, not just a basic land card."
+      }
+    ]
   },
   {
     "name": "Lightning Helix",
@@ -5396,7 +7693,13 @@
     "loyalty": null,
     "multiverse_id": 438770,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If the chosen target is illegal when Lightning Helix tries to resolve, it won’t resolve and none of its effects will happen. You won’t gain 3 life."
+      }
+    ]
   },
   {
     "name": "Malfegor",
@@ -5426,7 +7729,17 @@
     "loyalty": null,
     "multiverse_id": 438771,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Malfegor’s ability is not optional. You must discard your entire hand no matter how many creatures your opponents control."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "After you discard your hand and the number of creatures each opponent must sacrifice has been determined, each opponent in turn order, starting with the player whose turn it is if that player is your opponent, chooses which creatures they will sacrifice, then all the chosen creatures are all sacrificed at the same time."
+      }
+    ]
   },
   {
     "name": "Rosheen Meanderer",
@@ -5455,7 +7768,25 @@
     "loyalty": null,
     "multiverse_id": 438772,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "A “cost that contains {X}” may be a spell’s total cost, an activated ability’s cost, a suspend cost, or a cost you’re asked to pay as part of the resolution of a spell or ability (such as Condescend). A spell’s total cost includes either its mana cost (printed in the upper right corner) or its alternative cost (such as flashback), as well as any additional costs (such as kicker). If it’s something you can spend mana on, it’s a cost. If that cost includes the {X} symbol in it, you can spend mana generated by Rosheen on that cost."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "You can spend mana generated by Rosheen on any part of a cost that contains {X}. You’re not limited to spending it only on the {X} part."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "You can spend mana generated by Rosheen on a cost that includes {X} even if you’ve chosen an X of 0, or if the card specifies that you can spend only colored mana on X. (You’ll have to spend Rosheen’s mana on a different part of that cost, of course.)"
+      },
+      {
+        "date": "11/17/2017",
+        "text": "You don’t have to spend all four mana on the same cost."
+      }
+    ]
   },
   {
     "name": "Savageborn Hydra",
@@ -5483,7 +7814,8 @@
     "loyalty": null,
     "multiverse_id": 438773,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Simic Sky Swallower",
@@ -5510,7 +7842,8 @@
     "loyalty": null,
     "multiverse_id": 438774,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Spiritmonger",
@@ -5538,7 +7871,8 @@
     "loyalty": null,
     "multiverse_id": 438775,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Supreme Verdict",
@@ -5563,7 +7897,8 @@
     "loyalty": null,
     "multiverse_id": 438776,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vizkopa Guildmage",
@@ -5591,7 +7926,21 @@
     "loyalty": null,
     "multiverse_id": 438777,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Multiple instances of lifelink on the same creature are redundant."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Each time Vizkopa Guildmage’s second ability resolves, a delayed triggered ability is created. Whenever you gain life that turn, each of those abilities will trigger. For example, if you activate the second ability twice, let those abilities resolve, then gain 2 life, each opponent will lose a total of 4 life."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "In a Two-Headed Giant game, Vizkopa Guildmage’s delayed triggered ability causes the opposing team to lose twice the life you gained."
+      }
+    ]
   },
   {
     "name": "Aether Vial",
@@ -5616,7 +7965,17 @@
     "loyalty": null,
     "multiverse_id": 438778,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If Aether Vial leaves the battlefield while its second ability is on the stack, use its last known number of charge counters to determine what you may put from your hand onto the battlefield."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a card in a player’s hand has {X} in its mana cost, X is considered to be 0."
+      }
+    ]
   },
   {
     "name": "Bubbling Cauldron",
@@ -5641,7 +8000,8 @@
     "loyalty": null,
     "multiverse_id": 438779,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Darksteel Axe",
@@ -5669,7 +8029,17 @@
     "loyalty": null,
     "multiverse_id": 438780,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/1/2013",
+        "text": "Darksteel Axe itself has indestructible, not the creature it’s equipping."
+      },
+      {
+        "date": "7/1/2013",
+        "text": "Although Darksteel Axe has indestructible, it can still be put into the graveyard for other reasons. The most likely reason is if it’s sacrificed."
+      }
+    ]
   },
   {
     "name": "Dragonloft Idol",
@@ -5696,7 +8066,8 @@
     "loyalty": null,
     "multiverse_id": 438781,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Guardian Idol",
@@ -5722,7 +8093,21 @@
     "loyalty": null,
     "multiverse_id": 438782,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If Guardian Idol has any +1/+1 counters on it, those counters will remain on it after it stops being a creature. Those counters will have no effect as long as Guardian Idol isn’t a creature, but they will apply again if it later becomes a creature."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Activating the last ability of Guardian Idol while it’s already a creature will override any effects that set its power or toughness to a specific value. Effects that modify power or toughness without setting them to a specific value will continue to apply."
+      }
+    ]
   },
   {
     "name": "Kolaghan Monument",
@@ -5747,7 +8132,25 @@
     "loyalty": null,
     "multiverse_id": 438783,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/25/2015",
+        "text": "A Monument can’t attack on the turn it enters the battlefield."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "Each Monument is colorless, although the last ability will make each of them two colors until end of turn."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "If a Monument has any +1/+1 counters on it, those counters will remain on the permanent after it stops being a creature. Those counters will have no effect as long as the Monument isn’t a creature, but they will apply again if the Monument later becomes a creature."
+      },
+      {
+        "date": "2/25/2015",
+        "text": "Activating the last ability of a Monument while it’s already a creature will override any effects that set its power or toughness to a specific value. Effects that modify power or toughness without directly setting them to a specific value will continue to apply."
+      }
+    ]
   },
   {
     "name": "Manakin",
@@ -5774,7 +8177,8 @@
     "loyalty": null,
     "multiverse_id": 438784,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mind Stone",
@@ -5799,7 +8203,8 @@
     "loyalty": null,
     "multiverse_id": 438785,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mindcrank",
@@ -5823,7 +8228,13 @@
     "loyalty": null,
     "multiverse_id": 438786,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Damage dealt to an opponent usually causes that opponent to lose life. An opponent paying life also causes loss of life."
+      }
+    ]
   },
   {
     "name": "Mishra's Bauble",
@@ -5847,7 +8258,8 @@
     "loyalty": null,
     "multiverse_id": 438787,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Moonglove Extract",
@@ -5871,7 +8283,8 @@
     "loyalty": null,
     "multiverse_id": 438788,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Oblivion Stone",
@@ -5896,7 +8309,8 @@
     "loyalty": null,
     "multiverse_id": 438789,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Palladium Myr",
@@ -5923,7 +8337,8 @@
     "loyalty": null,
     "multiverse_id": 438790,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Pristine Talisman",
@@ -5947,7 +8362,13 @@
     "loyalty": null,
     "multiverse_id": 438791,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2011",
+        "text": "Pristine Talisman has a mana ability. Its ability doesn’t use the stack and can’t be responded to."
+      }
+    ]
   },
   {
     "name": "Runed Servitor",
@@ -5974,7 +8395,8 @@
     "loyalty": null,
     "multiverse_id": 438792,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sandstone Oracle",
@@ -6002,7 +8424,8 @@
     "loyalty": null,
     "multiverse_id": 438793,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Serum Powder",
@@ -6027,7 +8450,21 @@
     "loyalty": null,
     "multiverse_id": 438794,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "You can use Serum Powder’s second ability only while it’s in your hand. If this card is in your hand, you can choose either to mulligan or to use Serum Powder’s ability. Using the ability doesn’t prevent you from taking further mulligans, and taking a mulligan doesn’t prevent you from using a Serum Powder’s ability if you happen to draw one in your new hand."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Unlike a normal mulligan, Serum Powder lets you draw the same number of cards that were in your hand, not one less. If you have already taken one mulligan and your hand contains six cards including a Serum Powder, you can choose to exile those six cards and draw six new cards."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "The cards in your hand are exiled for the rest of the game; they aren’t shuffled back into your library if you take another mulligan. Cards exiled are always face up unless the effect that exiled them says they aren’t. Be sure to return those cards to your deck for your next game."
+      }
+    ]
   },
   {
     "name": "Star Compass",
@@ -6052,7 +8489,17 @@
     "loyalty": null,
     "multiverse_id": 438795,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If a basic land you control gains another basic land type or gains another ability that lets it produce mana, consider those effects when determining what colors of mana that land can produce."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "The colors of mana are white, blue, black, red, and green. Colorless is a type but not a color."
+      }
+    ]
   },
   {
     "name": "Thran Dynamo",
@@ -6076,7 +8523,8 @@
     "loyalty": null,
     "multiverse_id": 438796,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Trepanation Blade",
@@ -6103,7 +8551,17 @@
     "loyalty": null,
     "multiverse_id": 438797,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "The land card is counted when calculating the bonus, and it will be put into the graveyard with the other revealed cards."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If the equipped creature is attacking a planeswalker, the controller of the planeswalker is the defending player."
+      }
+    ]
   },
   {
     "name": "Azorius Chancery",
@@ -6129,7 +8587,13 @@
     "loyalty": null,
     "multiverse_id": 438798,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Boros Garrison",
@@ -6155,7 +8619,13 @@
     "loyalty": null,
     "multiverse_id": 438799,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Dimir Aqueduct",
@@ -6181,7 +8651,13 @@
     "loyalty": null,
     "multiverse_id": 438800,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Evolving Wilds",
@@ -6205,7 +8681,8 @@
     "loyalty": null,
     "multiverse_id": 438801,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Golgari Rot Farm",
@@ -6231,7 +8708,13 @@
     "loyalty": null,
     "multiverse_id": 438802,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Graven Cairns",
@@ -6256,7 +8739,13 @@
     "loyalty": null,
     "multiverse_id": 438803,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "{B/R}, {T}” is the same as saying “{B}, {T} or {R}, {T}."
+      }
+    ]
   },
   {
     "name": "Grove of the Burnwillows",
@@ -6281,7 +8770,8 @@
     "loyalty": null,
     "multiverse_id": 438804,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Gruul Turf",
@@ -6307,7 +8797,13 @@
     "loyalty": null,
     "multiverse_id": 438805,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Horizon Canopy",
@@ -6332,7 +8828,8 @@
     "loyalty": null,
     "multiverse_id": 438806,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Izzet Boilerworks",
@@ -6358,7 +8855,13 @@
     "loyalty": null,
     "multiverse_id": 438807,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Nimbus Maze",
@@ -6384,7 +8887,13 @@
     "loyalty": null,
     "multiverse_id": 438808,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Nimbus Maze’s last two abilities check the subtypes of lands you control, not their names. You can activate the appropriate abilities as long as you control a land with the corresponding subtype, Plains or Island. Most nonbasic lands don’t have basic land types, even if they produce colored mana. For example, Nimbus Maze itself is neither a Plains nor an Island, while Hallowed Fountain is both."
+      }
+    ]
   },
   {
     "name": "Orzhov Basilica",
@@ -6410,7 +8919,13 @@
     "loyalty": null,
     "multiverse_id": 438809,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Radiant Fountain",
@@ -6435,7 +8950,8 @@
     "loyalty": null,
     "multiverse_id": 438810,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rakdos Carnarium",
@@ -6461,7 +8977,13 @@
     "loyalty": null,
     "multiverse_id": 438811,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "River of Tears",
@@ -6485,7 +9007,17 @@
     "loyalty": null,
     "multiverse_id": 438812,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "The turn you play River of Tears, it will produce {B} when tapped for mana."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "River of Tears produces {B} only after you’ve played a land, not after you’ve put a land onto the battlefield (such as with Evolving Wilds)."
+      }
+    ]
   },
   {
     "name": "Selesnya Sanctuary",
@@ -6511,7 +9043,13 @@
     "loyalty": null,
     "multiverse_id": 438813,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   },
   {
     "name": "Shimmering Grotto",
@@ -6536,7 +9074,8 @@
     "loyalty": null,
     "multiverse_id": 438814,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Simic Growth Chamber",
@@ -6562,6 +9101,12 @@
     "loyalty": null,
     "multiverse_id": 438815,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand."
+      }
+    ]
   }
 ]

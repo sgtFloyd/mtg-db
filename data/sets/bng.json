@@ -21,7 +21,65 @@
     "loyalty": null,
     "multiverse_id": 378373,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Acolyte’s Reward has two targets: the creature that would be dealt damage and the permanent or player that Acolyte’s Reward will deal damage to. These targets are chosen as you cast Acolyte’s Reward."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The amount of damage the prevention shield will prevent is based on your devotion to white as Acolyte’s Reward resolves. That amount won’t change later in the turn, even if your devotion to white does."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "You don’t choose a source of damage. The prevention shield will apply to the next X damage that would be dealt to the first target, no matter where that damage comes from. It also doesn’t matter whether the damage is dealt at the same time. For example, if the shield prevents the next 5 damage to the first target, and that creature would be dealt 3 damage by Lightning Strike, that 3 damage is prevented and Acolyte’s Reward deals 3 damage to the second target. The prevention effect will still apply to the next 2 damage the first target would be dealt that turn."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The effect of Acolyte’s Reward isn’t a redirection effect. If it prevents damage, Acolyte’s Reward (not the source of that damage) deals damage to the second target as part of that prevention effect. Acolyte’s Reward is the source of the new damage, so the characteristics of the original source (such as its color or whether it had lifelink) don’t apply. The new damage isn’t combat damage, even if the prevented damage was."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "As Acolyte’s Reward tries to resolve, if only the first target is illegal, Acolyte’s Reward won’t prevent any damage that would be dealt to that creature and, because of this, Acolyte’s Reward won’t deal damage to the second target. If only the second target is illegal, damage that would be dealt to the first target will be prevented, but Acolyte’s Reward won’t deal damage. If both targets are illegal, Acolyte’s Reward won’t resolve."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "After Acolyte’s Reward resolves, it no longer matters whether either target is still legal. For example, if the second target is a creature controlled by an opponent, and it gains hexproof after Acolyte’s Reward resolves but before it prevents damage, Acolyte’s Reward will still deal damage to that creature. If Acolyte’s Reward can’t deal damage to the second target (perhaps because it’s a creature that has left the battlefield), Acolyte’s Reward will still prevent damage; it just won’t deal any damage itself."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If Acolyte’s Reward prevents damage, it deals its damage immediately afterward as part of that same prevention effect. This happens before state-based actions are performed, and before any player can cast spells or activate abilities. If the source of the original damage was a spell or ability, this happens before that spell or ability resumes its resolution."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the amount of damage that would be dealt to the first target is in excess of the amount of damage that Acolyte’s Reward would prevent, the source deals its excess damage to the first target at the same time that the rest of it is prevented. Then Acolyte’s Reward deals its damage."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The damage will be dealt by Acolyte’s Reward as it existed on the stack, not as it exists when the damage is dealt. That is, it’s an instant spell that’s dealing the damage, in case an ability cares about that (such as Satyr Firedancer’s, which includes the phrase “Whenever an instant or sorcery spell you control deals damage to an opponent”)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the first target would be dealt combat damage by multiple creatures, you choose which of that damage to prevent. (For example, if one of those creatures has deathtouch, you could choose to prevent the damage from that creature specifically.) You don’t decide until the point at which the creatures would deal their damage."
+      }
+    ]
   },
   {
     "name": "Akroan Phalanx",
@@ -49,7 +107,8 @@
     "loyalty": null,
     "multiverse_id": 378374,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Akroan Skyguard",
@@ -77,7 +136,21 @@
     "loyalty": null,
     "multiverse_id": 378375,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will resolve before the spell that caused them to trigger."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities won’t trigger when a copy of a spell is created on the stack or when a spell’s targets are changed to include a creature with a heroic ability."
+      }
+    ]
   },
   {
     "name": "Archetype of Courage",
@@ -106,7 +179,25 @@
     "loyalty": null,
     "multiverse_id": 378376,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "The Archetype’s second ability applies to each creature controlled by any of your opponents, no matter when it entered the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren’t created. For example, if you control Archetype of Courage, a spell cast by an opponent that gives creatures they control first strike wouldn’t cause the creatures to have first strike, even if later in the turn Archetype of Courage left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)"
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Conversely, continuous effects generated by static abilities (such as an Aura that granted the appropriate ability) would resume applying if the Archetype left the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you and an opponent each control the same Archetype, no creature controlled by any player will have the appropriate ability."
+      }
+    ]
   },
   {
     "name": "Brimaz, King of Oreskos",
@@ -137,7 +228,21 @@
     "loyalty": null,
     "multiverse_id": 378377,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "For the first triggered ability, you declare which player or planeswalker the token is attacking as you put it onto the battlefield. It doesn’t have to be the same player or planeswalker Brimaz is attacking."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If Brimaz somehow blocks two or more creatures (note it can’t naturally do this), its last ability will trigger that many times."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Although the tokens enter the battlefield attacking or blocking, they were never declared as attacking or blocking creatures. Abilities that trigger whenever a creature attacks or blocks won’t trigger."
+      }
+    ]
   },
   {
     "name": "Dawn to Dusk",
@@ -163,7 +268,17 @@
     "loyalty": null,
     "multiverse_id": 378378,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "You choose which mode you’re using—or that you’re using both modes—as you’re casting the spell. Once this choice is made, it can’t be changed later while the spell is on the stack."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Dawn to Dusk won’t affect any target that is illegal when it tries to resolve. If you chose to use both modes and both targets are illegal at that time, Dawn to Dusk won’t resolve."
+      }
+    ]
   },
   {
     "name": "Eidolon of Countless Battles",
@@ -191,7 +306,45 @@
     "loyalty": null,
     "multiverse_id": 378379,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Aura spells, an Aura spell with bestow isn’t countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Auras, an Aura with bestow isn’t put into its owner’s graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it’s been under your control continuously, even as an Aura, since your most recent turn began."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can’t choose to pay the bestow cost and have it become an Aura."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Eidolon of Countless Battles’s last ability functions only on the battlefield. In other zones, it is a 0/0 enchantment creature card."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "A permanent with bestow is either a creature or an Aura, not both (although it’s an enchantment either way). It will contribute just +1/+1 toward the bonus given by Eidolon of Countless Battles."
+      }
+    ]
   },
   {
     "name": "Elite Skirmisher",
@@ -218,7 +371,21 @@
     "loyalty": null,
     "multiverse_id": 378380,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will resolve before the spell that caused them to trigger."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities won’t trigger when a copy of a spell is created on the stack or when a spell’s targets are changed to include a creature with a heroic ability."
+      }
+    ]
   },
   {
     "name": "Ephara's Radiance",
@@ -245,7 +412,8 @@
     "loyalty": null,
     "multiverse_id": 378381,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Excoriate",
@@ -269,7 +437,8 @@
     "loyalty": null,
     "multiverse_id": 378382,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fated Retribution",
@@ -293,7 +462,25 @@
     "loyalty": null,
     "multiverse_id": 378383,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      }
+    ]
   },
   {
     "name": "Ghostblade Eidolon",
@@ -322,7 +509,37 @@
     "loyalty": null,
     "multiverse_id": 378384,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Aura spells, an Aura spell with bestow isn’t countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Auras, an Aura with bestow isn’t put into its owner’s graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it’s been under your control continuously, even as an Aura, since your most recent turn began."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can’t choose to pay the bestow cost and have it become an Aura."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
+      }
+    ]
   },
   {
     "name": "Glimpse the Sun God",
@@ -346,7 +563,29 @@
     "loyalty": null,
     "multiverse_id": 378385,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you choose zero targets, you’ll just scry 1 when the spell resolves. However, if you choose at least one target and all of Glimpse the Sun God’s targets are illegal as it tries to resolve, the spell won’t resolve and none of its effects will happen. You won’t scry in that case."
+      }
+    ]
   },
   {
     "name": "God-Favored General",
@@ -373,7 +612,25 @@
     "loyalty": null,
     "multiverse_id": 378386,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities don’t trigger when the creature enters the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability."
+      }
+    ]
   },
   {
     "name": "Great Hart",
@@ -397,7 +654,8 @@
     "loyalty": null,
     "multiverse_id": 378387,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Griffin Dreamfinder",
@@ -424,7 +682,8 @@
     "loyalty": null,
     "multiverse_id": 378388,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Hero of Iroas",
@@ -452,7 +711,33 @@
     "loyalty": null,
     "multiverse_id": 378389,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will resolve before the spell that caused them to trigger."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities won’t trigger when a copy of a spell is created on the stack or when a spell’s targets are changed to include a creature with a heroic ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Hero of Iroas’s first ability will apply if you cast a card for its bestow cost."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "Hero of Iroas’s first ability reduces only generic mana in the spell’s total cost."
+      }
+    ]
   },
   {
     "name": "Hold at Bay",
@@ -476,7 +761,8 @@
     "loyalty": null,
     "multiverse_id": 378390,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Loyal Pegasus",
@@ -503,7 +789,25 @@
     "loyalty": null,
     "multiverse_id": 378391,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Loyal Pegasus can be declared as an attacker only if another creature is declared as an attacker at the same time. Similarly, Loyal Pegasus can be declared as a blocker only if another creature is declared as a blocker at the same time."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you control more than one Loyal Pegasus, they can both attack or block together, even if no other creatures attack or block."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Although Loyal Pegasus can’t attack alone, other attacking creatures don’t have to attack the same player or planeswalker. For example, Loyal Pegasus could attack an opponent and another creature could attack a planeswalker that opponent controls."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "In a Two-Headed Giant game (or in another format using the shared team turns option), Loyal Pegasus can attack or block with a creature controlled by your teammate, even if no other creatures you control are attacking or blocking."
+      }
+    ]
   },
   {
     "name": "Mortal's Ardor",
@@ -527,7 +831,8 @@
     "loyalty": null,
     "multiverse_id": 378392,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Nyxborn Shieldmate",
@@ -556,7 +861,37 @@
     "loyalty": null,
     "multiverse_id": 378393,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Aura spells, an Aura spell with bestow isn’t countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Auras, an Aura with bestow isn’t put into its owner’s graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it’s been under your control continuously, even as an Aura, since your most recent turn began."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can’t choose to pay the bestow cost and have it become an Aura."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
+      }
+    ]
   },
   {
     "name": "Oreskos Sun Guide",
@@ -583,7 +918,25 @@
     "loyalty": null,
     "multiverse_id": 378394,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities don’t trigger when the creature enters the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability."
+      }
+    ]
   },
   {
     "name": "Ornitharch",
@@ -611,7 +964,33 @@
     "loyalty": null,
     "multiverse_id": 378395,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won’t enter the battlefield and then have the +1/+1 counters placed on it."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The choice of whether to pay tribute is made as the creature with tribute is entering the battlefield. At that point, it’s too late to respond to the creature spell. For example, in a multiplayer game, opponents won’t know whether tribute will be paid or which opponent will be chosen to pay tribute or not when deciding whether to counter the creature spell."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the triggered ability has a target, that target will not be known while the creature spell with tribute is on the stack."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Players can’t respond to the tribute decision before the creature enters the battlefield. That is, if the opponent doesn’t pay tribute, the triggered ability will trigger before any player has a chance to remove the creature."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The triggered ability will resolve even if the creature with tribute isn’t on the battlefield at that time."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "For effects that check which player put counters on the entering creature, the player chosen to pay tribute puts those counters on it, not the creature’s controller."
+      }
+    ]
   },
   {
     "name": "Plea for Guidance",
@@ -635,7 +1014,8 @@
     "loyalty": null,
     "multiverse_id": 378396,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Revoke Existence",
@@ -659,7 +1039,8 @@
     "loyalty": null,
     "multiverse_id": 378397,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Silent Sentinel",
@@ -686,7 +1067,17 @@
     "loyalty": null,
     "multiverse_id": 378398,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If you return an enchantment creature card with bestow to the battlefield, you can’t pay its bestow cost. It won’t be an Aura and can’t be attached to a creature."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the enchantment card is an Aura, you choose a legal player or object for that Aura to enchant as it enters the battlefield. This doesn’t target the player or object, so it’s possible to enchant an opposing creature with hexproof this way, for example. If there’s no player or object the Aura can legally enchant, it stays in the graveyard."
+      }
+    ]
   },
   {
     "name": "Spirit of the Labyrinth",
@@ -713,7 +1104,25 @@
     "loyalty": null,
     "multiverse_id": 378399,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "You can draw a maximum of one card on each player’s turn. Subsequent card draws are ignored."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you haven’t drawn any cards in a turn, and a spell or ability would cause you to draw multiple cards, you’ll just draw one card."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you draw a card, and then Spirit of the Labyrinth enters the battlefield, you won’t be able to draw more cards that turn."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If a replacement effect would try to replace a card that you can’t draw, that effect can’t apply."
+      }
+    ]
   },
   {
     "name": "Sunbond",
@@ -740,7 +1149,17 @@
     "loyalty": null,
     "multiverse_id": 378400,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "In some unusual cases, you can gain life even though your life total actually decreases. For example, if you are being attacked by two 3/3 creatures and you block one with a 2/2 creature with lifelink, your life total will decrease by 1 even though you’ve gained 2 life. You’ll put two +1/+1 counters on the enchanted creature."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "In a Two-Headed Giant game, life gained by your teammate won’t cause the ability to trigger, even though it causes your team’s life total to increase."
+      }
+    ]
   },
   {
     "name": "Vanguard of Brimaz",
@@ -768,7 +1187,21 @@
     "loyalty": null,
     "multiverse_id": 378401,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will resolve before the spell that caused them to trigger."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities won’t trigger when a copy of a spell is created on the stack or when a spell’s targets are changed to include a creature with a heroic ability."
+      }
+    ]
   },
   {
     "name": "Aerie Worshippers",
@@ -795,7 +1228,25 @@
     "loyalty": null,
     "multiverse_id": 378402,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities don’t trigger when the creature enters the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability."
+      }
+    ]
   },
   {
     "name": "Arbiter of the Ideal",
@@ -822,7 +1273,37 @@
     "loyalty": null,
     "multiverse_id": 378403,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "The manifestation counter is a memory aid only. The permanent will continue to be an enchantment in addition to its other types even if that counter is removed."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you choose to not put the card onto the battlefield, or if the card isn’t one of the listed types, it will remain on top of your library. (Note that revealing the card is not optional.)"
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The permanent will be an enchantment as it enters the battlefield and will cause constellation abilities of permanents you control to trigger."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities don’t trigger when the creature enters the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability."
+      }
+    ]
   },
   {
     "name": "Archetype of Imagination",
@@ -851,7 +1332,25 @@
     "loyalty": null,
     "multiverse_id": 378404,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "The Archetype’s second ability applies to each creature controlled by any of your opponents, no matter when it entered the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren’t created. For example, if you control Archetype of Courage, a spell cast by an opponent that gives creatures they control first strike wouldn’t cause the creatures to have first strike, even if later in the turn Archetype of Courage left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)"
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Conversely, continuous effects generated by static abilities (such as an Aura that granted the appropriate ability) would resume applying if the Archetype left the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you and an opponent each control the same Archetype, no creature controlled by any player will have the appropriate ability."
+      }
+    ]
   },
   {
     "name": "Chorus of the Tides",
@@ -878,7 +1377,37 @@
     "loyalty": null,
     "multiverse_id": 378405,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will resolve before the spell that caused them to trigger."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities won’t trigger when a copy of a spell is created on the stack or when a spell’s targets are changed to include a creature with a heroic ability."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      }
+    ]
   },
   {
     "name": "Crypsis",
@@ -902,7 +1431,17 @@
     "loyalty": null,
     "multiverse_id": 378406,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Abilities of creature cards not on the battlefield owned by an opponent can’t target that creature, and damage those cards would deal to the creature is prevented."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If another player gains control of the creature after Crypsis resolves, the creature will have protection from creatures controlled by opponents of its new controller."
+      }
+    ]
   },
   {
     "name": "Deepwater Hypnotist",
@@ -929,7 +1468,25 @@
     "loyalty": null,
     "multiverse_id": 378407,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities don’t trigger when the creature enters the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability."
+      }
+    ]
   },
   {
     "name": "Divination",
@@ -953,7 +1510,8 @@
     "loyalty": null,
     "multiverse_id": 378408,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Eternity Snare",
@@ -981,7 +1539,8 @@
     "loyalty": null,
     "multiverse_id": 378409,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Evanescent Intellect",
@@ -1008,7 +1567,8 @@
     "loyalty": null,
     "multiverse_id": 378410,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fated Infatuation",
@@ -1032,7 +1592,45 @@
     "loyalty": null,
     "multiverse_id": 378411,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The token copies exactly what was printed on the original creature and nothing else (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the copied creature has {X} in its mana cost, X is considered to be zero."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the copied creature is copying something else (for example, if the copied creature is a Clone), then the token enters the battlefield as whatever that creature copied."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the copied creature is a token, the token created by Fated Infatuation copies the original characteristics of that token as stated by the effect that put the token onto the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied creature will also work."
+      }
+    ]
   },
   {
     "name": "Flitterstep Eidolon",
@@ -1061,7 +1659,37 @@
     "loyalty": null,
     "multiverse_id": 378412,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Aura spells, an Aura spell with bestow isn’t countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Auras, an Aura with bestow isn’t put into its owner’s graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it’s been under your control continuously, even as an Aura, since your most recent turn began."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can’t choose to pay the bestow cost and have it become an Aura."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
+      }
+    ]
   },
   {
     "name": "Floodtide Serpent",
@@ -1087,7 +1715,13 @@
     "loyalty": null,
     "multiverse_id": 378413,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "You must return an enchantment you control to its owner’s hand during each combat in which you attack with Floodtide Serpent."
+      }
+    ]
   },
   {
     "name": "Kraken of the Straits",
@@ -1113,7 +1747,13 @@
     "loyalty": null,
     "multiverse_id": 378414,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "The number of Islands you control is counted as blockers are declared. Creatures with power less than that number at that time can’t block Kraken of the Straits. Once blockers have been declared, the power of the blocking creatures and the number of Islands you control don’t matter."
+      }
+    ]
   },
   {
     "name": "Meletis Astronomer",
@@ -1140,7 +1780,21 @@
     "loyalty": null,
     "multiverse_id": 378415,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will resolve before the spell that caused them to trigger."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities won’t trigger when a copy of a spell is created on the stack or when a spell’s targets are changed to include a creature with a heroic ability."
+      }
+    ]
   },
   {
     "name": "Mindreaver",
@@ -1168,7 +1822,29 @@
     "loyalty": null,
     "multiverse_id": 378416,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will resolve before the spell that caused them to trigger."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities won’t trigger when a copy of a spell is created on the stack or when a spell’s targets are changed to include a creature with a heroic ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The cards are exiled face up. All players can look at them."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If Mindreaver leaves the battlefield, and later another Mindreaver enters the battlefield, it is a new object (even if the two were represented by the same card). The last ability of the second Mindreaver doesn’t refer to any cards exiled with the first one."
+      }
+    ]
   },
   {
     "name": "Nullify",
@@ -1192,7 +1868,8 @@
     "loyalty": null,
     "multiverse_id": 378417,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Nyxborn Triton",
@@ -1220,7 +1897,37 @@
     "loyalty": null,
     "multiverse_id": 378418,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Aura spells, an Aura spell with bestow isn’t countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Auras, an Aura with bestow isn’t put into its owner’s graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it’s been under your control continuously, even as an Aura, since your most recent turn began."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can’t choose to pay the bestow cost and have it become an Aura."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
+      }
+    ]
   },
   {
     "name": "Oracle's Insight",
@@ -1247,7 +1954,25 @@
     "loyalty": null,
     "multiverse_id": 378419,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      }
+    ]
   },
   {
     "name": "Perplexing Chimera",
@@ -1274,7 +1999,45 @@
     "loyalty": null,
     "multiverse_id": 378420,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "You may exchange control of Perplexing Chimera and any spell cast by an opponent, not just one with targets."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "You make the decision whether to exchange control of Perplexing Chimera and the spell as the triggered ability resolves."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If Perplexing Chimera leaves the battlefield or the spell leaves the stack before the triggered ability resolves, you can’t make the exchange."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Neither Perplexing Chimera nor the spell changes zones. Only control of them is exchanged."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "After the ability resolves, you control the spell. Any instance of “you” in that spell’s text now refers to you, “an opponent” refers to one of your opponents, and so on. The change of control happens before new targets are chosen, so any targeting restrictions such as “target opponent” or “target creature you control” are now made in reference to you, not the spell’s original controller. You may change those targets to be legal in reference to you, or, if those are the spell’s only targets, the spell will doesn’t resolve for having illegal targets. When the spell resolves, any illegal targets are unaffected by it and you make all decisions the spell’s effect calls for."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "You may change any of the spell’s targets. If you change a target, you must choose a legal target for the spell. If you can’t, you must leave the target the same (even if that target is now illegal)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Gaining control of a spell and changing its targets won’t cause any heroic abilities of the new targets to trigger."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you gain control of an instant or sorcery spell, it will be put into its owner’s graveyard as it resolves, fails to resolve, or is countered."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "In some unusual cases, you may not control Perplexing Chimera when its triggered ability resolves (perhaps because the triggered ability triggered again and resolved while the original ability was on the stack). In these cases, you can exchange control of Perplexing Chimera and the spell that causes the ability to trigger, even if you control neither of them. If you do, you’ll be able to change targets of the spell, not the spell’s new controller."
+      }
+    ]
   },
   {
     "name": "Retraction Helix",
@@ -1298,7 +2061,8 @@
     "loyalty": null,
     "multiverse_id": 378421,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Siren of the Fanged Coast",
@@ -1326,7 +2090,33 @@
     "loyalty": null,
     "multiverse_id": 378422,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won’t enter the battlefield and then have the +1/+1 counters placed on it."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The choice of whether to pay tribute is made as the creature with tribute is entering the battlefield. At that point, it’s too late to respond to the creature spell. For example, in a multiplayer game, opponents won’t know whether tribute will be paid or which opponent will be chosen to pay tribute or not when deciding whether to counter the creature spell."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the triggered ability has a target, that target will not be known while the creature spell with tribute is on the stack."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Players can’t respond to the tribute decision before the creature enters the battlefield. That is, if the opponent doesn’t pay tribute, the triggered ability will trigger before any player has a chance to remove the creature."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The triggered ability will resolve even if the creature with tribute isn’t on the battlefield at that time."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "For effects that check which player put counters on the entering creature, the player chosen to pay tribute puts those counters on it, not the creature’s controller."
+      }
+    ]
   },
   {
     "name": "Sphinx's Disciple",
@@ -1354,7 +2144,25 @@
     "loyalty": null,
     "multiverse_id": 378423,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities don’t trigger when the creature enters the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability."
+      }
+    ]
   },
   {
     "name": "Stratus Walk",
@@ -1383,7 +2191,8 @@
     "loyalty": null,
     "multiverse_id": 378424,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sudden Storm",
@@ -1407,7 +2216,41 @@
     "loyalty": null,
     "multiverse_id": 378425,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If a creature affected by Sudden Storm changes controllers before its old controller’s next untap step, Sudden Storm will prevent it from becoming untapped during its new controller’s next untap step."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "This spell can target tapped creatures. If a targeted creature is already tapped when the spell resolves, that creature remains tapped and doesn’t untap during its controller’s next untap step."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you chose two targets and one is an illegal target when Sudden Storm resolves, that creature won’t become tapped and it won’t be stopped from untapping during its controller’s next untap step. It won’t be affected by Sudden Storm in any way."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you choose zero targets, you’ll just scry 1 when the ability resolves. However, if you choose at least one target and all of Sudden Storm’s targets are illegal as it tries to resolve, the spell won’t resolve and none of its effects will happen. You won’t scry in that case."
+      }
+    ]
   },
   {
     "name": "Thassa's Rebuff",
@@ -1431,7 +2274,8 @@
     "loyalty": null,
     "multiverse_id": 378426,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tromokratis",
@@ -1460,7 +2304,17 @@
     "loyalty": null,
     "multiverse_id": 378427,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "The defending player may block Tromokratis with each creature they control. If that player can’t, perhaps because one of those creatures is tapped, or chooses not to, Tromokratis can’t be blocked."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Tromokratis (like all attacking and blocking creatures) remains an attacking or blocking creature until the end of combat step is over. Notably, it will still be an attacking or blocking creature during the combat damage step, so any abilities an opponent controls that trigger when a creature dies as a result of combat damage could target Tromokratis."
+      }
+    ]
   },
   {
     "name": "Vortex Elemental",
@@ -1487,7 +2341,21 @@
     "loyalty": null,
     "multiverse_id": 378428,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If no creature is blocking or being blocked by Vortex Elemental as its first ability resolves, it alone will be put on top of its owner’s library, and that library will be shuffled. You can activate the first ability outside of combat."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If Vortex Elemental isn’t on the battlefield when its first ability resolves, any creatures blocking or blocked by it when it left the battlefield will be put on top of their owners’ libraries and those libraries will be shuffled."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The creature blocks Vortex Elemental only if it’s able to do so as the declare blockers step begins. If, at that time, the creature is tapped, it’s affected by a spell or ability that says it can’t block, or Vortex Elemental isn’t attacking its controller or a planeswalker controlled by that player, then it doesn’t block. If there’s a cost associated with having the creature block, the player isn’t forced to pay that cost. If that cost isn’t paid, the creature won’t block."
+      }
+    ]
   },
   {
     "name": "Whelming Wave",
@@ -1511,7 +2379,8 @@
     "loyalty": null,
     "multiverse_id": 378429,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Archetype of Finality",
@@ -1539,7 +2408,25 @@
     "loyalty": null,
     "multiverse_id": 378430,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "The Archetype’s second ability applies to each creature controlled by any of your opponents, no matter when it entered the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren’t created. For example, if you control Archetype of Courage, a spell cast by an opponent that gives creatures they control first strike wouldn’t cause the creatures to have first strike, even if later in the turn Archetype of Courage left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)"
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Conversely, continuous effects generated by static abilities (such as an Aura that granted the appropriate ability) would resume applying if the Archetype left the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you and an opponent each control the same Archetype, no creature controlled by any player will have the appropriate ability."
+      }
+    ]
   },
   {
     "name": "Ashiok's Adept",
@@ -1566,7 +2453,21 @@
     "loyalty": null,
     "multiverse_id": 378431,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will resolve before the spell that caused them to trigger."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities won’t trigger when a copy of a spell is created on the stack or when a spell’s targets are changed to include a creature with a heroic ability."
+      }
+    ]
   },
   {
     "name": "Asphyxiate",
@@ -1590,7 +2491,8 @@
     "loyalty": null,
     "multiverse_id": 378432,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bile Blight",
@@ -1614,7 +2516,21 @@
     "loyalty": null,
     "multiverse_id": 378433,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Bile Blight has only one target. Other creatures with that name are not targeted. For example, a creature with hexproof will still get -3/-3 if it has the same name as the target creature."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the target creature is an illegal target as Bile Blight tries to resolve, it won’t resolve and none of its effects will happen. No creature will get -3/-3."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The name of a creature token is the same as its creature types, unless the token is a copy of another creature or the effect that created the token specifically gives it a different name. For example, a 1/1 Cat Soldier creature token is named “Cat Soldier.”"
+      }
+    ]
   },
   {
     "name": "Black Oak of Odunos",
@@ -1642,7 +2558,13 @@
     "loyalty": null,
     "multiverse_id": 378434,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "You can tap a creature that hasn’t been under your control since your most recent turn began to activate the last ability."
+      }
+    ]
   },
   {
     "name": "Champion of Stray Souls",
@@ -1670,7 +2592,17 @@
     "loyalty": null,
     "multiverse_id": 378435,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "You choose the targets of the first ability as you activate that ability, before you pay any costs. You can’t target any of the creatures you sacrifice."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The last ability can be activated only if Champion of Stray Souls is in your graveyard."
+      }
+    ]
   },
   {
     "name": "Claim of Erebos",
@@ -1697,7 +2629,8 @@
     "loyalty": null,
     "multiverse_id": 378436,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Drown in Sorrow",
@@ -1721,7 +2654,29 @@
     "loyalty": null,
     "multiverse_id": 378437,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Only creatures on the battlefield when Drown in Sorrow resolves will get -2/-2. Creatures that enter the battlefield later in the turn will not."
+      }
+    ]
   },
   {
     "name": "Eater of Hope",
@@ -1749,7 +2704,8 @@
     "loyalty": null,
     "multiverse_id": 378438,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Eye Gouge",
@@ -1773,7 +2729,13 @@
     "loyalty": null,
     "multiverse_id": 378439,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If the target creature is a Cyclops, it will get -1/-1 before it’s destroyed."
+      }
+    ]
   },
   {
     "name": "Fate Unraveler",
@@ -1800,7 +2762,8 @@
     "loyalty": null,
     "multiverse_id": 378440,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fated Return",
@@ -1824,7 +2787,33 @@
     "loyalty": null,
     "multiverse_id": 378441,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The effect that causes the creature to gain indestructible doesn’t have a duration. It lasts until the creature leaves the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The indestructible granted by Fated Return isn’t part of the creature’s copiable values. If the creature is copied, the copy won’t have indestructible (unless the creature otherwise has indestructible)."
+      }
+    ]
   },
   {
     "name": "Felhide Brawler",
@@ -1850,7 +2839,13 @@
     "loyalty": null,
     "multiverse_id": 378442,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Whether you control another Minotaur is checked only as you declare blockers. The other Minotaur doesn’t have to block."
+      }
+    ]
   },
   {
     "name": "Forlorn Pseudamma",
@@ -1877,7 +2872,25 @@
     "loyalty": null,
     "multiverse_id": 378443,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities don’t trigger when the creature enters the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability."
+      }
+    ]
   },
   {
     "name": "Forsaken Drifters",
@@ -1903,7 +2916,8 @@
     "loyalty": null,
     "multiverse_id": 378444,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Gild",
@@ -1927,7 +2941,17 @@
     "loyalty": null,
     "multiverse_id": 378445,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "You will control the token, no matter who controls the target creature."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the creature isn’t a legal target as Gild tries to resolve, the spell won’t resolve and none of its effects will happen. No token will be created."
+      }
+    ]
   },
   {
     "name": "Grisly Transformation",
@@ -1955,7 +2979,8 @@
     "loyalty": null,
     "multiverse_id": 378446,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Herald of Torment",
@@ -1985,7 +3010,41 @@
     "loyalty": null,
     "multiverse_id": 378447,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Aura spells, an Aura spell with bestow isn’t countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Auras, an Aura with bestow isn’t put into its owner’s graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it’s been under your control continuously, even as an Aura, since your most recent turn began."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can’t choose to pay the bestow cost and have it become an Aura."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The triggered ability that causes you to lose life applies whether Herald of Torment is a creature or an Aura. The “you” in that ability refers to Herald of Torment’s controller. If you control Herald of Torment as an Aura enchanting a creature another player controls, that ability will trigger at the beginning of your upkeep and cause you to lose 1 life."
+      }
+    ]
   },
   {
     "name": "Marshmist Titan",
@@ -2011,7 +3070,29 @@
     "loyalty": null,
     "multiverse_id": 378448,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Your devotion to black is calculated when you determine Marshmist Titan’s total cost, and that cost is locked in before any costs are paid. For example, if you control a creature with black mana symbols in its mana cost that can be sacrificed for mana, those mana symbols will count toward your devotion to black. You can then sacrifice that creature for mana to pay the reduced total cost."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If your devotion to black is greater than six, Marshmist Titan will cost {B} to cast. The colored mana requirement isn’t reduced."
+      }
+    ]
   },
   {
     "name": "Necrobite",
@@ -2035,7 +3116,8 @@
     "loyalty": null,
     "multiverse_id": 378449,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Nyxborn Eidolon",
@@ -2063,7 +3145,37 @@
     "loyalty": null,
     "multiverse_id": 378450,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Aura spells, an Aura spell with bestow isn’t countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Auras, an Aura with bestow isn’t put into its owner’s graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it’s been under your control continuously, even as an Aura, since your most recent turn began."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can’t choose to pay the bestow cost and have it become an Aura."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
+      }
+    ]
   },
   {
     "name": "Odunos River Trawler",
@@ -2090,7 +3202,8 @@
     "loyalty": null,
     "multiverse_id": 378451,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Pain Seer",
@@ -2117,7 +3230,33 @@
     "loyalty": null,
     "multiverse_id": 378452,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If the mana cost of the revealed card includes {X}, X is considered to be 0."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the revealed card doesn’t have a mana cost (because it’s a land card, for example), its converted mana cost is 0."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities don’t trigger when the creature enters the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability."
+      }
+    ]
   },
   {
     "name": "Sanguimancy",
@@ -2141,7 +3280,25 @@
     "loyalty": null,
     "multiverse_id": 378453,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time."
+      }
+    ]
   },
   {
     "name": "Servant of Tymaret",
@@ -2168,7 +3325,29 @@
     "loyalty": null,
     "multiverse_id": 378454,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "A creature taps when its regeneration shield is used, not when the shield is created. Notably, you won’t be able to use Servant of Tymaret’s last ability to tap it so that its inspired ability will trigger unless Servant of Tymaret would be destroyed."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities don’t trigger when the creature enters the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability."
+      }
+    ]
   },
   {
     "name": "Shrike Harpy",
@@ -2196,7 +3375,37 @@
     "loyalty": null,
     "multiverse_id": 378455,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "The opponent you target with the triggered ability doesn’t have to be the same opponent you chose to pay tribute or not."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won’t enter the battlefield and then have the +1/+1 counters placed on it."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The choice of whether to pay tribute is made as the creature with tribute is entering the battlefield. At that point, it’s too late to respond to the creature spell. For example, in a multiplayer game, opponents won’t know whether tribute will be paid or which opponent will be chosen to pay tribute or not when deciding whether to counter the creature spell."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the triggered ability has a target, that target will not be known while the creature spell with tribute is on the stack."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Players can’t respond to the tribute decision before the creature enters the battlefield. That is, if the opponent doesn’t pay tribute, the triggered ability will trigger before any player has a chance to remove the creature."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The triggered ability will resolve even if the creature with tribute isn’t on the battlefield at that time."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "For effects that check which player put counters on the entering creature, the player chosen to pay tribute puts those counters on it, not the creature’s controller."
+      }
+    ]
   },
   {
     "name": "Spiteful Returned",
@@ -2225,7 +3434,37 @@
     "loyalty": null,
     "multiverse_id": 378456,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Aura spells, an Aura spell with bestow isn’t countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Auras, an Aura with bestow isn’t put into its owner’s graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it’s been under your control continuously, even as an Aura, since your most recent turn began."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can’t choose to pay the bestow cost and have it become an Aura."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
+      }
+    ]
   },
   {
     "name": "Warchanter of Mogis",
@@ -2252,7 +3491,25 @@
     "loyalty": null,
     "multiverse_id": 378457,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities don’t trigger when the creature enters the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability."
+      }
+    ]
   },
   {
     "name": "Weight of the Underworld",
@@ -2279,7 +3536,8 @@
     "loyalty": null,
     "multiverse_id": 378458,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Akroan Conscriptor",
@@ -2306,7 +3564,33 @@
     "loyalty": null,
     "multiverse_id": 378459,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will resolve before the spell that caused them to trigger."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities won’t trigger when a copy of a spell is created on the stack or when a spell’s targets are changed to include a creature with a heroic ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The ability can target any creature except Akroan Conscriptor, including one that’s untapped or one you already control."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it. Notably, if that creature is enchanted by an Aura with bestow and dies while under your control, the Aura’s controller will continue to control the creature that Aura becomes."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you control a legendary creature and gain control of another legendary creature with the same name, you’ll choose one to remain on the battlefield and put the other into its owner’s graveyard."
+      }
+    ]
   },
   {
     "name": "Archetype of Aggression",
@@ -2335,7 +3619,25 @@
     "loyalty": null,
     "multiverse_id": 378460,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "The Archetype’s second ability applies to each creature controlled by any of your opponents, no matter when it entered the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren’t created. For example, if you control Archetype of Courage, a spell cast by an opponent that gives creatures they control first strike wouldn’t cause the creatures to have first strike, even if later in the turn Archetype of Courage left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)"
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Conversely, continuous effects generated by static abilities (such as an Aura that granted the appropriate ability) would resume applying if the Archetype left the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you and an opponent each control the same Archetype, no creature controlled by any player will have the appropriate ability."
+      }
+    ]
   },
   {
     "name": "Bolt of Keranos",
@@ -2359,7 +3661,25 @@
     "loyalty": null,
     "multiverse_id": 378461,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      }
+    ]
   },
   {
     "name": "Cyclops of One-Eyed Pass",
@@ -2383,7 +3703,8 @@
     "loyalty": null,
     "multiverse_id": 378462,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Epiphany Storm",
@@ -2410,7 +3731,8 @@
     "loyalty": null,
     "multiverse_id": 378463,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Everflame Eidolon",
@@ -2439,7 +3761,41 @@
     "loyalty": null,
     "multiverse_id": 378464,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Aura spells, an Aura spell with bestow isn’t countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Auras, an Aura with bestow isn’t put into its owner’s graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it’s been under your control continuously, even as an Aura, since your most recent turn began."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can’t choose to pay the bestow cost and have it become an Aura."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "As Everflame Eidolon’s ability resolves, the bonus is applied to either Everflame Eidolon (if it’s a creature) or to the enchanted creature (if it’s an Aura). If the bonus is applied to the enchanted creature, that bonus won’t apply to Everflame Eidolon, even if it becomes a creature later that turn."
+      }
+    ]
   },
   {
     "name": "Fall of the Hammer",
@@ -2463,7 +3819,17 @@
     "loyalty": null,
     "multiverse_id": 378465,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "As Fall of the Hammer tries to resolve, if only one of the targets is legal, Fall of the Hammer will still resolve but will have no effect: If the first target creature is illegal, it can’t deal damage to anything. If the second target creature is illegal, it can’t be dealt damage."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The amount of damage dealt is based on the first target creature’s power as Fall of the Hammer resolves."
+      }
+    ]
   },
   {
     "name": "Fated Conflagration",
@@ -2487,7 +3853,25 @@
     "loyalty": null,
     "multiverse_id": 378466,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      }
+    ]
   },
   {
     "name": "Fearsome Temper",
@@ -2514,7 +3898,17 @@
     "loyalty": null,
     "multiverse_id": 378467,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "The activated ability granted by Fearsome Temper can’t change or undo a block that’s already happened. For it to have an effect, you must activate it no later than the declare attackers step."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The target creature can still block other attacking creatures."
+      }
+    ]
   },
   {
     "name": "Felhide Spiritbinder",
@@ -2541,7 +3935,49 @@
     "loyalty": null,
     "multiverse_id": 378468,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "The token copies exactly what was printed on the original creature (except that the copy is also an enchantment) and nothing else (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the copied creature has {X} in its mana cost, X is considered to be zero."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the copied creature is copying something else (for example, if the copied creature is a Clone), then the token enters the battlefield as whatever that creature copied."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the copied creature is a token, the token created by Felhide Spiritbinder copies the original characteristics of that token as stated by the effect that put the token onto the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied creature will also work."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If another creature becomes or enters the battlefield as a copy of the token, that creature won’t have haste and you won’t exile it. However, if Felhide Spiritbinder creates multiple tokens due to a replacement effect (like the one Doubling Season creates), each of those tokens will have haste and you’ll exile each of them."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities don’t trigger when the creature enters the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability."
+      }
+    ]
   },
   {
     "name": "Flame-Wreathed Phoenix",
@@ -2569,7 +4005,33 @@
     "loyalty": null,
     "multiverse_id": 378469,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won’t enter the battlefield and then have the +1/+1 counters placed on it."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The choice of whether to pay tribute is made as the creature with tribute is entering the battlefield. At that point, it’s too late to respond to the creature spell. For example, in a multiplayer game, opponents won’t know whether tribute will be paid or which opponent will be chosen to pay tribute or not when deciding whether to counter the creature spell."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the triggered ability has a target, that target will not be known while the creature spell with tribute is on the stack."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Players can’t respond to the tribute decision before the creature enters the battlefield. That is, if the opponent doesn’t pay tribute, the triggered ability will trigger before any player has a chance to remove the creature."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The triggered ability will resolve even if the creature with tribute isn’t on the battlefield at that time."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "For effects that check which player put counters on the entering creature, the player chosen to pay tribute puts those counters on it, not the creature’s controller."
+      }
+    ]
   },
   {
     "name": "Forgestoker Dragon",
@@ -2596,7 +4058,17 @@
     "loyalty": null,
     "multiverse_id": 378470,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Forgestoker Dragon’s activated ability can target any creature, not just creatures controlled by the defending player or ones that could block."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you don’t want the target creature to be able to block, Forgestoker Dragon’s activated ability must be activated during the declare attackers step."
+      }
+    ]
   },
   {
     "name": "Impetuous Sunchaser",
@@ -2624,7 +4096,17 @@
     "loyalty": null,
     "multiverse_id": 378471,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Impetuous Sunchaser attacks only if it’s able to do so as the declare attackers step begins. If, at that time, it’s tapped or affected by a spell or ability that says it can’t attack, then it doesn’t attack. If there’s a cost associated with having it attack, you’re not forced to pay that cost. If that cost isn’t paid, Impetuous Sunchaser won’t attack."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "You choose which player or planeswalker Impetuous Sunchaser attacks."
+      }
+    ]
   },
   {
     "name": "Kragma Butcher",
@@ -2651,7 +4133,25 @@
     "loyalty": null,
     "multiverse_id": 378472,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities don’t trigger when the creature enters the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability."
+      }
+    ]
   },
   {
     "name": "Lightning Volley",
@@ -2675,7 +4175,8 @@
     "loyalty": null,
     "multiverse_id": 378473,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Nyxborn Rollicker",
@@ -2703,7 +4204,37 @@
     "loyalty": null,
     "multiverse_id": 378474,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Aura spells, an Aura spell with bestow isn’t countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Auras, an Aura with bestow isn’t put into its owner’s graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it’s been under your control continuously, even as an Aura, since your most recent turn began."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can’t choose to pay the bestow cost and have it become an Aura."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
+      }
+    ]
   },
   {
     "name": "Oracle of Bones",
@@ -2732,7 +4263,49 @@
     "loyalty": null,
     "multiverse_id": 378475,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If you want to cast a card this way, you cast it as part of the resolution of the triggered ability. Timing restrictions based on the card’s type (such as sorcery) are ignored. Other casting restrictions (such as “Cast [this card] only before attackers are declared”) are not."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the card has {X} in its mana cost, you must choose 0 as its value."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you cast a card “without paying its mana cost,” you can’t pay alternative costs such as overload costs. You can, however, pay additional costs such as kicker costs. If the card has mandatory additional costs, you must pay those."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you choose to cast a split card with fuse without paying its mana cost, you may cast both halves."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won’t enter the battlefield and then have the +1/+1 counters placed on it."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The choice of whether to pay tribute is made as the creature with tribute is entering the battlefield. At that point, it’s too late to respond to the creature spell. For example, in a multiplayer game, opponents won’t know whether tribute will be paid or which opponent will be chosen to pay tribute or not when deciding whether to counter the creature spell."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the triggered ability has a target, that target will not be known while the creature spell with tribute is on the stack."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Players can’t respond to the tribute decision before the creature enters the battlefield. That is, if the opponent doesn’t pay tribute, the triggered ability will trigger before any player has a chance to remove the creature."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The triggered ability will resolve even if the creature with tribute isn’t on the battlefield at that time."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "For effects that check which player put counters on the entering creature, the player chosen to pay tribute puts those counters on it, not the creature’s controller."
+      }
+    ]
   },
   {
     "name": "Pharagax Giant",
@@ -2759,7 +4332,33 @@
     "loyalty": null,
     "multiverse_id": 378476,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won’t enter the battlefield and then have the +1/+1 counters placed on it."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The choice of whether to pay tribute is made as the creature with tribute is entering the battlefield. At that point, it’s too late to respond to the creature spell. For example, in a multiplayer game, opponents won’t know whether tribute will be paid or which opponent will be chosen to pay tribute or not when deciding whether to counter the creature spell."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the triggered ability has a target, that target will not be known while the creature spell with tribute is on the stack."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Players can’t respond to the tribute decision before the creature enters the battlefield. That is, if the opponent doesn’t pay tribute, the triggered ability will trigger before any player has a chance to remove the creature."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The triggered ability will resolve even if the creature with tribute isn’t on the battlefield at that time."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "For effects that check which player put counters on the entering creature, the player chosen to pay tribute puts those counters on it, not the creature’s controller."
+      }
+    ]
   },
   {
     "name": "Pinnacle of Rage",
@@ -2783,7 +4382,13 @@
     "loyalty": null,
     "multiverse_id": 378477,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "You must choose two legal targets to cast Pinnacle of Rage."
+      }
+    ]
   },
   {
     "name": "Reckless Reveler",
@@ -2809,7 +4414,8 @@
     "loyalty": null,
     "multiverse_id": 378478,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rise to the Challenge",
@@ -2833,7 +4439,8 @@
     "loyalty": null,
     "multiverse_id": 378479,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Satyr Firedancer",
@@ -2860,7 +4467,8 @@
     "loyalty": null,
     "multiverse_id": 378480,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Satyr Nyx-Smith",
@@ -2888,7 +4496,25 @@
     "loyalty": null,
     "multiverse_id": 378481,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities don’t trigger when the creature enters the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability."
+      }
+    ]
   },
   {
     "name": "Scouring Sands",
@@ -2912,7 +4538,25 @@
     "loyalty": null,
     "multiverse_id": 378482,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      }
+    ]
   },
   {
     "name": "Searing Blood",
@@ -2936,7 +4580,13 @@
     "loyalty": null,
     "multiverse_id": 378483,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If the target creature dies that turn, Searing Blood will deal 3 damage to whoever controls the creature when it dies, who isn’t necessarily the player who controlled it when Searing Blood resolved. It doesn’t matter what causes the creature to die."
+      }
+    ]
   },
   {
     "name": "Stormcaller of Keranos",
@@ -2964,7 +4614,25 @@
     "loyalty": null,
     "multiverse_id": 378484,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      }
+    ]
   },
   {
     "name": "Thunder Brute",
@@ -2992,7 +4660,33 @@
     "loyalty": null,
     "multiverse_id": 378485,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won’t enter the battlefield and then have the +1/+1 counters placed on it."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The choice of whether to pay tribute is made as the creature with tribute is entering the battlefield. At that point, it’s too late to respond to the creature spell. For example, in a multiplayer game, opponents won’t know whether tribute will be paid or which opponent will be chosen to pay tribute or not when deciding whether to counter the creature spell."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the triggered ability has a target, that target will not be known while the creature spell with tribute is on the stack."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Players can’t respond to the tribute decision before the creature enters the battlefield. That is, if the opponent doesn’t pay tribute, the triggered ability will trigger before any player has a chance to remove the creature."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The triggered ability will resolve even if the creature with tribute isn’t on the battlefield at that time."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "For effects that check which player put counters on the entering creature, the player chosen to pay tribute puts those counters on it, not the creature’s controller."
+      }
+    ]
   },
   {
     "name": "Thunderous Might",
@@ -3019,7 +4713,25 @@
     "loyalty": null,
     "multiverse_id": 378486,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time."
+      }
+    ]
   },
   {
     "name": "Whims of the Fates",
@@ -3043,7 +4755,21 @@
     "loyalty": null,
     "multiverse_id": 378487,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "To choose a pile at random, each pile must have an equal chance of being chosen. There are many ways to do this, including assigning each pile a number and rolling a die."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "You may put Auras or Equipment into one pile and the creatures they were attached to into a different pile."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you put all permanents you control into one pile, you’ll have a two-thirds chance of not having to sacrifice any permanents, but a one-third chance of having to sacrifice all of them."
+      }
+    ]
   },
   {
     "name": "Archetype of Endurance",
@@ -3071,7 +4797,25 @@
     "loyalty": null,
     "multiverse_id": 378488,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "The Archetype’s second ability applies to each creature controlled by any of your opponents, no matter when it entered the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren’t created. For example, if you control Archetype of Courage, a spell cast by an opponent that gives creatures they control first strike wouldn’t cause the creatures to have first strike, even if later in the turn Archetype of Courage left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)"
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Conversely, continuous effects generated by static abilities (such as an Aura that granted the appropriate ability) would resume applying if the Archetype left the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you and an opponent each control the same Archetype, no creature controlled by any player will have the appropriate ability."
+      }
+    ]
   },
   {
     "name": "Aspect of Hydra",
@@ -3095,7 +4839,29 @@
     "loyalty": null,
     "multiverse_id": 378489,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The value of X is calculated as Aspect of Hydra resolves. The bonus won’t change later in the turn, even if your devotion to green does."
+      }
+    ]
   },
   {
     "name": "Charging Badger",
@@ -3121,7 +4887,8 @@
     "loyalty": null,
     "multiverse_id": 378490,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Courser of Kruphix",
@@ -3150,7 +4917,25 @@
     "loyalty": null,
     "multiverse_id": 378491,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "While playing with the top card of your library revealed, if you draw multiple cards, reveal each one before you draw it. If you put multiple cards on top of your library at once, reveal only the one new top card."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "If the top card of your library changes while you’re casting a spell, playing a land, or activating an ability, you don’t reveal the new top card until you finish doing so."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "Courser of Kruphix doesn’t change when you can play lands. You can do so only during your main phase when you have priority and the stack is empty."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "Playing a land from the top of your library counts as your land play for the turn. Once you play a land during your turn, you won’t be able to play an additional land from the top of your library unless another effect (such as that of Azusa, Lost but Seeking) allows you to."
+      }
+    ]
   },
   {
     "name": "Culling Mark",
@@ -3174,7 +4959,17 @@
     "loyalty": null,
     "multiverse_id": 378492,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "The creature blocks only if it’s able to do so as the declare blockers step begins. If, at that time, the creature is tapped, it’s affected by a spell or ability that says it can’t block, or no creatures are attacking its controller or a planeswalker controlled by that player, then it doesn’t block. If there’s a cost associated with having the creature block, the player isn’t forced to pay that cost. If that cost isn’t paid, the creature won’t block."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The controller of the creature chooses which attacking creature that creature blocks."
+      }
+    ]
   },
   {
     "name": "Fated Intervention",
@@ -3198,7 +4993,25 @@
     "loyalty": null,
     "multiverse_id": 378493,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      }
+    ]
   },
   {
     "name": "Graverobber Spider",
@@ -3225,7 +5038,13 @@
     "loyalty": null,
     "multiverse_id": 378494,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "The number of creature cards in your graveyard is counted only as the ability resolves. Once the ability resolves, the bonus won’t change, even if the number of creature cards in your graveyard changes later in the turn."
+      }
+    ]
   },
   {
     "name": "Hero of Leina Tower",
@@ -3252,7 +5071,25 @@
     "loyalty": null,
     "multiverse_id": 378495,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will resolve before the spell that caused them to trigger."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities won’t trigger when a copy of a spell is created on the stack or when a spell’s targets are changed to include a creature with a heroic ability."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "The amount to pay for {X} is chosen as the triggered ability resolves. No player may take actions between the time you pay {X} and the time Hero of Leina Tower has X +1/+1 counters on it."
+      }
+    ]
   },
   {
     "name": "Hunter's Prowess",
@@ -3276,7 +5113,8 @@
     "loyalty": null,
     "multiverse_id": 378496,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Karametra's Favor",
@@ -3304,7 +5142,8 @@
     "loyalty": null,
     "multiverse_id": 378497,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mischief and Mayhem",
@@ -3328,7 +5167,8 @@
     "loyalty": null,
     "multiverse_id": 378498,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mortal's Resolve",
@@ -3352,7 +5192,8 @@
     "loyalty": null,
     "multiverse_id": 378499,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Nessian Demolok",
@@ -3379,7 +5220,33 @@
     "loyalty": null,
     "multiverse_id": 378500,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won’t enter the battlefield and then have the +1/+1 counters placed on it."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The choice of whether to pay tribute is made as the creature with tribute is entering the battlefield. At that point, it’s too late to respond to the creature spell. For example, in a multiplayer game, opponents won’t know whether tribute will be paid or which opponent will be chosen to pay tribute or not when deciding whether to counter the creature spell."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the triggered ability has a target, that target will not be known while the creature spell with tribute is on the stack."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Players can’t respond to the tribute decision before the creature enters the battlefield. That is, if the opponent doesn’t pay tribute, the triggered ability will trigger before any player has a chance to remove the creature."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The triggered ability will resolve even if the creature with tribute isn’t on the battlefield at that time."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "For effects that check which player put counters on the entering creature, the player chosen to pay tribute puts those counters on it, not the creature’s controller."
+      }
+    ]
   },
   {
     "name": "Nessian Wilds Ravager",
@@ -3406,7 +5273,33 @@
     "loyalty": null,
     "multiverse_id": 378501,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won’t enter the battlefield and then have the +1/+1 counters placed on it."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The choice of whether to pay tribute is made as the creature with tribute is entering the battlefield. At that point, it’s too late to respond to the creature spell. For example, in a multiplayer game, opponents won’t know whether tribute will be paid or which opponent will be chosen to pay tribute or not when deciding whether to counter the creature spell."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the triggered ability has a target, that target will not be known while the creature spell with tribute is on the stack."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Players can’t respond to the tribute decision before the creature enters the battlefield. That is, if the opponent doesn’t pay tribute, the triggered ability will trigger before any player has a chance to remove the creature."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The triggered ability will resolve even if the creature with tribute isn’t on the battlefield at that time."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "For effects that check which player put counters on the entering creature, the player chosen to pay tribute puts those counters on it, not the creature’s controller."
+      }
+    ]
   },
   {
     "name": "Noble Quarry",
@@ -3435,7 +5328,37 @@
     "loyalty": null,
     "multiverse_id": 378502,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Aura spells, an Aura spell with bestow isn’t countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Auras, an Aura with bestow isn’t put into its owner’s graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it’s been under your control continuously, even as an Aura, since your most recent turn began."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can’t choose to pay the bestow cost and have it become an Aura."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
+      }
+    ]
   },
   {
     "name": "Nyxborn Wolf",
@@ -3463,7 +5386,37 @@
     "loyalty": null,
     "multiverse_id": 378503,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Aura spells, an Aura spell with bestow isn’t countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Auras, an Aura with bestow isn’t put into its owner’s graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it’s been under your control continuously, even as an Aura, since your most recent turn began."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can’t choose to pay the bestow cost and have it become an Aura."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
+      }
+    ]
   },
   {
     "name": "Peregrination",
@@ -3487,7 +5440,29 @@
     "loyalty": null,
     "multiverse_id": 378504,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "You can choose to search for only one basic land card with Peregrination. If you do, you’ll put that card onto the battlefield tapped."
+      }
+    ]
   },
   {
     "name": "Pheres-Band Raiders",
@@ -3514,7 +5489,25 @@
     "loyalty": null,
     "multiverse_id": 378505,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities don’t trigger when the creature enters the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability."
+      }
+    ]
   },
   {
     "name": "Pheres-Band Tromper",
@@ -3541,7 +5534,25 @@
     "loyalty": null,
     "multiverse_id": 378506,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities don’t trigger when the creature enters the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability."
+      }
+    ]
   },
   {
     "name": "Raised by Wolves",
@@ -3569,7 +5580,8 @@
     "loyalty": null,
     "multiverse_id": 378507,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Satyr Wayfinder",
@@ -3595,7 +5607,8 @@
     "loyalty": null,
     "multiverse_id": 378508,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Scourge of Skola Vale",
@@ -3623,7 +5636,13 @@
     "loyalty": null,
     "multiverse_id": 378509,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Use the toughness of the sacrificed creature as it last existed on the battlefield to determine how many +1/+1 counters to put on Scourge of Skola Vale."
+      }
+    ]
   },
   {
     "name": "Setessan Oathsworn",
@@ -3650,7 +5669,21 @@
     "loyalty": null,
     "multiverse_id": 378510,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will resolve before the spell that caused them to trigger."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Heroic abilities won’t trigger when a copy of a spell is created on the stack or when a spell’s targets are changed to include a creature with a heroic ability."
+      }
+    ]
   },
   {
     "name": "Setessan Starbreaker",
@@ -3677,7 +5710,8 @@
     "loyalty": null,
     "multiverse_id": 378511,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Skyreaping",
@@ -3701,7 +5735,25 @@
     "loyalty": null,
     "multiverse_id": 378512,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time."
+      }
+    ]
   },
   {
     "name": "Snake of the Golden Grove",
@@ -3728,7 +5780,33 @@
     "loyalty": null,
     "multiverse_id": 378513,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won’t enter the battlefield and then have the +1/+1 counters placed on it."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The choice of whether to pay tribute is made as the creature with tribute is entering the battlefield. At that point, it’s too late to respond to the creature spell. For example, in a multiplayer game, opponents won’t know whether tribute will be paid or which opponent will be chosen to pay tribute or not when deciding whether to counter the creature spell."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the triggered ability has a target, that target will not be known while the creature spell with tribute is on the stack."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Players can’t respond to the tribute decision before the creature enters the battlefield. That is, if the opponent doesn’t pay tribute, the triggered ability will trigger before any player has a chance to remove the creature."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The triggered ability will resolve even if the creature with tribute isn’t on the battlefield at that time."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "For effects that check which player put counters on the entering creature, the player chosen to pay tribute puts those counters on it, not the creature’s controller."
+      }
+    ]
   },
   {
     "name": "Swordwise Centaur",
@@ -3753,7 +5831,8 @@
     "loyalty": null,
     "multiverse_id": 378514,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Unravel the Aether",
@@ -3777,7 +5856,17 @@
     "loyalty": null,
     "multiverse_id": 378515,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If the artifact or enchantment is an illegal target as Unravel the Aether tries to resolve, it won’t resolve and none of its effects will happen. No library will be shuffled."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the artifact or enchantment is a token, it will be shuffled into its owner’s library when Unravel the Aether resolves, then will cease to exist. For practical purposes, whatever item is representing the token should not actually be put into the library, though the library is still shuffled."
+      }
+    ]
   },
   {
     "name": "Chromanticore",
@@ -3806,7 +5895,37 @@
     "loyalty": null,
     "multiverse_id": 378516,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Aura spells, an Aura spell with bestow isn’t countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Unlike other Auras, an Aura with bestow isn’t put into its owner’s graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it’s been under your control continuously, even as an Aura, since your most recent turn began."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can’t choose to pay the bestow cost and have it become an Aura."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
+      }
+    ]
   },
   {
     "name": "Ephara, God of the Polis",
@@ -3837,7 +5956,61 @@
     "loyalty": null,
     "multiverse_id": 378517,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "The type-changing ability that can make the God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won’t matter because it has indestructible.)"
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Ephara’s last ability checks at the beginning of each upkeep whether another creature entered the battlefield under your control last turn. If one did, it will trigger; otherwise, it won’t. The ability will trigger only once no matter how many creatures entered the battlefield under your control that turn, as long as at least one did."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The last ability will trigger regardless of what has happened to the creature that entered the battlefield on the previous turn. It doesn’t matter whether it’s still under your control or whether it’s still on the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If a noncreature permanent you control (such as an Aura with bestow) becomes a creature, it will not cause Ephara’s last ability to trigger the following turn. This is true even if that noncreature permanent became a creature the same turn it entered the battlefield."
+      }
+    ]
   },
   {
     "name": "Ephara's Enlightenment",
@@ -3866,7 +6039,17 @@
     "loyalty": null,
     "multiverse_id": 378518,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "The last ability of Ephara’s Enlightenment will trigger only if it’s on the battlefield when the creature enters the battlefield under your control. You may return it to its owner’s hand only if it’s still on the battlefield when that ability resolves."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If Ephara’s Enlightenment isn’t on the battlefield when its enters-the-battlefield ability resolves, put a +1/+1 counter on the creature it was enchanting when it left the battlefield."
+      }
+    ]
   },
   {
     "name": "Fanatic of Xenagos",
@@ -3895,7 +6078,33 @@
     "loyalty": null,
     "multiverse_id": 378519,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won’t enter the battlefield and then have the +1/+1 counters placed on it."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The choice of whether to pay tribute is made as the creature with tribute is entering the battlefield. At that point, it’s too late to respond to the creature spell. For example, in a multiplayer game, opponents won’t know whether tribute will be paid or which opponent will be chosen to pay tribute or not when deciding whether to counter the creature spell."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the triggered ability has a target, that target will not be known while the creature spell with tribute is on the stack."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Players can’t respond to the tribute decision before the creature enters the battlefield. That is, if the opponent doesn’t pay tribute, the triggered ability will trigger before any player has a chance to remove the creature."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The triggered ability will resolve even if the creature with tribute isn’t on the battlefield at that time."
+      },
+      {
+        "date": "4/18/2017",
+        "text": "For effects that check which player put counters on the entering creature, the player chosen to pay tribute puts those counters on it, not the creature’s controller."
+      }
+    ]
   },
   {
     "name": "Karametra, God of Harvests",
@@ -3926,7 +6135,57 @@
     "loyalty": null,
     "multiverse_id": 378520,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "The type-changing ability that can make the God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won’t matter because it has indestructible.)"
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you cast a creature card with bestow for its bestow cost, it becomes an Aura spell and not a creature spell. Karametra’s last ability won’t trigger."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "You can use the last ability to put any land card with the subtype Forest or Plains onto the battlefield, not just ones named Forest or Plains."
+      }
+    ]
   },
   {
     "name": "Kiora, the Crashing Wave",
@@ -3956,7 +6215,29 @@
     "loyalty": "2",
     "multiverse_id": 378521,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Kiora’s first ability can target any permanent an opponent controls, not just one that can deal or be dealt damage."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Once the first ability resolves, the damage prevention continues to apply even if that permanent changes controllers."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Kiora’s second ability allows you to play an additional land during your main phase. Doing so follows the normal timing rules for playing lands. In particular, you won’t play a land as that ability resolves. The ability will fully resolve (and you’ll draw a card, perhaps a land you’ll play later) first."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The effect of the second ability is cumulative with other effects that let you play additional lands, such as the one from Rites of Flourishing."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If Kiora leaves the battlefield after her second ability is activated but before it resolves, you’ll still be able to play an additional land after the ability resolves."
+      }
+    ]
   },
   {
     "name": "Kiora's Follower",
@@ -3982,7 +6263,8 @@
     "loyalty": null,
     "multiverse_id": 378522,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mogis, God of Slaughter",
@@ -4013,7 +6295,53 @@
     "loyalty": null,
     "multiverse_id": 378523,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "The type-changing ability that can make the God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won’t matter because it has indestructible.)"
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the player can’t sacrifice a creature (usually because they don’t control one), Mogis will deal 2 damage to them."
+      }
+    ]
   },
   {
     "name": "Phenax, God of Deception",
@@ -4044,7 +6372,61 @@
     "loyalty": null,
     "multiverse_id": 378524,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "The type-changing ability that can make the God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won’t matter because it has indestructible.)"
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you activate the ability Phenax grants to creatures you control, the toughness of the creature is calculated as the ability resolves. If the creature is no longer on the battlefield at that time, use its toughness when it was last on the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If Phenax is a creature, it will grant itself the activated ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you tap Phenax to activate the ability it grants itself, and Phenax is no longer a creature but still on the battlefield as that ability resolves, no cards will be put into the target player’s graveyard. Similarly, if Phenax isn’t on the battlefield as the ability resolves and wasn’t a creature when it left the battlefield, no cards will be put into the graveyard."
+      }
+    ]
   },
   {
     "name": "Ragemonger",
@@ -4071,7 +6453,21 @@
     "loyalty": null,
     "multiverse_id": 378525,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If you control more than one Ragemonger, the cost reduction is cumulative."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "You apply cost reduction effects after other cost modifiers, so Ragemonger can reduce additional costs or alternative costs of Minotaur spells if they include {B} and/or {R}."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If a spell has hybrid mana symbols in its mana cost, you choose which half you will be paying before determining the total cost. If you choose to pay such a cost with {B} or {R}, Ragemonger can reduce that part of the cost."
+      }
+    ]
   },
   {
     "name": "Reap What Is Sown",
@@ -4095,7 +6491,13 @@
     "loyalty": null,
     "multiverse_id": 378526,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Reap What Is Sown can’t target the same creature multiple times. It will put only one +1/+1 counter on each of its targets."
+      }
+    ]
   },
   {
     "name": "Siren of the Silent Song",
@@ -4123,7 +6525,25 @@
     "loyalty": null,
     "multiverse_id": 378527,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Inspired abilities don’t trigger when the creature enters the battlefield."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability."
+      }
+    ]
   },
   {
     "name": "Xenagos, God of Revels",
@@ -4154,7 +6574,53 @@
     "loyalty": null,
     "multiverse_id": 378528,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "The type-changing ability that can make the God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won’t matter because it has indestructible.)"
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The value of X is calculated only once, as the ability resolves."
+      }
+    ]
   },
   {
     "name": "Astral Cornucopia",
@@ -4179,7 +6645,17 @@
     "loyalty": null,
     "multiverse_id": 378529,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If you choose 1 for the value of X, Astral Cornucopia will cost {3} to cast and enter the battlefield with one charge counter. If you choose 2 for the value of X, it will cost {6} to cast and enter the battlefield with two charge counters, and so on."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "The last ability is a mana ability. It doesn’t use the stack and can’t be responded to."
+      }
+    ]
   },
   {
     "name": "Gorgon's Head",
@@ -4206,7 +6682,8 @@
     "loyalty": null,
     "multiverse_id": 378530,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Heroes' Podium",
@@ -4233,7 +6710,17 @@
     "loyalty": null,
     "multiverse_id": 378531,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "The bonus given by Heroes’ Podium counts only legendary creatures. It won’t count itself unless some other effect causes it to be a creature in addition to being a land (in which case it will also get the bonus)."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Heroes’ Podium will give a bonus to each legendary creature you control, even if gaining control of one causes the “legend rule” to apply. For example, if you control Brimaz, King of Oreskos (a 3/4 legendary creature), and gain control of another one, they’ll each be 4/5 when you put one into its owner’s graveyard. Then the remaining one will return to being 3/4."
+      }
+    ]
   },
   {
     "name": "Pillar of War",
@@ -4261,7 +6748,13 @@
     "loyalty": null,
     "multiverse_id": 378532,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "Defender only matters when Pillar of War could be declared as an attacking creature. If Pillar of War is already attacking, it becoming not enchanted doesn’t cause it to be removed from combat."
+      }
+    ]
   },
   {
     "name": "Siren Song Lyre",
@@ -4288,7 +6781,8 @@
     "loyalty": null,
     "multiverse_id": 378533,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Springleaf Drum",
@@ -4312,7 +6806,13 @@
     "loyalty": null,
     "multiverse_id": 378534,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "You can tap a creature that hasn’t been under your control since your most recent turn began to activate the ability."
+      }
+    ]
   },
   {
     "name": "Temple of Enlightenment",
@@ -4338,7 +6838,25 @@
     "loyalty": null,
     "multiverse_id": 378535,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      }
+    ]
   },
   {
     "name": "Temple of Malice",
@@ -4364,7 +6882,25 @@
     "loyalty": null,
     "multiverse_id": 378536,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      }
+    ]
   },
   {
     "name": "Temple of Plenty",
@@ -4390,6 +6926,24 @@
     "loyalty": null,
     "multiverse_id": 378537,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      }
+    ]
   }
 ]

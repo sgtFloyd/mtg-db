@@ -21,7 +21,8 @@
     "loyalty": null,
     "multiverse_id": 447137,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Aethershield Artificer",
@@ -48,7 +49,8 @@
     "loyalty": null,
     "multiverse_id": 447138,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ajani, Adversary of Tyrants",
@@ -78,7 +80,13 @@
     "loyalty": "4",
     "multiverse_id": 447139,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If a card in your graveyard has {X} in its mana cost, X is considered to be 0."
+      }
+    ]
   },
   {
     "name": "Ajani's Last Stand",
@@ -103,7 +111,21 @@
     "loyalty": null,
     "multiverse_id": 447140,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If multiple creatures and/or planeswalkers you control die at the same time, the first ability of Ajani’s Last Stand triggers that many times. However, you can sacrifice it only once, so you’ll get only one token."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "In a Magic game, cards are discarded only from a player’s hand. Effects that put cards from a player’s library into that player’s graveyard do not cause those cards to be discarded."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a spell or ability an opponent controls causes you to make a choice and you choose to discard Ajani’s Last Stand, its last ability will trigger."
+      }
+    ]
   },
   {
     "name": "Ajani's Pridemate",
@@ -122,7 +144,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever you gain life, you may put a +1/+1 counter on Ajani's Pridemate."
+      "Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate."
     ],
     "flavor_text": "\"When one of us prospers, the pride prospers.\"\n—Jazal Goldmane",
     "power": "2",
@@ -130,7 +152,29 @@
     "loyalty": null,
     "multiverse_id": 447141,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/3/2019",
+        "text": "The ability of Ajani’s Pridemate triggers just once for each life-gaining event, whether it’s 1 life from Ajani’s Welcome or 2 life from Battlefield Promotion."
+      },
+      {
+        "date": "5/3/2019",
+        "text": "If Ajani’s Pridemate is dealt lethal damage at the same time that you gain life, it won’t receive a counter from its ability in time to save it."
+      },
+      {
+        "date": "5/3/2019",
+        "text": "Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Ajani’s Pridemate’s ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once."
+      },
+      {
+        "date": "5/3/2019",
+        "text": "If you gain an amount of life “for each” of something, that life is gained as one event and the ability of Ajani’s Pridemate triggers only once."
+      },
+      {
+        "date": "5/3/2019",
+        "text": "In a Two-Headed Giant game, life gained by your teammate won’t cause the ability to trigger, even though it caused your team’s life total to increase."
+      }
+    ]
   },
   {
     "name": "Ajani's Welcome",
@@ -154,7 +198,8 @@
     "loyalty": null,
     "multiverse_id": 447142,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Angel of the Dawn",
@@ -181,7 +226,13 @@
     "loyalty": null,
     "multiverse_id": 447143,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Angel of the Dawn’s triggered ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get +1/+1 or gain vigilance."
+      }
+    ]
   },
   {
     "name": "Cavalry Drillmaster",
@@ -208,7 +259,8 @@
     "loyalty": null,
     "multiverse_id": 447144,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cleansing Nova",
@@ -234,7 +286,8 @@
     "loyalty": null,
     "multiverse_id": 447145,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Daybreak Chaplain",
@@ -261,7 +314,8 @@
     "loyalty": null,
     "multiverse_id": 447146,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dwarven Priest",
@@ -288,7 +342,13 @@
     "loyalty": null,
     "multiverse_id": 447147,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "The number of creatures you control is counted only as Dwarven Priest’s ability resolves. If Dwarven Priest is still on the battlefield, it will count itself."
+      }
+    ]
   },
   {
     "name": "Gallant Cavalry",
@@ -316,7 +376,8 @@
     "loyalty": null,
     "multiverse_id": 447148,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Herald of Faith",
@@ -343,7 +404,8 @@
     "loyalty": null,
     "multiverse_id": 447149,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Hieromancer's Cage",
@@ -367,7 +429,21 @@
     "loyalty": null,
     "multiverse_id": 447150,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If Hieromancer’s Cage leaves the battlefield before its triggered ability resolves, the target permanent won’t be exiled."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Auras attached to the exiled permanent will be put into their owners’ graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a token is exiled this way, it will cease to exist and won’t return to the battlefield."
+      }
+    ]
   },
   {
     "name": "Inspired Charge",
@@ -391,7 +467,13 @@
     "loyalty": null,
     "multiverse_id": 447151,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/20/2016",
+        "text": "The set of creatures affected by Inspired Charge is determined as the spell resolves. Creatures you begin to control later in the turn and noncreature permanents that become creatures later in the turn won’t get +2/+1."
+      }
+    ]
   },
   {
     "name": "Invoke the Divine",
@@ -415,7 +497,13 @@
     "loyalty": null,
     "multiverse_id": 447152,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If the target artifact or enchantment is an illegal target by the time Invoke the Divine tries to resolve, the spell doesn’t resolve. You won’t gain any life."
+      }
+    ]
   },
   {
     "name": "Isolate",
@@ -439,7 +527,13 @@
     "loyalty": null,
     "multiverse_id": 447153,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If a permanent has {X} in its mana cost, X is considered to be 0."
+      }
+    ]
   },
   {
     "name": "Knight of the Tusk",
@@ -466,7 +560,8 @@
     "loyalty": null,
     "multiverse_id": 447154,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Knight's Pledge",
@@ -493,7 +588,8 @@
     "loyalty": null,
     "multiverse_id": 447155,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Knightly Valor",
@@ -521,7 +617,17 @@
     "loyalty": null,
     "multiverse_id": 447156,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "You need a creature for Knightly Valor to target as you cast it. There’s no way to have it enter the battlefield attached to the Knight token it’ll create."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the creature this Aura would enchant is an illegal target by the time Knightly Valor tries to resolve, the Aura spell doesn’t resolve. It won’t enter the battlefield, so its ability won’t trigger."
+      }
+    ]
   },
   {
     "name": "Lena, Selfless Champion",
@@ -551,7 +657,21 @@
     "loyalty": null,
     "multiverse_id": 447157,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "The number of nontoken creatures you control is counted only as Lena’s first ability resolves. If Lena is still on the battlefield (and not somehow a token), it will count itself."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "To determine which creatures gain indestructible while resolving Lena’s last ability, use Lena’s power as it last existed on the battlefield."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Lena’s last ability affects only creatures you control with the appropriate power at the time it resolves. Creatures you begin to control later in the turn won’t gain indestructible, and a creature you control whose power increases later in the turn won’t lose indestructible."
+      }
+    ]
   },
   {
     "name": "Leonin Vanguard",
@@ -578,7 +698,17 @@
     "loyalty": null,
     "multiverse_id": 447158,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If you don’t control three or more creatures as your combat phase begins, Leonin Vanguard’s ability won’t trigger at all. Causing a permanent to become a creature during the beginning of combat step won’t cause Leonin Vanguard’s ability to trigger."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If you don’t control three or more creatures as Leonin Vanguard’s ability resolves, the ability does nothing. However, if you do control three or more creatures as it resolves, the +1/+1 bonus doesn’t stop applying if you no longer control three creatures later in the turn."
+      }
+    ]
   },
   {
     "name": "Leonin Warleader",
@@ -605,7 +735,17 @@
     "loyalty": null,
     "multiverse_id": 447159,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "You choose which players or planeswalkers the two tokens are attacking. They don’t have to be attacking the same player or planeswalker that Leonin Warleader is attacking, and they can each be attacking different players and/or planeswalkers."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Although the tokens are attacking, they were never declared as attacking creatures (for the purposes of abilities that trigger whenever a creature attacks, for example)."
+      }
+    ]
   },
   {
     "name": "Loxodon Line Breaker",
@@ -630,7 +770,8 @@
     "loyalty": null,
     "multiverse_id": 447160,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Luminous Bonds",
@@ -657,7 +798,8 @@
     "loyalty": null,
     "multiverse_id": 447161,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Make a Stand",
@@ -681,7 +823,8 @@
     "loyalty": null,
     "multiverse_id": 447162,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mentor of the Meek",
@@ -708,7 +851,21 @@
     "loyalty": null,
     "multiverse_id": 447163,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Mentor of the Meek’s ability checks the power of the other creature only as it enters the battlefield. If that creature’s power is 2 or less, the ability will trigger. Once the ability triggers, raising that creature’s power above 2 won’t affect that ability. Similarly, reducing the creature’s power to 2 or less after it enters the battlefield won’t cause the ability to trigger."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Apply power bonuses from counters the creature enters the battlefield with and continuous effects such as that of Valiant Knight before checking to see if Mentor of the Meek’s ability will trigger."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "While resolving the triggered ability of Mentor of the Meek, you can’t pay {1} multiple times to draw more than one card."
+      }
+    ]
   },
   {
     "name": "Mighty Leap",
@@ -732,7 +889,13 @@
     "loyalty": null,
     "multiverse_id": 447164,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Giving a creature flying after it’s already been blocked won’t change or undo that block. If you want to affect what can block the creature, you must cast Mighty Leap during the declare attackers step at the latest."
+      }
+    ]
   },
   {
     "name": "Militia Bugler",
@@ -760,7 +923,8 @@
     "loyalty": null,
     "multiverse_id": 447165,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Novice Knight",
@@ -788,7 +952,13 @@
     "loyalty": null,
     "multiverse_id": 447166,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Once Novice Knight has attacked, it will remain in combat even if it’s no longer enchanted or equipped."
+      }
+    ]
   },
   {
     "name": "Oreskos Swiftclaw",
@@ -813,7 +983,8 @@
     "loyalty": null,
     "multiverse_id": 447167,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Pegasus Courser",
@@ -840,7 +1011,8 @@
     "loyalty": null,
     "multiverse_id": 447168,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Remorseful Cleric",
@@ -868,7 +1040,8 @@
     "loyalty": null,
     "multiverse_id": 447169,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Resplendent Angel",
@@ -896,7 +1069,29 @@
     "loyalty": null,
     "multiverse_id": 447170,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Resplendent Angel’s triggered ability checks if you gained 5 or more life total during the turn. It doesn’t matter if you also lost life or whether your life total is greater than it was at the beginning of the turn. It also doesn’t matter whether Resplendent Angel was on the battlefield when any of the life gain happened."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You don’t need to have gained 5 life all at once to satisfy Resplendent Angel’s triggered ability."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If you didn’t gain life during the turn before the end step begins, Resplendent Angel’s triggered ability won’t trigger at all. Gaining life during the end step won’t cause the ability to trigger."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You create only one Angel token, no matter how many times you gained 5 or more life."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "In a Two-Headed Giant game, life gained by your teammate won’t satisfy Resplendent Angel’s triggered ability, even though it caused your team’s life total to increase."
+      }
+    ]
   },
   {
     "name": "Revitalize",
@@ -921,7 +1116,8 @@
     "loyalty": null,
     "multiverse_id": 447171,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rustwing Falcon",
@@ -947,7 +1143,8 @@
     "loyalty": null,
     "multiverse_id": 447172,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Shield Mare",
@@ -974,7 +1171,8 @@
     "loyalty": null,
     "multiverse_id": 447173,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Star-Crowned Stag",
@@ -1000,7 +1198,8 @@
     "loyalty": null,
     "multiverse_id": 447174,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Suncleanser",
@@ -1029,7 +1228,29 @@
     "loyalty": null,
     "multiverse_id": 447175,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If the cost of an ability or an additional cost of a spell requires putting counters on a creature or player affected by Suncleanser, that cost can’t be paid. If a resolving spell or ability says that a player may give counters to that creature or player, that player can’t choose to do so."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a replacement effect allows a player to modify or replace an event by putting counters on a creature or player affected by Suncleanser, that player may apply that replacement effect, but they won’t get counters. If the original event is entirely replaced (such as by applying Soul-Scar Mage’s replacement effect), the original event won’t happen."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Damage from a source with wither has no effect on an affected creature. No -1/-1 counters are put on them, and no damage is marked on them. The damage is still dealt for purposes of effects that care about damage, such as lifelink."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Damage from a source with infect has no effect on an affected creature or player. No -1/-1 counters are put on creatures, and no damage is marked on them. Players don’t get poison counters and they don’t lose life. The damage is still dealt for purposes of effects that care about damage, such as lifelink."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "While resolving a cumulative upkeep trigger of an affected creature, you’ll fail to put a counter on that permanent, then you may pay for the age counters already on it. If it has no age counters on it, you may pay {0}."
+      }
+    ]
   },
   {
     "name": "Take Vengeance",
@@ -1053,7 +1274,8 @@
     "loyalty": null,
     "multiverse_id": 447176,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Trusty Packbeast",
@@ -1079,7 +1301,8 @@
     "loyalty": null,
     "multiverse_id": 447177,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Valiant Knight",
@@ -1107,7 +1330,17 @@
     "loyalty": null,
     "multiverse_id": 447178,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Multiple instances of double strike on the same creature are redundant."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Because damage remains marked on a creature until it’s removed as the turn ends, nonlethal damage dealt to a Knight you control may become lethal if Valiant Knight leaves the battlefield during that turn."
+      }
+    ]
   },
   {
     "name": "Aether Tunnel",
@@ -1134,7 +1367,8 @@
     "loyalty": null,
     "multiverse_id": 447179,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Anticipate",
@@ -1158,7 +1392,8 @@
     "loyalty": null,
     "multiverse_id": 447180,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Aven Wind Mage",
@@ -1186,7 +1421,13 @@
     "loyalty": null,
     "multiverse_id": 447181,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Aven Wind Mage’s triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered."
+      }
+    ]
   },
   {
     "name": "Aviation Pioneer",
@@ -1213,7 +1454,8 @@
     "loyalty": null,
     "multiverse_id": 447182,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bone to Ash",
@@ -1238,7 +1480,13 @@
     "loyalty": null,
     "multiverse_id": 447183,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "A creature spell that can’t be countered is a legal target for Bone to Ash. The creature spell won’t be countered when Bone to Ash resolves, but you’ll still draw a card."
+      }
+    ]
   },
   {
     "name": "Cancel",
@@ -1262,7 +1510,8 @@
     "loyalty": null,
     "multiverse_id": 447184,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Departed Deckhand",
@@ -1291,7 +1540,21 @@
     "loyalty": null,
     "multiverse_id": 447185,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "You’ll sacrifice Departed Deckhand even if you counter the spell that targets it."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the spell that targets Departed Deckhand has no other targets, it won’t resolve (because it no longer has a legal target after Departed Deckhand is sacrificed)."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Activating Departed Deckhand’s last ability after a creature has become blocked by a non-Spirit creature won’t cause that creature to become unblocked."
+      }
+    ]
   },
   {
     "name": "Disperse",
@@ -1315,7 +1578,8 @@
     "loyalty": null,
     "multiverse_id": 447186,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Divination",
@@ -1339,7 +1603,8 @@
     "loyalty": null,
     "multiverse_id": 447187,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Djinn of Wishes",
@@ -1367,7 +1632,25 @@
     "loyalty": null,
     "multiverse_id": 447188,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If you wish to play the exiled card, you must play it while the last ability of Djinn of Wishes is resolving. You can’t play it later in the turn. A spell cast this way may be cast at a time you normally wouldn’t be able to cast a spell of that type, but other restrictions (such as “Cast this spell only during combat”) are enforced."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the revealed card is a land, you can play it only if it’s your turn and you haven’t yet played a land this turn."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, those must be paid to cast the card."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost."
+      }
+    ]
   },
   {
     "name": "Dwindle",
@@ -1395,7 +1678,13 @@
     "loyalty": null,
     "multiverse_id": 447189,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Once the enchanted creature is destroyed, the attacking creature won’t assign or deal combat damage unless it has trample or is being blocked by another creature."
+      }
+    ]
   },
   {
     "name": "Essence Scatter",
@@ -1419,7 +1708,13 @@
     "loyalty": null,
     "multiverse_id": 447190,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "A “creature spell” is any spell with the type creature, even if it has other types such as artifact or enchantment. Older cards of type summon are also creature spells."
+      }
+    ]
   },
   {
     "name": "Exclusion Mage",
@@ -1446,7 +1741,8 @@
     "loyalty": null,
     "multiverse_id": 447191,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Frilled Sea Serpent",
@@ -1472,7 +1768,13 @@
     "loyalty": null,
     "multiverse_id": 447192,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Once Frilled Sea Serpent has been blocked, activating its ability won’t change or undo that block."
+      }
+    ]
   },
   {
     "name": "Gearsmith Prodigy",
@@ -1499,7 +1801,8 @@
     "loyalty": null,
     "multiverse_id": 447193,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ghostform",
@@ -1523,7 +1826,8 @@
     "loyalty": null,
     "multiverse_id": 447194,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Horizon Scholar",
@@ -1550,7 +1854,25 @@
     "loyalty": null,
     "multiverse_id": 447195,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      }
+    ]
   },
   {
     "name": "Metamorphic Alteration",
@@ -1578,7 +1900,49 @@
     "loyalty": null,
     "multiverse_id": 447196,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "You can choose only a creature on the battlefield."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Metamorphic Alteration copies exactly what is printed on the chosen creature (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it as any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "The characteristics that will be copied are determined as Metamorphic Alteration’s effect first begins to apply. If the copiable values of the chosen creature change later, or if that creature leaves the battlefield, the enchanted creature’s characteristics are unaffected."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the chosen creature isn’t normally a creature (for example, if the chosen creature is an animated Treetop Village), the enchanted creature becomes a copy of that noncreature permanent. This causes Metamorphic Alteration to be illegally attached, and it’s put into its owner’s graveyard. The previously enchanted creature returns to being itself."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the chosen creature is copying something else (for example, if the chosen creature is enchanted by another Metamorphic Alteration), then the enchanted creature becomes a copy of whatever the chosen creature copied."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the chosen creature is a token, Metamorphic Alteration copies the original characteristics of that token as stated by the effect that put the token onto the battlefield. The enchanted creature doesn’t become a token in this case."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "The enchanted creature will be a copy of the chosen creature as it dies, so any “when this creature dies” abilities it gains from the copy effect will trigger. Any “when this creature dies” abilities it normally has will not trigger."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If Metamorphic Alteration somehow enters the battlefield at the same time as another creature, it can’t have the enchanted creature become a copy of that creature. You may choose only a creature that’s already on the battlefield."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Metamorphic Alteration can cause a creature to become a copy of itself. This generally has no effect, but if that creature has a pair of linked abilities, the new abilities it has from the copy effect aren’t linked to the abilities it had before."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "The copiable values granted by Metamorphic Alteration are locked in as the creature is chosen. The enchanted creature won’t change if the chosen creature’s copiable values change."
+      }
+    ]
   },
   {
     "name": "Mirror Image",
@@ -1604,7 +1968,33 @@
     "loyalty": null,
     "multiverse_id": 447197,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Mirror Image copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it as any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the copied creature has {X} in its mana cost, X is considered to be 0."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the chosen creature is copying something else (for example, if the chosen creature is another Mirror Image), then Mirror Image enters the battlefield as whatever the chosen creature copied."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the chosen creature is a token, Mirror Image copies the original characteristics of that token as stated by the effect that put the token onto the battlefield. Mirror Image doesn’t become a token in this case."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Any enters-the-battlefield abilities of the copied creature will trigger when Mirror Image enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the chosen creature will also work."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If Mirror Image somehow enters the battlefield at the same time as another creature, it can’t become a copy of that creature. You may choose only a creature that’s already on the battlefield."
+      }
+    ]
   },
   {
     "name": "Mistcaller",
@@ -1631,7 +2021,21 @@
     "loyalty": null,
     "multiverse_id": 447198,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Mistcaller’s ability won’t affect any nontoken creatures that were cast, including ones cast from unusual zones such as your graveyard."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Mistcaller’s ability doesn’t stop creature tokens from entering the battlefield. It also doesn’t affect creatures that are already on the battlefield."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If Mistcaller enters the battlefield at the same time as other creatures, its ability can’t be activated in time to affect those creatures."
+      }
+    ]
   },
   {
     "name": "Mystic Archaeologist",
@@ -1658,7 +2062,8 @@
     "loyalty": null,
     "multiverse_id": 447199,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Omenspeaker",
@@ -1685,7 +2090,25 @@
     "loyalty": null,
     "multiverse_id": 447200,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/15/2013",
+        "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You choose how to order cards returned to your library after scrying no matter where you put them."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions."
+      },
+      {
+        "date": "9/15/2013",
+        "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      }
+    ]
   },
   {
     "name": "Omniscience",
@@ -1709,7 +2132,25 @@
     "loyalty": null,
     "multiverse_id": 447201,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "You must follow the normal timing permissions and restrictions of each spell you cast."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, those must be paid to cast the card."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Once you cast Omniscience, if it’s your turn, you’ll have priority immediately after it resolves. You can cast another spell before any player can attempt to remove Omniscience with spells or abilities."
+      }
+    ]
   },
   {
     "name": "One with the Machine",
@@ -1733,7 +2174,13 @@
     "loyalty": null,
     "multiverse_id": 447202,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If a permanent has {X} in its mana cost, X is considered to be 0."
+      }
+    ]
   },
   {
     "name": "Patient Rebuilding",
@@ -1757,7 +2204,17 @@
     "loyalty": null,
     "multiverse_id": 447203,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Each time Patient Rebuilding’s triggered ability resolves, it counts only the land cards put into that graveyard during that ability’s resolution. For example, if your opponent puts two land cards into their graveyard during one upkeep and three land cards the next, you’ll draw two and three cards, respectively, not two and five."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If your opponent moves cards from their library but they aren’t put into their graveyard (perhaps because you control Rest in Peace), you won’t draw any cards."
+      }
+    ]
   },
   {
     "name": "Psychic Corrosion",
@@ -1781,7 +2238,13 @@
     "loyalty": null,
     "multiverse_id": 447204,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” Psychic Corrosion’s ability won’t trigger."
+      }
+    ]
   },
   {
     "name": "Sai, Master Thopterist",
@@ -1811,7 +2274,13 @@
     "loyalty": null,
     "multiverse_id": 447205,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Sai’s triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered."
+      }
+    ]
   },
   {
     "name": "Salvager of Secrets",
@@ -1838,7 +2307,8 @@
     "loyalty": null,
     "multiverse_id": 447206,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Scholar of Stars",
@@ -1865,7 +2335,8 @@
     "loyalty": null,
     "multiverse_id": 447207,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sift",
@@ -1889,7 +2360,8 @@
     "loyalty": null,
     "multiverse_id": 447208,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Skilled Animator",
@@ -1916,7 +2388,29 @@
     "loyalty": null,
     "multiverse_id": 447209,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Skilled Animator doesn’t remove any abilities the target artifact has."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "The artifact retains any types, subtypes, or supertypes it has. Notably, if an Equipment becomes an artifact creature, it can’t be attached to another creature. If it was attached to a creature, it becomes unattached."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the artifact was already a creature, its base power and toughness will each become 5. This overwrites any previous effects that set the creature’s base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after Skilled Animator’s ability resolves will overwrite this effect."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Effects that modify a creature’s power and/or toughness, such as the ones created by Titanic Growth or a +/1+1 counter, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch power and toughness."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "The resulting artifact creature will be able to attack on your turn if it’s been under your control continuously since the turn began. That is, it doesn’t matter how long it’s been a creature, just how long it’s been on the battlefield."
+      }
+    ]
   },
   {
     "name": "Sleep",
@@ -1940,7 +2434,13 @@
     "loyalty": null,
     "multiverse_id": 447210,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "The second part of Sleep’s ability affects all creatures the targeted player controls as Sleep resolves, not only the ones that Sleep actually caused to become tapped."
+      }
+    ]
   },
   {
     "name": "Snapping Drake",
@@ -1966,7 +2466,8 @@
     "loyalty": null,
     "multiverse_id": 447211,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Supreme Phantom",
@@ -1993,7 +2494,13 @@
     "loyalty": null,
     "multiverse_id": 447212,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Because damage remains marked on a creature until it’s removed as the turn ends, nonlethal damage dealt to a Spirit you control may become lethal if Supreme Phantom leaves the battlefield during that turn."
+      }
+    ]
   },
   {
     "name": "Surge Mare",
@@ -2022,7 +2529,8 @@
     "loyalty": null,
     "multiverse_id": 447213,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Switcheroo",
@@ -2046,7 +2554,25 @@
     "loyalty": null,
     "multiverse_id": 447214,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If one of the target creatures is an illegal target when Switcheroo resolves, the exchange won’t happen."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You don’t have to control either target."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the same player controls both creatures when Switcheroo resolves, nothing happens."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it."
+      }
+    ]
   },
   {
     "name": "Tezzeret, Artifice Master",
@@ -2076,7 +2602,13 @@
     "loyalty": "5",
     "multiverse_id": 447215,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If you put a permanent onto the battlefield with Tezzeret’s emblem’s ability, any triggered abilities of that permanent that trigger during your end step won’t trigger during that same end step."
+      }
+    ]
   },
   {
     "name": "Tolarian Scholar",
@@ -2101,7 +2633,8 @@
     "loyalty": null,
     "multiverse_id": 447216,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Totally Lost",
@@ -2125,7 +2658,8 @@
     "loyalty": null,
     "multiverse_id": 447217,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Uncomfortable Chill",
@@ -2150,7 +2684,8 @@
     "loyalty": null,
     "multiverse_id": 447218,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wall of Mist",
@@ -2168,7 +2703,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Defender (This creature can't attack.)"
+      "Defender"
     ],
     "flavor_text": "The seafloor is flecked with the bones of fools who dared to sail into the mist.",
     "power": "0",
@@ -2176,7 +2711,8 @@
     "loyalty": null,
     "multiverse_id": 447219,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Windreader Sphinx",
@@ -2203,7 +2739,21 @@
     "loyalty": null,
     "multiverse_id": 447220,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "It doesn’t matter who controls the creature with flying or which player or planeswalker that creature is attacking. Windreader Sphinx’s controller is the player who may draw a card."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Windreader Sphinx’s ability will trigger when it itself attacks."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "The creature must have flying immediately after being declared as an attacking creature in order for Windreader Sphinx’s ability to trigger. For example, attacking with Kitesail Corsair will cause the ability to trigger, and attacking with Pegasus Courser and a creature without flying will cause the ability to trigger only once."
+      }
+    ]
   },
   {
     "name": "Abnormal Endurance",
@@ -2227,7 +2777,13 @@
     "loyalty": null,
     "multiverse_id": 447221,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Abnormal Endurance’s effect works only once. If the targeted creature dies and is then returned to the battlefield, it’s considered to be a new creature. If that new creature dies, it won’t come back."
+      }
+    ]
   },
   {
     "name": "Blood Divination",
@@ -2252,7 +2808,17 @@
     "loyalty": null,
     "multiverse_id": 447222,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "You must sacrifice exactly one creature to cast Blood Divination; you can’t cast it without sacrificing a creature, and you can’t sacrifice additional creatures."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Players can respond only after Blood Divination has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell."
+      }
+    ]
   },
   {
     "name": "Bogstomper",
@@ -2276,7 +2842,8 @@
     "loyalty": null,
     "multiverse_id": 447223,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bone Dragon",
@@ -2304,7 +2871,8 @@
     "loyalty": null,
     "multiverse_id": 447224,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Child of Night",
@@ -2322,7 +2890,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Lifelink (Damage dealt by this creature also causes you to gain that much life.)"
+      "Lifelink"
     ],
     "flavor_text": "Sins that would be too gruesome in the light of day are made more pleasing in the dark of night.",
     "power": "2",
@@ -2330,7 +2898,8 @@
     "loyalty": null,
     "multiverse_id": 447225,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Death Baron",
@@ -2357,7 +2926,21 @@
     "loyalty": null,
     "multiverse_id": 447226,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "A creature that’s both a Skeleton and a Zombie will get the bonus only once."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Death Baron doesn’t normally affect itself. If you manage to turn it into a Skeleton, however, then it will give itself +1/+1 and deathtouch."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Because damage remains marked on a creature until it’s removed as the turn ends, nonlethal damage dealt to a Skeleton or Zombie you control may become lethal if Death Baron leaves the battlefield during that turn."
+      }
+    ]
   },
   {
     "name": "Demon of Catastrophes",
@@ -2384,7 +2967,17 @@
     "loyalty": null,
     "multiverse_id": 447227,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "You must sacrifice exactly one creature to cast Demon of Catastrophes; you can’t cast it without sacrificing a creature, and you can’t sacrifice additional creatures."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Players can respond only after Demon of Catastrophes has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell."
+      }
+    ]
   },
   {
     "name": "Diregraf Ghoul",
@@ -2410,7 +3003,8 @@
     "loyalty": null,
     "multiverse_id": 447228,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Doomed Dissenter",
@@ -2436,7 +3030,8 @@
     "loyalty": null,
     "multiverse_id": 447229,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Duress",
@@ -2460,7 +3055,8 @@
     "loyalty": null,
     "multiverse_id": 447230,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Epicure of Blood",
@@ -2486,7 +3082,25 @@
     "loyalty": null,
     "multiverse_id": 447231,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "The ability of Epicure of Blood triggers just once for each life-gaining event, whether it’s 1 life from Ajani’s Welcome or 3 life from Revitalize."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Epicure of Blood’s ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If you gain an amount of life “for each” of something, that life is gained as one event and the ability of Epicure of Blood triggers only once."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "In a Two-Headed Giant game, life gained by your teammate won’t cause the ability to trigger, even though it caused your team’s life total to increase."
+      }
+    ]
   },
   {
     "name": "Fell Specter",
@@ -2514,7 +3128,8 @@
     "loyalty": null,
     "multiverse_id": 447232,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fraying Omnipotence",
@@ -2538,7 +3153,25 @@
     "loyalty": null,
     "multiverse_id": 447233,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "The amounts that are lost are rounded up, not the amounts kept. For example, a player with 5 life, five cards in hand, and five creatures would lose 3 life, discard three cards, and sacrifice three creatures."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Because the instructions are followed in order, abilities of the creatures a player will sacrifice may modify or trigger on losing life, discarding cards, and/or sacrificing creatures. Abilities that trigger this way will resolve after Fraying Omnipotence is done resolving."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "When Fraying Omnipotence resolves, first each player loses the appropriate amount of life at once. Next, the player whose turn it is chooses an appropriate number of cards in hand without revealing them, then each other player in turn order does the same, and then those cards are all discarded simultaneously. Then, the player whose turn it is chooses an appropriate number of creatures they control. Each other player in turn order does the same, knowing choices made by previous players. Finally, all of the chosen creatures are sacrificed simultaneously."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "In a Two-Headed Giant game, Fraying Omnipotence causes each player to lose half of their team’s life, rounded up. This means that teams at an even life total will have 0 life, and teams at an odd life total will have -1 life. The game then ends in a draw."
+      }
+    ]
   },
   {
     "name": "Gravedigger",
@@ -2564,7 +3197,13 @@
     "loyalty": null,
     "multiverse_id": 447234,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "A “creature card” is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards."
+      }
+    ]
   },
   {
     "name": "Graveyard Marshal",
@@ -2591,7 +3230,8 @@
     "loyalty": null,
     "multiverse_id": 447235,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Hired Blade",
@@ -2618,7 +3258,8 @@
     "loyalty": null,
     "multiverse_id": 447236,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Infectious Horror",
@@ -2645,7 +3286,13 @@
     "loyalty": null,
     "multiverse_id": 447237,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "In a Two-Headed Giant game, Infectious Horror’s ability causes the opposing team to lose 4 life."
+      }
+    ]
   },
   {
     "name": "Infernal Reckoning",
@@ -2669,7 +3316,17 @@
     "loyalty": null,
     "multiverse_id": 447238,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "The amount of life gained is equal to the power of the creature as it last existed on the battlefield."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the creature’s power is negative, you don’t lose or gain life."
+      }
+    ]
   },
   {
     "name": "Infernal Scarring",
@@ -2696,7 +3353,17 @@
     "loyalty": null,
     "multiverse_id": 447239,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "The player who controlled the creature when it died is the one who will draw a card."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If Infernal Scarring and the enchanted creature are destroyed at the same time, the player will draw a card."
+      }
+    ]
   },
   {
     "name": "Isareth the Awakener",
@@ -2726,7 +3393,33 @@
     "loyalty": null,
     "multiverse_id": 447240,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Isareth’s triggered ability goes on the stack without a target. While that ability is resolving, you may pay {X}. When you do, a second ability triggers and you pick a target creature card to return. This is different from abilities that say “If you do . . .” in that players may cast spells and activate abilities after mana is paid and the target creature card is chosen, but before that card is returned."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Because all attacking creatures are chosen at once, a creature returned this way can’t attack during the same combat as it returns, even if it has haste."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a card in your graveyard has {X} in its mana cost, X is considered to be 0."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If you somehow remove a corpse counter from a creature Isareth has returned to the battlefield, the replacement effect that will exile it continues to apply. The counter is only to help remind you which creatures will be exiled if they would leave the battlefield."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If Isareth leaves the battlefield, the replacement effect continues to apply. If one of the creatures it returned would leave the battlefield, it’ll be exiled instead."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Because to die means to be put into a graveyard from the battlefield, a creature that is exiled instead doesn’t “die.” Abilities that would trigger when it dies won’t trigger."
+      }
+    ]
   },
   {
     "name": "Lich's Caress",
@@ -2750,7 +3443,13 @@
     "loyalty": null,
     "multiverse_id": 447241,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If the target creature is an illegal target by the time Lich’s Caress tries to resolve, the spell doesn’t resolve. You won’t gain any life."
+      }
+    ]
   },
   {
     "name": "Liliana, Untouched by Death",
@@ -2780,7 +3479,25 @@
     "loyalty": "4",
     "multiverse_id": 447242,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "The value of X is determined only as Liliana’s second ability resolves. If the number of Zombies you control changes later, the target creature’s power and toughness won’t change."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Casting a Zombie card from your graveyard once Liliana’s third ability has resolved follows the normal rules for casting that card. You must pay its costs, and you must follow all applicable timing rules."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Once Liliana’s third ability has resolved, any Zombie cards in your graveyard may be cast this turn, including Zombie cards that enter your graveyard later in the turn."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "In a Two-Headed Giant game, Liliana’s first ability causes the opposing team to lose 4 life and you gain 2 life."
+      }
+    ]
   },
   {
     "name": "Liliana's Contract",
@@ -2805,7 +3522,17 @@
     "loyalty": null,
     "multiverse_id": 447243,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If you don’t control four Demons with different names as your upkeep begins, the second ability of Liliana’s Contract won’t trigger. You can’t take any actions during your turn before your upkeep begins."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the second ability does trigger, but you no longer control four Demons with different names as the ability resolves, you won’t win the game."
+      }
+    ]
   },
   {
     "name": "Macabre Waltz",
@@ -2829,7 +3556,17 @@
     "loyalty": null,
     "multiverse_id": 447244,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If you have no other cards in hand, you’ll have to discard one of the creature cards you return to your hand."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You may cast Macabre Waltz targeting one or zero creature cards. You’ll still discard a card, even if you target no creature cards."
+      }
+    ]
   },
   {
     "name": "Mind Rot",
@@ -2853,7 +3590,8 @@
     "loyalty": null,
     "multiverse_id": 447245,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Murder",
@@ -2877,7 +3615,8 @@
     "loyalty": null,
     "multiverse_id": 447246,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Nightmare's Thirst",
@@ -2901,7 +3640,17 @@
     "loyalty": null,
     "multiverse_id": 447247,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Nightmare’s Thirst counts how much life you’ve gained this turn, not how much your life total changed. For example, if you’ve gained 5 life and lost 8 before Nightmare’s Thirst resolves, Nightmare’s Thirst has you gain 1 more life, then it gives the target creature -6/-6."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the target creature is an illegal target when Nightmare’s Thirst tries to resolve, the spell doesn’t resolve. You won’t gain 1 life."
+      }
+    ]
   },
   {
     "name": "Open the Graves",
@@ -2925,7 +3674,13 @@
     "loyalty": null,
     "multiverse_id": 447248,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If another creature you control dies at the same time that Open the Graves leaves the battlefield, you’ll get a Zombie token."
+      }
+    ]
   },
   {
     "name": "Phylactery Lich",
@@ -2953,7 +3708,29 @@
     "loyalty": null,
     "multiverse_id": 447249,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Phylactery Lich’s first ability doesn’t target the artifact. No player may take actions between the time you choose an artifact and the time you put a phylactery counter on it."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If you control no artifacts as Phylactery Lich enters the battlefield, its first ability won’t do anything. As soon as it enters the battlefield, its last ability will trigger (unless you control some other permanent with a phylactery counter on it) and you’ll have to sacrifice it."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If Phylactery Lich and an artifact are entering the battlefield under your control at the same time, you can’t put a phylactery counter on that artifact. You must choose an artifact you control that’s already on the battlefield."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Phylactery Lich’s last ability is a “state trigger.” Once a state trigger triggers, it won’t trigger again as long as the ability is on the stack. If the ability is countered and the trigger condition is still true, it will immediately trigger again."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Phylactery Lich’s last ability checks your permanents for any phylactery counters, not just the specific one that it caused you to put on an artifact. For example, if you control two Phylactery Liches and two different artifacts with phylactery counters, neither Phylactery Lich will be sacrificed if one of those artifacts leaves the battlefield."
+      }
+    ]
   },
   {
     "name": "Plague Mare",
@@ -2981,7 +3758,13 @@
     "loyalty": null,
     "multiverse_id": 447250,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Plague Mare’s second ability affects only creatures your opponents control at the time it resolves. Creatures they begin to control later in the turn won’t get -1/-1."
+      }
+    ]
   },
   {
     "name": "Ravenous Harpy",
@@ -3008,7 +3791,8 @@
     "loyalty": null,
     "multiverse_id": 447251,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Reassembling Skeleton",
@@ -3035,7 +3819,8 @@
     "loyalty": null,
     "multiverse_id": 447252,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rise from the Grave",
@@ -3059,7 +3844,21 @@
     "loyalty": null,
     "multiverse_id": 447253,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Rise from the Grave doesn’t overwrite any previous colors or types. Rather, it adds another color and another subtype."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the creature is normally colorless, it will simply become black. It can’t be both black and colorless."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "A later effect that changes the affected creature’s colors will overwrite that part of Rise from the Grave’s effect; the creature will be only the new color. The same is true about an effect that changes the affected creature’s types or subtypes."
+      }
+    ]
   },
   {
     "name": "Skeleton Archer",
@@ -3086,7 +3885,8 @@
     "loyalty": null,
     "multiverse_id": 447254,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Skymarch Bloodletter",
@@ -3114,7 +3914,8 @@
     "loyalty": null,
     "multiverse_id": 447255,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sovereign's Bite",
@@ -3138,7 +3939,8 @@
     "loyalty": null,
     "multiverse_id": 447256,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Stitcher's Supplier",
@@ -3164,7 +3966,8 @@
     "loyalty": null,
     "multiverse_id": 447257,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Strangling Spores",
@@ -3188,7 +3991,8 @@
     "loyalty": null,
     "multiverse_id": 447258,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Two-Headed Zombie",
@@ -3214,7 +4018,8 @@
     "loyalty": null,
     "multiverse_id": 447259,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vampire Neonate",
@@ -3240,7 +4045,13 @@
     "loyalty": null,
     "multiverse_id": 447260,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "In a Two-Headed Giant game, Vampire Neonate’s ability causes the opposing team to lose 2 life and you to gain 1 life."
+      }
+    ]
   },
   {
     "name": "Vampire Sovereign",
@@ -3267,7 +4078,8 @@
     "loyalty": null,
     "multiverse_id": 447261,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Walking Corpse",
@@ -3291,7 +4103,8 @@
     "loyalty": null,
     "multiverse_id": 447262,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Act of Treason",
@@ -3307,7 +4120,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)"
+      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn."
     ],
     "flavor_text": "She learned a tragic lesson that day: even the purest can be corrupted when the heart's emotions are twisted.",
     "power": null,
@@ -3315,7 +4128,17 @@
     "loyalty": null,
     "multiverse_id": 447263,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/25/2019",
+        "text": "Act of Treason can target any creature, even one that’s untapped or one you already control."
+      },
+      {
+        "date": "1/25/2019",
+        "text": "Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it."
+      }
+    ]
   },
   {
     "name": "Alpine Moon",
@@ -3340,7 +4163,21 @@
     "loyalty": null,
     "multiverse_id": 447264,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Alpine Moon’s effect doesn’t affect supertypes or other card types. It won’t remove the artifact card type from an artifact land or remove the legendary supertype from a legendary land."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If an affected land has an ability that triggers “when” it enters the battlefield, it will lose that ability before it triggers."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If an affected land has an ability that causes it to enter the battlefield tapped, it will lose that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply “as” a land enters the battlefield."
+      }
+    ]
   },
   {
     "name": "Apex of Power",
@@ -3365,7 +4202,25 @@
     "loyalty": null,
     "multiverse_id": 447265,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Apex of Power doesn’t change when you can cast the exiled cards. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Casting an exiled card causes it to leave exile. You can’t cast it multiple times."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Any cards not cast, including land cards, remain in exile."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If an effect copies Apex of Power, the copy wasn’t cast at all, so you won’t add ten mana."
+      }
+    ]
   },
   {
     "name": "Banefire",
@@ -3390,7 +4245,21 @@
     "loyalty": null,
     "multiverse_id": 447266,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "To determine whether it can be countered and its damage can be prevented, Banefire checks the number you chose for X, not the amount of mana you actually spent or the amount of damage it will actually deal."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Banefire can be targeted by spells that try to counter it regardless of what the value of X is. If X is 5 or more, those spells will still resolve, but the part of their effect that would counter Banefire won’t do anything. Any other effects those spells have will work as normal."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If its target is illegal by the time Banefire tries to resolve, the spell isn’t countered, but it doesn’t resolve. The target won’t be dealt damage."
+      }
+    ]
   },
   {
     "name": "Boggart Brute",
@@ -3417,7 +4286,13 @@
     "loyalty": null,
     "multiverse_id": 447267,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/22/2015",
+        "text": "Once an attacking creature with menace is legally blocked by two or more creatures, removing one or more of those blockers from combat won’t change or undo that block."
+      }
+    ]
   },
   {
     "name": "Catalyst Elemental",
@@ -3443,7 +4318,8 @@
     "loyalty": null,
     "multiverse_id": 447268,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Crash Through",
@@ -3468,7 +4344,17 @@
     "loyalty": null,
     "multiverse_id": 447269,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Crash Through affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t gain trample."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You may cast Crash Through even if you control no creatures. If you control no creatures as the spell resolves, you’ll just draw a card."
+      }
+    ]
   },
   {
     "name": "Dark-Dweller Oracle",
@@ -3495,7 +4381,25 @@
     "loyalty": null,
     "multiverse_id": 447270,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Dark-Dweller Oracle doesn’t change when you can cast the exiled card. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty. If you exile a land card, you can play it only during your main phase and only if you have an available land play remaining."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Casting an exiled card causes it to leave exile. You can’t cast it multiple times."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If you don’t cast the exiled card, it remains in exile."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You can sacrifice Dark-Dweller Oracle to pay the cost for its own ability."
+      }
+    ]
   },
   {
     "name": "Demanding Dragon",
@@ -3522,7 +4426,8 @@
     "loyalty": null,
     "multiverse_id": 447271,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dismissive Pyromancer",
@@ -3550,7 +4455,8 @@
     "loyalty": null,
     "multiverse_id": 447272,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Doublecast",
@@ -3574,7 +4480,41 @@
     "loyalty": null,
     "multiverse_id": 447273,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If you cast one Doublecast after another, you’ll copy the second Doublecast. Each resolves, creating two delayed triggered abilities. The next spell you cast after that will be copied twice. If that spell is also a Doublecast, the following spell will be copied three times, and so on."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Doublecast’s ability will copy any instant or sorcery spell, not just one with targets."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "A copy is created even if the spell that caused Doublecast’s ability to trigger has been countered by the time that ability resolves. The copy resolves before the original spell."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "The copy will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the spell that’s copied is modal (that is, it says “Choose one —” or the like), the copy will have the same mode or modes. You can’t choose different ones."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the spell that’s copied has an X whose value was determined as it was cast, the copy has the same value of X."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You can’t choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "The copy that Doublecast’s ability creates is created on the stack, so it’s not “cast.” Abilities that trigger when a player casts a spell won’t trigger."
+      }
+    ]
   },
   {
     "name": "Dragon Egg",
@@ -3602,7 +4542,8 @@
     "loyalty": null,
     "multiverse_id": 447274,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Electrify",
@@ -3626,7 +4567,8 @@
     "loyalty": null,
     "multiverse_id": 447275,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fiery Finish",
@@ -3650,7 +4592,8 @@
     "loyalty": null,
     "multiverse_id": 447276,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fire Elemental",
@@ -3674,7 +4617,8 @@
     "loyalty": null,
     "multiverse_id": 447277,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Goblin Instigator",
@@ -3701,7 +4645,8 @@
     "loyalty": null,
     "multiverse_id": 447278,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Goblin Motivator",
@@ -3728,7 +4673,8 @@
     "loyalty": null,
     "multiverse_id": 447279,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Goblin Trashmaster",
@@ -3756,7 +4702,17 @@
     "loyalty": null,
     "multiverse_id": 447280,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Because damage remains marked on a creature until it’s removed as the turn ends, nonlethal damage dealt to a Goblin you control may become lethal if Goblin Trashmaster leaves the battlefield during that turn."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You can sacrifice Goblin Trashmaster to pay the cost for its own ability."
+      }
+    ]
   },
   {
     "name": "Guttersnipe",
@@ -3783,7 +4739,17 @@
     "loyalty": null,
     "multiverse_id": 447281,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Guttersnipe’s triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "In a Two-Headed Giant game, Guttersnipe’s ability causes the opposing team to lose 4 life."
+      }
+    ]
   },
   {
     "name": "Havoc Devils",
@@ -3809,7 +4775,8 @@
     "loyalty": null,
     "multiverse_id": 447282,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Hostile Minotaur",
@@ -3835,7 +4802,8 @@
     "loyalty": null,
     "multiverse_id": 447283,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Inferno Hellion",
@@ -3862,7 +4830,13 @@
     "loyalty": null,
     "multiverse_id": 447284,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Inferno Hellion’s owner shuffles it into their library only if it’s on the battlefield as its last ability resolves."
+      }
+    ]
   },
   {
     "name": "Lathliss, Dragon Queen",
@@ -3892,7 +4866,8 @@
     "loyalty": null,
     "multiverse_id": 447285,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Lava Axe",
@@ -3916,7 +4891,8 @@
     "loyalty": null,
     "multiverse_id": 447286,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Lightning Mare",
@@ -3945,7 +4921,8 @@
     "loyalty": null,
     "multiverse_id": 447287,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Lightning Strike",
@@ -3969,7 +4946,8 @@
     "loyalty": null,
     "multiverse_id": 447288,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Onakke Ogre",
@@ -3994,7 +4972,8 @@
     "loyalty": null,
     "multiverse_id": 447289,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sarkhan, Fireblood",
@@ -4024,7 +5003,17 @@
     "loyalty": "3",
     "multiverse_id": 447290,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Because it’s a loyalty ability, Sarkhan’s second ability isn’t a mana ability. It can be activated only any time you could cast a sorcery. It uses the stack and can be responded to."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "A “Dragon spell” refers only to a spell that has the Dragon subtype, regardless of its name. For example, Dragon’s Hoard isn’t a Dragon spell."
+      }
+    ]
   },
   {
     "name": "Sarkhan's Unsealing",
@@ -4049,7 +5038,25 @@
     "loyalty": null,
     "multiverse_id": 447291,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If you cast a creature spell that will enter the battlefield with a number of +1/+1 counters, such as Hungering Hydra, those counters aren’t considered when determining whether either ability of Sarkhan’s Unsealing triggers. Similarly, effects that will raise the creature’s power once it has entered the battlefield won’t apply."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Each of the triggered abilities of Sarkhan’s Unsealing resolves before the spell that caused it to trigger. It resolves even if that spell is countered."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a creature card’s power is written as * and an ability defines its power, that ability applies while the creature spell is on the stack. Sarkhan’s unsealing checks its power only as you finish paying costs; it doesn’t matter what the spell’s power is as you begin to cast it or when the triggered ability resolves."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "In a Two-Headed Giant game, the last ability of Sarkhan’s Unsealing causes the opposing team to lose 8 life."
+      }
+    ]
   },
   {
     "name": "Shock",
@@ -4073,7 +5080,8 @@
     "loyalty": null,
     "multiverse_id": 447292,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Siegebreaker Giant",
@@ -4101,7 +5109,13 @@
     "loyalty": null,
     "multiverse_id": 447293,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Activating Siegebreaker Giant’s last ability after a creature has blocked won’t remove the blocking creature from combat or cause the creature it blocked to become unblocked."
+      }
+    ]
   },
   {
     "name": "Smelt",
@@ -4125,7 +5139,8 @@
     "loyalty": null,
     "multiverse_id": 447294,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sparktongue Dragon",
@@ -4152,7 +5167,17 @@
     "loyalty": null,
     "multiverse_id": 447295,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Sparktongue Dragon’s triggered ability goes on the stack without a target. While that ability is resolving, you may pay {2}{R}. If you do, a second ability triggers and you pick a target that will be dealt damage. This is different from abilities that say “If you do . . .” in that players may cast spells and activate abilities after mana is paid but before damage is dealt."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "While resolving the triggered ability of Sparktongue Dragon, you can’t pay {2}{R} multiple times to have it deal more than 3 damage."
+      }
+    ]
   },
   {
     "name": "Spit Flame",
@@ -4177,7 +5202,8 @@
     "loyalty": null,
     "multiverse_id": 447296,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sure Strike",
@@ -4193,7 +5219,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target creature gets +3/+0 and gains first strike until end of turn. (It deals combat damage before creatures without first strike.)"
+      "Target creature gets +3/+0 and gains first strike until end of turn."
     ],
     "flavor_text": "To survive imminent doom, it sometimes takes a foolhardy soul who acts first and fears later.",
     "power": null,
@@ -4201,7 +5227,8 @@
     "loyalty": null,
     "multiverse_id": 447297,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tectonic Rift",
@@ -4225,7 +5252,17 @@
     "loyalty": null,
     "multiverse_id": 447298,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If the land is an illegal target when Tectonic Rift tries to resolve, Tectonic Rift won’t resolve and none of its effects will happen. Creatures without flying will be able to block as normal."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Because the second part of Tectonic Rift’s effect doesn’t change the characteristics of any permanents, the set of creatures affected by it is constantly updated. Creatures without flying that enter the battlefield later in the turn can’t block, and creatures that gain flying later in the turn can block."
+      }
+    ]
   },
   {
     "name": "Thud",
@@ -4250,7 +5287,21 @@
     "loyalty": null,
     "multiverse_id": 447299,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "The sacrificed creature’s last known existence on the battlefield is checked to determine its power."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You must sacrifice exactly one creature to cast Thud; you can’t cast it without sacrificing a creature, and you can’t sacrifice additional creatures."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Players can respond only once Thud has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell."
+      }
+    ]
   },
   {
     "name": "Tormenting Voice",
@@ -4275,7 +5326,13 @@
     "loyalty": null,
     "multiverse_id": 447300,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "You must discard exactly one card to cast Tormenting Voice; you can’t cast it without discarding a card, and you can’t discard additional cards."
+      }
+    ]
   },
   {
     "name": "Trumpet Blast",
@@ -4299,7 +5356,21 @@
     "loyalty": null,
     "multiverse_id": 447301,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "An “attacking creature” is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Even though Trumpet Blast affects only attacking creatures, the bonus will remain for the rest of the turn."
+      },
+      {
+        "date": "9/20/2014",
+        "text": "Only creatures that are attacking as Trumpet Blast resolves will receive the bonus. In other words, casting it before you’ve declared attackers usually won’t do anything."
+      }
+    ]
   },
   {
     "name": "Viashino Pyromancer",
@@ -4326,7 +5397,8 @@
     "loyalty": null,
     "multiverse_id": 447302,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Volcanic Dragon",
@@ -4353,7 +5425,8 @@
     "loyalty": null,
     "multiverse_id": 447303,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Volley Veteran",
@@ -4380,7 +5453,13 @@
     "loyalty": null,
     "multiverse_id": 447304,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "The number of Goblins you control is counted only as Volley Veteran’s ability resolves. If Volley Veteran is still on the battlefield, it will count itself."
+      }
+    ]
   },
   {
     "name": "Blanchwood Armor",
@@ -4407,7 +5486,8 @@
     "loyalty": null,
     "multiverse_id": 447305,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bristling Boar",
@@ -4433,7 +5513,13 @@
     "loyalty": null,
     "multiverse_id": 447306,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If Bristling Boar gains menace, it can’t be blocked at all."
+      }
+    ]
   },
   {
     "name": "Centaur Courser",
@@ -4458,7 +5544,8 @@
     "loyalty": null,
     "multiverse_id": 447307,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Colossal Dreadmaw",
@@ -4484,7 +5571,8 @@
     "loyalty": null,
     "multiverse_id": 447308,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Colossal Majesty",
@@ -4508,7 +5596,25 @@
     "loyalty": null,
     "multiverse_id": 447309,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If you don’t control a creature with power 4 or greater as your upkeep begins, Colossal Majesty’s ability won’t trigger. You can’t take any actions during your turn before your upkeep begins."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If you don’t control a creature with power 4 or greater as Colossal Majesty’s ability resolves, you won’t draw a card."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "The creature with power 4 or greater that you control as Colossal Majesty’s ability resolves doesn’t have to be the same creature with power 4 or greater that was under your control as the ability triggered."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You draw only one card, no matter how many creatures with power 4 or greater you control."
+      }
+    ]
   },
   {
     "name": "Daggerback Basilisk",
@@ -4534,7 +5640,8 @@
     "loyalty": null,
     "multiverse_id": 447310,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Declare Dominance",
@@ -4558,7 +5665,13 @@
     "loyalty": null,
     "multiverse_id": 447311,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If a creature the defending player controls can’t block the target creature for any reason (such as being tapped), then it doesn’t block that creature. If there’s a cost associated with having a creature block the attacking creature, the defending player isn’t forced to pay that cost, so it doesn’t have to block in that case either."
+      }
+    ]
   },
   {
     "name": "Druid of Horns",
@@ -4585,7 +5698,13 @@
     "loyalty": null,
     "multiverse_id": 447312,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Druid of Horns’s ability resolves before the spell that caused it to trigger. The ability resolves even if that spell is countered."
+      }
+    ]
   },
   {
     "name": "Druid of the Cowl",
@@ -4612,7 +5731,8 @@
     "loyalty": null,
     "multiverse_id": 447313,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dryad Greenseeker",
@@ -4638,7 +5758,13 @@
     "loyalty": null,
     "multiverse_id": 447314,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If the top card of your library isn’t a land card, or if you choose not to reveal it, it remains on top of your library."
+      }
+    ]
   },
   {
     "name": "Elvish Clancaller",
@@ -4666,7 +5792,8 @@
     "loyalty": null,
     "multiverse_id": 447315,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Elvish Rejuvenator",
@@ -4693,7 +5820,8 @@
     "loyalty": null,
     "multiverse_id": 447316,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ghastbark Twins",
@@ -4720,7 +5848,8 @@
     "loyalty": null,
     "multiverse_id": 447317,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ghirapur Guide",
@@ -4747,7 +5876,17 @@
     "loyalty": null,
     "multiverse_id": 447318,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Once a creature with power 2 or less has blocked a creature, activating Ghirapur Guide’s ability won’t change or undo that block."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Once a creature with power 3 or greater has blocked the target creature, changing the power of the blocking creature won’t change or undo that block."
+      }
+    ]
   },
   {
     "name": "Giant Spider",
@@ -4773,7 +5912,13 @@
     "loyalty": null,
     "multiverse_id": 447319,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/1/2008",
+        "text": "This card now uses the Reach keyword ability to enable the blocking of flying creatures. This works because a creature with flying can only be blocked by creatures with flying or reach."
+      }
+    ]
   },
   {
     "name": "Gift of Paradise",
@@ -4801,7 +5946,8 @@
     "loyalty": null,
     "multiverse_id": 447320,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Gigantosaurus",
@@ -4825,7 +5971,8 @@
     "loyalty": null,
     "multiverse_id": 447321,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Goreclaw, Terror of Qal Sisma",
@@ -4854,7 +6001,21 @@
     "loyalty": null,
     "multiverse_id": 447322,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If you cast a creature spell that will enter the battlefield with a number of +1/+1 counters, such as Hungering Hydra, those counters aren’t considered when determining whether Goreclaw reduces that spell’s cost. Similarly, effects that will raise the creature’s power once it has entered the battlefield won’t apply."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If another creature has an ability that changes its power when it attacks, such as Brawl-Bash Ogre, you may have that ability resolve before Goreclaw’s last ability."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Goreclaw’s last ability affects only creatures you control with the appropriate power at the time it resolves. Creatures you begin to control later in the turn won’t get either bonus, and a creature you control whose power decreases later in the turn won’t lose either bonus."
+      }
+    ]
   },
   {
     "name": "Greenwood Sentinel",
@@ -4881,7 +6042,8 @@
     "loyalty": null,
     "multiverse_id": 447323,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Highland Game",
@@ -4907,7 +6069,8 @@
     "loyalty": null,
     "multiverse_id": 447324,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Hungering Hydra",
@@ -4935,7 +6098,8 @@
     "loyalty": null,
     "multiverse_id": 447325,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Naturalize",
@@ -4959,7 +6123,8 @@
     "loyalty": null,
     "multiverse_id": 447326,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Oakenform",
@@ -4986,7 +6151,8 @@
     "loyalty": null,
     "multiverse_id": 447327,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Pelakka Wurm",
@@ -5014,7 +6180,8 @@
     "loyalty": null,
     "multiverse_id": 447328,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plummet",
@@ -5038,7 +6205,8 @@
     "loyalty": null,
     "multiverse_id": 447329,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Prodigious Growth",
@@ -5065,7 +6233,8 @@
     "loyalty": null,
     "multiverse_id": 447330,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rabid Bite",
@@ -5089,7 +6258,13 @@
     "loyalty": null,
     "multiverse_id": 447331,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If either creature is an illegal target as Rabid Bite tries to resolve, the creature you control won’t deal damage."
+      }
+    ]
   },
   {
     "name": "Reclamation Sage",
@@ -5116,7 +6291,8 @@
     "loyalty": null,
     "multiverse_id": 447332,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Recollect",
@@ -5140,7 +6316,8 @@
     "loyalty": null,
     "multiverse_id": 447333,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rhox Oracle",
@@ -5167,7 +6344,8 @@
     "loyalty": null,
     "multiverse_id": 447334,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Root Snare",
@@ -5191,7 +6369,8 @@
     "loyalty": null,
     "multiverse_id": 447335,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Runic Armasaur",
@@ -5217,7 +6396,25 @@
     "loyalty": null,
     "multiverse_id": 447336,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keyword abilities are activated abilities and will have colons in their reminder text. An activated mana ability is one that produces mana as it resolves, not one that costs mana to activate."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Runic Armasaur’s ability doesn’t trigger when an opponent activates an ability of a card in hand (such as a cycling ability from the Amonkhet block) or a card in a graveyard (such as that of Bone Dragon), even if that causes a card to be put onto the battlefield."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Runic Armasaur’s ability doesn’t trigger when an opponent activates an ability of a noncreature, nonland permanent that causes it to become a creature (such as a crew ability of a Vehicle)."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Runic Armasaur’s ability resolves before the ability that caused it to trigger. Players can cast spells and activate abilities after the triggered ability resolves but before the activated ability that caused it to trigger does."
+      }
+    ]
   },
   {
     "name": "Scapeshift",
@@ -5241,7 +6438,13 @@
     "loyalty": null,
     "multiverse_id": 447337,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "You sacrifice the lands as part of the resolution of Scapeshift. It isn’t an additional cost. If Scapeshift is countered, you won’t sacrifice any lands."
+      }
+    ]
   },
   {
     "name": "Talons of Wildwood",
@@ -5269,7 +6472,8 @@
     "loyalty": null,
     "multiverse_id": 447338,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Thorn Lieutenant",
@@ -5297,7 +6501,13 @@
     "loyalty": null,
     "multiverse_id": 447339,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Thorn Lieutenant’s triggered ability resolves before the spell or ability that caused it to trigger. It resolves even if that spell or ability is countered."
+      }
+    ]
   },
   {
     "name": "Thornhide Wolves",
@@ -5321,7 +6531,8 @@
     "loyalty": null,
     "multiverse_id": 447340,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Titanic Growth",
@@ -5345,7 +6556,8 @@
     "loyalty": null,
     "multiverse_id": 447341,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vigilant Baloth",
@@ -5371,7 +6583,8 @@
     "loyalty": null,
     "multiverse_id": 447342,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vine Mare",
@@ -5399,7 +6612,8 @@
     "loyalty": null,
     "multiverse_id": 447343,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vivien Reid",
@@ -5429,7 +6643,8 @@
     "loyalty": "5",
     "multiverse_id": 447344,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vivien's Invocation",
@@ -5453,7 +6668,17 @@
     "loyalty": null,
     "multiverse_id": 447345,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "You don’t choose any targets as you cast Vivien’s Invocation. While that spell is resolving, you may put a creature card from among the cards you look at onto the battlefield. If you do, a separate ability triggers and you pick a target creature an opponent controls to be dealt damage."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the creature you put onto the battlefield leaves the battlefield before damage is dealt, its last known existence on the battlefield is used to determine how much damage it deals to the target creature."
+      }
+    ]
   },
   {
     "name": "Wall of Vines",
@@ -5481,7 +6706,8 @@
     "loyalty": null,
     "multiverse_id": 447346,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Aerial Engineer",
@@ -5508,7 +6734,8 @@
     "loyalty": null,
     "multiverse_id": 447347,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Arcades, the Strategist",
@@ -5539,7 +6766,17 @@
     "loyalty": null,
     "multiverse_id": 447348,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Arcades’s last ability doesn’t actually change any creature’s power. It changes only the amount of combat damage it assigns. All other rules and effects that check power or toughness use the real values. For example, Rabid Bite won’t cause a creature to deal damage equal to its toughness."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If Arcades leaves the battlefield after a creature with defender has attacked, that creature remains an attacking creature, although it will assign damage equal to its power."
+      }
+    ]
   },
   {
     "name": "Brawl-Bash Ogre",
@@ -5567,7 +6804,17 @@
     "loyalty": null,
     "multiverse_id": 447349,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "While resolving the triggered ability of Brawl-Bash Ogre, you can’t sacrifice multiple creatures to give it +2/+2 more than once."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Once Brawl-Bash Ogre’s triggered ability begins to resolve, no player may take actions until it’s done. Notably, players can’t try to deal damage to Brawl-Bash Ogre after you’ve sacrificed a creature but before it gets +2/+2."
+      }
+    ]
   },
   {
     "name": "Chromium, the Mutable",
@@ -5599,7 +6846,29 @@
     "loyalty": null,
     "multiverse_id": 447350,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Chromium stops being an Elder Dragon for the turn once its last ability has resolved. It’s still a legendary creature named Chromium, the Mutable."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Chromium’s activated ability overwrites all previous effects that set its base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after that ability resolves will overwrite this effect."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Effects that raise or lower a creature’s power and/or toughness, such as the effect of Titanic Growth, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch its power and toughness."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If Chromium gains an ability after its activated ability resolves, it will keep that ability."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Activating Chromium’s last ability after it has become blocked won’t cause Chromium to become unblocked."
+      }
+    ]
   },
   {
     "name": "Draconic Disciple",
@@ -5627,7 +6896,8 @@
     "loyalty": null,
     "multiverse_id": 447351,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Enigma Drake",
@@ -5654,7 +6924,17 @@
     "loyalty": null,
     "multiverse_id": 447352,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "A split card (such as those featured in the Amonkhet block) only counts once for Enigma Drake’s ability, even if it’s both an instant and a sorcery."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "The ability that defines Enigma Drake’s power works in all zones."
+      }
+    ]
   },
   {
     "name": "Heroic Reinforcements",
@@ -5678,7 +6958,13 @@
     "loyalty": null,
     "multiverse_id": 447353,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "The second part of Heroic Reinforcements’s effect affects only creatures you control at the time it’s applied, including the tokens created by the first part of its effect. Creatures you begin to control later in the turn won’t get +1/+1 or gain haste."
+      }
+    ]
   },
   {
     "name": "Nicol Bolas, the Ravager",
@@ -5709,7 +6995,33 @@
     "loyalty": null,
     "multiverse_id": 447354,
     "other_part": "Nicol Bolas, the Arisen",
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "When Nicol Bolas’s enters-the-battlefield triggered ability resolves, first the next opponent in turn order (or, if it’s an opponent’s turn, that opponent) chooses a card in their hand without revealing it, then each other opponent in turn order does the same. Then all the chosen cards are discarded at the same time."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If Nicol Bolas leaves the battlefield after his creature face’s activated ability has been activated but before it resolves, the card remains in whichever zone it moves to. It won’t be exiled or return transformed."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Each face of a double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that’s currently up. The other set of characteristics is ignored."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "While a double-faced card isn’t on the battlefield, consider only the characteristics of its front face. For example, Nicol Bolas has the characteristics of its creature face in the graveyard, even if it was a planeswalker on the battlefield before it was put into the graveyard."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "A double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed, in which case it enters with its back face up. The back face of a double-faced card can’t be played."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If another permanent that isn’t a double-faced card (such as Mirror Image) becomes a copy of Nicol Bolas, the Ravager, activating the ability to exile it and return it transformed will only exile it. It won’t return to the battlefield at all."
+      }
+    ]
   },
   {
     "name": "Nicol Bolas, the Arisen",
@@ -5740,7 +7052,29 @@
     "loyalty": "7",
     "multiverse_id": 447355,
     "other_part": "Nicol Bolas, the Ravager",
-    "color_indicator": "Blue Black Red"
+    "color_indicator": "Blue Black Red",
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any permanents you control from Nicol Bolas’s third loyalty ability that came from other players’ graveyards are exiled."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "The converted mana cost of a double-faced card is the converted mana cost of its front face, even while it’s on the battlefield with its back face up. For example, the converted mana cost of Nicol Bolas, the Arisen is 4."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Nicol Bolas, the Arisen has a color indicator on its typeline. This color indicator means that it’s a blue, black, and red permanent."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You can activate one of the planeswalker’s loyalty abilities the turn it enters the battlefield."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "In some rare cases, a spell or ability may cause Nicol Bolas to transform while it’s a creature on the battlefield. If this happens, the resulting planeswalker won’t have any loyalty counters on it and will subsequently be put into its owner’s graveyard."
+      }
+    ]
   },
   {
     "name": "Palladia-Mors, the Ruiner",
@@ -5770,7 +7104,17 @@
     "loyalty": null,
     "multiverse_id": 447356,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If Palladia-Mors leaves the battlefield and returns, it’s considered a new object, even if it’s represented by the same card. It has hexproof again until it deals damage."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a triggered ability triggers at the same time that Paladia-Mors deals damage for the first time, targets are chosen for that ability after Palladia-Mors no longer has hexproof."
+      }
+    ]
   },
   {
     "name": "Poison-Tip Archer",
@@ -5799,7 +7143,17 @@
     "loyalty": null,
     "multiverse_id": 447357,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If another creature dies at the same time as Poison-Tip Archer does, each opponent loses 1 life."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "In a Two-Headed Giant game, Poison-tip Archer’s last ability causes the opposing team to lose 2 life."
+      }
+    ]
   },
   {
     "name": "Psychic Symbiont",
@@ -5827,7 +7181,13 @@
     "loyalty": null,
     "multiverse_id": 447358,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Psychic Symbiont’s last ability can target an opponent with no cards in hand. You’ll draw a card even if no opponent discards a card."
+      }
+    ]
   },
   {
     "name": "Regal Bloodlord",
@@ -5855,7 +7215,25 @@
     "loyalty": null,
     "multiverse_id": 447359,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Regal Bloodlord’s last ability checks if you gained life at any point during the turn. It doesn’t matter if you also lost life or whether your life total is greater than it was at the beginning of the turn. It also doesn’t matter whether Regal Bloodlord was on the battlefield when the life gain happened."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If you didn’t gain life during the turn before the end step begins, Regal Bloodlord’s last ability won’t trigger at all. Gaining life during the end step won’t cause the ability to trigger."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You create only one Bat token, no matter how much life you gained."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "In a Two-Headed Giant game, life gained by your teammate won’t satisfy Regal Bloodlord’s last ability, even though it caused your team’s life total to increase."
+      }
+    ]
   },
   {
     "name": "Satyr Enchanter",
@@ -5882,7 +7260,13 @@
     "loyalty": null,
     "multiverse_id": 447360,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Satyr Enchanter’s triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered."
+      }
+    ]
   },
   {
     "name": "Skyrider Patrol",
@@ -5910,7 +7294,17 @@
     "loyalty": null,
     "multiverse_id": 447361,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Skyrider Patrol’s triggered ability goes on the stack without a target. While that ability is resolving, you may pay {G}{U}. If you do, a second ability triggers and you pick a target creature. This is different from abilities that say “If you do . . .” in that players may cast spells and activate abilities after mana is paid but before the target receives a counter and flying."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "While resolving the triggered ability of Skyrider Patrol, you can’t pay {G}{U} multiple times to give more than one +1/+1 counter."
+      }
+    ]
   },
   {
     "name": "Vaevictis Asmadi, the Dire",
@@ -5940,7 +7334,25 @@
     "loyalty": null,
     "multiverse_id": 447362,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "You must target one of your permanents to sacrifice as well."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Vaevictis’s triggered ability resolves during the declare attackers step, before blockers are chosen. A creature targeted by its ability won’t be around to block, and creatures put onto the battlefield with its ability may be able to do so."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If any of the target permanents aren’t sacrificed (most likely because one of them became an illegal target, such as by gaining hexproof), that permanent’s controller won’t reveal the top card of their library or put it onto the battlefield."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If any player controls no permanents, Vaevictis’s ability won’t have sufficient legal targets, so it’s removed from the stack without any effect."
+      }
+    ]
   },
   {
     "name": "Amulet of Safekeeping",
@@ -5965,7 +7377,8 @@
     "loyalty": null,
     "multiverse_id": 447363,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Arcane Encyclopedia",
@@ -5989,7 +7402,8 @@
     "loyalty": null,
     "multiverse_id": 447364,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Chaos Wand",
@@ -6013,7 +7427,33 @@
     "loyalty": null,
     "multiverse_id": 447365,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "The opponent stops exiling cards as soon as they exile any instant or sorcery card. You don’t choose which card type to look for."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the opponent exiles their entire library without exiling an instant or sorcery card, that player stops exiling cards, and the exiled cards are put into their library in a random order."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If you don’t cast the exiled instant or sorcery card, it’s put on the bottom of that library with the other cards."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If you wish to cast the exiled card, you must cast it while Chaos Wand’s ability is resolving. You can’t cast it later in the turn. A spell cast this way may be cast at a time you normally wouldn’t be able to cast a spell of that type, but other restrictions (such as “Cast this spell only during combat”) are enforced."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If you cast a card “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, those must be paid to cast the card."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the exiled card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost."
+      }
+    ]
   },
   {
     "name": "Crucible of Worlds",
@@ -6037,7 +7477,17 @@
     "loyalty": null,
     "multiverse_id": 447366,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Crucible of Worlds doesn’t change the times when you can play those land cards. You can still play only one land per turn, and only during your main phase when you have priority and the stack is empty."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Crucible of Worlds doesn’t allow you to activate abilities (such as cycling) of land cards in your graveyard."
+      }
+    ]
   },
   {
     "name": "Desecrated Tomb",
@@ -6061,7 +7511,13 @@
     "loyalty": null,
     "multiverse_id": 447367,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "You create one Bat token each time Desecrated Tomb’s ability triggers, no matter how many cards left your graveyard."
+      }
+    ]
   },
   {
     "name": "Diamond Mare",
@@ -6089,7 +7545,8 @@
     "loyalty": null,
     "multiverse_id": 447368,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dragon's Hoard",
@@ -6115,7 +7572,8 @@
     "loyalty": null,
     "multiverse_id": 447369,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Explosive Apparatus",
@@ -6139,7 +7597,8 @@
     "loyalty": null,
     "multiverse_id": 447370,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Field Creeper",
@@ -6164,7 +7623,8 @@
     "loyalty": null,
     "multiverse_id": 447371,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fountain of Renewal",
@@ -6189,7 +7649,8 @@
     "loyalty": null,
     "multiverse_id": 447372,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Gargoyle Sentinel",
@@ -6217,7 +7678,8 @@
     "loyalty": null,
     "multiverse_id": 447373,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Gearsmith Guardian",
@@ -6244,7 +7706,8 @@
     "loyalty": null,
     "multiverse_id": 447374,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Magistrate's Scepter",
@@ -6269,7 +7732,13 @@
     "loyalty": null,
     "multiverse_id": 447375,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If multiple extra turns would be taken after this one, perhaps because more than one player has activated the last ability of their Magistrate’s Scepter, the most recently created one is taken first."
+      }
+    ]
   },
   {
     "name": "Manalith",
@@ -6293,7 +7762,8 @@
     "loyalty": null,
     "multiverse_id": 447376,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Marauder's Axe",
@@ -6320,7 +7790,8 @@
     "loyalty": null,
     "multiverse_id": 447377,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Meteor Golem",
@@ -6347,7 +7818,8 @@
     "loyalty": null,
     "multiverse_id": 447378,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Millstone",
@@ -6371,7 +7843,21 @@
     "loyalty": null,
     "multiverse_id": 447379,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Can be used on a player with less than 2 cards in their library. It will remove 0 or 1 cards if that is all that is available."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "It is not a draw effect so it will not cause a player with less than 2 cards in their library to lose."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Since you are putting more than one card in the graveyard at one time, the affected player can choose the order the 2 cards go in."
+      }
+    ]
   },
   {
     "name": "Rogue's Gloves",
@@ -6398,7 +7884,8 @@
     "loyalty": null,
     "multiverse_id": 447380,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sigiled Sword of Valeron",
@@ -6426,7 +7913,17 @@
     "loyalty": null,
     "multiverse_id": 447381,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "You choose which player or planeswalker the token is attacking. It doesn’t have to be attacking the same player or planeswalker that the equipped creature is attacking."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Although the token is attacking, it was never declared as an attacking creature (for the purposes of abilities that trigger whenever a creature attacks, for example)."
+      }
+    ]
   },
   {
     "name": "Skyscanner",
@@ -6454,7 +7951,8 @@
     "loyalty": null,
     "multiverse_id": 447382,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Suspicious Bookcase",
@@ -6482,7 +7980,13 @@
     "loyalty": null,
     "multiverse_id": 447383,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Activating Suspicious Bookcase’s ability after a creature has become blocked won’t cause that creature to become unblocked."
+      }
+    ]
   },
   {
     "name": "Transmogrifying Wand",
@@ -6507,7 +8011,17 @@
     "loyalty": null,
     "multiverse_id": 447384,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If the target creature is an illegal target by the time Transmogrifying Wand’s ability tries to resolve, the ability doesn’t resolve. No player creates an Ox token."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the target creature is a legal target but can’t be destroyed, most likely because it has indestructible, its controller gets an Ox token and gets to keep that creature."
+      }
+    ]
   },
   {
     "name": "Cinder Barrens",
@@ -6532,7 +8046,8 @@
     "loyalty": null,
     "multiverse_id": 447385,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Detection Tower",
@@ -6557,7 +8072,21 @@
     "loyalty": null,
     "multiverse_id": 447386,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Your opponents and creatures your opponents control don’t actually lose hexproof, although you will ignore hexproof for purposes of choosing targets of spells and abilities you control."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Creatures your opponents control with “hexproof from [quality]” abilities can be targeted as though they didn’t have those abilities as well."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Because Detection Tower’s last ability doesn’t change the characteristics of any permanents, the set of creatures affected by it is constantly updated. Creatures that come under your opponents’ control later in the turn can be targeted as though they didn’t have hexproof."
+      }
+    ]
   },
   {
     "name": "Forsaken Sanctuary",
@@ -6582,7 +8111,8 @@
     "loyalty": null,
     "multiverse_id": 447387,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Foul Orchard",
@@ -6607,7 +8137,8 @@
     "loyalty": null,
     "multiverse_id": 447388,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Highland Lake",
@@ -6632,7 +8163,8 @@
     "loyalty": null,
     "multiverse_id": 447389,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Meandering River",
@@ -6657,7 +8189,8 @@
     "loyalty": null,
     "multiverse_id": 447390,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Reliquary Tower",
@@ -6682,7 +8215,13 @@
     "loyalty": null,
     "multiverse_id": 447391,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "If multiple effects modify your hand size, apply them in timestamp order. For example, if you put Null Profusion (an enchantment that says your maximum hand size is two) onto the battlefield and then put Reliquary Tower onto the battlefield, you’ll have no maximum hand size. However, if those permanents enter the battlefield in the opposite order, your maximum hand size would be two."
+      }
+    ]
   },
   {
     "name": "Rupture Spire",
@@ -6708,7 +8247,8 @@
     "loyalty": null,
     "multiverse_id": 447392,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Stone Quarry",
@@ -6733,7 +8273,8 @@
     "loyalty": null,
     "multiverse_id": 447393,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Submerged Boneyard",
@@ -6758,7 +8299,8 @@
     "loyalty": null,
     "multiverse_id": 447394,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Timber Gorge",
@@ -6783,7 +8325,8 @@
     "loyalty": null,
     "multiverse_id": 447395,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tranquil Expanse",
@@ -6808,7 +8351,8 @@
     "loyalty": null,
     "multiverse_id": 447396,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Woodland Stream",
@@ -6833,7 +8377,8 @@
     "loyalty": null,
     "multiverse_id": 447397,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -6861,7 +8406,8 @@
     "loyalty": null,
     "multiverse_id": 447398,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -6889,7 +8435,8 @@
     "loyalty": null,
     "multiverse_id": 447399,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -6917,7 +8464,8 @@
     "loyalty": null,
     "multiverse_id": 447400,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -6945,7 +8493,8 @@
     "loyalty": null,
     "multiverse_id": 447401,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -6973,7 +8522,8 @@
     "loyalty": null,
     "multiverse_id": 447402,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -7001,7 +8551,8 @@
     "loyalty": null,
     "multiverse_id": 447403,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -7029,7 +8580,8 @@
     "loyalty": null,
     "multiverse_id": 447404,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -7057,7 +8609,8 @@
     "loyalty": null,
     "multiverse_id": 447405,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -7085,7 +8638,8 @@
     "loyalty": null,
     "multiverse_id": 447406,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -7113,7 +8667,8 @@
     "loyalty": null,
     "multiverse_id": 447407,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -7141,7 +8696,8 @@
     "loyalty": null,
     "multiverse_id": 447408,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -7169,7 +8725,8 @@
     "loyalty": null,
     "multiverse_id": 447409,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -7197,7 +8754,8 @@
     "loyalty": null,
     "multiverse_id": 447410,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -7225,7 +8783,8 @@
     "loyalty": null,
     "multiverse_id": 447411,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -7253,7 +8812,8 @@
     "loyalty": null,
     "multiverse_id": 447412,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -7281,7 +8841,8 @@
     "loyalty": null,
     "multiverse_id": 447413,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -7309,7 +8870,8 @@
     "loyalty": null,
     "multiverse_id": 447414,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -7337,7 +8899,8 @@
     "loyalty": null,
     "multiverse_id": 447415,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -7365,7 +8928,8 @@
     "loyalty": null,
     "multiverse_id": 447416,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -7393,7 +8957,8 @@
     "loyalty": null,
     "multiverse_id": 447417,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ajani, Wise Counselor",
@@ -7423,7 +8988,17 @@
     "loyalty": "5",
     "multiverse_id": 450228,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Ajani’s second ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get +2/+2."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "The value of X is determined only as Ajani’s third ability resolves. If your life total changes later, the creature won’t gain or lose +1/+1 counters."
+      }
+    ]
   },
   {
     "name": "Ajani's Influence",
@@ -7448,7 +9023,13 @@
     "loyalty": null,
     "multiverse_id": 450229,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "You can’t cast Ajani’s Influence without a target creature. If the target creature is an illegal target when Ajani’s Influence tries to resolve, the spell doesn’t resolve. You won’t look at the top five cards of your library."
+      }
+    ]
   },
   {
     "name": "Court Cleric",
@@ -7476,7 +9057,13 @@
     "loyalty": null,
     "multiverse_id": 450230,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Because damage remains marked on a creature until it’s removed as the turn ends, nonlethal damage dealt to Court Cleric may become lethal if you cease to control an Ajani planeswalker during that turn."
+      }
+    ]
   },
   {
     "name": "Serra's Guardian",
@@ -7504,7 +9091,8 @@
     "loyalty": null,
     "multiverse_id": 450231,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Silverbeak Griffin",
@@ -7530,7 +9118,8 @@
     "loyalty": null,
     "multiverse_id": 450232,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tezzeret, Cruel Machinist",
@@ -7560,7 +9149,61 @@
     "loyalty": "4",
     "multiverse_id": 450233,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Tezzeret’s second ability doesn’t remove any abilities the target artifact has."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "The artifact stops being a creature immediately before your turn begins. It will be a noncreature artifact during your untap step."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "The artifact retains any types, subtypes, or supertypes it has. Notably, if an Equipment becomes an artifact creature, it can’t be attached to another creature. If it was attached to a creature, it becomes unattached."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the artifact was already a creature, its base power and toughness will each become 5. This overwrites any previous effects that set the creature’s base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after Tezzeret’s ability resolves will overwrite this effect."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Effects that modify a creature’s power and/or toughness, such as the ones created by Titanic Growth or a +/1+1 counter, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch power and toughness."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "The resulting artifact creature will be able to attack on your turn if it’s been under your control continuously since the turn began. That is, it doesn’t matter how long it’s been a creature, just how long it’s been on the battlefield."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Cards put onto the battlefield using Tezzeret’s third ability enter the battlefield as 5/5 artifact creatures. They don’t enter the battlefield with their own characteristics and then become 5/5."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a double-faced card (such as Nicol Bolas, the Ravager) is put onto the battlefield face down, you don’t reveal it as you do so. The characteristics of its back face don’t apply."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You may look at face-down permanents you control at any time."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a face-down permanent you control leaves the battlefield, you must reveal it to all players."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If a creature enters the battlefield as a copy of a face-down creature or if a token is created that’s a copy of one, that copy has the same characteristics as the face-down creature (in this case, a 5/5 artifact creature with no other characteristics), even though the copy is face up."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "The Core Set 2019 set includes no way to turn these cards face up. If an effect from cards outside of this set does turn one face up, the effect causing it to be a 5/5 artifact creature ends. If such an effect tries to turn an instant or sorcery card face up, reveal that card and it stays face down. In that case, it remains a 5/5 artifact creature."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If an effect tries to return a face-down creature to the battlefield after it leaves (such as Oath of Teferi from the Dominaria set or Abnormal Endurance from this set), that effect returns the card face up. If it tries to put an instant or sorcery card onto the battlefield this way, that card remains in its current zone instead."
+      }
+    ]
   },
   {
     "name": "Riddlemaster Sphinx",
@@ -7587,7 +9230,8 @@
     "loyalty": null,
     "multiverse_id": 450234,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Pendulum of Patterns",
@@ -7612,7 +9256,8 @@
     "loyalty": null,
     "multiverse_id": 450235,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tezzeret's Gatebreaker",
@@ -7637,7 +9282,13 @@
     "loyalty": null,
     "multiverse_id": 450236,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Because the last ability of Tezzeret’s Gatebreaker doesn’t change the characteristics of any permanents, the set of creatures affected by it is constantly updated. Creatures that come under your control later in the turn can’t be blocked."
+      }
+    ]
   },
   {
     "name": "Tezzeret's Strider",
@@ -7664,7 +9315,8 @@
     "loyalty": null,
     "multiverse_id": 450237,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Liliana, the Necromancer",
@@ -7694,7 +9346,25 @@
     "loyalty": "4",
     "multiverse_id": 450238,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "For Liliana’s last ability, the creatures you’ll return to the battlefield are chosen after the target creatures are destroyed. No player may take actions between the time you choose two creature cards to return and the time they’re returned. The destroyed cards can be among those returned to the battlefield."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If any abilities trigger on the target creatures being destroyed, those abilities won’t be put onto the stack until after you’ve put creature cards onto the battlefield from graveyards."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You may activate Liliana’s last ability without choosing any target creatures. You’ll just put up to two creature cards onto the battlefield from graveyards. However, if you choose any targets and all of those targets become illegal before the ability tries to resolve, the ability won’t resolve and you won’t put any cards onto the battlefield."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any permanents you control from Liliana’s third ability that came from other players’ graveyards are exiled."
+      }
+    ]
   },
   {
     "name": "Arisen Gorgon",
@@ -7721,7 +9391,8 @@
     "loyalty": null,
     "multiverse_id": 450239,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Gravewaker",
@@ -7749,7 +9420,13 @@
     "loyalty": null,
     "multiverse_id": 450240,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Gravewaker’s ability can be activated only while it’s on the battlefield. It can’t return itself from your graveyard."
+      }
+    ]
   },
   {
     "name": "Liliana's Spoils",
@@ -7774,7 +9451,13 @@
     "loyalty": null,
     "multiverse_id": 450241,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "You may cast Liliana’s Spoils targeting any opponent, even one who has no cards in hand. You’ll perform the actions of its second ability even if the target opponent can’t discard a card."
+      }
+    ]
   },
   {
     "name": "Tattered Mummy",
@@ -7801,7 +9484,17 @@
     "loyalty": null,
     "multiverse_id": 450242,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If your life total is brought to 0 or less at the same time that Tattered Mummy is dealt lethal damage, you lose the game before its triggered ability goes on the stack."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "In a Two-Headed Giant game, the triggered ability of Tattered Mummy causes the opposing team to lose 4 life."
+      }
+    ]
   },
   {
     "name": "Sarkhan, Dragonsoul",
@@ -7831,7 +9524,13 @@
     "loyalty": "5",
     "multiverse_id": 450243,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "In a Two-Headed Giant game, Sarkhan’s first ability causes the opposing team to lose 2 life."
+      }
+    ]
   },
   {
     "name": "Kargan Dragonrider",
@@ -7858,7 +9557,8 @@
     "loyalty": null,
     "multiverse_id": 450244,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sarkhan's Dragonfire",
@@ -7883,7 +9583,13 @@
     "loyalty": null,
     "multiverse_id": 450245,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If the chosen target is an illegal target when Sarkhan’s Dragonfire tries to resolve, the spell doesn’t resolve. You won’t look at the top five cards of your library."
+      }
+    ]
   },
   {
     "name": "Sarkhan's Whelp",
@@ -7910,7 +9616,8 @@
     "loyalty": null,
     "multiverse_id": 450246,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Shivan Dragon",
@@ -7937,7 +9644,8 @@
     "loyalty": null,
     "multiverse_id": 450247,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vivien of the Arkbow",
@@ -7967,7 +9675,17 @@
     "loyalty": "5",
     "multiverse_id": 450248,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If either creature is an illegal target as Vivien’s second ability tries to resolve, the creature you control won’t deal damage."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Vivien’s last ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get +4/+4 or gain trample."
+      }
+    ]
   },
   {
     "name": "Aggressive Mammoth",
@@ -7994,7 +9712,8 @@
     "loyalty": null,
     "multiverse_id": 450249,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Skalla Wolf",
@@ -8021,7 +9740,8 @@
     "loyalty": null,
     "multiverse_id": 450250,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ursine Champion",
@@ -8048,7 +9768,8 @@
     "loyalty": null,
     "multiverse_id": 450251,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vivien's Jaguar",
@@ -8076,7 +9797,13 @@
     "loyalty": null,
     "multiverse_id": 450252,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "If a Vivien planeswalker and Vivien’s Jaguar are both dealt lethal damage at the same time (most likely in combat), they’ll be put into their owner’s graveyard at the same time. You won’t be able to activate the last ability of Vivien’s Jaguar before Vivien leaves the battlefield."
+      }
+    ]
   },
   {
     "name": "Nexus of Fate",
@@ -8101,7 +9828,13 @@
     "loyalty": null,
     "multiverse_id": 450253,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/13/2018",
+        "text": "Nexus of Fate’s last ability applies if it would be put into a graveyard in any way, including while it’s resolving."
+      }
+    ]
   },
   {
     "name": "Sun Sentinel",
@@ -8128,7 +9861,8 @@
     "loyalty": null,
     "multiverse_id": 450254,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Air Elemental",
@@ -8154,7 +9888,8 @@
     "loyalty": null,
     "multiverse_id": 450255,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Befuddle",
@@ -8179,7 +9914,13 @@
     "loyalty": null,
     "multiverse_id": 450256,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/27/2018",
+        "text": "If the target creature is an illegal target by the time Befuddle tries to resolve, the spell doesn’t resolve. You won’t draw a card."
+      }
+    ]
   },
   {
     "name": "Mist-Cloaked Herald",
@@ -8206,7 +9947,8 @@
     "loyalty": null,
     "multiverse_id": 450257,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Waterknot",
@@ -8234,7 +9976,8 @@
     "loyalty": null,
     "multiverse_id": 450258,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Grasping Scoundrel",
@@ -8261,7 +10004,8 @@
     "loyalty": null,
     "multiverse_id": 450259,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Radiating Lightning",
@@ -8285,7 +10029,13 @@
     "loyalty": null,
     "multiverse_id": 450260,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/27/2018",
+        "text": "Radiating Lightning targets only the player. Creatures that player controls with hexproof will be dealt damage."
+      }
+    ]
   },
   {
     "name": "Llanowar Elves",
@@ -8312,6 +10062,7 @@
     "loyalty": null,
     "multiverse_id": 450261,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]

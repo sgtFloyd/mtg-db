@@ -27,7 +27,17 @@
     "loyalty": "3",
     "multiverse_id": 266299,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "You may target any permanent with Ajani Vengeant’s first ability. It doesn’t have to be tapped."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "The first ability tracks the permanent, but not its controller. If the permanent changes controllers before its first controller’s next untap step has come around, then it won’t untap during its new controller’s next untap step."
+      }
+    ]
   },
   {
     "name": "Kird Ape",
@@ -53,7 +63,8 @@
     "loyalty": null,
     "multiverse_id": 249382,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Essence Warden",
@@ -80,7 +91,21 @@
     "loyalty": null,
     "multiverse_id": 249374,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Does not trigger on a card on the battlefield being changed into a creature."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The ability will not trigger on itself entering the battlefield, but it will trigger on any other creature that is put onto the battlefield at the same time."
+      },
+      {
+        "date": "2/1/2007",
+        "text": "This is the timeshifted version of Soul Warden."
+      }
+    ]
   },
   {
     "name": "Wild Nacatl",
@@ -108,7 +133,13 @@
     "loyalty": null,
     "multiverse_id": 249401,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Wild Nacatl’s abilities check for lands with the subtypes Mountain and Plains. Those lands don’t need to be named Mountain and Plains. Wild Nacatl will get both bonuses if those two subtypes are contained among the lands you control, even if they’re from the same land (such as Plateau or Sacred Foundry)."
+      }
+    ]
   },
   {
     "name": "Loam Lion",
@@ -134,7 +165,13 @@
     "loyalty": null,
     "multiverse_id": 249377,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/1/2010",
+        "text": "Loam Lion either gets +1/+2 or it doesn’t. It doesn’t get the bonus for each Forest you control."
+      }
+    ]
   },
   {
     "name": "Canyon Wildcat",
@@ -160,7 +197,8 @@
     "loyalty": null,
     "multiverse_id": 249412,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Jade Mage",
@@ -187,7 +225,8 @@
     "loyalty": null,
     "multiverse_id": 249397,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sylvan Ranger",
@@ -214,7 +253,8 @@
     "loyalty": null,
     "multiverse_id": 249399,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ajani's Pridemate",
@@ -233,7 +273,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever you gain life, you may put a +1/+1 counter on Ajani's Pridemate."
+      "Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate."
     ],
     "flavor_text": "\"When one of us prospers, the pride prospers.\"\n—Jazal Goldmane",
     "power": "2",
@@ -241,7 +281,29 @@
     "loyalty": null,
     "multiverse_id": 249413,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/3/2019",
+        "text": "The ability of Ajani’s Pridemate triggers just once for each life-gaining event, whether it’s 1 life from Ajani’s Welcome or 2 life from Battlefield Promotion."
+      },
+      {
+        "date": "5/3/2019",
+        "text": "If Ajani’s Pridemate is dealt lethal damage at the same time that you gain life, it won’t receive a counter from its ability in time to save it."
+      },
+      {
+        "date": "5/3/2019",
+        "text": "Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Ajani’s Pridemate’s ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once."
+      },
+      {
+        "date": "5/3/2019",
+        "text": "If you gain an amount of life “for each” of something, that life is gained as one event and the ability of Ajani’s Pridemate triggers only once."
+      },
+      {
+        "date": "5/3/2019",
+        "text": "In a Two-Headed Giant game, life gained by your teammate won’t cause the ability to trigger, even though it caused your team’s life total to increase."
+      }
+    ]
   },
   {
     "name": "Qasali Pridemage",
@@ -269,7 +331,8 @@
     "loyalty": null,
     "multiverse_id": 249405,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Grazing Gladehart",
@@ -295,7 +358,17 @@
     "loyalty": null,
     "multiverse_id": 249378,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The landfall ability triggers whenever a land enters the battlefield under your control for any reason. It triggers whenever you play a land, as well as whenever a spell or ability (such as Rampant Growth) causes you to put a land onto the battlefield under your control. It will even trigger when a spell or ability causes another player to put a land onto the battlefield under your control (as can happen with Yavimaya Dryad’s ability, for example)."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "When a land enters the battlefield under your control, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one that resolves."
+      }
+    ]
   },
   {
     "name": "Fleetfoot Panther",
@@ -322,7 +395,13 @@
     "loyalty": null,
     "multiverse_id": 249391,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You choose the creature to return on resolution of the triggered ability. This is not targeted."
+      }
+    ]
   },
   {
     "name": "Woolly Thoctar",
@@ -346,7 +425,8 @@
     "loyalty": null,
     "multiverse_id": 249368,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Briarhorn",
@@ -374,7 +454,13 @@
     "loyalty": null,
     "multiverse_id": 249383,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first."
+      }
+    ]
   },
   {
     "name": "Loxodon Hierarch",
@@ -402,7 +488,13 @@
     "loyalty": null,
     "multiverse_id": 249414,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "The second ability sets up individual regeneration shields for each creature you control. They are each used up as necessary during the turn and wear off when the turn ends."
+      }
+    ]
   },
   {
     "name": "Spitemare",
@@ -428,7 +520,13 @@
     "loyalty": null,
     "multiverse_id": 249388,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "Even if the amount of damage dealt to Spitemare is enough to destroy it, Spitemare’s ability will trigger and it will deal the full amount of damage to the target."
+      }
+    ]
   },
   {
     "name": "Marisi's Twinclaws",
@@ -455,7 +553,8 @@
     "loyalty": null,
     "multiverse_id": 249375,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ageless Entity",
@@ -481,7 +580,8 @@
     "loyalty": null,
     "multiverse_id": 249411,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Pride of Lions",
@@ -507,7 +607,21 @@
     "loyalty": null,
     "multiverse_id": 249371,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/27/2018",
+        "text": "You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it."
+      },
+      {
+        "date": "4/27/2018",
+        "text": "When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the player or planeswalker this creature is attacking. You can’t split the damage assignment between them."
+      },
+      {
+        "date": "4/27/2018",
+        "text": "If blocked by a creature with banding, the defending player decides whether or not the damage is assigned “as though it weren’t blocked”."
+      }
+    ]
   },
   {
     "name": "Nacatl Hunt-Pride",
@@ -536,7 +650,17 @@
     "loyalty": null,
     "multiverse_id": 249409,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "If either ability is activated after blockers have been declared, it won’t cause those blocks to change."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "If you attack with Nacatl Hunt-Pride, you get the chance to activate one of its abilities before blockers are declared."
+      }
+    ]
   },
   {
     "name": "Firemane Angel",
@@ -564,7 +688,13 @@
     "loyalty": null,
     "multiverse_id": 249366,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If Firemane Angel is put into your graveyard from the battlefield or returned from your graveyard to the battlefield during your upkeep before its triggered ability resolves, you won’t gain 1 life."
+      }
+    ]
   },
   {
     "name": "Ajani's Mantra",
@@ -588,7 +718,8 @@
     "loyalty": null,
     "multiverse_id": 249398,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Lightning Helix",
@@ -612,7 +743,13 @@
     "loyalty": null,
     "multiverse_id": 249386,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If the chosen target is illegal when Lightning Helix tries to resolve, it won’t resolve and none of its effects will happen. You won’t gain 3 life."
+      }
+    ]
   },
   {
     "name": "Lead the Stampede",
@@ -636,7 +773,8 @@
     "loyalty": null,
     "multiverse_id": 249369,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Griffin Guide",
@@ -664,7 +802,13 @@
     "loyalty": null,
     "multiverse_id": 249372,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/25/2006",
+        "text": "If Griffin Guide and the enchanted creature go to the graveyard at the same time, Griffin Guide’s ability will trigger."
+      }
+    ]
   },
   {
     "name": "Recumbent Bliss",
@@ -692,7 +836,13 @@
     "loyalty": null,
     "multiverse_id": 249400,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "The triggered ability is on the Aura, not the creature. It triggers at the beginning of the upkeep of Recumbent Bliss’s controller, not the enchanted creature’s controller, and Recumbent Bliss’s controller will gain the life."
+      }
+    ]
   },
   {
     "name": "Searing Meditation",
@@ -716,7 +866,13 @@
     "loyalty": null,
     "multiverse_id": 249380,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2005",
+        "text": "Searing Meditation doesn’t care how much life you gain. It triggers just once for each life-gaining event, whether it’s 1 life from Firemane Angel or 15 life from Brightflame."
+      }
+    ]
   },
   {
     "name": "Behemoth Sledge",
@@ -743,7 +899,13 @@
     "loyalty": null,
     "multiverse_id": 249396,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "multiple instances of lifelink on the same creature are redundant. If a creature with multiple instances of lifelink deals damage, its controller still only gains life equal to the damage dealt."
+      }
+    ]
   },
   {
     "name": "Naya Charm",
@@ -770,7 +932,21 @@
     "loyalty": null,
     "multiverse_id": 249385,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "You can choose a mode only if you can choose legal targets for that mode. If you can’t choose legal targets for any of the modes, you can’t cast the spell."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "While the spell is on the stack, treat it as though its only text is the chosen mode. The other two modes are treated as though they don’t exist. You don’t choose targets for those modes."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If this spell is copied, the copy will have the same mode as the original."
+      }
+    ]
   },
   {
     "name": "Sylvan Bounty",
@@ -795,7 +971,25 @@
     "loyalty": null,
     "multiverse_id": 249392,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Unlike the normal cycling ability, basic landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a basic land card. You don’t choose the type of basic land card you’ll find until you’re performing the search. After you choose a basic land card in your library, you reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being basic landcycled. Any ability that stops a cycling ability from being activated also stops a basic landcycling ability from being activated."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "Basic landcycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with basic landcycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You can choose not to find a basic land card, even if there is one in your library."
+      }
+    ]
   },
   {
     "name": "Titanic Ultimatum",
@@ -819,7 +1013,21 @@
     "loyalty": null,
     "multiverse_id": 249370,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "The set of creatures affected is fixed as Titanic Ultimatum resolves."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Multiple instances of first strike and trample are redundant."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "If a creature you control already has lifelink, Titanic Ultimatum will give it a second instance of lifelink; however, multiple instances of lifelink on the same creature are redundant. You still only gain life equal to the amount of damage dealt, regardless of how many instances of lifelink the creature has."
+      }
+    ]
   },
   {
     "name": "Evolving Wilds",
@@ -843,7 +1051,8 @@
     "loyalty": null,
     "multiverse_id": 249395,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Graypelt Refuge",
@@ -869,7 +1078,8 @@
     "loyalty": null,
     "multiverse_id": 249379,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Jungle Shrine",
@@ -894,7 +1104,8 @@
     "loyalty": null,
     "multiverse_id": 249403,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Kazandu Refuge",
@@ -920,7 +1131,8 @@
     "loyalty": null,
     "multiverse_id": 249402,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sapseep Forest",
@@ -948,7 +1160,8 @@
     "loyalty": null,
     "multiverse_id": 249389,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vitu-Ghazi, the City-Tree",
@@ -973,7 +1186,8 @@
     "loyalty": null,
     "multiverse_id": 249393,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -1001,7 +1215,8 @@
     "loyalty": null,
     "multiverse_id": 262651,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -1029,7 +1244,8 @@
     "loyalty": null,
     "multiverse_id": 259285,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Plains",
@@ -1057,7 +1273,8 @@
     "loyalty": null,
     "multiverse_id": 249376,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Nicol Bolas, Planeswalker",
@@ -1087,7 +1304,21 @@
     "loyalty": "5",
     "multiverse_id": 266154,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "The control-change effect has no duration. It will last until the game ends or the affected creature leaves the battlefield. It may be superseded by a later control-change effect."
+      },
+      {
+        "date": "7/1/2012",
+        "text": "If the damage from Nicol Bolas’s third ability is prevented or redirected, the rest of the effect will still happen. Specifically, the number of cards discarded and permanents sacrificed isn’t tied to the amount of damage dealt."
+      },
+      {
+        "date": "7/1/2012",
+        "text": "For the third ability, if the player is an illegal target when the ability tries to resolve, the ability doesn’t resolve and none of its effects will happen. No damage will be dealt, no cards will be discarded, and no permanents will be sacrificed."
+      }
+    ]
   },
   {
     "name": "Surveilling Sprite",
@@ -1115,7 +1346,8 @@
     "loyalty": null,
     "multiverse_id": 259267,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Nightscape Familiar",
@@ -1142,7 +1374,37 @@
     "loyalty": null,
     "multiverse_id": 259263,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If a spell is both blue and red, you pay {1} less, not {2} less."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The generic X cost is still considered generic even if there is a requirement that a specific color be used for it. For example, “only black mana can be spent this way”. This distinction is important for effects which reduce the generic portion of a spell’s cost."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "This can lower the cost to zero, but not below zero."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The effect is cumulative."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The lower cost is not optional like with some other cost reducers."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Can never affect the colored part of the cost."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "If this card is sacrificed to pay part of a spell’s cost, the cost reduction still applies."
+      }
+    ]
   },
   {
     "name": "Slavering Nulls",
@@ -1169,7 +1431,8 @@
     "loyalty": null,
     "multiverse_id": 249404,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Brackwater Elemental",
@@ -1196,7 +1459,8 @@
     "loyalty": null,
     "multiverse_id": 249390,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Morgue Toad",
@@ -1222,7 +1486,8 @@
     "loyalty": null,
     "multiverse_id": 259264,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Hellfire Mongrel",
@@ -1249,7 +1514,17 @@
     "loyalty": null,
     "multiverse_id": 249408,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "Hellfire Mongrel’s triggered ability has an “intervening ‘if’ clause.” That means (1) the ability won’t trigger at all unless the opponent whose turn it is has two or fewer cards in hand as their upkeep starts, and (2) the ability will do nothing if that player has three or more cards in hand by the time it resolves."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "In a Two-Headed Giant game, this ability will potentially trigger twice at the beginning of the opposing team’s upkeep — once for each player on that team."
+      }
+    ]
   },
   {
     "name": "Dimir Cutpurse",
@@ -1275,7 +1550,8 @@
     "loyalty": null,
     "multiverse_id": 259269,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Steamcore Weird",
@@ -1301,7 +1577,8 @@
     "loyalty": null,
     "multiverse_id": 259273,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Moroii",
@@ -1328,7 +1605,8 @@
     "loyalty": null,
     "multiverse_id": 249367,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Blazing Specter",
@@ -1355,7 +1633,8 @@
     "loyalty": null,
     "multiverse_id": 259274,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fire-Field Ogre",
@@ -1383,7 +1662,29 @@
     "loyalty": null,
     "multiverse_id": 259270,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "If you activate a card’s unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Activating a creature card’s unearth ability isn’t the same as casting the creature card. The unearth ability is put on the stack, but the creature card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Remove Soul) will not."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "At the beginning of the end step, a creature returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Stifle or Voidslime that counter triggered abilities. If the ability is countered, the creature will stay on the battlefield and the delayed trigger won’t trigger again. However, the replacement effect will still exile the creature when it eventually leaves the battlefield."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Unearth grants haste to the creature that’s returned to the battlefield. However, neither of the “exile” abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If a creature returned to the battlefield with unearth would leave the battlefield for any reason, it’s exiled instead — unless the spell or ability that’s causing the creature to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If it later returns the creature card to the battlefield (as Oblivion Ring or Flickerwisp might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The unearth effect will no longer apply to it."
+      }
+    ]
   },
   {
     "name": "Shriekmaw",
@@ -1411,7 +1712,13 @@
     "loyalty": null,
     "multiverse_id": 259272,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first."
+      }
+    ]
   },
   {
     "name": "Ogre Savant",
@@ -1438,7 +1745,17 @@
     "loyalty": null,
     "multiverse_id": 249387,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2006",
+        "text": "If {U} was spent to cast Ogre Savant and no other creatures are on the battlefield, the Ogre will have to return itself."
+      },
+      {
+        "date": "2/1/2006",
+        "text": "The ability is not optional."
+      }
+    ]
   },
   {
     "name": "Jhessian Zombies",
@@ -1465,7 +1782,29 @@
     "loyalty": null,
     "multiverse_id": 259277,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Unlike the normal cycling ability, landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a land card of the specified land type, reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being landcycled. Any ability that stops a cycling ability from being activated also stops a landcycling ability from being activated."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You can choose to find any card with the appropriate land type, including nonbasic lands. You can also choose not to find a card, even if there is a land card with the appropriate type in your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "A landcycling ability lets you search for any card in your library with the stated land type. It doesn’t have to be a basic land."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You may only activate one landcycling ability at a time. You must specify which landcycling ability you are activating as you cycle this card, not as the ability resolves."
+      }
+    ]
   },
   {
     "name": "Igneous Pouncer",
@@ -1492,7 +1831,29 @@
     "loyalty": null,
     "multiverse_id": 249410,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "Unlike the normal cycling ability, landcycling doesn’t allow you to draw a card. Instead, it lets you search your library for a land card of the specified land type, reveal it, put it into your hand, then shuffle your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "Landcycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being landcycled. Any ability that stops a cycling ability from being activated also stops a landcycling ability from being activated."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You can choose to find any card with the appropriate land type, including nonbasic lands. You can also choose not to find a card, even if there is a land card with the appropriate type in your library."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "A landcycling ability lets you search for any card in your library with the stated land type. It doesn’t have to be a basic land."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "You may only activate one landcycling ability at a time. You must specify which landcycling ability you are activating as you cycle this card, not as the ability resolves."
+      }
+    ]
   },
   {
     "name": "Vapor Snag",
@@ -1516,7 +1877,8 @@
     "loyalty": null,
     "multiverse_id": 249373,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Countersquall",
@@ -1540,7 +1902,13 @@
     "loyalty": null,
     "multiverse_id": 249406,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "A spell that can’t be countered is a legal target for Countersquall. The spell won’t be countered when Countersquall resolves, but its controller still loses 2 life."
+      }
+    ]
   },
   {
     "name": "Obelisk of Grixis",
@@ -1564,7 +1932,8 @@
     "loyalty": null,
     "multiverse_id": 259279,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Recoil",
@@ -1588,7 +1957,8 @@
     "loyalty": null,
     "multiverse_id": 266305,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Undermine",
@@ -1612,7 +1982,8 @@
     "loyalty": null,
     "multiverse_id": 259278,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Grixis Charm",
@@ -1639,7 +2010,21 @@
     "loyalty": null,
     "multiverse_id": 259271,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "You can choose a mode only if you can choose legal targets for that mode. If you can’t choose legal targets for any of the modes, you can’t cast the spell."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "While the spell is on the stack, treat it as though its only text is the chosen mode. The other two modes are treated as though they don’t exist. You don’t choose targets for those modes."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If this spell is copied, the copy will have the same mode as the original."
+      }
+    ]
   },
   {
     "name": "Icy Manipulator",
@@ -1663,7 +2048,13 @@
     "loyalty": null,
     "multiverse_id": 249384,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/27/2018",
+        "text": "Once a player announces that they’re casting a spell or activating an ability, no player may take other actions until the spell or ability has been paid for. Notably, other players can’t try to tap that player’s permanents to stop them from paying {T} or to stop them from producing enough mana."
+      }
+    ]
   },
   {
     "name": "Deep Analysis",
@@ -1688,7 +2079,8 @@
     "loyalty": null,
     "multiverse_id": 249365,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Agonizing Demise",
@@ -1713,7 +2105,8 @@
     "loyalty": null,
     "multiverse_id": 259268,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Slave of Bolas",
@@ -1737,7 +2130,17 @@
     "loyalty": null,
     "multiverse_id": 259276,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2009",
+        "text": "You may target a creature you already control."
+      },
+      {
+        "date": "5/1/2009",
+        "text": "If you don’t control the targeted creature when the “at end of turn” ability resolves, it won’t be sacrificed. If it’s still on the battlefield but under another player’s control, the ability won’t try to have you sacrifice it again at the end of the turn after that."
+      }
+    ]
   },
   {
     "name": "Elder Mastery",
@@ -1765,7 +2168,13 @@
     "loyalty": null,
     "multiverse_id": 249407,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "The last ability triggers from any damage dealt by the enchanted creature, not just combat damage."
+      }
+    ]
   },
   {
     "name": "Cruel Ultimatum",
@@ -1789,7 +2198,21 @@
     "loyalty": null,
     "multiverse_id": 259262,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "Cruel Ultimatum’s only target is an opponent. You don’t choose which creature card in your graveyard you’ll return to your hand until Cruel Ultimatum resolves."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "All of the actions for Cruel Ultimatum are performed sequentially, in the order listed. Earlier actions may affect how you perform later actions. For example, if the opponent sacrifices a creature that they control but you own, it will end up in your graveyard. When Cruel Ultimatum lets you return a creature card from your graveyard to your hand, you can choose that one."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "If, as Cruel Ultimatum begins to resolve, your opponent’s life total is 5 or less and you have two or fewer cards in your library, the game will result in a draw. Your opponent’s life total will drop to 0 or less, but Cruel Ultimatum must finish resolving completely before state-based actions are performed. You’ll then be forced to draw three cards and fail to draw one. When state-based actions are finally performed, you and your opponent will both lose the game at the same time, which means the game is a draw."
+      }
+    ]
   },
   {
     "name": "Profane Command",
@@ -1817,7 +2240,13 @@
     "loyalty": null,
     "multiverse_id": 259275,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2007",
+        "text": "The value chosen for X applies to each X in the spell’s effect. You pay {X} only once."
+      }
+    ]
   },
   {
     "name": "Spite (Spite/Malice)",
@@ -1841,7 +2270,8 @@
     "loyalty": null,
     "multiverse_id": 249394,
     "other_part": "Malice (Spite/Malice)",
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Malice (Spite/Malice)",
@@ -1865,7 +2295,8 @@
     "loyalty": null,
     "multiverse_id": 249394,
     "other_part": "Spite (Spite/Malice)",
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Pain (Pain/Suffering)",
@@ -1889,7 +2320,8 @@
     "loyalty": null,
     "multiverse_id": 259281,
     "other_part": "Suffering (Pain/Suffering)",
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Suffering (Pain/Suffering)",
@@ -1913,7 +2345,8 @@
     "loyalty": null,
     "multiverse_id": 259281,
     "other_part": "Pain (Pain/Suffering)",
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rise (Rise/Fall)",
@@ -1937,7 +2370,8 @@
     "loyalty": null,
     "multiverse_id": 259266,
     "other_part": "Fall (Rise/Fall)",
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fall (Rise/Fall)",
@@ -1961,7 +2395,8 @@
     "loyalty": null,
     "multiverse_id": 259266,
     "other_part": "Rise (Rise/Fall)",
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Crumbling Necropolis",
@@ -1986,7 +2421,8 @@
     "loyalty": null,
     "multiverse_id": 259265,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rupture Spire",
@@ -2012,7 +2448,8 @@
     "loyalty": null,
     "multiverse_id": 259282,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Terramorphic Expanse",
@@ -2036,7 +2473,8 @@
     "loyalty": null,
     "multiverse_id": 249381,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -2064,7 +2502,8 @@
     "loyalty": null,
     "multiverse_id": 259283,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -2092,7 +2531,8 @@
     "loyalty": null,
     "multiverse_id": 262652,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Island",
@@ -2120,7 +2560,8 @@
     "loyalty": null,
     "multiverse_id": 259287,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -2148,7 +2589,8 @@
     "loyalty": null,
     "multiverse_id": 259286,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -2176,6 +2618,7 @@
     "loyalty": null,
     "multiverse_id": 259284,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]
