@@ -12,12 +12,14 @@ class Gatherer
   COOKIE = "CardDatabaseSettings=0=1&1=28&2=0&14=1&3=13&4=0&5=1&6=15&7=0&8=1&9=1&10=19&11=7&12=8&15=1&16=0&13=;"
 
   # Return the Gatherer URL for a given card or set.
-  def self.url(for_card: nil, for_set: nil)
+  def self.url(for_card: nil, for_set: nil, for_comments: nil)
     if for_card
       "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=#{for_card}"
     elsif for_set
       # TODO: Append &action=advanced&special=true to return Conspiracies, Schemes, etc.
       "https://gatherer.wizards.com/Pages/Search/Default.aspx?sort=cn+&output=compact&set=[%22#{for_set}%22]"
+    elsif for_comments
+      "https://gatherer.wizards.com/Pages/Card/Discussion.aspx?multiverseid=#{for_comments}"
     else
       "https://gatherer.wizards.com/Pages/Default.aspx"
     end
