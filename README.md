@@ -7,7 +7,7 @@ A JSON database of _Magic: The Gathering_ cards.
 Include in your [Gemfile]
 ```ruby
 source 'https://rubygems.org'
-gem 'mtg-db', '>= 2.0.0'
+gem 'mtg-db', '>= 2.1.0'
 ```
 or install from [Rubygems]
 ```bash
@@ -81,6 +81,7 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
 - **multiverse_id**: Optional integer. An identifier unique to the printing of a card. Cards missing from [Gatherer] will have an empty multiverse_id.
 - **other_part**: Optional string. The name of the other half of a double-faced,<sup>[14]</sup> flip,<sup>[15]</sup> or split card.<sup>[16]</sup>
 - **color_indicator**<sup>[17]</sup> Optional string. Used when a card's color can't be identified by its mana cost. Possible values are _White, Blue, Black, Red,_ or _Green_
+- **rulings** Optional array of objects, each containing the text and date for an Oracle ruling associated with this card.
 
 [Gatherer]: http://gatherer.wizards.com/Pages/Default.aspx
 [2]: https://mtg.gamepedia.com/Collector_number
@@ -128,7 +129,13 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
   "loyalty": null,
   "multiverse_id": 423668,
   "other_part": null,
-  "color_indicator": null
+  "color_indicator": null,
+  "rulings": [
+    {
+      "date": "2/9/2017",
+      "text": "If Aerial Modification becomes unattached from a Vehicle that’s attacking or blocking, that Vehicle will be removed from combat unless another effect (such as its crew ability) is also making it a creature."
+    }
+  ]
 }
 ```
 
