@@ -82,7 +82,8 @@ class StandardCard
   end
 
   def parse_rulings
-    container.css(".rulingsTable tr.post").map do |post|
+    container.css("tr.post").map do |post|
+      # "translate" text to parse <img> symbols into appropriate text shorthand
       post_text = Gatherer.translate_oracle_text(post.css("[id$=\"rulingText\"]"))[0]
       { 'date' => post.css("[id$=\"rulingDate\"]").text.strip,
         'text' => post_text }
