@@ -1,6 +1,7 @@
 require 'multi_json'
 require 'nokogiri'
 require 'open-uri'
+require 'net/http'
 
 def get(url, headers={}, silent: false)
   puts "getting #{url}" unless silent
@@ -8,6 +9,12 @@ def get(url, headers={}, silent: false)
 rescue => e
   puts "#{e}. Retrying in 500ms ..."; sleep 0.5
   Nokogiri::HTML( open(URI.escape(url), headers) )
+end
+
+def post_form(url, params={}, silent: false)
+  puts "posting #{url}" unless silent
+  Net::HTTP.post_form(URI.parse(url), params)
+  require 'pry'; binding.pry
 end
 
 def read(path, parser: MultiJson, silent: false)

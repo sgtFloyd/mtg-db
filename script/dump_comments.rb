@@ -14,7 +14,6 @@ def scrape_comments(multiverse_id)
   end
 end
 
-
 SETS_TO_DUMP.each do |set|
   set_json_path = "#{CARD_JSON_FILE_PATH}/#{set['code']}.json"
   set_json = read(set_json_path)
