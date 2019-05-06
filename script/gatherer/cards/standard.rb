@@ -83,8 +83,9 @@ class StandardCard
 
   def parse_rulings
     container.css(".rulingsTable tr.post").map do |post|
+      post_text = Gatherer.translate_oracle_text(post.css("[id$=\"rulingText\"]"))[0]
       { 'date' => post.css("[id$=\"rulingDate\"]").text.strip,
-        'text' => post.css("[id$=\"rulingText\"]").text.strip }
+        'text' => post_text }
     end
   end
 
