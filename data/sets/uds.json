@@ -24,7 +24,17 @@
     "loyalty": null,
     "multiverse_id": 15138,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You do not have to find an enchantment card if you do not want to, even if you have one in your library."
+      },
+      {
+        "date": "8/1/2005",
+        "text": "An enchantment card is any Enchantment card, including Auras."
+      }
+    ]
   },
   {
     "name": "Archery Training",
@@ -52,7 +62,21 @@
     "loyalty": null,
     "multiverse_id": 15135,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If there is more than one Archery Training on a creature, each granted ability counts the counters on the Archery Training that granted that ability."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "You do not remove counters when using the ability."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Putting on a counter is optional. If you forget, you can’t go back later even if it is something you usually do."
+      }
+    ]
   },
   {
     "name": "Capashen Knight",
@@ -80,7 +104,8 @@
     "loyalty": null,
     "multiverse_id": 15125,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Capashen Standard",
@@ -108,7 +133,8 @@
     "loyalty": null,
     "multiverse_id": 19095,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Capashen Templar",
@@ -135,7 +161,8 @@
     "loyalty": null,
     "multiverse_id": 15762,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "False Prophet",
@@ -162,7 +189,13 @@
     "loyalty": null,
     "multiverse_id": 15765,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "False Prophet only exiles creatures, which means only creature permanents which are on the battlefield. It won’t exile itself since it is already in the graveyard."
+      }
+    ]
   },
   {
     "name": "Fend Off",
@@ -187,7 +220,13 @@
     "loyalty": null,
     "multiverse_id": 15763,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      }
+    ]
   },
   {
     "name": "Field Surgeon",
@@ -214,7 +253,8 @@
     "loyalty": null,
     "multiverse_id": 15121,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Flicker",
@@ -238,7 +278,21 @@
     "loyalty": null,
     "multiverse_id": 15127,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "It will trigger “enters the battlefield” abilities and “leaves the battlefield” abilities. Note that the card does not go to the graveyard, so it will not trigger “goes to the graveyard” abilities."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "This could be used to make the target of another spell or ability illegal if this wasn’t a sorcery (which makes it really hard to do that). This is because the Flickered permanent leaves the battlefield and then returns as a completely different permanent, and the targeted spell will not recognize it."
+      },
+      {
+        "date": "8/1/2005",
+        "text": "This spell effectively “resets” the permanent to being just like it was freshly cast. All counters, Auras, effects, and so on are removed when it is exiled. Then it comes back onto the battlefield like new."
+      }
+    ]
   },
   {
     "name": "Jasmine Seer",
@@ -265,7 +319,13 @@
     "loyalty": null,
     "multiverse_id": 15124,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You can reveal zero cards and gain zero life."
+      }
+    ]
   },
   {
     "name": "Mask of Law and Grace",
@@ -292,7 +352,13 @@
     "loyalty": null,
     "multiverse_id": 15129,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If a text-changing effect is used to change one of the color words so it grants Protection from white, then it will cause itself to be put into the graveyard."
+      }
+    ]
   },
   {
     "name": "Master Healer",
@@ -319,7 +385,8 @@
     "loyalty": null,
     "multiverse_id": 15874,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Opalescence",
@@ -343,7 +410,25 @@
     "loyalty": null,
     "multiverse_id": 15142,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Does not animate itself. But can be animated by another Opalescence."
+      },
+      {
+        "date": "2/1/2006",
+        "text": "With a Humility and two Opalescences on the battlefield, if Humility has the latest timestamp, then all creatures are 1/1 with no abilities. If the timestamp order is Opalescence, Humility, Opalescence, the second Opalescence is 1/1, and the Humility and first Opalescence are 4/4. If Humility has the earliest timestamp, then everything is 4/4."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "This is the current interaction between Humility and Opalescence: The type-changing effect applies at layer 4, but the rest happens in the applicable layers. The rest of it will apply even if the permanent loses its ability before it’s finished applying. So if Opalescence, Humility, and Worship are on the battlefield and Opalescence entered the battlefield before Humility, the following is true: Layer 4: Humility and Worship each become creatures that are still enchantments. (Opalescence). Layer 6: Humility and Worship each lose their abilities. (Humility) Layer 7b: Humility becomes 4/4 and Worship becomes 4/4. (Opalescence). Humility becomes 1/1 and Worship becomes 1/1 (Humility). But if Humility entered the battlefield before Opalescence, the following is true: Layer 4: Humility and Worship each become creatures that are still enchantments (Opalescence). Layer 6: Humility and Worship each lose their abilities (Humility). Layer 7b: Humility becomes 1/1 and Worship becomes 1/1 (Humility). Humility becomes 4/4 and Worship becomes 4/4 (Opalescence)."
+      }
+    ]
   },
   {
     "name": "Reliquary Monk",
@@ -371,7 +456,8 @@
     "loyalty": null,
     "multiverse_id": 15123,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Replenish",
@@ -395,7 +481,21 @@
     "loyalty": null,
     "multiverse_id": 15143,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "It determines what enchantments to return when its resolution starts. If more enchantments go to the graveyard during the resolution, those additional enchantments are ignored."
+      },
+      {
+        "date": "8/1/2005",
+        "text": "You must return Auras if possible, even if this means enchanting an opponent’s permanent with a good enchantment."
+      },
+      {
+        "date": "8/1/2005",
+        "text": "Auras can only be placed on permanents that were on the battlefield before this effect started to resolve. You can’t put an enchantment onto the battlefield with Replenish and put an Aura that is also entering the battlefield onto one of those enchantments."
+      }
+    ]
   },
   {
     "name": "Sanctimony",
@@ -419,7 +519,13 @@
     "loyalty": null,
     "multiverse_id": 15873,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Gaining life is optional. If you forget, you can’t go back later even if it is something you usually do."
+      }
+    ]
   },
   {
     "name": "Scent of Jasmine",
@@ -443,7 +549,13 @@
     "loyalty": null,
     "multiverse_id": 15263,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You reveal cards, and thereby the amount of life gained, on resolution."
+      }
+    ]
   },
   {
     "name": "Scour",
@@ -467,7 +579,21 @@
     "loyalty": null,
     "multiverse_id": 15134,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Does not exile other cards of the same name that are on the battlefield. Just from the graveyard, hand, and library."
+      },
+      {
+        "date": "2/1/2005",
+        "text": "Scour can target and exile cards that aren’t always enchantments, but are enchantments when Scour is cast and resolves (such as creatures turned into enchantments by Soul Sculptor). Scour’s exile effect only looks for cards by name, not type."
+      },
+      {
+        "date": "2/1/2005",
+        "text": "The copies must be found if they are in publicly viewable zones. Finding copies while searching private zones is optional."
+      }
+    ]
   },
   {
     "name": "Serra Advocate",
@@ -494,7 +620,8 @@
     "loyalty": null,
     "multiverse_id": 14485,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Solidarity",
@@ -518,7 +645,8 @@
     "loyalty": null,
     "multiverse_id": 15764,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tethered Griffin",
@@ -545,7 +673,17 @@
     "loyalty": null,
     "multiverse_id": 15769,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The ability will trigger if you don’t control an enchantment, even for a brief moment during the resolution of another spell or ability."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Only checks if you control no enchantments at the time it triggers. It does not check again on resolution. Gaining control of an enchantment before then will not save the Griffin."
+      }
+    ]
   },
   {
     "name": "Tormented Angel",
@@ -571,7 +709,8 @@
     "loyalty": null,
     "multiverse_id": 18287,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Voice of Duty",
@@ -597,7 +736,8 @@
     "loyalty": null,
     "multiverse_id": 15132,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Voice of Reason",
@@ -623,7 +763,8 @@
     "loyalty": null,
     "multiverse_id": 15131,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wall of Glare",
@@ -650,7 +791,8 @@
     "loyalty": null,
     "multiverse_id": 15120,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Aura Thief",
@@ -677,7 +819,13 @@
     "loyalty": null,
     "multiverse_id": 15261,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Gaining control of an enchantment often isn’t very interesting since it probably won’t change what the enchantment is doing. It only matters if the enchantment does something specifically to “you” or “an opponent” or if the enchantment has an activated ability (which only the controller can use)."
+      }
+    ]
   },
   {
     "name": "Blizzard Elemental",
@@ -704,7 +852,8 @@
     "loyalty": null,
     "multiverse_id": 15146,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Brine Seer",
@@ -731,7 +880,13 @@
     "loyalty": null,
     "multiverse_id": 15148,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You can reveal zero cards, and the controller of the spell can pay {0} to stop this or not pay {0} and let it be countered."
+      }
+    ]
   },
   {
     "name": "Bubbling Beebles",
@@ -757,7 +912,8 @@
     "loyalty": null,
     "multiverse_id": 15783,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Disappear",
@@ -784,7 +940,8 @@
     "loyalty": null,
     "multiverse_id": 15151,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Donate",
@@ -808,7 +965,13 @@
     "loyalty": null,
     "multiverse_id": 15168,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If you Donate an Aura, it stays where it is, but the targeted player now controls it."
+      }
+    ]
   },
   {
     "name": "Fatigue",
@@ -832,7 +995,8 @@
     "loyalty": null,
     "multiverse_id": 19098,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fledgling Osprey",
@@ -858,7 +1022,8 @@
     "loyalty": null,
     "multiverse_id": 15145,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Illuminated Wings",
@@ -886,7 +1051,8 @@
     "loyalty": null,
     "multiverse_id": 19097,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Iridescent Drake",
@@ -913,7 +1079,17 @@
     "loyalty": null,
     "multiverse_id": 15163,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "Iridescent Drake’s triggered ability can target any Aura card in a graveyard. However, if the Aura can’t be attached to Iridescent Drake, it remains in its owner’s graveyard and doesn’t enter the battlefield."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the Aura you control from Iridescent Drake’s ability is exiled."
+      }
+    ]
   },
   {
     "name": "Kingfisher",
@@ -940,7 +1116,8 @@
     "loyalty": null,
     "multiverse_id": 15147,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mental Discipline",
@@ -964,7 +1141,8 @@
     "loyalty": null,
     "multiverse_id": 15158,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Metathran Elite",
@@ -991,7 +1169,13 @@
     "loyalty": null,
     "multiverse_id": 15157,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2005",
+        "text": "Being “enchanted” means there is an Aura on it."
+      }
+    ]
   },
   {
     "name": "Metathran Soldier",
@@ -1018,7 +1202,8 @@
     "loyalty": null,
     "multiverse_id": 19096,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Opposition",
@@ -1042,7 +1227,8 @@
     "loyalty": null,
     "multiverse_id": 15162,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Private Research",
@@ -1070,7 +1256,13 @@
     "loyalty": null,
     "multiverse_id": 15161,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Putting on a counter is optional. If you forget, you can’t go back later even if it is something you usually do."
+      }
+    ]
   },
   {
     "name": "Quash",
@@ -1094,7 +1286,29 @@
     "loyalty": null,
     "multiverse_id": 15160,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "It exiles the countered spell. This is because the first sentence puts the spell into the graveyard before you continue to the second sentence."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "If the spell is not countered (because the spell it targets can’t be countered), then it does not get exiled but all the other copies in the graveyard, hand, and library are exiled."
+      },
+      {
+        "date": "2/1/2005",
+        "text": "Quash can exile cards even if the spell countered was a copy of a spell. For example, if you Quash a Boomerang cast from an Isochron Scepter, you may search for and exile cards named Boomerang."
+      },
+      {
+        "date": "2/1/2005",
+        "text": "If Quash counters a spell that has had text spliced onto it, only the base spell may be exiled. For example, if you use Quash to counter a Kodama’s Might with a Glacial Ray spliced onto it, you may search for and exile only Kodama’s Might."
+      },
+      {
+        "date": "2/1/2005",
+        "text": "The copies must be found if they are in publicly viewable zones. Finding copies while searching private zones is optional."
+      }
+    ]
   },
   {
     "name": "Rayne, Academy Chancellor",
@@ -1123,7 +1337,21 @@
     "loyalty": null,
     "multiverse_id": 15164,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If a spell or ability targets multiple permanents you control or targets you and one or more of your permanents, this triggers once for each such target."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The “if” in the card text does not have a special meaning. You check if this card is enchanted when the ability resolves and draw 1 or 2 cards."
+      },
+      {
+        "date": "8/1/2005",
+        "text": "When casting an Aura on this card, the triggered ability will resolve before the Aura enters the battlefield."
+      }
+    ]
   },
   {
     "name": "Rescue",
@@ -1147,7 +1375,8 @@
     "loyalty": null,
     "multiverse_id": 15154,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Scent of Brine",
@@ -1171,7 +1400,13 @@
     "loyalty": null,
     "multiverse_id": 15266,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You reveal cards during resolution."
+      }
+    ]
   },
   {
     "name": "Sigil of Sleep",
@@ -1198,7 +1433,8 @@
     "loyalty": null,
     "multiverse_id": 15784,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Telepathic Spies",
@@ -1225,7 +1461,8 @@
     "loyalty": null,
     "multiverse_id": 15149,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Temporal Adept",
@@ -1252,7 +1489,8 @@
     "loyalty": null,
     "multiverse_id": 15875,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Thieving Magpie",
@@ -1279,7 +1517,8 @@
     "loyalty": null,
     "multiverse_id": 15156,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Treachery",
@@ -1307,7 +1546,17 @@
     "loyalty": null,
     "multiverse_id": 12148,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You can untap 0 to 5 lands."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "You choose which lands to untap as the triggered ability resolves. They aren’t targeted, and they don’t have to be lands that you control."
+      }
+    ]
   },
   {
     "name": "Apprentice Necromancer",
@@ -1334,7 +1583,13 @@
     "loyalty": null,
     "multiverse_id": 14442,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "Apprentice Necromancer can’t be the target of its own ability. This is because targets are chosen for activated abilities before costs (such as “Sacrifice Apprentice Necromancer”) are paid."
+      }
+    ]
   },
   {
     "name": "Attrition",
@@ -1358,7 +1613,8 @@
     "loyalty": null,
     "multiverse_id": 15191,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Body Snatcher",
@@ -1385,7 +1641,17 @@
     "loyalty": null,
     "multiverse_id": 15189,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You choose whether or not to discard on resolution."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "You can choose to target itself to return to the battlefield, but the exiling happens first and so the return will fail."
+      }
+    ]
   },
   {
     "name": "Bubbling Muck",
@@ -1409,7 +1675,17 @@
     "loyalty": null,
     "multiverse_id": 15179,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Affects lands with type Swamp, not lands that are named “Swamp.”"
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Affects lands tapped for rest of turn, not just swamps on the battlefield at the time it resolves. This is because it affects players and not the lands themselves."
+      }
+    ]
   },
   {
     "name": "Carnival of Souls",
@@ -1433,7 +1709,13 @@
     "loyalty": null,
     "multiverse_id": 19115,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "This is not optional."
+      }
+    ]
   },
   {
     "name": "Chime of Night",
@@ -1460,7 +1742,8 @@
     "loyalty": null,
     "multiverse_id": 15768,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Disease Carriers",
@@ -1486,7 +1769,8 @@
     "loyalty": null,
     "multiverse_id": 15169,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dying Wail",
@@ -1513,7 +1797,17 @@
     "loyalty": null,
     "multiverse_id": 15183,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If they have less than 2 cards, they discard all the cards they have."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "It only triggers on a creature going to the graveyard from the battlefield."
+      }
+    ]
   },
   {
     "name": "Encroach",
@@ -1537,7 +1831,17 @@
     "loyalty": null,
     "multiverse_id": 15175,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You choose a land card that is not a basic land."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would."
+      }
+    ]
   },
   {
     "name": "Eradicate",
@@ -1561,7 +1865,33 @@
     "loyalty": null,
     "multiverse_id": 15186,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Use the name of the card as it leaves the battlefield."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "If a copy card is targeted by this effect, you get to look for another copy of the card it is copying. This is because a copy card actually takes on the name and initial characteristics of what it copies."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Does not exile other cards of the same name that are on the battlefield. Just from the graveyard, hand, and library."
+      },
+      {
+        "date": "2/1/2005",
+        "text": "If you manage to turn a land (such as a Forest or Stalking Stones) into a creature, you can indeed use this effect on that basic land type. Eradicate’s exile effect only looks for cards by name, not type."
+      },
+      {
+        "date": "2/1/2005",
+        "text": "The copies must be found if they are in publicly viewable zones. Finding copies while searching private zones is optional."
+      },
+      {
+        "date": "5/1/2012",
+        "text": "A face-down creature has no name, so no card can possibly share a name with it (not even other cards with no name). If you Eradicate a face-down creature you will still search its controller’s library, but you won’t be able to exile any cards from that library."
+      }
+    ]
   },
   {
     "name": "Festering Wound",
@@ -1589,7 +1919,17 @@
     "loyalty": null,
     "multiverse_id": 15184,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If it is on your creature, you can decide whether to add a counter before or after it damages you."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Putting on a counter is optional. If you forget, you can’t go back later even if it is something you usually do."
+      }
+    ]
   },
   {
     "name": "Lurking Jackals",
@@ -1613,7 +1953,21 @@
     "loyalty": null,
     "multiverse_id": 19116,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Once it becomes a creature, it will not change back into an enchantment if your opponent’s life total goes back above 10."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Once it becomes a creature, it is no longer an enchantment."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature."
+      }
+    ]
   },
   {
     "name": "Nightshade Seer",
@@ -1640,7 +1994,13 @@
     "loyalty": null,
     "multiverse_id": 15173,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You can reveal zero cards to give -0/-0 to a creature."
+      }
+    ]
   },
   {
     "name": "Phyrexian Monitor",
@@ -1666,7 +2026,8 @@
     "loyalty": null,
     "multiverse_id": 19113,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Phyrexian Negator",
@@ -1693,7 +2054,13 @@
     "loyalty": null,
     "multiverse_id": 5559,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Sacrificing this card does not prevent you from having to make the other sacrifices."
+      }
+    ]
   },
   {
     "name": "Plague Dogs",
@@ -1721,7 +2088,8 @@
     "loyalty": null,
     "multiverse_id": 15180,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rapid Decay",
@@ -1746,7 +2114,17 @@
     "loyalty": null,
     "multiverse_id": 15177,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You pick the cards during announcement. If any are not there on resolution, any others that are there are still affected."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      }
+    ]
   },
   {
     "name": "Ravenous Rats",
@@ -1772,7 +2150,8 @@
     "loyalty": null,
     "multiverse_id": 15172,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Scent of Nightshade",
@@ -1796,7 +2175,13 @@
     "loyalty": null,
     "multiverse_id": 15265,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You reveal cards, and thereby the value of X, on resolution."
+      }
+    ]
   },
   {
     "name": "Skittering Horror",
@@ -1822,7 +2207,13 @@
     "loyalty": null,
     "multiverse_id": 15787,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Triggers when you announce a creature spell, and will resolve before that creature is put onto the battlefield."
+      }
+    ]
   },
   {
     "name": "Slinking Skirge",
@@ -1849,7 +2240,8 @@
     "loyalty": null,
     "multiverse_id": 15786,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Soul Feast",
@@ -1873,7 +2265,8 @@
     "loyalty": null,
     "multiverse_id": 15767,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Squirming Mass",
@@ -1899,7 +2292,8 @@
     "loyalty": null,
     "multiverse_id": 15170,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Twisted Experiment",
@@ -1926,7 +2320,8 @@
     "loyalty": null,
     "multiverse_id": 19114,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Yawgmoth's Bargain",
@@ -1951,7 +2346,8 @@
     "loyalty": null,
     "multiverse_id": 15193,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Aether Sting",
@@ -1975,7 +2371,13 @@
     "loyalty": null,
     "multiverse_id": 12612,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "The ability triggers when an opponent casts a creature spell, and goes on the stack above that spell. As such, the ability will deal 1 damage to that player before the creature enters the battlefield."
+      }
+    ]
   },
   {
     "name": "Bloodshot Cyclops",
@@ -2002,7 +2404,8 @@
     "loyalty": null,
     "multiverse_id": 15214,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Cinder Seer",
@@ -2029,7 +2432,13 @@
     "loyalty": null,
     "multiverse_id": 15199,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You can reveal zero cards and deal zero damage."
+      }
+    ]
   },
   {
     "name": "Colos Yearling",
@@ -2057,7 +2466,8 @@
     "loyalty": null,
     "multiverse_id": 15195,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Covetous Dragon",
@@ -2084,7 +2494,17 @@
     "loyalty": null,
     "multiverse_id": 15770,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The ability will trigger if you don’t control an artifact, even for a brief moment during the resolution of another spell or ability."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The ability only checks if you control no artifacts at the time it triggers. It does not check again on resolution. So gaining control of an artifact before then will not save the Dragon."
+      }
+    ]
   },
   {
     "name": "Flame Jet",
@@ -2109,7 +2529,13 @@
     "loyalty": null,
     "multiverse_id": 15201,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      }
+    ]
   },
   {
     "name": "Goblin Berserker",
@@ -2136,7 +2562,8 @@
     "loyalty": null,
     "multiverse_id": 15876,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Goblin Festival",
@@ -2160,7 +2587,17 @@
     "loyalty": null,
     "multiverse_id": 15771,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If you activate this multiple times in a row so the stack has more than one of this ability on it, the abilities will still resolve even if Goblin Festival leaves the battlefield or leaves your control before they resolve. For example, if activate the ability twice, and after the first flip you lose control of it because you lost the toss, or it leaves the battlefield, then you still flip for the second ability."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The controller of the ability chooses one of their opponents. If this card changes controllers before the ability resolves, you still pick an opponent of the player who controlled it when it was activated."
+      }
+    ]
   },
   {
     "name": "Goblin Gardener",
@@ -2186,7 +2623,13 @@
     "loyalty": null,
     "multiverse_id": 15197,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The ability is not optional. You have to choose one of your own lands if your opponent has none."
+      }
+    ]
   },
   {
     "name": "Goblin Marshal",
@@ -2214,7 +2657,8 @@
     "loyalty": null,
     "multiverse_id": 15212,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Goblin Masons",
@@ -2240,7 +2684,13 @@
     "loyalty": null,
     "multiverse_id": 15202,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "If there is no Wall to target, then the ability just gets removed from the stack before any player gets priority."
+      }
+    ]
   },
   {
     "name": "Hulking Ogre",
@@ -2266,7 +2716,8 @@
     "loyalty": null,
     "multiverse_id": 15196,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Impatience",
@@ -2290,7 +2741,13 @@
     "loyalty": null,
     "multiverse_id": 15217,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If a spell is countered, it still counts as having been cast."
+      }
+    ]
   },
   {
     "name": "Incendiary",
@@ -2318,7 +2775,13 @@
     "loyalty": null,
     "multiverse_id": 15211,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Putting on a counter is optional. If you forget, you can’t go back later even if it is something you usually do."
+      }
+    ]
   },
   {
     "name": "Keldon Champion",
@@ -2347,7 +2810,8 @@
     "loyalty": null,
     "multiverse_id": 15206,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Keldon Vandals",
@@ -2375,7 +2839,8 @@
     "loyalty": null,
     "multiverse_id": 15194,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Landslide",
@@ -2399,7 +2864,17 @@
     "loyalty": null,
     "multiverse_id": 13821,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You can sacrifice zero mountains to deal zero damage."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "You sacrifice the mountains during resolution."
+      }
+    ]
   },
   {
     "name": "Mark of Fury",
@@ -2427,7 +2902,13 @@
     "loyalty": null,
     "multiverse_id": 15203,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "It only returns if it is still on the battlefield at end of turn."
+      }
+    ]
   },
   {
     "name": "Reckless Abandon",
@@ -2452,7 +2933,17 @@
     "loyalty": null,
     "multiverse_id": 15204,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/15/2013",
+        "text": "You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell."
+      }
+    ]
   },
   {
     "name": "Repercussion",
@@ -2476,7 +2967,8 @@
     "loyalty": null,
     "multiverse_id": 15216,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Scent of Cinder",
@@ -2500,7 +2992,13 @@
     "loyalty": null,
     "multiverse_id": 15264,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You reveal cards, and thereby set the value of X, on resolution."
+      }
+    ]
   },
   {
     "name": "Sowing Salt",
@@ -2524,7 +3022,17 @@
     "loyalty": null,
     "multiverse_id": 19534,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Does not exile other cards of the same name that are on the battlefield. Just from the graveyard, hand, and library."
+      },
+      {
+        "date": "2/1/2005",
+        "text": "The copies must be found if they are in publicly viewable zones. Finding copies while searching private zones is optional."
+      }
+    ]
   },
   {
     "name": "Trumpet Blast",
@@ -2548,7 +3056,21 @@
     "loyalty": null,
     "multiverse_id": 15200,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "An “attacking creature” is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Even though Trumpet Blast affects only attacking creatures, the bonus will remain for the rest of the turn."
+      },
+      {
+        "date": "9/20/2014",
+        "text": "Only creatures that are attacking as Trumpet Blast resolves will receive the bonus. In other words, casting it before you’ve declared attackers usually won’t do anything."
+      }
+    ]
   },
   {
     "name": "Wake of Destruction",
@@ -2572,7 +3094,13 @@
     "loyalty": null,
     "multiverse_id": 15218,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Only looks at the card name, so it will not destroy lands that just share the destroyed land’s type."
+      }
+    ]
   },
   {
     "name": "Wild Colos",
@@ -2599,7 +3127,8 @@
     "loyalty": null,
     "multiverse_id": 15198,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ancient Silverback",
@@ -2625,7 +3154,8 @@
     "loyalty": null,
     "multiverse_id": 16424,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Compost",
@@ -2649,7 +3179,13 @@
     "loyalty": null,
     "multiverse_id": 15878,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The ability triggers on a black card being discarded, milled, or countered, as well as a black card going to the graveyard from the battlefield."
+      }
+    ]
   },
   {
     "name": "Elvish Lookout",
@@ -2675,7 +3211,8 @@
     "loyalty": null,
     "multiverse_id": 19109,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Elvish Piper",
@@ -2702,7 +3239,17 @@
     "loyalty": null,
     "multiverse_id": 15241,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "Putting the card onto the battlefield is optional. When the ability resolves, you can choose not to."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "A “creature card” is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards."
+      }
+    ]
   },
   {
     "name": "Emperor Crocodile",
@@ -2728,7 +3275,17 @@
     "loyalty": null,
     "multiverse_id": 15773,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "Emperor Crocodile’s ability will trigger if you don’t control another creature, even if it’s only for a brief moment during the resolution of another spell or ability (such as that of Brago, King Eternal)."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "The ability only checks if you control no other creatures at the time it triggers. It does not check again on resolution, so gaining control of a creature before then will not save Emperor Crocodile."
+      }
+    ]
   },
   {
     "name": "Gamekeeper",
@@ -2754,7 +3311,17 @@
     "loyalty": null,
     "multiverse_id": 15230,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If you have no creature cards in your library, all the cards from your library end up in your graveyard and you do not get to put a creature onto the battlefield."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Exiling this card is optional."
+      }
+    ]
   },
   {
     "name": "Goliath Beetle",
@@ -2780,7 +3347,8 @@
     "loyalty": null,
     "multiverse_id": 15223,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Heart Warden",
@@ -2808,7 +3376,8 @@
     "loyalty": null,
     "multiverse_id": 15220,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Hunting Moa",
@@ -2836,7 +3405,13 @@
     "loyalty": null,
     "multiverse_id": 15219,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You get a +1/+1 counter both when it enters the battlefield and when it goes to a graveyard from the battlefield."
+      }
+    ]
   },
   {
     "name": "Ivy Seer",
@@ -2863,7 +3438,13 @@
     "loyalty": null,
     "multiverse_id": 15224,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You can reveal zero cards and give +0/+0."
+      }
+    ]
   },
   {
     "name": "Magnify",
@@ -2887,7 +3468,8 @@
     "loyalty": null,
     "multiverse_id": 15819,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Marker Beetles",
@@ -2914,7 +3496,8 @@
     "loyalty": null,
     "multiverse_id": 15222,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Momentum",
@@ -2942,7 +3525,13 @@
     "loyalty": null,
     "multiverse_id": 15235,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Putting on a counter is optional. If you forget, you can’t go back later even if it is something you usually do."
+      }
+    ]
   },
   {
     "name": "Multani's Decree",
@@ -2966,7 +3555,8 @@
     "loyalty": null,
     "multiverse_id": 15228,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Pattern of Rebirth",
@@ -2985,7 +3575,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Enchant creature",
-      "When enchanted creature dies, that creature's controller may search their library for a creature card and put that card onto the battlefield. If that player does, they shuffle their library."
+      "When enchanted creature dies, that creature's controller may search their library for a creature card, put that card onto the battlefield, then shuffle their library."
     ],
     "flavor_text": null,
     "power": null,
@@ -2993,7 +3583,17 @@
     "loyalty": null,
     "multiverse_id": 15234,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Searching for a creature card is optional."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to."
+      }
+    ]
   },
   {
     "name": "Plated Spider",
@@ -3019,7 +3619,13 @@
     "loyalty": null,
     "multiverse_id": 19239,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/1/2008",
+        "text": "This card now uses the Reach keyword ability to enable the blocking of flying creatures. This works because a creature with flying can only be blocked by creatures with flying or reach."
+      }
+    ]
   },
   {
     "name": "Plow Under",
@@ -3043,7 +3649,13 @@
     "loyalty": null,
     "multiverse_id": 12628,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The owner decides the order the two lands are stacked there."
+      }
+    ]
   },
   {
     "name": "Rofellos, Llanowar Emissary",
@@ -3072,7 +3684,8 @@
     "loyalty": null,
     "multiverse_id": 15237,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Rofellos's Gift",
@@ -3096,7 +3709,13 @@
     "loyalty": null,
     "multiverse_id": 15877,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You reveal and you choose cards during the resolution."
+      }
+    ]
   },
   {
     "name": "Scent of Ivy",
@@ -3120,7 +3739,13 @@
     "loyalty": null,
     "multiverse_id": 15267,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You reveal cards, and thereby set the value of X, on resolution."
+      }
+    ]
   },
   {
     "name": "Splinter",
@@ -3144,7 +3769,21 @@
     "loyalty": null,
     "multiverse_id": 15208,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Does not exile other cards of the same name that are on the battlefield. Just from the graveyard, hand, and library."
+      },
+      {
+        "date": "2/1/2005",
+        "text": "Splinter can target and exile cards that aren’t always artifacts, but are artifacts when Splinter is cast and resolves (such as an animated Stalking Stones). Splinter’s exile effect only looks for cards by name, not type."
+      },
+      {
+        "date": "2/1/2005",
+        "text": "The copies must be found if they are in publicly viewable zones. Finding copies while searching private zones is optional."
+      }
+    ]
   },
   {
     "name": "Taunting Elf",
@@ -3170,7 +3809,8 @@
     "loyalty": null,
     "multiverse_id": 15221,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Thorn Elemental",
@@ -3196,7 +3836,33 @@
     "loyalty": null,
     "multiverse_id": 15240,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/27/2018",
+        "text": "You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it."
+      },
+      {
+        "date": "4/27/2018",
+        "text": "When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the player or planeswalker this creature is attacking. You can’t split the damage assignment between them."
+      },
+      {
+        "date": "4/27/2018",
+        "text": "If blocked by a creature with banding, the defending player decides whether or not the damage is assigned “as though it weren’t blocked”."
+      },
+      {
+        "date": "4/27/2018",
+        "text": "You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it."
+      },
+      {
+        "date": "4/27/2018",
+        "text": "When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the player or planeswalker this creature is attacking. You can’t split the damage assignment between them."
+      },
+      {
+        "date": "4/27/2018",
+        "text": "If blocked by a creature with banding, the defending player decides whether or not the damage is assigned “as though it weren’t blocked”."
+      }
+    ]
   },
   {
     "name": "Yavimaya Elder",
@@ -3224,7 +3890,8 @@
     "loyalty": null,
     "multiverse_id": 15225,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Yavimaya Enchantress",
@@ -3251,7 +3918,8 @@
     "loyalty": null,
     "multiverse_id": 15236,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Braidwood Cup",
@@ -3275,7 +3943,8 @@
     "loyalty": null,
     "multiverse_id": 15249,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Braidwood Sextant",
@@ -3299,7 +3968,13 @@
     "loyalty": null,
     "multiverse_id": 15251,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to."
+      }
+    ]
   },
   {
     "name": "Brass Secretary",
@@ -3326,7 +4001,8 @@
     "loyalty": null,
     "multiverse_id": 15245,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Caltrops",
@@ -3350,7 +4026,8 @@
     "loyalty": null,
     "multiverse_id": 15252,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Extruder",
@@ -3378,7 +4055,13 @@
     "loyalty": null,
     "multiverse_id": 15255,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "It can choose itself as the target, but it won’t resolve when it tries to resolve since it will no longer be on the battlefield. This is useful only when you want to simply destroy this card."
+      }
+    ]
   },
   {
     "name": "Fodder Cannon",
@@ -3402,7 +4085,8 @@
     "loyalty": null,
     "multiverse_id": 15250,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Junk Diver",
@@ -3430,7 +4114,8 @@
     "loyalty": null,
     "multiverse_id": 15256,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mantis Engine",
@@ -3458,7 +4143,8 @@
     "loyalty": null,
     "multiverse_id": 15247,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Masticore",
@@ -3487,7 +4173,8 @@
     "loyalty": null,
     "multiverse_id": 13087,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Metalworker",
@@ -3514,7 +4201,17 @@
     "loyalty": null,
     "multiverse_id": 15246,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "This is a mana ability. It does not go on the stack and can’t be responded to."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "You can reveal zero cards to gain zero mana."
+      }
+    ]
   },
   {
     "name": "Powder Keg",
@@ -3539,7 +4236,17 @@
     "loyalty": null,
     "multiverse_id": 15259,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Only destroys artifacts and creatures with exactly the specified cost. It does not mean “less than or equal to”."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Putting on a counter is optional. If you forget, you can’t go back later even if it is something you usually do."
+      }
+    ]
   },
   {
     "name": "Scrying Glass",
@@ -3563,7 +4270,17 @@
     "loyalty": null,
     "multiverse_id": 15262,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The only valid colors are white, black, blue, red, and green."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "You choose a target opponent on announcement. You choose a number and color during resolution, then the targeted opponent reveals their hand."
+      }
+    ]
   },
   {
     "name": "Storage Matrix",
@@ -3587,7 +4304,21 @@
     "loyalty": null,
     "multiverse_id": 15260,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "This card’s ability does not override effects which prevent a permanent from untapping."
+      },
+      {
+        "date": "8/1/2005",
+        "text": "Permanents with multiple types untap if any of their types is chosen. For example, an artifact creature untaps if either artifact or creature is chosen."
+      },
+      {
+        "date": "8/1/2005",
+        "text": "If another effect limits the number of permanents that untap, that number combines with Storage Matrix’s effect. For example, Imi Statue says “players can’t untap more than one artifact during their untap steps.” If both Imi Statue and an untapped Storage Matrix are on the battlefield, and you choose “artifact,” only one artifact untaps."
+      }
+    ]
   },
   {
     "name": "Thran Dynamo",
@@ -3611,7 +4342,8 @@
     "loyalty": null,
     "multiverse_id": 15248,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Thran Foundry",
@@ -3635,7 +4367,8 @@
     "loyalty": null,
     "multiverse_id": 19111,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Thran Golem",
@@ -3662,7 +4395,8 @@
     "loyalty": null,
     "multiverse_id": 15254,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Urza's Incubator",
@@ -3687,7 +4421,17 @@
     "loyalty": null,
     "multiverse_id": 15257,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Multiple Incubators are cumulative."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "You choose a creature type right as it enters the battlefield, before any continuous effects are applied or trigged abilities trigger."
+      }
+    ]
   },
   {
     "name": "Yavimaya Hollow",
@@ -3714,6 +4458,7 @@
     "loyalty": null,
     "multiverse_id": 15772,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]
