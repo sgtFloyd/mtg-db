@@ -21,7 +21,21 @@
     "loyalty": null,
     "multiverse_id": 194966,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "First the player whose turn it is chooses which lands (if any) to keep, then each other player in turn order does the same. Each player will know the choices made by the players who chose before them. All of the unchosen lands are then sacrificed simultaneously. Then the process is repeated for cards in hand, except that no cards are revealed until all players have chosen what to discard, at which point those cards are all discarded simultaneously. Lastly, the process is repeated for creatures, and players will again know earlier choices made when deciding what to sacrifice. All of the unchosen creatures are then sacrificed simultaneously."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "Balance doesn’t have targets, so permanents that can’t be targeted, such as a creature with shroud or protection from white, are valid choices to be sacrificed."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "Each type of object is counted during the corresponding part of the process. Cards in hand are counted after lands have been sacrificed, and creatures on the battlefield are counted after cards have been discarded. Thus, a land creature sacrificed to the first part of the spell would not be counted when determining how many creatures are on the battlefield for the last part."
+      }
+    ]
   },
   {
     "name": "Berserk",
@@ -46,7 +60,13 @@
     "loyalty": null,
     "multiverse_id": 194969,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If the permanent stops being a creature before the end of the turn, it is still destroyed."
+      }
+    ]
   },
   {
     "name": "Channel",
@@ -70,7 +90,13 @@
     "loyalty": null,
     "multiverse_id": 194967,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "Once your life total is 0, you can’t pay any more life, even if you’ve somehow not lost the game yet."
+      }
+    ]
   },
   {
     "name": "Gifts Ungiven",
@@ -94,7 +120,13 @@
     "loyalty": null,
     "multiverse_id": 194971,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "You can choose to find fewer than four cards if you want. If you find one or two cards, your opponent must choose for them to be put into your graveyard, even if they don’t want to."
+      }
+    ]
   },
   {
     "name": "Goblin Lackey",
@@ -120,7 +152,13 @@
     "loyalty": null,
     "multiverse_id": 194973,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "A Goblin permanent card is an artifact, creature, land, and/or enchantment card with the creature type “Goblin”. Usually such cards will be creatures in addition to any other types, but they may be tribal instead. For example, you could put Boggart Shenanigans onto the battlefield with this effect."
+      }
+    ]
   },
   {
     "name": "Kird Ape",
@@ -146,7 +184,8 @@
     "loyalty": null,
     "multiverse_id": 194974,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Lotus Petal",
@@ -170,7 +209,8 @@
     "loyalty": null,
     "multiverse_id": 194975,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mystical Tutor",
@@ -194,7 +234,13 @@
     "loyalty": null,
     "multiverse_id": 194976,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "The “shuffle and put the card on top” is a single action. If an effect causes the top card of the library to be face up, the second card down is not revealed."
+      }
+    ]
   },
   {
     "name": "Necropotence",
@@ -220,7 +266,21 @@
     "loyalty": null,
     "multiverse_id": 194977,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If a discarded card isn’t put into your graveyard (due to an effect such as that of Obstinate Baloth) or leaves your graveyard (perhaps because another effect returned it to your hand), it won’t be exiled."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If you discard a card with madness and wish to cast it, Necropotence’s ability won’t exile that card. If you don’t wish to cast it, you choose whether it ends up exiled or in your graveyard."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Necropotence’s last ability creates a delayed triggered ability that will put the exiled card into your hand. That ability still triggers even if Necropotence is removed from the battlefield before your end step."
+      }
+    ]
   },
   {
     "name": "Sensei's Divining Top",
@@ -245,7 +305,17 @@
     "loyalty": null,
     "multiverse_id": 194972,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "Sensei’s Divining Top’s second ability may be activated in response to its first ability. If so, you’ll draw a card, put Sensei’s Divining Top on top of your library, and then look at the top three cards and rearrange them."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "If Sensei’s Divining Top leaves the battlefield while its second ability is on the stack, you’ll draw a card and leave Sensei’s Divining Top in the zone it’s moved to."
+      }
+    ]
   },
   {
     "name": "Serendib Efreet",
@@ -272,7 +342,8 @@
     "loyalty": null,
     "multiverse_id": 194970,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Skullclamp",
@@ -300,7 +371,8 @@
     "loyalty": null,
     "multiverse_id": 194978,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Strip Mine",
@@ -325,7 +397,8 @@
     "loyalty": null,
     "multiverse_id": 194968,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Tinker",
@@ -350,7 +423,13 @@
     "loyalty": null,
     "multiverse_id": 194980,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to."
+      }
+    ]
   },
   {
     "name": "Trinisphere",
@@ -374,6 +453,28 @@
     "loyalty": null,
     "multiverse_id": 194979,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "Trinisphere’s ability affects the total cost of the spell. It is applied *after* any other cost increasers or cost reducers are applied: First apply any cost increases. Next apply any cost reducers. Finally look at the amount of mana you have to pay. If it’s less than three mana, you’ll pay three mana."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "Even with a cost reducer on the battlefield, spells can’t cost less than three mana to cast."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "If a spell costs at least three mana due to additional costs, such as kicker costs, that’s fine."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "You still need to pay any additional nonmana costs the spell has, such as sacrificing a creature or discarding cards."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "Casting a creature with morph face down already costs three mana, even though the converted mana cost of the face-down spell is zero, so Trinisphere normally doesn’t modify the total cost of a face-down creature spell. However, if Dream Chisel is reducing that cost while Trinisphere is on the battlefield, you’ll still have to pay three mana for the spell."
+      }
+    ]
   }
 ]

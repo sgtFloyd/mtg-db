@@ -21,7 +21,8 @@
     "loyalty": null,
     "multiverse_id": 386284,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Burning of Xinye",
@@ -45,7 +46,29 @@
     "loyalty": null,
     "multiverse_id": 386285,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2009",
+        "text": "Burning of Xinye targets only an opponent. If that player is an illegal target by the time Burning of Xinye resolves, the entire spell doesn’t resolve."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The lands that will be destroyed aren’t chosen until Burning of Xinye resolves."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "A land with a regeneration shield on it will regenerate from Burning of Xinye’s destruction effect. However, the spell or ability that creates that shield must be cast or activated before Burning of Xinye starts to resolve."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "In a multiplayer game, only lands controlled by two players (you and the targeted opponent) are destroyed. However, Burning of Xinye will deal 4 damage to each creature, even those controlled by other players."
+      },
+      {
+        "date": "7/1/2013",
+        "text": "As Burning of Xinye resolves, first you destroy four lands you control (all at the same time), then the targeted opponent destroys four lands they control (all at the same time). That player chooses which of their lands to destroy. Neither of you can choose to destroy a land with indestructible."
+      }
+    ]
   },
   {
     "name": "Cataclysm",
@@ -69,7 +92,29 @@
     "loyalty": null,
     "multiverse_id": 386286,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If you control a permanent with more than one type, you can choose that same permanent for more than one of the choices if you want to. This makes it possible to select an artifact creature as both your artifact and creature, and then select a land and thereby keep only two cards."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "If you control a permanent with more than one type, you can choose that permanent to be the representative of either type. This makes it possible to have more than one creature (or other permanent type) on the battlefield. For example, if you select a creature for your creature and an artifact creature for your artifact, you get to keep both of these creatures."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The permanents to save are chosen on resolution. You do not choose them when casting the spell."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The current player makes their choices before the other player. After both players make choices, all the sacrifices are done simultaneously."
+      },
+      {
+        "date": "2/1/2014",
+        "text": "Each permanent not chosen by a player will be sacrificed. If a permanent has none of the listed types (for example, a Planeswalker with no other types), it can’t be chosen."
+      }
+    ]
   },
   {
     "name": "Child of Alara",
@@ -98,7 +143,8 @@
     "loyalty": null,
     "multiverse_id": 386287,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Decree of Annihilation",
@@ -124,7 +170,21 @@
     "loyalty": null,
     "multiverse_id": 386288,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "The cycling ability and the triggered ability are separate. If the triggered ability doesn’t resolve (due to being countered with Stifle, for example, or if all its targets have become illegal), the cycling ability will still resolve and you’ll draw a card."
+      }
+    ]
   },
   {
     "name": "Firespout",
@@ -148,7 +208,21 @@
     "loyalty": null,
     "multiverse_id": 386289,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "This spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid mana symbol in its cost."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "This spell checks on resolution to see if any mana of the appropriate colors were spent to pay its cost. It doesn’t matter how much mana of that color was spent; the effect isn’t multiplied."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "If this spell is copied, the copy will not have had any colors of mana paid for it, no matter what colors were spent on the original spell."
+      }
+    ]
   },
   {
     "name": "Fracturing Gust",
@@ -172,7 +246,13 @@
     "loyalty": null,
     "multiverse_id": 386290,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/1/2013",
+        "text": "If an artifact or enchantment remains on the battlefield because it was regenerated or has indestructible, you won’t gain life for it."
+      }
+    ]
   },
   {
     "name": "Living Death",
@@ -196,7 +276,17 @@
     "loyalty": null,
     "multiverse_id": 386291,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "As Living Death resolves, all players exile their creature cards from graveyards at the same time. Then all players sacrifice all creatures they control at the same time. Then all players put all creatures they exiled onto the battlefield at the same time."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "Only cards exiled by Living Death’s first instruction are put onto the battlefield. If a replacement effect (such as that of Leyline of the Void) causes any of the sacrificed creatures to be exiled instead of put into a graveyard, those cards aren’t returned to the battlefield."
+      }
+    ]
   },
   {
     "name": "Martial Coup",
@@ -220,7 +310,21 @@
     "loyalty": null,
     "multiverse_id": 386292,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2009",
+        "text": "Martial Coup checks the number you chose for X, not the amount of mana you actually spent."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "You do what the spell says in order. If X is 5 or more, you’ll put the Soldier tokens onto the battlefield, then you’ll destroy all other creatures."
+      },
+      {
+        "date": "2/1/2009",
+        "text": "No one can cast spells or activate abilities between the time the Soldier tokens are put onto the battlefield and the time all other creatures are destroyed. For example, you can’t sacrifice one of those Soldier tokens to regenerate a Skeletal Kathari."
+      }
+    ]
   },
   {
     "name": "Rolling Earthquake",
@@ -244,7 +348,8 @@
     "loyalty": null,
     "multiverse_id": 386293,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Smokestack",
@@ -269,7 +374,17 @@
     "loyalty": null,
     "multiverse_id": 386294,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If a player does not have enough permanents, they sacrifice all the ones they have."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Adding a counter is optional. If you forget to add one during your upkeep, you cannot back up and add one later."
+      }
+    ]
   },
   {
     "name": "Terminus",
@@ -294,7 +409,57 @@
     "loyalty": null,
     "multiverse_id": 386295,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "Each player chooses the order that creatures they own are put onto the bottom of their library. This order isn’t revealed to other players."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "It’s important to reveal a card with miracle before it is mixed with the other cards in your hand."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You can reveal and cast a card with miracle on any turn, not just your own, if it’s the first card you’ve drawn that turn."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Multiple card draws are always treated as a sequence of individual card draws. For example, if you haven’t drawn any cards yet during a turn and cast a spell that instructs you to draw three cards, you’ll draw them one at a time. Only the first card drawn this way may be revealed and cast using its miracle ability."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If an effect puts a card into your hand without using the word “draw,” the card wasn’t drawn."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You don’t have to reveal a drawn card with miracle if you don’t wish to cast it at that time."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You can cast a card for its miracle cost only as the miracle triggered ability resolves. If you don’t want to cast it at that time (or you can’t cast it, perhaps because there are no legal targets available), you won’t be able to cast it later for the miracle cost."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You cast the card with miracle during the resolution of the triggered ability. Ignore any timing rules based on the card’s type."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "Miracle is an alternative cost to cast the spell with miracle. It can’t be combined with other alternative costs, such as casting a spell “without paying its mana cost.”"
+      },
+      {
+        "date": "7/13/2018",
+        "text": "To determine the total cost of a spell, start with the mana cost or alternative cost (such as a miracle cost) you’re paying, add any cost increases, then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "If the card with miracle leaves your hand before the triggered ability resolves, you won’t be able to cast it using its miracle ability."
+      },
+      {
+        "date": "7/13/2018",
+        "text": "You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don’t cast the card using its miracle ability, it will remain in your hand."
+      }
+    ]
   },
   {
     "name": "Upheaval",
@@ -318,7 +483,8 @@
     "loyalty": null,
     "multiverse_id": 386296,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Virtue's Ruin",
@@ -342,7 +508,8 @@
     "loyalty": null,
     "multiverse_id": 386297,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Wrath of God",
@@ -366,6 +533,7 @@
     "loyalty": null,
     "multiverse_id": 386298,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]

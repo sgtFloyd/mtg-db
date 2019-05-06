@@ -24,7 +24,25 @@
     "loyalty": null,
     "multiverse_id": 382197,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Does not trigger on a card on the battlefield being changed into a creature."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The ability will not trigger on itself entering the battlefield, but it will trigger on any other creature that is put onto the battlefield at the same time."
+      },
+      {
+        "date": "8/1/2005",
+        "text": "Two Soul Wardens entering the battlefield at the same time will each cause the other’s ability to trigger."
+      },
+      {
+        "date": "8/1/2005",
+        "text": "The life gain is mandatory."
+      }
+    ]
   },
   {
     "name": "Tidehollow Sculler",
@@ -52,7 +70,13 @@
     "loyalty": null,
     "multiverse_id": 382201,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/7/2013",
+        "text": "If Tidehollow Sculler leaves the battlefield before its first ability has resolved, its second ability will trigger. This ability will do nothing when it resolves. Then its first ability will resolve and exile the chosen card forever."
+      }
+    ]
   },
   {
     "name": "Path to Exile",
@@ -76,7 +100,17 @@
     "loyalty": null,
     "multiverse_id": 382192,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/14/2017",
+        "text": "If the targeted creature becomes an illegal target by the time Path to Exile would resolve, the entire spell doesn’t resolve. The creature’s controller won’t search for a basic land card."
+      },
+      {
+        "date": "3/14/2017",
+        "text": "The controller of the exiled creature isn’t required to search their library for a basic land. If that player doesn’t, the player won’t shuffle their library."
+      }
+    ]
   },
   {
     "name": "Inquisition of Kozilek",
@@ -100,7 +134,13 @@
     "loyalty": null,
     "multiverse_id": 382187,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would."
+      }
+    ]
   },
   {
     "name": "Shrine of Loyal Legions",
@@ -125,7 +165,8 @@
     "loyalty": null,
     "multiverse_id": 382196,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Honor of the Pure",
@@ -149,7 +190,8 @@
     "loyalty": null,
     "multiverse_id": 382186,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Intangible Virtue",
@@ -173,7 +215,8 @@
     "loyalty": null,
     "multiverse_id": 382188,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Raise the Alarm",
@@ -197,7 +240,8 @@
     "loyalty": null,
     "multiverse_id": 382194,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Zealous Persecution",
@@ -221,7 +265,8 @@
     "loyalty": null,
     "multiverse_id": 382204,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sword of Feast and Famine",
@@ -249,7 +294,13 @@
     "loyalty": null,
     "multiverse_id": 382200,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2011",
+        "text": "You’ll untap all lands you control even if the player doesn’t discard a card."
+      }
+    ]
   },
   {
     "name": "Lingering Souls",
@@ -274,7 +325,8 @@
     "loyalty": null,
     "multiverse_id": 382191,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Spectral Procession",
@@ -298,7 +350,25 @@
     "loyalty": null,
     "multiverse_id": 382198,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "If an effect reduces the cost to cast a spell by an amount of generic mana, it applies to a monocolored hybrid spell only if you’ve chosen a method of paying for it that includes generic mana."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "A card with a monocolored hybrid mana symbol in its mana cost is each of the colors that appears in its mana cost, regardless of what mana was spent to cast it. Thus, Spectral Procession is white even if you spend six blue mana to cast it."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "A card with monocolored hybrid mana symbols in its mana cost has a converted mana cost equal to the highest possible cost it could be cast for. Its converted mana cost never changes. Thus, Spectral Procession has a converted mana cost of 6, even if you spend {W}{W}{W} to cast it."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "If a cost includes more than one monocolored hybrid mana symbol, you can choose a different way to pay for each symbol. For example, you can pay for Spectral Procession by spending {W}{W}{W}, {2}{W}{W}, {4}{W}, or {6}."
+      }
+    ]
   },
   {
     "name": "Elspeth, Knight-Errant",
@@ -328,7 +398,17 @@
     "loyalty": "4",
     "multiverse_id": 382184,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/1/2011",
+        "text": "Emblems behave similarly to enchantments: They have an ability that, in a general sense, continually affects the game. The primary difference between them is that emblems aren’t permanents and don’t exist on the battlefield. Nothing in the game can remove an emblem, simply because no other spell or ability references them. Once you get an emblem, you keep it for the rest of the game. Emblems have no color, name, card type, or other characteristics beyond the listed ability."
+      },
+      {
+        "date": "7/1/2013",
+        "text": "Lethal damage and effects that say “destroy” won’t cause a permanent with indestructible to be put into the graveyard. However, a permanent with indestructible can be put into the graveyard for a number of reasons. The most likely reasons are if it’s sacrificed, if it’s a creature whose toughness is 0 or less, or if it’s an Aura that’s either unattached or attached to something illegal."
+      }
+    ]
   },
   {
     "name": "Caves of Koilos",
@@ -353,7 +433,17 @@
     "loyalty": null,
     "multiverse_id": 382180,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/22/2015",
+        "text": "The damage dealt to you is part of the second mana ability. It doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "6/22/2015",
+        "text": "Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source."
+      }
+    ]
   },
   {
     "name": "City of Brass",
@@ -378,7 +468,21 @@
     "loyalty": null,
     "multiverse_id": 382181,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The first ability triggers no matter how the land becomes tapped."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "If you tap City of Brass while you are casting a spell or activating an ability, its ability will trigger and wait. When you finish casting that spell or activating that ability, City of Brass’s triggered ability is put on the stack on top of it. City of Brass’s ability will resolve first."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "On the other hand, you can tap City of Brass, put its triggered ability on the stack, and then respond to that ability by casting an instant or activating an ability using that mana. In that case, the instant spell or activated ability will resolve first."
+      }
+    ]
   },
   {
     "name": "Isolated Chapel",
@@ -403,7 +507,8 @@
     "loyalty": null,
     "multiverse_id": 382189,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vault of the Archangel",
@@ -428,7 +533,17 @@
     "loyalty": null,
     "multiverse_id": 382202,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/22/2011",
+        "text": "Vault of the Archangel’s last ability affects only creatures you control when that ability resolves. It won’t affect creatures that come under your control later in the turn."
+      },
+      {
+        "date": "1/22/2011",
+        "text": "Multiple instances of deathtouch or lifelink on the same creature are redundant."
+      }
+    ]
   },
   {
     "name": "Windbrisk Heights",
@@ -454,7 +569,13 @@
     "loyalty": null,
     "multiverse_id": 382203,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2007",
+        "text": "At the time the ability resolves, you’ll get to play the card if you declared three different creatures as attackers at any point in the turn. A creature declared as an attacker in two different attack phases counts only once. A creature that entered the battlefield attacking (such as a token created by Militia’s Pride) doesn’t count because you never attacked with it."
+      }
+    ]
   },
   {
     "name": "Plains",
@@ -482,7 +603,8 @@
     "loyalty": null,
     "multiverse_id": 382193,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -510,7 +632,8 @@
     "loyalty": null,
     "multiverse_id": 382199,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Relic of Progenitus",
@@ -535,7 +658,17 @@
     "loyalty": null,
     "multiverse_id": 382195,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "If you activate Relic of Progenitus’s first ability, the targeted player chooses which card to exile. The choice is made as the ability resolves."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "You can activate Relic of Progenitus’s second ability even if no players have any cards in their graveyards. You’ll still draw a card."
+      }
+    ]
   },
   {
     "name": "Burrenton Forge-Tender",
@@ -563,7 +696,21 @@
     "loyalty": null,
     "multiverse_id": 382179,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If the red source you chose changes colors before it deals damage, the damage-prevention effect doesn’t apply."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "The last ability of Burrenton Forge-Tender doesn’t target anything. You choose a source of damage as the ability resolves, if able. You can activate it even if there is no source to choose."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If a permanent spell is chosen as the source of damage, Burrenton Forge-Tender’s prevention effect continues to apply for the rest of the turn to the permanent that spell becomes once it has entered the battlefield."
+      }
+    ]
   },
   {
     "name": "Duress",
@@ -587,7 +734,8 @@
     "loyalty": null,
     "multiverse_id": 382183,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Kataki, War's Wage",
@@ -615,7 +763,8 @@
     "loyalty": null,
     "multiverse_id": 382190,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dismember",
@@ -640,7 +789,29 @@
     "loyalty": null,
     "multiverse_id": 382182,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2011",
+        "text": "A card with Phyrexian mana symbols in its mana cost is each color that appears in that mana cost, regardless of how that cost may have been paid."
+      },
+      {
+        "date": "6/1/2011",
+        "text": "To calculate the converted mana cost of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1."
+      },
+      {
+        "date": "6/1/2011",
+        "text": "As you cast a spell or activate an activated ability with one or more Phyrexian mana symbols in its cost, you choose how to pay for each Phyrexian mana symbol at the same time you would choose modes or choose a value for X."
+      },
+      {
+        "date": "6/1/2011",
+        "text": "If you’re at 1 life or less, you can’t pay 2 life."
+      },
+      {
+        "date": "6/1/2011",
+        "text": "Phyrexian mana is not a new color. Players can’t add Phyrexian mana to their mana pools."
+      }
+    ]
   },
   {
     "name": "Ghost Quarter",
@@ -665,6 +836,20 @@
     "loyalty": null,
     "multiverse_id": 382185,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2006",
+        "text": "If you target Ghost Quarter with its own ability, the ability won’t resolve because its target is no longer on the battlefield. You won’t get to search for a land card."
+      },
+      {
+        "date": "9/22/2011",
+        "text": "If the targeted land is an illegal target by the time Ghost Quarter’s ability resolves, it won’t resolve and none of its effects will happen. The land’s controller won’t get to search for a basic land card."
+      },
+      {
+        "date": "7/1/2013",
+        "text": "The target land’s controller gets to search for a basic land card even if that land wasn’t destroyed by Ghost Quarter’s ability. This may happen because the land has indestructible or because it was regenerated."
+      }
+    ]
   }
 ]

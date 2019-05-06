@@ -24,7 +24,13 @@
     "loyalty": null,
     "multiverse_id": 234706,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "9/22/2011",
+        "text": "The two cards are exiled as the cost of Grim Lavamancer’s ability is paid. Players can’t respond to the paying of costs by trying to move those cards to another zone."
+      }
+    ]
   },
   {
     "name": "Jackal Pup",
@@ -50,7 +56,8 @@
     "loyalty": null,
     "multiverse_id": 217974,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mogg Fanatic",
@@ -76,7 +83,13 @@
     "loyalty": null,
     "multiverse_id": 234699,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/8/2016",
+        "text": "Once Mogg Fanatic has dealt and been dealt combat damage, it’s too late to activate its ability before it’s destroyed."
+      }
+    ]
   },
   {
     "name": "Spark Elemental",
@@ -94,7 +107,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Trample, haste (If this creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to the player or planeswalker it's attacking. This creature can attack and {T} as soon as it comes under your control.)",
+      "Trample, haste (This creature can deal excess combat damage to the player or planeswalker it's attacking. This creature can attack and {T} as soon as it comes under your control.)",
       "At the beginning of the end step, sacrifice Spark Elemental."
     ],
     "flavor_text": "Vulshok shamans could never keep them alive for more than a few seconds, yet those few seconds seemed to be enough.",
@@ -103,7 +116,8 @@
     "loyalty": null,
     "multiverse_id": 234700,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Figure of Destiny",
@@ -131,7 +145,29 @@
     "loyalty": null,
     "multiverse_id": 236456,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "None of these abilities has a duration. If one of them resolves, it will remain in effect until the game ends, Figure of Destiny leaves the battlefield, or some subsequent effect changes its characteristics, whichever comes first."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Figure of Destiny’s abilities overwrite its power, toughness, and creature types. Typically, those abilities are activated in the order they appear on the card. However, if Figure of Destiny is an 8/8 Kithkin Spirit Warrior Avatar with flying and first strike, and you activate its first ability, it will become a 2/2 Kithkin Spirit that still has flying and first strike."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "You can activate Figure of Destiny’s second and third abilities regardless of what creature types it is. Each of those abilities checks Figure of Destiny’s creature types when that ability resolves. If Figure of Destiny isn’t the appropriate creature type at that time, the ability does nothing."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "Figure of Destiny’s second ability checks whether it’s a Spirit, and its third ability checks whether it’s a Warrior. It doesn’t matter how it became the appropriate creature type."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "The effect from the ability overwrites other effects that set power and/or toughness if and only if those effects existed before the ability resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the ability resolves. Effects that switch the creature’s power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created."
+      }
+    ]
   },
   {
     "name": "Hellspark Elemental",
@@ -159,7 +195,8 @@
     "loyalty": null,
     "multiverse_id": 234711,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Keldon Marauders",
@@ -187,7 +224,8 @@
     "loyalty": null,
     "multiverse_id": 234709,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mogg Flunkies",
@@ -213,7 +251,29 @@
     "loyalty": null,
     "multiverse_id": 234710,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "If you control more than one Mogg Flunkies, they can attack or block together, even if no other creatures attack or block."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "Although Mogg Flunkies can’t attack alone, other attacking creatures don’t have to attack the same player or planeswalker. For example, Mogg Flunkies could attack an opponent and another creature could attack a planeswalker that opponent controls. Similarly, other blocking creatures don’t have to block the same creature that Mogg Flunkies blocks."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "Once Mogg Flunkies has attacked or blocked, it will remain in combat even if you no longer control another attacking or blocking creature."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "If an effect says that Mogg Flunkies attacks or blocks if able and you control another creature able to attack or block, you must attack or block with Mogg Flunkies and that creature."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "In a Two-Headed Giant game, Mogg Flunkies can attack or block with a creature controlled by your teammate, even if no other creatures you control are attacking or blocking."
+      }
+    ]
   },
   {
     "name": "Cinder Pyromancer",
@@ -241,7 +301,8 @@
     "loyalty": null,
     "multiverse_id": 234717,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Jaya Ballard, Task Mage",
@@ -272,7 +333,8 @@
     "loyalty": null,
     "multiverse_id": 234707,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Vulshok Sorcerer",
@@ -300,7 +362,8 @@
     "loyalty": null,
     "multiverse_id": 234719,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ball Lightning",
@@ -328,7 +391,13 @@
     "loyalty": null,
     "multiverse_id": 234722,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2007",
+        "text": "The creature is sacrificed at the end of every turn in which it is on the battlefield. There is no choice about what turn to sacrifice it."
+      }
+    ]
   },
   {
     "name": "Boggart Ram-Gang",
@@ -356,7 +425,8 @@
     "loyalty": null,
     "multiverse_id": 234723,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Keldon Champion",
@@ -385,7 +455,8 @@
     "loyalty": null,
     "multiverse_id": 234713,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fire Servant",
@@ -411,7 +482,29 @@
     "loyalty": null,
     "multiverse_id": 234702,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/15/2010",
+        "text": "Fire Servant’s ability applies no matter who or what the damage would be dealt to: a creature, a player, or a planeswalker."
+      },
+      {
+        "date": "8/15/2010",
+        "text": "If a red instant or sorcery spell you control causes damage to be dealt, that spell will always identify the source of the damage. In most cases, the source is the spell itself. For example, Lightning Bolt says “Lightning Bolt deals 3 damage to any target.” Such a spell is affected by Fire Servant’s ability. If the source of the damage is something else (for example, if the spell is Soul’s Fire, which says “Target creature you control on the battlefield deals damage equal to its power to any target”), it isn’t affected by Fire Servant’s ability."
+      },
+      {
+        "date": "8/15/2010",
+        "text": "If multiple effects modify how damage will be dealt, the player who would be dealt damage or the controller of the permanent that would be dealt damage chooses the order to apply the effects. For example, Mending Hands says, “Prevent the next 4 damage that would be dealt to any target this turn” and Lava Axe is a red sorcery that says “Lava Axe deals 5 damage to target player or planeswalker.” Suppose a Lava Axe controlled by a player who controls Fire Servant would deal 5 damage to a player who has cast Mending Hands targeting themselves. The player who would be dealt damage can either (a) prevent 4 damage first and then let Fire Servant’s effect double the remaining 1 damage, taking 2 damage, or (b) double the damage to 10 and then prevent 4 damage, taking 6 damage."
+      },
+      {
+        "date": "8/15/2010",
+        "text": "If a red instant or sorcery spell you control divides damage among multiple recipients (such as Fireball does), the damage is divided before Fire Servant’s effect doubles it."
+      },
+      {
+        "date": "8/15/2010",
+        "text": "If you control more than one Fire Servant, the effects are cumulative. Two such effects will cause damage from red instant or sorcery spells you control to be multiplied by four; three such effects will cause damage from red instant or sorcery spells you control to be multiplied by eight."
+      }
+    ]
   },
   {
     "name": "Chain Lightning",
@@ -435,7 +528,37 @@
     "loyalty": null,
     "multiverse_id": 217977,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The copy is a spell, so it can be targeted by other spells and abilities that target a spell."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The player putting the copy spell on the stack controls that spell."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The spell copy has all the text and can result in itself being copied."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "As Chain Lightning resolves, the targeted player or the controller of the targeted creature may copy it. The copy has the same text, target, and color of the resolving spell, though the player who’s copying it may choose a new target for it. Once that copy is created (or not), the first Chain Lightning has finished resolving and leaves the stack."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "The player putting the copy of the spell on the stack controls that copy."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "The copy of Chain Lightning is created on the stack, so it’s not cast. Abilities that trigger when a player casts a spell won’t trigger. Players may respond to that spell before it resolves."
+      },
+      {
+        "date": "6/8/2016",
+        "text": "If the targeted permanent or player is an illegal target when Chain Lightning tries to resolve, the spell doesn’t resolve. It can’t be copied."
+      }
+    ]
   },
   {
     "name": "Lightning Bolt",
@@ -459,7 +582,8 @@
     "loyalty": null,
     "multiverse_id": 234704,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Price of Progress",
@@ -483,7 +607,8 @@
     "loyalty": null,
     "multiverse_id": 234714,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Thunderbolt",
@@ -509,7 +634,8 @@
     "loyalty": null,
     "multiverse_id": 234716,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Reverberate",
@@ -533,7 +659,37 @@
     "loyalty": null,
     "multiverse_id": 234705,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/15/2010",
+        "text": "Reverberate can target (and copy) any instant or sorcery spell, not just one with targets. It doesn’t matter who controls it."
+      },
+      {
+        "date": "8/15/2010",
+        "text": "When Reverberate resolves, it creates a copy of a spell. You control the copy. That copy is created on the stack, so it’s not “cast.” Abilities that trigger when a player casts a spell won’t trigger. The copy will then resolve like a normal spell, after players get a chance to cast spells and activate abilities."
+      },
+      {
+        "date": "8/15/2010",
+        "text": "The copy will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can’t choose a new legal target, then it remains unchanged (even if the current target is illegal)."
+      },
+      {
+        "date": "8/15/2010",
+        "text": "If the spell Reverberate copies is modal (that is, it says “Choose one —” or the like), the copy will have the same mode. You can’t choose a different one."
+      },
+      {
+        "date": "8/15/2010",
+        "text": "If the spell Reverberate copies has an X whose value was determined as it was cast (like Earthquake does), the copy has the same value of X."
+      },
+      {
+        "date": "8/15/2010",
+        "text": "You can’t choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. For example, if a player sacrifices a 3/3 creature to cast Fling, and you copy it with Reverberate, the copy of Fling will also deal 3 damage to its target."
+      },
+      {
+        "date": "8/15/2010",
+        "text": "If the copy says that it affects “you,” it affects the controller of the copy, not the controller of the original spell. Similarly, if the copy says that it affects an “opponent,” it affects an opponent of the copy’s controller, not an opponent of the original spell’s controller."
+      }
+    ]
   },
   {
     "name": "Browbeat",
@@ -557,7 +713,8 @@
     "loyalty": null,
     "multiverse_id": 234712,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Flames of the Blood Hand",
@@ -581,7 +738,17 @@
     "loyalty": null,
     "multiverse_id": 234718,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2005",
+        "text": "The damage is unpreventable, and the targeted player’s life gain that turn is replaced with nothing."
+      },
+      {
+        "date": "2/1/2005",
+        "text": "The replacement effect applies only to the target player, not to a permanent or player the damage might be redirected to."
+      }
+    ]
   },
   {
     "name": "Hammer of Bogardan",
@@ -606,7 +773,8 @@
     "loyalty": null,
     "multiverse_id": 234721,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Pillage",
@@ -630,7 +798,8 @@
     "loyalty": null,
     "multiverse_id": 234720,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sudden Impact",
@@ -654,7 +823,8 @@
     "loyalty": null,
     "multiverse_id": 234701,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fireblast",
@@ -679,7 +849,8 @@
     "loyalty": null,
     "multiverse_id": 234736,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fireball",
@@ -704,7 +875,25 @@
     "loyalty": null,
     "multiverse_id": 234703,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "For example, if X is 5 and you choose three target creatures, Fireball has a total cost of {7}{R} (even though its mana cost is just {5}{R} and its converted mana cost is 6). If those creatures are all still legal targets as Fireball resolves, it deals 1 damage to each of them."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "You may cast Fireball with zero targets, regardless of the value chosen for X. If you do so, it will not be a targeted spell, and no damage will actually be dealt when it resolves."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Fireball’s damage is divided as Fireball resolves, not as it’s cast, because there are no choices involved. The division involves only targets that are still legal as Fireball resolves."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "You can target more than X creatures. However, if the number of legal targets at the time Fireball resolves is greater than X, none of them will be dealt any damage."
+      }
+    ]
   },
   {
     "name": "Barbarian Ring",
@@ -729,7 +918,8 @@
     "loyalty": null,
     "multiverse_id": 234737,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Ghitu Encampment",
@@ -755,7 +945,17 @@
     "loyalty": null,
     "multiverse_id": 234698,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "8/1/2008",
+        "text": "A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature."
+      },
+      {
+        "date": "10/1/2009",
+        "text": "Activating the ability that turns it into a creature while it’s already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply."
+      }
+    ]
   },
   {
     "name": "Teetering Peaks",
@@ -781,7 +981,8 @@
     "loyalty": null,
     "multiverse_id": 234715,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -809,7 +1010,8 @@
     "loyalty": null,
     "multiverse_id": 234739,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -837,7 +1039,8 @@
     "loyalty": null,
     "multiverse_id": 234738,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -865,7 +1068,8 @@
     "loyalty": null,
     "multiverse_id": 234741,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -893,6 +1097,7 @@
     "loyalty": null,
     "multiverse_id": 234740,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]

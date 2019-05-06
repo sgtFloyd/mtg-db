@@ -22,7 +22,25 @@
     "loyalty": null,
     "multiverse_id": 416743,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2008",
+        "text": "If an effect reduces the cost to cast a spell by an amount of generic mana, it applies to a monocolored hybrid spell only if you’ve chosen a method of paying for it that includes generic mana."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "A card with a monocolored hybrid mana symbol in its mana cost is each of the colors that appears in its mana cost, regardless of what mana was spent to cast it. Thus, Beseech the Queen is black even if you spend six red mana to cast it."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "A card with monocolored hybrid mana symbols in its mana cost has a converted mana cost equal to the highest possible cost it could be cast for. Its converted mana cost never changes. Thus, Beseech the Queen has a converted mana cost of 6, even if you spend {B}{B}{B} to cast it."
+      },
+      {
+        "date": "5/1/2008",
+        "text": "If a cost includes more than one monocolored hybrid mana symbol, you can choose a different way to pay for each symbol. For example, you can pay for Beseech the Queen by spending {B}{B}{B}, {2}{B}{B}, {4}{B}, or {6}."
+      }
+    ]
   },
   {
     "name": "Cabal Ritual",
@@ -47,7 +65,8 @@
     "loyalty": null,
     "multiverse_id": 416744,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Conflux",
@@ -71,7 +90,17 @@
     "loyalty": null,
     "multiverse_id": 416745,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "3/16/2018",
+        "text": "You don’t have to find all five cards."
+      },
+      {
+        "date": "3/16/2018",
+        "text": "You may find multicolored cards with Conflux. The white card you find, for example, can be any number of colors, as long as white is one of them. What colors it is won’t impact what other cards you can find. For example, you may find a white-blue card as the white card and another white-blue card as the blue card."
+      }
+    ]
   },
   {
     "name": "Dark Depths",
@@ -92,7 +121,7 @@
     "oracle_text": [
       "Dark Depths enters the battlefield with ten ice counters on it.",
       "{3}: Remove an ice counter from Dark Depths.",
-      "When Dark Depths has no ice counters on it, sacrifice it. If you do, create a legendary 20/20 black Avatar creature token with flying and indestructible named Marit Lage."
+      "When Dark Depths has no ice counters on it, sacrifice it. If you do, create Marit Lage, a legendary 20/20 black Avatar creature token with flying and indestructible."
     ],
     "flavor_text": null,
     "power": null,
@@ -100,7 +129,21 @@
     "loyalty": null,
     "multiverse_id": 416746,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/7/2018",
+        "text": "Dark Depths really is a land with no mana ability. It doesn’t tap for colorless mana."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "The last ability of Dark Depths is a state trigger. It won’t trigger again while the ability is on the stack, but if the ability is countered and Dark Depths is still on the battlefield with no ice counters on it, it will trigger again immediately."
+      },
+      {
+        "date": "12/7/2018",
+        "text": "If Dark Depths leaves the battlefield before its triggered ability resolves, you won’t be able to sacrifice it, so you won’t create Marit Lage."
+      }
+    ]
   },
   {
     "name": "Glissa, the Traitor",
@@ -130,7 +173,13 @@
     "loyalty": null,
     "multiverse_id": 416747,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/1/2011",
+        "text": "If an artifact you own and a creature an opponent controls go to the graveyard at the same time, you may choose that artifact card as the target of Glissa, the Traitor’s ability (even if they’re the same card: an artifact creature you own that an opponent controlled)."
+      }
+    ]
   },
   {
     "name": "Helvault",
@@ -158,7 +207,13 @@
     "loyalty": null,
     "multiverse_id": 416748,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "1/22/2011",
+        "text": "Helvault’s first and third abilities are linked. Similarly, Helvault’s second and third abilities are linked. Only cards exiled as a result of Helvault’s first or second abilities will be returned to the battlefield by its third ability."
+      }
+    ]
   },
   {
     "name": "Memnarch",
@@ -188,7 +243,17 @@
     "loyalty": null,
     "multiverse_id": 416749,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "12/1/2004",
+        "text": "The effects of Memnarch’s abilities don’t end at end of turn, and they don’t end when Memnarch leaves the battlefield. Both effects last until the affected permanent leaves the battlefield."
+      },
+      {
+        "date": "12/1/2004",
+        "text": "You can use the first ability on a nonartifact permanent, wait for the ability to resolve, and then use the second ability on that permanent."
+      }
+    ]
   },
   {
     "name": "Mind's Desire",
@@ -213,7 +278,33 @@
     "loyalty": null,
     "multiverse_id": 416750,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If the card is not played by end of turn, it remains exiled until end of game."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The card is face-up when exiled."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The copies are put directly onto the stack. They aren’t cast and won’t be counted by other spells with storm cast later in the turn."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "Spells cast from zones other than a player’s hand and spells that were countered are counted by the storm ability."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won’t affect the copies."
+      },
+      {
+        "date": "6/7/2013",
+        "text": "The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack."
+      }
+    ]
   },
   {
     "name": "Momir Vig, Simic Visionary",
@@ -243,7 +334,13 @@
     "loyalty": null,
     "multiverse_id": 416751,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2006",
+        "text": "If you cast a green and blue creature spell, both abilities will trigger. The abilities may be stacked so that when they resolve, you search your library for a creature card, put it on top of your library, and then put that card into your hand. The abilities may also be stacked in the other order, of course."
+      }
+    ]
   },
   {
     "name": "Near-Death Experience",
@@ -267,7 +364,17 @@
     "loyalty": null,
     "multiverse_id": 416752,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "6/15/2010",
+        "text": "This ability has an “intervening ‘if’ clause.” That means (1) the ability triggers only if you have exactly 1 life as your upkeep begins, and (2) the ability does nothing if your life total is anything other than 1 by the time it resolves."
+      },
+      {
+        "date": "6/15/2010",
+        "text": "In a Two-Headed Giant game, anything that cares about your life total checks your team’s life total. You’ll win the game if your team has exactly 1 life."
+      }
+    ]
   },
   {
     "name": "Obliterate",
@@ -292,7 +399,13 @@
     "loyalty": null,
     "multiverse_id": 416753,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Counterspells can be cast that target it, but when they resolve they simply don’t counter it since it can’t be countered."
+      }
+    ]
   },
   {
     "name": "Phyrexian Processor",
@@ -317,7 +430,13 @@
     "loyalty": null,
     "multiverse_id": 416754,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You can pay 0 life if you want, but it’s not useful most of the time."
+      }
+    ]
   },
   {
     "name": "Tolaria West",
@@ -343,7 +462,13 @@
     "loyalty": null,
     "multiverse_id": 416755,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "5/1/2007",
+        "text": "Cards with mana cost {0} (like Pact of Negation) and cards with no mana cost (like Living End and every land) have converted mana cost 0."
+      }
+    ]
   },
   {
     "name": "Umezawa's Jitte",
@@ -376,7 +501,29 @@
     "loyalty": null,
     "multiverse_id": 416756,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2005",
+        "text": "Umezawa’s Jitte’s activated ability generates a modal choice. The choice is made when the ability is activated."
+      },
+      {
+        "date": "2/1/2005",
+        "text": "If the “target creature gets -1/-1 until end of turn” mode is chosen, the target creature must also be announced."
+      },
+      {
+        "date": "2/1/2005",
+        "text": "The ability can be used any time Umezawa’s Jitte’s controller has priority — only the “target creature” choice has additional requirements. Choosing the “Equipped creature gets +2/+2 until end of turn” mode does nothing if the Jitte isn’t equipped to a creature when the ability resolves."
+      },
+      {
+        "date": "2/1/2005",
+        "text": "If the Jitte is moved after the “+2/+2” mode is announced but before it resolves, the bonus is given to the creature that is equipped when the ability resolves."
+      },
+      {
+        "date": "2/1/2005",
+        "text": "If the Jitte leaves the battlefield after the “+2/+2” mode is announced but before it resolves, the bonus is given to the creature that was most recently equipped once the ability resolves."
+      }
+    ]
   },
   {
     "name": "Unmask",
@@ -401,6 +548,12 @@
     "loyalty": null,
     "multiverse_id": 416757,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "2/1/2014",
+        "text": "If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would."
+      }
+    ]
   }
 ]
