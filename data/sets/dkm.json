@@ -24,7 +24,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Contagion",
@@ -40,7 +41,7 @@
     "mana_cost": "3BB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "You may pay 1 life and exile a black card from your hand rather than pay Contagion's mana cost.",
+      "You may pay 1 life and exile a black card from your hand rather than pay this spell's mana cost.",
       "Distribute two -2/-1 counters among one or two target creatures."
     ],
     "flavor_text": null,
@@ -49,7 +50,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dark Banishing",
@@ -73,7 +75,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Dark Ritual",
@@ -97,7 +100,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Foul Familiar",
@@ -124,7 +128,13 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "The ability can only be activated while this card is on the battlefield."
+      }
+    ]
   },
   {
     "name": "Lim-Dûl's High Guard",
@@ -151,7 +161,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Necropotence",
@@ -177,7 +188,21 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/17/2017",
+        "text": "If a discarded card isn’t put into your graveyard (due to an effect such as that of Obstinate Baloth) or leaves your graveyard (perhaps because another effect returned it to your hand), it won’t be exiled."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "If you discard a card with madness and wish to cast it, Necropotence’s ability won’t exile that card. If you don’t wish to cast it, you choose whether it ends up exiled or in your graveyard."
+      },
+      {
+        "date": "11/17/2017",
+        "text": "Necropotence’s last ability creates a delayed triggered ability that will put the exiled card into your hand. That ability still triggers even if Necropotence is removed from the battlefield before your end step."
+      }
+    ]
   },
   {
     "name": "Phantasmal Fiend",
@@ -204,7 +229,25 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/1/2005",
+        "text": "Note that the wording “Effects that alter the creature’s power alter its toughness instead, and vice versa, this turn” has been removed."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Effects that switch power and toughness are always applied last when determining a creature’s power and toughness, even if other power/toughness-changing effects are created later in the turn. For example, if you activate Phantasmal Fiend’s first ability, it will become 2/4. Then if you activate its second ability, it will become 4/2. Then if you activate its first ability again, it will become 3/3."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Effects that switch power and toughness apply after all other effects that change power and/or toughness, regardless of which effect was created first."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Switching a creature’s power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches."
+      }
+    ]
   },
   {
     "name": "Soul Burn",
@@ -229,7 +272,13 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Will give 1 life for each black mana used, but not more life than the amount of unprevented damage that is dealt."
+      }
+    ]
   },
   {
     "name": "Balduvian Horde",
@@ -256,7 +305,13 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "You choose whether to discard or not on resolution. If not, then you sacrifice this card. You can choose to not discard even if you no longer control this card on resolution."
+      }
+    ]
   },
   {
     "name": "Death Spark",
@@ -281,7 +336,29 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "A card is “directly above” another card in your graveyard if it was put into that graveyard later and there are no cards in between the two."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Players may not rearrange the cards in their graveyards."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "If an effect or rule puts two or more cards into the same graveyard at the same time, the owner of those cards may arrange them in any order."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "The last thing that happens to a resolving instant or sorcery spell is that it’s put into its owner’s graveyard. Example: You cast Wrath of God. All creatures on the battlefield are destroyed. You arrange all the cards put into your graveyard this way in any order you want. The other players in the game do the same to the cards that are put into their graveyards. Then you put Wrath of God into your graveyard, on top of the other cards."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Say you’re the owner of both a permanent and an Aura that’s attached to it. If both the permanent and the Aura are destroyed at the same time (by Akroma’s Vengeance, for example), you decide the order they’re put into your graveyard. If just the enchanted permanent is destroyed, it’s put into your graveyard first. Then, after state-based actions are checked, the Aura (which is no longer attached to anything) is put into your graveyard on top of it."
+      }
+    ]
   },
   {
     "name": "Goblin Mutant",
@@ -310,7 +387,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Guerrilla Tactics",
@@ -326,8 +404,8 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Guerrilla Tactics deals 2 damage to target creature or player.",
-      "When a spell or ability an opponent controls causes you to discard Guerrilla Tactics, Guerrilla Tactics deals 4 damage to target creature or player."
+      "Guerrilla Tactics deals 2 damage to any target.",
+      "When a spell or ability an opponent controls causes you to discard Guerrilla Tactics, Guerrilla Tactics deals 4 damage to any target."
     ],
     "flavor_text": null,
     "power": null,
@@ -335,7 +413,21 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If it is discarded, the damage done by it is done by this card due to an ability and not by a spell."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The second ability will trigger even on an optional discard caused by an opponent."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Discarding as a cost to cast a spell will not trigger the ability. Only discarding as an effect will trigger the ability."
+      }
+    ]
   },
   {
     "name": "Incinerate",
@@ -359,7 +451,13 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "7/15/2007",
+        "text": "Regeneration abilities that would affect that creature can still be activated; they just won’t do anything. The creature can’t be regenerated for any reason, even if an effect other than Incinerate would deal lethal damage to it or otherwise destroy it."
+      }
+    ]
   },
   {
     "name": "Jokulhaups",
@@ -383,7 +481,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Lava Burst",
@@ -407,7 +506,17 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Prevention and redirection effects will have no effect on damage dealt by Lava Burst to a creature. However, they will work on damage that Lava Burst would deal to a player."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "A creature dealt damage by Lava Burst may be regenerated."
+      }
+    ]
   },
   {
     "name": "Orcish Cannoneers",
@@ -434,7 +543,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Pillage",
@@ -458,7 +568,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Pyroclasm",
@@ -482,7 +593,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Shatter",
@@ -506,7 +618,13 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Regenerating artifacts can regenerate from this."
+      }
+    ]
   },
   {
     "name": "Storm Shaman",
@@ -534,7 +652,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Balduvian Bears",
@@ -558,7 +677,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Bounty of the Hunt",
@@ -574,7 +694,7 @@
     "mana_cost": "3GG",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "You may exile a green card from your hand rather than pay Bounty of the Hunt's mana cost.",
+      "You may exile a green card from your hand rather than pay this spell's mana cost.",
       "Distribute three +1/+1 counters among one, two, or three target creatures. For each +1/+1 counter you put on a creature this way, remove a +1/+1 counter from that creature at the beginning of the next cleanup step."
     ],
     "flavor_text": null,
@@ -583,7 +703,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Elvish Bard",
@@ -610,7 +731,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Folk of the Pines",
@@ -636,7 +758,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Fyndhorn Elves",
@@ -663,7 +786,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Giant Growth",
@@ -687,7 +811,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Hurricane",
@@ -711,7 +836,13 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "Whether or not a creature has flying is only checked on resolution."
+      }
+    ]
   },
   {
     "name": "Lhurgoyf",
@@ -737,7 +868,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Woolly Spider",
@@ -764,7 +896,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Yavimaya Ancients",
@@ -790,7 +923,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Yavimaya Ants",
@@ -817,7 +951,13 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/1/2008",
+        "text": "Paying cumulative upkeep is always optional. If it’s not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can’t be made. For example, if a permanent with “cumulative upkeep {1}” has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent."
+      }
+    ]
   },
   {
     "name": "Giant Trap Door Spider",
@@ -843,7 +983,17 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If Giant Trap Door Spider leaves the battlefield before its ability resolves, the ability will still resolve as normal. The targeted creature will be exiled."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "If the targeted creature leaves the battlefield (or otherwise becomes an illegal target) before the ability resolves, the ability won’t resolve. Giant Trap Door Spider will remain on the battlefield."
+      }
+    ]
   },
   {
     "name": "Barbed Sextant",
@@ -867,7 +1017,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Elkin Bottle",
@@ -891,7 +1042,33 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "This is not considered to be drawing a card."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "If the Bottle leaves the battlefield or your control, the cards remain waiting until played or until the beginning of your next upkeep. The card is in the “Exile” zone."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The card is not part of your hand in any way. You can’t be forced to discard it due to a discard from hand effect, and you can’t discard it to pay a cost."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "To “play a card” is to either cast a spell or to put a land onto the battlefield using the main phase special action."
+      },
+      {
+        "date": "8/1/2008",
+        "text": "If you do not play the card before your next upkeep, it remains exiled; you just lose the ability to play it."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "The exiled card is played using the normal timing rules for its card type, as well as any other applicable restrictions such as “Cast [this card] only during combat.” For example, you can’t play the card during an opponent’s turn unless it’s an instant or has flash. Similarly, if the exiled card is a land, you can’t play it if you’ve already played a land that turn. If it’s a nonland card, you’ll have to pay its mana cost. The only thing that’s different is you’re playing it from the Exile zone."
+      }
+    ]
   },
   {
     "name": "Icy Manipulator",
@@ -915,7 +1092,13 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "4/27/2018",
+        "text": "Once a player announces that they’re casting a spell or activating an ability, no player may take other actions until the spell or ability has been paid for. Notably, other players can’t try to tap that player’s permanents to stop them from paying {T} or to stop them from producing enough mana."
+      }
+    ]
   },
   {
     "name": "Phyrexian War Beast",
@@ -942,7 +1125,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Walking Wall",
@@ -970,7 +1154,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Karplusan Forest",
@@ -995,7 +1180,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Sulfurous Springs",
@@ -1020,7 +1206,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Underground River",
@@ -1045,7 +1232,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -1073,7 +1261,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -1101,7 +1290,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Swamp",
@@ -1129,7 +1319,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -1157,7 +1348,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -1185,7 +1377,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Mountain",
@@ -1213,7 +1406,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -1241,7 +1435,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -1269,7 +1464,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Forest",
@@ -1297,7 +1493,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Lim-Dûl's High Guard",
@@ -1324,7 +1521,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Phantasmal Fiend",
@@ -1351,7 +1549,25 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "11/1/2005",
+        "text": "Note that the wording “Effects that alter the creature’s power alter its toughness instead, and vice versa, this turn” has been removed."
+      },
+      {
+        "date": "10/1/2008",
+        "text": "Effects that switch power and toughness are always applied last when determining a creature’s power and toughness, even if other power/toughness-changing effects are created later in the turn. For example, if you activate Phantasmal Fiend’s first ability, it will become 2/4. Then if you activate its second ability, it will become 4/2. Then if you activate its first ability again, it will become 3/3."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Effects that switch power and toughness apply after all other effects that change power and/or toughness, regardless of which effect was created first."
+      },
+      {
+        "date": "4/15/2013",
+        "text": "Switching a creature’s power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches."
+      }
+    ]
   },
   {
     "name": "Guerrilla Tactics",
@@ -1376,7 +1592,21 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": [
+      {
+        "date": "10/4/2004",
+        "text": "If it is discarded, the damage done by it is done by this card due to an ability and not by a spell."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "The second ability will trigger even on an optional discard caused by an opponent."
+      },
+      {
+        "date": "10/4/2004",
+        "text": "Discarding as a cost to cast a spell will not trigger the ability. Only discarding as an effect will trigger the ability."
+      }
+    ]
   },
   {
     "name": "Storm Shaman",
@@ -1404,7 +1634,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Yavimaya Ancients",
@@ -1430,7 +1661,8 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   },
   {
     "name": "Phyrexian War Beast",
@@ -1457,6 +1689,7 @@
     "loyalty": null,
     "multiverse_id": null,
     "other_part": null,
-    "color_indicator": null
+    "color_indicator": null,
+    "rulings": []
   }
 ]
