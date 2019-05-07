@@ -9,6 +9,7 @@ SETS_TO_DUMP = ALL_SETS.select{|s| s['code'].in? ARGV}
 def scrape_comments(multiverse_id)
   comments_page = get Gatherer.url(for_comments: multiverse_id)
   comment_containers = comments_page.css('.postContainer .post:not(.zeroItem)')
+  # TODO: Check for additional pages and load them
   comment_containers.map do |container|
     GathererComment.new(container).as_json
   end

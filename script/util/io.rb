@@ -2,6 +2,7 @@ require 'multi_json'
 require 'nokogiri'
 require 'open-uri'
 require 'net/http'
+require 'net/https'
 
 def get(url, headers={}, silent: false)
   puts "getting #{url}" unless silent
@@ -11,10 +12,15 @@ rescue => e
   Nokogiri::HTML( open(URI.escape(url), headers) )
 end
 
-def post_form(url, params={}, silent: false)
+def post_form(url, params={}, headers={}, silent: false)
   puts "posting #{url}" unless silent
-  Net::HTTP.post_form(URI.parse(url), params)
-  require 'pry'; binding.pry
+  uri = URI.parse(url)
+  https = Net::HTTP.new(uri.host, uri.port)
+  https.use_ssl = true
+  req = Net::HTTP::Post.new(uri.path, initheader=headers)
+  req.set_form_data(params)
+  res = https.request(req)
+  MultiJson.load(res.body)
 end
 
 def read(path, parser: MultiJson, silent: false)
