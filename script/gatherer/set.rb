@@ -24,7 +24,8 @@ class GathererSet
   # Scrape and return the json data for all sets
   def self.as_json(options={})
     set_names = Gatherer.scrape_set_names
-    new_set_json = Worker.distribute(set_names, GathererSet, :dump)
+    new_set_json = Worker.distribute(set_names, GathererSet, :dump) # asynchronous
+    # new_set_json = set_names.map{|set_name| GathererSet.dump(set_name)} # synchronous
 
     # Override Guild Kits gk1_* and gk2_* with merged gk1 and gk2, respectively
     new_set_json << { 'name' => 'GRN Guild Kit', 'code' => 'gk1' }
