@@ -2,7 +2,7 @@ require 'yaml'
 
 SET_JSON_FILE_PATH =    File.expand_path('../../../data/sets.json', __FILE__)
 CARD_JSON_FILE_PATH =   File.expand_path('../../../data/sets', __FILE__)
-COMMENT_JSON_FILE_PATH =   File.expand_path('../../../data/comments', __FILE__)
+COMMENT_JSON_FILE_PATH = File.expand_path('../../../data/comments', __FILE__)
 FLAVOR_TEXT_FILE_PATH = File.expand_path('../../data/flavor_text_overrides.yml', __FILE__)
 
 %w[

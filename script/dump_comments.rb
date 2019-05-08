@@ -8,12 +8,13 @@ ALL_SETS = read(SET_JSON_FILE_PATH)
 SETS_TO_DUMP = ALL_SETS.select{|s| s['code'].in? ARGV}
 
 SETS_TO_DUMP.each do |set|
+  comment_json = {}
+
   set_json_path = "#{CARD_JSON_FILE_PATH}/#{set['code']}.json"
   set_json = read(set_json_path)
+  multiverse_ids = set_json.map{|card| card['multiverse_id']}.compact
 
-  comment_json = {}
-  multiverse_ids = set_json.map{|card| card['multiverse_id']}.compact.first(3)
-  Worker.distribute(multiverse_ids, GathererCommentPage, :dump).each{|id, comments| comment_json[id] = comments} # asynchronous
+  Worker.distribute(multiverse_ids, GathererCommentPage, :dump).each{|id, comments| comment_json[id] = comments unless comments.empty?} # asynchronous
   # multiverse_ids.map{|id| _,comments = GathererCommentPage.dump(id); comment_json[id] = comments} # synchronous
 
   next if comment_json.empty?

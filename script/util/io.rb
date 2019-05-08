@@ -8,7 +8,7 @@ def get(url, headers={}, silent: false)
   puts "getting #{url}" unless silent
   Nokogiri::HTML( open(URI.escape(url), headers) )
 rescue => e
-  puts "#{e}. Retrying in 500ms ..."; sleep 0.5
+  puts "#{e}. Retrying in 1000ms ..."; sleep 1.0
   Nokogiri::HTML( open(URI.escape(url), headers) )
 end
 
