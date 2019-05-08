@@ -10,18 +10,19 @@ require_relative 'card_identifier.rb'
 class Gatherer
   # Cookie contains setting to retrieve all results in a single page, instead of the default 100 results per page.
   COOKIE = "CardDatabaseSettings=0=1&1=28&2=0&14=1&3=13&4=0&5=1&6=15&7=0&8=1&9=1&10=19&11=7&12=8&15=1&16=0&13=;"
+  BASE_URL = 'https://gatherer.wizards.com'
 
   # Return the Gatherer URL for a given card or set.
-  def self.url(for_card: nil, for_set: nil, for_comments: nil)
+  def self.url(for_card: nil, for_set: nil, for_comments: nil, page: 0)
     if for_card
-      "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=#{for_card}"
+      "#{BASE_URL}/Pages/Card/Details.aspx?multiverseid=#{for_card}"
     elsif for_set
       # TODO: Append &action=advanced&special=true to return Conspiracies, Schemes, etc.
-      "https://gatherer.wizards.com/Pages/Search/Default.aspx?sort=cn+&output=compact&set=[%22#{for_set}%22]"
+      "#{BASE_URL}/Pages/Search/Default.aspx?sort=cn+&output=compact&set=[%22#{for_set}%22]"
     elsif for_comments
-      "https://gatherer.wizards.com/Pages/Card/Discussion.aspx?multiverseid=#{for_comments}"
+      "#{BASE_URL}/Pages/Card/Discussion.aspx?popularpage=#{page}&multiverseid=#{for_comments}"
     else
-      "https://gatherer.wizards.com/Pages/Default.aspx"
+      "#{BASE_URL}/Pages/Default.aspx"
     end
   end
 
