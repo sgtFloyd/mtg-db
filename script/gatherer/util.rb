@@ -4,6 +4,7 @@ require_relative 'cards/flip.rb'
 require_relative 'cards/meld.rb'
 require_relative 'cards/split.rb'
 require_relative 'cards/partner.rb'
+require_relative 'cards/vanguard.rb'
 require_relative 'card_identifier.rb'
 
 # Gatherer-specific utilities
@@ -17,10 +18,11 @@ class Gatherer
     if for_card
       "#{BASE_URL}/Pages/Card/Details.aspx?multiverseid=#{for_card}"
     elsif for_set
-      url = "#{BASE_URL}/Pages/Search/Default.aspx?sort=cn+&output=compact&set=[%22#{for_set}%22]"
-      # special url so the results include Vanguard-type cards
-      url += '&action=advanced&special=true' if for_set == 'Vanguard'
-      url
+      if for_set == 'Vanguard'
+        "#{BASE_URL}/Pages/Search/Default.aspx?sort=cn+&output=compact&set=[Vanguard]&action=advanced&special=true"
+      else
+        "#{BASE_URL}/Pages/Search/Default.aspx?sort=cn+&output=compact&set=[%22#{for_set}%22]"
+      end
     elsif for_comments
       "#{BASE_URL}/Pages/Card/Discussion.aspx?popularpage=#{page}&multiverseid=#{for_comments}"
     else
@@ -44,6 +46,8 @@ class Gatherer
       DoubleFacedCard.new(multiverse_id, page)
     elsif card.flip?
       FlipCard.new(multiverse_id, page)
+    elsif card.vanguard?
+      VanguardCard.new(multiverse_id, page)
     else
       card.default_card
     end
