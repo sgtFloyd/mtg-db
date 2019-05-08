@@ -14,11 +14,16 @@ class GathererSet
   end
 
   def as_json(options={})
-    set_page = get Gatherer.url(for_set: self.name)
-    set_img = set_page.css('img[src^="../../Handlers/Image.ashx?type=symbol&set="]').first
-    set_code = set_img.attr(:src)[/set=(\w+)/, 1].downcase
-    { 'name' => SET_NAME_OVERRIDES[self.name] || self.name,
-      'code' => SET_CODE_OVERRIDES[set_code] || set_code }
+    # Hardcoded because this method can't parse Vanguard's unique Gatherer page.
+    if self.name == 'Vanguard'
+      { 'name' => 'Vanguard', 'code' => 'van' }
+    else
+      set_page = get Gatherer.url(for_set: self.name)
+      set_img = set_page.css('img[src^="../../Handlers/Image.ashx?type=symbol&set="]').first
+      set_code = set_img.attr(:src)[/set=(\w+)/, 1].downcase
+      { 'name' => SET_NAME_OVERRIDES[self.name] || self.name,
+        'code' => SET_CODE_OVERRIDES[set_code] || set_code }
+    end
   end
 
   # Scrape and return the json data for all sets
