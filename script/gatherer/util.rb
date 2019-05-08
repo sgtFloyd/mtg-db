@@ -12,7 +12,7 @@ class Gatherer
   COOKIE = "CardDatabaseSettings=0=1&1=28&2=0&14=1&3=13&4=0&5=1&6=15&7=0&8=1&9=1&10=19&11=7&12=8&15=1&16=0&13=;"
   BASE_URL = 'https://gatherer.wizards.com'
 
-  # Return the Gatherer URL for a given card or set.
+  # Return the Gatherer URL for a given card, set, or comment page.
   def self.url(for_card: nil, for_set: nil, for_comments: nil, page: 0)
     if for_card
       "#{BASE_URL}/Pages/Card/Details.aspx?multiverseid=#{for_card}"
@@ -31,6 +31,7 @@ class Gatherer
     page = get url(for_card: multiverse_id)
     card = CardIdentifier.new(multiverse_id, page)
 
+    # Order matters here. Use the first layout a card matches.
     if card.split?
       SplitCard.new(multiverse_id, page, card.split_overload?)
     elsif card.meld?
