@@ -37,6 +37,11 @@ class CardIdentifier
     double_faced? && linked_card_present?
   end
 
+  def vanguard?
+    pt_text = self.page.css('[id$="ptRow"]').text
+    pt_text && pt_text.include?('Hand/Life')
+  end
+
 private
 
   # Split, flip, and double-faced cards will display two images on the pages
