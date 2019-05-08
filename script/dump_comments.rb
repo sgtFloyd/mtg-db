@@ -38,8 +38,14 @@ end
 SETS_TO_DUMP.each do |set|
   set_json_path = "#{CARD_JSON_FILE_PATH}/#{set['code']}.json"
   set_json = read(set_json_path)
+
+  comment_json = {}
   set_json.each do |card|
-    comments = scrape_all_comments(card['multiverse_id'])
-    require 'pry'; binding.pry
+    next unless multiverse_id = card['multiverse_id']
+    comment_json[multiverse_id] = scrape_all_comments(multiverse_id)
   end
+
+  next if comment_json.empty?
+  comment_json_path = "#{COMMENT_JSON_FILE_PATH}/#{set['code']}.json"
+  write(comment_json_path, comment_json)
 end
