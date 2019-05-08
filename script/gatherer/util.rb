@@ -17,8 +17,10 @@ class Gatherer
     if for_card
       "#{BASE_URL}/Pages/Card/Details.aspx?multiverseid=#{for_card}"
     elsif for_set
-      # TODO: Append &action=advanced&special=true to return Conspiracies, Schemes, etc.
-      "#{BASE_URL}/Pages/Search/Default.aspx?sort=cn+&output=compact&set=[%22#{for_set}%22]"
+      url = "#{BASE_URL}/Pages/Search/Default.aspx?sort=cn+&output=compact&set=[%22#{for_set}%22]"
+      # special url so the results include Vanguard-type cards
+      url += '&action=advanced&special=true' if for_set == 'Vanguard'
+      url
     elsif for_comments
       "#{BASE_URL}/Pages/Card/Discussion.aspx?popularpage=#{page}&multiverseid=#{for_comments}"
     else
