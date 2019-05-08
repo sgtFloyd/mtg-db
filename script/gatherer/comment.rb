@@ -20,7 +20,6 @@ class GathererComment
       comment_json = self.class.fetch_api_comment(post_id)
       content = comment_json['Data']['PostText'].gsub(/[\r\n]+/, "\n").strip
     end
-    require 'pry'; binding.pry
     content
   end
 
