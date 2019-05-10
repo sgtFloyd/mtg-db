@@ -79,8 +79,8 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
 - **toughness**<sup>[12]</sup> Optional string. The amount of damage needed to kill a _Creature_ or _Vehicle_. Usually an integer, but may contain a modifier such as _*_ or _X_.
 - **loyalty**<sup>[13]</sup> Optional string. The number of loyalty counters a _Planeswalker_ enters the battlefield with. Usually an integer, but may contain a modifier such as _X_.
 - **multiverse_id**: Optional integer. An identifier unique to the printing of a card. Cards missing from [Gatherer] will have an empty multiverse_id.
-- **other_part**: Optional string. The name of the other half of a double-faced,<sup>[14]</sup> flip,<sup>[15]</sup> or split card.<sup>[16]</sup>
-- **color_indicator**<sup>[17]</sup> Optional string. Used when a card's color can't be identified by its mana cost. Possible values are _White, Blue, Black, Red,_ or _Green_
+- **other_part**: Optional string. The name of the other half of a double-faced,<sup>[14]</sup> flip,<sup>[15]</sup> meld,<sup>[16]</sup> or split card.<sup>[17]</sup>
+- **color_indicator**<sup>[18]</sup> Optional string. Used when a card's color can't be identified by its mana cost. Possible values are _White, Blue, Black, Red,_ or _Green_
 - **rulings** Optional array of objects, each containing the text and date for an Oracle ruling associated with this card.
 
 [Gatherer]: http://gatherer.wizards.com/Pages/Default.aspx
@@ -98,8 +98,9 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
 [13]: https://mtg.gamepedia.com/Loyalty
 [14]: https://mtg.gamepedia.com/Double-faced_card
 [15]: https://mtg.gamepedia.com/Flip_card
-[16]: https://mtg.gamepedia.com/Split_card
-[17]: https://mtg.gamepedia.com/Color_indicator
+[16]: https://mtg.gamepedia.com/Meld_card
+[17]: https://mtg.gamepedia.com/Split_card
+[18]: https://mtg.gamepedia.com/Color_indicator
 
 ###### EXAMPLE JSON
 ```json
