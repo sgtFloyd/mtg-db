@@ -55,7 +55,7 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
 ```
 
 ###### EXCEPTIONS
-**mtg-db** overrides the attributes of some sets to maintain internal consistency and correct Gatherer errors. See the these override files:
+**mtg-db** overrides the attributes of some sets to maintain internal consistency and correct Gatherer errors. See these override files:
 - [excluded_sets.yml](script/data/excluded_sets.yml)
 - [set_code_overrides.yml](script/data/set_code_overrides.yml)
 - [set_name_overrides.yml](script/data/set_name_overrides.yml)
@@ -140,7 +140,7 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
 ```
 
 ###### EXCEPTIONS
-**mtg-db** overrides the attributes of some cards to maintain internal consistency and correct Gatherer errors. See the these override files:
+**mtg-db** overrides the attributes of some cards to maintain internal consistency and correct Gatherer errors. See these override files:
 - [card_json_overrides.yml](script/data/card_json_overrides.yml)
 - [card_name_overrides.yml](script/data/card_name_overrides.yml)
 - [collector_num_overrides.yml](script/data/collector_num_overrides.yml)
