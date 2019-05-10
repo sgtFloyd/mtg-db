@@ -67,7 +67,7 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
 - **set_name** Required string. The _Magic_ set this card is from.
 - **collector_num**<sup>[2]</sup> Required string. This card's collector number. First used in _Exous_, collector numbers for earlier sets have been generated using the same ordering system. May contain letters and numbers.
 - **illustrator** Optional string. The illustrator of this card's art.
-- **types**<sup>[3]</sup> Required string array of the card's types. Possible values are _Artifact, Conspiracy, Creature, Enchantment, Instant, Land, Planeswalker, Sorcery,_ and _Tribal_.
+- **types**<sup>[3]</sup> Required string array of the card's types. Possible values are _Artifact, Conspiracy, Creature, Enchantment, Instant, Land, Planeswalker, Sorcery, Tribal,_ and _Vanguard_.
 - **supertypes**<sup>[4]</sup> Optional string array of the card's supertypes. Possible values are _Basic, Legendary, World,_ and _Snow_.
 - **subtypes**<sup>[5]</sup> Optional string array of the card's subtypes.
 - **rarity**<sup>[6]</sup> Required string. Rarity defines the scarcity of cards in boosters and indicates the complexity of the card. Possible values are _Common, Uncommon, Rare, Mythic, Special,_ and _Land_.
