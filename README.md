@@ -34,7 +34,7 @@ aether_revolt_cards = Mtg::Db.cards(:aer)
 # JSON Format
 
 ## Sets
-A **set** in _Magic: The Gathering_ is a pool of cards released together and designed for the same play environment.<sup>[1]</sup>
+A **set**<sup>[1]</sup> in _Magic: The Gathering_ is a pool of cards released together and designed for the same play environment.
 
 [1]: https://mtg.gamepedia.com/Set
 
@@ -72,7 +72,7 @@ A **set** in _Magic: The Gathering_ is a pool of cards released together and des
 - **subtypes**<sup>[5]</sup> Optional string array of the card's subtypes.
 - **rarity**<sup>[6]</sup> Required string. Rarity defines the scarcity of cards in boosters and indicates the complexity of the card. Possible values are _Common, Uncommon, Rare, Mythic, Special,_ and _Land_.
 - **mana_cost**<sup>[7]</sup> Optional string. The mana payment required to cast a spell. See [mana_cost_symbols.yml](script/data/mana_cost_symbols.yml) for the system used to encode mana symbols.
-- **converted_mana_cost** <sup>[8]</sup> Required integer. The total amount of mana the card's mana cost, regardless of color.
+- **converted_mana_cost**<sup>[8]</sup> Required integer. The total amount of mana the card's mana cost, regardless of color.
 - **oracle_text**<sup>[9]</sup> Optional string array of the card's up-to-date rules text. Each element of the array represents one line of rules text. Four times a year the Oracle is updated to incorporate changes to cards that do not work as intended.
 - **flavor_text**<sup>[10]</sup> Optional string. Italicized text that serves to provide mood or give background information on the game world, but has no effect on gameplay.
 - **power**<sup>[11]</sup> Optional string. The amount of damage a _Creature_ or _Vehicle_ deals. Usually an integer, but may contain a modifier such as _*_ or _X_.
