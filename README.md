@@ -1,7 +1,7 @@
 mtg-db [![Gem Version](https://badge.fury.io/rb/mtg-db.svg)](
   https://rubygems.org/gems/mtg-db)
 ======
-A JSON database of _Magic: The Gathering_ cards.
+A database of _Magic: The Gathering_ cards.
 
 # Installation
 Include in your [Gemfile]
