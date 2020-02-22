@@ -1,13 +1,13 @@
 mtg-db [![Gem Version](https://badge.fury.io/rb/mtg-db.svg)](
   https://rubygems.org/gems/mtg-db)
 ======
-A database of _Magic: The Gathering_ cards.
+Ruby gem containing structured data for all _Magic: The Gathering_ cards.
 
 # Installation
 Include in your [Gemfile]
 ```ruby
 source 'https://rubygems.org'
-gem 'mtg-db', '>= 2.3.8'
+gem 'mtg-db', '>= 2.3.9'
 ```
 or install from [Rubygems]
 ```bash
