@@ -25,3 +25,11 @@ class Object
   end
 
 end
+
+class String
+
+  def self.random(length=32, characters = [*'A'..'Z', *'a'..'z', *'0'..'9'])
+    length.times.map{characters.sample}.join
+  end
+
+end

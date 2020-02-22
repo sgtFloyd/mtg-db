@@ -4,12 +4,23 @@ require 'open-uri'
 require 'net/http'
 require 'net/https'
 
-def get(url, headers={}, silent: false)
-  puts "getting #{url}" unless silent
-  Nokogiri::HTML( open(URI.escape(url), headers) )
-rescue => e
-  puts "#{e}. Retrying in 1000ms ..."; sleep 1.0
-  Nokogiri::HTML( open(URI.escape(url), headers) )
+MAX_RETRIES = 4
+
+def get(url, headers={}, silent: false, request_id: String.random(4))
+  retry_count = 0
+  begin
+    puts "[#{request_id}] getting #{url}" unless silent
+    Nokogiri::HTML(open(URI.escape(url), headers))
+  rescue => error
+    if (retry_count += 1) <= MAX_RETRIES
+      delay_length = 3.pow(retry_count) * 100 # 300ms, 900ms, 2700ms, 8400ms
+      puts "[#{request_id}] #{error} — Retrying in #{delay_length}ms" unless silent
+      sleep(delay_length / 1000.0)
+      retry
+    else
+      puts "[#{request_id}] #{error} — Not retrying" unless silent
+    end
+  end
 end
 
 def post_form(url, params={}, headers={}, silent: false)
