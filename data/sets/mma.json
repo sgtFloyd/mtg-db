@@ -1425,7 +1425,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player puts the top four cards of their library into their graveyard.",
+      "Target player mills four cards.",
       "Splice onto Arcane {1}{U} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)"
     ],
     "flavor_text": null,
@@ -3577,7 +3577,7 @@
     "oracle_text": [
       "Flying",
       "Whenever Stinkweed Imp deals combat damage to a creature, destroy that creature.",
-      "Dredge 5 (If you would draw a card, instead you may put exactly five cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 5 (If you would draw a card, you may mill five cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "1",
@@ -5503,13 +5503,13 @@
     "supertypes": [],
     "subtypes": [
       "Plant",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": "Man's best fungus.",
     "power": "3",
@@ -5576,7 +5576,7 @@
     "mana_cost": "2GG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Spend only mana produced by basic lands to cast Imperiosaur."
+      "Spend only mana produced by basic lands to cast this spell."
     ],
     "flavor_text": "\"An ancient, powerful force has overtaken the valley. I sympathize for its former inhabitants, but I rejoice for the land itself.\"\n—Olanti, Muraganda druid",
     "power": "5",
@@ -5780,7 +5780,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Return up to three target land cards from your graveyard to your hand.",
-      "Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5860,7 +5860,7 @@
     "oracle_text": [
       "Enchant creature",
       "Enchanted creature gets +3/+3.",
-      "Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7607,7 +7607,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Sacrifice an artifact: Put a +1/+1 counter on Arcbound Ravager.",
-      "Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)"
+      "Modular 1 (This creature enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)"
     ],
     "flavor_text": null,
     "power": "0",
@@ -7641,7 +7641,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Flying",
-      "Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)"
+      "Modular 1 (This creature enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)"
     ],
     "flavor_text": null,
     "power": "0",
@@ -7674,7 +7674,7 @@
     "mana_cost": "6",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Modular—Sunburst (This enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it. When it dies, you may put its +1/+1 counters on target artifact creature.)"
+      "Modular—Sunburst (This creature enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it. When it dies, you may put its +1/+1 counters on target artifact creature.)"
     ],
     "flavor_text": null,
     "power": "0",
@@ -7719,7 +7719,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)"
+      "Modular 1 (This creature enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)"
     ],
     "flavor_text": "The parts are as strong as the whole.",
     "power": "0",
@@ -8044,10 +8044,6 @@
       {
         "date": "6/7/2013",
         "text": "A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it (or, in some rare cases, gains control of the creature spell itself)."
-      },
-      {
-        "date": "9/20/2016",
-        "text": "This has no mana cost, which means its mana cost can’t be paid for effects such as replicate from Djinn Illuminatus or flashback from Snapcaster Mage."
       }
     ]
   },
@@ -8487,7 +8483,7 @@
     "oracle_text": [
       "Dakmor Salvage enters the battlefield tapped.",
       "{T}: Add {B}.",
-      "Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": null,

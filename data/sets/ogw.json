@@ -1784,7 +1784,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Surge {3}{U}{U} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)",
-      "Return all nonland permanents to their owners' hands. If Crush of Tentacles's surge cost was paid, create an 8/8 blue Octopus creature token."
+      "Return all nonland permanents to their owners' hands. If this spell's surge cost was paid, create an 8/8 blue Octopus creature token."
     ],
     "flavor_text": null,
     "power": null,
@@ -2817,7 +2817,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Put the top three cards of your library into your graveyard, then you may return a creature card from your graveyard to your hand."
+      "Mill three cards, then you may return a creature card from your graveyard to your hand."
     ],
     "flavor_text": "\"The distraction of your life has ended. Now your service begins.\"\n—Kalitas, thrall of Ulamog",
     "power": null,
@@ -2828,8 +2828,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "1/22/2016",
-        "text": "Corpse Churn doesn’t target the creature card in your graveyard. You may choose one of the three cards you put there from your library."
+        "date": "4/17/2020",
+        "text": "Because Corpse Churn doesn’t target the creature card in your graveyard, you may choose one of the three cards you put there from your library."
       }
     ]
   },
@@ -3735,7 +3735,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Menace",
-      "When Goblin Dark-Dwellers enters the battlefield, you may cast target instant or sorcery card with converted mana cost 3 or less from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead."
+      "When Goblin Dark-Dwellers enters the battlefield, you may cast target instant or sorcery card with converted mana cost 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard this turn, exile it instead."
     ],
     "flavor_text": null,
     "power": "4",
@@ -4862,7 +4862,12 @@
     "multiverse_id": 407651,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "7/12/2019",
+        "text": "If the target card is an illegal target by the time Pulse of Murasa tries to resolve, the spell doesn’t resolve. You won’t gain 6 life."
+      }
+    ]
   },
   {
     "name": "Saddleback Lagac",

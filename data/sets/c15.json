@@ -917,7 +917,7 @@
     "mana_cost": "XBB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Each player puts the top X cards of their library into their graveyard. For each creature card put into a graveyard this way, you create a tapped 2/2 black Zombie creature token."
+      "Each player mills X cards. For each creature card put into a graveyard this way, you create a tapped 2/2 black Zombie creature token."
     ],
     "flavor_text": "\"Did you have a nice nap?\"—Liliana Vess",
     "power": null,
@@ -1116,7 +1116,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Flying",
-      "Whenever Dream Pillager deals combat damage to a player, exile that many cards from the top of your library. Until end of turn, you may cast nonland cards from among those exiled cards."
+      "Whenever Dream Pillager deals combat damage to a player, exile that many cards from the top of your library. Until end of turn, you may cast spells from among those exiled cards."
     ],
     "flavor_text": "Its wings shimmer with dreams absorbed from its enemies.",
     "power": "4",
@@ -2699,7 +2699,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Banishing Light enters the battlefield, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (That permanent returns under its owner's control.)"
+      "When Banishing Light enters the battlefield, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield."
     ],
     "flavor_text": null,
     "power": null,
@@ -2710,28 +2710,16 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "4/26/2014",
-        "text": "Banishing Light’s ability causes a zone change with a duration, a new style of ability that’s somewhat reminiscent of older cards like Oblivion Ring. However, unlike Oblivion Ring, cards like Banishing Light have a single ability that creates two one-shot effects: one that exiles the permanent when the ability resolves, and another that returns the exiled card to the battlefield immediately after Banishing Light leaves the battlefield."
+        "date": "1/24/2020",
+        "text": "If Banishing Light leaves the battlefield before its triggered ability resolves, the target permanent won’t be exiled."
       },
       {
-        "date": "4/26/2014",
-        "text": "If Banishing Light leaves the battlefield before its enters-the-battlefield ability resolves, the target nonland permanent won’t be exiled."
+        "date": "1/24/2020",
+        "text": "Auras attached to the exiled permanent will be put into their owners’ graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled."
       },
       {
-        "date": "4/26/2014",
-        "text": "Auras attached to the exiled permanent will be put into their owners’ graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "If a token is exiled, it ceases to exist. It won’t be returned to the battlefield."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "The exiled card returns to the battlefield immediately after Banishing Light leaves the battlefield. Nothing happens between the two events, including state-based actions. Banishing Light and the returned card aren’t on the battlefield at the same time."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "In a multiplayer game, if Banishing Light’s owner leaves the game, the exiled card will return to the battlefield. Because the one-shot effect that returns the card isn’t an ability that goes on the stack, it won’t cease to exist along with the leaving player’s spells and abilities on the stack."
+        "date": "1/24/2020",
+        "text": "If a token is exiled this way, it will cease to exist and won’t return to the battlefield."
       }
     ]
   },
@@ -3000,16 +2988,16 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "12/7/2018",
-        "text": "Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords (such as equip) are activated abilities and will have colons in their reminder text."
+        "date": "6/23/2020",
+        "text": "If the target permanent is an illegal target by the time Faith’s Fetters tries to resolve, it doesn’t resolve. It won’t enter the battlefield, so its enters-the-battlefield ability won’t trigger."
       },
       {
-        "date": "12/7/2018",
+        "date": "6/23/2020",
+        "text": "Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords (such as equip) are activated abilities and will have colons in their reminder text. Loyalty abilities of planeswalkers are activated abilities."
+      },
+      {
+        "date": "6/23/2020",
         "text": "Faith’s Fetters doesn’t stop static abilities, triggered abilities, or mana abilities from working. A mana ability is an ability that produces mana, not an ability that costs mana."
-      },
-      {
-        "date": "12/7/2018",
-        "text": "If the target permanent is an illegal target by the time Faith’s Fetters tries to resolve, the Aura spell doesn’t resolve. It won’t enter the battlefield, so its enters-the-battlefield ability won’t trigger."
       }
     ]
   },
@@ -3044,10 +3032,6 @@
     "rulings": [
       {
         "date": "9/15/2013",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
-      },
-      {
-        "date": "9/15/2013",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -3065,10 +3049,6 @@
       {
         "date": "9/15/2013",
         "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
-      },
-      {
-        "date": "9/15/2013",
-        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
       }
     ]
   },
@@ -3893,11 +3873,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/8/2016",
+        "date": "6/14/2019",
         "text": "You choose which pile to put into your hand."
       },
       {
-        "date": "6/8/2016",
+        "date": "6/14/2019",
         "text": "Each pile may contain from zero to five cards; they don’t have to be split “evenly.”"
       }
     ]
@@ -4910,7 +4890,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "Whenever another creature leaves the battlefield, you may have target player put the top two cards of their library into their graveyard.",
+      "Whenever another creature leaves the battlefield, you may have target player mill two cards.",
       "Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"
     ],
     "flavor_text": null,
@@ -5007,7 +4987,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Exile target creature. Create a colorless artifact token named Gold. It has \"Sacrifice this artifact: Add one mana of any color.\""
+      "Exile target creature. Create a Gold token. (It's an artifact with \"Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": "Merchants of the Underworld trade in coins of clay. Gold serves another purpose.",
     "power": null,
@@ -5099,10 +5079,6 @@
       },
       {
         "date": "9/15/2013",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
-      },
-      {
-        "date": "9/15/2013",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -5120,10 +5096,6 @@
       {
         "date": "9/15/2013",
         "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
-      },
-      {
-        "date": "9/15/2013",
-        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
       }
     ]
   },
@@ -5850,8 +5822,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "10/4/2004",
-        "text": "All players discard, not just the player that was damaged."
+        "date": "7/12/2019",
+        "text": "If a player has fewer than seven cards in their library, that player loses the game after Dragon Mage’s triggered ability resolves. If each player loses the game this way, the game’s a draw."
       }
     ]
   },
@@ -6468,20 +6440,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "10/4/2004",
-        "text": "This spell has a self-replacement in it . This means that if Urza’s Rage is kicked, the 3 damage is replaced with 10 unpreventable damage before any other replacements can be applied. For example, you can’t use Healing Salve to prevent the 3 damage before it gets changed."
+        "date": "6/14/2019",
+        "text": "A spell or ability that counters spells can still target Urza’s Rage. When that spell or ability resolves, Urza’s Rage won’t be countered, but any additional effects of that spell or ability will still happen."
       },
       {
-        "date": "10/4/2004",
-        "text": "You can target this spell with spells and abilities, so you can change its target. Those spells and abilities just can’t counter it."
-      },
-      {
-        "date": "10/4/2004",
-        "text": "The damage is unpreventable, but it can be affected by replacement effects."
-      },
-      {
-        "date": "10/4/2004",
-        "text": "Counterspells can be cast that target it, but when they resolve they simply don’t counter it since it can’t be countered."
+        "date": "6/14/2019",
+        "text": "If the target for Urza’s Rage becomes an illegal target, the spell won’t resolve and will be put into its owner’s graveyard with no effect. This is true even if its damage can’t be prevented and even though it can’t be countered."
       }
     ]
   },
@@ -7267,8 +7231,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "5/1/2006",
-        "text": "Loaming Shaman’s controller chooses all the targets when the ability is put on the stack."
+        "date": "7/12/2019",
+        "text": "If Loaming Shaman’s triggered ability targets a player but doesn’t target any cards in that player’s graveyard, that player just shuffles their library."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "If the target cards become illegal targets, the target player shuffles their library. If the target player becomes an illegal target, Loaming Shaman’s ability has no effect."
       }
     ]
   },
@@ -7377,10 +7345,6 @@
     "rulings": [
       {
         "date": "9/15/2013",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
-      },
-      {
-        "date": "9/15/2013",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -7398,10 +7362,6 @@
       {
         "date": "9/15/2013",
         "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
-      },
-      {
-        "date": "9/15/2013",
-        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
       }
     ]
   },
@@ -7770,7 +7730,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Saproling creatures get +1/+1.",
+      "All Saprolings get +1/+1.",
       "Morph {3}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
       "When Thelonite Hermit is turned face up, create four 1/1 green Saproling creature tokens."
     ],
@@ -8114,7 +8074,7 @@
     "mana_cost": "XUR",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Exile the top X cards of your library. For each instant and sorcery card with converted mana cost X or less among them, you may cast that card without paying its mana cost. Then put all cards exiled this way that weren't cast into your graveyard."
+      "Exile the top X cards of your library. You may cast instant and sorcery spells with converted mana cost X or less from among them without paying their mana costs. Then put all cards exiled this way that weren't cast into your graveyard."
     ],
     "flavor_text": null,
     "power": null,
@@ -8452,7 +8412,7 @@
     "mana_cost": "1GU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever you draw a card, you may put a +1/+1 counter on Lorescale Coatl."
+      "Whenever you draw a card, put a +1/+1 counter on Lorescale Coatl."
     ],
     "flavor_text": "\"The enlightenment I never found in etherium I have found traced in the coatl's scales.\"—Ranalus, vedalken heretic",
     "power": "2",
@@ -8463,12 +8423,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/16/2018",
-        "text": "If a spell or ability causes you to draw multiple cards, Lorescale Coatl’s ability triggers that many times."
-      },
-      {
-        "date": "3/16/2018",
-        "text": "If a spell or ability causes you to put cards in your hand without specifically using the word “draw,” Lorescale Coatl’s ability won’t trigger."
+        "date": "6/23/2020",
+        "text": "If a spell or ability causes you to put a card into your hand without specifically using the word “draw,” it’s not a card drawn."
       }
     ]
   },
@@ -8522,7 +8478,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Play with the top card of your library revealed.",
-      "You may cast the top card of your library if it's an instant or sorcery card.",
+      "You may cast instant and sorcery spells from the top of your library.",
       "Whenever you cast an instant or sorcery spell from your library, copy it. You may choose new targets for the copy."
     ],
     "flavor_text": null,
@@ -10293,6 +10249,18 @@
       {
         "date": "9/22/2011",
         "text": "In formats other than Commander, Command Tower’s ability produces no mana."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "The color identity of your commander is set before the game begins and doesn’t change during the game, even if your commander is in a hidden zone (like the hand or library) or an effect changes your commander’s color."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "If your commander is a card that has no colors in its color identity, Command Tower’s ability produces no mana. It doesn’t produce {C}."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "If you don’t have a commander, Command Tower’s ability produces no mana."
       }
     ]
   },

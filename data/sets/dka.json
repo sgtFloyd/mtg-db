@@ -944,7 +944,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "7/13/2018",
+        "date": "7/12/2019",
         "text": "A creature spell that can’t be countered is a legal target for Bone to Ash. The creature spell won’t be countered when Bone to Ash resolves, but you’ll still draw a card."
       }
     ]
@@ -1029,7 +1029,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Each player puts the top five cards of their library into their graveyard.",
+      "Each player mills five cards.",
       "Flashback {7}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     ],
     "flavor_text": "\"Wait . . . did you fellows hear something?\"",
@@ -1055,7 +1055,7 @@
     "mana_cost": "4UU",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Counter target spell. You may cast a nonland card in your hand that shares a card type with that spell without paying its mana cost."
+      "Counter target spell. You may cast a spell that shares a card type with it from your hand without paying its mana cost."
     ],
     "flavor_text": "\"Pathetic. Let me show you how it's done.\"",
     "power": null,
@@ -1186,16 +1186,20 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "1/22/2011",
-        "text": "If another player gains control of Dungeon Geists, the creature will no longer be affected by the ability preventing it from untapping, even if you later regain control of Dungeon Geists."
-      },
-      {
-        "date": "1/22/2011",
-        "text": "If you gain control of the creature that’s being prevented from untapping, that creature won’t untap during your untap step for as long as you control Dungeon Geists."
-      },
-      {
         "date": "4/15/2013",
         "text": "The ability can target a tapped creature. If the targeted creature is already tapped when it resolves, that creature just remains tapped and doesn’t untap during its controller’s next untap step."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "If another player gains control of Dungeon Geists, its effect expires. It won’t keep the creature from untapping anymore, even if you later regain control of Dungeon Geists."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "Dungeon Geists’s triggered ability can target a tapped creature. If the targeted creature is already tapped when it resolves, that creature just remains tapped and won’t untap during its controller’s untap step."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "If Dungeon Geists leaves the battlefield before its triggered ability has resolved, the target creature will be tapped, but it will be able to untap as normal."
       }
     ]
   },
@@ -1216,7 +1220,7 @@
     "mana_cost": "4UU",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "When Geralf's Mindcrusher enters the battlefield, target player puts the top five cards of their library into their graveyard.",
+      "When Geralf's Mindcrusher enters the battlefield, target player mills five cards.",
       "Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)"
     ],
     "flavor_text": null,
@@ -1342,7 +1346,7 @@
     "mana_cost": "XU",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player puts the top X cards of their library into their graveyard. If this spell was cast from a graveyard, that player puts twice that many cards into their graveyard instead.",
+      "Target player mills X cards. If this spell was cast from a graveyard, that player mills twice that many cards instead.",
       "Flashback {X}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     ],
     "flavor_text": null,
@@ -1534,7 +1538,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Screeching Skaab enters the battlefield, put the top two cards of your library into your graveyard."
+      "When Screeching Skaab enters the battlefield, mill two cards."
     ],
     "flavor_text": "Its screeching is the sound of you losing your mind.",
     "power": "2",
@@ -1592,7 +1596,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Flying",
-      "Whenever Shriekgeist deals combat damage to a player, that player puts the top two cards of their library into their graveyard."
+      "Whenever Shriekgeist deals combat damage to a player, that player mills two cards."
     ],
     "flavor_text": "Wounds of the flesh are easy to heal. Wounds of the mind may never be undone.",
     "power": "1",
@@ -1719,7 +1723,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player puts the top two cards of their library into their graveyard.",
+      "Target player mills two cards.",
       "Draw a card."
     ],
     "flavor_text": "\"As you inject the viscus vitae into the brain stem, don't let the spastic moaning bother you. It will soon become music to your ears.\"\n—Stitcher Geralf",
@@ -3100,20 +3104,16 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "8/15/2010",
+        "date": "10/4/2019",
         "text": "The sacrificed creature’s last known existence on the battlefield is checked to determine its power."
       },
       {
-        "date": "8/15/2010",
-        "text": "If you sacrifice an attacking or blocking creature during the declare blockers step, it won’t deal combat damage. If you wait until the combat damage step, but that creature is dealt lethal damage, it’ll be destroyed before you get a chance to sacrifice it."
+        "date": "10/4/2019",
+        "text": "You must sacrifice exactly one creature to cast this spell; you can’t cast it without sacrificing a creature, and you can’t sacrifice additional creatures."
       },
       {
-        "date": "4/15/2013",
-        "text": "You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures."
-      },
-      {
-        "date": "4/15/2013",
-        "text": "Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell."
+        "date": "10/4/2019",
+        "text": "Players can only respond once this spell has been cast and all its costs have been paid. No one can try to interfere with the creature you sacrificed to prevent you from casting this spell."
       }
     ]
   },
@@ -4755,7 +4755,8 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Vampire"
+      "Vampire",
+      "Noble"
     ],
     "rarity": "Mythic Rare",
     "mana_cost": "2BR",
@@ -4803,7 +4804,7 @@
     "mana_cost": "3UB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{1}: You may cast target creature card in a graveyard this turn. When you cast that card this turn, Havengul Lich gains all activated abilities of that card until end of turn."
+      "{1}: You may cast target creature card in a graveyard this turn. When you cast it this turn, Havengul Lich gains all activated abilities of that card until end of turn."
     ],
     "flavor_text": "Fusing intelligence with the power of undeath requires inspiration of the darkest kind.",
     "power": "4",
@@ -4822,16 +4823,16 @@
         "text": "If you don’t cast the creature card that turn, Havengul Lich won’t gain any of its abilities."
       },
       {
-        "date": "1/22/2011",
-        "text": "Havengul Lich gains the activated abilities of the card while that card is still a spell on the stack."
-      },
-      {
         "date": "4/15/2013",
         "text": "Havengul Lich’s ability changes the zone you are permitted to cast the card from, not the times you are permitted to cast it. You can cast a creature card that has been targeted by Havengul Lich from the graveyard, but unless it has flash, you can only do so if it’s your main phase, the stack is empty, and you have priority."
       },
       {
         "date": "6/8/2016",
         "text": "Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "Havengul Lich gains the activated abilities of the card as it existed in the graveyard while that card is still a spell on the stack."
       }
     ]
   },
@@ -5290,12 +5291,20 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/14/2017",
-        "text": "If a creature card tries to enter the battlefield from a graveyard or library, it stays in its current zone."
+        "date": "7/12/2019",
+        "text": "Players can still play lands from graveyards or libraries if an effect allows them to do so."
       },
       {
-        "date": "3/14/2017",
-        "text": "The second ability doesn’t stop players from playing land cards from graveyards or libraries since lands aren’t cast."
+        "date": "7/12/2019",
+        "text": "If an effect exiles a card from a library and allows a player to cast it, that player may do so. The spell is cast from exile, not a library."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "Look at the card as it exists in your graveyard to determine whether it can enter the battlefield. For example, Sculpting Steel can be put onto the battlefield as a copy of a creature, but Phyrexian Metamorph can’t be put onto the battlefield, even if it would copy a noncreature artifact."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "Manifesting a card from a graveyard or library is an impossible action while Grafdigger’s Cage is on the battlefield."
       }
     ]
   },

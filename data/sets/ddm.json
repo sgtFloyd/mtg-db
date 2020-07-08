@@ -218,7 +218,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever Crosstown Courier deals combat damage to a player, that player puts that many cards from the top of their library into their graveyard."
+      "Whenever Crosstown Courier deals combat damage to a player, that player mills that many cards."
     ],
     "flavor_text": "Information travels quickly through Ravnica's network of messengers and thought agents.",
     "power": "2",
@@ -707,7 +707,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "When Jace's Mindseeker enters the battlefield, target opponent puts the top five cards of their library into their graveyard. You may cast an instant or sorcery card from among them without paying its mana cost."
+      "When Jace's Mindseeker enters the battlefield, target opponent mills five cards. You may cast an instant or sorcery spell from among them without paying its mana cost."
     ],
     "flavor_text": null,
     "power": "4",
@@ -826,7 +826,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player puts the top two cards of their library into their graveyard.",
+      "Target player mills two cards.",
       "Draw a card."
     ],
     "flavor_text": "\"As you inject the viscus vitae into the brain stem, don't let the spastic moaning bother you. It will soon become music to your ears.\"\n—Stitcher Geralf",
@@ -1219,7 +1219,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Play with the top card of your library revealed.",
-      "You may play the top card of your library."
+      "You may play lands and cast spells from the top of your library."
     ],
     "flavor_text": "\"Is the inevitable any less miraculous?\"\n—Veldka, wandering sage",
     "power": null,
@@ -1230,24 +1230,20 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/8/2016",
-        "text": "The top card of your library isn’t in your hand, so you can’t suspend it, cycle it, discard it, or activate any of its activated abilities."
+        "date": "6/14/2019",
+        "text": "The top card of your library isn’t in your hand, so you can’t suspend it, cycle it, or activate any of its abilities."
       },
       {
-        "date": "6/8/2016",
-        "text": "You must follow the normal timing permissions and restrictions for the top card of your library and pay its costs. If it has alternative or additional costs, you may pay those. If the card has any mandatory additional costs, you must pay those."
+        "date": "6/14/2019",
+        "text": "You must follow the normal timing permissions and restrictions for the top card of your library and pay its costs. If the card has alternative or additional costs, you may pay those. If the card has any mandatory additional costs, you must pay those."
       },
       {
-        "date": "6/8/2016",
+        "date": "6/14/2019",
         "text": "If the top card of your library is a land, you may play that land only if you have any available land plays."
       },
       {
-        "date": "6/8/2016",
-        "text": "If the top card of your library changes while you’re casting a spell, playing a land, or activating an ability (perhaps because that top card is the card you’re casting) the new top card won’t be revealed until you finish doing so."
-      },
-      {
-        "date": "6/8/2016",
-        "text": "As soon as you finish playing the card on top of your library, reveal the next card in your library."
+        "date": "6/14/2019",
+        "text": "If the top card of your library changes while you’re casting a spell, playing a land, or activating an ability (most likely because that top card is the card you’re playing), the new top card won’t be revealed until you finish doing so."
       }
     ]
   },
@@ -2540,7 +2536,7 @@
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Destroy target nonartifact creature. Its controller puts a number of cards equal to that creature's power from the top of their library into their graveyard."
+      "Destroy target nonartifact creature. Its controller mills cards equal to that creature's power."
     ],
     "flavor_text": "\"Watch people flock to a murder scene. Then tell me we're not all a little sick in the head.\"\n—Juri, proprietor of the Juri Revue",
     "power": null,

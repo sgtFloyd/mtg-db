@@ -458,7 +458,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Raid — When Mardu Heart-Piercer enters the battlefield, if you attacked with a creature this turn, Mardu Heart-Piercer deals 2 damage to any target."
+      "Raid — When Mardu Heart-Piercer enters the battlefield, if you attacked this turn, Mardu Heart-Piercer deals 2 damage to any target."
     ],
     "flavor_text": "\"Those who have never ridden before the wind do not know the true joy of war.\"",
     "power": "2",
@@ -770,16 +770,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/14/2017",
+        "date": "7/12/2019",
         "text": "You must sacrifice exactly one creature to cast this spell; you can’t cast it without sacrificing a creature, and you can’t sacrifice additional creatures."
       },
       {
-        "date": "3/14/2017",
+        "date": "7/12/2019",
         "text": "Once you begin to cast Bone Splinters, no player may take actions until you’re done. Notably, opponents can’t try to remove the creature you wish to sacrifice."
-      },
-      {
-        "date": "3/14/2017",
-        "text": "You can cast Bone Splinters targeting the creature you intend to sacrifice for its cost. This is because targets are chosen before costs are paid. Bone Splinters won’t resolve as it tries to resolve in this case."
       }
     ]
   },
@@ -872,7 +868,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn."
+      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)"
     ],
     "flavor_text": "\"Rage courses in every heart, yearning to betray its rational prison.\"\n—Sarkhan Vol",
     "power": null,
@@ -883,11 +879,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "Act of Treason can target any creature, even one that’s untapped or one you already control."
       },
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it."
       }
     ]
@@ -1527,6 +1523,10 @@
       {
         "date": "9/20/2014",
         "text": "Once it triggers, prowess isn’t connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve."
+      },
+      {
+        "date": "6/23/2020",
+        "text": "You draw a card and discard a card all while Jeskai Elder’s ability is resolving. Nothing can happen between the two, and no player may choose to take actions."
       }
     ]
   },
@@ -2439,7 +2439,7 @@
       },
       {
         "date": "10/1/2009",
-        "text": "The number of targets must be at least 1 and at most 5. You divide the damage as you cast Arrow Volley Trap, not as it resolves. Each target must be assigned at least 1 damage."
+        "text": "You divide the damage as you cast Arrow Volley Trap, not as it resolves. Each target must be assigned at least 1 damage."
       }
     ]
   },

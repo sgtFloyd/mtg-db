@@ -740,7 +740,8 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Human"
+      "Human",
+      "Noble"
     ],
     "rarity": "Rare",
     "mana_cost": "1W",
@@ -1869,12 +1870,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "9/22/2011",
-        "text": "If a creature affected by Frost Breath changes controllers before its old controller’s next untap step, Frost Breath will prevent it from becoming untapped during its new controller’s next untap step."
-      },
-      {
-        "date": "4/15/2013",
-        "text": "This spell can target tapped creatures. If a targeted creature is already tapped when the spell resolves, that creature just remains tapped and doesn’t untap during its controller’s next untap step."
+        "date": "6/23/2020",
+        "text": "Frost Breath can target tapped creatures. If a targeted creature is already tapped when the spell resolves, that creature just remains tapped and doesn’t untap during its controller’s next untap step."
       }
     ]
   },
@@ -1991,8 +1988,8 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "+1: Draw a card. Target player puts the top card of their library into their graveyard.",
-      "0: Target player puts the top ten cards of their library into their graveyard.",
+      "+1: Draw a card. Target player mills a card.",
+      "0: Target player mills ten cards.",
       "−7: Any number of target players each draw twenty cards."
     ],
     "flavor_text": null,
@@ -2035,7 +2032,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "When Jace's Mindseeker enters the battlefield, target opponent puts the top five cards of their library into their graveyard. You may cast an instant or sorcery card from among them without paying its mana cost."
+      "When Jace's Mindseeker enters the battlefield, target opponent mills five cards. You may cast an instant or sorcery spell from among them without paying its mana cost."
     ],
     "flavor_text": null,
     "power": "4",
@@ -2509,7 +2506,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player puts the top five cards of their library into their graveyard."
+      "Target player mills five cards."
     ],
     "flavor_text": "\"I hope none of those were important!\"",
     "power": null,
@@ -2567,7 +2564,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Target player puts the top half of their library, rounded down, into their graveyard."
+      "Target player mills half their library, rounded down."
     ],
     "flavor_text": "He was left with just enough memory to understand what he had lost.",
     "power": null,
@@ -2649,12 +2646,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/8/2016",
-        "text": "A creature spell that doesn’t have flying won’t cost less even if the creature it will become will have flying once on the battlefield. For example, if you control an Island and Wonder is in your graveyard, creature spells won’t cost {1} less even though those creatures will have flying once they’re on the battlefield."
+        "date": "7/12/2019",
+        "text": "A creature spell that doesn’t have flying won’t cost less even if an effect will cause the creature to have flying once on the battlefield. This is also true if the creature spell itself has an ability that gives it flying once on the battlefield under certain conditions, even if those conditions are true."
       },
       {
-        "date": "6/8/2016",
-        "text": "The ability can’t reduce the colored mana requirement of a creature spell with flying."
+        "date": "7/12/2019",
+        "text": "The last ability of Warden of Evos Isle can’t reduce the colored mana requirement of a creature spell with flying."
       }
     ]
   },
@@ -4146,7 +4143,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn."
+      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)"
     ],
     "flavor_text": "\"Rage courses in every heart, yearning to betray its rational prison.\"—Sarkhan Vol",
     "power": null,
@@ -4157,11 +4154,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "Act of Treason can target any creature, even one that’s untapped or one you already control."
       },
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it."
       }
     ]
@@ -4486,8 +4483,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/16/2018",
-        "text": "If the target creature is an illegal target by the time Chandra’s Outrage resolves, the spell doesn’t resolve. No player is dealt damage."
+        "date": "7/12/2019",
+        "text": "If the target creature is an illegal target by the time Chandra’s Outrage tries to resolve, the spell doesn’t resolve. No player is dealt damage."
       }
     ]
   },
@@ -4982,7 +4979,12 @@
     "multiverse_id": 370649,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "6/23/2020",
+        "text": "If your life total is brought to 0 or less at the same time that Pitchburn Devils is dealt lethal damage, you lose the game before the ability goes on the stack."
+      }
+    ]
   },
   {
     "name": "Regathan Firecat",
@@ -5738,7 +5740,7 @@
     "oracle_text": [
       "Trample",
       "Play with the top card of your library revealed.",
-      "You may cast the top card of your library if it's a creature card. (Do this only any time you could cast that creature card. You still pay the spell's costs.)"
+      "You may cast creature spells from the top of your library. (Do this only any time you could cast that creature spell. You still pay the spell's costs.)"
     ],
     "flavor_text": null,
     "power": "7",
@@ -6458,7 +6460,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/14/2017",
+        "date": "6/23/2020",
         "text": "If the target card is an illegal target when the ability tries to resolve, it won’t resolve and none of its effects will happen. No +1/+1 counter will be put on Scavenging Ooze and you won’t gain life. Notably, this means that if you activate Scavenging Ooze’s ability multiple times targeting the same creature card, only the first instance of the ability to resolve will have any effect."
       }
     ]
@@ -7045,7 +7047,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}, {T}: Target player puts the top two cards of their library into their graveyard."
+      "{2}, {T}: Target player mills two cards."
     ],
     "flavor_text": "Minds, like mountains, are never so grand and mighty that they can't be reduced to dust.",
     "power": null,

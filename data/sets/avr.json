@@ -1066,7 +1066,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}{W}: Moorland Inquisitor gains first strike until end of turn."
+      "{2}{W}: Moorland Inquisitor gains first strike until end of turn. (It deals combat damage before creatures without first strike.)"
     ],
     "flavor_text": "Inquisitors are taught scripture, philosophy, and the fine art of sharpening an axe.",
     "power": "2",
@@ -1075,7 +1075,12 @@
     "multiverse_id": 262849,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "7/12/2019",
+        "text": "Multiple instances of first strike on the same creature are redundant."
+      }
+    ]
   },
   {
     "name": "Nearheath Pilgrim",
@@ -1736,7 +1741,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Target player puts the top X cards of their library into their graveyard, where X is the number of lands you control."
+      "Target player mills X cards, where X is the number of lands you control."
     ],
     "flavor_text": "Stray into the Morkrut and it may rise to claim you.",
     "power": null,
@@ -2497,7 +2502,7 @@
     "mana_cost": "4U",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "When Rotcrown Ghoul dies, target player puts the top five cards of their library into their graveyard."
+      "When Rotcrown Ghoul dies, target player mills five cards."
     ],
     "flavor_text": "\"Don't look into its eyes. It's thinking things no dead thing should think.\"\n—Captain Eberhart",
     "power": "3",
@@ -2651,7 +2656,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)",
-      "As long as Stern Mentor is paired with another creature, each of those creatures has \"{T}: Target player puts the top two cards of their library into their graveyard.\""
+      "As long as Stern Mentor is paired with another creature, each of those creatures has \"{T}: Target player mills two cards.\""
     ],
     "flavor_text": null,
     "power": "2",
@@ -3041,16 +3046,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/14/2017",
+        "date": "7/12/2019",
         "text": "You must sacrifice exactly one creature to cast this spell; you can’t cast it without sacrificing a creature, and you can’t sacrifice additional creatures."
       },
       {
-        "date": "3/14/2017",
+        "date": "7/12/2019",
         "text": "Once you begin to cast Bone Splinters, no player may take actions until you’re done. Notably, opponents can’t try to remove the creature you wish to sacrifice."
-      },
-      {
-        "date": "3/14/2017",
-        "text": "You can cast Bone Splinters targeting the creature you intend to sacrifice for its cost. This is because targets are chosen before costs are paid. Bone Splinters won’t resolve as it tries to resolve in this case."
       }
     ]
   },
@@ -4761,7 +4762,7 @@
     "supertypes": [],
     "subtypes": [
       "Elemental",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Rare",
     "mana_cost": "2RR",
@@ -5783,7 +5784,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "At the beginning of your upkeep, reveal the top card of your library. If it's a creature card that shares a creature type with a creature you control, you may cast that card without paying its mana cost. Otherwise, put that card on the bottom of your library."
+      "At the beginning of your upkeep, reveal the top card of your library. You may cast it without paying its mana cost if it's a creature spell that shares a creature type with a creature you control. Otherwise, put that card on the bottom of your library."
     ],
     "flavor_text": null,
     "power": null,
@@ -6178,8 +6179,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "5/1/2012",
-        "text": "If the artifact or enchantment is an illegal target when Natural End tries to resolve, Natural End won’t resolve and none of its effects will happen. You won’t gain 3 life."
+        "date": "7/12/2019",
+        "text": "If the target artifact or enchantment is an illegal target by the time Natural End tries to resolve, the spell doesn’t resolve. You don’t gain life. If the target is legal but not destroyed (most likely because it has indestructible), you do gain life."
       }
     ]
   },

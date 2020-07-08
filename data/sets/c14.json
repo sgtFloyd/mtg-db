@@ -188,23 +188,23 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "12/7/2018",
+        "date": "6/23/2020",
         "text": "Containment Priest’s last ability won’t affect any creatures that were cast, including ones cast from unusual zones such as your graveyard."
       },
       {
-        "date": "12/7/2018",
+        "date": "6/23/2020",
         "text": "Containment Priest’s last ability doesn’t stop creature tokens from entering the battlefield. It also doesn’t affect creatures that were already on the battlefield."
       },
       {
-        "date": "12/7/2018",
-        "text": "If a noncreature card wasn’t cast and is entering the battlefield as a creature (due to an effect such as that of March of the Machines), it will be exiled. Similarly, if a creature card wasn’t cast and is entering the battlefield as a noncreature permanent (for example, Heliod, God of the Sun with insufficient devotion), it won’t be exiled."
+        "date": "6/23/2020",
+        "text": "If a noncreature card wasn’t cast and is entering the battlefield as a creature (due to an effect such as that of March of the Machines), it will be exiled. Similarly, if a creature card wasn’t cast and is entering the battlefield as a noncreature permanent (for example, Heliod, Sun-Crowned with insufficient devotion), it won’t be exiled."
       },
       {
-        "date": "12/7/2018",
+        "date": "6/23/2020",
         "text": "If Containment Priest enters the battlefield without being cast, its ability won’t exile itself."
       },
       {
-        "date": "12/7/2018",
+        "date": "6/23/2020",
         "text": "If Containment Priest enters the battlefield at the same time as other creatures, its ability won’t affect those creatures."
       }
     ]
@@ -602,7 +602,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{2}{U}, {T}: Each player puts the top three cards of their library into their graveyard. Exile up to two creature cards put into graveyards this way. Create an X/X blue Zombie creature token, where X is the total power of the cards exiled this way."
+      "{2}{U}, {T}: Each player mills three cards. Exile up to two creature cards put into graveyards this way. Create an X/X blue Zombie creature token, where X is the total power of the cards exiled this way."
     ],
     "flavor_text": null,
     "power": "3",
@@ -3483,7 +3483,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Target player sacrifices an attacking creature.",
-      "Storm (When you cast this spell, copy it for each spell cast before it this turn.)"
+      "Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3494,24 +3494,28 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/7/2013",
-        "text": "The copies are put directly onto the stack. They aren’t cast and won’t be counted by other spells with storm cast later in the turn."
+        "date": "6/14/2019",
+        "text": "An “attacking creature” is one that has been declared as an attacker or put onto the battlefield attacking during a turn’s combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game or the planeswalker it was attacking has left combat."
       },
       {
-        "date": "6/7/2013",
-        "text": "Spells cast from zones other than a player’s hand and spells that were countered are counted by the storm ability."
+        "date": "6/14/2019",
+        "text": "If you cast Wing Shards after combat damage has been dealt, only creatures that survived combat can be sacrificed."
       },
       {
-        "date": "6/7/2013",
-        "text": "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won’t affect the copies."
+        "date": "6/14/2019",
+        "text": "Wing Shards doesn’t target the creature to be sacrificed. The target player chooses the creature as it resolves."
       },
       {
-        "date": "6/7/2013",
-        "text": "The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack."
+        "date": "6/14/2019",
+        "text": "The copies storm creates are created on the stack, so they’re not cast. Abilities that trigger when a player casts a spell (such as storm) won’t trigger."
       },
       {
-        "date": "6/7/2013",
-        "text": "You may choose new targets for any of the copies. You can choose differently for each copy."
+        "date": "6/14/2019",
+        "text": "Storm counts spells cast before the spell with storm was cast. Spells cast after the spell with storm was cast but before the storm ability resolves aren’t counted."
+      },
+      {
+        "date": "6/14/2019",
+        "text": "The storm ability and the copies it creates all resolve before the spell with storm. They resolve even if the spell with storm is countered."
       }
     ]
   },
@@ -3905,7 +3909,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/16/2018",
+        "date": "6/14/2019",
         "text": "Exclude can target a creature spell that can’t be countered. When Exclude resolves, that spell won’t be countered, but you’ll still draw a card."
       }
     ]
@@ -5308,20 +5312,32 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "9/15/2013",
-        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
+        "date": "1/24/2020",
+        "text": "The amount of life you gain is the total amount of life lost, not simply the value of X."
       },
       {
-        "date": "9/15/2013",
+        "date": "1/24/2020",
+        "text": "In a Two-Headed Giant game, each opposing team loses twice X life."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "Colorless and generic mana symbols ({C}, {0}, {1}, {2}, {X}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "1/24/2020",
         "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
       },
       {
-        "date": "9/15/2013",
+        "date": "1/24/2020",
         "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
       },
       {
-        "date": "9/15/2013",
+        "date": "1/24/2020",
         "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If you put an Aura on an opponent’s permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion."
       }
     ]
   },
@@ -6611,7 +6627,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Haste",
-      "When Tuktuk the Explorer dies, create a legendary 5/5 colorless Goblin Golem artifact creature token named Tuktuk the Returned."
+      "When Tuktuk the Explorer dies, create Tuktuk the Returned, a legendary 5/5 colorless Goblin Golem artifact creature token."
     ],
     "flavor_text": "Remade by Eldrazi magic, Tuktuk inspired an entire clan of misguided goblins.",
     "power": "1",

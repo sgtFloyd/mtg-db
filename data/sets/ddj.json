@@ -222,7 +222,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Steamcore Weird enters the battlefield, if {R} was spent to cast Steamcore Weird, it deals 2 damage to any target."
+      "When Steamcore Weird enters the battlefield, if {R} was spent to cast it, it deals 2 damage to any target."
     ],
     "flavor_text": "Like many Izzet creations, weirds are based on wild contradictions yet somehow manage to work.",
     "power": "1",
@@ -289,7 +289,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "When Ogre Savant enters the battlefield, if {U} was spent to cast Ogre Savant, return target creature to its owner's hand."
+      "When Ogre Savant enters the battlefield, if {U} was spent to cast it, return target creature to its owner's hand."
     ],
     "flavor_text": "He's an oxymoron.",
     "power": "3",
@@ -325,7 +325,7 @@
     "mana_cost": "3RR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "At the beginning of your upkeep, you may look at the top card of your library. If it's an instant or sorcery card, you may cast it without paying its mana cost."
+      "At the beginning of your upkeep, you may look at the top card of your library. You may cast it without paying its mana cost if it's an instant or sorcery spell."
     ],
     "flavor_text": "It chews open Mirrodin's husk and feeds on the outpouring of energy.",
     "power": "3",
@@ -1203,7 +1203,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "{T}: Add {C}.",
-      "{2}{U}{R}, {T}: Exile the top card of your library. Until your next turn, you may cast that card if it's an instant or sorcery card."
+      "{2}{U}{R}, {T}: Exile the top card of your library. Until your next turn, you may cast it if it's an instant or sorcery spell."
     ],
     "flavor_text": "Niv-Mizzet's genius and vanity reverberate throughout the mirrored halls of Nivix.",
     "power": null,
@@ -1581,7 +1581,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "When Golgari Thug dies, put target creature card from your graveyard on top of your library.",
-      "Dredge 4 (If you would draw a card, instead you may put exactly four cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 4 (If you would draw a card, you may mill four cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "1",
@@ -1772,7 +1772,7 @@
     "oracle_text": [
       "Flying",
       "Whenever Stinkweed Imp deals combat damage to a creature, destroy that creature.",
-      "Dredge 5 (If you would draw a card, instead you may put exactly five cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 5 (If you would draw a card, you may mill five cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "1",
@@ -1885,7 +1885,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Sacrifice Shambling Shell: Put a +1/+1 counter on target creature.",
-      "Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "3",
@@ -1940,13 +1940,13 @@
     "supertypes": [],
     "subtypes": [
       "Plant",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": "Man's best fungus.",
     "power": "3",
@@ -1989,7 +1989,7 @@
     "oracle_text": [
       "Golgari Grave-Troll enters the battlefield with a +1/+1 counter on it for each creature card in your graveyard.",
       "{1}, Remove a +1/+1 counter from Golgari Grave-Troll: Regenerate Golgari Grave-Troll.",
-      "Dredge 6 (If you would draw a card, instead you may put exactly six cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 6 (If you would draw a card, you may mill six cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "0",
@@ -2276,7 +2276,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Return up to three target land cards from your graveyard to your hand.",
-      "Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2397,7 +2397,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Target player reveals their hand. You choose a card from it. That player discards that card.",
-      "Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2439,7 +2439,7 @@
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Return target creature card from your graveyard to the battlefield. If {G} was spent to cast Vigor Mortis, that creature enters the battlefield with an additional +1/+1 counter on it."
+      "Return target creature card from your graveyard to the battlefield. If {G} was spent to cast this spell, that creature enters the battlefield with an additional +1/+1 counter on it."
     ],
     "flavor_text": "After fear and weakness rot away, that which remains is stronger than its living form.",
     "power": null,
@@ -2623,7 +2623,7 @@
     "oracle_text": [
       "Dakmor Salvage enters the battlefield tapped.",
       "{T}: Add {B}.",
-      "Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": null,

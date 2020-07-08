@@ -2169,7 +2169,8 @@
       "Legendary"
     ],
     "subtypes": [
-      "Spirit"
+      "Spirit",
+      "Noble"
     ],
     "rarity": "Rare",
     "mana_cost": "2WU",
@@ -2380,7 +2381,7 @@
     "mana_cost": "3UB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Each player puts the top two cards of their library into their graveyard. Then you put a creature card from a graveyard onto the battlefield under your control."
+      "Each player mills two cards. Then you put a creature card from a graveyard onto the battlefield under your control."
     ],
     "flavor_text": "If you want to wreak havoc above, sometimes it's best to look below.",
     "power": null,
@@ -3037,7 +3038,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound",
+      "Dog",
       "Construct"
     ],
     "rarity": "Uncommon",
@@ -3589,7 +3590,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "9/22/2011",
+        "date": "7/12/2019",
         "text": "Multiple instances of lifelink on the same creature are redundant."
       }
     ]
@@ -4275,11 +4276,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/8/2016",
+        "date": "6/14/2019",
         "text": "You choose which pile to put into your hand."
       },
       {
-        "date": "6/8/2016",
+        "date": "6/14/2019",
         "text": "Each pile may contain from zero to five cards; they don’t have to be split “evenly.”"
       }
     ]
@@ -5589,7 +5590,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Brimstone Volley deals 3 damage to any target.",
-      "Morbid — Brimstone Volley deals 5 damage to that permanent or player instead if a creature died this turn."
+      "Morbid — Brimstone Volley deals 5 damage instead if a creature died this turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -5927,7 +5928,12 @@
     "multiverse_id": 382326,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "6/23/2020",
+        "text": "If your life total is brought to 0 or less at the same time that Pitchburn Devils is dealt lethal damage, you lose the game before the ability goes on the stack."
+      }
+    ]
   },
   {
     "name": "Power of Fire",
@@ -6190,15 +6196,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/15/2010",
-        "text": "You may target zero, one, two, or three creatures."
+        "date": "1/24/2020",
+        "text": "The “can’t block” effect applies to each of the targeted creatures—and to only those creatures—even if Wrap in Flames deals no damage to one or more of them (due to a prevention effect, for example) or if Wrap in Flames deals damage to a different creature (due to a redirection effect)."
       },
       {
-        "date": "6/15/2010",
-        "text": "The “can’t block” effect applies to each of the targeted creatures — and only those creatures — even if Wrap in Flames deals no damage to one or more of them (due to a prevention effect, for example) or Wrap in Flames deals damage to a different creature (due to a redirection effect)."
-      },
-      {
-        "date": "6/15/2010",
+        "date": "1/24/2020",
         "text": "If any of the targeted creatures is an illegal target by the time Wrap in Flames resolves, it won’t be dealt damage and will be able to block. The other targeted creatures will still be affected."
       }
     ]
@@ -6822,7 +6824,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Reach (This creature can block creatures with flying.)"
+      "Reach"
     ],
     "flavor_text": "\"They don't move much, but then again, if you get caught in its web, it has all the time in the world to get to you.\"\n—Saidah, Joraga hunter",
     "power": "1",
@@ -6859,12 +6861,7 @@
     "multiverse_id": 382374,
     "other_part": null,
     "color_indicator": null,
-    "rulings": [
-      {
-        "date": "8/1/2005",
-        "text": "The land receives this ability and not the actual text. Text-changing effects can be used on this Aura, but would not change this effect if cast on the land."
-      }
-    ]
+    "rulings": []
   },
   {
     "name": "Terastodon",
@@ -7358,7 +7355,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Sacrifice a creature: Target player puts a number of cards equal to the sacrificed creature's power from the top of their library into their graveyard."
+      "Sacrifice a creature: Target player mills cards equal to the sacrificed creature's power."
     ],
     "flavor_text": "\"It is not that you will go mad. It is that you will beg for madness.\"\n—Volrath",
     "power": null,
@@ -7367,7 +7364,16 @@
     "multiverse_id": 382212,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "6/14/2019",
+        "text": "The number of cards the target player puts into their graveyard is equal to the power of the sacrificed creature as it last existed on the battlefield."
+      },
+      {
+        "date": "6/14/2019",
+        "text": "If the target player’s library contains fewer cards than the sacrificed creature’s power, all of those cards are put into that player’s graveyard. That player won’t lose the game until they try to draw from the empty library."
+      }
+    ]
   },
   {
     "name": "Deathrender",
