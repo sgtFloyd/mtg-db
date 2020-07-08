@@ -1400,7 +1400,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Choose a card name, then target opponent puts the top card of their library into their graveyard. If that card has the chosen name, you draw a card.",
+      "Choose a card name, then target opponent mills a card. If a card with the chosen name was milled this way, you draw a card.",
       "Draw a card at the beginning of the next turn's upkeep."
     ],
     "flavor_text": null,
@@ -1944,7 +1944,7 @@
       },
       {
         "date": "10/4/2004",
-        "text": "If X is greater than 0, you can’t choose zero targets. You must choose between one and X targets. If X is 0, you can’t choose any targets."
+        "text": "If X is 0, you can’t choose any targets."
       }
     ]
   },
@@ -2569,7 +2569,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/8/2016",
+        "date": "6/14/2019",
         "text": "If there are no other creatures on the battlefield when Man-o’-War enters the battlefield, its ability must target itself."
       }
     ]
@@ -3509,10 +3509,6 @@
       {
         "date": "10/4/2004",
         "text": "You choose the targets and you choose how to divide up the 5 damage on announcement."
-      },
-      {
-        "date": "10/4/2004",
-        "text": "You can’t choose zero targets. You must choose at least one target."
       }
     ]
   },
@@ -3674,7 +3670,7 @@
     "rulings": [
       {
         "date": "10/4/2004",
-        "text": "If X is greater than 0, you can’t choose zero targets. You must choose between one and X targets. If X is 0, you can’t choose any targets."
+        "text": "If X is 0, you can’t choose any targets."
       }
     ]
   },
@@ -3975,8 +3971,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Put the top four cards of your library into your graveyard.",
-      "Whenever a creature attacks this turn, it gets +1/+0 until end of turn for each creature card put into your graveyard this way."
+      "Mill four cards. Whenever a creature attacks this turn, it gets +1/+0 until end of turn for each creature card put into your graveyard this way."
     ],
     "flavor_text": "Purraj sang slaughter and danced death.",
     "power": null,
@@ -4958,7 +4953,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Choose one —",
-      "• Target player puts the top four cards of their library into their graveyard.",
+      "• Target player mills four cards.",
       "• Choose a land type and a basic land type. Each land of the first chosen type becomes the second chosen type until end of turn.",
       "• Target artifact phases out. (While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during their next untap step.)"
     ],

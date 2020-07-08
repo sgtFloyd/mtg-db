@@ -955,7 +955,7 @@
     "rulings": [
       {
         "date": "6/8/2016",
-        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans and “scryed” if applicable. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
       }
     ]
   },
@@ -2694,16 +2694,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/14/2017",
+        "date": "7/12/2019",
         "text": "You must sacrifice exactly one creature to cast this spell; you can’t cast it without sacrificing a creature, and you can’t sacrifice additional creatures."
       },
       {
-        "date": "3/14/2017",
+        "date": "7/12/2019",
         "text": "Once you begin to cast Bone Splinters, no player may take actions until you’re done. Notably, opponents can’t try to remove the creature you wish to sacrifice."
-      },
-      {
-        "date": "3/14/2017",
-        "text": "You can cast Bone Splinters targeting the creature you intend to sacrifice for its cost. This is because targets are chosen before costs are paid. Bone Splinters won’t resolve as it tries to resolve in this case."
       }
     ]
   },
@@ -3849,7 +3845,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Kicker {4} (You may pay an additional {4} as you cast this spell.)",
-      "Burst Lightning deals 2 damage to any target. If this spell was kicked, it deals 4 damage to that permanent or player instead."
+      "Burst Lightning deals 2 damage to any target. If this spell was kicked, it deals 4 damage instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -4916,15 +4912,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/15/2010",
-        "text": "You may target zero, one, two, or three creatures."
+        "date": "1/24/2020",
+        "text": "The “can’t block” effect applies to each of the targeted creatures—and to only those creatures—even if Wrap in Flames deals no damage to one or more of them (due to a prevention effect, for example) or if Wrap in Flames deals damage to a different creature (due to a redirection effect)."
       },
       {
-        "date": "6/15/2010",
-        "text": "The “can’t block” effect applies to each of the targeted creatures — and only those creatures — even if Wrap in Flames deals no damage to one or more of them (due to a prevention effect, for example) or Wrap in Flames deals damage to a different creature (due to a redirection effect)."
-      },
-      {
-        "date": "6/15/2010",
+        "date": "1/24/2020",
         "text": "If any of the targeted creatures is an illegal target by the time Wrap in Flames resolves, it won’t be dealt damage and will be able to block. The other targeted creatures will still be affected."
       }
     ]
@@ -6409,7 +6401,7 @@
     "mana_cost": "1GU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever you draw a card, you may put a +1/+1 counter on Lorescale Coatl."
+      "Whenever you draw a card, put a +1/+1 counter on Lorescale Coatl."
     ],
     "flavor_text": "\"The enlightenment I never found in etherium I have found traced in the coatl's scales.\"\n—Ranalus, vedalken heretic",
     "power": "2",
@@ -6420,12 +6412,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/16/2018",
-        "text": "If a spell or ability causes you to draw multiple cards, Lorescale Coatl’s ability triggers that many times."
-      },
-      {
-        "date": "3/16/2018",
-        "text": "If a spell or ability causes you to put cards in your hand without specifically using the word “draw,” Lorescale Coatl’s ability won’t trigger."
+        "date": "6/23/2020",
+        "text": "If a spell or ability causes you to put a card into your hand without specifically using the word “draw,” it’s not a card drawn."
       }
     ]
   },

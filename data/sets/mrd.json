@@ -525,7 +525,16 @@
     "multiverse_id": 48112,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "7/12/2019",
+        "text": "Rule of Law looks at the entire turn to see if a player has cast a spell, even if Rule of Law wasn’t on the battlefield when that spell was cast. Notably, you can’t cast Rule of Law and then cast another spell during the same turn."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "If you cast a spell that was countered, you can’t cast another spell during the same turn."
+      }
+    ]
   },
   {
     "name": "Second Sunrise",
@@ -1399,7 +1408,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "If a player would draw a card, that player exiles the top card of one of their opponents' libraries face down instead.",
-      "Each player may look at and play cards they exiled with Shared Fate."
+      "Each player may look at cards they exiled with Shared Fate, and they may play lands and cast spells from among those cards."
     ],
     "flavor_text": null,
     "power": null,
@@ -4861,8 +4870,8 @@
         "text": "Duplicant keeps all creature types it had when the card was imprinted, including any types that Duplicant had gained."
       },
       {
-        "date": "7/13/2016",
-        "text": "If a melded permanent is exiled by Duplicant’s triggered ability, that ability’s controller chooses the relative timestamp of the two meld cards. Duplicant looks at the information of the one with the later timestamp."
+        "date": "4/17/2020",
+        "text": "If a melded permanent or a merged permanent is exiled by Duplicant’s triggered ability, that ability’s controller chooses the relative timestamp of the exiled cards. Duplicant looks at the information of the one with the later timestamp."
       }
     ]
   },
@@ -6037,7 +6046,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever a permanent becomes untapped, that permanent's controller puts the top card of their library into their graveyard."
+      "Whenever a permanent becomes untapped, that permanent's controller mills a card."
     ],
     "flavor_text": "A step in one direction is two steps away from another.",
     "power": null,
@@ -8060,7 +8069,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{8}, {T}: Target player puts the top eight cards of their library into their graveyard."
+      "{8}, {T}: Target player mills eight cards."
     ],
     "flavor_text": "Etched on its surface are warnings from a long-lost race of ur-golems pushed to the brink of extinction.",
     "power": null,

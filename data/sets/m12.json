@@ -1455,7 +1455,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "Whenever a source deals damage to Belltower Sphinx, that source's controller puts that many cards from the top of their library into their graveyard."
+      "Whenever a source deals damage to Belltower Sphinx, that source's controller mills that many cards."
     ],
     "flavor_text": null,
     "power": "2",
@@ -1693,12 +1693,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "9/22/2011",
-        "text": "If a creature affected by Frost Breath changes controllers before its old controller’s next untap step, Frost Breath will prevent it from becoming untapped during its new controller’s next untap step."
-      },
-      {
-        "date": "4/15/2013",
-        "text": "This spell can target tapped creatures. If a targeted creature is already tapped when the spell resolves, that creature just remains tapped and doesn’t untap during its controller’s next untap step."
+        "date": "6/23/2020",
+        "text": "Frost Breath can target tapped creatures. If a targeted creature is already tapped when the spell resolves, that creature just remains tapped and doesn’t untap during its controller’s next untap step."
       }
     ]
   },
@@ -1840,8 +1836,8 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "+1: Draw a card. Target player puts the top card of their library into their graveyard.",
-      "0: Target player puts the top ten cards of their library into their graveyard.",
+      "+1: Draw a card. Target player mills a card.",
+      "0: Target player mills ten cards.",
       "−7: Any number of target players each draw twenty cards."
     ],
     "flavor_text": null,
@@ -1913,7 +1909,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever you draw a card, you may have target player put the top card of their library into their graveyard."
+      "Whenever you draw a card, you may have target player mill a card."
     ],
     "flavor_text": "\"You should try to clear your mind of idle thoughts. And if you can't, I will.\"",
     "power": null,
@@ -2102,7 +2098,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{U}, {T}: Target player puts the top two cards of their library into their graveyard."
+      "{U}, {T}: Target player mills two cards."
     ],
     "flavor_text": "\"Don't you think if I saw a half-woman, half-fish with three glowing eyes, I'd have remembered?\"\n—Drugo, town guard",
     "power": "1",
@@ -3602,7 +3598,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "5/3/2019",
+        "date": "7/12/2019",
         "text": "If the target creature is an illegal target by the time Sorin’s Thirst tries to resolve, the spell doesn’t resolve. You won’t gain 2 life."
       }
     ]
@@ -3932,7 +3928,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn."
+      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)"
     ],
     "flavor_text": "\"Rage courses in every heart, yearning to betray its rational prison.\"\n—Sarkhan Vol",
     "power": null,
@@ -3943,11 +3939,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "Act of Treason can target any creature, even one that’s untapped or one you already control."
       },
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it."
       }
     ]
@@ -4091,8 +4087,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/16/2018",
-        "text": "If the target creature is an illegal target by the time Chandra’s Outrage resolves, the spell doesn’t resolve. No player is dealt damage."
+        "date": "7/12/2019",
+        "text": "If the target creature is an illegal target by the time Chandra’s Outrage tries to resolve, the spell doesn’t resolve. No player is dealt damage."
       }
     ]
   },
@@ -4245,7 +4241,7 @@
     "supertypes": [],
     "subtypes": [
       "Elemental",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "1RR",
@@ -4401,20 +4397,16 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "8/15/2010",
+        "date": "10/4/2019",
         "text": "The sacrificed creature’s last known existence on the battlefield is checked to determine its power."
       },
       {
-        "date": "8/15/2010",
-        "text": "If you sacrifice an attacking or blocking creature during the declare blockers step, it won’t deal combat damage. If you wait until the combat damage step, but that creature is dealt lethal damage, it’ll be destroyed before you get a chance to sacrifice it."
+        "date": "10/4/2019",
+        "text": "You must sacrifice exactly one creature to cast this spell; you can’t cast it without sacrificing a creature, and you can’t sacrifice additional creatures."
       },
       {
-        "date": "4/15/2013",
-        "text": "You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures."
-      },
-      {
-        "date": "4/15/2013",
-        "text": "Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell."
+        "date": "10/4/2019",
+        "text": "Players can only respond once this spell has been cast and all its costs have been paid. No one can try to interfere with the creature you sacrificed to prevent you from casting this spell."
       }
     ]
   },
@@ -5157,12 +5149,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "7/13/2018",
-        "text": "If the land is an illegal target when Tectonic Rift tries to resolve, Tectonic Rift won’t resolve and none of its effects will happen. Creatures without flying will be able to block as normal."
+        "date": "7/12/2019",
+        "text": "If the target land is an illegal target by the time Tectonic Rift tries to resolve, the spell doesn’t resolve. Creatures without flying will be able to block as normal. If the target is legal but not destroyed (most likely because it has indestructible), creatures without flying will be unable to block."
       },
       {
-        "date": "7/13/2018",
-        "text": "Because the second part of Tectonic Rift’s effect doesn’t change the characteristics of any permanents, the set of creatures affected by it is constantly updated. Creatures without flying that enter the battlefield later in the turn can’t block, and creatures that gain flying later in the turn can block."
+        "date": "7/12/2019",
+        "text": "Because it doesn’t modify the characteristics of creatures, Tectonic Rift can affect creatures that enter the battlefield or lose flying after the spell resolves, and it will stop affecting creatures that gain flying."
       }
     ]
   },
@@ -5182,7 +5174,7 @@
     "mana_cost": "4RR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Flying",
+      "Flying (This creature can't be blocked except by creatures with flying or reach.)",
       "Haste (This creature can attack and {T} as soon as it comes under your control.)"
     ],
     "flavor_text": "Sometimes an eruption in Shiv produces something more dangerous than a mere river of molten rock.",
@@ -5412,7 +5404,7 @@
       },
       {
         "date": "8/15/2010",
-        "text": "If a creature you control is being targeted by a spell when Autumn’s Veil resolves, nothing happens right away. When that spell would resolve, its color is checked. If it’s blue or black, that creature will be an illegal target for that spell, and will be unable to be affected by it. If all that spell’s targets have become illegal by the time it would resolve, it’s countered."
+        "text": "If a creature you control is being targeted by a spell when Autumn’s Veil resolves, nothing happens right away. When that spell would resolve, its color is checked. If it’s blue or black, that creature will be an illegal target for that spell, and will be unable to be affected by it. If all that spell’s targets have become illegal by the time it would resolve, it won’t resolve."
       },
       {
         "date": "8/15/2010",
@@ -5816,7 +5808,7 @@
     "oracle_text": [
       "Trample",
       "Play with the top card of your library revealed.",
-      "You may cast the top card of your library if it's a creature card. (Do this only any time you could cast that creature card. You still pay the spell's costs.)"
+      "You may cast creature spells from the top of your library. (Do this only any time you could cast that creature spell. You still pay the spell's costs.)"
     ],
     "flavor_text": null,
     "power": "7",
@@ -7112,7 +7104,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Scepter of Empires deals 1 damage to target player or planeswalker. It deals 3 damage to that player or planeswalker instead if you control artifacts named Crown of Empires and Throne of Empires."
+      "{T}: Scepter of Empires deals 1 damage to target player or planeswalker. It deals 3 damage instead if you control artifacts named Crown of Empires and Throne of Empires."
     ],
     "flavor_text": "\"With this scepter, smite your enemies.\"\n—Scepter inscription",
     "power": null,
@@ -7175,7 +7167,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, {T}: End the turn. Activate this ability only during your turn. (Exile all spells and abilities on the stack. Discard down to your maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)"
+      "{1}, {T}: End the turn. Activate this ability only during your turn. (Exile all spells and abilities from the stack. Discard down to your maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)"
     ],
     "flavor_text": null,
     "power": null,

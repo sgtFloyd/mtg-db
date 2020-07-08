@@ -1117,7 +1117,7 @@
     "mana_cost": "1UU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Raid — If you attacked with a creature this turn, you may pay {U} rather than pay this spell's mana cost.",
+      "Raid — If you attacked this turn, you may pay {U} rather than pay this spell's mana cost.",
       "Counter target spell."
     ],
     "flavor_text": "\"Damn the cannons, mates. Charge!\"",
@@ -1241,7 +1241,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Crashing Tide has flash as long as you control a Merfolk.",
+      "This spell has flash as long as you control a Merfolk.",
       "Return target creature to its owner's hand.",
       "Draw a card."
     ],
@@ -1314,7 +1314,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Raid — When Deadeye Rig-Hauler enters the battlefield, if you attacked with a creature this turn, you may return target creature to its owner's hand."
+      "Raid — When Deadeye Rig-Hauler enters the battlefield, if you attacked this turn, you may return target creature to its owner's hand."
     ],
     "flavor_text": "\"Up you go, you soggy rat.\"",
     "power": "3",
@@ -1429,7 +1429,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Counter target creature spell. You create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "Counter target creature spell. You create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": "Being a merciful pirate, she saved the vampire's gold from falling overboard.",
     "power": null,
@@ -1657,10 +1657,10 @@
     "mana_cost": "5UU",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "Nezahal, Primal Tide can't be countered.",
+      "This spell can't be countered.",
       "You have no maximum hand size.",
       "Whenever an opponent casts a noncreature spell, draw a card.",
-      "Discard three cards: Exile Nezahal. Return it to the battlefield tapped under its owner's control at the beginning of the next end step."
+      "Discard three cards: Exile Nezahal, Primal Tide. Return it to the battlefield tapped under its owner's control at the beginning of the next end step."
     ],
     "flavor_text": null,
     "power": "7",
@@ -1808,7 +1808,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Sailor of Means enters the battlefield, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "When Sailor of Means enters the battlefield, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": "The rising tide of Orazca's plunder lifted all ships.",
     "power": "1",
@@ -1974,7 +1974,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Raid — This spell costs {1} less to cast if you attacked with a creature this turn.",
+      "Raid — This spell costs {1} less to cast if you attacked this turn.",
       "Flying"
     ],
     "flavor_text": "\"Prepare to be boarded.\"",
@@ -2433,7 +2433,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Enchant creature an opponent controls",
-      "When enchanted creature dies, exile cards equal to its power from the top of its owner's library. You may cast nonland cards from among them for as long as they remain exiled, and you may spend mana as though it were mana of any type to cast those spells."
+      "When enchanted creature dies, exile cards equal to its power from the top of its owner's library. You may cast spells from among those cards for as long as they remain exiled, and you may spend mana as though it were mana of any type to cast those spells."
     ],
     "flavor_text": null,
     "power": null,
@@ -3013,7 +3013,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever another creature you control dies, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "Whenever another creature you control dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": "\"Shame to let good gold go to the grave.\"",
     "power": "1",
@@ -3485,7 +3485,7 @@
     "mana_cost": "6R",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "For each land you control, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "For each land you control, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": "\"Why squabble for trinkets when we could be living large off all this gold?\"\n—Admiral Beckett Brass",
     "power": null,
@@ -3513,7 +3513,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Brazen Freebooter enters the battlefield, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "When Brazen Freebooter enters the battlefield, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": "Finders, keepers.",
     "power": "3",
@@ -3639,7 +3639,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "First strike",
-      "When Dire Fleet Daredevil enters the battlefield, exile target instant or sorcery card from an opponent's graveyard. You may cast that card this turn, and you may spend mana as though it were mana of any type to cast that spell. If that card would be put into a graveyard this turn, exile it instead."
+      "When Dire Fleet Daredevil enters the battlefield, exile target instant or sorcery card from an opponent's graveyard. You may cast it this turn, and you may spend mana as though it were mana of any type to cast that spell. If that spell would be put into a graveyard this turn, exile it instead."
     ],
     "flavor_text": null,
     "power": "2",
@@ -3678,7 +3678,7 @@
     "mana_cost": "4RR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Whenever Etali, Primal Storm attacks, exile the top card of each player's library, then you may cast any number of nonland cards exiled this way without paying their mana costs."
+      "Whenever Etali, Primal Storm attacks, exile the top card of each player's library, then you may cast any number of spells from among those cards without paying their mana costs."
     ],
     "flavor_text": "The storm rages and the earth breaks.",
     "power": "6",
@@ -3994,7 +3994,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "As an additional cost to cast this spell, discard a card.",
-      "Draw two cards and create two colorless Treasure artifact tokens with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "Draw two cards and create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": "Goblins can carry their body weight in loot.",
     "power": null,
@@ -4349,7 +4349,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Raid — Swaggering Corsair enters the battlefield with a +1/+1 counter on it if you attacked with a creature this turn."
+      "Raid — Swaggering Corsair enters the battlefield with a +1/+1 counter on it if you attacked this turn."
     ],
     "flavor_text": "\"I'm about to make you famous. From the golden city to High and Dry, they'll talk about how fast you died!\"",
     "power": "2",
@@ -5507,8 +5507,8 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever World Shaper attacks, you may put the top three cards of your library into your graveyard.",
-      "When World Shaper dies, put all land cards from your graveyard onto the battlefield tapped."
+      "Whenever World Shaper attacks, you may mill three cards.",
+      "When World Shaper dies, return all land cards from your graveyard to the battlefield tapped."
     ],
     "flavor_text": "\"The Great River will not be tamed.\"",
     "power": "3",
@@ -6283,7 +6283,7 @@
     "mana_cost": "1UR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Raid — If you attacked with a creature this turn, you may have Protean Raider enter the battlefield as a copy of any creature on the battlefield."
+      "Raid — If you attacked this turn, you may have Protean Raider enter the battlefield as a copy of any creature on the battlefield."
     ],
     "flavor_text": "Imitation is the sincerest form of piracy.",
     "power": "2",
@@ -6531,7 +6531,7 @@
     "mana_cost": "2UR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever one or more creatures you control deal combat damage to a player, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
+      "Whenever one or more creatures you control deal combat damage to a player, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
       "At the beginning of your end step, if you control five or more artifacts, transform Storm the Vault."
     ],
     "flavor_text": null,
@@ -6802,7 +6802,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Defender",
-      "When Gleaming Barrier dies, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "When Gleaming Barrier dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": "\"Gold without freedom might as well be lead.\"\n—Angrath",
     "power": "0",

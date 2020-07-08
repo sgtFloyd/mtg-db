@@ -1094,10 +1094,6 @@
       {
         "date": "10/4/2004",
         "text": "You choose the targets and you choose how to divide up the 5 damage on announcement."
-      },
-      {
-        "date": "10/4/2004",
-        "text": "You can’t choose zero targets. You must choose at least one target."
       }
     ]
   },
@@ -1683,7 +1679,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
+      "Flying"
     ],
     "flavor_text": "As insubstantial, and as powerful, as the wind that carries it.",
     "power": "4",
@@ -5520,7 +5516,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Other Goblin creatures get +1/+1 and have mountainwalk. (They can't be blocked as long as defending player controls a Mountain.)"
+      "Other Goblins get +1/+1 and have mountainwalk."
     ],
     "flavor_text": "To be king, Numsgil did in Blog, who did in Unkful, who did in Viddle, who did in Loll, who did in Alrok . . . .\"",
     "power": "2",
@@ -5938,7 +5934,7 @@
     "rulings": [
       {
         "date": "11/24/2014",
-        "text": "The number of targets chosen for Pyrotechnics must be at least one and at most four. You choose how the damage is divided as you cast the spell, not as it resolves. Each target must be assigned at least 1 damage."
+        "text": "You choose how the damage is divided as you cast the spell, not as it resolves. Each target must be assigned at least 1 damage."
       },
       {
         "date": "11/24/2014",
@@ -6353,7 +6349,7 @@
     "mana_cost": "4RR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Flying",
+      "Flying (This creature can't be blocked except by creatures with flying or reach.)",
       "Haste (This creature can attack and {T} as soon as it comes under your control.)"
     ],
     "flavor_text": "Speed and fire are always a deadly combination.",
@@ -8726,7 +8722,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}, {T}: Target player puts the top two cards of their library into their graveyard."
+      "{2}, {T}: Target player mills two cards."
     ],
     "flavor_text": "More than one mage has been driven insane by the sound of the millstone relentlessly grinding away.",
     "power": null,

@@ -361,7 +361,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "W",
@@ -1502,7 +1502,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
+      "Flying"
     ],
     "flavor_text": "As the ship approached, the jade totem rose high overhead. Power rippled. Eyes of stone glowed and crackled. Out hissed a breath of the world, and a windstorm came alive.",
     "power": "4",
@@ -1587,7 +1587,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Draw two cards. Then discard a card unless you attacked with a creature this turn."
+      "Draw two cards. Then discard a card unless you attacked this turn."
     ],
     "flavor_text": "While other pirates prowl for treasure, Captain Parrish plunders secrets.",
     "power": null,
@@ -1708,7 +1708,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Return target creature to its owner's hand. Create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "Return target creature to its owner's hand. Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": "Pockets full of gold, lungs full of brine.",
     "power": null,
@@ -1859,7 +1859,7 @@
     "mana_cost": "5UU",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "Whenever Fleet Swallower attacks, target player puts the top half of their library, rounded up, into their graveyard."
+      "Whenever Fleet Swallower attacks, target player mills half their library, rounded up."
     ],
     "flavor_text": "\"Captain, I think that island is following us.\"",
     "power": "6",
@@ -2083,7 +2083,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Raid — At the beginning of your end step, if you attacked with a creature this turn, target opponent puts the top four cards of their library into their graveyard."
+      "Raid — At the beginning of your end step, if you attacked this turn, target opponent mills four cards."
     ],
     "flavor_text": "\"You won't be needing this. Or this. Or these . . .\"",
     "power": null,
@@ -2242,7 +2242,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Draw two cards. Create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "Draw two cards. Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": "Nothing warms the heart like plunder.",
     "power": null,
@@ -2270,7 +2270,7 @@
     "mana_cost": "4U",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "When Prosperous Pirates enters the battlefield, create two colorless Treasure artifact tokens with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "When Prosperous Pirates enters the battlefield, create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": "The floating city of High and Dry hasn't yet sunk under the weight of gold, but it's not for want of trying.",
     "power": "3",
@@ -2382,7 +2382,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Sailor of Means enters the battlefield, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "When Sailor of Means enters the battlefield, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": "In the Brazen Coalition, the wheels of business are greased with plunder.",
     "power": "1",
@@ -2511,7 +2511,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Raid — When Shipwreck Looter enters the battlefield, if you attacked with a creature this turn, you may draw a card. If you do, discard a card."
+      "Raid — When Shipwreck Looter enters the battlefield, if you attacked this turn, you may draw a card. If you do, discard a card."
     ],
     "flavor_text": "One pirate's wreck is another's reward.",
     "power": "2",
@@ -2716,7 +2716,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Counter target spell. Create X colorless Treasure artifact tokens, where X is that spell's converted mana cost. They have \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "Counter target spell. Create X Treasure tokens, where X is that spell's converted mana cost. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": null,
     "power": null,
@@ -2754,7 +2754,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Flying",
-      "Raid — Storm Fleet Aerialist enters the battlefield with a +1/+1 counter on it if you attacked with a creature this turn."
+      "Raid — Storm Fleet Aerialist enters the battlefield with a +1/+1 counter on it if you attacked this turn."
     ],
     "flavor_text": "\"Only one thing beats the freedom of the sea: the freedom of the sky.\"",
     "power": "1",
@@ -2791,7 +2791,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Raid — When Storm Fleet Spy enters the battlefield, if you attacked with a creature this turn, draw a card."
+      "Raid — When Storm Fleet Spy enters the battlefield, if you attacked this turn, draw a card."
     ],
     "flavor_text": "\"They're searching in the same direction we are. And for the same thing, I'll wager.\"",
     "power": "2",
@@ -3211,7 +3211,7 @@
     "mana_cost": "3BB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Destroy target creature. Create two colorless Treasure artifact tokens with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "Destroy target creature. Create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": "For a price, the floating city of High and Dry offers all the amenities a pirate could want: rest, recreation, and revenge.",
     "power": null,
@@ -3305,7 +3305,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Raid — When Deadeye Tormentor enters the battlefield, if you attacked with a creature this turn, target opponent discards a card."
+      "Raid — When Deadeye Tormentor enters the battlefield, if you attacked this turn, target opponent discards a card."
     ],
     "flavor_text": "Despite their noble heritage, the pirates of the Deadeye Fleet are known for underhanded tactics and despicable trickery.",
     "power": "2",
@@ -3470,7 +3470,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Dire Fleet Hoarder dies, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "When Dire Fleet Hoarder dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": "Among the pirates of the Brazen Coalition, the only thing more dangerous than failure is success.",
     "power": "2",
@@ -3714,7 +3714,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Target opponent discards two cards.",
-      "Raid — If you attacked with a creature this turn, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "Raid — If you attacked this turn, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": null,
     "power": null,
@@ -3767,16 +3767,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "9/29/2017",
+        "date": "6/23/2020",
         "text": "If Kitesail Freebooter leaves the battlefield before its enters-the-battlefield ability resolves, the opponent will reveal their hand, but no card will be exiled."
-      },
-      {
-        "date": "9/29/2017",
-        "text": "The exiled card returns to its owner’s hand immediately after Kitesail Freebooter leaves the battlefield. Nothing happens between the two events, including state-based actions."
-      },
-      {
-        "date": "9/29/2017",
-        "text": "In a multiplayer game, if Kitesail Freebooter’s owner leaves the game, the exiled card will return to its owner’s hand. Because the one-shot effect that returns the card isn’t an ability that goes on the stack, it won’t cease to exist along with the leaving player’s spells and abilities on the stack."
       }
     ]
   },
@@ -3965,7 +3957,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Whenever an opponent discards a card, that player loses 2 life.",
-      "Raid — At the beginning of your end step, if you attacked with a creature this turn, target opponent discards a card."
+      "Raid — At the beginning of your end step, if you attacked this turn, target opponent discards a card."
     ],
     "flavor_text": "One was spared to tell the gruesome tale.",
     "power": null,
@@ -4003,7 +3995,7 @@
     "mana_cost": "4B",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Whenever a creature an opponent controls dies, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
+      "Whenever a creature an opponent controls dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
       "At the beginning of your upkeep, if you control ten or more Treasures, you win the game."
     ],
     "flavor_text": null,
@@ -4049,7 +4041,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Raid — At the beginning of your end step, if you attacked with a creature this turn, reveal the top card of your library and put that card into your hand. You lose life equal to the card's converted mana cost."
+      "Raid — At the beginning of your end step, if you attacked this turn, reveal the top card of your library and put that card into your hand. You lose life equal to the card's converted mana cost."
     ],
     "flavor_text": null,
     "power": "3",
@@ -4102,7 +4094,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{2}{B}, Sacrifice a creature: Create two colorless Treasure artifact tokens with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
+      "{2}{B}, Sacrifice a creature: Create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
       "Sacrifice three Treasures: Draw a card."
     ],
     "flavor_text": "\"This scum is barely worth the trouble.\"",
@@ -4475,7 +4467,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Wanted Scoundrels dies, target opponent creates two colorless Treasure artifact tokens with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "When Wanted Scoundrels dies, target opponent creates two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": "\"Trust me. The reward's not worth it.\"",
     "power": "4",
@@ -4674,7 +4666,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Haste",
-      "Whenever Captain Lannery Storm attacks, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
+      "Whenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
       "Whenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn."
     ],
     "flavor_text": null,
@@ -4945,7 +4937,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Firecannon Blast deals 3 damage to target creature.",
-      "Raid — Firecannon Blast deals 6 damage to that creature instead if you attacked with a creature this turn."
+      "Raid — Firecannon Blast deals 6 damage instead if you attacked this turn."
     ],
     "flavor_text": "Goblins' fearlessness and diminutive size make them the perfect cannoneers.",
     "power": null,
@@ -5304,7 +5296,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Repeating Barrage deals 3 damage to any target.",
-      "Raid — {3}{R}{R}: Return Repeating Barrage from your graveyard to your hand. Activate this ability only if you attacked with a creature this turn."
+      "Raid — {3}{R}{R}: Return Repeating Barrage from your graveyard to your hand. Activate this ability only if you attacked this turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -5342,7 +5334,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "First strike",
-      "Raid — Rigging Runner enters the battlefield with a +1/+1 counter on it if you attacked with a creature this turn."
+      "Raid — Rigging Runner enters the battlefield with a +1/+1 counter on it if you attacked this turn."
     ],
     "flavor_text": "The hook makes him feel brave, and the hat makes him feel fancy.",
     "power": "1",
@@ -5522,7 +5514,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Raid — When Storm Fleet Arsonist enters the battlefield, if you attacked with a creature this turn, target opponent sacrifices a permanent."
+      "Raid — When Storm Fleet Arsonist enters the battlefield, if you attacked this turn, target opponent sacrifices a permanent."
     ],
     "flavor_text": "\"Go ahead, build another. I'll burn that down as well.\"",
     "power": "4",
@@ -5560,7 +5552,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Raid — When Storm Fleet Pyromancer enters the battlefield, if you attacked with a creature this turn, Storm Fleet Pyromancer deals 2 damage to any target."
+      "Raid — When Storm Fleet Pyromancer enters the battlefield, if you attacked this turn, Storm Fleet Pyromancer deals 2 damage to any target."
     ],
     "flavor_text": null,
     "power": "3",
@@ -5634,7 +5626,7 @@
     "mana_cost": "5R",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Whenever you cast a spell from your hand, reveal the top X cards of your library, where X is that spell's converted mana cost. You may cast a card revealed this way with converted mana cost X or less without paying its mana cost. Put the rest on the bottom of your library in a random order."
+      "Whenever you cast a spell from your hand, reveal the top X cards of your library, where X is that spell's converted mana cost. You may cast a spell with converted mana cost X or less from among cards revealed this way without paying its mana cost. Put the rest on the bottom of your library in a random order."
     ],
     "flavor_text": null,
     "power": null,
@@ -5692,7 +5684,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target creature gets +3/+0 and gains first strike until end of turn."
+      "Target creature gets +3/+0 and gains first strike until end of turn. (It deals combat damage before creatures without first strike.)"
     ],
     "flavor_text": "\"Everyone has a weak spot.\"",
     "power": null,
@@ -5872,7 +5864,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Each opponent must attack you or a planeswalker you control with at least one creature each combat if able.",
-      "At the beginning of your end step, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "At the beginning of your end step, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": null,
     "power": null,
@@ -6020,7 +6012,7 @@
     "mana_cost": "RR",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Wily Goblin enters the battlefield, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "When Wily Goblin enters the battlefield, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": "Goblins climb and swing with ease, whether through a pirate ship's rigging or a tree's branches.",
     "power": "1",
@@ -7592,7 +7584,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Deadeye Plunderers gets +1/+1 for each artifact you control.",
-      "{2}{U}{B}: Create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "{2}{U}{B}: Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": "\"Keep your friends close and your enemies within range.\"",
     "power": "3",
@@ -7811,7 +7803,7 @@
     "mana_cost": "2UR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Raid — At the beginning of your end step, if you attacked with a creature this turn, you may draw a card. If you do, discard a card."
+      "Raid — At the beginning of your end step, if you attacked this turn, you may draw a card. If you do, discard a card."
     ],
     "flavor_text": "\"I'll be taking that.\"",
     "power": "4",
@@ -8047,7 +8039,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "+2: Create a 2/2 black Pirate creature token with menace.",
-      "−3: Destroy target artifact, creature, or enchantment. Create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
+      "−3: Destroy target artifact, creature, or enchantment. Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
       "−10: Target player's life total becomes 1."
     ],
     "flavor_text": null,
@@ -8709,7 +8701,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Equipped creature gets +1/+0.",
-      "Whenever equipped creature deals combat damage to a player, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
+      "Whenever equipped creature deals combat damage to a player, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
       "Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"
     ],
     "flavor_text": null,
@@ -8934,23 +8926,23 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "9/29/2017",
+        "date": "10/4/2019",
         "text": "You can choose any card name, even if that card doesn’t normally have an activated ability. You’re not limited to the names of cards you saw in the opponent’s hand."
       },
       {
-        "date": "9/29/2017",
-        "text": "You can’t choose the name of a token unless that token has the same name as a card."
+        "date": "10/4/2019",
+        "text": "You can’t choose the name of a token (such as Food) unless that token has the same name as a card."
       },
       {
-        "date": "9/29/2017",
+        "date": "10/4/2019",
         "text": "Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keyword abilities (such as equip and crew) are activated abilities and will have colons in their reminder text. Triggered abilities (starting with “when,” “whenever,” or “at”) are unaffected by the last ability of Sorcerous Spyglass."
       },
       {
-        "date": "9/29/2017",
+        "date": "10/4/2019",
         "text": "An activated mana ability is one that produces mana as it resolves, not one that costs mana to activate."
       },
       {
-        "date": "9/29/2017",
+        "date": "10/4/2019",
         "text": "Sorcerous Spyglass affects cards regardless of what zone they’re in. This includes cards in hand, cards in the graveyard, and exiled cards."
       }
     ]
@@ -9036,7 +9028,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, {T}: Scry 1. Put a landmark counter on Treasure Map. Then if there are three or more landmark counters on it, remove those counters, transform Treasure Map, and create three colorless Treasure artifact tokens with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "{1}, {T}: Scry 1. Put a landmark counter on Treasure Map. Then if there are three or more landmark counters on it, remove those counters, transform Treasure Map, and create three Treasure tokens. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": null,
     "power": null,

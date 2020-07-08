@@ -40,7 +40,7 @@
       },
       {
         "date": "6/14/2019",
-        "text": "If a spell has hybrid mana symbols in its mana cost, you choose which half you will be paying before determining the total cost. For example, if a spell of the chosen type costs {2}, you may choose for the cost to be {2}{W}{U} and then reduce it to {2}."
+        "text": "If a spell has hybrid mana symbols in its mana cost, you choose which half you will be paying before determining the total cost. For example, if a spell of the chosen type costs {2}{W/U}{W/U}, you may choose for the cost to be {2}{W}{U} and then reduce it to {2}."
       },
       {
         "date": "6/14/2019",
@@ -1934,7 +1934,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Play with the top card of your library revealed.",
-      "You may play the top card of your library."
+      "You may play lands and cast spells from the top of your library."
     ],
     "flavor_text": "\"Is the inevitable any less miraculous?\"\n—Veldka, wandering sage",
     "power": null,
@@ -1980,7 +1980,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever another snow permanent enters the battlefield under your control, you may have target player put the top two cards of their library into their graveyard."
+      "Whenever another snow permanent enters the battlefield under your control, you may have target player mill two cards."
     ],
     "flavor_text": "Its shell can withstand anything but a thaw.",
     "power": "0",
@@ -2572,7 +2572,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player puts the top four cards of their library into their graveyard. You shuffle up to four cards from your graveyard into your library.",
+      "Target player mills four cards. You shuffle up to four cards from your graveyard into your library.",
       "Replicate {2}{U}{U} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)"
     ],
     "flavor_text": null,
@@ -5250,7 +5250,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Destroy target artifact.",
-      "Dredge 1 (If you would draw a card, instead you may put exactly one card from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 1 (If you would draw a card, you may mill a card instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": "Pricy baubles are no match for cheap tricks.",
     "power": null,
@@ -7033,7 +7033,7 @@
     "mana_cost": "2UR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Exile the top six cards of your library. You may cast up to two sorcery cards with converted mana cost 3 or less from among them without paying their mana costs. Put the exiled cards not cast this way on the bottom of your library in a random order."
+      "Exile the top six cards of your library. You may cast up to two sorcery spells with converted mana cost 3 or less from among them without paying their mana costs. Put the exiled cards not cast this way on the bottom of your library in a random order."
     ],
     "flavor_text": null,
     "power": null,
@@ -7481,7 +7481,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Flying",
-      "During each of your turns, you may cast an instant or sorcery card from your graveyard. If a card cast this way would be put into your graveyard, exile it instead."
+      "During each of your turns, you may cast an instant or sorcery spell from your graveyard. If a spell cast this way would be put into your graveyard, exile it instead."
     ],
     "flavor_text": "\"Loss has no meaning here. You cannot take from those who have nothing.\"",
     "power": "3",
@@ -7899,7 +7899,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Sacrifice a creature: Target player puts a number of cards equal to the sacrificed creature's power from the top of their library into their graveyard."
+      "Sacrifice a creature: Target player mills cards equal to the sacrificed creature's power."
     ],
     "flavor_text": "\"It is not that you will go mad. It is that you will beg for madness.\"\n—Volrath",
     "power": null,
@@ -7961,9 +7961,9 @@
     "subtypes": [],
     "rarity": "Common",
     "mana_cost": "{S}",
-    "converted_mana_cost": 2,
+    "converted_mana_cost": 1,
     "oracle_text": [
-      "<i>({S} can be paid with one mana from a snow permanent.)</i>",
+      "({S} can be paid with one mana from a snow permanent.)",
       "When Arcum's Astrolabe enters the battlefield, draw a card.",
       "{1}, {T}: Add one mana of any color."
     ],
@@ -8087,9 +8087,9 @@
     ],
     "rarity": "Uncommon",
     "mana_cost": "{S}",
-    "converted_mana_cost": 2,
+    "converted_mana_cost": 1,
     "oracle_text": [
-      "<i>({S} can be paid with one mana from a snow permanent.)</i>"
+      "({S} can be paid with one mana from a snow permanent.)"
     ],
     "flavor_text": "In colder climates, ice is more obedient than stone.",
     "power": "2",

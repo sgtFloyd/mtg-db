@@ -1344,7 +1344,7 @@
     "supertypes": [],
     "subtypes": [
       "Elemental",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Uncommon",
     "mana_cost": "4U",
@@ -3460,7 +3460,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "At the beginning of your upkeep, exile the top card of each opponent's library. Until end of turn, you may cast nonland cards from among those exiled cards, and you may spend mana as though it were mana of any color to cast those spells."
+      "At the beginning of your upkeep, exile the top card of each opponent's library. Until end of turn, you may cast spells from among those exiled cards, and you may spend mana as though it were mana of any color to cast those spells."
     ],
     "flavor_text": null,
     "power": null,
@@ -4395,8 +4395,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "8/25/2015",
-        "text": "If the target of an Aura becomes illegal before the spell resolves, the Aura won’t resolve and will be put into its owner’s graveyard. It won’t enter the battlefield and you won’t draw a card."
+        "date": "7/12/2019",
+        "text": "If the target creature is an illegal target by the time Angelic Gift tries to resolve, the spell doesn’t resolve. It won’t enter the battlefield, so you won’t draw a card."
       }
     ]
   },
@@ -4443,7 +4443,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound",
+      "Dog",
       "Warrior"
     ],
     "rarity": "Common",
@@ -4708,20 +4708,24 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "2/1/2014",
-        "text": "Loyal Pegasus can be declared as an attacker only if another creature is declared as an attacker at the same time. Similarly, Loyal Pegasus can be declared as a blocker only if another creature is declared as a blocker at the same time."
+        "date": "7/12/2019",
+        "text": "If you control more than one Loyal Pegasus, they can attack or block together, even if no other creatures attack or block."
       },
       {
-        "date": "2/1/2014",
-        "text": "If you control more than one Loyal Pegasus, they can both attack or block together, even if no other creatures attack or block."
+        "date": "7/12/2019",
+        "text": "Although Loyal Pegasus can’t attack alone, other attacking creatures don’t have to attack the same player or planeswalker. For example, Loyal Pegasus could attack an opponent and another creature could attack a planeswalker that opponent controls. Similarly, other blocking creatures don’t have to block the same creature that Loyal Pegasus blocks."
       },
       {
-        "date": "2/1/2014",
-        "text": "Although Loyal Pegasus can’t attack alone, other attacking creatures don’t have to attack the same player or planeswalker. For example, Loyal Pegasus could attack an opponent and another creature could attack a planeswalker that opponent controls."
+        "date": "7/12/2019",
+        "text": "Once Loyal Pegasus has attacked or blocked, it will remain in combat even if you no longer control another attacking or blocking creature."
       },
       {
-        "date": "2/1/2014",
-        "text": "In a Two-Headed Giant game (or in another format using the shared team turns option), Loyal Pegasus can attack or block with a creature controlled by your teammate, even if no other creatures you control are attacking or blocking."
+        "date": "7/12/2019",
+        "text": "If an effect says that Loyal Pegasus attacks or blocks “if able,” and you control one or more other creatures that are able to attack or block, you must attack or block with Loyal Pegasus and at least one other creature."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "In a Two-Headed Giant game, Loyal Pegasus can attack or block with a creature controlled by your teammate, even if no other creatures you control are attacking or blocking."
       }
     ]
   },
@@ -5369,8 +5373,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "11/17/2017",
-        "text": "Frost Lynx’s ability can target a creature that’s already tapped. That creature still won’t untap during its controller’s next untap step."
+        "date": "4/17/2020",
+        "text": "Frost Lynx’s triggered ability can target a creature that’s already tapped. That creature won’t untap during its controller’s next untap step."
       }
     ]
   },
@@ -7624,15 +7628,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/15/2010",
-        "text": "You may target zero, one, two, or three creatures."
+        "date": "1/24/2020",
+        "text": "The “can’t block” effect applies to each of the targeted creatures—and to only those creatures—even if Wrap in Flames deals no damage to one or more of them (due to a prevention effect, for example) or if Wrap in Flames deals damage to a different creature (due to a redirection effect)."
       },
       {
-        "date": "6/15/2010",
-        "text": "The “can’t block” effect applies to each of the targeted creatures — and only those creatures — even if Wrap in Flames deals no damage to one or more of them (due to a prevention effect, for example) or Wrap in Flames deals damage to a different creature (due to a redirection effect)."
-      },
-      {
-        "date": "6/15/2010",
+        "date": "1/24/2020",
         "text": "If any of the targeted creatures is an illegal target by the time Wrap in Flames resolves, it won’t be dealt damage and will be able to block. The other targeted creatures will still be affected."
       }
     ]
@@ -8264,7 +8264,12 @@
     "multiverse_id": 446177,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "7/12/2019",
+        "text": "If the target card is an illegal target by the time Pulse of Murasa tries to resolve, the spell doesn’t resolve. You won’t gain 6 life."
+      }
+    ]
   },
   {
     "name": "Return to the Earth",
@@ -9096,10 +9101,6 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
-      {
-        "date": "9/20/2016",
-        "text": "As Eager Construct’s triggered ability resolves, first the player whose turn it is scrys 1, then each other player in turn order does the same. Each player will know the choices made by players who chose before them."
-      },
       {
         "date": "6/8/2018",
         "text": "If multiple players are instructed to scry at once, such as while resolving Eager Construct’s triggered ability, those players each look at the top card of their library at the same time, then they choose in turn order whether to put those cards on the top or bottom of their library."

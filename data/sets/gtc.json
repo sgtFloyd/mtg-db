@@ -1162,7 +1162,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Flying",
-      "When Diluvian Primordial enters the battlefield, for each opponent, you may cast up to one target instant or sorcery card from that player's graveyard without paying its mana cost. If a card cast this way would be put into a graveyard this turn, exile it instead."
+      "When Diluvian Primordial enters the battlefield, for each opponent, you may cast up to one target instant or sorcery card from that player's graveyard without paying its mana cost. If a spell cast this way would be put into a graveyard this turn, exile it instead."
     ],
     "flavor_text": null,
     "power": "5",
@@ -1372,10 +1372,6 @@
       {
         "date": "4/15/2013",
         "text": "If a creature with an encoded card deals combat damage to more than one player simultaneously (perhaps because some of the combat damage was redirected), the triggered ability will trigger once for each player it deals combat damage to. Each ability will create a copy of the exiled card and allow you to cast it."
-      },
-      {
-        "date": "4/15/2013",
-        "text": "This spell can target tapped creatures. If a targeted creature is already tapped when the spell resolves, that creature just remains tapped and doesn’t untap during its controller’s next untap step."
       }
     ]
   },
@@ -1590,7 +1586,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "When Mindeye Drake dies, target player puts the top five cards of their library into their graveyard."
+      "When Mindeye Drake dies, target player mills five cards."
     ],
     "flavor_text": "They can map both the cityscape and the minds of its architects.",
     "power": "2",
@@ -1690,7 +1686,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever another blue creature enters the battlefield under your control, target player puts the top two cards of their library into their graveyard."
+      "Whenever another blue creature enters the battlefield under your control, target player mills two cards."
     ],
     "flavor_text": "\"I offer you wisdom untainted by false loyalty, learning free of any guild's agenda.\"",
     "power": "2",
@@ -2494,7 +2490,7 @@
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Destroy target nonartifact creature. Its controller puts a number of cards equal to that creature's power from the top of their library into their graveyard."
+      "Destroy target nonartifact creature. Its controller mills cards equal to that creature's power."
     ],
     "flavor_text": "\"Watch people flock to a murder scene. Then tell me we're not all a little sick in the head.\"\n—Juri, proprietor of the Juri Revue",
     "power": null,
@@ -3281,7 +3277,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn."
+      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)"
     ],
     "flavor_text": "Each day uncertainty and rumors spread, and each night attendance at the Juri Revue increases.",
     "power": null,
@@ -3292,11 +3288,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "Act of Treason can target any creature, even one that’s untapped or one you already control."
       },
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it."
       }
     ]
@@ -5843,7 +5839,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "{1}{U}{B}: Whenever a card is put into an opponent's graveyard from anywhere this turn, that player loses 1 life.",
-      "{2}{U}{B}: Target player puts the top two cards of their library into their graveyard."
+      "{2}{U}{B}: Target player mills two cards."
     ],
     "flavor_text": null,
     "power": "2",
@@ -6903,7 +6899,7 @@
     "mana_cost": "UB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player puts the top three cards of their library into their graveyard.",
+      "Target player mills three cards.",
       "Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)"
     ],
     "flavor_text": null,
@@ -7046,7 +7042,7 @@
     "mana_cost": "1UB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Counter target spell. Its controller puts the top two cards of their library into their graveyard."
+      "Counter target spell. Its controller mills two cards."
     ],
     "flavor_text": "Until more information could be gleaned about Niv-Mizzet's intentions, Lazav took every opportunity to stall his experiments.",
     "power": null,
@@ -7168,7 +7164,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Fish",
+      "Shark",
       "Crab"
     ],
     "rarity": "Common",
@@ -8119,7 +8115,7 @@
     "mana_cost": "4{U/B}",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Target player puts the top four cards of their library into their graveyard. You draw a card for each creature card put into that graveyard this way."
+      "Target player mills four cards. You draw a card for each creature card put into their graveyard this way."
     ],
     "flavor_text": "\"Ask the right questions in the right way and truth is inevitable.\"\n—Lazav",
     "power": null,
@@ -8267,7 +8263,7 @@
     "oracle_text": [
       "Flying",
       "Whenever Nightveil Specter deals combat damage to a player, that player exiles the top card of their library.",
-      "You may play cards exiled with Nightveil Specter."
+      "You may play lands and cast spells from among cards exiled with Nightveil Specter."
     ],
     "flavor_text": null,
     "power": "2",

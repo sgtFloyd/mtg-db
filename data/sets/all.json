@@ -2275,7 +2275,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{X}, {T}: Target opponent puts cards from the top of their library into their graveyard until a creature card or X cards are put into that graveyard this way, whichever comes first. If a creature card is put into that graveyard this way, sacrifice Helm of Obedience and put that card onto the battlefield under your control. X can't be 0."
+      "{X}, {T}: Target opponent mills a card, then repeats this process until a creature card or X cards have been put into their graveyard this way, whichever comes first. If one or more creature cards were put into that graveyard this way, sacrifice Helm of Obedience and put one of them onto the battlefield under your control. X can't be 0."
     ],
     "flavor_text": null,
     "power": null,
@@ -3918,7 +3918,7 @@
     "rulings": [
       {
         "date": "6/8/2016",
-        "text": "The number of targets must be at least one and at most four. Each target must be assigned at least 1 damage."
+        "text": "Each target must be assigned at least 1 damage."
       },
       {
         "date": "6/8/2016",

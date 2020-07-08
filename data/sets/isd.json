@@ -773,7 +773,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "9/22/2011",
+        "date": "7/12/2019",
         "text": "Multiple instances of lifelink on the same creature are redundant."
       }
     ]
@@ -1177,7 +1177,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "4W",
@@ -1393,7 +1393,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Armored Skaab enters the battlefield, put the top four cards of your library into your graveyard."
+      "When Armored Skaab enters the battlefield, mill four cards."
     ],
     "flavor_text": "Literally made for battle.",
     "power": "1",
@@ -1435,7 +1435,7 @@
     "rulings": [
       {
         "date": "9/22/2011",
-        "text": "Although you’re paying the card’s mana cost, you aren’t casting that card. Abilities that reduce the cost to cast a creature spell won’t apply, and additional costs to cast that creature can’t be paid. If the card has an ability that allows another cost to be paid “rather than its mana cost,” that alternative cost can be paid. Other alternative costs that affect what it costs to cast a creature spell, such as evoke, can’t."
+        "text": "Although you’re paying the card’s mana cost, you aren’t casting that card. Abilities that reduce the cost to cast a creature spell won’t apply, and additional costs to cast that creature can’t be paid. Alternative costs that affect what it costs to cast a creature spell, such as evoke, can’t."
       },
       {
         "date": "9/22/2011",
@@ -1705,7 +1705,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Enchant player",
-      "At the beginning of enchanted player's upkeep, that player puts the top two cards of their library into their graveyard."
+      "At the beginning of enchanted player's upkeep, that player mills two cards."
     ],
     "flavor_text": "After seeing his life's work drip away, the mage decided it was a good time to go crazy.",
     "power": null,
@@ -1803,7 +1803,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}, Put the top card of your library into your graveyard: Add {C}."
+      "{T}, Mill a card: Add {C}."
     ],
     "flavor_text": "\"Garl, adjust the slurry dispensers. Garl, fetch more corpses. Garl, quit crying and give me your brain tissue. If he doesn't stop being so rude, I'm quitting.\"",
     "power": "1",
@@ -1867,7 +1867,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player puts the top three cards of their library into their graveyard.",
+      "Target player mills three cards.",
       "Flashback {1}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     ],
     "flavor_text": null,
@@ -2326,7 +2326,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Flying",
-      "{2}: Target player puts the top card of their library into their graveyard. Mindshrieker gets +X/+X until end of turn, where X is that card's converted mana cost."
+      "{2}: Target player mills a card. Mindshrieker gets +X/+X until end of turn, where X is the milled card's converted mana cost."
     ],
     "flavor_text": null,
     "power": "1",
@@ -2532,7 +2532,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever Selhoff Occultist or another creature dies, target player puts the top card of their library into their graveyard."
+      "Whenever Selhoff Occultist or another creature dies, target player mills a card."
     ],
     "flavor_text": "\"The mist whispers to those who know it to be more than a mundane fog.\"",
     "power": "2",
@@ -2897,7 +2897,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "If a Zombie you control would deal combat damage to a player, instead that player puts that many cards from the top of their library into their graveyard.",
+      "If a Zombie you control would deal combat damage to a player, instead that player mills that many cards.",
       "Whenever a creature card is put into an opponent's graveyard from their library, exile that card and create a 2/2 black Zombie creature token."
     ],
     "flavor_text": null,
@@ -3426,7 +3426,8 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Vampire"
+      "Vampire",
+      "Noble"
     ],
     "rarity": "Uncommon",
     "mana_cost": "3B",
@@ -4301,7 +4302,7 @@
     "supertypes": [],
     "subtypes": [
       "Elemental",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "1R",
@@ -4438,7 +4439,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Brimstone Volley deals 3 damage to any target.",
-      "Morbid — Brimstone Volley deals 5 damage to that permanent or player instead if a creature died this turn."
+      "Morbid — Brimstone Volley deals 5 damage instead if a creature died this turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -4798,12 +4799,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "9/22/2011",
-        "text": "The enchanted creature’s controller still chooses which player or planeswalker that creature attacks."
-      },
-      {
-        "date": "9/22/2011",
-        "text": "If, during its controller’s declare attackers step, the enchanted creature is tapped, is affected by a spell or ability that says it can’t attack, or hasn’t been under that player’s control continuously since the turn began (and doesn’t have haste), then it doesn’t attack. If there’s a cost associated with having the creature attack, the player isn’t forced to pay that cost, so it doesn’t have to attack in that case either."
+        "date": "6/23/2020",
+        "text": "If the enchanted creature can’t attack for any reason (such as being tapped or having come under that player’s control that turn), then it doesn’t attack. If there’s a cost associated with having it attack, the player isn’t forced to pay that cost, so it doesn’t have to attack in that case either."
       }
     ]
   },
@@ -4936,7 +4933,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{3}{R}: Choose any target, then put the top three cards of your library into your graveyard. Heretic's Punishment deals damage to that permanent or player equal to the highest converted mana cost among those cards."
+      "{3}{R}: Choose any target, then mill three cards. Heretic's Punishment deals damage to that permanent or player equal to the highest converted mana cost among the milled cards."
     ],
     "flavor_text": null,
     "power": null,
@@ -5316,7 +5313,12 @@
     "multiverse_id": 222904,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "6/23/2020",
+        "text": "If your life total is brought to 0 or less at the same time that Pitchburn Devils is dealt lethal damage, you lose the game before the ability goes on the stack."
+      }
+    ]
   },
   {
     "name": "Rage Thrower",
@@ -5555,7 +5557,8 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Vampire"
+      "Vampire",
+      "Noble"
     ],
     "rarity": "Rare",
     "mana_cost": "R",
@@ -7097,7 +7100,7 @@
     "oracle_text": [
       "Trample",
       "Splinterfright's power and toughness are each equal to the number of creature cards in your graveyard.",
-      "At the beginning of your upkeep, put the top two cards of your library into your graveyard."
+      "At the beginning of your upkeep, mill two cards."
     ],
     "flavor_text": null,
     "power": "*",
@@ -7847,7 +7850,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}: Each player puts the top card of their library into their graveyard."
+      "{T}: Each player mills a card."
     ],
     "flavor_text": "The bell's chime heralds the rise of the unhallowed from the grave and the fall of their victims into the earth.",
     "power": null,
@@ -8479,7 +8482,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "{T}: Add {C}.",
-      "{1}{U}{B}, {T}: Target player puts the top three cards of their library into their graveyard."
+      "{1}{U}{B}, {T}: Target player mills three cards."
     ],
     "flavor_text": "\"Some see a coastal disaster. I see a fully-stocked seagraf.\"\n—Jadar, ghoulcaller of Nephalia",
     "power": null,

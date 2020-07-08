@@ -1366,7 +1366,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "If a player would draw a card except the first one they draw in their draw step each turn, that player discards a card instead. If the player discards a card this way, they draw a card. If the player doesn't discard a card this way, they put the top card of their library into their graveyard."
+      "If a player would draw a card except the first one they draw in their draw step each turn, that player discards a card instead. If the player discards a card this way, they draw a card. If the player doesn't discard a card this way, they mill a card."
     ],
     "flavor_text": null,
     "power": null,
@@ -2167,7 +2167,7 @@
     "mana_cost": "R",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Any number of target creatures become red until end of turn."
+      "One or more target creatures become red until end of turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -2176,12 +2176,7 @@
     "multiverse_id": 1569,
     "other_part": null,
     "color_indicator": null,
-    "rulings": [
-      {
-        "date": "10/4/2004",
-        "text": "You can choose to target zero creatures."
-      }
-    ]
+    "rulings": []
   },
   {
     "name": "Elder Land Wurm",
@@ -3712,7 +3707,7 @@
     "mana_cost": "W",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Any number of target creatures become white until end of turn."
+      "One or more target creatures become white until end of turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -3721,12 +3716,7 @@
     "multiverse_id": 1617,
     "other_part": null,
     "color_indicator": null,
-    "rulings": [
-      {
-        "date": "10/4/2004",
-        "text": "It can target zero creatures if you want."
-      }
-    ]
+    "rulings": []
   },
   {
     "name": "Hell Swarm",
@@ -4225,7 +4215,7 @@
   {
     "name": "Invoke Prejudice",
     "set_name": "Legends",
-    "collector_num": "62",
+    "collector_num": "",
     "illustrator": "Harold McNeill",
     "types": [
       "Enchantment"
@@ -4242,7 +4232,7 @@
     "power": null,
     "toughness": null,
     "loyalty": null,
-    "multiverse_id": 1488,
+    "multiverse_id": 485302,
     "other_part": null,
     "color_indicator": null,
     "rulings": [
@@ -4877,7 +4867,7 @@
       "Legendary"
     ],
     "subtypes": [
-      "Human",
+      "Elf",
       "Archer"
     ],
     "rarity": "Rare",
@@ -6373,7 +6363,7 @@
     "rulings": [
       {
         "date": "11/24/2014",
-        "text": "The number of targets chosen for Pyrotechnics must be at least one and at most four. You choose how the damage is divided as you cast the spell, not as it resolves. Each target must be assigned at least 1 damage."
+        "text": "You choose how the damage is divided as you cast the spell, not as it resolves. Each target must be assigned at least 1 damage."
       },
       {
         "date": "11/24/2014",
@@ -7250,7 +7240,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Any number of target creatures become blue until end of turn."
+      "One or more target creatures become blue until end of turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -7259,12 +7249,7 @@
     "multiverse_id": 1501,
     "other_part": null,
     "color_indicator": null,
-    "rulings": [
-      {
-        "date": "10/4/2004",
-        "text": "Can target zero creatures if you want."
-      }
-    ]
+    "rulings": []
   },
   {
     "name": "Seafarer's Quay",
@@ -7782,7 +7767,7 @@
     "mana_cost": "4RG",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "When Stangg enters the battlefield, create a legendary 3/4 red and green Human Warrior creature token named Stangg Twin. Exile that token when Stangg leaves the battlefield. Sacrifice Stangg when that token leaves the battlefield."
+      "When Stangg enters the battlefield, create Stangg Twin, a legendary 3/4 red and green Human Warrior creature token. Exile that token when Stangg leaves the battlefield. Sacrifice Stangg when that token leaves the battlefield."
     ],
     "flavor_text": null,
     "power": "3",
@@ -8013,7 +7998,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Any number of target creatures become green until end of turn."
+      "One or more target creatures become green until end of turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -8022,12 +8007,7 @@
     "multiverse_id": 1548,
     "other_part": null,
     "color_indicator": null,
-    "rulings": [
-      {
-        "date": "10/4/2004",
-        "text": "You can choose to target zero creatures."
-      }
-    ]
+    "rulings": []
   },
   {
     "name": "Syphon Soul",
@@ -8596,7 +8576,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Any number of target creatures become black until end of turn."
+      "One or more target creatures become black until end of turn."
     ],
     "flavor_text": "\"Black spirits and white, red spirits and gray,/ Mingle, mingle, mingle, you that mingle may.\" —Thomas Middleton, The Witch",
     "power": null,
@@ -8605,12 +8585,7 @@
     "multiverse_id": 1462,
     "other_part": null,
     "color_indicator": null,
-    "rulings": [
-      {
-        "date": "10/4/2004",
-        "text": "You can choose to target zero creatures."
-      }
-    ]
+    "rulings": []
   },
   {
     "name": "Transmutation",
@@ -8827,6 +8802,10 @@
       {
         "date": "10/4/2004",
         "text": "In a multi-player game, it affects all opponents."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” it’s not a card drawn."
       }
     ]
   },
@@ -9052,7 +9031,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Enchant creature",
-      "When Venarian Gold enters the battlefield, tap enchanted creature and put a number of sleep counters on it equal to the value of X as you cast Venarian Gold.",
+      "When Venarian Gold enters the battlefield, tap enchanted creature and put X sleep counters on it.",
       "Enchanted creature doesn't untap during its controller's untap step if it has a sleep counter on it.",
       "At the beginning of the upkeep of enchanted creature's controller, remove a sleep counter from that creature."
     ],
@@ -9407,12 +9386,7 @@
     "multiverse_id": 1468,
     "other_part": null,
     "color_indicator": null,
-    "rulings": [
-      {
-        "date": "10/4/2004",
-        "text": "Can be targeted by a modal spell that can target a non-Wall in one of its modes, even if it has a mode that targets only Walls. That spell can, in theory, target a non-Wall, so it is not a “spell that can target only Walls”."
-      }
-    ]
+    "rulings": []
   },
   {
     "name": "Wall of Tombstones",

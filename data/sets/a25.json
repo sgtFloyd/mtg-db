@@ -512,7 +512,8 @@
     "mana_cost": "W",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target creature you control gains protection from the color of your choice until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"
+      "Target creature you control gains protection from the color of your choice until end of turn. (It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color.)",
+      "Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"
     ],
     "flavor_text": "Honor the gods of Theros, and they will return the favor.",
     "power": null,
@@ -541,6 +542,14 @@
       {
         "date": "9/15/2013",
         "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "You can’t choose “artifact” or “colorless” as Gods Willing asks you to choose a color because those are not colors."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "If the target creature is an illegal target by the time Gods Willing tries to resolve, the spell doesn’t resolve. You won’t scry 1. If the target creature becomes an illegal target while Gods Willing is resolving (most likely because you gave it protection from white), you do scry 1."
       }
     ]
   },
@@ -776,10 +785,6 @@
       {
         "date": "3/16/2018",
         "text": "You can activate Luminarch Ascension’s last ability during the end step in which it receives its fourth quest counter."
-      },
-      {
-        "date": "3/16/2018",
-        "text": "In a Two-Headed Giant game, Luminarch Ascension’s first ability will trigger twice at the beginning of the opposing team’s end step if you didn’t lose life that turn. It doesn’t matter whether your teammate lost life or not."
       }
     ]
   },
@@ -1889,7 +1894,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/16/2018",
+        "date": "6/14/2019",
         "text": "Exclude can target a creature spell that can’t be countered. When Exclude resolves, that spell won’t be countered, but you’ll still draw a card."
       }
     ]
@@ -2194,7 +2199,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/8/2016",
+        "date": "6/14/2019",
         "text": "If there are no other creatures on the battlefield when Man-o’-War enters the battlefield, its ability must target itself."
       }
     ]
@@ -3878,6 +3883,10 @@
       {
         "date": "10/1/2008",
         "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "6/14/2019",
+        "text": "If a card in a player’s graveyard has {X} in its mana cost, X is considered to be 0."
       }
     ]
   },
@@ -4019,7 +4028,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn."
+      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)"
     ],
     "flavor_text": "\"Rage courses in every heart, yearning to betray its rational prison.\"\n—Sarkhan Vol",
     "power": null,
@@ -4030,11 +4039,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "Act of Treason can target any creature, even one that’s untapped or one you already control."
       },
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it."
       }
     ]
@@ -4247,8 +4256,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/16/2018",
-        "text": "If the target creature is an illegal target by the time Chandra’s Outrage resolves, the spell doesn’t resolve. No player is dealt damage."
+        "date": "7/12/2019",
+        "text": "If the target creature is an illegal target by the time Chandra’s Outrage tries to resolve, the spell doesn’t resolve. No player is dealt damage."
       }
     ]
   },
@@ -5004,7 +5013,7 @@
     "supertypes": [],
     "subtypes": [
       "Elemental",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "3R",
@@ -5416,7 +5425,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound",
+      "Dog",
       "Shaman"
     ],
     "rarity": "Common",
@@ -5559,8 +5568,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/16/2018",
-        "text": "Azusa’s ability is cumulative with other effects that allow you to play additional lands, such as that of Wayward Swordtooth (from the Rivals of Ixalan set)."
+        "date": "6/23/2020",
+        "text": "Azusa’s ability is cumulative with other effects that allow you to play additional lands, such as that of Song of Creation (from the Ikoria: Lair of Behemoths set)."
       }
     ]
   },
@@ -5643,7 +5652,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Play with the top card of your library revealed.",
-      "You may play the top card of your library if it's a land card.",
+      "You may play lands from the top of your library.",
       "Whenever a land enters the battlefield under your control, you gain 1 life."
     ],
     "flavor_text": null,
@@ -5923,7 +5932,12 @@
     "multiverse_id": 442160,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "6/23/2020",
+        "text": "If a card in a player’s library has {X} in its mana cost, X is considered to be 0."
+      }
+    ]
   },
   {
     "name": "Giant Growth",
@@ -7154,7 +7168,7 @@
     "mana_cost": "1GU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever you draw a card, you may put a +1/+1 counter on Lorescale Coatl."
+      "Whenever you draw a card, put a +1/+1 counter on Lorescale Coatl."
     ],
     "flavor_text": "\"The enlightenment I never found in etherium I have found traced in the coatl's scales.\"\n—Ranalus, vedalken heretic",
     "power": "2",
@@ -7165,12 +7179,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/16/2018",
-        "text": "If a spell or ability causes you to draw multiple cards, Lorescale Coatl’s ability triggers that many times."
-      },
-      {
-        "date": "3/16/2018",
-        "text": "If a spell or ability causes you to put cards in your hand without specifically using the word “draw,” Lorescale Coatl’s ability won’t trigger."
+        "date": "6/23/2020",
+        "text": "If a spell or ability causes you to put a card into your hand without specifically using the word “draw,” it’s not a card drawn."
       }
     ]
   },
@@ -7560,7 +7570,7 @@
     "mana_cost": "4RG",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "When Stangg enters the battlefield, create a legendary 3/4 red and green Human Warrior creature token named Stangg Twin. Exile that token when Stangg leaves the battlefield. Sacrifice Stangg when that token leaves the battlefield."
+      "When Stangg enters the battlefield, create Stangg Twin, a legendary 3/4 red and green Human Warrior creature token. Exile that token when Stangg leaves the battlefield. Sacrifice Stangg when that token leaves the battlefield."
     ],
     "flavor_text": null,
     "power": "3",

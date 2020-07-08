@@ -197,7 +197,7 @@
     ],
     "subtypes": [
       "Elemental",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Mythic Rare",
     "mana_cost": "3RG",
@@ -827,6 +827,10 @@
       {
         "date": "4/17/2020",
         "text": "Once Kathril’s ability begins resolving, no player may take other actions until it’s done and you’ve put +1/+1 counters on Kathril."
+      },
+      {
+        "date": "6/23/2020",
+        "text": "If cards in your graveyard have multiple hexproof abilities (such as hexproof, hexproof from white, and hexproof from black), a counter of each variant kind will be put onto a creature."
       }
     ]
   },
@@ -929,7 +933,7 @@
     ],
     "subtypes": [
       "Elemental",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Mythic Rare",
     "mana_cost": "3RG",
@@ -1277,7 +1281,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Each other creature you control enters the battlefield with an additional vigilance counter on it.",
-      "{3}, Remove three counters from among creatures you control: Put the top three cards of your library into your graveyard, then return a permanent card with converted mana cost 3 or less from your graveyard to the battlefield."
+      "{3}, Remove three counters from among creatures you control: Mill three cards, then return a permanent card with converted mana cost 3 or less from your graveyard to the battlefield."
     ],
     "flavor_text": null,
     "power": "3",
@@ -1650,7 +1654,7 @@
       },
       {
         "date": "4/17/2020",
-        "text": "If an effect, such as that of Doubling Season, causes Zaxara’s ability to create multiple Hydra tokens, they each receive X +1/+1 counters."
+        "text": "If an effect, such as that of Parallel Lives, causes Zaxara’s ability to create multiple Hydra tokens, they each receive X +1/+1 counters."
       }
     ]
   },
@@ -8534,7 +8538,7 @@
     "oracle_text": [
       "Trample",
       "Splinterfright's power and toughness are each equal to the number of creature cards in your graveyard.",
-      "At the beginning of your upkeep, put the top two cards of your library into your graveyard."
+      "At the beginning of your upkeep, mill two cards."
     ],
     "flavor_text": null,
     "power": "*",
@@ -9087,7 +9091,7 @@
     "mana_cost": "4BG",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "When Deadbridge Chant enters the battlefield, put the top ten cards of your library into your graveyard.",
+      "When Deadbridge Chant enters the battlefield, mill ten cards.",
       "At the beginning of your upkeep, choose a card at random in your graveyard. If it's a creature card, put it onto the battlefield. Otherwise, put it into your hand."
     ],
     "flavor_text": null,
@@ -9241,7 +9245,7 @@
     ]
   },
   {
-    "name": "Find",
+    "name": "Find (Find/Finality)",
     "set_name": "Ikoria Commander",
     "collector_num": "212a",
     "illustrator": "Tomasz Jedruszek",
@@ -9261,12 +9265,12 @@
     "toughness": null,
     "loyalty": null,
     "multiverse_id": 482840,
-    "other_part": "Finality",
+    "other_part": "Finality (Find/Finality)",
     "color_indicator": null,
     "rulings": []
   },
   {
-    "name": "Finality",
+    "name": "Finality (Find/Finality)",
     "set_name": "Ikoria Commander",
     "collector_num": "212b",
     "illustrator": "Tomasz Jedruszek",
@@ -9286,7 +9290,7 @@
     "toughness": null,
     "loyalty": null,
     "multiverse_id": 482840,
-    "other_part": "Find",
+    "other_part": "Find (Find/Finality)",
     "color_indicator": null,
     "rulings": [
       {
@@ -9889,7 +9893,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Reach",
-      "At the beginning of your upkeep, put the top two cards of your library into your graveyard.",
+      "At the beginning of your upkeep, mill two cards.",
       "{1}{B}{G}, Exile Nyx Weaver: Return target card from your graveyard to your hand."
     ],
     "flavor_text": null,
@@ -10265,8 +10269,8 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "You may cast spells that have cycling from your graveyard.",
-      "If a card with cycling would be put into your graveyard from anywhere and it wasn't cycled, exile it instead."
+      "You may cast spells that have a cycling ability from your graveyard.",
+      "If a card that has a cycling ability would be put into your graveyard from anywhere and it wasn't cycled, exile it instead."
     ],
     "flavor_text": "Although long since dead, the banished dissenters finally took their vengeance.",
     "power": null,

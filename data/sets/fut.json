@@ -29,7 +29,7 @@
     "rulings": [
       {
         "date": "5/1/2007",
-        "text": "You choose how the damage prevention shields will be divided when you put the triggered ability on the stack. The number of targets must be at least one and at most five."
+        "text": "You choose how the damage prevention shields will be divided when you put the triggered ability on the stack."
       },
       {
         "date": "10/5/2018",
@@ -1435,7 +1435,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Play with the top card of your library revealed.",
-      "You may play the top card of your library."
+      "You may play lands and cast spells from the top of your library."
     ],
     "flavor_text": "Those gifted with the sight have one eye in the present and the other in the future.",
     "power": "2",
@@ -1446,24 +1446,20 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/8/2016",
-        "text": "The top card of your library isn’t in your hand, so you can’t suspend it, cycle it, discard it, or activate any of its activated abilities."
+        "date": "6/14/2019",
+        "text": "The top card of your library isn’t in your hand, so you can’t suspend it, cycle it, or activate any of its abilities."
       },
       {
-        "date": "6/8/2016",
-        "text": "You must follow the normal timing permissions and restrictions for the top card of your library and pay its costs. If it has alternative or additional costs, you may pay those. If the card has any mandatory additional costs, you must pay those."
+        "date": "6/14/2019",
+        "text": "You must follow the normal timing permissions and restrictions for the top card of your library and pay its costs. If the card has alternative or additional costs, you may pay those. If the card has any mandatory additional costs, you must pay those."
       },
       {
-        "date": "6/8/2016",
+        "date": "6/14/2019",
         "text": "If the top card of your library is a land, you may play that land only if you have any available land plays."
       },
       {
-        "date": "6/8/2016",
-        "text": "If the top card of your library changes while you’re casting a spell, playing a land, or activating an ability (perhaps because that top card is the card you’re casting) the new top card won’t be revealed until you finish doing so."
-      },
-      {
-        "date": "6/8/2016",
-        "text": "As soon as you finish playing the card on top of your library, reveal the next card in your library."
+        "date": "6/14/2019",
+        "text": "If the top card of your library changes while you’re casting a spell, playing a land, or activating an ability (most likely because that top card is the card you’re playing), the new top card won’t be revealed until you finish doing so."
       }
     ]
   },
@@ -5327,7 +5323,7 @@
     "mana_cost": "2GG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Spend only mana produced by basic lands to cast Imperiosaur."
+      "Spend only mana produced by basic lands to cast this spell."
     ],
     "flavor_text": "\"An ancient, powerful force has overtaken the valley. I sympathize for its former inhabitants, but I rejoice for the land itself.\"\n—Olanti, Muraganda druid",
     "power": "5",
@@ -6265,7 +6261,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{X}{X}, {T}: Target player puts the top X cards of their library into their graveyard.",
+      "{X}{X}, {T}: Target player mills X cards.",
       "Morph {3} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)"
     ],
     "flavor_text": null,
@@ -6293,7 +6289,7 @@
     "oracle_text": [
       "Dakmor Salvage enters the battlefield tapped.",
       "{T}: Add {B}.",
-      "Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": null,

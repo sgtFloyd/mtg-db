@@ -630,7 +630,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "First strike",
-      "Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast any revealed cards with the same name as this spell without paying their mana costs. Put the rest on the bottom of your library.)"
+      "Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)"
     ],
     "flavor_text": null,
     "power": "2",
@@ -1498,7 +1498,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast any revealed cards with the same name as this spell without paying their mana costs. Put the rest on the bottom of your library.)",
+      "Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)",
       "Return target permanent to its owner's hand."
     ],
     "flavor_text": null,
@@ -1917,7 +1917,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "You may cast Haakon, Stromgald Scourge from your graveyard, but not from anywhere else.",
-      "As long as Haakon is on the battlefield, you may play Knight cards from your graveyard.",
+      "As long as Haakon is on the battlefield, you may cast Knight spells from your graveyard.",
       "When Haakon dies, you lose 2 life."
     ],
     "flavor_text": null,
@@ -2280,7 +2280,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast any revealed cards with the same name as this spell without paying their mana costs. Put the rest on the bottom of your library.)",
+      "Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)",
       "Target player discards a card."
     ],
     "flavor_text": null,
@@ -2982,11 +2982,11 @@
       },
       {
         "date": "7/15/2006",
-        "text": "If Magmatic Core has at least one age counter on it, the number of targets must be at least one and at most X. Each target must be assigned at least 1 damage."
+        "text": "Each target must be assigned at least 1 damage."
       },
       {
-        "date": "7/15/2006",
-        "text": "Magmatic Core’s effect is mandatory. At the end of your turn, if the only creatures on the battlefield are yours, you must have Magmatic Core deal damage to at least one of them."
+        "date": "7/12/2019",
+        "text": "You can choose zero targets. In this case, Magmatic Core deals no damage."
       }
     ]
   },
@@ -3223,7 +3223,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast any revealed cards with the same name as this spell without paying their mana costs. Put the rest on the bottom of your library.)",
+      "Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)",
       "Surging Flame deals 2 damage to any target."
     ],
     "flavor_text": null,
@@ -4088,7 +4088,7 @@
     "oracle_text": [
       "Enchant creature",
       "Enchanted creature gets +2/+2.",
-      "Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast any revealed cards with the same name as this spell without paying their mana costs. Put the rest on the bottom of your library.)"
+      "Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -4214,7 +4214,8 @@
       "Legendary"
     ],
     "subtypes": [
-      "Vampire"
+      "Vampire",
+      "Noble"
     ],
     "rarity": "Rare",
     "mana_cost": "4UBR",
@@ -4644,7 +4645,7 @@
     "mana_cost": "5",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Spells you cast have ripple 4. (Whenever you cast a spell, you may reveal the top four cards of your library. You may cast any revealed cards with the same name as the spell without paying their mana costs. Put the rest on the bottom of your library.)"
+      "Spells you cast have ripple 4. (Whenever you cast a spell, you may reveal the top four cards of your library. You may cast spells with the same name as that spell from among the revealed cards without paying their mana costs. Put the rest on the bottom of your library.)"
     ],
     "flavor_text": null,
     "power": null,

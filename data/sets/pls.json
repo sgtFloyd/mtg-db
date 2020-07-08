@@ -125,7 +125,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Uncommon",
     "mana_cost": "3W",
@@ -387,12 +387,7 @@
     "multiverse_id": 25941,
     "other_part": null,
     "color_indicator": null,
-    "rulings": [
-      {
-        "date": "10/4/2004",
-        "text": "You can’t choose zero targets. You must choose between 1 and 3 (or 6) targets."
-      }
-    ]
+    "rulings": []
   },
   {
     "name": "Samite Elder",
@@ -2840,7 +2835,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever you cast a white, blue, black, or red spell, put a +1/+1 counter on Quirion Dryad."
+      "Whenever you cast a spell that's white, blue, black, or red, put a +1/+1 counter on Quirion Dryad."
     ],
     "flavor_text": "\"Never underestimate the ability of natural forces to adapt to unnatural influences.\"\n—Molimo, maro-sorcerer",
     "power": "1",
@@ -2851,12 +2846,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "7/1/2012",
-        "text": "Quirion Dryad’s ability will trigger only once per spell you cast, as long as that spell is at least one of the listed colors."
+        "date": "6/23/2020",
+        "text": "An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered."
       },
       {
-        "date": "7/1/2012",
-        "text": "Quirion Dryad’s ability will trigger if you cast a spell that’s green and at least one of the listed colors."
+        "date": "6/23/2020",
+        "text": "If you cast a spell that’s more than one color, Quirion Dryad’s ability triggers just once."
       }
     ]
   },

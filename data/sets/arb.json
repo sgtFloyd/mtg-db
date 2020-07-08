@@ -962,7 +962,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "{U}{B}, {T}: Create a 1/1 blue and black Zombie Wizard creature token.",
-      "{U}{U}{B}{B}: Target player loses X life and puts the top X cards of their library into their graveyard, where X is the number of Zombies you control."
+      "{U}{U}{B}{B}: Target player loses X life and mills X cards, where X is the number of Zombies you control."
     ],
     "flavor_text": null,
     "power": "2",
@@ -1103,7 +1103,7 @@
     "mana_cost": "3UB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Whenever Nemesis of Reason attacks, defending player puts the top ten cards of their library into their graveyard."
+      "Whenever Nemesis of Reason attacks, defending player mills ten cards."
     ],
     "flavor_text": "Words describing it fail. Pages relating it shrivel. Tales recounting it end.",
     "power": "3",
@@ -3736,7 +3736,7 @@
     "mana_cost": "1GU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever you draw a card, you may put a +1/+1 counter on Lorescale Coatl."
+      "Whenever you draw a card, put a +1/+1 counter on Lorescale Coatl."
     ],
     "flavor_text": "\"The enlightenment I never found in etherium I have found traced in the coatl's scales.\"\n—Ranalus, vedalken heretic",
     "power": "2",
@@ -3747,12 +3747,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/16/2018",
-        "text": "If a spell or ability causes you to draw multiple cards, Lorescale Coatl’s ability triggers that many times."
-      },
-      {
-        "date": "3/16/2018",
-        "text": "If a spell or ability causes you to put cards in your hand without specifically using the word “draw,” Lorescale Coatl’s ability won’t trigger."
+        "date": "6/23/2020",
+        "text": "If a spell or ability causes you to put a card into your hand without specifically using the word “draw,” it’s not a card drawn."
       }
     ]
   },
@@ -4086,7 +4082,7 @@
     "mana_cost": "2WUB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "At the beginning of your upkeep, choose target opponent. This turn, that player can't cast spells or activate abilities and plays with their hand revealed. You may play cards from that player's hand this turn."
+      "At the beginning of your upkeep, choose target opponent. This turn, that player can't cast spells or activate abilities and plays with their hand revealed. You may play lands and cast spells from that player's hand this turn."
     ],
     "flavor_text": "They are the masters of your mind.",
     "power": "3",

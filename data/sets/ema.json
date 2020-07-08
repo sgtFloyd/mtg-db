@@ -320,16 +320,16 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "12/7/2018",
-        "text": "Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords (such as equip) are activated abilities and will have colons in their reminder text."
+        "date": "6/23/2020",
+        "text": "If the target permanent is an illegal target by the time Faith’s Fetters tries to resolve, it doesn’t resolve. It won’t enter the battlefield, so its enters-the-battlefield ability won’t trigger."
       },
       {
-        "date": "12/7/2018",
+        "date": "6/23/2020",
+        "text": "Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords (such as equip) are activated abilities and will have colons in their reminder text. Loyalty abilities of planeswalkers are activated abilities."
+      },
+      {
+        "date": "6/23/2020",
         "text": "Faith’s Fetters doesn’t stop static abilities, triggered abilities, or mana abilities from working. A mana ability is an ability that produces mana, not an ability that costs mana."
-      },
-      {
-        "date": "12/7/2018",
-        "text": "If the target permanent is an illegal target by the time Faith’s Fetters tries to resolve, the Aura spell doesn’t resolve. It won’t enter the battlefield, so its enters-the-battlefield ability won’t trigger."
       }
     ]
   },
@@ -921,8 +921,20 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/8/2016",
-        "text": "The legality of a spell’s target is checked only as that spell begins to resolve. If Shelter gives the targeted creature protection from white, you’ll still draw a card."
+        "date": "6/14/2019",
+        "text": "Protection from a color means that the target creature can’t be blocked by creatures of that color, can’t be the target of spells of that color or abilities from sources of that color, can’t be enchanted or equipped by Auras or Equipment of that color, and all damage that sources of that color would deal to it is prevented. Nothing other than these events is prevented or illegal."
+      },
+      {
+        "date": "6/14/2019",
+        "text": "A permanent gaining protection may cause a spell or ability on the stack to have an illegal target. As a spell or ability tries to resolve, if all its targets are illegal, that spell or ability doesn’t resolve. None of its effects happen, including effects unrelated to the target. If at least one target is still legal, the spell or ability does as much as it can to the remaining legal targets, and its other effects still happen."
+      },
+      {
+        "date": "6/14/2019",
+        "text": "You can’t choose “artifact” or “colorless” as Shelter asks you to choose a color, since those are not colors."
+      },
+      {
+        "date": "6/14/2019",
+        "text": "The legality of a spell’s targets is checked only as that spell begins to resolve. If Shelter gives the targeted creature protection from white, you’ll still draw a card."
       }
     ]
   },
@@ -1471,7 +1483,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player puts the top three cards of their library into their graveyard.",
+      "Target player mills three cards.",
       "Flashback {1}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     ],
     "flavor_text": null,
@@ -1508,11 +1520,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/8/2016",
+        "date": "6/14/2019",
         "text": "You choose which pile to put into your hand."
       },
       {
-        "date": "6/8/2016",
+        "date": "6/14/2019",
         "text": "Each pile may contain from zero to five cards; they don’t have to be split “evenly.”"
       }
     ]
@@ -1563,7 +1575,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Play with the top card of your library revealed.",
-      "You may play the top card of your library."
+      "You may play lands and cast spells from the top of your library."
     ],
     "flavor_text": "\"Is the inevitable any less miraculous?\"\n—Veldka, wandering sage",
     "power": null,
@@ -1574,24 +1586,20 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/8/2016",
-        "text": "The top card of your library isn’t in your hand, so you can’t suspend it, cycle it, discard it, or activate any of its activated abilities."
+        "date": "6/14/2019",
+        "text": "The top card of your library isn’t in your hand, so you can’t suspend it, cycle it, or activate any of its abilities."
       },
       {
-        "date": "6/8/2016",
-        "text": "You must follow the normal timing permissions and restrictions for the top card of your library and pay its costs. If it has alternative or additional costs, you may pay those. If the card has any mandatory additional costs, you must pay those."
+        "date": "6/14/2019",
+        "text": "You must follow the normal timing permissions and restrictions for the top card of your library and pay its costs. If the card has alternative or additional costs, you may pay those. If the card has any mandatory additional costs, you must pay those."
       },
       {
-        "date": "6/8/2016",
+        "date": "6/14/2019",
         "text": "If the top card of your library is a land, you may play that land only if you have any available land plays."
       },
       {
-        "date": "6/8/2016",
-        "text": "If the top card of your library changes while you’re casting a spell, playing a land, or activating an ability (perhaps because that top card is the card you’re casting) the new top card won’t be revealed until you finish doing so."
-      },
-      {
-        "date": "6/8/2016",
-        "text": "As soon as you finish playing the card on top of your library, reveal the next card in your library."
+        "date": "6/14/2019",
+        "text": "If the top card of your library changes while you’re casting a spell, playing a land, or activating an ability (most likely because that top card is the card you’re playing), the new top card won’t be revealed until you finish doing so."
       }
     ]
   },
@@ -1873,7 +1881,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/8/2016",
+        "date": "6/14/2019",
         "text": "If there are no other creatures on the battlefield when Man-o’-War enters the battlefield, its ability must target itself."
       }
     ]
@@ -2184,7 +2192,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Screeching Skaab enters the battlefield, put the top two cards of your library into your graveyard."
+      "When Screeching Skaab enters the battlefield, mill two cards."
     ],
     "flavor_text": "Its screeching is the sound of you losing your mind.",
     "power": "2",
@@ -2288,7 +2296,8 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Faerie"
+      "Faerie",
+      "Noble"
     ],
     "rarity": "Uncommon",
     "mana_cost": "1UU",
@@ -2399,12 +2408,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/8/2016",
-        "text": "A creature spell that doesn’t have flying won’t cost less even if the creature it will become will have flying once on the battlefield. For example, if you control an Island and Wonder is in your graveyard, creature spells won’t cost {1} less even though those creatures will have flying once they’re on the battlefield."
+        "date": "7/12/2019",
+        "text": "A creature spell that doesn’t have flying won’t cost less even if an effect will cause the creature to have flying once on the battlefield. This is also true if the creature spell itself has an ability that gives it flying once on the battlefield under certain conditions, even if those conditions are true."
       },
       {
-        "date": "6/8/2016",
-        "text": "The ability can’t reduce the colored mana requirement of a creature spell with flying."
+        "date": "7/12/2019",
+        "text": "The last ability of Warden of Evos Isle can’t reduce the colored mana requirement of a creature spell with flying."
       }
     ]
   },
@@ -2669,12 +2678,7 @@
     "multiverse_id": 413626,
     "other_part": null,
     "color_indicator": null,
-    "rulings": [
-      {
-        "date": "6/8/2016",
-        "text": "You can sacrifice Carrion Feeder to activate its own ability. The ability will have no effect as it resolves."
-      }
-    ]
+    "rulings": []
   },
   {
     "name": "Deadbridge Shaman",
@@ -4557,7 +4561,7 @@
     "rulings": [
       {
         "date": "6/8/2016",
-        "text": "The number of targets must be at least one and at most four. Each target must be assigned at least 1 damage."
+        "text": "Each target must be assigned at least 1 damage."
       },
       {
         "date": "6/8/2016",
@@ -6310,7 +6314,8 @@
       "Legendary"
     ],
     "subtypes": [
-      "Spirit"
+      "Spirit",
+      "Noble"
     ],
     "rarity": "Rare",
     "mana_cost": "2WU",
@@ -6407,7 +6412,7 @@
     "mana_cost": "3UB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Each player puts the top two cards of their library into their graveyard. Then you put a creature card from a graveyard onto the battlefield under your control."
+      "Each player mills two cards. Then you put a creature card from a graveyard onto the battlefield under your control."
     ],
     "flavor_text": "If you want to wreak havoc above, sometimes it's best to look below.",
     "power": null,
@@ -6943,7 +6948,7 @@
     "mana_cost": "4{B/R}",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Return up to one target creature card from your graveyard to the battlefield if {B} was spent to cast Torrent of Souls. Creatures target player controls get +2/+0 and gain haste until end of turn if {R} was spent to cast Torrent of Souls. (Do both if {B}{R} was spent.)"
+      "Return up to one target creature card from your graveyard to the battlefield if {B} was spent to cast this spell. Creatures target player controls get +2/+0 and gain haste until end of turn if {R} was spent to cast this spell. (Do both if {B}{R} was spent.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -7072,8 +7077,8 @@
         "text": "Duplicant keeps all creature types it had when the card was imprinted, including any types that Duplicant had gained."
       },
       {
-        "date": "7/13/2016",
-        "text": "If a melded permanent is exiled by Duplicant’s triggered ability, that ability’s controller chooses the relative timestamp of the two meld cards. Duplicant looks at the information of the one with the later timestamp."
+        "date": "4/17/2020",
+        "text": "If a melded permanent or a merged permanent is exiled by Duplicant’s triggered ability, that ability’s controller chooses the relative timestamp of the exiled cards. Duplicant looks at the information of the one with the later timestamp."
       }
     ]
   },
@@ -7273,7 +7278,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}, Put the top card of your library into your graveyard: Add {C}."
+      "{T}, Mill a card: Add {C}."
     ],
     "flavor_text": "The toymaker frowned in bewilderment. None of his creations had ever sneezed before.",
     "power": "0",

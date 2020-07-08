@@ -1906,7 +1906,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player puts the top five cards of their library into their graveyard.",
+      "Target player mills five cards.",
       "Cycling {U} ({U}, Discard this card: Draw a card.)"
     ],
     "flavor_text": "\"How can there be doubt in the presence of such blessings?\"\n—Ukhat, vizier of initiation",
@@ -2968,7 +2968,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Return target nonland permanent to its owner's hand. Each player puts the top two cards of their library into their graveyard."
+      "Return target nonland permanent to its owner's hand. Each player mills two cards."
     ],
     "flavor_text": "\"I have foreseen that you will not pass my trial.\"",
     "power": null,
@@ -3692,7 +3692,7 @@
     "mana_cost": "3BB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "+1: Create a 2/2 black Zombie creature token. Put the top two cards of your library into your graveyard.",
+      "+1: Create a 2/2 black Zombie creature token. Mill two cards.",
       "−3: Return target creature card from your graveyard to the battlefield. That creature is a black Zombie in addition to its other colors and types.",
       "−7: Destroy all non-Zombie creatures."
     ],
@@ -4932,20 +4932,16 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "8/15/2010",
+        "date": "10/4/2019",
         "text": "The sacrificed creature’s last known existence on the battlefield is checked to determine its power."
       },
       {
-        "date": "8/15/2010",
-        "text": "If you sacrifice an attacking or blocking creature during the declare blockers step, it won’t deal combat damage. If you wait until the combat damage step, but that creature is dealt lethal damage, it’ll be destroyed before you get a chance to sacrifice it."
+        "date": "10/4/2019",
+        "text": "You must sacrifice exactly one creature to cast this spell; you can’t cast it without sacrificing a creature, and you can’t sacrifice additional creatures."
       },
       {
-        "date": "4/15/2013",
-        "text": "You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures."
-      },
-      {
-        "date": "4/15/2013",
-        "text": "Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell."
+        "date": "10/4/2019",
+        "text": "Players can only respond once this spell has been cast and all its costs have been paid. No one can try to interfere with the creature you sacrificed to prevent you from casting this spell."
       }
     ]
   },
@@ -4963,7 +4959,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "End the turn. (Exile all spells and abilities on the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)",
+      "End the turn. (Exile all spells and abilities from the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)",
       "At the beginning of your next end step, you lose the game."
     ],
     "flavor_text": null,
@@ -6195,7 +6191,12 @@
     "multiverse_id": 426869,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "7/12/2019",
+        "text": "If the target land is an illegal target by the time Gift of Paradise tries to resolve, the spell doesn’t resolve. It won’t enter the battlefield, so you won’t gain 3 life."
+      }
+    ]
   },
   {
     "name": "Greater Sandwurm",
@@ -6225,7 +6226,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "4/18/2017",
+        "date": "4/17/2020",
         "text": "Once a creature with power 3 or greater has blocked Greater Sandwurm, changing the power of the blocking creature won’t cause Greater Sandwurm to become unblocked."
       }
     ]
@@ -6998,7 +6999,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "You may look at the top card of your library any time.",
-      "You may cast the top card of your library if it's a creature card.",
+      "You may cast creature spells from the top of your library.",
       "You may spend mana as though it were mana of any type to cast creature spells."
     ],
     "flavor_text": null,
@@ -9330,7 +9331,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Activated abilities of creature cards in your graveyard cost {1} less to activate.",
-      "Tap an untapped Zombie you control: Target player puts the top card of their library into their graveyard."
+      "Tap an untapped Zombie you control: Target player mills a card."
     ],
     "flavor_text": "\"They might be dead, but these mummies are masters of their trade.\"\n—Jace Beleren",
     "power": null,

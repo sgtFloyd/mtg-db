@@ -85,7 +85,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "3W",
@@ -149,7 +149,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Banishing Light enters the battlefield, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (That permanent returns under its owner's control.)"
+      "When Banishing Light enters the battlefield, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield."
     ],
     "flavor_text": null,
     "power": null,
@@ -160,28 +160,16 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "4/26/2014",
-        "text": "Banishing Light’s ability causes a zone change with a duration, a new style of ability that’s somewhat reminiscent of older cards like Oblivion Ring. However, unlike Oblivion Ring, cards like Banishing Light have a single ability that creates two one-shot effects: one that exiles the permanent when the ability resolves, and another that returns the exiled card to the battlefield immediately after Banishing Light leaves the battlefield."
+        "date": "1/24/2020",
+        "text": "If Banishing Light leaves the battlefield before its triggered ability resolves, the target permanent won’t be exiled."
       },
       {
-        "date": "4/26/2014",
-        "text": "If Banishing Light leaves the battlefield before its enters-the-battlefield ability resolves, the target nonland permanent won’t be exiled."
+        "date": "1/24/2020",
+        "text": "Auras attached to the exiled permanent will be put into their owners’ graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled."
       },
       {
-        "date": "4/26/2014",
-        "text": "Auras attached to the exiled permanent will be put into their owners’ graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "If a token is exiled, it ceases to exist. It won’t be returned to the battlefield."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "The exiled card returns to the battlefield immediately after Banishing Light leaves the battlefield. Nothing happens between the two events, including state-based actions. Banishing Light and the returned card aren’t on the battlefield at the same time."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "In a multiplayer game, if Banishing Light’s owner leaves the game, the exiled card will return to the battlefield. Because the one-shot effect that returns the card isn’t an ability that goes on the stack, it won’t cease to exist along with the leaving player’s spells and abilities on the stack."
+        "date": "1/24/2020",
+        "text": "If a token is exiled this way, it will cease to exist and won’t return to the battlefield."
       }
     ]
   },
@@ -893,10 +881,6 @@
       },
       {
         "date": "4/26/2014",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spellas as though they have flash will."
-      },
-      {
-        "date": "4/26/2014",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -1248,7 +1232,7 @@
     "mana_cost": "2UU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Counter target spell. Its controller puts the top four cards of their library into their graveyard."
+      "Counter target spell. Its controller mills four cards."
     ],
     "flavor_text": "The physical pain was nothing compared to the agony in his mind.",
     "power": null,
@@ -1300,10 +1284,6 @@
       {
         "date": "4/26/2014",
         "text": "Crystalline Nautilus’s middle ability functions as long as Crystalline Nautilus is on the battlefield, whether it’s a creature or an Aura."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spellas as though they have flash will."
       },
       {
         "date": "4/26/2014",
@@ -1636,15 +1616,11 @@
     "rulings": [
       {
         "date": "10/17/2013",
-        "text": "If you Hypnotic Siren for its bestow cost, and you gain control of a creature with a constellation ability, that ability will trigger when Hypnotic Siren enters the battlefield. You’ll controll that triggered ability."
+        "text": "If you cast Hypnotic Siren for its bestow cost, and you gain control of a creature with a constellation ability, that ability will trigger when Hypnotic Siren enters the battlefield. You’ll control that triggered ability."
       },
       {
         "date": "4/26/2014",
         "text": "Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spellas as though they have flash will."
       },
       {
         "date": "4/26/2014",
@@ -2054,7 +2030,7 @@
     "mana_cost": "4U",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Constellation — Whenever Thassa's Devourer or another enchantment enters the battlefield under your control, target player puts the top two cards of their library into their graveyard."
+      "Constellation — Whenever Thassa's Devourer or another enchantment enters the battlefield under your control, target player mills two cards."
     ],
     "flavor_text": "When mortals claim there are places Thassa cannot reach, the sea god laughs.",
     "power": "2",
@@ -2766,10 +2742,6 @@
     "rulings": [
       {
         "date": "4/26/2014",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spellas as though they have flash will."
-      },
-      {
-        "date": "4/26/2014",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -2859,13 +2831,14 @@
       "Legendary"
     ],
     "subtypes": [
-      "Human"
+      "Human",
+      "Noble"
     ],
     "rarity": "Rare",
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Inspired — Whenever King Macar, the Gold-Cursed becomes untapped, you may exile target creature. If you do, create a colorless artifact token named Gold. It has \"Sacrifice this artifact: Add one mana of any color.\""
+      "Inspired — Whenever King Macar, the Gold-Cursed becomes untapped, you may exile target creature. If you do, create a Gold token. (It's an artifact with \"Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": null,
     "power": "2",
@@ -3033,7 +3006,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Returned Reveler dies, each player puts the top three cards of their library into their graveyard."
+      "When Returned Reveler dies, each player mills three cards."
     ],
     "flavor_text": "The flesh is dead and the life forgotten, but old habits persist.",
     "power": "1",
@@ -4000,7 +3973,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Uncommon",
     "mana_cost": "1R",
@@ -4025,10 +3998,6 @@
       {
         "date": "4/26/2014",
         "text": "If, during your declare attackers step, Mogis’s Warhound (or the creature it enchants) is tapped, is affected by a spell or ability that says it can’t attack, or hasn’t been under its controller’s control continuously since the turn began (and doesn’t have haste), then it doesn’t attack. If there’s a cost associated with having a creature attack, its controller isn’t forced to pay that cost, so it doesn’t have to attack in that case either."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spellas as though they have flash will."
       },
       {
         "date": "4/26/2014",
@@ -4474,7 +4443,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Uncommon",
     "mana_cost": "4R",
@@ -5478,10 +5447,6 @@
     "rulings": [
       {
         "date": "4/26/2014",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spellas as though they have flash will."
-      },
-      {
-        "date": "4/26/2014",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -5694,44 +5659,40 @@
         "text": "If there are no legal targets for Athreos’s last ability (perhaps because each of your opponents has hexproof), it will be removed from the stack with no effect. No one may pay 3 life and you won’t return the creature card to your hand."
       },
       {
-        "date": "4/26/2014",
-        "text": "The type-changing ability that can make the God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color."
+        "date": "1/24/2020",
+        "text": "Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield."
+        "date": "1/24/2020",
+        "text": "The type-changing ability that can make a God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color. It’s always a creature spell while it’s on the stack."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment."
+        "date": "1/24/2020",
+        "text": "As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won’t be counted when determining this."
       },
       {
-        "date": "4/26/2014",
+        "date": "1/24/2020",
+        "text": "When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment."
+      },
+      {
+        "date": "1/24/2020",
         "text": "The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat."
+        "date": "1/24/2020",
+        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won’t rejoin combat if it resumes being a creature later during that combat."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won’t matter because it has indestructible.)"
+        "date": "1/24/2020",
+        "text": "Counters put on a God remain on it while it’s not a creature, even if they have no effect."
       },
       {
-        "date": "4/26/2014",
-        "text": "Your devotion to two colors is equal to the number of mana symbols that are the first color, the second color, or both colors among the mana costs of permanents you control. Specifically, a hybrid mana symbol counts only once toward your devotion to its two colors. For example, if the only nonland permanents you control are Pharika, God of Affliction and Golgari Guildmage (whose mana cost is {B/G}{B/G}), your devotion to black and green is four."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
+        "date": "1/24/2020",
+        "text": "If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate."
       }
     ]
   },
@@ -5914,44 +5875,40 @@
         "text": "Iroas’s last ability prevents all damage dealt to attacking creatures you control, not just combat damage."
       },
       {
-        "date": "4/26/2014",
-        "text": "The type-changing ability that can make the God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color."
+        "date": "1/24/2020",
+        "text": "Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield."
+        "date": "1/24/2020",
+        "text": "The type-changing ability that can make a God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color. It’s always a creature spell while it’s on the stack."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment."
+        "date": "1/24/2020",
+        "text": "As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won’t be counted when determining this."
       },
       {
-        "date": "4/26/2014",
+        "date": "1/24/2020",
+        "text": "When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment."
+      },
+      {
+        "date": "1/24/2020",
         "text": "The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat."
+        "date": "1/24/2020",
+        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won’t rejoin combat if it resumes being a creature later during that combat."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won’t matter because it has indestructible.)"
+        "date": "1/24/2020",
+        "text": "Counters put on a God remain on it while it’s not a creature, even if they have no effect."
       },
       {
-        "date": "4/26/2014",
-        "text": "Your devotion to two colors is equal to the number of mana symbols that are the first color, the second color, or both colors among the mana costs of permanents you control. Specifically, a hybrid mana symbol counts only once toward your devotion to its two colors. For example, if the only nonland permanents you control are Pharika, God of Affliction and Golgari Guildmage (whose mana cost is {B/G}{B/G}), your devotion to black and green is four."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
+        "date": "1/24/2020",
+        "text": "If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate."
       }
     ]
   },
@@ -5987,44 +5944,40 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "4/26/2014",
-        "text": "The type-changing ability that can make the God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color."
+        "date": "1/24/2020",
+        "text": "Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield."
+        "date": "1/24/2020",
+        "text": "The type-changing ability that can make a God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color. It’s always a creature spell while it’s on the stack."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment."
+        "date": "1/24/2020",
+        "text": "As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won’t be counted when determining this."
       },
       {
-        "date": "4/26/2014",
+        "date": "1/24/2020",
+        "text": "When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment."
+      },
+      {
+        "date": "1/24/2020",
         "text": "The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat."
+        "date": "1/24/2020",
+        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won’t rejoin combat if it resumes being a creature later during that combat."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won’t matter because it has indestructible.)"
+        "date": "1/24/2020",
+        "text": "Counters put on a God remain on it while it’s not a creature, even if they have no effect."
       },
       {
-        "date": "4/26/2014",
-        "text": "Your devotion to two colors is equal to the number of mana symbols that are the first color, the second color, or both colors among the mana costs of permanents you control. Specifically, a hybrid mana symbol counts only once toward your devotion to its two colors. For example, if the only nonland permanents you control are Pharika, God of Affliction and Golgari Guildmage (whose mana cost is {B/G}{B/G}), your devotion to black and green is four."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
+        "date": "1/24/2020",
+        "text": "If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate."
       }
     ]
   },
@@ -6069,44 +6022,40 @@
         "text": "If unused mana in your mana pool has any restrictions or riders associated with it (for example, if it was produced by Cavern of Souls), those restrictions or riders will remain associated with that mana when it becomes colorless."
       },
       {
-        "date": "4/26/2014",
-        "text": "The type-changing ability that can make the God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color."
+        "date": "1/24/2020",
+        "text": "Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield."
+        "date": "1/24/2020",
+        "text": "The type-changing ability that can make a God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color. It’s always a creature spell while it’s on the stack."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment."
+        "date": "1/24/2020",
+        "text": "As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won’t be counted when determining this."
       },
       {
-        "date": "4/26/2014",
+        "date": "1/24/2020",
+        "text": "When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment."
+      },
+      {
+        "date": "1/24/2020",
         "text": "The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat."
+        "date": "1/24/2020",
+        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won’t rejoin combat if it resumes being a creature later during that combat."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won’t matter because it has indestructible.)"
+        "date": "1/24/2020",
+        "text": "Counters put on a God remain on it while it’s not a creature, even if they have no effect."
       },
       {
-        "date": "4/26/2014",
-        "text": "Your devotion to two colors is equal to the number of mana symbols that are the first color, the second color, or both colors among the mana costs of permanents you control. Specifically, a hybrid mana symbol counts only once toward your devotion to its two colors. For example, if the only nonland permanents you control are Pharika, God of Affliction and Golgari Guildmage (whose mana cost is {B/G}{B/G}), your devotion to black and green is four."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
+        "date": "1/24/2020",
+        "text": "If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate."
       }
     ]
   },
@@ -6128,7 +6077,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Reach",
-      "At the beginning of your upkeep, put the top two cards of your library into your graveyard.",
+      "At the beginning of your upkeep, mill two cards.",
       "{1}{B}{G}, Exile Nyx Weaver: Return target card from your graveyard to your hand."
     ],
     "flavor_text": null,
@@ -6172,44 +6121,40 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "4/26/2014",
-        "text": "The type-changing ability that can make the God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color."
+        "date": "1/24/2020",
+        "text": "Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield."
+        "date": "1/24/2020",
+        "text": "The type-changing ability that can make a God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color. It’s always a creature spell while it’s on the stack."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment."
+        "date": "1/24/2020",
+        "text": "As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won’t be counted when determining this."
       },
       {
-        "date": "4/26/2014",
+        "date": "1/24/2020",
+        "text": "When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment."
+      },
+      {
+        "date": "1/24/2020",
         "text": "The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat."
+        "date": "1/24/2020",
+        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won’t rejoin combat if it resumes being a creature later during that combat."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won’t matter because it has indestructible.)"
+        "date": "1/24/2020",
+        "text": "Counters put on a God remain on it while it’s not a creature, even if they have no effect."
       },
       {
-        "date": "4/26/2014",
-        "text": "Your devotion to two colors is equal to the number of mana symbols that are the first color, the second color, or both colors among the mana costs of permanents you control. Specifically, a hybrid mana symbol counts only once toward your devotion to its two colors. For example, if the only nonland permanents you control are Pharika, God of Affliction and Golgari Guildmage (whose mana cost is {B/G}{B/G}), your devotion to black and green is four."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
+        "date": "1/24/2020",
+        "text": "If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate."
       }
     ]
   },
@@ -6505,7 +6450,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Temple of Epiphany enters the battlefield tapped.",
-      "When Temple of Epiphany enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+      "When Temple of Epiphany enters the battlefield, scry 1.",
       "{T}: Add {U} or {R}."
     ],
     "flavor_text": null,
@@ -6532,7 +6477,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Temple of Malady enters the battlefield tapped.",
-      "When Temple of Malady enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+      "When Temple of Malady enters the battlefield, scry 1.",
       "{T}: Add {B} or {G}."
     ],
     "flavor_text": null,

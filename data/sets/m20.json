@@ -2109,7 +2109,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "7/12/2019",
+        "date": "4/17/2020",
         "text": "Frost Lynx’s triggered ability can target a creature that’s already tapped. That creature won’t untap during its controller’s next untap step."
       }
     ]
@@ -2476,7 +2476,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever another blue creature enters the battlefield under your control, target player puts the top two cards of their library into their graveyard."
+      "Whenever another blue creature enters the battlefield under your control, target player mills two cards."
     ],
     "flavor_text": "\"Forget what you have learned from other teachers. I bring you the truth.\"",
     "power": "2",
@@ -3325,7 +3325,7 @@
       },
       {
         "date": "7/12/2019",
-        "text": "Hybrid mana symbols are treated as the actual symbols, not as either of their two components individually. For example, , {B}, and {R} are three different mana costs."
+        "text": "Hybrid mana symbols are treated as the actual symbols, not as either of their two components individually. For example, {B/R}, {B}, and {R} are three different mana costs."
       },
       {
         "date": "7/12/2019",
@@ -3457,7 +3457,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Flying",
-      "When Gorging Vulture enters the battlefield, put the top four cards of your library into your graveyard. You gain 1 life for each creature card put into your graveyard this way."
+      "When Gorging Vulture enters the battlefield, mill four cards. You gain 1 life for each creature card put into your graveyard this way."
     ],
     "flavor_text": null,
     "power": "2",
@@ -4292,7 +4292,7 @@
     "oracle_text": [
       "0: Put a loyalty counter on each red planeswalker you control.",
       "0: Create two 1/1 red Elemental creature tokens. They gain haste. Sacrifice them at the beginning of the next end step.",
-      "−2: You may cast target instant or sorcery card with converted mana cost 3 or less from your graveyard. If that card would be put into your graveyard this turn, exile it instead."
+      "−2: You may cast target instant or sorcery card with converted mana cost 3 or less from your graveyard. If that spell would be put into your graveyard this turn, exile it instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -5198,7 +5198,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "1R",
@@ -7991,7 +7991,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "You may look at the top card of your library any time.",
-      "You may cast the top card of your library if it's an artifact card or a colorless nonland card.",
+      "You may cast artifact spells and colorless spells from the top of your library.",
       "{T}, Pay 1 life: Exile the top card of your library."
     ],
     "flavor_text": null,
@@ -10167,7 +10167,7 @@
     "mana_cost": "2GG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Trample  (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
+      "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
       "Whenever you cast a spell that targets Gnarlback Rhino, draw a card."
     ],
     "flavor_text": "\"I think it's trying to tell us that the forest is angry.\"\n—Vivien Reid",
@@ -10291,7 +10291,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
+      "Flying"
     ],
     "flavor_text": "In the cloudy skies and dim light of autumn, a flash of white wings is a reminder that better times lie ahead.",
     "power": "1",
@@ -11243,7 +11243,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "7/12/2019",
+        "date": "4/17/2020",
         "text": "If Bristling Boar gains menace, it can’t be blocked at all."
       }
     ]

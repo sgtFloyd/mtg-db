@@ -1973,7 +1973,7 @@
       },
       {
         "date": "7/13/2016",
-        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans and “scryed” if applicable. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
       },
       {
         "date": "7/13/2016",
@@ -2870,7 +2870,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{T}: Put the top two cards of your library into your graveyard. Then if there is a colorless creature card in your graveyard, transform Grizzled Angler."
+      "{T}: Mill two cards. Then if there is a colorless creature card in your graveyard, transform Grizzled Angler."
     ],
     "flavor_text": "\"There's no question that these waters are treacherous, but if there's one thing I've learned in all my years of sailing . . .\"",
     "power": "2",
@@ -3082,7 +3082,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Laboratory Brute enters the battlefield, put the top four cards of your library into your graveyard."
+      "When Laboratory Brute enters the battlefield, mill four cards."
     ],
     "flavor_text": "It keeps intruders out and experiments in.",
     "power": "3",
@@ -3490,12 +3490,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "7/13/2016",
-        "text": "Spells that can’t be countered can be returned to their owner’s hand by Unsubstantiate. They won’t resolve."
-      },
-      {
-        "date": "7/13/2016",
-        "text": "A spell that’s a copy ceases to exist as a state-based action after being returned to its owner’s hand. It can’t be cast, and it never counts as a “card” in the player’s hand."
+        "date": "6/23/2020",
+        "text": "If a spell is returned to its owner’s hand, it’s removed from the stack and thus will not resolve. The spell isn’t countered; it just no longer exists. This works against a spell that can’t be countered."
       }
     ]
   },
@@ -4020,7 +4016,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "+1: Up to one target creature gets -2/-1 until your next turn.",
-      "−2: Put the top two cards of your library into your graveyard, then you may return a creature card from your graveyard to your hand.",
+      "−2: Mill two cards, then you may return a creature card from your graveyard to your hand.",
       "−7: You get an emblem with \"At the beginning of your end step, create X 2/2 black Zombie creature tokens, where X is two plus the number of Zombies you control.\""
     ],
     "flavor_text": null,
@@ -4582,7 +4578,7 @@
     "supertypes": [],
     "subtypes": [
       "Zombie",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "2B",
@@ -4759,7 +4755,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Wailing Ghoul enters the battlefield, put the top two cards of your library into your graveyard."
+      "When Wailing Ghoul enters the battlefield, mill two cards."
     ],
     "flavor_text": "\"Don't worry, sweet brother. Help is on the way.\"\n—Ghoulcaller Gisa",
     "power": "1",
@@ -6365,7 +6361,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "At the beginning of your upkeep, you may put the top card of your library into your graveyard.",
+      "At the beginning of your upkeep, you may mill a card.",
       "Delirium — {2}{G}, Sacrifice Crop Sigil: Return up to one target creature card and up to one target land card from your graveyard to your hand. Activate this ability only if there are four or more card types among cards in your graveyard."
     ],
     "flavor_text": null,
@@ -6596,7 +6592,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Put the top three cards of your library into your graveyard, then you may return a creature or land card from your graveyard to your hand."
+      "Mill three cards, then you may return a creature or land card from your graveyard to your hand."
     ],
     "flavor_text": "Emrakul does not grant wishes. Desires simply align to her will.",
     "power": null,
@@ -7340,8 +7336,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "7/13/2016",
-        "text": "If the target becomes illegal while Wolfkin Bond is on the stack, the spell doesn’t resolve. It won’t enter the battlefield and you won’t get a Wolf token."
+        "date": "7/12/2019",
+        "text": "You need a creature for Wolfkin Bond to target as you cast it. It can’t enter the battlefield attached to the Wolf token it will create."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "If the target creature is an illegal target by the time Wolfkin Bond tries to resolve, the spell doesn’t resolve. It won’t enter the battlefield, so its ability won’t trigger."
       }
     ]
   },
@@ -7493,8 +7493,8 @@
     "mana_cost": "2UB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Gisa and Geralf enters the battlefield, put the top four cards of your library into your graveyard.",
-      "During each of your turns, you may cast a Zombie creature card from your graveyard."
+      "When Gisa and Geralf enters the battlefield, mill four cards.",
+      "During each of your turns, you may cast a Zombie creature spell from your graveyard."
     ],
     "flavor_text": "\"These fiends are slightly less tolerable than you.\"\n\"A sentiment that warms my heart, sister.\"",
     "power": "4",

@@ -1100,7 +1100,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Flash",
+      "Flash (You may cast this spell any time you could cast an instant.)",
       "Enchant creature",
       "When Capture Sphere enters the battlefield, tap enchanted creature.",
       "Enchanted creature doesn't untap during its controller's untap step."
@@ -1403,7 +1403,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever you cast a blue spell, target player puts the top two cards of their library into their graveyard."
+      "Whenever you cast a blue spell, target player mills two cards."
     ],
     "flavor_text": "Beneath Ravnica's streets runs a layer of tunnels, then caverns and waterways, then terrors and nightmares.",
     "power": null,
@@ -1572,7 +1572,7 @@
     "mana_cost": "UU",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Surveil 2, then choose an instant or sorcery card in your graveyard. You may cast that card this turn. If that card would be put into your graveyard this turn, exile it instead. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)"
+      "Surveil 2, then choose an instant or sorcery card in your graveyard. You may cast it this turn. If that spell would be put into your graveyard this turn, exile it instead. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1761,7 +1761,7 @@
     "mana_cost": "4U",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{2}{U}, {T}: You may cast an instant or sorcery card from your hand without paying its mana cost."
+      "{2}{U}, {T}: You may cast an instant or sorcery spell from your hand without paying its mana cost."
     ],
     "flavor_text": "She memorized every arcane text in the Ismeri Library by the time she was sixteen. Now she quizzes sphinxes in her spare time.",
     "power": "3",
@@ -2249,7 +2249,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Flying"
+      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
     ],
     "flavor_text": "\"Bats are welcome to eat thousands of my pets. I have multitudes more that will ultimately eat the bats.\"\n—Izoni",
     "power": "3",
@@ -3204,7 +3204,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Vicious Rumors deals 1 damage to each opponent. Each opponent discards a card, then puts the top card of their library into their graveyard. You gain 1 life."
+      "Vicious Rumors deals 1 damage to each opponent. Each opponent discards a card, then mills a card. You gain 1 life."
     ],
     "flavor_text": "\"The alliances were already frayed. All we do is find the loose threads and pluck.\"\n—Lazav",
     "power": null,
@@ -3556,8 +3556,8 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "You may look at the top card of your library any time.",
-      "You may play the top card of your library.",
-      "You can't play cards from your hand.",
+      "You may play lands and cast spells from the top of your library.",
+      "You can't play lands or cast spells from your hand.",
       "{3}{R}: Destroy Experimental Frenzy."
     ],
     "flavor_text": "Turns out coffee is the weird aunt of invention.",
@@ -4221,7 +4221,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target creature gets +3/+0 and gains first strike until end of turn."
+      "Target creature gets +3/+0 and gains first strike until end of turn. (It deals combat damage before creatures without first strike.)"
     ],
     "flavor_text": "\"I packed three more electroconduits into each test wand. You'll experience a brief tingling sensation.\"",
     "power": null,
@@ -4909,11 +4909,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "10/5/2018",
-        "text": "The bonus is determined as Might of the Masses resolves. It won’t change if the number of creatures you control changes later in the turn."
+        "date": "7/12/2019",
+        "text": "The size of the bonus is determined as Might of the Masses resolves; it won’t change if the number of creatures you control changes later in the turn."
       },
       {
-        "date": "10/5/2018",
+        "date": "7/12/2019",
         "text": "If you target a creature you control with Might of the Masses, remember to count that creature when determining the amount of the bonus."
       }
     ]
@@ -5146,7 +5146,7 @@
     "mana_cost": "G",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Defender",
+      "Defender (This creature can't attack.)",
       "{2}, {T}, Sacrifice a creature with defender: Draw a card."
     ],
     "flavor_text": "Nature's way of saying \"take the long way home.\"",
@@ -5158,12 +5158,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "10/5/2018",
-        "text": "You can sacrifice Portcullis Vine to pay the cost for its own ability."
-      },
-      {
-        "date": "10/5/2018",
-        "text": "If you sacrifice a blocking creature, the attacking creature it blocked doesn’t become unblocked. Unless it has trample or has other creatures blocking it, that attacking creature won’t deal combat damage."
+        "date": "6/23/2020",
+        "text": "Portcullis Vine can be sacrificed to pay the cost of its last ability."
       }
     ]
   },
@@ -6332,7 +6328,7 @@
     "mana_cost": "BG",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Glowspore Shaman enters the battlefield, put the top three cards of your library into your graveyard. You may put a land card from your graveyard on top of your library."
+      "When Glowspore Shaman enters the battlefield, mill three cards. You may put a land card from your graveyard on top of your library."
     ],
     "flavor_text": "From death she grows living grandeur.",
     "power": "3",
@@ -6964,7 +6960,7 @@
     "mana_cost": "1UB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Exile all cards from all opponents' graveyards. You may cast those cards this turn, and you may spend mana as though it were mana of any type to cast those spells. At the beginning of the next end step, if any of those cards remain exiled, return them to their owners' graveyards.",
+      "Exile all cards from all opponents' graveyards. You may cast spells from among those cards this turn, and you may spend mana as though it were mana of any type to cast those spells. At the beginning of the next end step, if any of those cards remain exiled, return them to their owners' graveyards.",
       "Exile Mnemonic Betrayal."
     ],
     "flavor_text": null,
@@ -9227,7 +9223,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}: Put the top card of your library into your graveyard.",
+      "{T}: Mill a card.",
       "{2}, {T}, Exile Wand of Vertebrae: Shuffle up to five target cards from your graveyard into your library."
     ],
     "flavor_text": "Made by the mad for the work of the wicked.",

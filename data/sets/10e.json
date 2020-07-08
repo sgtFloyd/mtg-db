@@ -1080,7 +1080,16 @@
     "multiverse_id": 136291,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "7/12/2019",
+        "text": "Rule of Law looks at the entire turn to see if a player has cast a spell, even if Rule of Law wasn’t on the battlefield when that spell was cast. Notably, you can’t cast Rule of Law and then cast another spell during the same turn."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "If you cast a spell that was countered, you can’t cast another spell during the same turn."
+      }
+    ]
   },
   {
     "name": "Samite Healer",
@@ -1862,7 +1871,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
+      "Flying"
     ],
     "flavor_text": "\"The East Wind, an interloper in the dominions of Westerly Weather, is an impassive-faced tyrant with a sharp poniard held behind his back for a treacherous stab.\"\n—Joseph Conrad, The Mirror of the Sea",
     "power": "4",
@@ -1892,7 +1901,7 @@
     "mana_cost": "1UU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{3}: Target player puts the top three cards of their library into their graveyard."
+      "{3}: Target player mills three cards."
     ],
     "flavor_text": "\"Life is a game. The only thing that matters is whether you're a pawn or a player.\"",
     "power": "1",
@@ -2408,7 +2417,7 @@
     "mana_cost": "2UU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "At the beginning of each player's upkeep, that player puts the top X cards of their library into their graveyard, where X is the number of cards in their hand."
+      "At the beginning of each player's upkeep, that player mills X cards, where X is the number of cards in their hand."
     ],
     "flavor_text": "\"Her voice is insight, piercing and true.\"\n—Ixidor, reality sculptor",
     "power": "2",
@@ -3277,7 +3286,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Flying"
+      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
     ],
     "flavor_text": "The irritable drakes are solitary nesters. Even brooding females barely contain the urge to attack their own young.",
     "power": "3",
@@ -3468,7 +3477,7 @@
     "mana_cost": "4UU",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "End the turn. (Exile all spells and abilities on the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)"
+      "End the turn. (Exile all spells and abilities from the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3540,7 +3549,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Target player puts the top half of their library, rounded down, into their graveyard."
+      "Target player mills half their library, rounded down."
     ],
     "flavor_text": "\"The educated mind is heavy with lore and knowledge. It's also the most likely to collapse under its own weight.\"\n—Ambassador Laquatus",
     "power": null,
@@ -3788,7 +3797,8 @@
       "Legendary"
     ],
     "subtypes": [
-      "Vampire"
+      "Vampire",
+      "Noble"
     ],
     "rarity": "Rare",
     "mana_cost": "4BB",
@@ -5491,6 +5501,10 @@
       {
         "date": "10/4/2004",
         "text": "In a multi-player game, it affects all opponents."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” it’s not a card drawn."
       }
     ]
   },
@@ -6146,7 +6160,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Other Goblin creatures get +1/+1 and have mountainwalk. (They can't be blocked as long as defending player controls a Mountain.)"
+      "Other Goblins get +1/+1 and have mountainwalk."
     ],
     "flavor_text": "To be king, Numsgil did in Blog, who did in Unkful, who did in Viddle, who did in Loll, who did in Alrok. . . .",
     "power": "2",
@@ -8565,7 +8579,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever you cast a white, blue, black, or red spell, put a +1/+1 counter on Quirion Dryad."
+      "Whenever you cast a spell that's white, blue, black, or red, put a +1/+1 counter on Quirion Dryad."
     ],
     "flavor_text": "\"Never underestimate the ability of natural forces to adapt to unnatural influences.\"\n—Molimo, maro-sorcerer",
     "power": "1",
@@ -8576,12 +8590,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "7/1/2012",
-        "text": "Quirion Dryad’s ability will trigger only once per spell you cast, as long as that spell is at least one of the listed colors."
+        "date": "6/23/2020",
+        "text": "An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered."
       },
       {
-        "date": "7/1/2012",
-        "text": "Quirion Dryad’s ability will trigger if you cast a spell that’s green and at least one of the listed colors."
+        "date": "6/23/2020",
+        "text": "If you cast a spell that’s more than one color, Quirion Dryad’s ability triggers just once."
       }
     ]
   },
@@ -9545,7 +9559,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "You may play land cards from your graveyard."
+      "You may play lands from your graveyard."
     ],
     "flavor_text": "Amidst the darkest ashes grow the strongest seeds.",
     "power": null,
@@ -10013,7 +10027,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}, {T}: Target player puts the top two cards of their library into their graveyard."
+      "{2}, {T}: Target player mills two cards."
     ],
     "flavor_text": "More than one mage has been driven insane by the sound of the millstone relentlessly grinding away.",
     "power": null,

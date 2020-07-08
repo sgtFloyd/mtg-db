@@ -2121,7 +2121,7 @@
     "mana_cost": "1UU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Counter target spell. Its controller puts the top three cards of their library into their graveyard."
+      "Counter target spell. Its controller mills three cards."
     ],
     "flavor_text": "\"If you're in our home, we expect you to mind your manners.\"",
     "power": null,
@@ -2157,7 +2157,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "This spell costs {1} less to cast for each artifact you control.",
-      "When Emry, Lurker of the Loch enters the battlefield, put the top four cards of your library into your graveyard.",
+      "When Emry, Lurker of the Loch enters the battlefield, mill four cards.",
       "{T}: Choose target artifact card in your graveyard. You may cast that card this turn. (You still pay its costs. Timing rules still apply.)"
     ],
     "flavor_text": null,
@@ -2363,7 +2363,7 @@
     "oracle_text": [
       "Players have no maximum hand size.",
       "{X}{X}, {T}: Each player draws X cards.",
-      "{2}{U}, {T}: Each opponent puts a number of cards equal to the number of cards in their hand from the top of their library into their graveyard."
+      "{2}{U}, {T}: Each opponent mills cards equal to the number of cards in their hand."
     ],
     "flavor_text": null,
     "power": null,
@@ -2810,7 +2810,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player puts the top four cards of their library into their graveyard. (Then exile this card. You may cast the creature later from exile.)"
+      "Target player mills four cards. (Then exile this card. You may cast the creature later from exile.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3057,7 +3057,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "When Overwhelmed Apprentice enters the battlefield, each opponent puts the top two cards of their library into their graveyard. Then you scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)"
+      "When Overwhelmed Apprentice enters the battlefield, each opponent mills two cards. Then you scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)"
     ],
     "flavor_text": null,
     "power": "1",
@@ -3554,7 +3554,7 @@
       "Flying",
       "Vantress Gargoyle can't attack unless defending player has seven or more cards in their graveyard.",
       "Vantress Gargoyle can't block unless you have four or more cards in hand.",
-      "{T}: Each player puts the top card of their library into their graveyard."
+      "{T}: Each player mills a card."
     ],
     "flavor_text": null,
     "power": "5",
@@ -3974,7 +3974,7 @@
     "mana_cost": "4B",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Adamant — If at least three black mana was spent to cast this spell, put the top four cards of your library into your graveyard.",
+      "Adamant — If at least three black mana was spent to cast this spell, mill four cards.",
       "You may choose a creature card in your graveyard. If you do, return it to the battlefield with an additional +1/+1 counter on it."
     ],
     "flavor_text": null,
@@ -4100,7 +4100,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Flying",
-      "Whenever Eye Collector deals combat damage to a player, each player puts the top card of their library into their graveyard."
+      "Whenever Eye Collector deals combat damage to a player, each player mills a card."
     ],
     "flavor_text": "\"Lord Rankle will see you now—all he asks is a small token of tribute.\"",
     "power": "1",
@@ -5246,7 +5246,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Whenever another creature dies, or a creature card is put into a graveyard from anywhere other than the battlefield, or a creature card leaves your graveyard, Syr Konrad, the Grim deals 1 damage to each opponent.",
-      "{1}{B}: Each player puts the top card of their library into their graveyard."
+      "{1}{B}: Each player mills a card."
     ],
     "flavor_text": null,
     "power": "5",
@@ -6115,22 +6115,6 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "8/15/2010",
-        "text": "The sacrificed creature’s last known existence on the battlefield is checked to determine its power."
-      },
-      {
-        "date": "8/15/2010",
-        "text": "If you sacrifice an attacking or blocking creature during the declare blockers step, it won’t deal combat damage. If you wait until the combat damage step, but that creature is dealt lethal damage, it’ll be destroyed before you get a chance to sacrifice it."
-      },
-      {
-        "date": "4/15/2013",
-        "text": "You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures."
-      },
-      {
-        "date": "4/15/2013",
-        "text": "Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell."
-      },
-      {
         "date": "10/4/2019",
         "text": "The sacrificed creature’s last known existence on the battlefield is checked to determine its power."
       },
@@ -6771,6 +6755,10 @@
       {
         "date": "10/4/2019",
         "text": "Scorching Dragonfire’s replacement effect will exile the target creature or planeswalker if it would die this turn for any reason, not just due to lethal damage. It applies to the target creature or planeswalker even if Scorching Dragonfire deals no damage to it (most likely due to a prevention effect)."
+      },
+      {
+        "date": "6/23/2020",
+        "text": "Scorching Dragonfire’s replacement effect will exile the target creature or planeswalker if it would die this turn for any reason, not just due to lethal damage."
       }
     ]
   },
@@ -7065,7 +7053,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "10/4/2019",
+        "date": "6/23/2020",
         "text": "You must discard exactly one card to cast Thrill of Possibility; you can’t cast it without discarding a card, and you can’t discard additional cards."
       }
     ]
@@ -9539,7 +9527,11 @@
     "rulings": [
       {
         "date": "10/4/2019",
-        "text": "The effects of Oko’s second and third abilities last indefinitely. They don’t expire during the cleanup step or if you or Oko leave the game. Oko’s third ability doesn’t expire if the creature you take has its power raised above 3 later."
+        "text": "The effects of Oko’s second ability lasts indefinitely. It doesn’t expire during the cleanup step or if you or Oko leave the game."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "The effects of Oko’s third ability lasts indefinitely. It doesn’t expire during the cleanup step or if the creature you take has its power raised above 3 later."
       },
       {
         "date": "10/4/2019",
@@ -10935,26 +10927,6 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "9/29/2017",
-        "text": "You can choose any card name, even if that card doesn’t normally have an activated ability. You’re not limited to the names of cards you saw in the opponent’s hand."
-      },
-      {
-        "date": "9/29/2017",
-        "text": "You can’t choose the name of a token unless that token has the same name as a card."
-      },
-      {
-        "date": "9/29/2017",
-        "text": "Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keyword abilities (such as equip and crew) are activated abilities and will have colons in their reminder text. Triggered abilities (starting with “when,” “whenever,” or “at”) are unaffected by the last ability of Sorcerous Spyglass."
-      },
-      {
-        "date": "9/29/2017",
-        "text": "An activated mana ability is one that produces mana as it resolves, not one that costs mana to activate."
-      },
-      {
-        "date": "9/29/2017",
-        "text": "Sorcerous Spyglass affects cards regardless of what zone they’re in. This includes cards in hand, cards in the graveyard, and exiled cards."
-      },
-      {
         "date": "10/4/2019",
         "text": "You can choose any card name, even if that card doesn’t normally have an activated ability. You’re not limited to the names of cards you saw in the opponent’s hand."
       },
@@ -11359,11 +11331,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "10/4/2019",
+        "date": "6/23/2020",
         "text": "The land that you put onto the battlefield will be counted when determining whether you control four or more lands, but Fabled Passage will not."
       },
       {
-        "date": "10/4/2019",
+        "date": "6/23/2020",
         "text": "If you control four or more lands, the basic land doesn’t enter the battlefield untapped; it enters tapped and then you untap it."
       }
     ]

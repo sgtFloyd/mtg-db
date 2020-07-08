@@ -1475,16 +1475,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/22/2015",
-        "text": "The ability affects each spell that’s not a creature spell, including your own."
+        "date": "6/23/2020",
+        "text": "The ability affects each spell that’s not a creature spell, including your own. Creature spells with another type, such as artifact creature spells, aren’t affected."
       },
       {
-        "date": "6/22/2015",
-        "text": "The ability affects what you pay to cast each noncreature spell (its total cost), but it doesn’t change that spell’s mana cost or converted mana cost."
-      },
-      {
-        "date": "6/22/2015",
-        "text": "When determining a spell’s total cost, effects that increase the cost are applied before effects that reduce the cost."
+        "date": "6/23/2020",
+        "text": "To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying, add any cost increases (such as that of Vryn Wingmare), then apply any cost reductions. The converted mana cost of the spell remains unchanged, no matter what the total cost to cast it was."
       }
     ]
   },
@@ -1717,7 +1713,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "7/13/2018",
+        "date": "7/12/2019",
         "text": "A creature spell that can’t be countered is a legal target for Bone to Ash. The creature spell won’t be countered when Bone to Ash resolves, but you’ll still draw a card."
       }
     ]
@@ -1838,7 +1834,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Each player shuffles their hand and graveyard into their library, then draws seven cards. If it's your turn, end the turn. (Exile all spells and abilities on the stack, including this card. Discard down to your maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)"
+      "Each player shuffles their hand and graveyard into their library, then draws seven cards. If it's your turn, end the turn. (Exile all spells and abilities from the stack, including this card. Discard down to your maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2011,7 +2007,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Target player puts the top X cards of their library into their graveyard, where X is the number of lands you control."
+      "Target player mills X cards, where X is the number of lands you control."
     ],
     "flavor_text": "Stray into the Morkrut and it may rise to claim you.",
     "power": null,
@@ -2044,7 +2040,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)",
+      "Flying",
       "When Faerie Miscreant enters the battlefield, if you control another creature named Faerie Miscreant, draw a card."
     ],
     "flavor_text": "One faerie distracts the judge while a second steals the law.",
@@ -2056,12 +2052,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/22/2015",
+        "date": "7/12/2019",
         "text": "Faerie Miscreant’s triggered ability checks to see if you control another creature named Faerie Miscreant at the time the new Faerie Miscreant enters the battlefield. If you don’t, the ability won’t trigger at all. The ability will check again as it tries to resolve. If, at that time, you don’t control another creature named Faerie Miscreant, the ability will have no effect."
-      },
-      {
-        "date": "6/22/2015",
-        "text": "If multiple Faerie Miscreants enter the battlefield at the same time, all of their triggered abilities will trigger."
       }
     ]
   },
@@ -2227,8 +2219,8 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "+1: Up to one target creature gets -2/-0 until your next turn.",
-      "−3: You may cast target instant or sorcery card from your graveyard this turn. If that card would be put into your graveyard this turn, exile it instead.",
-      "−9: You get an emblem with \"Whenever you cast a spell, target opponent puts the top five cards of their library into their graveyard.\""
+      "−3: You may cast target instant or sorcery card from your graveyard this turn. If that spell would be put into your graveyard this turn, exile it instead.",
+      "−9: You get an emblem with \"Whenever you cast a spell, target opponent mills five cards.\""
     ],
     "flavor_text": null,
     "power": null,
@@ -2630,7 +2622,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Screeching Skaab enters the battlefield, put the top two cards of your library into your graveyard."
+      "When Screeching Skaab enters the battlefield, mill two cards."
     ],
     "flavor_text": "Its screeching is the sound of you losing your mind.",
     "power": "2",
@@ -2824,7 +2816,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever you draw a card, target opponent puts the top two cards of their library into their graveyard. If they're both nonland cards that share a color, repeat this process.",
+      "Whenever you draw a card, target opponent mills two cards. If two nonland cards that share a color were milled this way, repeat this process.",
       "{5}{U}: Draw a card, then discard a card."
     ],
     "flavor_text": "\"You've never considered the implications of dealing with another telepath, Jace.\"",
@@ -2889,8 +2881,8 @@
     "mana_cost": "2UU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Target opponent reveals the top seven cards of their library. You may cast an instant or sorcery card from among them without paying its mana cost. Then that player puts the rest into their graveyard.",
-      "Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, you may cast up to two revealed instant and/or sorcery cards instead of one."
+      "Target opponent reveals the top seven cards of their library. You may cast an instant or sorcery spell from among them without paying its mana cost. Then that player puts the rest into their graveyard.",
+      "Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, you may cast up to two instant and/or sorcery spells from among the revealed cards instead of one."
     ],
     "flavor_text": null,
     "power": null,
@@ -3581,7 +3573,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)",
+      "Flying",
       "{B}: Fetid Imp gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)"
     ],
     "flavor_text": null,
@@ -3755,11 +3747,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "7/13/2018",
+        "date": "6/23/2020",
         "text": "The player who controlled the creature when it died is the one who will draw a card."
       },
       {
-        "date": "7/13/2018",
+        "date": "6/23/2020",
         "text": "If Infernal Scarring and the enchanted creature are destroyed at the same time, the player will draw a card."
       }
     ]
@@ -4270,7 +4262,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Returned Centaur enters the battlefield, target player puts the top four cards of their library into their graveyard."
+      "When Returned Centaur enters the battlefield, target player mills four cards."
     ],
     "flavor_text": "Driven away by his living kin, he wanders mourning through the wilderness, seeking the dead city of Asphodel.",
     "power": "2",
@@ -4538,7 +4530,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/22/2015",
+        "date": "7/12/2019",
         "text": "Count the number of Undead Servants in your graveyard as the ability resolves to determine how many tokens to put onto the battlefield. If Undead Servant dies in response to its own triggered ability and is in your graveyard as that ability resolves, it will count toward the number of Zombies you get."
       }
     ]
@@ -4728,7 +4720,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn."
+      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)"
     ],
     "flavor_text": "She learned a tragic lesson that day: even the purest can be corrupted when the heart's emotions are twisted.",
     "power": null,
@@ -4739,11 +4731,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "Act of Treason can target any creature, even one that’s untapped or one you already control."
       },
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it."
       }
     ]
@@ -5351,7 +5343,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Fiery Impulse deals 2 damage to target creature.",
-      "Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, Fiery Impulse deals 3 damage to that creature instead."
+      "Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, Fiery Impulse deals 3 damage instead."
     ],
     "flavor_text": "\"Well, this got out of hand.\"",
     "power": null,
@@ -6814,11 +6806,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "10/5/2018",
-        "text": "The bonus is determined as Might of the Masses resolves. It won’t change if the number of creatures you control changes later in the turn."
+        "date": "7/12/2019",
+        "text": "The size of the bonus is determined as Might of the Masses resolves; it won’t change if the number of creatures you control changes later in the turn."
       },
       {
-        "date": "10/5/2018",
+        "date": "7/12/2019",
         "text": "If you target a creature you control with Might of the Masses, remember to count that creature when determining the amount of the bonus."
       }
     ]
@@ -6922,7 +6914,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "+1: Reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put it into your hand.",
-      "−2: Create a legendary 4/4 green Elemental creature token named Ashaya, the Awoken World.",
+      "−2: Create Ashaya, the Awoken World, a legendary 4/4 green Elemental creature token.",
       "−7: Untap up to six target lands. They become 6/6 Elemental creatures. They're still lands."
     ],
     "flavor_text": null,
@@ -7612,7 +7604,7 @@
     "supertypes": [],
     "subtypes": [
       "Elemental",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Uncommon",
     "mana_cost": "2BR",
@@ -9960,7 +9952,7 @@
     "supertypes": [],
     "subtypes": [
       "Elemental",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "1RR",
@@ -10057,16 +10049,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "10/1/2009",
-        "text": "Prized Unicorn doesn’t give a creature the ability to block it. It just forces those creatures that are already able to block it to do so. For example, it can’t force a creature that’s tapped or affected by a spell or ability that says it can’t block to block it. If there’s a cost associated with having a creature block, its controller isn’t forced to pay that cost, so the creature doesn’t have to block Prized Unicorn in that case either."
+        "date": "7/12/2019",
+        "text": "If a creature the defending player controls can’t block Prized Unicorn for any reason (such as being tapped), then it doesn’t block Prized Unicorn. If there’s a cost associated with having a creature block Prized Unicorn, the defending player isn’t forced to pay that cost, so it doesn’t have to block."
       },
       {
-        "date": "10/1/2009",
-        "text": "If a creature the defending player controls can’t block Prized Unicorn, it can block any attacking creature, or not block at all."
-      },
-      {
-        "date": "10/1/2009",
-        "text": "If two Prized Unicorns are attacking, each creature the defending player controls can block either one of them. (The defending player chooses.) A creature that can block multiple creatures, like Palace Guard, must block both of them."
+        "date": "7/12/2019",
+        "text": "If more than one Prized Unicorn is attacking, creatures that could block must block one Prized Unicorn, but they don’t all have to block the same Prized Unicorn."
       }
     ]
   },

@@ -729,8 +729,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "8/25/2015",
-        "text": "If the target of an Aura becomes illegal before the spell resolves, the Aura won’t resolve and will be put into its owner’s graveyard. It won’t enter the battlefield and you won’t draw a card."
+        "date": "7/12/2019",
+        "text": "If the target creature is an illegal target by the time Angelic Gift tries to resolve, the spell doesn’t resolve. It won’t enter the battlefield, so you won’t draw a card."
       }
     ]
   },
@@ -1981,7 +1981,7 @@
     "mana_cost": "3W",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Converge — Create a 1/1 white Kor Ally creature token for each color of mana spent to cast Unified Front."
+      "Converge — Create a 1/1 white Kor Ally creature token for each color of mana spent to cast this spell."
     ],
     "flavor_text": "The kor's pride in their independence has given way to a strong sense of community that embraces all of Zendikar.",
     "power": null,
@@ -2986,7 +2986,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Converge — Draw X cards, where X is the number of colors of mana spent to cast Brilliant Spectrum. Then discard two cards."
+      "Converge — Draw X cards, where X is the number of colors of mana spent to cast this spell. Then discard two cards."
     ],
     "flavor_text": "There are more sights on Zendikar than the eyes can see.",
     "power": null,
@@ -3245,7 +3245,7 @@
     "mana_cost": "4U",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Converge — Gain control of target creature if its power is less than or equal to the number of colors of mana spent to cast Exert Influence."
+      "Converge — Gain control of target creature if its power is less than or equal to the number of colors of mana spent to cast this spell."
     ],
     "flavor_text": "\"I can't control its mind—I'm not even sure it has one. But I can dominate its will.\"",
     "power": null,
@@ -3521,7 +3521,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Converge — Creatures your opponents control get -X/-0 until end of turn, where X is the number of colors of mana spent to cast Roilmage's Trick.",
+      "Converge — Creatures your opponents control get -X/-0 until end of turn, where X is the number of colors of mana spent to cast this spell.",
       "Draw a card."
     ],
     "flavor_text": "Weather on Zendikar is unpredictable—unless you're the one telling it what to do.",
@@ -4661,16 +4661,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/14/2017",
+        "date": "7/12/2019",
         "text": "You must sacrifice exactly one creature to cast this spell; you can’t cast it without sacrificing a creature, and you can’t sacrifice additional creatures."
       },
       {
-        "date": "3/14/2017",
+        "date": "7/12/2019",
         "text": "Once you begin to cast Bone Splinters, no player may take actions until you’re done. Notably, opponents can’t try to remove the creature you wish to sacrifice."
-      },
-      {
-        "date": "3/14/2017",
-        "text": "You can cast Bone Splinters targeting the creature you intend to sacrifice for its cost. This is because targets are chosen before costs are paid. Bone Splinters won’t resolve as it tries to resolve in this case."
       }
     ]
   },
@@ -5229,7 +5225,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Converge — You draw X cards and you lose X life, where X is the number of colors of mana spent to cast Painful Truths."
+      "Converge — You draw X cards and you lose X life, where X is the number of colors of mana spent to cast this spell."
     ],
     "flavor_text": "As the Eldrazi spread, no secret that could give Zendikar's defenders an advantage was considered too dangerous to seek.",
     "power": null,
@@ -6171,7 +6167,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "Landfall — Whenever a land enters the battlefield under your control, Akoum Hellkite deals 1 damage to any target. If that land is a Mountain, Akoum Hellkite deals 2 damage to that permanent or player instead."
+      "Landfall — Whenever a land enters the battlefield under your control, Akoum Hellkite deals 1 damage to any target. If that land is a Mountain, Akoum Hellkite deals 2 damage instead."
     ],
     "flavor_text": null,
     "power": "4",
@@ -6614,7 +6610,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Converge — Radiant Flames deals X damage to each creature, where X is the number of colors of mana spent to cast Radiant Flames."
+      "Converge — Radiant Flames deals X damage to each creature, where X is the number of colors of mana spent to cast this spell."
     ],
     "flavor_text": "The fires of Zendikar are always hungry, and there is much on which they can feed.",
     "power": null,
@@ -6754,7 +6750,7 @@
     "rulings": [
       {
         "date": "10/4/2004",
-        "text": "If X is greater than 0, you can’t choose zero targets. You must choose between one and X targets. If X is 0, you can’t choose any targets."
+        "text": "If X is 0, you can’t choose any targets."
       },
       {
         "date": "8/25/2015",
@@ -6843,7 +6839,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target creature gets +3/+0 and gains first strike until end of turn."
+      "Target creature gets +3/+0 and gains first strike until end of turn. (It deals combat damage before creatures without first strike.)"
     ],
     "flavor_text": "To survive imminent doom, it sometimes takes a foolhardy soul who acts first and fears later.",
     "power": null,
@@ -7721,7 +7717,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Converge — Put X +1/+1 counters on target creature, where X is the number of colors of mana spent to cast Infuse with the Elements. That creature gains trample until end of turn."
+      "Converge — Put X +1/+1 counters on target creature, where X is the number of colors of mana spent to cast this spell. That creature gains trample until end of turn."
     ],
     "flavor_text": "\"Zendikar has given us the weapons to wage war on the appropriate scale.\"—Najiya, leader of the Tajuru",
     "power": null,
@@ -8643,7 +8639,7 @@
       "Devoid (This card has no color.)",
       "Choose one or both —",
       "• Return target spell or creature to its owner's hand.",
-      "• Brutal Expulsion deals 2 damage to target creature or planeswalker. If that permanent would be put into a graveyard this turn, exile it instead."
+      "• Brutal Expulsion deals 2 damage to target creature or planeswalker. If that creature or planeswalker would die this turn, exile it instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -9169,7 +9165,7 @@
     "mana_cost": "3GU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Converge — Search your library for a creature, instant, or sorcery card with converted mana cost less than or equal to the number of colors of mana spent to cast Bring to Light, exile that card, then shuffle your library. You may cast that card without paying its mana cost."
+      "Converge — Search your library for a creature, instant, or sorcery card with converted mana cost less than or equal to the number of colors of mana spent to cast this spell, exile that card, then shuffle your library. You may cast that card without paying its mana cost."
     ],
     "flavor_text": null,
     "power": null,

@@ -1323,7 +1323,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "W",
@@ -1878,8 +1878,8 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "+1: Draw a card. Target player puts the top card of their library into their graveyard.",
-      "0: Target player puts the top ten cards of their library into their graveyard.",
+      "+1: Draw a card. Target player mills a card.",
+      "0: Target player mills ten cards.",
       "−7: Any number of target players each draw twenty cards."
     ],
     "flavor_text": null,
@@ -2036,7 +2036,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target opponent puts the top seven cards of their library into their graveyard."
+      "Target opponent mills seven cards."
     ],
     "flavor_text": "\"Your mind was a curious mix of madness and genius. I just took away the genius.\"\n—Jace Beleren",
     "power": null,
@@ -2191,20 +2191,16 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/14/2017",
+        "date": "6/23/2020",
         "text": "Rewind targets only a spell. It doesn’t target any lands. The lands are chosen as Rewind resolves."
       },
       {
-        "date": "3/14/2017",
+        "date": "6/23/2020",
         "text": "You can choose up to four lands, no matter who controls any of them. Those lands untap once. You can’t choose one land and have it untap four times, for example."
       },
       {
-        "date": "3/14/2017",
+        "date": "6/23/2020",
         "text": "If the spell is an illegal target when Rewind tries to resolve, perhaps because it was countered by another spell or ability, Rewind won’t resolve and none of its effects will happen. You won’t untap any lands."
-      },
-      {
-        "date": "3/14/2017",
-        "text": "If Rewind resolves but the target spell can’t be countered, you’ll still untap lands."
       }
     ]
   },
@@ -2588,7 +2584,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{U}, {T}: Target player puts the top two cards of their library into their graveyard."
+      "{U}, {T}: Target player mills two cards."
     ],
     "flavor_text": "\"Don't get any ideas.\"",
     "power": "1",
@@ -4662,7 +4658,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "When Mindclaw Shaman enters the battlefield, target opponent reveals their hand. You may cast an instant or sorcery card from it without paying its mana cost."
+      "When Mindclaw Shaman enters the battlefield, target opponent reveals their hand. You may cast an instant or sorcery spell from among those cards without paying its mana cost."
     ],
     "flavor_text": "Nicol Bolas gives power to those who will abuse it most.",
     "power": "2",
@@ -5091,12 +5087,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "1/1/2011",
-        "text": "You may target any creature, not just one with Equipment attached to it. The targeted creature will still be dealt damage even if no Equipment is attached to it."
+        "date": "6/23/2020",
+        "text": "Turn to Slag can target a creature that has no Equipment attached to it."
       },
       {
-        "date": "1/1/2011",
-        "text": "If the targeted creature is an illegal target by the time Turn to Slag resolves, the spell doesn’t resolve. No Equipment is destroyed."
+        "date": "6/23/2020",
+        "text": "If the target creature is an illegal target by the time Turn to Slag tries to resolve, the spell won’t resolve. You won’t destroy any Equipment."
       }
     ]
   },
@@ -6058,7 +6054,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever you cast a white, blue, black, or red spell, put a +1/+1 counter on Quirion Dryad."
+      "Whenever you cast a spell that's white, blue, black, or red, put a +1/+1 counter on Quirion Dryad."
     ],
     "flavor_text": "\"Never underestimate the ability of natural forces to adapt to unnatural influences.\"\n—Molimo, maro-sorcerer",
     "power": "1",
@@ -6069,12 +6065,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "7/1/2012",
-        "text": "Quirion Dryad’s ability will trigger only once per spell you cast, as long as that spell is at least one of the listed colors."
+        "date": "6/23/2020",
+        "text": "An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered."
       },
       {
-        "date": "7/1/2012",
-        "text": "Quirion Dryad’s ability will trigger if you cast a spell that’s green and at least one of the listed colors."
+        "date": "6/23/2020",
+        "text": "If you cast a spell that’s more than one color, Quirion Dryad’s ability triggers just once."
       }
     ]
   },
@@ -7020,7 +7016,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{X}, {T}: Target player puts the top X cards of their library into their graveyard."
+      "{X}, {T}: Target player mills X cards."
     ],
     "flavor_text": "It counts down your last few moments of sanity.",
     "power": null,

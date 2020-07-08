@@ -1505,7 +1505,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Flash",
+      "Flash (You may cast this spell any time you could cast an instant.)",
       "Enchant creature",
       "When Capture Sphere enters the battlefield, tap enchanted creature.",
       "Enchanted creature doesn't untap during its controller's untap step."
@@ -2870,7 +2870,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Put the top three cards of your library into your graveyard, then you may return a creature card from your graveyard to your hand."
+      "Mill three cards, then you may return a creature card from your graveyard to your hand."
     ],
     "flavor_text": "\"How did we find each other? So there I was, exploring a mound of monster corpses . . .\"",
     "power": null,
@@ -5242,7 +5242,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Trample",
-      "When Excavation Mole enters the battlefield, put the top three cards of your library into your graveyard."
+      "When Excavation Mole enters the battlefield, mill three cards."
     ],
     "flavor_text": "It makes molehills out of mountains.",
     "power": "3",
@@ -6447,7 +6447,7 @@
     "mana_cost": "WBG",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever a nontoken creature you control dies, put the top two cards of your library into your graveyard. Then return a creature card with lesser converted mana cost than the creature that died from your graveyard to your hand.",
+      "Whenever a nontoken creature you control dies, mill two cards. Then return a creature card with lesser converted mana cost than the creature that died from your graveyard to your hand.",
       "{1}, Sacrifice Death's Oasis: You gain life equal to the greatest converted mana cost among creatures you control."
     ],
     "flavor_text": null,
@@ -7559,7 +7559,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "{T}: Add {B} or {G}.",
-      "{T}: Put the top two cards of your library into your graveyard."
+      "{T}: Mill two cards."
     ],
     "flavor_text": "\"I study bone because that's where truth dwells. One monster knucklebone is wiser than all that damp meat in your head.\"",
     "power": "3",
@@ -8261,8 +8261,8 @@
     "mana_cost": "4{U/B}{U/B}",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Companion — Your starting deck contains only cards with even converted mana costs. (If this card is your chosen companion, you may cast it once from outside the game.)",
-      "When Gyruda enters the battlefield, each player puts the top four cards of their library into their graveyard. Put a creature card with an even converted mana cost from among those cards onto the battlefield under your control."
+      "Companion — Your starting deck contains only cards with even converted mana costs. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} any time you could cast a sorcery.)",
+      "When Gyruda enters the battlefield, each player mills four cards. Put a creature card with an even converted mana cost from among the milled cards onto the battlefield under your control."
     ],
     "flavor_text": null,
     "power": "6",
@@ -8272,6 +8272,14 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
+      {
+        "date": "6/1/2020",
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "6/1/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
+      },
       {
         "date": "4/17/2020",
         "text": "If a card in a player’s graveyard has {X} in its mana cost, X is considered to be 0."
@@ -8302,7 +8310,11 @@
       },
       {
         "date": "4/17/2020",
-        "text": "If you reveal a companion outside the game, for as long as it remains there, you may cast it any time it’s legal to cast. Once you do, it comes into the game and behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game."
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "4/17/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
       },
       {
         "date": "4/17/2020",
@@ -8337,8 +8349,8 @@
     "mana_cost": "4{U/B}{U/B}",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Companion — Your starting deck contains only cards with even converted mana costs. (If this card is your chosen companion, you may cast it once from outside the game.)",
-      "When Gyruda enters the battlefield, each player puts the top four cards of their library into their graveyard. Put a creature card with an even converted mana cost from among those cards onto the battlefield under your control."
+      "Companion — Your starting deck contains only cards with even converted mana costs. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} any time you could cast a sorcery.)",
+      "When Gyruda enters the battlefield, each player mills four cards. Put a creature card with an even converted mana cost from among the milled cards onto the battlefield under your control."
     ],
     "flavor_text": "Gigan, Cyberclaw Terror",
     "power": "6",
@@ -8348,6 +8360,14 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
+      {
+        "date": "6/1/2020",
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "6/1/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
+      },
       {
         "date": "4/17/2020",
         "text": "If a card in a player’s graveyard has {X} in its mana cost, X is considered to be 0."
@@ -8378,7 +8398,11 @@
       },
       {
         "date": "4/17/2020",
-        "text": "If you reveal a companion outside the game, for as long as it remains there, you may cast it any time it’s legal to cast. Once you do, it comes into the game and behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game."
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "4/17/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
       },
       {
         "date": "4/17/2020",
@@ -8413,7 +8437,7 @@
     "mana_cost": "4{R/G}",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Companion — No card in your starting deck has more than one of the same mana symbol in its mana cost. (If this card is your chosen companion, you may cast it once from outside the game.)",
+      "Companion — No card in your starting deck has more than one of the same mana symbol in its mana cost. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} any time you could cast a sorcery.)",
       "{T}: Add {W}{U}{B}{R}{G}. This mana can't be spent to pay generic mana costs."
     ],
     "flavor_text": null,
@@ -8425,8 +8449,16 @@
     "color_indicator": null,
     "rulings": [
       {
+        "date": "6/1/2020",
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "6/1/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
+      },
+      {
         "date": "4/17/2020",
-        "text": "Jegantha’s companion ability compares the exact symbols in the mana costs of cards in your deck. If any one card has the same symbol twice, such as {X}{X}{R} or , the companion condition isn’t satisfied."
+        "text": "Jegantha’s companion ability compares the exact symbols in the mana costs of cards in your deck. If any one card has the same symbol twice, such as {X}{X}{R} or {R/G}{R/G}, the companion condition isn’t satisfied."
       },
       {
         "date": "4/17/2020",
@@ -8450,7 +8482,11 @@
       },
       {
         "date": "4/17/2020",
-        "text": "If you reveal a companion outside the game, for as long as it remains there, you may cast it any time it’s legal to cast. Once you do, it comes into the game and behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game."
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "4/17/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
       },
       {
         "date": "4/17/2020",
@@ -8523,7 +8559,7 @@
     "mana_cost": "1{G/W}{G/W}",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Companion — Each creature card in your starting deck is a Cat, Elemental, Nightmare, Dinosaur, or Beast card. (If this card is your chosen companion, you may cast it once from outside the game.)",
+      "Companion — Each creature card in your starting deck is a Cat, Elemental, Nightmare, Dinosaur, or Beast card. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} any time you could cast a sorcery.)",
       "Vigilance",
       "Each other creature you control that's a Cat, Elemental, Nightmare, Dinosaur, or Beast gets +1/+1 and has vigilance."
     ],
@@ -8535,6 +8571,14 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
+      {
+        "date": "6/1/2020",
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "6/1/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
+      },
       {
         "date": "4/17/2020",
         "text": "Creature cards in your deck may be a mix of the five creature types that Kaheera cares about. They may also have additional types, as long as each creature card is at least one of those five. Noncreature cards may have any subtypes."
@@ -8561,7 +8605,11 @@
       },
       {
         "date": "4/17/2020",
-        "text": "If you reveal a companion outside the game, for as long as it remains there, you may cast it any time it’s legal to cast. Once you do, it comes into the game and behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game."
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "4/17/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
       },
       {
         "date": "4/17/2020",
@@ -8596,7 +8644,7 @@
     "mana_cost": "3{G/U}{G/U}",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Companion — Your starting deck contains only cards with converted mana cost 3 or greater and land cards. (If this card is your chosen companion, you may cast it once from outside the game.)",
+      "Companion — Your starting deck contains only cards with converted mana cost 3 or greater and land cards. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} any time you could cast a sorcery.)",
       "When Keruga, the Macrosage enters the battlefield, draw a card for each other permanent you control with converted mana cost 3 or greater."
     ],
     "flavor_text": null,
@@ -8607,6 +8655,14 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
+      {
+        "date": "6/1/2020",
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "6/1/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
+      },
       {
         "date": "4/17/2020",
         "text": "If a card in a player’s deck or a permanent on the battlefield has {X} in its mana cost, X is considered to be 0."
@@ -8633,7 +8689,11 @@
       },
       {
         "date": "4/17/2020",
-        "text": "If you reveal a companion outside the game, for as long as it remains there, you may cast it any time it’s legal to cast. Once you do, it comes into the game and behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game."
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "4/17/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
       },
       {
         "date": "4/17/2020",
@@ -8650,7 +8710,7 @@
     ]
   },
   {
-    "name": "Lurrus of the Dream Den",
+    "name": "Lurrus of the Dream-Den",
     "set_name": "Ikoria: Lair of Behemoths",
     "collector_num": "226",
     "illustrator": "Slawomir Maniak",
@@ -8668,7 +8728,7 @@
     "mana_cost": "1{W/B}{W/B}",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Companion — Each permanent card in your starting deck has converted mana cost 2 or less. (If this card is your chosen companion, you may cast it once from outside the game.)",
+      "Companion — Each permanent card in your starting deck has converted mana cost 2 or less. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} any time you could cast a sorcery.)",
       "Lifelink",
       "During each of your turns, you may cast one permanent spell with converted mana cost 2 or less from your graveyard."
     ],
@@ -8680,6 +8740,14 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
+      {
+        "date": "6/1/2020",
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "6/1/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
+      },
       {
         "date": "4/17/2020",
         "text": "Lurrus doesn’t care about instant and sorcery cards in your starting deck. They may have any converted mana cost."
@@ -8738,7 +8806,11 @@
       },
       {
         "date": "4/17/2020",
-        "text": "If you reveal a companion outside the game, for as long as it remains there, you may cast it any time it’s legal to cast. Once you do, it comes into the game and behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game."
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "4/17/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
       },
       {
         "date": "4/17/2020",
@@ -8773,7 +8845,7 @@
     "mana_cost": "1{U/R}{U/R}",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Companion — Each nonland card in your starting deck has a different name. (If this card is your chosen companion, you may cast it once from outside the game.)",
+      "Companion — Each nonland card in your starting deck has a different name. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} any time you could cast a sorcery.)",
       "Flash",
       "When Lutri, the Spellchaser enters the battlefield, if you cast it, copy target instant or sorcery spell you control. You may choose new targets for the copy."
     ],
@@ -8785,6 +8857,14 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
+      {
+        "date": "6/1/2020",
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "6/1/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
+      },
       {
         "date": "4/17/2020",
         "text": "Lutri’s ability can copy any instant or sorcery spell you control, not just one with targets."
@@ -8831,7 +8911,11 @@
       },
       {
         "date": "4/17/2020",
-        "text": "If you reveal a companion outside the game, for as long as it remains there, you may cast it any time it’s legal to cast. Once you do, it comes into the game and behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game."
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "4/17/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
       },
       {
         "date": "4/17/2020",
@@ -8866,7 +8950,7 @@
     "mana_cost": "3{B/R}{B/R}",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Companion — Your starting deck contains only cards with odd converted mana costs and land cards. (If this card is your chosen companion, you may cast it once from outside the game.)",
+      "Companion — Your starting deck contains only cards with odd converted mana costs and land cards. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} any time you could cast a sorcery.)",
       "If a source you control with an odd converted mana cost would deal damage to a permanent or player, it deals double that damage to that permanent or player instead."
     ],
     "flavor_text": null,
@@ -8877,6 +8961,14 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
+      {
+        "date": "6/1/2020",
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "6/1/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
+      },
       {
         "date": "4/17/2020",
         "text": "If a card in a player’s library has {X} in its mana cost, X is considered to be 0."
@@ -8915,7 +9007,11 @@
       },
       {
         "date": "4/17/2020",
-        "text": "If you reveal a companion outside the game, for as long as it remains there, you may cast it any time it’s legal to cast. Once you do, it comes into the game and behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game."
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "4/17/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
       },
       {
         "date": "4/17/2020",
@@ -9020,7 +9116,7 @@
     "mana_cost": "2{B/G}{B/G}",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Companion — Each nonland card in your starting deck shares a card type. (If this card is your chosen companion, you may cast it once from outside the game.)",
+      "Companion — Each nonland card in your starting deck shares a card type. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} any time you could cast a sorcery.)",
       "As Umori, the Collector enters the battlefield, choose a card type.",
       "Spells you cast of the chosen type cost {1} less to cast."
     ],
@@ -9032,6 +9128,14 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
+      {
+        "date": "6/1/2020",
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "6/1/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
+      },
       {
         "date": "4/17/2020",
         "text": "Artifact, creature, enchantment, instant, planeswalker, and sorcery are card types. Supertypes (such as legendary) and subtypes (such as Ooze) are not."
@@ -9066,7 +9170,11 @@
       },
       {
         "date": "4/17/2020",
-        "text": "If you reveal a companion outside the game, for as long as it remains there, you may cast it any time it’s legal to cast. Once you do, it comes into the game and behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game."
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "4/17/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
       },
       {
         "date": "4/17/2020",
@@ -9101,7 +9209,7 @@
     "mana_cost": "3{W/U}{W/U}",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Companion — Your starting deck contains at least twenty cards more than the minimum deck size. (If this card is your chosen companion, you may cast it once from outside the game.)",
+      "Companion — Your starting deck contains at least twenty cards more than the minimum deck size. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} any time you could cast a sorcery.)",
       "Flying",
       "When Yorion enters the battlefield, exile any number of other nonland permanents you own and control. Return those cards to the battlefield at the beginning of the next end step."
     ],
@@ -9113,6 +9221,14 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
+      {
+        "date": "6/1/2020",
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "6/1/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
+      },
       {
         "date": "4/17/2020",
         "text": "Your minimum deck size is forty cards for Limited events (such as Booster Draft and Sealed Deck) and sixty cards for Constructed events (such as Standard or casual freeform play). Certain variants may have other minimums. The Commander variant requires exactly one hundred cards, so Yorion can never be your chosen companion in a Commander game."
@@ -9151,7 +9267,11 @@
       },
       {
         "date": "4/17/2020",
-        "text": "If you reveal a companion outside the game, for as long as it remains there, you may cast it any time it’s legal to cast. Once you do, it comes into the game and behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game."
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "4/17/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
       },
       {
         "date": "4/17/2020",
@@ -9186,7 +9306,7 @@
     "mana_cost": "1{R/W}{R/W}",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Companion — Each permanent card in your starting deck has an activated ability. (If this card is your chosen companion, you may cast it once from outside the game.)",
+      "Companion — Each permanent card in your starting deck has an activated ability. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} any time you could cast a sorcery.)",
       "Abilities you activate that aren't mana abilities cost {2} less to activate. This effect can't reduce the mana in that cost to less than one mana.",
       "{1}, {T}: Target creature can't block this turn."
     ],
@@ -9198,6 +9318,14 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
+      {
+        "date": "6/1/2020",
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "6/1/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
+      },
       {
         "date": "4/17/2020",
         "text": "Permanent cards are artifact, creature, enchantment, land, and planeswalker cards. Land cards with basic land types have intrinsic activated mana abilities associated with those types."
@@ -9236,7 +9364,11 @@
       },
       {
         "date": "4/17/2020",
-        "text": "If you reveal a companion outside the game, for as long as it remains there, you may cast it any time it’s legal to cast. Once you do, it comes into the game and behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game."
+        "text": "If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you’ve brought into the game. For example, if it’s discard, countered, or destroyed, it’s put into your graveyard, remaining in the game. This is a change from previous rules."
+      },
+      {
+        "date": "4/17/2020",
+        "text": "Paying {3} to put your companion into your hand is a special action. It doesn’t use the stack and players can’t respond to it. Once you take this action, you may cast that card if it’s legal to do so before any other player can take actions."
       },
       {
         "date": "4/17/2020",

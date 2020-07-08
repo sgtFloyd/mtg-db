@@ -620,7 +620,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Uncommon",
     "mana_cost": "W",
@@ -737,7 +737,7 @@
     "mana_cost": "3W",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      "Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
     ],
     "flavor_text": "\"I await your donation.\"\n—Dasha, Orzhov priest",
     "power": null,
@@ -801,7 +801,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Summary Judgment deals 3 damage to target tapped creature.",
-      "Addendum — If you cast this spell during your main phase, it deals 5 damage to that creature instead."
+      "Addendum — If you cast this spell during your main phase, it deals 5 damage instead."
     ],
     "flavor_text": "Any challenge to Azorius authority is met with swift and potent retribution.",
     "power": null,
@@ -1500,8 +1500,8 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, {T}: Target player puts the top card of their library into their graveyard.",
-      "Tap four untapped Advisors you control: Target player puts the top twelve cards of their library into their graveyard.",
+      "{1}, {T}: Target player mills a card.",
+      "Tap four untapped Advisors you control: Target player mills twelve cards.",
       "A deck can have any number of cards named Persistent Petitioners."
     ],
     "flavor_text": null,
@@ -1874,7 +1874,7 @@
     "rulings": [
       {
         "date": "1/25/2019",
-        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans and “scryed” if applicable. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
       },
       {
         "date": "1/25/2019",
@@ -1923,7 +1923,7 @@
     "mana_cost": "1UU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Counter target spell. Its controller puts the top three cards of their library into their graveyard."
+      "Counter target spell. Its controller mills three cards."
     ],
     "flavor_text": "\"I can think of no greater punishment than answering your question in full.\"\n—Lazav",
     "power": null,
@@ -1995,7 +1995,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Defender",
-      "When Wall of Lost Thoughts enters the battlefield, target player puts the top four cards of their library into their graveyard."
+      "When Wall of Lost Thoughts enters the battlefield, target player mills four cards."
     ],
     "flavor_text": "Those who intrude upon the Dimir seldom remember that they have done so.",
     "power": "0",
@@ -2163,7 +2163,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target creature gains deathtouch until end of turn.",
+      "Target creature gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)",
       "Draw a card."
     ],
     "flavor_text": "\"The pain of searing iron and razor edges pales beside the pleasure of performance.\"\n—Judith",
@@ -2175,7 +2175,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "If the target creature is an illegal target by the time Bladebrand tries to resolve, the spell doesn’t resolve. You don’t draw a card."
       }
     ]
@@ -3112,7 +3112,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn."
+      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)"
     ],
     "flavor_text": "Seen through Rakdos eyes, a cruel betrayal is a hilarious stunt.",
     "power": null,
@@ -3123,11 +3123,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "Act of Treason can target any creature, even one that’s untapped or one you already control."
       },
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it."
       }
     ]
@@ -3393,7 +3393,7 @@
     "mana_cost": "XRR",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Electrodominance deals X damage to any target. You may cast a card with converted mana cost X or less from your hand without paying its mana cost."
+      "Electrodominance deals X damage to any target. You may cast a spell with converted mana cost X or less from your hand without paying its mana cost."
     ],
     "flavor_text": "\"Basically, we turn a bunch of little lightnings into one big lightning.\"",
     "power": null,
@@ -3888,7 +3888,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "If Rubblebelt Recluse can’t attack for any reason (such as being tapped or having come under that player’s control that turn), then it doesn’t attack. If there’s a cost associated with having it attack, its controller isn’t forced to pay that cost, so it doesn’t have to attack in that case either."
       }
     ]
@@ -4666,7 +4666,7 @@
     "mana_cost": "4G",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Reach"
+      "Reach (This creature can block creatures with flying.)"
     ],
     "flavor_text": "\"The good news is that the migrating drakes are no longer a problem.\"\n—Bell Migellic, Azorius hussar",
     "power": "3",
@@ -5476,7 +5476,7 @@
     "mana_cost": "GU",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Activated abilities of creatures you control cost {2} less to activate. This effect can't reduce the amount of mana an ability costs to activate to less than one mana.",
+      "Activated abilities of creatures you control cost {2} less to activate. This effect can't reduce the mana in that cost to less than one mana.",
       "{T}: The next time target creature adapts this turn, it adapts as though it had no +1/+1 counters on it."
     ],
     "flavor_text": null,
@@ -7312,7 +7312,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Fish",
+      "Shark",
       "Octopus",
       "Crab"
     ],
@@ -7606,7 +7606,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "At the beginning of your upkeep, exile the top card of your library.",
-      "During your turn, if an opponent lost life this turn, you may play cards exiled with Theater of Horrors.",
+      "During your turn, if an opponent lost life this turn, you may play lands and cast spells from among cards exiled with Theater of Horrors.",
       "{3}{R}: Theater of Horrors deals 1 damage to target opponent or planeswalker."
     ],
     "flavor_text": null,
@@ -8709,7 +8709,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Equipped creature gets +0/+3 and has \"{2}, {T}: Target player puts the top three cards of their library into their graveyard.\"",
+      "Equipped creature gets +0/+3 and has \"{2}, {T}: Target player mills three cards.\"",
       "Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)"
     ],
     "flavor_text": "Shhh . . .",

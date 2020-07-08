@@ -1318,7 +1318,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
+      "Flying"
     ],
     "flavor_text": "\"The East Wind, an interloper in the dominions of Westerly Weather, is an impassive-faced tyrant with a sharp poniard held behind his back for a treacherous stab.\"\n—Joseph Conrad, The Mirror of the Sea",
     "power": "4",
@@ -1872,7 +1872,7 @@
     "oracle_text": [
       "+2: Each player draws a card.",
       "−1: Target player draws a card.",
-      "−10: Target player puts the top twenty cards of their library into their graveyard."
+      "−10: Target player mills twenty cards."
     ],
     "flavor_text": null,
     "power": null,
@@ -1986,7 +1986,8 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Merfolk"
+      "Merfolk",
+      "Noble"
     ],
     "rarity": "Rare",
     "mana_cost": "1UU",
@@ -2304,7 +2305,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Flying"
+      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
     ],
     "flavor_text": "Foul-tempered, poorly trained, and mule-stubborn, the drake is the perfect test of the master's will.",
     "power": "3",
@@ -2429,7 +2430,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player puts the top five cards of their library into their graveyard."
+      "Target player mills five cards."
     ],
     "flavor_text": "Genius is overrated, especially when it's someone else's.",
     "power": null,
@@ -2459,7 +2460,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Target player puts the top half of their library, rounded down, into their graveyard."
+      "Target player mills half their library, rounded down."
     ],
     "flavor_text": "\"The educated mind is heavy with lore and knowledge. It's also the most likely to collapse under its own weight.\"\n—Ambassador Laquatus",
     "power": null,
@@ -2973,7 +2974,8 @@
     "supertypes": [],
     "subtypes": [
       "Human",
-      "Wizard"
+      "Wizard",
+      "Warlock"
     ],
     "rarity": "Common",
     "mana_cost": "1BB",
@@ -3632,6 +3634,10 @@
       {
         "date": "10/4/2004",
         "text": "In a multi-player game, it affects all opponents."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” it’s not a card drawn."
       }
     ]
   },
@@ -3674,7 +3680,8 @@
     "supertypes": [],
     "subtypes": [
       "Vampire",
-      "Rogue"
+      "Rogue",
+      "Noble"
     ],
     "rarity": "Common",
     "mana_cost": "2B",
@@ -3908,7 +3915,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn."
+      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)"
     ],
     "flavor_text": "\"Rage courses in every heart, yearning to betray its rational prison.\"\n—Sarkhan Vol",
     "power": null,
@@ -3919,11 +3926,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "Act of Treason can target any creature, even one that’s untapped or one you already control."
       },
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it."
       }
     ]
@@ -4281,7 +4288,7 @@
     "supertypes": [],
     "subtypes": [
       "Elemental",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "1RR",
@@ -6313,16 +6320,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "10/1/2009",
-        "text": "Prized Unicorn doesn’t give a creature the ability to block it. It just forces those creatures that are already able to block it to do so. For example, it can’t force a creature that’s tapped or affected by a spell or ability that says it can’t block to block it. If there’s a cost associated with having a creature block, its controller isn’t forced to pay that cost, so the creature doesn’t have to block Prized Unicorn in that case either."
+        "date": "7/12/2019",
+        "text": "If a creature the defending player controls can’t block Prized Unicorn for any reason (such as being tapped), then it doesn’t block Prized Unicorn. If there’s a cost associated with having a creature block Prized Unicorn, the defending player isn’t forced to pay that cost, so it doesn’t have to block."
       },
       {
-        "date": "10/1/2009",
-        "text": "If a creature the defending player controls can’t block Prized Unicorn, it can block any attacking creature, or not block at all."
-      },
-      {
-        "date": "10/1/2009",
-        "text": "If two Prized Unicorns are attacking, each creature the defending player controls can block either one of them. (The defending player chooses.) A creature that can block multiple creatures, like Palace Guard, must block both of them."
+        "date": "7/12/2019",
+        "text": "If more than one Prized Unicorn is attacking, creatures that could block must block one Prized Unicorn, but they don’t all have to block the same Prized Unicorn."
       }
     ]
   },

@@ -162,7 +162,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Prevent all combat damage that would be dealt by target attacking or blocking creature this turn. If {R} was spent to cast Boros Fury-Shield, it deals damage to that creature's controller equal to the creature's power."
+      "Prevent all combat damage that would be dealt by target attacking or blocking creature this turn. If {R} was spent to cast this spell, Boros Fury-Shield deals damage to that creature's controller equal to the creature's power."
     ],
     "flavor_text": null,
     "power": null,
@@ -657,16 +657,16 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "12/7/2018",
-        "text": "Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords (such as equip) are activated abilities and will have colons in their reminder text."
+        "date": "6/23/2020",
+        "text": "If the target permanent is an illegal target by the time Faith’s Fetters tries to resolve, it doesn’t resolve. It won’t enter the battlefield, so its enters-the-battlefield ability won’t trigger."
       },
       {
-        "date": "12/7/2018",
+        "date": "6/23/2020",
+        "text": "Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords (such as equip) are activated abilities and will have colons in their reminder text. Loyalty abilities of planeswalkers are activated abilities."
+      },
+      {
+        "date": "6/23/2020",
         "text": "Faith’s Fetters doesn’t stop static abilities, triggered abilities, or mana abilities from working. A mana ability is an ability that produces mana, not an ability that costs mana."
-      },
-      {
-        "date": "12/7/2018",
-        "text": "If the target permanent is an illegal target by the time Faith’s Fetters tries to resolve, the Aura spell doesn’t resolve. It won’t enter the battlefield, so its enters-the-battlefield ability won’t trigger."
       }
     ]
   },
@@ -756,7 +756,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "2W",
@@ -1117,7 +1117,7 @@
     "mana_cost": "3W",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Destroy target artifact or enchantment. If {G} was spent to cast Seed Spark, create two 1/1 green Saproling creature tokens."
+      "Destroy target artifact or enchantment. If {G} was spent to cast this spell, create two 1/1 green Saproling creature tokens."
     ],
     "flavor_text": "\"If you ask me, those root-lovers value mindless dogma over progress.\"\n—Trivaz, Izzet mage",
     "power": null,
@@ -1358,7 +1358,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "Whenever a source deals damage to Belltower Sphinx, that source's controller puts that many cards from the top of their library into their graveyard."
+      "Whenever a source deals damage to Belltower Sphinx, that source's controller mills that many cards."
     ],
     "flavor_text": null,
     "power": "2",
@@ -1932,7 +1932,7 @@
     "mana_cost": "2UU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Counter target spell. If {B} was spent to cast Induce Paranoia, that spell's controller puts the top X cards of their library into their graveyard, where X is the spell's converted mana cost."
+      "Counter target spell. If {B} was spent to cast this spell, that spell's controller mills X cards, where X is the spell's converted mana cost."
     ],
     "flavor_text": null,
     "power": null,
@@ -2166,7 +2166,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Flying"
+      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
     ],
     "flavor_text": "The irritable drakes are solitary nesters. Even brooding females barely contain the urge to attack their own young.",
     "power": "3",
@@ -2478,7 +2478,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{U}, {T}: Target player puts the top two cards of their library into their graveyard."
+      "{U}, {T}: Target player mills two cards."
     ],
     "flavor_text": "Their denial reaches far into your future.",
     "power": "1",
@@ -2709,7 +2709,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Target creature gets -1/-1 until end of turn.",
-      "Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2856,7 +2856,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "When Golgari Thug dies, put target creature card from your graveyard on top of your library.",
-      "Dredge 4 (If you would draw a card, instead you may put exactly four cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 4 (If you would draw a card, you may mill four cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "1",
@@ -3177,7 +3177,7 @@
     "oracle_text": [
       "At the beginning of your upkeep, put a +1/+1 counter on Necroplasm.",
       "At the beginning of your end step, destroy each creature with converted mana cost equal to the number of +1/+1 counters on Necroplasm.",
-      "Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "1",
@@ -3244,7 +3244,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Target player reveals their hand. You choose a card from it. That player discards that card.",
-      "Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3286,7 +3286,7 @@
     "mana_cost": "4B",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Ribbons of Night deals 4 damage to target creature and you gain 4 life. If {U} was spent to cast Ribbons of Night, draw a card."
+      "Ribbons of Night deals 4 damage to target creature and you gain 4 life. If {U} was spent to cast this spell, draw a card."
     ],
     "flavor_text": "\"My favorite meal is angel's flesh, slain in agony and iced with black vinegar.\"\n—Aszala of House Dimir",
     "power": null,
@@ -3420,7 +3420,7 @@
     "mana_cost": "4BB",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Until end of turn, you may cast target instant or sorcery card from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead. Exile Sins of the Past."
+      "Until end of turn, you may cast target instant or sorcery card from your graveyard without paying its mana cost. If that spell would be put into your graveyard this turn, exile it instead. Exile Sins of the Past."
     ],
     "flavor_text": null,
     "power": null,
@@ -3458,7 +3458,7 @@
     "oracle_text": [
       "Flying",
       "Whenever Stinkweed Imp deals combat damage to a creature, destroy that creature.",
-      "Dredge 5 (If you would draw a card, instead you may put exactly five cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 5 (If you would draw a card, you may mill five cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "1",
@@ -3585,7 +3585,7 @@
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Return target creature card from your graveyard to the battlefield. If {G} was spent to cast Vigor Mortis, that creature enters the battlefield with an additional +1/+1 counter on it."
+      "Return target creature card from your graveyard to the battlefield. If {G} was spent to cast this spell, that creature enters the battlefield with an additional +1/+1 counter on it."
     ],
     "flavor_text": "After fear and weakness rot away, that which remains is stronger than its living form.",
     "power": null,
@@ -3999,7 +3999,7 @@
     "mana_cost": "5R",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Untap target creature and gain control of it until end of turn. That creature gains haste until end of turn. If {W} was spent to cast Flash Conscription, the creature gains \"Whenever this creature deals combat damage, you gain that much life\" until end of turn."
+      "Untap target creature and gain control of it until end of turn. That creature gains haste until end of turn. If {W} was spent to cast this spell, the creature gains \"Whenever this creature deals combat damage, you gain that much life\" until end of turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -5128,7 +5128,7 @@
     "mana_cost": "4GG",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "You gain 1 life for each creature on the battlefield. If {W} was spent to cast Dryad's Caress, untap all creatures you control."
+      "You gain 1 life for each creature on the battlefield. If {W} was spent to cast this spell, untap all creatures you control."
     ],
     "flavor_text": "\"I awoke to the face of beauty, my body fully healed. In that moment I knew my destiny was the Conclave's to shape.\"\n—Rogad, Selesnya initiate",
     "power": null,
@@ -5348,7 +5348,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "When Golgari Brownscale is put into your hand from your graveyard, you gain 2 life.",
-      "Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "2",
@@ -5395,7 +5395,7 @@
     "oracle_text": [
       "Golgari Grave-Troll enters the battlefield with a +1/+1 counter on it for each creature card in your graveyard.",
       "{1}, Remove a +1/+1 counter from Golgari Grave-Troll: Regenerate Golgari Grave-Troll.",
-      "Dredge 6 (If you would draw a card, instead you may put exactly six cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 6 (If you would draw a card, you may mill six cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "0",
@@ -5465,13 +5465,13 @@
     "supertypes": [],
     "subtypes": [
       "Plant",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": "Man's best fungus.",
     "power": "3",
@@ -5567,7 +5567,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Return up to three target land cards from your graveyard to your hand.",
-      "Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5609,7 +5609,7 @@
     "oracle_text": [
       "Enchant creature",
       "Enchanted creature gets +3/+3.",
-      "Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -5812,7 +5812,7 @@
     "mana_cost": "2GG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Destroy target land. If {B} was spent to cast Rolling Spoil, all creatures get -1/-1 until end of turn."
+      "Destroy target land. If {B} was spent to cast this spell, all creatures get -1/-1 until end of turn."
     ],
     "flavor_text": "The shadow that fell over the grove was silent yet horribly alive, roiling with millions of tiny minions dedicated to the process of rot.",
     "power": null,
@@ -6504,10 +6504,6 @@
       },
       {
         "date": "10/1/2005",
-        "text": "Circu’s last ability doesn’t prevent copies of the exiled cards from being cast because copies aren’t cards."
-      },
-      {
-        "date": "10/1/2005",
         "text": "If a split card is exiled this way, opponents can’t cast either half of the split card."
       }
     ]
@@ -6844,7 +6840,7 @@
     "mana_cost": "UB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player puts the top ten cards of their library into their graveyard."
+      "Target player mills ten cards."
     ],
     "flavor_text": "\"I am confident that if anyone actually penetrates our facades, even the most perceptive would still be fundamentally unprepared for the truth of House Dimir.\"\n—Szadek",
     "power": null,
@@ -6925,7 +6921,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "{1}, Sacrifice Grave-Shell Scarab: Draw a card.",
-      "Dredge 1 (If you would draw a card, instead you may put exactly one card from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 1 (If you would draw a card, you may mill a card instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "4",
@@ -7079,7 +7075,7 @@
     "converted_mana_cost": 8,
     "oracle_text": [
       "Trample",
-      "Whenever Mindleech Mass deals combat damage to a player, you may look at that player's hand. If you do, you may cast a nonland card in it without paying that card's mana cost."
+      "Whenever Mindleech Mass deals combat damage to a player, you may look at that player's hand. If you do, you may cast a spell from among those cards without paying its mana cost."
     ],
     "flavor_text": null,
     "power": "6",
@@ -7246,7 +7242,7 @@
     "mana_cost": "XUB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player puts the top X cards of their library into their graveyard and you gain X life."
+      "Target player mills X cards and you gain X life."
     ],
     "flavor_text": "\"Gold can be reearned, goods restored. The moroii steal youth, more precious than either, and once gone, it's gone forever.\"\n—Berta Suszat, civic healer",
     "power": null,
@@ -7566,7 +7562,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Sacrifice Shambling Shell: Put a +1/+1 counter on target creature.",
-      "Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "3",
@@ -7689,7 +7685,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Flying",
-      "If Szadek, Lord of Secrets would deal combat damage to a player, instead put that many +1/+1 counters on Szadek and that player puts that many cards from the top of their library into their graveyard."
+      "If Szadek, Lord of Secrets would deal combat damage to a player, instead put that many +1/+1 counters on Szadek and that player mills that many cards."
     ],
     "flavor_text": null,
     "power": "5",
@@ -7754,7 +7750,7 @@
     "oracle_text": [
       "Other green creatures you control get +1/+1.",
       "Other white creatures you control get +1/+1.",
-      "{T}: Create a legendary 2/2 green and white Wolf creature token named Voja."
+      "{T}: Create Voja, a legendary 2/2 green and white Wolf creature token."
     ],
     "flavor_text": null,
     "power": "3",
@@ -8647,7 +8643,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Uncommon",
     "mana_cost": "6",
@@ -9052,7 +9048,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "{T}: Add {C}.",
-      "{U}{B}, {T}: Target player puts the top card of their library into their graveyard."
+      "{U}{B}, {T}: Target player mills a card."
     ],
     "flavor_text": "In a space where there is no room, in a structure that was never built, meets the guild that doesn't exist.",
     "power": null,

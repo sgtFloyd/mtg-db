@@ -1231,12 +1231,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "10/4/2004",
-        "text": "Remember that cards only affect things which are on the battlefield unless they specifically say otherwise. So this only applies to artifacts on the battlefield."
-      },
-      {
         "date": "10/1/2008",
         "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "6/14/2019",
+        "text": "Artifact cards not on the battlefield won’t be returned by Rebuild."
       }
     ]
   },
@@ -2181,6 +2181,10 @@
       {
         "date": "10/1/2008",
         "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+      },
+      {
+        "date": "6/14/2019",
+        "text": "If a card in a player’s graveyard has {X} in its mana cost, X is considered to be 0."
       }
     ]
   },
@@ -2976,7 +2980,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "As an additional cost to cast this spell, sacrifice a land.",
-      "Search your library for a land card and put that card onto the battlefield. Then shuffle your library."
+      "Search your library for a land card, put that card onto the battlefield, then shuffle your library."
     ],
     "flavor_text": "\"Hmm . . . maybe lotuses this year.\"",
     "power": null,

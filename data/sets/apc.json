@@ -1814,7 +1814,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Haste",
+      "Haste (This creature can attack and {T} as soon as it comes under your control.)",
       "When Goblin Ringleader enters the battlefield, reveal the top four cards of your library. Put all Goblin cards revealed this way into your hand and the rest on the bottom of your library in any order."
     ],
     "flavor_text": null,
@@ -1824,7 +1824,12 @@
     "multiverse_id": 27664,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "7/12/2019",
+        "text": "If an effect refers to a “[subtype] spell” or “[subtype] card,” it refers only to a spell or card that has that subtype. For example, Goblin Gathering is a card that creates Goblins and features Goblins in its illustration, but it isn’t a Goblin card."
+      }
+    ]
   },
   {
     "name": "Illuminate",
@@ -1952,7 +1957,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "At the beginning of your upkeep, if you control a white or blue permanent, Raka Sanctuary deals 1 damage to target creature. If you control a white permanent and a blue permanent, Raka Sanctuary deals 3 damage to that creature instead."
+      "At the beginning of your upkeep, if you control a white or blue permanent, Raka Sanctuary deals 1 damage to target creature. If you control a white permanent and a blue permanent, Raka Sanctuary deals 3 damage instead."
     ],
     "flavor_text": null,
     "power": null,

@@ -582,7 +582,8 @@
     "mana_cost": "W",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target creature you control gains protection from the color of your choice until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"
+      "Target creature you control gains protection from the color of your choice until end of turn. (It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color.)",
+      "Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"
     ],
     "flavor_text": "Honor the gods of Theros, and they will return the favor.",
     "power": null,
@@ -611,6 +612,14 @@
       {
         "date": "9/15/2013",
         "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "You can’t choose “artifact” or “colorless” as Gods Willing asks you to choose a color because those are not colors."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "If the target creature is an illegal target by the time Gods Willing tries to resolve, the spell doesn’t resolve. You won’t scry 1. If the target creature becomes an illegal target while Gods Willing is resolving (most likely because you gave it protection from white), you do scry 1."
       }
     ]
   },
@@ -663,28 +672,36 @@
         "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time."
       },
       {
-        "date": "9/15/2013",
-        "text": "The type-changing ability that can make the God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color."
+        "date": "1/24/2020",
+        "text": "The type-changing ability that can make a God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color. It’s always a creature spell while it’s on the stack."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield."
+        "date": "1/24/2020",
+        "text": "As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won’t be counted when determining this."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment."
+        "date": "1/24/2020",
+        "text": "When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield."
       },
       {
-        "date": "9/15/2013",
+        "date": "1/24/2020",
+        "text": "If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment."
+      },
+      {
+        "date": "1/24/2020",
         "text": "The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat."
+        "date": "1/24/2020",
+        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won’t rejoin combat if it resumes being a creature later during that combat."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won’t matter because it has indestructible.)"
+        "date": "1/24/2020",
+        "text": "Counters put on a God remain on it while it’s not a creature, even if they have no effect."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate."
       }
     ]
   },
@@ -719,10 +736,6 @@
     "rulings": [
       {
         "date": "9/15/2013",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
-      },
-      {
-        "date": "9/15/2013",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -740,10 +753,6 @@
       {
         "date": "9/15/2013",
         "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
-      },
-      {
-        "date": "9/15/2013",
-        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
       }
     ]
   },
@@ -778,10 +787,6 @@
     "rulings": [
       {
         "date": "9/15/2013",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
-      },
-      {
-        "date": "9/15/2013",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -799,10 +804,6 @@
       {
         "date": "9/15/2013",
         "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
-      },
-      {
-        "date": "9/15/2013",
-        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
       }
     ]
   },
@@ -970,10 +971,6 @@
     "rulings": [
       {
         "date": "9/15/2013",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
-      },
-      {
-        "date": "9/15/2013",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -991,10 +988,6 @@
       {
         "date": "9/15/2013",
         "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
-      },
-      {
-        "date": "9/15/2013",
-        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
       }
     ]
   },
@@ -2140,10 +2133,6 @@
     "rulings": [
       {
         "date": "9/15/2013",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
-      },
-      {
-        "date": "9/15/2013",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -2161,10 +2150,6 @@
       {
         "date": "9/15/2013",
         "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
-      },
-      {
-        "date": "9/15/2013",
-        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
       }
     ]
   },
@@ -2652,28 +2637,36 @@
         "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
       },
       {
-        "date": "9/15/2013",
-        "text": "The type-changing ability that can make the God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color."
+        "date": "1/24/2020",
+        "text": "The type-changing ability that can make a God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color. It’s always a creature spell while it’s on the stack."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield."
+        "date": "1/24/2020",
+        "text": "As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won’t be counted when determining this."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment."
+        "date": "1/24/2020",
+        "text": "When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield."
       },
       {
-        "date": "9/15/2013",
+        "date": "1/24/2020",
+        "text": "If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment."
+      },
+      {
+        "date": "1/24/2020",
         "text": "The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat."
+        "date": "1/24/2020",
+        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won’t rejoin combat if it resumes being a creature later during that combat."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won’t matter because it has indestructible.)"
+        "date": "1/24/2020",
+        "text": "Counters put on a God remain on it while it’s not a creature, even if they have no effect."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate."
       }
     ]
   },
@@ -2691,7 +2684,7 @@
     "mana_cost": "5U",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Draw three cards. Target player puts the top three cards of their library into their graveyard."
+      "Draw three cards. Target player mills three cards."
     ],
     "flavor_text": "\"Was this gift cast adrift for any to find, or did Thassa guide the currents to bring it to me alone?\"\n—Kenessos, priest of Thassa",
     "power": null,
@@ -2742,10 +2735,6 @@
     "rulings": [
       {
         "date": "9/15/2013",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
-      },
-      {
-        "date": "9/15/2013",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -2763,10 +2752,6 @@
       {
         "date": "9/15/2013",
         "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
-      },
-      {
-        "date": "9/15/2013",
-        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
       }
     ]
   },
@@ -3128,10 +3113,6 @@
     "rulings": [
       {
         "date": "9/15/2013",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
-      },
-      {
-        "date": "9/15/2013",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -3149,10 +3130,6 @@
       {
         "date": "9/15/2013",
         "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
-      },
-      {
-        "date": "9/15/2013",
-        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
       }
     ]
   },
@@ -3245,10 +3222,6 @@
     "rulings": [
       {
         "date": "9/15/2013",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
-      },
-      {
-        "date": "9/15/2013",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -3266,10 +3239,6 @@
       {
         "date": "9/15/2013",
         "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
-      },
-      {
-        "date": "9/15/2013",
-        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
       }
     ]
   },
@@ -3421,28 +3390,36 @@
         "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time."
       },
       {
-        "date": "9/15/2013",
-        "text": "The type-changing ability that can make the God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color."
+        "date": "1/24/2020",
+        "text": "The type-changing ability that can make a God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color. It’s always a creature spell while it’s on the stack."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield."
+        "date": "1/24/2020",
+        "text": "As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won’t be counted when determining this."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment."
+        "date": "1/24/2020",
+        "text": "When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield."
       },
       {
-        "date": "9/15/2013",
+        "date": "1/24/2020",
+        "text": "If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment."
+      },
+      {
+        "date": "1/24/2020",
         "text": "The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat."
+        "date": "1/24/2020",
+        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won’t rejoin combat if it resumes being a creature later during that combat."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won’t matter because it has indestructible.)"
+        "date": "1/24/2020",
+        "text": "Counters put on a God remain on it while it’s not a creature, even if they have no effect."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate."
       }
     ]
   },
@@ -3477,10 +3454,6 @@
     "rulings": [
       {
         "date": "9/15/2013",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
-      },
-      {
-        "date": "9/15/2013",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -3498,10 +3471,6 @@
       {
         "date": "9/15/2013",
         "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
-      },
-      {
-        "date": "9/15/2013",
-        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
       },
       {
         "date": "2/1/2014",
@@ -3588,20 +3557,32 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "9/15/2013",
-        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
+        "date": "1/24/2020",
+        "text": "The amount of life you gain is the total amount of life lost, not simply the value of X."
       },
       {
-        "date": "9/15/2013",
+        "date": "1/24/2020",
+        "text": "In a Two-Headed Giant game, each opposing team loses twice X life."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "Colorless and generic mana symbols ({C}, {0}, {1}, {2}, {X}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
+      },
+      {
+        "date": "1/24/2020",
         "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
       },
       {
-        "date": "9/15/2013",
+        "date": "1/24/2020",
         "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
       },
       {
-        "date": "9/15/2013",
+        "date": "1/24/2020",
         "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If you put an Aura on an opponent’s permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion."
       }
     ]
   },
@@ -3909,10 +3890,6 @@
       },
       {
         "date": "9/15/2013",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
-      },
-      {
-        "date": "9/15/2013",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -3930,10 +3907,6 @@
       {
         "date": "9/15/2013",
         "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
-      },
-      {
-        "date": "9/15/2013",
-        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
       }
     ]
   },
@@ -4119,7 +4092,7 @@
     "mana_cost": "3B",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Returned Centaur enters the battlefield, target player puts the top four cards of their library into their graveyard."
+      "When Returned Centaur enters the battlefield, target player mills four cards."
     ],
     "flavor_text": "Driven away by his living kin, he wanders mourning through the wilderness, seeking the dead city of Asphodel.",
     "power": "2",
@@ -4540,7 +4513,7 @@
     "rulings": [
       {
         "date": "9/15/2013",
-        "text": "The number of targets chosen for Boulderfall must be at least one and at most five. You divide the damage as you cast the spell, not as it resolves. Each target must be assigned at least 1 damage."
+        "text": "You divide the damage as you cast the spell, not as it resolves. Each target must be assigned at least 1 damage."
       },
       {
         "date": "9/15/2013",
@@ -5188,14 +5161,6 @@
     "rulings": [
       {
         "date": "9/15/2013",
-        "text": "Portent of Betrayal can target any creature, even one that’s untapped or one you already control."
-      },
-      {
-        "date": "9/15/2013",
-        "text": "Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it, although those permanents will stay attached to the creature."
-      },
-      {
-        "date": "9/15/2013",
         "text": "When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom."
       },
       {
@@ -5209,6 +5174,18 @@
       {
         "date": "9/15/2013",
         "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "Portent of Betrayal can target any creature, even one that’s untapped or one you already control."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If the target creature is an illegal target by the time Portent of Betrayal tries to resolve, the spell won’t resolve. You won’t scry 1."
       }
     ]
   },
@@ -5289,28 +5266,36 @@
         "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time."
       },
       {
-        "date": "9/15/2013",
-        "text": "The type-changing ability that can make the God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color."
+        "date": "1/24/2020",
+        "text": "The type-changing ability that can make a God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color. It’s always a creature spell while it’s on the stack."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield."
+        "date": "1/24/2020",
+        "text": "As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won’t be counted when determining this."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment."
+        "date": "1/24/2020",
+        "text": "When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield."
       },
       {
-        "date": "9/15/2013",
+        "date": "1/24/2020",
+        "text": "If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment."
+      },
+      {
+        "date": "1/24/2020",
         "text": "The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat."
+        "date": "1/24/2020",
+        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won’t rejoin combat if it resumes being a creature later during that combat."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won’t matter because it has indestructible.)"
+        "date": "1/24/2020",
+        "text": "Counters put on a God remain on it while it’s not a creature, even if they have no effect."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate."
       }
     ]
   },
@@ -5345,10 +5330,6 @@
     "rulings": [
       {
         "date": "9/15/2013",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
-      },
-      {
-        "date": "9/15/2013",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -5366,10 +5347,6 @@
       {
         "date": "9/15/2013",
         "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
-      },
-      {
-        "date": "9/15/2013",
-        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
       }
     ]
   },
@@ -5548,10 +5525,6 @@
     "rulings": [
       {
         "date": "9/15/2013",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
-      },
-      {
-        "date": "9/15/2013",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -5569,10 +5542,6 @@
       {
         "date": "9/15/2013",
         "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
-      },
-      {
-        "date": "9/15/2013",
-        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
       }
     ]
   },
@@ -5750,7 +5719,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "1RR",
@@ -6319,10 +6288,6 @@
     "rulings": [
       {
         "date": "9/15/2013",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
-      },
-      {
-        "date": "9/15/2013",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -6340,10 +6305,6 @@
       {
         "date": "9/15/2013",
         "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
-      },
-      {
-        "date": "9/15/2013",
-        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
       }
     ]
   },
@@ -6546,28 +6507,36 @@
         "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time."
       },
       {
-        "date": "9/15/2013",
-        "text": "The type-changing ability that can make the God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color."
+        "date": "1/24/2020",
+        "text": "The type-changing ability that can make a God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color. It’s always a creature spell while it’s on the stack."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield."
+        "date": "1/24/2020",
+        "text": "As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won’t be counted when determining this."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment."
+        "date": "1/24/2020",
+        "text": "When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield."
       },
       {
-        "date": "9/15/2013",
+        "date": "1/24/2020",
+        "text": "If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment."
+      },
+      {
+        "date": "1/24/2020",
         "text": "The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat."
+        "date": "1/24/2020",
+        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won’t rejoin combat if it resumes being a creature later during that combat."
       },
       {
-        "date": "9/15/2013",
-        "text": "If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won’t matter because it has indestructible.)"
+        "date": "1/24/2020",
+        "text": "Counters put on a God remain on it while it’s not a creature, even if they have no effect."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate."
       }
     ]
   },
@@ -6647,10 +6616,6 @@
     "rulings": [
       {
         "date": "9/15/2013",
-        "text": "You don’t choose whether the spell is going to be an Aura spell or not until the spell is already on the stack. Abilities that affect when you can cast a spell, such as flash, will apply to the spell after you’ve made this choice. For example, an effect that said you can cast creature spells as though they have flash won’t allow you to cast a creature card with bestow as an Aura spell anytime you could cast an instant, but one that said you can cast Aura spells as though they have flash will."
-      },
-      {
-        "date": "9/15/2013",
         "text": "On the stack, a spell with bestow is either a creature spell or an Aura spell. It’s never both, although it’s an enchantment spell in either case."
       },
       {
@@ -6668,10 +6633,6 @@
       {
         "date": "9/15/2013",
         "text": "Auras attached to a creature don’t become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature."
-      },
-      {
-        "date": "9/15/2013",
-        "text": "An Aura that becomes a creature is no longer put into its owner’s graveyard as a state-based action. Rather, it becomes unattached and remains on the battlefield as long as it’s a creature. While it’s a creature, it can’t be attached to another permanent or player. An Aura that’s not attached to a legal permanent or player as defined by its enchant ability and also isn’t a creature will be put into its owner’s graveyard as a state-based action."
       }
     ]
   },
@@ -6820,7 +6781,7 @@
       },
       {
         "date": "9/15/2013",
-        "text": "The number of targets chosen for the triggered ability must be at least one (if X wasn’t 0) and at most X. You choose the division of damage as you put the ability on the stack, not as it resolves. Each target must be assigned at least 1 damage. In multiplayer games, you may choose creatures controlled by different opponents."
+        "text": "You choose the division of damage as you put the ability on the stack, not as it resolves. Each target must be assigned at least 1 damage. In multiplayer games, you may choose creatures controlled by different opponents."
       },
       {
         "date": "9/15/2013",
@@ -8131,7 +8092,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Mythic Rare",
     "mana_cost": "3BR",
@@ -8255,7 +8216,8 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Flying, first strike"
+      "Flying",
+      "First strike (This creature deals combat damage before creatures without first strike.)"
     ],
     "flavor_text": "\"I know its lightness, for I have seen it fly. I know its weight, for I have seen it strike.\"\n—Brigone, soldier of Meletis",
     "power": "2",
@@ -8761,7 +8723,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Temple of Mystery enters the battlefield tapped.",
-      "When Temple of Mystery enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+      "When Temple of Mystery enters the battlefield, scry 1.",
       "{T}: Add {G} or {U}."
     ],
     "flavor_text": null,
@@ -8805,7 +8767,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Temple of Silence enters the battlefield tapped.",
-      "When Temple of Silence enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+      "When Temple of Silence enters the battlefield, scry 1.",
       "{T}: Add {W} or {B}."
     ],
     "flavor_text": null,
@@ -8849,7 +8811,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "Temple of Triumph enters the battlefield tapped.",
-      "When Temple of Triumph enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+      "When Temple of Triumph enters the battlefield, scry 1.",
       "{T}: Add {R} or {W}."
     ],
     "flavor_text": null,

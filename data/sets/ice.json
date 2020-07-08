@@ -3064,7 +3064,11 @@
     "rulings": [
       {
         "date": "9/16/2007",
-        "text": "If X is 0, the number of targets must also be 0. If X is greater than 0, the number of targets must be at least 1 and at most X. You must distribute at least 1 damage to each target."
+        "text": "If X is 0, the number of targets must also be 0."
+      },
+      {
+        "date": "9/16/2007",
+        "text": "You must distribute at least 1 damage to each target."
       },
       {
         "date": "9/16/2007",
@@ -4767,7 +4771,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{X}, {T}: Put a charge counter on Ice Cauldron and exile a nonland card from your hand. You may cast that card for as long as it remains exiled. Note the type and amount of mana spent to pay this activation cost. Activate this ability only if there are no charge counters on Ice Cauldron.",
+      "{X}, {T}: You may exile a nonland card from your hand. You may cast that card for as long as it remains exiled. Put a charge counter on Ice Cauldron and note the type and amount of mana spent to pay this activation cost. Activate this ability only if there are no charge counters on Ice Cauldron.",
       "{T}, Remove a charge counter from Ice Cauldron: Add Ice Cauldron's last noted type and amount of mana. Spend this mana only to cast the last card exiled with Ice Cauldron."
     ],
     "flavor_text": null,
@@ -7027,7 +7031,7 @@
       },
       {
         "date": "10/1/2008",
-        "text": "The number of targets must be at least 1 and at most X + 1. You divide the damage as you cast Meteor Shower, not as it resolves. Each target must be assigned at least 1 damage."
+        "text": "You divide the damage as you cast Meteor Shower, not as it resolves. Each target must be assigned at least 1 damage."
       }
     ]
   },
@@ -8702,7 +8706,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player puts the top card of their library into their graveyard.",
+      "Target player mills a card.",
       "Draw a card at the beginning of the next turn's upkeep."
     ],
     "flavor_text": "\"What is real can be unreal.\"\n—Gerda Äagesdotter,\nArchmage of the Unseen",
@@ -9543,7 +9547,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Uncommon",
     "mana_cost": "2W",

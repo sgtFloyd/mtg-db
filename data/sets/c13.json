@@ -671,7 +671,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "When Mystic Barrier enters the battlefield or at the beginning of your upkeep, choose left or right.",
-      "Each player may attack only the nearest opponent in the last chosen direction and planeswalkers controlled by that player."
+      "Each player may attack only the nearest opponent in the last chosen direction and planeswalkers controlled by that opponent."
     ],
     "flavor_text": null,
     "power": null,
@@ -1557,16 +1557,20 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "1/22/2011",
-        "text": "If another player gains control of Dungeon Geists, the creature will no longer be affected by the ability preventing it from untapping, even if you later regain control of Dungeon Geists."
-      },
-      {
-        "date": "1/22/2011",
-        "text": "If you gain control of the creature that’s being prevented from untapping, that creature won’t untap during your untap step for as long as you control Dungeon Geists."
-      },
-      {
         "date": "4/15/2013",
         "text": "The ability can target a tapped creature. If the targeted creature is already tapped when it resolves, that creature just remains tapped and doesn’t untap during its controller’s next untap step."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "If another player gains control of Dungeon Geists, its effect expires. It won’t keep the creature from untapping anymore, even if you later regain control of Dungeon Geists."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "Dungeon Geists’s triggered ability can target a tapped creature. If the targeted creature is already tapped when it resolves, that creature just remains tapped and won’t untap during its controller’s untap step."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "If Dungeon Geists leaves the battlefield before its triggered ability has resolved, the target creature will be tapped, but it will be able to untap as normal."
       }
     ]
   },
@@ -6957,7 +6961,7 @@
     "oracle_text": [
       "Flying",
       "When Jeleva, Nephalia's Scourge enters the battlefield, each player exiles the top X cards of their library, where X is the amount of mana spent to cast Jeleva.",
-      "Whenever Jeleva attacks, you may cast an instant or sorcery card exiled with it without paying its mana cost."
+      "Whenever Jeleva attacks, you may cast an instant or sorcery spell from among cards exiled with Jeleva without paying its mana cost."
     ],
     "flavor_text": null,
     "power": "1",
@@ -8433,7 +8437,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}, {T}, Sacrifice Armillary Sphere: Search your library for up to two basic land cards, reveal them, and put them into your hand. Then shuffle your library."
+      "{2}, {T}, Sacrifice Armillary Sphere: Search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle your library."
     ],
     "flavor_text": "The mysterious purpose of two of the rings had eluded Esper mages—until now.",
     "power": null,
@@ -9850,6 +9854,18 @@
       {
         "date": "9/22/2011",
         "text": "In formats other than Commander, Command Tower’s ability produces no mana."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "The color identity of your commander is set before the game begins and doesn’t change during the game, even if your commander is in a hidden zone (like the hand or library) or an effect changes your commander’s color."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "If your commander is a card that has no colors in its color identity, Command Tower’s ability produces no mana. It doesn’t produce {C}."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "If you don’t have a commander, Command Tower’s ability produces no mana."
       }
     ]
   },

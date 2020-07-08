@@ -405,6 +405,10 @@
       {
         "date": "4/8/2016",
         "text": "The set of creatures affected by Inspiring Captain’s ability is determined as the ability resolves. Creatures you begin to control later in the turn won’t get +1/+1."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "Inspiring Captain’s triggered ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get +1/+1."
       }
     ]
   },
@@ -540,7 +544,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
+      "Flying"
     ],
     "flavor_text": "Pray that it doesn't seek the safety of your lungs.",
     "power": "4",
@@ -805,16 +809,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/14/2017",
+        "date": "7/12/2019",
         "text": "You must sacrifice exactly one creature to cast this spell; you can’t cast it without sacrificing a creature, and you can’t sacrifice additional creatures."
       },
       {
-        "date": "3/14/2017",
+        "date": "7/12/2019",
         "text": "Once you begin to cast Bone Splinters, no player may take actions until you’re done. Notably, opponents can’t try to remove the creature you wish to sacrifice."
-      },
-      {
-        "date": "3/14/2017",
-        "text": "You can cast Bone Splinters targeting the creature you intend to sacrifice for its cost. This is because targets are chosen before costs are paid. Bone Splinters won’t resolve as it tries to resolve in this case."
       }
     ]
   },
@@ -1205,7 +1205,7 @@
     "rulings": [
       {
         "date": "10/4/2004",
-        "text": "If X is greater than 0, you can’t choose zero targets. You must choose between one and X targets. If X is 0, you can’t choose any targets."
+        "text": "If X is 0, you can’t choose any targets."
       },
       {
         "date": "8/25/2015",
@@ -1465,7 +1465,7 @@
     "mana_cost": "3GG",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Creatures you control get +2/+2 and gain trample until end of turn."
+      "Creatures you control get +2/+2 and gain trample until end of turn. (They can deal excess combat damage to the player or planeswalker they're attacking.)"
     ],
     "flavor_text": "\"Forward! Until the horizon is ours!\"\n—Khemses, charioteer",
     "power": null,
@@ -1474,7 +1474,12 @@
     "multiverse_id": 456568,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "7/12/2019",
+        "text": "Overcome affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get +2/+2 or gain trample."
+      }
+    ]
   },
   {
     "name": "Seek the Wilds",
@@ -1555,10 +1560,6 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
-      {
-        "date": "9/20/2016",
-        "text": "As Eager Construct’s triggered ability resolves, first the player whose turn it is scrys 1, then each other player in turn order does the same. Each player will know the choices made by players who chose before them."
-      },
       {
         "date": "6/8/2018",
         "text": "If multiple players are instructed to scry at once, such as while resolving Eager Construct’s triggered ability, those players each look at the top card of their library at the same time, then they choose in turn order whether to put those cards on the top or bottom of their library."

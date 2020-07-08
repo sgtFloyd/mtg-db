@@ -1153,7 +1153,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Enchant land",
-      "Whenever enchanted land becomes tapped, its controller puts the top three cards of their library into their graveyard."
+      "Whenever enchanted land becomes tapped, its controller mills three cards."
     ],
     "flavor_text": "With the Izzet occupied elsewhere, many of their public works fell into disrepair.",
     "power": null,
@@ -1227,7 +1227,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever Crosstown Courier deals combat damage to a player, that player puts that many cards from the top of their library into their graveyard."
+      "Whenever Crosstown Courier deals combat damage to a player, that player mills that many cards."
     ],
     "flavor_text": "Information travels quickly through Ravnica's network of messengers and thought agents.",
     "power": "2",
@@ -1335,7 +1335,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Defender",
-      "{2}{U}, {T}: Target player puts the top X cards of their library into their graveyard, where X is the number of creatures with defender you control."
+      "{2}{U}, {T}: Target player mills X cards, where X is the number of creatures with defender you control."
     ],
     "flavor_text": "One piercing stare usually convinces thieves to go elsewhere.",
     "power": "0",
@@ -1776,7 +1776,7 @@
     "mana_cost": "4U",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Shuffle all cards from your graveyard into your library. Target player puts that many cards from the top of their library into their graveyard."
+      "Shuffle all cards from your graveyard into your library. Target player mills that many cards."
     ],
     "flavor_text": "An elocutor forces criminals to confess to the laws they merely intended to break.",
     "power": null,
@@ -5726,7 +5726,7 @@
     "mana_cost": "XUR",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Exile the top X cards of your library. For each instant and sorcery card with converted mana cost X or less among them, you may cast that card without paying its mana cost. Then put all cards exiled this way that weren't cast into your graveyard."
+      "Exile the top X cards of your library. You may cast instant and sorcery spells with converted mana cost X or less from among them without paying their mana costs. Then put all cards exiled this way that weren't cast into your graveyard."
     ],
     "flavor_text": null,
     "power": null,
@@ -6691,7 +6691,7 @@
     "supertypes": [],
     "subtypes": [
       "Elemental",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Uncommon",
     "mana_cost": "3BR",
@@ -8252,7 +8252,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}: Target player puts the top card of their library into their graveyard.",
+      "{T}: Target player mills a card.",
       "{5}, {T}, Sacrifice Codex Shredder: Return target card from your graveyard to your hand."
     ],
     "flavor_text": null,

@@ -484,7 +484,7 @@
       },
       {
         "date": "8/23/2019",
-        "text": "The exchange lasts indefinitely. It doesn’t expire if the spell or the creature changes zones or leaves the game."
+        "text": "The exchange lasts indefinitely. It doesn’t expire for the spell if the creature changes zones or leaves the game, or vice versa."
       },
       {
         "date": "8/23/2019",
@@ -1694,7 +1694,7 @@
     "mana_cost": "2BR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Discard a card: You may cast a creature card from your graveyard this turn. Activate this ability only once each turn.",
+      "Discard a card: You may cast a creature spell from your graveyard this turn. Activate this ability only once each turn.",
       "Whenever a nontoken creature enters the battlefield under your control, if you didn't cast it from your hand, it gains haste until your next turn."
     ],
     "flavor_text": null,
@@ -1748,7 +1748,7 @@
     "oracle_text": [
       "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
       "You may look at the top card of your library any time.",
-      "You may cast the top card of your library if it's a noncreature, nonland card, and you may cast it as though it had flash."
+      "You may cast noncreature spells from the top of your library. If you cast a spell this way, you may cast it as though it had flash."
     ],
     "flavor_text": null,
     "power": "3",
@@ -1769,10 +1769,6 @@
       {
         "date": "8/23/2019",
         "text": "You’ll still pay all costs for a spell you cast from your library, including additional costs. You may also pay alternative costs."
-      },
-      {
-        "date": "8/23/2019",
-        "text": "If another effect lets you cast the top card of your library, you may cast it as though it had flash even if it’s a creature card."
       }
     ]
   },
@@ -2097,7 +2093,7 @@
     "rulings": [
       {
         "date": "8/23/2019",
-        "text": "If two Pramikons on the battlefield disagree on which direction players must attack, players can’t attack at all."
+        "text": "If two Pramikons on the battlefield disagree on which direction three or more players must attack, players can’t attack at all."
       },
       {
         "date": "8/23/2019",
@@ -3418,7 +3414,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "Raid — When Wingmate Roc enters the battlefield, if you attacked with a creature this turn, create a 3/4 white Bird creature token with flying.",
+      "Raid — When Wingmate Roc enters the battlefield, if you attacked this turn, create a 3/4 white Bird creature token with flying.",
       "Whenever Wingmate Roc attacks, you gain 1 life for each attacking creature."
     ],
     "flavor_text": null,
@@ -5014,7 +5010,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)",
-      "{X}{B}: Put target artifact or creature card with converted mana cost X from an opponent's graveyard onto the battlefield under your control tapped. Then that player puts the top X cards of their library into their graveyard."
+      "{X}{B}: Put target artifact or creature card with converted mana cost X from an opponent's graveyard onto the battlefield under your control tapped. Then that player mills X cards."
     ],
     "flavor_text": null,
     "power": "5",
@@ -5278,8 +5274,8 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "When Hedonist's Trove enters the battlefield, exile all cards from target opponent's graveyard.",
-      "You may play land cards exiled with Hedonist's Trove.",
-      "You may cast nonland cards exiled with Hedonist's Trove. You can't cast more than one spell this way each turn."
+      "You may play lands from among cards exiled with Hedonist's Trove.",
+      "You may cast spells from among cards exiled with Hedonist's Trove. You can't cast more than one spell this way each turn."
     ],
     "flavor_text": null,
     "power": null,
@@ -6829,7 +6825,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound",
+      "Dog",
       "Shaman"
     ],
     "rarity": "Common",
@@ -10040,6 +10036,18 @@
       {
         "date": "9/22/2011",
         "text": "In formats other than Commander, Command Tower’s ability produces no mana."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "The color identity of your commander is set before the game begins and doesn’t change during the game, even if your commander is in a hidden zone (like the hand or library) or an effect changes your commander’s color."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "If your commander is a card that has no colors in its color identity, Command Tower’s ability produces no mana. It doesn’t produce {C}."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "If you don’t have a commander, Command Tower’s ability produces no mana."
       }
     ]
   },

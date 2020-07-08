@@ -797,7 +797,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Target player sacrifices an attacking creature.",
-      "Storm (When you cast this spell, copy it for each spell cast before it this turn.)"
+      "Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -808,24 +808,28 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/7/2013",
-        "text": "The copies are put directly onto the stack. They aren’t cast and won’t be counted by other spells with storm cast later in the turn."
+        "date": "6/14/2019",
+        "text": "An “attacking creature” is one that has been declared as an attacker or put onto the battlefield attacking during a turn’s combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game or the planeswalker it was attacking has left combat."
       },
       {
-        "date": "6/7/2013",
-        "text": "Spells cast from zones other than a player’s hand and spells that were countered are counted by the storm ability."
+        "date": "6/14/2019",
+        "text": "If you cast Wing Shards after combat damage has been dealt, only creatures that survived combat can be sacrificed."
       },
       {
-        "date": "6/7/2013",
-        "text": "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won’t affect the copies."
+        "date": "6/14/2019",
+        "text": "Wing Shards doesn’t target the creature to be sacrificed. The target player chooses the creature as it resolves."
       },
       {
-        "date": "6/7/2013",
-        "text": "The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack."
+        "date": "6/14/2019",
+        "text": "The copies storm creates are created on the stack, so they’re not cast. Abilities that trigger when a player casts a spell (such as storm) won’t trigger."
       },
       {
-        "date": "6/7/2013",
-        "text": "You may choose new targets for any of the copies. You can choose differently for each copy."
+        "date": "6/14/2019",
+        "text": "Storm counts spells cast before the spell with storm was cast. Spells cast after the spell with storm was cast but before the storm ability resolves aren’t counted."
+      },
+      {
+        "date": "6/14/2019",
+        "text": "The storm ability and the copies it creates all resolve before the spell with storm. They resolve even if the spell with storm is countered."
       }
     ]
   },
@@ -935,7 +939,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player puts the top three cards of their library into their graveyard.",
+      "Target player mills three cards.",
       "Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)"
     ],
     "flavor_text": null,
@@ -1958,12 +1962,7 @@
     "multiverse_id": 43512,
     "other_part": null,
     "color_indicator": null,
-    "rulings": [
-      {
-        "date": "6/8/2016",
-        "text": "You can sacrifice Carrion Feeder to activate its own ability. The ability will have no effect as it resolves."
-      }
-    ]
+    "rulings": []
   },
   {
     "name": "Chill Haunting",
@@ -2881,8 +2880,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "10/4/2004",
-        "text": "All players discard, not just the player that was damaged."
+        "date": "7/12/2019",
+        "text": "If a player has fewer than seven cards in their library, that player loses the game after Dragon Mage’s triggered ability resolves. If each player loses the game this way, the game’s a draw."
       }
     ]
   },
@@ -3903,7 +3902,12 @@
     "multiverse_id": 44218,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "6/23/2020",
+        "text": "If a card in a player’s library has {X} in its mana cost, X is considered to be 0."
+      }
+    ]
   },
   {
     "name": "Forgotten Ancient",

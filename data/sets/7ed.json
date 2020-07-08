@@ -1669,7 +1669,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
+      "Flying"
     ],
     "flavor_text": "Where psycho meets cyclone.",
     "power": "4",
@@ -4058,7 +4058,7 @@
     "supertypes": [],
     "subtypes": [
       "Zombie",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "4B",
@@ -5476,7 +5476,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Other Goblin creatures get +1/+1 and have mountainwalk. (They can't be blocked as long as defending player controls a Mountain.)"
+      "Other Goblins get +1/+1 and have mountainwalk."
     ],
     "flavor_text": "To be king, Numsgil did in Blog, who did in Unkful, who did in Viddle, who did in Loll, who did in Alrok. . . .",
     "power": "2",
@@ -5508,7 +5508,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Goblin Matron enters the battlefield, you may search your library for a Goblin card, reveal that card, and put it into your hand. If you do, shuffle your library."
+      "When Goblin Matron enters the battlefield, you may search your library for a Goblin card, reveal that card, put it into your hand, then shuffle your library."
     ],
     "flavor_text": null,
     "power": "1",
@@ -5523,8 +5523,8 @@
         "text": "Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to."
       },
       {
-        "date": "4/1/2008",
-        "text": "You can search for any card with the creature type Goblin, including Creature or Tribal cards. Older cards of type “Summon Goblin” and “Summon Goblins” also count. You can’t search for cards that have Goblin in the name but don’t have the creature type Goblin."
+        "date": "6/14/2019",
+        "text": "If an effect refers to a “[subtype] spell” or “[subtype] card,” it refers only to a spell or card that has that subtype. For example, Goblin War Party is a card that references and creates Goblins, but it isn’t a Goblin card."
       }
     ]
   },
@@ -6058,7 +6058,7 @@
     "rulings": [
       {
         "date": "11/24/2014",
-        "text": "The number of targets chosen for Pyrotechnics must be at least one and at most four. You choose how the damage is divided as you cast the spell, not as it resolves. Each target must be assigned at least 1 damage."
+        "text": "You choose how the damage is divided as you cast the spell, not as it resolves. Each target must be assigned at least 1 damage."
       },
       {
         "date": "11/24/2014",
@@ -7885,18 +7885,6 @@
       {
         "date": "4/27/2018",
         "text": "If blocked by a creature with banding, the defending player decides whether or not the damage is assigned “as though it weren’t blocked”."
-      },
-      {
-        "date": "4/27/2018",
-        "text": "You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it."
-      },
-      {
-        "date": "4/27/2018",
-        "text": "When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the player or planeswalker this creature is attacking. You can’t split the damage assignment between them."
-      },
-      {
-        "date": "4/27/2018",
-        "text": "If blocked by a creature with banding, the defending player decides whether or not the damage is assigned “as though it weren’t blocked”."
       }
     ]
   },
@@ -8865,7 +8853,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}, {T}: Target player puts the top two cards of their library into their graveyard."
+      "{2}, {T}: Target player mills two cards."
     ],
     "flavor_text": "More than one mage has been driven insane by the sound of the millstone relentlessly grinding away.",
     "power": null,

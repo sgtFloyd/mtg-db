@@ -94,7 +94,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Sacrifice a creature: Target player puts a number of cards equal to the sacrificed creature's power from the top of their library into their graveyard."
+      "Sacrifice a creature: Target player mills cards equal to the sacrificed creature's power."
     ],
     "flavor_text": "\"It is not that you will go mad. It is that you will beg for madness.\"\n—Volrath",
     "power": null,
@@ -103,7 +103,16 @@
     "multiverse_id": 4596,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "6/14/2019",
+        "text": "The number of cards the target player puts into their graveyard is equal to the power of the sacrificed creature as it last existed on the battlefield."
+      },
+      {
+        "date": "6/14/2019",
+        "text": "If the target player’s library contains fewer cards than the sacrificed creature’s power, all of those cards are put into that player’s graveyard. That player won’t lose the game until they try to draw from the empty library."
+      }
+    ]
   },
   {
     "name": "Aluren",
@@ -119,7 +128,7 @@
     "mana_cost": "2GG",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Any player may cast creature spells with converted mana cost 3 or less without paying their mana cost and as though they had flash."
+      "Any player may cast creature spells with converted mana cost 3 or less without paying their mana costs and as though they had flash."
     ],
     "flavor_text": "Squee bounced up and down. \"I sees a horsey, an' a piggy, an' a—\"\n\"If you don't shut up,\" hissed Mirri, \"you'll see a kidney and a spleeny.\"",
     "power": null,
@@ -2484,7 +2493,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Rare",
     "mana_cost": "3G",
@@ -2525,7 +2534,12 @@
     "multiverse_id": 4760,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "6/14/2019",
+        "text": "If the target creature is an illegal target by the time Elvish Fury tries to resolve, the spell doesn’t resolve. If its buyback cost was paid, you won’t return it to your hand."
+      }
+    ]
   },
   {
     "name": "Emerald Medallion",
@@ -3757,7 +3771,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{3}, {T}: Target player puts the top two cards of their library into their graveyard. If both cards share a color, repeat this process."
+      "{3}, {T}: Target player mills two cards. If two cards that share a color were milled this way, repeat this process."
     ],
     "flavor_text": "\"Memory is a burden that wears at the soul as weather wears at stone.\"\n—Crovax",
     "power": null,
@@ -5681,13 +5695,13 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Rare",
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Mongrel Pack dies during combat, create four 1/1 green Hound creature tokens."
+      "When Mongrel Pack dies during combat, create four 1/1 green Dog creature tokens."
     ],
     "flavor_text": null,
     "power": "4",
@@ -7318,7 +7332,7 @@
     "rulings": [
       {
         "date": "10/4/2004",
-        "text": "If X is greater than 0, you can’t choose zero targets. You must choose between one and X targets. If X is 0, you can’t choose any targets."
+        "text": "If X is 0, you can’t choose any targets."
       },
       {
         "date": "8/25/2015",
@@ -10254,7 +10268,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Uncommon",
     "mana_cost": "3",

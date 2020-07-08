@@ -1664,7 +1664,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
+      "Flying"
     ],
     "flavor_text": "Pray that it doesn't seek the safety of your lungs.",
     "power": "4",
@@ -2780,20 +2780,16 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/14/2017",
+        "date": "6/23/2020",
         "text": "Rewind targets only a spell. It doesn’t target any lands. The lands are chosen as Rewind resolves."
       },
       {
-        "date": "3/14/2017",
+        "date": "6/23/2020",
         "text": "You can choose up to four lands, no matter who controls any of them. Those lands untap once. You can’t choose one land and have it untap four times, for example."
       },
       {
-        "date": "3/14/2017",
+        "date": "6/23/2020",
         "text": "If the spell is an illegal target when Rewind tries to resolve, perhaps because it was countered by another spell or ability, Rewind won’t resolve and none of its effects will happen. You won’t untap any lands."
-      },
-      {
-        "date": "3/14/2017",
-        "text": "If Rewind resolves but the target spell can’t be countered, you’ll still untap lands."
       }
     ]
   },
@@ -4831,6 +4827,10 @@
       {
         "date": "10/4/2004",
         "text": "In a multi-player game, it affects all opponents."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” it’s not a card drawn."
       }
     ]
   },
@@ -5447,7 +5447,7 @@
     "mana_cost": "1RR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Other Goblin creatures get +1/+1 and have mountainwalk. (They can't be blocked as long as defending player controls a Mountain.)"
+      "Other Goblins get +1/+1 and have mountainwalk."
     ],
     "flavor_text": "To be king, Numsgil did in Blog, who did in Unkful, who did in Viddle, who did in Loll, who did in Alrok. . . .",
     "power": "2",
@@ -5668,7 +5668,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Rare",
     "mana_cost": "2RR",
@@ -6054,7 +6054,7 @@
     "rulings": [
       {
         "date": "11/24/2014",
-        "text": "The number of targets chosen for Pyrotechnics must be at least one and at most four. You choose how the damage is divided as you cast the spell, not as it resolves. Each target must be assigned at least 1 damage."
+        "text": "You choose how the damage is divided as you cast the spell, not as it resolves. Each target must be assigned at least 1 damage."
       },
       {
         "date": "11/24/2014",
@@ -8191,18 +8191,6 @@
       {
         "date": "4/27/2018",
         "text": "If blocked by a creature with banding, the defending player decides whether or not the damage is assigned “as though it weren’t blocked”."
-      },
-      {
-        "date": "4/27/2018",
-        "text": "You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it."
-      },
-      {
-        "date": "4/27/2018",
-        "text": "When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the player or planeswalker this creature is attacking. You can’t split the damage assignment between them."
-      },
-      {
-        "date": "4/27/2018",
-        "text": "If blocked by a creature with banding, the defending player decides whether or not the damage is assigned “as though it weren’t blocked”."
       }
     ]
   },
@@ -8880,7 +8868,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}, {T}: Target player puts the top two cards of their library into their graveyard."
+      "{2}, {T}: Target player mills two cards."
     ],
     "flavor_text": "More than one mage has been driven insane by the sound of the millstone relentlessly grinding away.",
     "power": null,

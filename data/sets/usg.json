@@ -1627,10 +1627,6 @@
       },
       {
         "date": "10/4/2004",
-        "text": "If there is at least one verse counter on this, you can’t choose zero targets. You must choose between 1 and X targets."
-      },
-      {
-        "date": "10/4/2004",
         "text": "You can activate the ability (choosing no targets) even if there are no verse counters on it. It doesn’t do anything useful if you do this."
       },
       {
@@ -3021,20 +3017,16 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/14/2017",
+        "date": "6/23/2020",
         "text": "Rewind targets only a spell. It doesn’t target any lands. The lands are chosen as Rewind resolves."
       },
       {
-        "date": "3/14/2017",
+        "date": "6/23/2020",
         "text": "You can choose up to four lands, no matter who controls any of them. Those lands untap once. You can’t choose one land and have it untap four times, for example."
       },
       {
-        "date": "3/14/2017",
+        "date": "6/23/2020",
         "text": "If the spell is an illegal target when Rewind tries to resolve, perhaps because it was countered by another spell or ability, Rewind won’t resolve and none of its effects will happen. You won’t untap any lands."
-      },
-      {
-        "date": "3/14/2017",
-        "text": "If Rewind resolves but the target spell can’t be countered, you’ll still untap lands."
       }
     ]
   },
@@ -4406,7 +4398,7 @@
     "supertypes": [],
     "subtypes": [
       "Zombie",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "4B",
@@ -5489,7 +5481,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Until end of turn, you may play cards from your graveyard.",
+      "Until end of turn, you may play lands and cast spells from your graveyard.",
       "If a card would be put into your graveyard from anywhere this turn, exile that card instead."
     ],
     "flavor_text": null,
@@ -6118,7 +6110,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Goblin Matron enters the battlefield, you may search your library for a Goblin card, reveal that card, and put it into your hand. If you do, shuffle your library."
+      "When Goblin Matron enters the battlefield, you may search your library for a Goblin card, reveal that card, put it into your hand, then shuffle your library."
     ],
     "flavor_text": "There's always room for one more.",
     "power": "1",
@@ -6133,8 +6125,8 @@
         "text": "Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to."
       },
       {
-        "date": "4/1/2008",
-        "text": "You can search for any card with the creature type Goblin, including Creature or Tribal cards. Older cards of type “Summon Goblin” and “Summon Goblins” also count. You can’t search for cards that have Goblin in the name but don’t have the creature type Goblin."
+        "date": "6/14/2019",
+        "text": "If an effect refers to a “[subtype] spell” or “[subtype] card,” it refers only to a spell or card that has that subtype. For example, Goblin War Party is a card that references and creates Goblins, but it isn’t a Goblin card."
       }
     ]
   },
@@ -8904,7 +8896,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "G",
@@ -9903,7 +9895,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{3}: Each player puts the top two cards of their library into their graveyard."
+      "{3}: Each player mills two cards."
     ],
     "flavor_text": "To hone swords and dull minds.\n—Whetstone inscription",
     "power": null,
