@@ -615,12 +615,7 @@
     "multiverse_id": 29703,
     "other_part": null,
     "color_indicator": null,
-    "rulings": [
-      {
-        "date": "10/4/2004",
-        "text": "You can’t choose zero targets. You must choose at least one target."
-      }
-    ]
+    "rulings": []
   },
   {
     "name": "Gallantry",
@@ -1072,7 +1067,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "1W",
@@ -1314,8 +1309,20 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/8/2016",
-        "text": "The legality of a spell’s target is checked only as that spell begins to resolve. If Shelter gives the targeted creature protection from white, you’ll still draw a card."
+        "date": "6/14/2019",
+        "text": "Protection from a color means that the target creature can’t be blocked by creatures of that color, can’t be the target of spells of that color or abilities from sources of that color, can’t be enchanted or equipped by Auras or Equipment of that color, and all damage that sources of that color would deal to it is prevented. Nothing other than these events is prevented or illegal."
+      },
+      {
+        "date": "6/14/2019",
+        "text": "A permanent gaining protection may cause a spell or ability on the stack to have an illegal target. As a spell or ability tries to resolve, if all its targets are illegal, that spell or ability doesn’t resolve. None of its effects happen, including effects unrelated to the target. If at least one target is still legal, the spell or ability does as much as it can to the remaining legal targets, and its other effects still happen."
+      },
+      {
+        "date": "6/14/2019",
+        "text": "You can’t choose “artifact” or “colorless” as Shelter asks you to choose a color, since those are not colors."
+      },
+      {
+        "date": "6/14/2019",
+        "text": "The legality of a spell’s targets is checked only as that spell begins to resolve. If Shelter gives the targeted creature protection from white, you’ll still draw a card."
       }
     ]
   },
@@ -1637,7 +1644,8 @@
       "Legendary"
     ],
     "subtypes": [
-      "Cephalid"
+      "Cephalid",
+      "Noble"
     ],
     "rarity": "Rare",
     "mana_cost": "4UU",
@@ -2620,7 +2628,7 @@
     "supertypes": [],
     "subtypes": [
       "Illusion",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "1U",
@@ -2651,7 +2659,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Choose a card name, then target player puts the top card of their library into their graveyard. If that card has the chosen name, you draw two cards. Otherwise, you draw a card."
+      "Choose a card name, then target player mills a card. If a card with the chosen name was milled this way, you draw two cards. Otherwise, you draw a card."
     ],
     "flavor_text": null,
     "power": null,
@@ -3114,7 +3122,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Target player puts the top half of their library, rounded down, into their graveyard."
+      "Target player mills half their library, rounded down."
     ],
     "flavor_text": "Dreads had half a mind to leave.",
     "power": null,
@@ -3276,7 +3284,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Flying",
-      "At the beginning of your upkeep, put the top card of your library into your graveyard.",
+      "At the beginning of your upkeep, mill a card.",
       "Threshold — As long as seven or more cards are in your graveyard, Bloodcurdler gets +1/+1 and has \"At the beginning of your end step, exile two cards from your graveyard.\""
     ],
     "flavor_text": null,
@@ -3836,7 +3844,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "1B",
@@ -5697,7 +5705,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "1R",
@@ -6325,7 +6333,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Thermal Blast deals 3 damage to target creature.",
-      "Threshold — Thermal Blast deals 5 damage to that creature instead if seven or more cards are in your graveyard."
+      "Threshold — Thermal Blast deals 5 damage instead if seven or more cards are in your graveyard."
     ],
     "flavor_text": null,
     "power": null,
@@ -6411,12 +6419,7 @@
     "multiverse_id": 29970,
     "other_part": null,
     "color_indicator": null,
-    "rulings": [
-      {
-        "date": "10/4/2004",
-        "text": "You can’t choose zero targets. You must choose between 1 and 6 targets."
-      }
-    ]
+    "rulings": []
   },
   {
     "name": "Whipkeeper",
@@ -7718,12 +7721,7 @@
     "multiverse_id": 31836,
     "other_part": null,
     "color_indicator": null,
-    "rulings": [
-      {
-        "date": "8/1/2005",
-        "text": "The land receives this ability and not the actual text. Text-changing effects can be used on this Aura, but would not change this effect if cast on the land."
-      }
-    ]
+    "rulings": []
   },
   {
     "name": "Still Life",
@@ -7969,7 +7967,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "1G",
@@ -8400,7 +8398,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{T}, Put the top card of your library into your graveyard: For each colored mana symbol in that card's mana cost, add one mana of that color. Activate this ability only any time you could cast an instant. (For example, if the card's mana cost is {3}{U}{U}{B}, you add {U}{U}{B}.)"
+      "{T}, Mill a card: For each colored mana symbol in the milled card's mana cost, add one mana of that color. Activate this ability only any time you could cast an instant. (For example, if the card's mana cost is {3}{U}{U}{B}, you add {U}{U}{B}.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8525,7 +8523,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}, Put the top card of your library into your graveyard: Add {C}."
+      "{T}, Mill a card: Add {C}."
     ],
     "flavor_text": "The toymaker frowned in bewilderment. None of his creations had ever sneezed before.",
     "power": "0",

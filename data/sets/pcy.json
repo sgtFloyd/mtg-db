@@ -1980,7 +1980,7 @@
     "mana_cost": "4BB",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "At the beginning of each player's upkeep, that player puts the top card of their library into their graveyard. Then they create X 1/1 black Minion creature tokens, where X is that card's converted mana cost."
+      "At the beginning of each player's upkeep, that player mills a card. Then they create X 1/1 black Minion creature tokens, where X is the milled card's converted mana cost."
     ],
     "flavor_text": null,
     "power": null,
@@ -2624,12 +2624,7 @@
     "multiverse_id": 24642,
     "other_part": null,
     "color_indicator": null,
-    "rulings": [
-      {
-        "date": "10/4/2004",
-        "text": "You can’t choose zero targets. You must choose at least one target."
-      }
-    ]
+    "rulings": []
   },
   {
     "name": "Inflame",

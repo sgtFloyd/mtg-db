@@ -687,7 +687,7 @@
     "mana_cost": "1UU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{3}: Target player puts the top three cards of their library into their graveyard."
+      "{3}: Target player mills three cards."
     ],
     "flavor_text": "\"He smiles with poisoned lips.\"\n—Empress Llawan",
     "power": "1",
@@ -799,13 +799,14 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Cephalid"
+      "Cephalid",
+      "Noble"
     ],
     "rarity": "Common",
     "mana_cost": "4U",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Whenever Cephalid Aristocrat becomes the target of a spell or ability, put the top two cards of your library into your graveyard."
+      "Whenever Cephalid Aristocrat becomes the target of a spell or ability, mill two cards."
     ],
     "flavor_text": "It's easy to tell the difference between the devious cephalids and the trustworthy ones. The trustworthy ones are dead.",
     "power": "3",
@@ -833,7 +834,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever Cephalid Illusionist becomes the target of a spell or ability, put the top three cards of your library into your graveyard.",
+      "Whenever Cephalid Illusionist becomes the target of a spell or ability, mill three cards.",
       "{2}{U}, {T}: Prevent all combat damage that would be dealt to and dealt by target creature you control this turn."
     ],
     "flavor_text": null,
@@ -926,7 +927,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "At the beginning of your upkeep, put a shred counter on Cephalid Vandal. Then put the top card of your library into your graveyard for each shred counter on Cephalid Vandal."
+      "At the beginning of your upkeep, put a shred counter on Cephalid Vandal. Then mill a card for each shred counter on Cephalid Vandal."
     ],
     "flavor_text": null,
     "power": "1",
@@ -1087,7 +1088,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Put the top seven cards of your library into your graveyard. At the beginning of the next end step, exile seven cards from your graveyard."
+      "Mill seven cards. At the beginning of the next end step, exile seven cards from your graveyard."
     ],
     "flavor_text": "\"My enemies will forget everything but their anguish.\"\n—Ambassador Laquatus",
     "power": null,
@@ -1237,7 +1238,8 @@
       "Legendary"
     ],
     "subtypes": [
-      "Cephalid"
+      "Cephalid",
+      "Noble"
     ],
     "rarity": "Rare",
     "mana_cost": "3U",
@@ -3466,12 +3468,7 @@
     "multiverse_id": 34253,
     "other_part": null,
     "color_indicator": null,
-    "rulings": [
-      {
-        "date": "10/4/2004",
-        "text": "You can’t choose zero targets. You must choose at least one target."
-      }
-    ]
+    "rulings": []
   },
   {
     "name": "Acorn Harvest",
@@ -3934,7 +3931,16 @@
     "multiverse_id": 34229,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "6/14/2019",
+        "text": "If an effect modifies how many +1/+1 counters you put on Nantuko Cultivator, the number of cards you draw isn’t modified. Likewise, if an effect modifies how many cards you draw, the number of +1/+1 counters you put on Nantuko Cultivator won’t be modified."
+      },
+      {
+        "date": "6/14/2019",
+        "text": "You discard, put counters, and draw all while Nantuko Cultivator’s ability is resolving. Nothing can happen between the three, and no player may choose to take actions."
+      }
+    ]
   },
   {
     "name": "Narcissism",

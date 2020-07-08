@@ -2813,7 +2813,7 @@
     "mana_cost": "4U",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "{U}: Put the top card of your library into your graveyard. If that card is a land card, Saprazzan Breaker can't be blocked this turn."
+      "{U}: Mill a card. If a land card was milled this way, Saprazzan Breaker can't be blocked this turn."
     ],
     "flavor_text": null,
     "power": "3",
@@ -4308,7 +4308,20 @@
     "multiverse_id": 19693,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "6/14/2019",
+        "text": "If Nether Spirit isn’t the only creature card in your graveyard as your upkeep begins, its ability won’t trigger. You can’t take any actions during your turn before your upkeep begins."
+      },
+      {
+        "date": "6/14/2019",
+        "text": "If Nether Spirit isn’t the only creature card in your graveyard as its ability resolves, it remains in your graveyard."
+      },
+      {
+        "date": "6/14/2019",
+        "text": "If you have two Nether Spirits in your graveyard, they stop each other from returning."
+      }
+    ]
   },
   {
     "name": "Notorious Assassin",
@@ -5060,7 +5073,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Rare",
     "mana_cost": "2R",
@@ -5745,7 +5758,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "2RR",
@@ -6387,10 +6400,6 @@
       {
         "date": "10/4/2004",
         "text": "If there are no creatures on the battlefield when you cast this, you do not pick any targets and it deals no damage."
-      },
-      {
-        "date": "10/4/2004",
-        "text": "If there is at least one creature on the battlefield when you are announcing this, you can’t choose zero targets. You must choose between 1 and X targets."
       }
     ]
   },
@@ -8959,7 +8968,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "At the beginning of each player's upkeep, that player puts the top card of their library into their graveyard."
+      "At the beginning of each player's upkeep, that player mills a card."
     ],
     "flavor_text": null,
     "power": null,

@@ -13,7 +13,7 @@ m12 cmd nph ddg mbs pd2 som ddf v10 m11 arc roe
 dde wwk h09 ddd zen hop v09 m10 arb ddc con dd2
 ala drb eve shm mor evg lrw 10e fut plc tsb tsp
 csp dis gpt rav 9ed sok bok chk 5dn dst mrd 8ed
-scg lgn ons jud tor dkm ody apc 7ed pls btd inv
-s00 pcy nem brb mmq s99 ptk uds 6ed ulg ath usg
-po2 exo sth tmp van wth por 5ed vis mir all hml
+✓ scg lgn ons jud tor dkm ody apc 7ed pls btd inv
+✓ s00 pcy nem brb mmq s99 ptk uds 6ed ulg ath usg
+✓ po2 exo sth tmp van wth por 5ed vis mir all hml
 ✓ 3ed atq ppr arn 2ed leb lea chr ice 4ed fem drk leg

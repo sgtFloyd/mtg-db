@@ -857,7 +857,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
+      "Flying"
     ],
     "flavor_text": "As insubstantial, and as powerful, as the wind that carries it.",
     "power": "4",
@@ -1110,7 +1110,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/8/2016",
+        "date": "6/14/2019",
         "text": "If there are no other creatures on the battlefield when Man-o’-War enters the battlefield, its ability must target itself."
       }
     ]
@@ -1408,7 +1408,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Flying"
+      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
     ],
     "flavor_text": "Drakes claim to be dragons—until the dragons show up.",
     "power": "3",
@@ -2127,7 +2127,7 @@
     "mana_cost": "1BB",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Search your library for a card and put that card into your hand, then shuffle your library. You lose 3 life."
+      "Search your library for a card, put that card into your hand, then shuffle your library. You lose 3 life."
     ],
     "flavor_text": "He who goes unpunished never learns.\n—Greek proverb",
     "power": null,
@@ -2136,7 +2136,12 @@
     "multiverse_id": 20359,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "6/23/2020",
+        "text": "You don’t reveal the card you search for."
+      }
+    ]
   },
   {
     "name": "Hand of Death",
@@ -2174,7 +2179,7 @@
     "supertypes": [],
     "subtypes": [
       "Zombie",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "4B",
@@ -3278,7 +3283,7 @@
     "mana_cost": "4RR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Flying",
+      "Flying (This creature can't be blocked except by creatures with flying or reach.)",
       "Haste (This creature can attack and {T} as soon as it comes under your control.)"
     ],
     "flavor_text": "Speed and fire are always a deadly combination.",
@@ -3975,18 +3980,6 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
-      {
-        "date": "4/27/2018",
-        "text": "You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it."
-      },
-      {
-        "date": "4/27/2018",
-        "text": "When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the player or planeswalker this creature is attacking. You can’t split the damage assignment between them."
-      },
-      {
-        "date": "4/27/2018",
-        "text": "If blocked by a creature with banding, the defending player decides whether or not the damage is assigned “as though it weren’t blocked”."
-      },
       {
         "date": "4/27/2018",
         "text": "You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it."

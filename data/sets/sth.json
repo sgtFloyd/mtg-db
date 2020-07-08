@@ -656,7 +656,8 @@
       "Legendary"
     ],
     "subtypes": [
-      "Vampire"
+      "Vampire",
+      "Noble"
     ],
     "rarity": "Rare",
     "mana_cost": "2BB",
@@ -1078,20 +1079,16 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "8/15/2010",
+        "date": "10/4/2019",
         "text": "The sacrificed creature’s last known existence on the battlefield is checked to determine its power."
       },
       {
-        "date": "8/15/2010",
-        "text": "If you sacrifice an attacking or blocking creature during the declare blockers step, it won’t deal combat damage. If you wait until the combat damage step, but that creature is dealt lethal damage, it’ll be destroyed before you get a chance to sacrifice it."
+        "date": "10/4/2019",
+        "text": "You must sacrifice exactly one creature to cast this spell; you can’t cast it without sacrificing a creature, and you can’t sacrifice additional creatures."
       },
       {
-        "date": "4/15/2013",
-        "text": "You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures."
-      },
-      {
-        "date": "4/15/2013",
-        "text": "Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell."
+        "date": "10/4/2019",
+        "text": "Players can only respond once this spell has been cast and all its costs have been paid. No one can try to interfere with the creature you sacrificed to prevent you from casting this spell."
       }
     ]
   },
@@ -1350,7 +1347,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Fish"
+      "Shark"
     ],
     "rarity": "Common",
     "mana_cost": "1U",
@@ -1381,7 +1378,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Activated abilities of creatures cost {1} less to activate. This effect can't reduce the amount of mana an ability costs to activate to less than one mana."
+      "Activated abilities of creatures cost {1} less to activate. This effect can't reduce the mana in that cost to less than one mana."
     ],
     "flavor_text": "\"Finding a true heartstone is even harder than finding a true heart.\"\n—Hanna",
     "power": null,
@@ -2243,7 +2240,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Sacrifice Morgue Thrull: Put the top three cards of your library into your graveyard."
+      "Sacrifice Morgue Thrull: Mill three cards."
     ],
     "flavor_text": "It's so hard to find good help these days.",
     "power": "2",
