@@ -510,7 +510,7 @@
     "mana_cost": "1W",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}{W}: Moorland Inquisitor gains first strike until end of turn."
+      "{2}{W}: Moorland Inquisitor gains first strike until end of turn. (It deals combat damage before creatures without first strike.)"
     ],
     "flavor_text": "Inquisitors are taught scripture, philosophy, and the fine art of sharpening an axe.",
     "power": "2",
@@ -519,7 +519,12 @@
     "multiverse_id": 409592,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "7/12/2019",
+        "text": "Multiple instances of first strike on the same creature are redundant."
+      }
+    ]
   },
   {
     "name": "Rebuke",
@@ -1354,7 +1359,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Flying, trample",
-      "When Mindwrack Demon enters the battlefield, put the top four cards of your library into your graveyard.",
+      "When Mindwrack Demon enters the battlefield, mill four cards.",
       "Delirium — At the beginning of your upkeep, you lose 4 life unless there are four or more card types among cards in your graveyard."
     ],
     "flavor_text": null,
@@ -1616,7 +1621,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Screeching Skaab enters the battlefield, put the top two cards of your library into your graveyard."
+      "When Screeching Skaab enters the battlefield, mill two cards."
     ],
     "flavor_text": "Its screeching is the sound of you losing your mind.",
     "power": "2",
@@ -1888,7 +1893,8 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Vampire"
+      "Vampire",
+      "Noble"
     ],
     "rarity": "Uncommon",
     "mana_cost": "3B",

@@ -792,7 +792,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "When Banishing Light enters the battlefield, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (That permanent returns under its owner's control.)"
+      "When Banishing Light enters the battlefield, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield."
     ],
     "flavor_text": null,
     "power": null,
@@ -803,28 +803,16 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "4/26/2014",
-        "text": "Banishing Light’s ability causes a zone change with a duration, a new style of ability that’s somewhat reminiscent of older cards like Oblivion Ring. However, unlike Oblivion Ring, cards like Banishing Light have a single ability that creates two one-shot effects: one that exiles the permanent when the ability resolves, and another that returns the exiled card to the battlefield immediately after Banishing Light leaves the battlefield."
+        "date": "1/24/2020",
+        "text": "If Banishing Light leaves the battlefield before its triggered ability resolves, the target permanent won’t be exiled."
       },
       {
-        "date": "4/26/2014",
-        "text": "If Banishing Light leaves the battlefield before its enters-the-battlefield ability resolves, the target nonland permanent won’t be exiled."
+        "date": "1/24/2020",
+        "text": "Auras attached to the exiled permanent will be put into their owners’ graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled."
       },
       {
-        "date": "4/26/2014",
-        "text": "Auras attached to the exiled permanent will be put into their owners’ graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "If a token is exiled, it ceases to exist. It won’t be returned to the battlefield."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "The exiled card returns to the battlefield immediately after Banishing Light leaves the battlefield. Nothing happens between the two events, including state-based actions. Banishing Light and the returned card aren’t on the battlefield at the same time."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "In a multiplayer game, if Banishing Light’s owner leaves the game, the exiled card will return to the battlefield. Because the one-shot effect that returns the card isn’t an ability that goes on the stack, it won’t cease to exist along with the leaving player’s spells and abilities on the stack."
+        "date": "1/24/2020",
+        "text": "If a token is exiled this way, it will cease to exist and won’t return to the battlefield."
       }
     ]
   },
@@ -1150,16 +1138,16 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "12/7/2018",
-        "text": "Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords (such as equip) are activated abilities and will have colons in their reminder text."
+        "date": "6/23/2020",
+        "text": "If the target permanent is an illegal target by the time Faith’s Fetters tries to resolve, it doesn’t resolve. It won’t enter the battlefield, so its enters-the-battlefield ability won’t trigger."
       },
       {
-        "date": "12/7/2018",
+        "date": "6/23/2020",
+        "text": "Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords (such as equip) are activated abilities and will have colons in their reminder text. Loyalty abilities of planeswalkers are activated abilities."
+      },
+      {
+        "date": "6/23/2020",
         "text": "Faith’s Fetters doesn’t stop static abilities, triggered abilities, or mana abilities from working. A mana ability is an ability that produces mana, not an ability that costs mana."
-      },
-      {
-        "date": "12/7/2018",
-        "text": "If the target permanent is an illegal target by the time Faith’s Fetters tries to resolve, the Aura spell doesn’t resolve. It won’t enter the battlefield, so its enters-the-battlefield ability won’t trigger."
       }
     ]
   },
@@ -1499,7 +1487,7 @@
       },
       {
         "date": "11/8/2016",
-        "text": "Effects that reduce what you pay to cast a spell don’t affect its converted mana cost. Sublime Exhalation’s converted mana cost is 7, regardless of how many opponents you have or how much mana you spent to cast it."
+        "text": "Effects that reduce what you pay to cast a spell don’t affect its converted mana cost."
       }
     ]
   },
@@ -1675,7 +1663,7 @@
     "mana_cost": "2UU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "At the beginning of each player's upkeep, that player puts the top X cards of their library into their graveyard, where X is the number of cards in their hand."
+      "At the beginning of each player's upkeep, that player mills X cards, where X is the number of cards in their hand."
     ],
     "flavor_text": "\"Her voice is insight, piercing and true.\"\n—Ixidor, reality sculptor",
     "power": "2",
@@ -1711,11 +1699,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/8/2016",
+        "date": "6/14/2019",
         "text": "You choose which pile to put into your hand."
       },
       {
-        "date": "6/8/2016",
+        "date": "6/14/2019",
         "text": "Each pile may contain from zero to five cards; they don’t have to be split “evenly.”"
       }
     ]
@@ -1806,7 +1794,7 @@
     "mana_cost": "1UU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever an opponent casts a spell, that player puts the top two cards of their library into their graveyard."
+      "Whenever an opponent casts a spell, that player mills two cards."
     ],
     "flavor_text": "\"The Filigree Texts do not compel you to act in accordance with their precepts. They only specify the consequences should you fail.\"\n—Lodus of the Ethersworn",
     "power": null,
@@ -1909,7 +1897,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever a creature attacks you or a planeswalker you control, that creature's controller puts the top two cards of their library into their graveyard."
+      "Whenever a creature attacks you or a planeswalker you control, that creature's controller mills two cards."
     ],
     "flavor_text": "Fools surrender their sanity to his riddles. Even greater fools try to solve them.",
     "power": "1",
@@ -2410,7 +2398,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "Whenever another creature leaves the battlefield, you may have target player put the top two cards of their library into their graveyard.",
+      "Whenever another creature leaves the battlefield, you may have target player mill two cards.",
       "Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"
     ],
     "flavor_text": null,
@@ -2663,7 +2651,7 @@
     "oracle_text": [
       "At the beginning of your upkeep, put a +1/+1 counter on Necroplasm.",
       "At the beginning of your end step, destroy each creature with converted mana cost equal to the number of +1/+1 counters on Necroplasm.",
-      "Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "1",
@@ -2881,7 +2869,7 @@
     "oracle_text": [
       "As Sewer Nemesis enters the battlefield, choose a player.",
       "Sewer Nemesis's power and toughness are each equal to the number of cards in the chosen player's graveyard.",
-      "Whenever the chosen player casts a spell, that player puts the top card of their library into their graveyard."
+      "Whenever the chosen player casts a spell, that player mills a card."
     ],
     "flavor_text": null,
     "power": "*",
@@ -2911,7 +2899,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Join forces — Starting with you, each player may pay any amount of mana. Each player puts the top X cards of their library into their graveyard, where X is the total amount of mana paid this way."
+      "Join forces — Starting with you, each player may pay any amount of mana. Each player mills X cards, where X is the total amount of mana paid this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -3444,7 +3432,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Flying",
-      "Whenever Dream Pillager deals combat damage to a player, exile that many cards from the top of your library. Until end of turn, you may cast nonland cards from among those exiled cards."
+      "Whenever Dream Pillager deals combat damage to a player, exile that many cards from the top of your library. Until end of turn, you may cast spells from among those exiled cards."
     ],
     "flavor_text": "Its wings shimmer with dreams absorbed from its enemies.",
     "power": "4",
@@ -4564,7 +4552,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Haste",
-      "When Tuktuk the Explorer dies, create a legendary 5/5 colorless Goblin Golem artifact creature token named Tuktuk the Returned."
+      "When Tuktuk the Explorer dies, create Tuktuk the Returned, a legendary 5/5 colorless Goblin Golem artifact creature token."
     ],
     "flavor_text": "Remade by Eldrazi magic, Tuktuk inspired an entire clan of misguided goblins.",
     "power": "1",
@@ -5273,7 +5261,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/14/2017",
+        "date": "6/23/2020",
         "text": "If the target card is an illegal target when the ability tries to resolve, it won’t resolve and none of its effects will happen. No +1/+1 counter will be put on Scavenging Ooze and you won’t gain life. Notably, this means that if you activate Scavenging Ooze’s ability multiple times targeting the same creature card, only the first instance of the ability to resolve will have any effect."
       }
     ]
@@ -6173,7 +6161,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Flying",
-      "If Szadek, Lord of Secrets would deal combat damage to a player, instead put that many +1/+1 counters on Szadek and that player puts that many cards from the top of their library into their graveyard."
+      "If Szadek, Lord of Secrets would deal combat damage to a player, instead put that many +1/+1 counters on Szadek and that player mills that many cards."
     ],
     "flavor_text": null,
     "power": "5",
@@ -6281,7 +6269,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Islandwalk, swampwalk (This creature can't be blocked as long as defending player controls an Island or a Swamp.)",
-      "Whenever Wrexial, the Risen Deep deals combat damage to a player, you may cast target instant or sorcery card from that player's graveyard without paying its mana cost. If that card would be put into a graveyard this turn, exile it instead."
+      "Whenever Wrexial, the Risen Deep deals combat damage to a player, you may cast target instant or sorcery card from that player's graveyard without paying its mana cost. If that spell would be put into a graveyard this turn, exile it instead."
     ],
     "flavor_text": null,
     "power": "5",
@@ -8633,6 +8621,18 @@
       {
         "date": "9/22/2011",
         "text": "In formats other than Commander, Command Tower’s ability produces no mana."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "The color identity of your commander is set before the game begins and doesn’t change during the game, even if your commander is in a hidden zone (like the hand or library) or an effect changes your commander’s color."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "If your commander is a card that has no colors in its color identity, Command Tower’s ability produces no mana. It doesn’t produce {C}."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "If you don’t have a commander, Command Tower’s ability produces no mana."
       }
     ]
   },

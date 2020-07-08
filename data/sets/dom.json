@@ -484,7 +484,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Enchant creature",
-      "Enchanted creature gets +2/+2, has first strike, and is a Knight in addition to its other types."
+      "Enchanted creature gets +2/+2, has first strike, and is a Knight in addition to its other types. (It deals combat damage before creatures without first strike.)"
     ],
     "flavor_text": "\"Rise, knight of New Benalia.\"",
     "power": null,
@@ -1665,7 +1665,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "4/27/2018",
+        "date": "7/12/2019",
         "text": "If the target creature is an illegal target by the time Befuddle tries to resolve, the spell doesn’t resolve. You won’t draw a card."
       }
     ]
@@ -1856,7 +1856,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever you cast a historic spell, target player puts the top two cards of their library into their graveyard. (Artifacts, legendaries, and Sagas are historic.)"
+      "Whenever you cast a historic spell, target player mills two cards. (Artifacts, legendaries, and Sagas are historic.)"
     ],
     "flavor_text": "Archaeologists don't just dig in the dirt. They excavate time, scraping off the years grain by grain.",
     "power": "1",
@@ -1926,7 +1926,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Homarid Explorer enters the battlefield, target player puts the top four cards of their library into their graveyard."
+      "When Homarid Explorer enters the battlefield, target player mills four cards."
     ],
     "flavor_text": "\"Homarids spread northward from Sarpadia as the climate cooled, raiding coastal settlements for supplies.\"\n—Time of Ice",
     "power": "3",
@@ -2328,7 +2328,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "You may look at the top card of your library any time.",
-      "You may cast the top card of your library if it's an instant or sorcery card.",
+      "You may cast instant and sorcery spells from the top of your library.",
       "{3}: Exile the top card of your library."
     ],
     "flavor_text": null,
@@ -2783,7 +2783,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Draw three cards. Target player puts the top three cards of their library into their graveyard."
+      "Draw three cards. Target player mills three cards."
     ],
     "flavor_text": "In lives that have stretched for centuries, there are bound to be a few awkward silences.",
     "power": null,
@@ -3100,7 +3100,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "4/27/2018",
+        "date": "4/17/2020",
         "text": "If you have fewer than three cards in your library, you put them all into your hand and none into your graveyard."
       }
     ]
@@ -3419,7 +3419,7 @@
     "mana_cost": "5B",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Deathtouch"
+      "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)"
     ],
     "flavor_text": "\"Urborg used to be lovely—scenic volcanoes, respectable lich lords. Since the Cabal came with their nightmares and thrulls, it's all gone to the worms.\"\n—Mister Lostspoons, Skulltown gossip",
     "power": "5",
@@ -4171,7 +4171,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying",
-      "When Windgrace Acolyte enters the battlefield, put the top three cards of your library into your graveyard and you gain 3 life."
+      "When Windgrace Acolyte enters the battlefield, mill three cards and you gain 3 life."
     ],
     "flavor_text": "Acolytes of the lost Lord Windgrace fight to keep Urborg relics out of Cabal hands.",
     "power": "3",
@@ -4885,7 +4885,7 @@
     "oracle_text": [
       "+1: Add {R}{R}{R}. Spend this mana only to cast instant or sorcery spells.",
       "+1: Discard up to three cards, then draw that many cards.",
-      "−8: You get an emblem with \"You may cast instant and sorcery cards from your graveyard. If a card cast this way would be put into your graveyard, exile it instead.\""
+      "−8: You get an emblem with \"You may cast instant and sorcery spells from your graveyard. If a spell cast this way would be put into your graveyard, exile it instead.\""
     ],
     "flavor_text": null,
     "power": null,
@@ -5205,7 +5205,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Kicker {4} (You may pay an additional {4} as you cast this spell.)",
-      "Shivan Fire deals 2 damage to target creature. If this spell was kicked, it deals 4 damage to that creature instead."
+      "Shivan Fire deals 2 damage to target creature. If this spell was kicked, it deals 4 damage instead."
     ],
     "flavor_text": "Sometimes Shivan dragons toy with their food. Other times they just cook it.",
     "power": null,
@@ -6161,7 +6161,7 @@
     "mana_cost": "4G",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Reach"
+      "Reach (This creature can block creatures with flying.)"
     ],
     "flavor_text": "Most spiders of Llanowar disdain elvish alliances. No elf has as many beautiful eyes or as many strong arms.",
     "power": "3",
@@ -6225,7 +6225,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)",
-      "I, II — Put the top two cards of your library into your graveyard, then you may return a creature card from your graveyard to your hand.",
+      "I, II — Mill two cards, then you may return a creature card from your graveyard to your hand.",
       "III — Return all land cards from your graveyard to the battlefield, then shuffle your graveyard into your library."
     ],
     "flavor_text": null,
@@ -6665,18 +6665,6 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
-      {
-        "date": "4/27/2018",
-        "text": "You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it."
-      },
-      {
-        "date": "4/27/2018",
-        "text": "When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the player or planeswalker this creature is attacking. You can’t split the damage assignment between them."
-      },
-      {
-        "date": "4/27/2018",
-        "text": "If blocked by a creature with banding, the defending player decides whether or not the damage is assigned “as though it weren’t blocked”."
-      },
       {
         "date": "4/27/2018",
         "text": "You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it."
@@ -7205,7 +7193,7 @@
     "mana_cost": "3BGU",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "During each of your turns, you may play up to one permanent card of each permanent type from your graveyard. (If a card has multiple permanent types, choose one as you play it.)"
+      "During each of your turns, you may play a land and cast a permanent spell of each permanent type from your graveyard. (If a card has multiple permanent types, choose one as you play it.)"
     ],
     "flavor_text": "\"My child grew from rot and ruin, yet she bloomed.\"\n—Multani",
     "power": "6",
@@ -7396,7 +7384,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "When Rona, Disciple of Gix enters the battlefield, you may exile target historic card from your graveyard. (Artifacts, legendaries, and Sagas are historic.)",
-      "You may cast nonland cards exiled with Rona.",
+      "You may cast spells from among cards exiled with Rona.",
       "{4}, {T}: Exile the top card of your library."
     ],
     "flavor_text": null,
@@ -8225,15 +8213,15 @@
     "rulings": [
       {
         "date": "4/27/2018",
-        "text": "Mox Amber’s ability adds one mana of the color of your choice from among the colors of legendary creatures and planeswalkers you control. It doesn’t add one mana of each of those colors."
+        "text": "Mox Amber’s ability adds one mana of the color of your choice from among the colors of legendary creatures and legendary planeswalkers you control. It doesn’t add one mana of each of those colors."
       },
       {
         "date": "4/27/2018",
-        "text": "If you control no legendary creatures or planeswalkers, you can activate Mox Amber’s ability, but you won’t add any mana."
+        "text": "If you control no legendary creatures or legendary planeswalkers, you can activate Mox Amber’s ability, but you won’t add any mana."
       },
       {
         "date": "4/27/2018",
-        "text": "If your legendary creatures and planeswalkers are all colorless, you can activate Mox Amber’s ability, but you won’t add any mana. Colorless is not a color."
+        "text": "If your legendary creatures and legendary planeswalkers are all colorless, you can activate Mox Amber’s ability, but you won’t add any mana. Colorless is not a color."
       }
     ]
   },
@@ -8439,7 +8427,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Equipped creature has \"{T}: This creature deals 1 damage to target player or planeswalker. If this creature is a Wizard, it deals 2 damage to that player or planeswalker instead.\"",
+      "Equipped creature has \"{T}: This creature deals 1 damage to target player or planeswalker. If this creature is a Wizard, it deals 2 damage instead.\"",
       "Equip {3}"
     ],
     "flavor_text": null,
@@ -9803,7 +9791,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Uncommon",
     "mana_cost": "3R",

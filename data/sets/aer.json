@@ -961,7 +961,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Create three 1/1 colorless Servo artifact creature tokens.",
-      "You may cast a card with converted mana cost 3 or less from your hand without paying its mana cost."
+      "You may cast a spell with converted mana cost 3 or less from your hand without paying its mana cost."
     ],
     "flavor_text": "\"It's important to always have the right tool for the job. This one is for picking my teeth.\"",
     "power": null,
@@ -1219,7 +1219,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Return up to three target artifacts and/or creatures to their owners' hands.",
-      "You may cast a card with converted mana cost 4 or less from your hand without paying its mana cost."
+      "You may cast a spell with converted mana cost 4 or less from your hand without paying its mana cost."
     ],
     "flavor_text": "\"Get out of my way.\"",
     "power": null,
@@ -3292,7 +3292,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "All creatures get -3/-3 until end of turn.",
-      "You may cast a card with converted mana cost 3 or less from your hand without paying its mana cost."
+      "You may cast a spell with converted mana cost 3 or less from your hand without paying its mana cost."
     ],
     "flavor_text": "\"The Consulate pushed me to my limit, darling, and this is the result.\"",
     "power": null,
@@ -3452,11 +3452,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "2/9/2017",
-        "text": "You choose which mode you’re using as you cast Destructive Tampering. Once this choice is made, it can’t be changed."
-      },
-      {
-        "date": "2/9/2017",
+        "date": "6/23/2020",
         "text": "Because the effect of Destructive Tampering’s second mode doesn’t change the characteristics of any permanents, the set of creatures affected by it is constantly updated. Creatures without flying that enter the battlefield later in the turn won’t be able to block."
       }
     ]
@@ -3812,7 +3808,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "First strike, menace",
-      "Whenever Kari Zev, Skyship Raider attacks, create a legendary 2/1 red Monkey creature token named Ragavan that's tapped and attacking. Exile that token at end of combat."
+      "Whenever Kari Zev, Skyship Raider attacks, create Ragavan, a legendary 2/1 red Monkey creature token. Ragavan enters the battlefield tapped and attacking. Exile that token at end of combat."
     ],
     "flavor_text": "Aboard her ship, the Dragon's Smile, Kari follows no one's rules but her own.",
     "power": "1",
@@ -3851,7 +3847,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Gain control of target creature or Vehicle until end of turn. Untap it. It gains haste until end of turn.",
-      "You may cast a card with converted mana cost 2 or less from your hand without paying its mana cost."
+      "You may cast a spell with converted mana cost 2 or less from your hand without paying its mana cost."
     ],
     "flavor_text": "\"I was made for this!\"",
     "power": null,
@@ -4814,8 +4810,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "2/9/2017",
+        "date": "6/23/2020",
         "text": "The set of permanents affected by Heroic Intervention is determined as the spell resolves. Permanents you begin to control later in the turn won’t gain hexproof and indestructible."
+      },
+      {
+        "date": "6/23/2020",
+        "text": "A planeswalker with indestructible still loses loyalty counters as it’s dealt damage and will still be put into its owner’s graveyard if its loyalty reaches 0."
       }
     ]
   },
@@ -5313,6 +5313,7 @@
     ],
     "supertypes": [],
     "subtypes": [
+      "Pangolin",
       "Beast"
     ],
     "rarity": "Uncommon",
@@ -5389,7 +5390,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Draw cards equal to the greatest power among creatures you control.",
-      "You may cast a card with converted mana cost 5 or less from your hand without paying its mana cost."
+      "You may cast a spell with converted mana cost 5 or less from your hand without paying its mana cost."
     ],
     "flavor_text": "\"Control the Great Conduit? You might as well try to divert a river with your hands.\"",
     "power": null,

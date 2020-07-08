@@ -398,7 +398,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "2W",
@@ -1070,6 +1070,10 @@
       {
         "date": "4/8/2016",
         "text": "The set of creatures affected by Inspiring Captain’s ability is determined as the ability resolves. Creatures you begin to control later in the turn won’t get +1/+1."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "Inspiring Captain’s triggered ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get +1/+1."
       }
     ]
   },
@@ -1296,6 +1300,10 @@
       {
         "date": "4/8/2016",
         "text": "Multiple instances of any of the abilities Odric can grant your creatures are redundant."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If one of those creatures has one or more variants of the listed keywords (for example, hexproof from white), creatures you control gain those specific variants."
       }
     ]
   },
@@ -1992,7 +2000,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Flying",
-      "At the beginning of your upkeep, put the top card of your library into your graveyard. If it's an instant or sorcery card, transform Aberrant Researcher."
+      "At the beginning of your upkeep, mill a card. If an instant or sorcery card was milled this way, transform Aberrant Researcher."
     ],
     "flavor_text": "\"Metamorphosis is a process.\"\n—Laboratory notes",
     "power": "3",
@@ -2526,7 +2534,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "When Fleeting Memories enters the battlefield, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")",
-      "Whenever you sacrifice a Clue, target player puts the top three cards of their library into their graveyard."
+      "Whenever you sacrifice a Clue, target player mills three cards."
     ],
     "flavor_text": null,
     "power": null,
@@ -3002,8 +3010,8 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Manic Scribe enters the battlefield, each opponent puts the top three cards of their library into their graveyard.",
-      "Delirium — At the beginning of each opponent's upkeep, if there are four or more card types among cards in your graveyard, that player puts the top three cards of their library into their graveyard."
+      "When Manic Scribe enters the battlefield, each opponent mills three cards.",
+      "Delirium — At the beginning of each opponent's upkeep, if there are four or more card types among cards in your graveyard, that player mills three cards."
     ],
     "flavor_text": null,
     "power": "0",
@@ -3503,7 +3511,12 @@
     "multiverse_id": 409830,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "7/12/2019",
+        "text": "If the target creature is an illegal target by the time Sleep Paralysis tries to resolve, the spell doesn’t resolve. It won’t enter the battlefield, so its ability won’t trigger."
+      }
+    ]
   },
   {
     "name": "Startled Awake",
@@ -3519,7 +3532,7 @@
     "mana_cost": "2UU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Target opponent puts the top thirteen cards of their library into their graveyard.",
+      "Target opponent mills thirteen cards.",
       "{3}{U}{U}: Put Startled Awake from your graveyard onto the battlefield transformed. Activate this ability only any time you could cast a sorcery."
     ],
     "flavor_text": null,
@@ -3858,7 +3871,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{U}, Sacrifice Vessel of Paramnesia: Target player puts the top three cards of their library into their graveyard. Draw a card."
+      "{U}, Sacrifice Vessel of Paramnesia: Target player mills three cards. Draw a card."
     ],
     "flavor_text": "\"Write everything down. Trust me.\"\n—Vallon, Thraben inspector",
     "power": null,
@@ -3884,7 +3897,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Madness {X}{U}{U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
-      "Gain control of target creature if its toughness is 2 or less. If Welcome to the Fold's madness cost was paid, instead gain control of that creature if its toughness is X or less."
+      "Gain control of target creature if its toughness is 2 or less. If this spell's madness cost was paid, instead gain control of that creature if its toughness is X or less."
     ],
     "flavor_text": null,
     "power": null,
@@ -4379,7 +4392,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Flying",
-      "When Crow of Dark Tidings enters the battlefield or dies, put the top two cards of your library into your graveyard."
+      "When Crow of Dark Tidings enters the battlefield or dies, mill two cards."
     ],
     "flavor_text": null,
     "power": "2",
@@ -4617,7 +4630,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Madness {X}{B}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
-      "Create three tapped 2/2 black Zombie creature tokens and you gain 3 life. If From Under the Floorboards's madness cost was paid, instead create X of those tokens and you gain X life."
+      "Create three tapped 2/2 black Zombie creature tokens and you gain 3 life. If this spell's madness cost was paid, instead create X of those tokens and you gain X life."
     ],
     "flavor_text": null,
     "power": null,
@@ -4890,7 +4903,7 @@
     "supertypes": [],
     "subtypes": [
       "Zombie",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "4B",
@@ -4938,7 +4951,8 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Vampire"
+      "Vampire",
+      "Noble"
     ],
     "rarity": "Uncommon",
     "mana_cost": "B",
@@ -5059,7 +5073,7 @@
     "mana_cost": "XB",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Put the top X cards of your library into your graveyard. Target player loses 2 life for each creature card put into your graveyard this way."
+      "Mill X cards. Target player loses 2 life for each creature card put into your graveyard this way."
     ],
     "flavor_text": "\"Days ago, you came to my door asking for help, Jace. Yet now here you are with accusations?\"",
     "power": null,
@@ -5190,7 +5204,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Flying, trample",
-      "When Mindwrack Demon enters the battlefield, put the top four cards of your library into your graveyard.",
+      "When Mindwrack Demon enters the battlefield, mill four cards.",
       "Delirium — At the beginning of your upkeep, you lose 4 life unless there are four or more card types among cards in your graveyard."
     ],
     "flavor_text": null,
@@ -5616,7 +5630,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{B}, Pay 1 life, Put the top card of your library into your graveyard, Discard a card, Sacrifice Sinister Concoction: Destroy target creature."
+      "{B}, Pay 1 life, Mill a card, Discard a card, Sacrifice Sinister Concoction: Destroy target creature."
     ],
     "flavor_text": "An old family recipe for an old family grudge.",
     "power": null,
@@ -5953,7 +5967,8 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Vampire"
+      "Vampire",
+      "Noble"
     ],
     "rarity": "Common",
     "mana_cost": "2B",
@@ -6013,7 +6028,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Madness {X}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
-      "Avacyn's Judgment deals 2 damage divided as you choose among any number of targets. If Avacyn's Judgment's madness cost was paid, it deals X damage divided as you choose among those permanents and/or players instead."
+      "Avacyn's Judgment deals 2 damage divided as you choose among any number of targets. If this spell's madness cost was paid, it deals X damage divided as you choose among those permanents and/or players instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -7422,7 +7437,7 @@
     "supertypes": [],
     "subtypes": [
       "Elemental",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "3R",
@@ -7503,8 +7518,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "4/8/2016",
-        "text": "Reduce to Ashes will exile the target creature if it would die this turn for any reason, not just due to lethal damage."
+        "date": "7/12/2019",
+        "text": "The replacement effect of Reduce to Ashes will exile the target creature if it would die this turn for any reason, not just due to lethal damage."
       }
     ]
   },
@@ -8202,7 +8217,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{B}: Put the top card of your library into your graveyard.",
+      "{B}: Mill a card.",
       "Delirium — At the beginning of your end step, if there are four or more card types among cards in your graveyard, transform Autumnal Gloom."
     ],
     "flavor_text": null,
@@ -8447,7 +8462,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "At the beginning of your upkeep, you may put the top two cards of your library into your graveyard.",
+      "At the beginning of your upkeep, you may mill two cards.",
       "Whenever one or more land cards are put into your graveyard from anywhere for the first time each turn, create a 1/1 green Insect creature token."
     ],
     "flavor_text": null,
@@ -9499,7 +9514,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "7/13/2018",
+        "date": "7/12/2019",
         "text": "If either creature is an illegal target as Rabid Bite tries to resolve, the creature you control won’t deal damage."
       }
     ]
@@ -10717,7 +10732,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{1}, {T}: Put a charge counter on Brain in a Jar, then you may cast an instant or sorcery card with converted mana cost equal to the number of charge counters on Brain in a Jar from your hand without paying its mana cost.",
+      "{1}, {T}: Put a charge counter on Brain in a Jar, then you may cast an instant or sorcery spell with converted mana cost equal to the number of charge counters on Brain in a Jar from your hand without paying its mana cost.",
       "{3}, {T}, Remove X charge counters from Brain in a Jar: Scry X."
     ],
     "flavor_text": null,
@@ -11108,7 +11123,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Equipped creature gets +1/+0.",
-      "Whenever equipped creature attacks, you may put the top two cards of your library into your graveyard.",
+      "Whenever equipped creature attacks, you may mill two cards.",
       "Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)"
     ],
     "flavor_text": null,

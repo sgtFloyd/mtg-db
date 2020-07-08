@@ -1407,7 +1407,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Enchant player",
-      "At the beginning of each end step, enchanted player puts the top X cards of their library into their graveyard, where X is the number of cards put into that graveyard from anywhere this turn."
+      "At the beginning of each end step, enchanted player mills X cards, where X is the number of cards put into their graveyard from anywhere this turn."
     ],
     "flavor_text": "Those wound tightest are first to unravel.",
     "power": null,
@@ -1760,7 +1760,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Whenever you cast a noncreature spell, you may have Riddleform become a 3/3 Sphinx creature with flying in addition to its other types until end of turn.",
-      "{2}{U}: Scry 1."
+      "{2}{U}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1771,12 +1771,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "7/14/2017",
-        "text": "Riddleform’s first ability resolves before the spell that caused it to trigger, but after targets for that spell are chosen. It will resolve even if that spell is countered. This means that if a spell affects each creature or each creature you control, it will affect Riddleform if you choose for Riddleform to become a creature, but a spell can’t target Riddleform if that spell requires a “target creature.”"
+        "date": "6/23/2020",
+        "text": "Riddleform’s first ability resolves before the spell that caused it to trigger but after targets for that spell are chosen. It will resolve even if that spell is countered."
       },
       {
-        "date": "7/14/2017",
-        "text": "If Riddleform becomes a creature the same turn it enters the battlefield, you can’t attack with it or use any of its {T} abilities (if it gains any)."
+        "date": "6/23/2020",
+        "text": "If Riddleform becomes a creature the same turn it enters the battlefield, you can’t attack with it unless it gains haste."
       }
     ]
   },
@@ -1797,7 +1797,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{U}, {T}, Discard a card: Target player puts the top three cards of their library into their graveyard."
+      "{U}, {T}, Discard a card: Target player mills three cards."
     ],
     "flavor_text": "\"The truth? It's been here all along. The Hours as we understood them are lies.\"",
     "power": "1",
@@ -3362,11 +3362,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "7/13/2018",
+        "date": "6/23/2020",
         "text": "Crash Through affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t gain trample."
       },
       {
-        "date": "7/13/2018",
+        "date": "6/23/2020",
         "text": "You may cast Crash Through even if you control no creatures. If you control no creatures as the spell resolves, you’ll just draw a card."
       }
     ]
@@ -3668,7 +3668,7 @@
     "mana_cost": "4RR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Shuffle your library, then exile the top four cards. You may cast any number of nonland cards with converted mana cost 5 or less from among them without paying their mana costs. Lands you control don't untap during your next untap step."
+      "Shuffle your library, then exile the top four cards. You may cast any number of spells with converted mana cost 5 or less from among them without paying their mana costs. Lands you control don't untap during your next untap step."
     ],
     "flavor_text": null,
     "power": null,
@@ -4193,7 +4193,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Afflict 4 (Whenever this creature becomes blocked, defending player loses 4 life.)",
-      "Whenever Wildfire Eternal attacks and isn't blocked, you may cast an instant or sorcery card from your hand without paying its mana cost."
+      "Whenever Wildfire Eternal attacks and isn't blocked, you may cast an instant or sorcery spell from your hand without paying its mana cost."
     ],
     "flavor_text": null,
     "power": "1",
@@ -4592,12 +4592,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "7/14/2017",
+        "date": "6/23/2020",
         "text": "You won’t gain more than 8 life if more than one creature died this turn."
-      },
-      {
-        "date": "7/14/2017",
-        "text": "Life Goes On checks whether a creature has died during the turn only as it resolves."
       }
     ]
   },
@@ -4740,7 +4736,7 @@
     "mana_cost": "3GG",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Creatures you control get +2/+2 and gain trample until end of turn."
+      "Creatures you control get +2/+2 and gain trample until end of turn. (They can deal excess combat damage to the player or planeswalker they're attacking.)"
     ],
     "flavor_text": "\"Forward! Until the horizon is ours!\"\n—Khemses, charioteer",
     "power": null,
@@ -4749,7 +4745,12 @@
     "multiverse_id": 430814,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "7/12/2019",
+        "text": "Overcome affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get +2/+2 or gain trample."
+      }
+    ]
   },
   {
     "name": "Pride Sovereign",
@@ -4877,7 +4878,7 @@
     "mana_cost": "2G",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "You may play land cards from your graveyard."
+      "You may play lands from your graveyard."
     ],
     "flavor_text": "\"This world was once so much more than the confines of Naktamun.\"",
     "power": "2",
@@ -6737,8 +6738,8 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "You may cast nonland cards with cycling from your graveyard.",
-      "If a card with cycling would be put into your graveyard from anywhere and it wasn't cycled, exile it instead."
+      "You may cast spells that have a cycling ability from your graveyard.",
+      "If a card that has a cycling ability would be put into your graveyard from anywhere and it wasn't cycled, exile it instead."
     ],
     "flavor_text": "Although long since dead, the banished dissenters finally took their vengeance.",
     "power": null,
@@ -7537,7 +7538,7 @@
     "oracle_text": [
       "{T}: Add {C}.",
       "{T}, Pay 1 life: Add {U}.",
-      "{1}{U}, {T}, Sacrifice a Desert: Target player puts the top four cards of their library into their graveyard."
+      "{1}{U}, {T}, Sacrifice a Desert: Target player mills four cards."
     ],
     "flavor_text": null,
     "power": null,

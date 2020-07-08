@@ -229,7 +229,7 @@
     "mana_cost": "6UU",
     "converted_mana_cost": 8,
     "oracle_text": [
-      "Exile the top eight cards of your library. You may put a land card from among them onto the battlefield. Until end of turn, for each nonland card type, you may cast a card of that type from among the exiled cards without paying its mana cost."
+      "Exile the top eight cards of your library. You may put a land card from among them onto the battlefield. Until end of turn, for each nonland card type, you may cast a spell of that type from among the exiled cards without paying its mana cost."
     ],
     "flavor_text": null,
     "power": null,
@@ -354,7 +354,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "You may have Estrid's Invocation enter the battlefield as a copy of any enchantment you control, except it has \"At the beginning of your upkeep, you may exile this enchantment. If you do, return it to the battlefield under its owner's control.\""
+      "You may have Estrid's Invocation enter the battlefield as a copy of an enchantment you control, except it has \"At the beginning of your upkeep, you may exile this enchantment. If you do, return it to the battlefield under its owner's control.\""
     ],
     "flavor_text": "Enchanters add layer upon layer of complexity to the world around them.",
     "power": null,
@@ -374,7 +374,7 @@
       },
       {
         "date": "7/13/2018",
-        "text": "Estrid’s Invocation copies exactly what was printed on the original enchantment (unless that enchantment is copying something else or is a token; see below). It doesn’t copy whether that enchantment is tapped or untapped, whether it as any counters on it or any Auras attached to it, or any non-copy effects that have changed its types, color, or so on."
+        "text": "Estrid’s Invocation copies exactly what was printed on the original enchantment (unless that enchantment is copying something else or is a token; see below). It doesn’t copy whether that enchantment is tapped or untapped, whether it has any counters on it or any Auras attached to it, or any non-copy effects that have changed its types, color, or so on."
       },
       {
         "date": "7/13/2018",
@@ -1958,7 +1958,7 @@
       },
       {
         "date": "7/13/2018",
-        "text": "Brudiclad copies only the values defined as the original token was created (unless that token is copying something else; see below). It doesn’t copy whether that token is tapped or untapped, whether it as any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on."
+        "text": "Brudiclad copies only the values defined as the original token was created (unless that token is copying something else; see below). It doesn’t copy whether that token is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on."
       },
       {
         "date": "7/13/2018",
@@ -1986,7 +1986,7 @@
     "oracle_text": [
       "+2: Untap each enchanted permanent you control.",
       "−1: Create a white Aura enchantment token named Mask attached to another target permanent. The token has enchant permanent and totem armor.",
-      "−7: Put the top seven cards of your library into your graveyard. Return all non-Aura enchantment cards from your graveyard to the battlefield, then do the same for Aura cards.",
+      "−7: Mill seven cards. Return all non-Aura enchantment cards from your graveyard to the battlefield, then do the same for Aura cards.",
       "Estrid, the Masked can be your commander."
     ],
     "flavor_text": null,
@@ -2552,7 +2552,7 @@
     "mana_cost": "1BR",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "As Xantcha, Sleeper Agent enters the battlefield, an opponent of your choice gains control of it.",
+      "Xantcha, Sleeper Agent enters the battlefield under the control of an opponent of your choice.",
       "Xantcha attacks each combat if able and can't attack its owner or planeswalkers its owner controls.",
       "{3}: Xantcha's controller loses 2 life and you draw a card. Any player may activate this ability."
     ],
@@ -2585,8 +2585,8 @@
         "text": "If a player creates a token that’s a copy of Xantcha, the player who creates the token is its owner, not the player under whose control it enters the battlefield. This is a change from previous rules."
       },
       {
-        "date": "7/13/2018",
-        "text": "In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If the player under whose control Xantcha entered the battlefield leaves the game, the effect changing control of Xantcha ends. Because Xantcha’s replacement effect creates a continuous effect causing another player to control it, Xantcha isn’t exiled."
+        "date": "8/23/2019",
+        "text": "In a multiplayer game, if Xantcha’s owner leaves the game, Xantcha leaves the game with them. If Xantcha’s controller leaves the game, Xantcha is exiled. This is a change from previous rulings due to Xantcha’s updated wording."
       }
     ]
   },
@@ -2609,7 +2609,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "Flying, vigilance, menace",
-      "Whenever Yennett, Cryptic Sovereign attacks, reveal the top card of your library. If that card's converted mana cost is odd, you may cast it without paying its mana cost. Otherwise, draw a card."
+      "Whenever Yennett, Cryptic Sovereign attacks, reveal the top card of your library. You may cast it without paying its mana cost if its converted mana cost is odd. If you don't cast it, draw a card."
     ],
     "flavor_text": "She talks using riddles her disciples alone can unravel.",
     "power": "3",
@@ -3242,8 +3242,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "10/4/2004",
-        "text": "If the target is not legal on resolution, the spell doesn’t resolve and you do not get to draw the two cards."
+        "date": "6/14/2019",
+        "text": "If the target artifact or enchantment is an illegal target by the time Dismantling Blow tries to resolve, the spell doesn’t resolve. You won’t draw two cards if it was kicked. If the target is legal but not destroyed (most likely because it has indestructible), you do draw two cards."
       }
     ]
   },
@@ -4373,38 +4373,6 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it and destroy the Aura that has totem armor instead."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Doom Blade). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a creature enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time the totem armor’s effect will replace all of them and save the creature."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a spell or ability (such as Planar Cleansing) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Vendetta does) won’t prevent totem armor’s effect from being applied."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Say you control a permanent enchanted with an Aura that has totem armor, and the enchanted permanent has gained a regeneration shield. The next time it would be destroyed, you choose whether to apply the regeneration effect or the totem armor effect. The other effect is unused and remains, in case the permanent would be destroyed again."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability causes the Aura to be destroyed instead. (This matters for cards such as Karmic Justice.) Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
-      },
-      {
         "date": "7/13/2018",
         "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has totem armor instead."
       },
@@ -4846,7 +4814,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Choose a card name, then target player puts the top card of their library into their graveyard. If that card has the chosen name, you draw two cards. Otherwise, you draw a card."
+      "Choose a card name, then target player mills a card. If a card with the chosen name was milled this way, you draw two cards. Otherwise, you draw a card."
     ],
     "flavor_text": null,
     "power": null,
@@ -6032,38 +6000,6 @@
     "rulings": [
       {
         "date": "6/15/2010",
-        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it and destroy the Aura that has totem armor instead."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Doom Blade). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a creature enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time the totem armor’s effect will replace all of them and save the creature."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a spell or ability (such as Planar Cleansing) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Vendetta does) won’t prevent totem armor’s effect from being applied."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Say you control a permanent enchanted with an Aura that has totem armor, and the enchanted permanent has gained a regeneration shield. The next time it would be destroyed, you choose whether to apply the regeneration effect or the totem armor effect. The other effect is unused and remains, in case the permanent would be destroyed again."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability causes the Aura to be destroyed instead. (This matters for cards such as Karmic Justice.) Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
-      },
-      {
-        "date": "6/15/2010",
         "text": "When the enchanted creature attacks, all lands controlled by that creature’s controller (who is not necessarily the Aura’s controller) untap."
       },
       {
@@ -6703,7 +6639,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Put the top three cards of your library into your graveyard, then you may return a creature or land card from your graveyard to your hand."
+      "Mill three cards, then you may return a creature or land card from your graveyard to your hand."
     ],
     "flavor_text": "Emrakul does not grant wishes. Desires simply align to her will.",
     "power": null,
@@ -7186,38 +7122,6 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it and destroy the Aura that has totem armor instead."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Doom Blade). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a creature enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time the totem armor’s effect will replace all of them and save the creature."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a spell or ability (such as Planar Cleansing) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Vendetta does) won’t prevent totem armor’s effect from being applied."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Say you control a permanent enchanted with an Aura that has totem armor, and the enchanted permanent has gained a regeneration shield. The next time it would be destroyed, you choose whether to apply the regeneration effect or the totem armor effect. The other effect is unused and remains, in case the permanent would be destroyed again."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability causes the Aura to be destroyed instead. (This matters for cards such as Karmic Justice.) Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
-      },
       {
         "date": "6/15/2010",
         "text": "Snake Umbra grants the triggered ability to the creature. It triggers whenever the enchanted creature deals damage to an opponent of its controller (who is not necessarily an opponent of the Aura’s controller). In other words, if your Snake Umbra winds up enchanting your opponent’s creature, that opponent will draw a card whenever that creature damages you."
@@ -8303,7 +8207,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Ninjutsu {4}{U}{B} ({4}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)",
-      "Whenever Silent-Blade Oni deals combat damage to a player, look at that player's hand. You may cast a nonland card in it without paying that card's mana cost."
+      "Whenever Silent-Blade Oni deals combat damage to a player, look at that player's hand. You may cast a spell from among those cards without paying its mana cost."
     ],
     "flavor_text": null,
     "power": "6",
@@ -8801,8 +8705,8 @@
         "text": "Duplicant keeps all creature types it had when the card was imprinted, including any types that Duplicant had gained."
       },
       {
-        "date": "7/13/2016",
-        "text": "If a melded permanent is exiled by Duplicant’s triggered ability, that ability’s controller chooses the relative timestamp of the two meld cards. Duplicant looks at the information of the one with the later timestamp."
+        "date": "4/17/2020",
+        "text": "If a melded permanent or a merged permanent is exiled by Duplicant’s triggered ability, that ability’s controller chooses the relative timestamp of the exiled cards. Duplicant looks at the information of the one with the later timestamp."
       }
     ]
   },
@@ -9984,6 +9888,18 @@
       {
         "date": "9/22/2011",
         "text": "In formats other than Commander, Command Tower’s ability produces no mana."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "The color identity of your commander is set before the game begins and doesn’t change during the game, even if your commander is in a hidden zone (like the hand or library) or an effect changes your commander’s color."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "If your commander is a card that has no colors in its color identity, Command Tower’s ability produces no mana. It doesn’t produce {C}."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "If you don’t have a commander, Command Tower’s ability produces no mana."
       }
     ]
   },

@@ -515,23 +515,23 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "12/7/2018",
+        "date": "6/23/2020",
         "text": "Containment Priest’s last ability won’t affect any creatures that were cast, including ones cast from unusual zones such as your graveyard."
       },
       {
-        "date": "12/7/2018",
+        "date": "6/23/2020",
         "text": "Containment Priest’s last ability doesn’t stop creature tokens from entering the battlefield. It also doesn’t affect creatures that were already on the battlefield."
       },
       {
-        "date": "12/7/2018",
-        "text": "If a noncreature card wasn’t cast and is entering the battlefield as a creature (due to an effect such as that of March of the Machines), it will be exiled. Similarly, if a creature card wasn’t cast and is entering the battlefield as a noncreature permanent (for example, Heliod, God of the Sun with insufficient devotion), it won’t be exiled."
+        "date": "6/23/2020",
+        "text": "If a noncreature card wasn’t cast and is entering the battlefield as a creature (due to an effect such as that of March of the Machines), it will be exiled. Similarly, if a creature card wasn’t cast and is entering the battlefield as a noncreature permanent (for example, Heliod, Sun-Crowned with insufficient devotion), it won’t be exiled."
       },
       {
-        "date": "12/7/2018",
+        "date": "6/23/2020",
         "text": "If Containment Priest enters the battlefield without being cast, its ability won’t exile itself."
       },
       {
-        "date": "12/7/2018",
+        "date": "6/23/2020",
         "text": "If Containment Priest enters the battlefield at the same time as other creatures, its ability won’t affect those creatures."
       }
     ]
@@ -710,16 +710,16 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "12/7/2018",
-        "text": "Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords (such as equip) are activated abilities and will have colons in their reminder text."
+        "date": "6/23/2020",
+        "text": "If the target permanent is an illegal target by the time Faith’s Fetters tries to resolve, it doesn’t resolve. It won’t enter the battlefield, so its enters-the-battlefield ability won’t trigger."
       },
       {
-        "date": "12/7/2018",
+        "date": "6/23/2020",
+        "text": "Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords (such as equip) are activated abilities and will have colons in their reminder text. Loyalty abilities of planeswalkers are activated abilities."
+      },
+      {
+        "date": "6/23/2020",
         "text": "Faith’s Fetters doesn’t stop static abilities, triggered abilities, or mana abilities from working. A mana ability is an ability that produces mana, not an ability that costs mana."
-      },
-      {
-        "date": "12/7/2018",
-        "text": "If the target permanent is an illegal target by the time Faith’s Fetters tries to resolve, the Aura spell doesn’t resolve. It won’t enter the battlefield, so its enters-the-battlefield ability won’t trigger."
       }
     ]
   },
@@ -783,7 +783,8 @@
     "mana_cost": "W",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target creature you control gains protection from the color of your choice until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"
+      "Target creature you control gains protection from the color of your choice until end of turn. (It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color.)",
+      "Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"
     ],
     "flavor_text": "Honor the gods of Theros, and they will return the favor.",
     "power": null,
@@ -812,6 +813,14 @@
       {
         "date": "9/15/2013",
         "text": "Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "You can’t choose “artifact” or “colorless” as Gods Willing asks you to choose a color because those are not colors."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "If the target creature is an illegal target by the time Gods Willing tries to resolve, the spell doesn’t resolve. You won’t scry 1. If the target creature becomes an illegal target while Gods Willing is resolving (most likely because you gave it protection from white), you do scry 1."
       }
     ]
   },
@@ -930,38 +939,6 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it and destroy the Aura that has totem armor instead."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Doom Blade). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a creature enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time the totem armor’s effect will replace all of them and save the creature."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a spell or ability (such as Planar Cleansing) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Vendetta does) won’t prevent totem armor’s effect from being applied."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Say you control a permanent enchanted with an Aura that has totem armor, and the enchanted permanent has gained a regeneration shield. The next time it would be destroyed, you choose whether to apply the regeneration effect or the totem armor effect. The other effect is unused and remains, in case the permanent would be destroyed again."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability causes the Aura to be destroyed instead. (This matters for cards such as Karmic Justice.) Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
-      },
       {
         "date": "7/13/2018",
         "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has totem armor instead."
@@ -1102,38 +1079,6 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it and destroy the Aura that has totem armor instead."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Doom Blade). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a creature enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time the totem armor’s effect will replace all of them and save the creature."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a spell or ability (such as Planar Cleansing) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Vendetta does) won’t prevent totem armor’s effect from being applied."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Say you control a permanent enchanted with an Aura that has totem armor, and the enchanted permanent has gained a regeneration shield. The next time it would be destroyed, you choose whether to apply the regeneration effect or the totem armor effect. The other effect is unused and remains, in case the permanent would be destroyed again."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability causes the Aura to be destroyed instead. (This matters for cards such as Karmic Justice.) Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
-      },
       {
         "date": "7/13/2018",
         "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has totem armor instead."
@@ -1517,7 +1462,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "As Runed Halo enters the battlefield, choose a card name.",
-      "You have protection from the chosen name. (You can't be targeted, dealt damage, or enchanted by anything with that name.)"
+      "You have protection from the chosen card name. (You can't be targeted, dealt damage, or enchanted by anything with that name.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1528,28 +1473,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "12/7/2018",
-        "text": "If a player has protection from a chosen name, it means three things:"
+        "date": "6/23/2020",
+        "text": "Runed Halo can’t protect you from tokens unless those tokens have the same name as the card name you choose."
       },
       {
-        "date": "12/7/2018",
-        "text": "Runed Halo gives you protection from each object with the chosen name, whether it’s a card, a token, or a copy of a spell. It doesn’t matter what game zone that object is in."
-      },
-      {
-        "date": "12/7/2018",
-        "text": "Runed Halo doesn’t give your permanents protection from the chosen name, only you."
-      },
-      {
-        "date": "12/7/2018",
-        "text": "You can still be attacked by creatures with the chosen name, even though they won’t deal combat damage to you."
-      },
-      {
-        "date": "12/7/2018",
-        "text": "You’ll have protection from the name, not from the word. For example, if you choose the name Shapeshifter, you’ll have protection from anything named “Shapeshifter,” but you won’t have protection from other creatures with the creature type “Shapeshifter.”"
-      },
-      {
-        "date": "12/7/2018",
-        "text": "You must choose the name of a card, not the name of a token. For example, you can’t choose “Saproling” or “Marit Lage.” However, if a token happens to have the same name as a card (such as “Shapeshifter” or “Spark Elemental”), you can choose it."
+        "date": "6/23/2020",
+        "text": "Some cards can have alternative names, such as split cards, adventurer cards, double-faced cards, and so on. You may choose one of the two names the card can have; Runed Halo won’t protect you from the other name."
       }
     ]
   },
@@ -2054,7 +1983,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}, Put the top card of your library into your graveyard: Add {C}."
+      "{T}, Mill a card: Add {C}."
     ],
     "flavor_text": "\"Garl, adjust the slurry dispensers. Garl, fetch more corpses. Garl, quit crying and give me your brain tissue. If he doesn't stop being so rude, I'm quitting.\"",
     "power": "1",
@@ -2215,38 +2144,6 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it and destroy the Aura that has totem armor instead."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Doom Blade). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a creature enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time the totem armor’s effect will replace all of them and save the creature."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a spell or ability (such as Planar Cleansing) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Vendetta does) won’t prevent totem armor’s effect from being applied."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Say you control a permanent enchanted with an Aura that has totem armor, and the enchanted permanent has gained a regeneration shield. The next time it would be destroyed, you choose whether to apply the regeneration effect or the totem armor effect. The other effect is unused and remains, in case the permanent would be destroyed again."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability causes the Aura to be destroyed instead. (This matters for cards such as Karmic Justice.) Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
-      },
       {
         "date": "7/13/2018",
         "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has totem armor instead."
@@ -3109,7 +3006,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Sultai Skullkeeper enters the battlefield, put the top two cards of your library into your graveyard."
+      "When Sultai Skullkeeper enters the battlefield, mill two cards."
     ],
     "flavor_text": "A skullkeeper is the first to arrive after the palace archers strike down intruders, probing their brains for choice bits of knowledge.",
     "power": "2",
@@ -3613,7 +3510,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Flying",
-      "When Crow of Dark Tidings enters the battlefield or dies, put the top two cards of your library into your graveyard."
+      "When Crow of Dark Tidings enters the battlefield or dies, mill two cards."
     ],
     "flavor_text": null,
     "power": "2",
@@ -3877,7 +3774,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "When Golgari Thug dies, put target creature card from your graveyard on top of your library.",
-      "Dredge 4 (If you would draw a card, instead you may put exactly four cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 4 (If you would draw a card, you may mill four cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "1",
@@ -4005,7 +3902,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Choose target creature. Put the top three cards of your library into your graveyard, then put a +1/+1 counter on that creature for each creature card in your graveyard."
+      "Choose target creature. Mill three cards, then put a +1/+1 counter on that creature for each creature card in your graveyard."
     ],
     "flavor_text": "So long as death follows life, the supply lines of the Sultai will never be cut.",
     "power": null,
@@ -4601,7 +4498,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)",
-      "{2}{G/U}{G/U}: Put the top two cards of your library into your graveyard, then return a nonland card of an opponent's choice from your graveyard to your hand."
+      "{2}{G/U}{G/U}: Mill two cards, then return a nonland card of an opponent's choice from your graveyard to your hand."
     ],
     "flavor_text": null,
     "power": "4",
@@ -6135,38 +6032,6 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it and destroy the Aura that has totem armor instead."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Doom Blade). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a creature enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time the totem armor’s effect will replace all of them and save the creature."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a spell or ability (such as Planar Cleansing) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Vendetta does) won’t prevent totem armor’s effect from being applied."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Say you control a permanent enchanted with an Aura that has totem armor, and the enchanted permanent has gained a regeneration shield. The next time it would be destroyed, you choose whether to apply the regeneration effect or the totem armor effect. The other effect is unused and remains, in case the permanent would be destroyed again."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability causes the Aura to be destroyed instead. (This matters for cards such as Karmic Justice.) Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
-      },
-      {
         "date": "7/13/2018",
         "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has totem armor instead."
       },
@@ -6437,7 +6302,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "When Golgari Brownscale is put into your hand from your graveyard, you gain 2 life.",
-      "Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "2",
@@ -6484,7 +6349,7 @@
     "oracle_text": [
       "Golgari Grave-Troll enters the battlefield with a +1/+1 counter on it for each creature card in your graveyard.",
       "{1}, Remove a +1/+1 counter from Golgari Grave-Troll: Regenerate Golgari Grave-Troll.",
-      "Dredge 6 (If you would draw a card, instead you may put exactly six cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 6 (If you would draw a card, you may mill six cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "0",
@@ -6685,7 +6550,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Return up to three target land cards from your graveyard to your hand.",
-      "Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6927,7 +6792,12 @@
     "multiverse_id": 456775,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "7/12/2019",
+        "text": "If the target card is an illegal target by the time Pulse of Murasa tries to resolve, the spell doesn’t resolve. You won’t gain 6 life."
+      }
+    ]
   },
   {
     "name": "Satyr Wayfinder",
@@ -7009,38 +6879,6 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it and destroy the Aura that has totem armor instead."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Doom Blade). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a creature enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time the totem armor’s effect will replace all of them and save the creature."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a spell or ability (such as Planar Cleansing) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Vendetta does) won’t prevent totem armor’s effect from being applied."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Say you control a permanent enchanted with an Aura that has totem armor, and the enchanted permanent has gained a regeneration shield. The next time it would be destroyed, you choose whether to apply the regeneration effect or the totem armor effect. The other effect is unused and remains, in case the permanent would be destroyed again."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability causes the Aura to be destroyed instead. (This matters for cards such as Karmic Justice.) Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
-      },
       {
         "date": "6/15/2010",
         "text": "Snake Umbra grants the triggered ability to the creature. It triggers whenever the enchanted creature deals damage to an opponent of its controller (who is not necessarily an opponent of the Aura’s controller). In other words, if your Snake Umbra winds up enchanting your opponent’s creature, that opponent will draw a card whenever that creature damages you."
@@ -7146,38 +6984,6 @@
     "other_part": null,
     "color_indicator": null,
     "rulings": [
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it and destroy the Aura that has totem armor instead."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is applied no matter why the enchanted permanent would be destroyed: because it’s been dealt lethal damage, or because it’s being affected by an effect that says to “destroy” it (such as Doom Blade). In either case, all damage is removed from the permanent and the Aura is destroyed instead."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a permanent you control is enchanted with multiple Auras that have totem armor, and the enchanted permanent would be destroyed, one of those Auras is destroyed instead — but only one of them. You choose which one because you control the enchanted permanent."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a creature enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time the totem armor’s effect will replace all of them and save the creature."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a spell or ability (such as Planar Cleansing) would destroy both an Aura with totem armor and the permanent it’s enchanting at the same time, totem armor’s effect will save the enchanted permanent from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Totem armor’s effect is not regeneration. Specifically, if totem armor’s effect is applied, the enchanted permanent does not become tapped and is not removed from combat as a result. Effects that say the enchanted permanent can’t be regenerated (as Vendetta does) won’t prevent totem armor’s effect from being applied."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "Say you control a permanent enchanted with an Aura that has totem armor, and the enchanted permanent has gained a regeneration shield. The next time it would be destroyed, you choose whether to apply the regeneration effect or the totem armor effect. The other effect is unused and remains, in case the permanent would be destroyed again."
-      },
-      {
-        "date": "6/15/2010",
-        "text": "If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability causes the Aura to be destroyed instead. (This matters for cards such as Karmic Justice.) Totem armor doesn’t destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has totem armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability."
-      },
       {
         "date": "7/13/2018",
         "text": "Totem armor’s effect is mandatory. If the enchanted permanent would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has totem armor instead."
@@ -7569,7 +7375,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "1G",
@@ -9331,7 +9137,7 @@
     "oracle_text": [
       "Dakmor Salvage enters the battlefield tapped.",
       "{T}: Add {B}.",
-      "Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": null,

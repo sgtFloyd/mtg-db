@@ -268,7 +268,7 @@
     "mana_cost": "4B",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Ribbons of Night deals 4 damage to target creature and you gain 4 life. If {U} was spent to cast Ribbons of Night, draw a card."
+      "Ribbons of Night deals 4 damage to target creature and you gain 4 life. If {U} was spent to cast this spell, draw a card."
     ],
     "flavor_text": "\"My favorite meal is angel's flesh, slain in agony and iced with black vinegar.\"\n—Aszala of House Dimir",
     "power": null,
@@ -392,10 +392,6 @@
       {
         "date": "10/1/2005",
         "text": "Circu’s last ability applies to all of its controller’s opponents, not just the owner of the exiled card."
-      },
-      {
-        "date": "10/1/2005",
-        "text": "Circu’s last ability doesn’t prevent copies of the exiled cards from being cast because copies aren’t cards."
       },
       {
         "date": "10/1/2005",
@@ -588,7 +584,7 @@
     "mana_cost": "UB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player puts the top ten cards of their library into their graveyard."
+      "Target player mills ten cards."
     ],
     "flavor_text": "\"I am confident that if anyone actually penetrates our facades, even the most perceptive would still be fundamentally unprepared for the truth of House Dimir.\"\n—Szadek",
     "power": null,
@@ -727,7 +723,7 @@
     "oracle_text": [
       "Flying",
       "Whenever Nightveil Specter deals combat damage to a player, that player exiles the top card of their library.",
-      "You may play cards exiled with Nightveil Specter."
+      "You may play lands and cast spells from among cards exiled with Nightveil Specter."
     ],
     "flavor_text": null,
     "power": "2",
@@ -770,7 +766,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Flying",
-      "If Szadek, Lord of Secrets would deal combat damage to a player, instead put that many +1/+1 counters on Szadek and that player puts that many cards from the top of their library into their graveyard."
+      "If Szadek, Lord of Secrets would deal combat damage to a player, instead put that many +1/+1 counters on Szadek and that player mills that many cards."
     ],
     "flavor_text": null,
     "power": "5",
@@ -1921,7 +1917,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Target creature gets -1/-1 until end of turn.",
-      "Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -2003,7 +1999,7 @@
     "oracle_text": [
       "Flying",
       "Whenever Stinkweed Imp deals combat damage to a creature, destroy that creature.",
-      "Dredge 5 (If you would draw a card, instead you may put exactly five cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 5 (If you would draw a card, you may mill five cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "1",
@@ -2045,7 +2041,7 @@
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Return target creature card from your graveyard to the battlefield. If {G} was spent to cast Vigor Mortis, that creature enters the battlefield with an additional +1/+1 counter on it."
+      "Return target creature card from your graveyard to the battlefield. If {G} was spent to cast this spell, that creature enters the battlefield with an additional +1/+1 counter on it."
     ],
     "flavor_text": "After fear and weakness rot away, that which remains is stronger than its living form.",
     "power": null,
@@ -2170,7 +2166,7 @@
     "mana_cost": "4BG",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "When Deadbridge Chant enters the battlefield, put the top ten cards of your library into your graveyard.",
+      "When Deadbridge Chant enters the battlefield, mill ten cards.",
       "At the beginning of your upkeep, choose a card at random in your graveyard. If it's a creature card, put it onto the battlefield. Otherwise, put it into your hand."
     ],
     "flavor_text": null,
@@ -2248,7 +2244,7 @@
     "mana_cost": "BG",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Choose target creature. Put the top four cards of your library into your graveyard, then that creature gets -1/-1 until end of turn for each land card in your graveyard."
+      "Choose target creature. Mill four cards, then that creature gets -1/-1 until end of turn for each land card in your graveyard."
     ],
     "flavor_text": "The rot farmer's first rite of passage is to craft a pair of work stilts.",
     "power": null,
@@ -2343,7 +2339,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "{1}, Sacrifice Grave-Shell Scarab: Draw a card.",
-      "Dredge 1 (If you would draw a card, instead you may put exactly one card from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 1 (If you would draw a card, you may mill a card instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "4",
@@ -2589,7 +2585,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Sacrifice Shambling Shell: Put a +1/+1 counter on target creature.",
-      "Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "3",
@@ -4438,7 +4434,7 @@
     "oracle_text": [
       "Other green creatures you control get +1/+1.",
       "Other white creatures you control get +1/+1.",
-      "{T}: Create a legendary 2/2 green and white Wolf creature token named Voja."
+      "{T}: Create Voja, a legendary 2/2 green and white Wolf creature token."
     ],
     "flavor_text": null,
     "power": "3",

@@ -198,7 +198,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Flying (This creature can't be blocked except by creatures with flying or reach.)"
+      "Flying"
     ],
     "flavor_text": "Pray that it doesn't seek the safety of your lungs.",
     "power": "4",
@@ -317,7 +317,12 @@
     "multiverse_id": 429900,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "7/12/2019",
+        "text": "If the target creature is an illegal target by the time Sleep Paralysis tries to resolve, the spell doesn’t resolve. It won’t enter the battlefield, so its ability won’t trigger."
+      }
+    ]
   },
   {
     "name": "Sphinx of Magosi",
@@ -712,7 +717,7 @@
     "oracle_text": [
       "Trample",
       "Play with the top card of your library revealed.",
-      "You may cast the top card of your library if it's a creature card. (Do this only any time you could cast that creature card. You still pay the spell's costs.)"
+      "You may cast creature spells from the top of your library. (Do this only any time you could cast that creature spell. You still pay the spell's costs.)"
     ],
     "flavor_text": null,
     "power": "7",
@@ -801,7 +806,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "7/13/2018",
+        "date": "7/12/2019",
         "text": "If either creature is an illegal target as Rabid Bite tries to resolve, the creature you control won’t deal damage."
       }
     ]

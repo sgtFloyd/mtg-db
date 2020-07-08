@@ -2250,7 +2250,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "When Minister of Inquiries enters the battlefield, you get {E}{E} (two energy counters).",
-      "{T}, Pay {E}: Target player puts the top three cards of their library into their graveyard."
+      "{T}, Pay {E}: Target player mills three cards."
     ],
     "flavor_text": "\"This research violates Consulate law.\"",
     "power": "1",
@@ -2658,7 +2658,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flash",
-      "When Torrential Gearhulk enters the battlefield, you may cast target instant card from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead."
+      "When Torrential Gearhulk enters the battlefield, you may cast target instant card from your graveyard without paying its mana cost. If that spell would be put into your graveyard this turn, exile it instead."
     ],
     "flavor_text": null,
     "power": "5",
@@ -4207,7 +4207,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "9/20/2016",
+        "date": "4/17/2020",
         "text": "Because discarding two cards is an additional cost, you can’t cast Cathartic Reunion if you don’t have at least two other cards in hand."
       }
     ]
@@ -4325,7 +4325,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "First strike",
-      "When Combustible Gearhulk enters the battlefield, target opponent may have you draw three cards. If the player doesn't, put the top three cards of your library into your graveyard, then Combustible Gearhulk deals damage to that player equal to the total converted mana cost of those cards."
+      "When Combustible Gearhulk enters the battlefield, target opponent may have you draw three cards. If the player doesn't, you mill three cards, then Combustible Gearhulk deals damage to that player equal to the total converted mana cost of those cards."
     ],
     "flavor_text": null,
     "power": "6",
@@ -7085,7 +7085,7 @@
     "mana_cost": "2GU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Whenever you cast your first spell each turn, reveal the top card of your library. If it's a nonland card with converted mana cost less than that spell's, you may cast it without paying its mana cost. If you don't cast the revealed card, put it into your hand."
+      "Whenever you cast your first spell each turn, reveal the top card of your library. You may cast it without paying its mana cost if it's a spell with lesser converted mana cost. If you don't cast it, put it into your hand."
     ],
     "flavor_text": null,
     "power": "2",
@@ -7514,7 +7514,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Whenever a permanent you control is put into a graveyard, you get {E} (an energy counter).",
-      "{T}, Pay {E}{E}{E}{E}{E}{E}: Look at the top six cards of your library. You may cast a card from among them without paying its mana cost. Put the rest on the bottom of your library in a random order."
+      "{T}, Pay {E}{E}{E}{E}{E}{E}: Look at the top six cards of your library. You may cast a spell from among them without paying its mana cost. Put the rest on the bottom of your library in a random order."
     ],
     "flavor_text": null,
     "power": null,
@@ -8412,10 +8412,6 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "9/20/2016",
-        "text": "As Eager Construct’s triggered ability resolves, first the player whose turn it is scrys 1, then each other player in turn order does the same. Each player will know the choices made by players who chose before them."
-      },
-      {
         "date": "6/8/2018",
         "text": "If multiple players are instructed to scry at once, such as while resolving Eager Construct’s triggered ability, those players each look at the top card of their library at the same time, then they choose in turn order whether to put those cards on the top or bottom of their library."
       }
@@ -9257,7 +9253,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{T}: Put the top two cards of your library into your graveyard.",
+      "{T}: Mill two cards.",
       "{2}, Exile Perpetual Timepiece: Shuffle any number of target cards from your graveyard into your library."
     ],
     "flavor_text": "Do not be so caught up in keeping track of time that you forget to make use of it.",
@@ -10162,7 +10158,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "{T}: Add {C}.",
-      "{4}, {T}, Sacrifice Sequestered Stash: Put the top five cards of your library into your graveyard. Then you may put an artifact card from your graveyard on top of your library."
+      "{4}, {T}, Sacrifice Sequestered Stash: Mill five cards. Then you may put an artifact card from your graveyard on top of your library."
     ],
     "flavor_text": null,
     "power": null,

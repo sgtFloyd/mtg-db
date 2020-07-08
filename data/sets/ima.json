@@ -118,7 +118,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound",
+      "Dog",
       "Soldier"
     ],
     "rarity": "Common",
@@ -1440,7 +1440,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Target player sacrifices an attacking creature.",
-      "Storm (When you cast this spell, copy it for each spell cast before it this turn.)"
+      "Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1451,24 +1451,28 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/7/2013",
-        "text": "The copies are put directly onto the stack. They aren’t cast and won’t be counted by other spells with storm cast later in the turn."
+        "date": "6/14/2019",
+        "text": "An “attacking creature” is one that has been declared as an attacker or put onto the battlefield attacking during a turn’s combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game or the planeswalker it was attacking has left combat."
       },
       {
-        "date": "6/7/2013",
-        "text": "Spells cast from zones other than a player’s hand and spells that were countered are counted by the storm ability."
+        "date": "6/14/2019",
+        "text": "If you cast Wing Shards after combat damage has been dealt, only creatures that survived combat can be sacrificed."
       },
       {
-        "date": "6/7/2013",
-        "text": "A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won’t affect the copies."
+        "date": "6/14/2019",
+        "text": "Wing Shards doesn’t target the creature to be sacrificed. The target player chooses the creature as it resolves."
       },
       {
-        "date": "6/7/2013",
-        "text": "The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack."
+        "date": "6/14/2019",
+        "text": "The copies storm creates are created on the stack, so they’re not cast. Abilities that trigger when a player casts a spell (such as storm) won’t trigger."
       },
       {
-        "date": "6/7/2013",
-        "text": "You may choose new targets for any of the copies. You can choose differently for each copy."
+        "date": "6/14/2019",
+        "text": "Storm counts spells cast before the spell with storm was cast. Spells cast after the spell with storm was cast but before the storm ability resolves aren’t counted."
+      },
+      {
+        "date": "6/14/2019",
+        "text": "The storm ability and the copies it creates all resolve before the spell with storm. They resolve even if the spell with storm is countered."
       }
     ]
   },
@@ -2072,7 +2076,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Defender",
-      "{2}{U}, {T}: Target player puts the top X cards of their library into their graveyard, where X is the number of creatures with defender you control."
+      "{2}{U}, {T}: Target player mills X cards, where X is the number of creatures with defender you control."
     ],
     "flavor_text": "One piercing stare usually convinces thieves to go elsewhere.",
     "power": "0",
@@ -2229,8 +2233,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "11/17/2017",
-        "text": "Frost Lynx’s ability can target a creature that’s already tapped. That creature still won’t untap during its controller’s next untap step."
+        "date": "4/17/2020",
+        "text": "Frost Lynx’s triggered ability can target a creature that’s already tapped. That creature won’t untap during its controller’s next untap step."
       }
     ]
   },
@@ -2766,7 +2770,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Flying",
-      "Whenever Shriekgeist deals combat damage to a player, that player puts the top two cards of their library into their graveyard."
+      "Whenever Shriekgeist deals combat damage to a player, that player mills two cards."
     ],
     "flavor_text": "Wounds of the flesh are easy to heal. Wounds of the mind may never be undone.",
     "power": "1",
@@ -2911,7 +2915,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player puts the top two cards of their library into their graveyard.",
+      "Target player mills two cards.",
       "Draw a card."
     ],
     "flavor_text": "\"As you inject the viscus vitae into the brain stem, don't let the spastic moaning bother you. It will soon become music to your ears.\"\n—Stitcher Geralf",
@@ -3462,7 +3466,7 @@
     "mana_cost": "2BB",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Destroy target nonartifact creature. Its controller puts a number of cards equal to that creature's power from the top of their library into their graveyard."
+      "Destroy target nonartifact creature. Its controller mills cards equal to that creature's power."
     ],
     "flavor_text": "\"Watch people flock to a murder scene. Then tell me we're not all a little sick in the head.\"\n—Juri, proprietor of the Juri Revue",
     "power": null,
@@ -7548,7 +7552,7 @@
     "mana_cost": "UB",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player puts the top ten cards of their library into their graveyard."
+      "Target player mills ten cards."
     ],
     "flavor_text": "\"I am confident that if anyone actually penetrates our facades, even the most perceptive would still be fundamentally unprepared for the truth of House Dimir.\"\n—Szadek",
     "power": null,
@@ -8220,7 +8224,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever an opponent loses life, that player puts that many cards from the top of their library into their graveyard. (Damage dealt by sources without infect causes loss of life.)"
+      "Whenever an opponent loses life, that player mills that many cards. (Damage dealt by sources without infect causes loss of life.)"
     ],
     "flavor_text": "\"Let go of your memories and be reborn.\"\n—Argent Etchings, plate 106, passage 27",
     "power": null,
@@ -8455,10 +8459,6 @@
       {
         "date": "11/17/2017",
         "text": "You can use Serum Powder’s second ability only while it’s in your hand. If this card is in your hand, you can choose either to mulligan or to use Serum Powder’s ability. Using the ability doesn’t prevent you from taking further mulligans, and taking a mulligan doesn’t prevent you from using a Serum Powder’s ability if you happen to draw one in your new hand."
-      },
-      {
-        "date": "11/17/2017",
-        "text": "Unlike a normal mulligan, Serum Powder lets you draw the same number of cards that were in your hand, not one less. If you have already taken one mulligan and your hand contains six cards including a Serum Powder, you can choose to exile those six cards and draw six new cards."
       },
       {
         "date": "11/17/2017",

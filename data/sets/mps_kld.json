@@ -67,7 +67,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flash",
-      "When Torrential Gearhulk enters the battlefield, you may cast target instant card from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead."
+      "When Torrential Gearhulk enters the battlefield, you may cast target instant card from your graveyard without paying its mana cost. If that spell would be put into your graveyard this turn, exile it instead."
     ],
     "flavor_text": null,
     "power": "5",
@@ -147,7 +147,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "First strike",
-      "When Combustible Gearhulk enters the battlefield, target opponent may have you draw three cards. If the player doesn't, put the top three cards of your library into your graveyard, then Combustible Gearhulk deals damage to that player equal to the total converted mana cost of those cards."
+      "When Combustible Gearhulk enters the battlefield, target opponent may have you draw three cards. If the player doesn't, you mill three cards, then Combustible Gearhulk deals damage to that player equal to the total converted mana cost of those cards."
     ],
     "flavor_text": null,
     "power": "6",
@@ -387,7 +387,7 @@
     "mana_cost": "3",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "You may play land cards from your graveyard."
+      "You may play lands from your graveyard."
     ],
     "flavor_text": "By isolating liquid aether at room temperature, foundry hand Jitya Reyath has given us a glimpse of raw aetheric matter—the very stuff of the cosmos.",
     "power": null,
@@ -914,8 +914,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "8/15/2010",
-        "text": "Steel Overseer is affected by its own ability (assuming that, by the time the ability resolves, you still control Steel Overseer and its types haven’t changed). You’ll put a +1/+1 counter on it, as well as on each other artifact creature you control."
+        "date": "7/12/2019",
+        "text": "Steel Overseer’s ability puts a +1/+1 counter on each artifact creature you control, including Steel Overseer."
       }
     ]
   },
@@ -1039,7 +1039,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Sacrifice an artifact: Put a +1/+1 counter on Arcbound Ravager.",
-      "Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)"
+      "Modular 1 (This creature enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)"
     ],
     "flavor_text": "\"Top-performing automaton combatants are to be seized and modified for service.\"\n—Confiscation directive",
     "power": "0",
@@ -1212,8 +1212,8 @@
         "text": "Duplicant keeps all creature types it had when the card was imprinted, including any types that Duplicant had gained."
       },
       {
-        "date": "7/13/2016",
-        "text": "If a melded permanent is exiled by Duplicant’s triggered ability, that ability’s controller chooses the relative timestamp of the two meld cards. Duplicant looks at the information of the one with the later timestamp."
+        "date": "4/17/2020",
+        "text": "If a melded permanent or a merged permanent is exiled by Duplicant’s triggered ability, that ability’s controller chooses the relative timestamp of the exiled cards. Duplicant looks at the information of the one with the later timestamp."
       }
     ]
   },
@@ -1330,7 +1330,7 @@
     "mana_cost": "1",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{3}, {T}: Target player puts the top two cards of their library into their graveyard. If both cards share a color, repeat this process."
+      "{3}, {T}: Target player mills two cards. If two cards that share a color were milled this way, repeat this process."
     ],
     "flavor_text": "\"All attempts to halt the machine failed. We must find a way to repurpose it.\"\n—Consulate engineer's log",
     "power": null,
@@ -1711,7 +1711,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Equipped creature gets +2/+2 and has protection from green and from blue.",
-      "Whenever equipped creature deals combat damage to a player, you create a 2/2 green Wolf creature token and that player puts the top ten cards of their library into their graveyard.",
+      "Whenever equipped creature deals combat damage to a player, you create a 2/2 green Wolf creature token and that player mills ten cards.",
       "Equip {2}"
     ],
     "flavor_text": null,

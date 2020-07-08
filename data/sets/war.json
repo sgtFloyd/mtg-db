@@ -344,8 +344,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "5/3/2019",
-        "text": "If the target creature is an illegal target by the time Defiant Strike tries to resolve, the spell doesn’t resolve. You don’t draw a card."
+        "date": "6/23/2020",
+        "text": "If the target creature is an illegal target by the time Defiant Strike tries to resolve, the spell won’t resolve. You won’t draw a card."
       }
     ]
   },
@@ -860,6 +860,10 @@
       {
         "date": "5/3/2019",
         "text": "Once Makeshift Battalion’s ability has triggered, it doesn’t matter how many creatures are still attacking when that ability resolves."
+      },
+      {
+        "date": "6/23/2020",
+        "text": "Once Makeshift Battalion’s ability has triggered, it doesn’t matter how many creatures are still attacking when that ability resolves."
       }
     ]
   },
@@ -1345,7 +1349,7 @@
     "mana_cost": "2W",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Flying",
+      "Flying (This creature can't be blocked except by creatures with flying or reach.)",
       "Whenever Trusted Pegasus attacks, target attacking creature without flying gains flying until end of turn."
     ],
     "flavor_text": "\"Would you give your life to save this world?\" Gideon murmured. The pegasus snorted and spread wide its mighty wings.",
@@ -1594,7 +1598,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Each player puts the top four cards of their library into their graveyard. Return up to two instant and/or sorcery cards from your graveyard to your hand. Exile Bond of Insight."
+      "Each player mills four cards. Return up to two instant and/or sorcery cards from your graveyard to your hand. Exile Bond of Insight."
     ],
     "flavor_text": "\"Together we can unlock secrets no one has even dreamed of. I might even let you remember some of them.\"",
     "power": null,
@@ -2123,7 +2127,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "If you would draw a card while your library has no cards in it, you win the game instead.",
-      "+1: Target player puts the top two cards of their library into their graveyard. Draw a card.",
+      "+1: Target player mills two cards. Draw a card.",
       "−8: Draw seven cards. Then if your library has no cards in it, you win the game."
     ],
     "flavor_text": null,
@@ -2703,7 +2707,7 @@
     "rulings": [
       {
         "date": "5/3/2019",
-        "text": "Spark Double copies exactly what was printed on the original permanent (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether that permanent is tapped or untapped, whether it as any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on."
+        "text": "Spark Double copies exactly what was printed on the original permanent (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether that permanent is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on."
       },
       {
         "date": "5/3/2019",
@@ -2941,8 +2945,8 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Defender",
-      "When Wall of Runes enters the battlefield, scry 1."
+      "Defender (This creature can't attack.)",
+      "When Wall of Runes enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)"
     ],
     "flavor_text": "\"It's strangely satisfying seeing an undead killing machine from another world standing befuddled in front of a wall of text.\"\n—Lavinia",
     "power": "0",
@@ -2991,7 +2995,7 @@
     "supertypes": [],
     "subtypes": [
       "Nightmare",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "B",
@@ -3063,7 +3067,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "You may look at the top card of your library any time.",
-      "You may play the top card of your library. If you cast a spell this way, pay life equal to its converted mana cost rather than pay its mana cost.",
+      "You may play lands and cast spells from the top of your library. If you cast a spell this way, pay life equal to its converted mana cost rather than pay its mana cost.",
       "{T}, Sacrifice ten nonland permanents: Each opponent loses 10 life."
     ],
     "flavor_text": null,
@@ -4080,7 +4084,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "5/3/2019",
+        "date": "7/12/2019",
         "text": "If the target creature is an illegal target by the time Sorin’s Thirst tries to resolve, the spell doesn’t resolve. You won’t gain 2 life."
       }
     ]
@@ -4228,7 +4232,7 @@
     "mana_cost": "1B",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target creature gets +2/+0 and gains indestructible until end of turn. (Damage and  effects that say \"destroy\" don't destroy it.)"
+      "Target creature gets +2/+0 and gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)"
     ],
     "flavor_text": "\"No one will ever ride me again, Gideon. Expect no further favors.\"\n—Rakdos",
     "power": null,
@@ -4266,7 +4270,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "5/3/2019",
+        "date": "7/12/2019",
         "text": "In a Two-Headed Giant game, Vampire Opportunist’s ability causes the opposing team to lose 4 life and you gain 2 life."
       }
     ]
@@ -4657,7 +4661,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Chandra's Triumph deals 3 damage to target creature or planeswalker an opponent controls. Chandra's Triumph deals 5 damage to that permanent instead if you control a Chandra planeswalker."
+      "Chandra's Triumph deals 3 damage to target creature or planeswalker an opponent controls. Chandra's Triumph deals 5 damage instead if you control a Chandra planeswalker."
     ],
     "flavor_text": "Her triumph came not from achieving her ideal self, but from rejecting the idea of perfection.",
     "power": null,
@@ -4797,7 +4801,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Trample",
-      "Whenever Dreadhorde Arcanist attacks, you may cast target instant or sorcery card with converted mana cost less than or equal to Dreadhorde Arcanist's power from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead."
+      "Whenever Dreadhorde Arcanist attacks, you may cast target instant or sorcery card with converted mana cost less than or equal to Dreadhorde Arcanist's power from your graveyard without paying its mana cost. If that spell would be put into your graveyard this turn, exile it instead."
     ],
     "flavor_text": null,
     "power": "1",
@@ -4886,7 +4890,7 @@
     "mana_cost": "XRR",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "You may cast up to one target instant card and/or up to one target sorcery card from your graveyard each with converted mana cost X or less without paying their mana costs. If a card cast this way would be put into your graveyard this turn, exile it instead. If X is 10 or more, copy each of those spells twice. You may choose new targets for the copies."
+      "You may cast up to one target instant card and/or up to one target sorcery card from your graveyard each with converted mana cost X or less without paying their mana costs. If a spell cast this way would be put into your graveyard this turn, exile it instead. If X is 10 or more, copy each of those spells twice. You may choose new targets for the copies."
     ],
     "flavor_text": null,
     "power": null,
@@ -5598,8 +5602,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "5/3/2019",
-        "text": "Spellgorger Weird’s ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered."
+        "date": "6/23/2020",
+        "text": "An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered."
       }
     ]
   },
@@ -5687,7 +5691,7 @@
     "mana_cost": "3R",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Reach",
+      "Reach (This creature can block creatures with flying.)",
       "When Turret Ogre enters the battlefield, if you control another creature with power 4 or greater, Turret Ogre deals 2 damage to each opponent."
     ],
     "flavor_text": "Common Gruul career aspirations: berserker, shaman, catapult.",
@@ -5699,15 +5703,15 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "5/3/2019",
+        "date": "6/23/2020",
         "text": "If you don’t control another creature with power 4 or greater immediately after Turret Ogre enters the battlefield, its ability doesn’t trigger, even if you can raise a creature’s power right away. If you control no other creature with power 4 or greater as the ability resolves, nothing happens. These don’t have to be the same creature, though."
       },
       {
-        "date": "5/3/2019",
-        "text": "Turret Ogre’s ability doesn’t deal more than 2 damage if you control more than one other creature with power 4 or greater."
+        "date": "6/23/2020",
+        "text": "Turret Ogre’s ability doesn’t deal more than 2 damage to each opponent if you control more than one other creature with power 4 or greater."
       },
       {
-        "date": "5/3/2019",
+        "date": "6/23/2020",
         "text": "In a Two-Headed Giant game, Turret Ogre’s ability causes the opposing team to lose 4 life."
       }
     ]
@@ -6424,13 +6428,13 @@
       "Legendary"
     ],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Uncommon",
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Trample, vigilance",
+      "Vigilance, trample",
       "If one or more +1/+1 counters would be put on Mowu, Loyal Companion, that many plus one +1/+1 counters are put on it instead."
     ],
     "flavor_text": "Wherever Yanggu goes, Mowu follows—sometimes at his side, sometimes obscuring him from view entirely.",
@@ -6778,7 +6782,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Reach",
+      "Reach (This creature can block creatures with flying.)",
       "Whenever Snarespinner blocks a creature with flying, Snarespinner gets +2/+0 until end of turn."
     ],
     "flavor_text": "\"Let's lure the drakes to the webs over the Samok Stand. Keep the spiders content.\"\n—Aurelia",
@@ -6907,7 +6911,7 @@
     "oracle_text": [
       "You may cast creature spells as though they had flash.",
       "+1: Until your next turn, up to one target creature gains vigilance and reach.",
-      "−2: Look at the top three cards of your library. Exile one face down and put the rest on the bottom of your library in any order. For as long as it remains exiled, you may look at that card and you may cast it if it's a creature card."
+      "−2: Look at the top three cards of your library. Exile one face down and put the rest on the bottom of your library in any order. For as long as it remains exiled, you may look at that card and you may cast it if it's a creature spell."
     ],
     "flavor_text": null,
     "power": null,
@@ -7463,7 +7467,7 @@
     "mana_cost": "2UUB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Enter the God-Eternals deals 4 damage to target creature and you gain life equal to the damage dealt this way. Target player puts the top four cards of their library into their graveyard. Amass 4. (Put four +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)"
+      "Enter the God-Eternals deals 4 damage to target creature and you gain life equal to the damage dealt this way. Target player mills four cards. Amass 4. (Put four +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -8176,6 +8180,10 @@
       {
         "date": "5/3/2019",
         "text": "The copies that Ral’s last ability creates are created on the stack, so they’re not “cast.” Abilities that trigger when a player casts a spell won’t trigger."
+      },
+      {
+        "date": "6/14/2019",
+        "text": "If an effect copies a card rather than a spell (such as that of God-Eternal Kefnet), this doesn’t cause Ral’s first ability to trigger. That ability will trigger if you cast the copy, however."
       }
     ]
   },
@@ -8840,7 +8848,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Spells and abilities your opponents control can't cause their controller to search their library.",
-      "−1: Target player puts the top four cards of their library into their graveyard. Then exile each opponent's graveyard."
+      "−1: Target player mills four cards. Then exile each opponent's graveyard."
     ],
     "flavor_text": null,
     "power": null,

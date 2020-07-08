@@ -15,8 +15,8 @@
     "mana_cost": "4WW",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Flying",
-      "Whenever one or more creatures you control attack, they gain indestructible until end of turn."
+      "Flying (This creature can't be blocked except by creatures with flying or reach.)",
+      "Whenever one or more creatures you control attack, they gain indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy them.)"
     ],
     "flavor_text": "\"No single arrow can pierce an entire flock.\"",
     "power": "5",
@@ -99,7 +99,7 @@
     "mana_cost": "4RR",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Flying",
+      "Flying (This creature can't be blocked except by creatures with flying or reach.)",
       "When Immortal Phoenix dies, return it to its owner's hand."
     ],
     "flavor_text": "Their fires burn quietly, allowing the phoenixes to glide silently through the canyon.",
@@ -109,7 +109,12 @@
     "multiverse_id": 456519,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "7/12/2019",
+        "text": "If Immortal Phoenix leaves the graveyard after it dies but before its triggered ability resolves, it won’t be returned to its owner’s hand."
+      }
+    ]
   },
   {
     "name": "Rampaging Brontodon",

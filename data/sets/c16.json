@@ -186,7 +186,7 @@
       },
       {
         "date": "11/8/2016",
-        "text": "Effects that reduce what you pay to cast a spell don’t affect its converted mana cost. Sublime Exhalation’s converted mana cost is 7, regardless of how many opponents you have or how much mana you spent to cast it."
+        "text": "Effects that reduce what you pay to cast a spell don’t affect its converted mana cost."
       }
     ]
   },
@@ -221,7 +221,7 @@
       },
       {
         "date": "11/8/2016",
-        "text": "Effects that reduce what you pay to cast a spell don’t affect its converted mana cost. Sublime Exhalation’s converted mana cost is 7, regardless of how many opponents you have or how much mana you spent to cast it."
+        "text": "Effects that reduce what you pay to cast a spell don’t affect its converted mana cost."
       }
     ]
   },
@@ -551,7 +551,7 @@
       },
       {
         "date": "11/8/2016",
-        "text": "Effects that reduce what you pay to cast a spell don’t affect its converted mana cost. Sublime Exhalation’s converted mana cost is 7, regardless of how many opponents you have or how much mana you spent to cast it."
+        "text": "Effects that reduce what you pay to cast a spell don’t affect its converted mana cost."
       }
     ]
   },
@@ -572,7 +572,7 @@
     "mana_cost": "2B",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "{2}{B}, {T}, Exile Magus of the Will: Until end of turn, you may play cards from your graveyard. If a card would be put into your graveyard from anywhere this turn, exile that card instead."
+      "{2}{B}, {T}, Exile Magus of the Will: Until end of turn, you may play lands and cast spells from your graveyard. If a card would be put into your graveyard from anywhere this turn, exile that card instead."
     ],
     "flavor_text": "\"These eyes have shown me the flaws of flesh.\"",
     "power": "3",
@@ -747,7 +747,7 @@
       },
       {
         "date": "11/8/2016",
-        "text": "Effects that reduce what you pay to cast a spell don’t affect its converted mana cost. Sublime Exhalation’s converted mana cost is 7, regardless of how many opponents you have or how much mana you spent to cast it."
+        "text": "Effects that reduce what you pay to cast a spell don’t affect its converted mana cost."
       }
     ]
   },
@@ -1012,7 +1012,7 @@
       },
       {
         "date": "11/8/2016",
-        "text": "Effects that reduce what you pay to cast a spell don’t affect its converted mana cost. Sublime Exhalation’s converted mana cost is 7, regardless of how many opponents you have or how much mana you spent to cast it."
+        "text": "Effects that reduce what you pay to cast a spell don’t affect its converted mana cost."
       }
     ]
   },
@@ -4835,7 +4835,7 @@
     "oracle_text": [
       "At the beginning of your upkeep, put a +1/+1 counter on Necroplasm.",
       "At the beginning of your end step, destroy each creature with converted mana cost equal to the number of +1/+1 counters on Necroplasm.",
-      "Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)"
+      "Dredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)"
     ],
     "flavor_text": null,
     "power": "1",
@@ -5189,8 +5189,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "10/4/2004",
-        "text": "All players discard, not just the player that was damaged."
+        "date": "7/12/2019",
+        "text": "If a player has fewer than seven cards in their library, that player loses the game after Dragon Mage’s triggered ability resolves. If each player loses the game this way, the game’s a draw."
       }
     ]
   },
@@ -6688,7 +6688,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/14/2017",
+        "date": "6/23/2020",
         "text": "If the target card is an illegal target when the ability tries to resolve, it won’t resolve and none of its effects will happen. No +1/+1 counter will be put on Scavenging Ooze and you won’t gain life. Notably, this means that if you activate Scavenging Ooze’s ability multiple times targeting the same creature card, only the first instance of the ability to resolve will have any effect."
       }
     ]
@@ -6854,7 +6854,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "Saproling creatures get +1/+1.",
+      "All Saprolings get +1/+1.",
       "Morph {3}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
       "When Thelonite Hermit is turned face up, create four 1/1 green Saproling creature tokens."
     ],
@@ -8125,44 +8125,40 @@
         "text": "Iroas’s last ability prevents all damage dealt to attacking creatures you control, not just combat damage."
       },
       {
-        "date": "4/26/2014",
-        "text": "The type-changing ability that can make the God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color."
+        "date": "1/24/2020",
+        "text": "Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield."
+        "date": "1/24/2020",
+        "text": "The type-changing ability that can make a God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color. It’s always a creature spell while it’s on the stack."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God stops being a creature, it loses the type creature and all creature subtypes. It continues to be a legendary enchantment."
+        "date": "1/24/2020",
+        "text": "As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won’t be counted when determining this."
       },
       {
-        "date": "4/26/2014",
+        "date": "1/24/2020",
+        "text": "When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield."
+      },
+      {
+        "date": "1/24/2020",
+        "text": "If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment."
+      },
+      {
+        "date": "1/24/2020",
         "text": "The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat."
+        "date": "1/24/2020",
+        "text": "If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won’t rejoin combat if it resumes being a creature later during that combat."
       },
       {
-        "date": "4/26/2014",
-        "text": "If a God is dealt damage, then stops being a creature, then becomes a creature again later in the same turn, the damage will still be marked on it. This is also true for any effects that were affecting the God when it was originally a creature. (Note that in most cases, the damage marked on the God won’t matter because it has indestructible.)"
+        "date": "1/24/2020",
+        "text": "Counters put on a God remain on it while it’s not a creature, even if they have no effect."
       },
       {
-        "date": "4/26/2014",
-        "text": "Your devotion to two colors is equal to the number of mana symbols that are the first color, the second color, or both colors among the mana costs of permanents you control. Specifically, a hybrid mana symbol counts only once toward your devotion to its two colors. For example, if the only nonland permanents you control are Pharika, God of Affliction and Golgari Guildmage (whose mana cost is {B/G}{B/G}), your devotion to black and green is four."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
-      },
-      {
-        "date": "4/26/2014",
-        "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
+        "date": "1/24/2020",
+        "text": "If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate."
       }
     ]
   },
@@ -10186,7 +10182,7 @@
     "mana_cost": "6",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "{5}, {T}: Target player puts the top X cards of their library into their graveyard, where X is the number of cards in that player's graveyard."
+      "{5}, {T}: Target player mills X cards, where X is the number of cards in that player's graveyard."
     ],
     "flavor_text": "As it spins, dead voices shriek in an ever-increasing cacophony, rending the mind asunder.",
     "power": null,
@@ -11033,6 +11029,18 @@
       {
         "date": "9/22/2011",
         "text": "In formats other than Commander, Command Tower’s ability produces no mana."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "The color identity of your commander is set before the game begins and doesn’t change during the game, even if your commander is in a hidden zone (like the hand or library) or an effect changes your commander’s color."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "If your commander is a card that has no colors in its color identity, Command Tower’s ability produces no mana. It doesn’t produce {C}."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "If you don’t have a commander, Command Tower’s ability produces no mana."
       }
     ]
   },
