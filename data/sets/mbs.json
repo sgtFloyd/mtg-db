@@ -184,7 +184,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Uncommon",
     "mana_cost": "2W",
@@ -715,7 +715,7 @@
     "mana_cost": "1UU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "At the beginning of your upkeep, you may have Cryptoplasm become a copy of another target creature. If you do, Cryptoplasm gains this ability."
+      "At the beginning of your upkeep, you may have Cryptoplasm become a copy of another target creature, except it has this ability."
     ],
     "flavor_text": "\"If left in the enemy's shape too long, it might be lost to them.\"\n—Vy Covalt, Neurok agent",
     "power": "2",
@@ -1268,7 +1268,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "5B",
@@ -1411,7 +1411,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player discards a card, then puts the top card of their library into their graveyard."
+      "Target player discards a card, then mills a card."
     ],
     "flavor_text": "\"Ours is a glorious transmission! Behold a future where all bow to the Father of Machines.\"\n—Isila, Priest of Sheoldred",
     "power": null,
@@ -1455,12 +1455,20 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/1/2011",
-        "text": "If an opponent controls a creature you own, that opponent will lose 2 life when that creature is put into your graveyard from the battlefield."
+        "date": "6/23/2020",
+        "text": "Massacre Wurm’s first ability affects only creatures your opponents control at the time it resolves. Creatures they begin to control later in the turn won’t get -2/-2."
       },
       {
-        "date": "6/1/2011",
-        "text": "If a creature an opponent controls is put into the graveyard from the battlefield at the same time as Massacre Wurm, its last ability will trigger."
+        "date": "6/23/2020",
+        "text": "Massacre Wurm’s triggered ability triggers if a creature an opponent controls dies for any reason, including from its first ability reducing its toughness to 0, as long as Massacre Wurm remains on the battlefield."
+      },
+      {
+        "date": "6/23/2020",
+        "text": "If a creature an opponent controls dies at the same time as Massacre Wurm, Massacre Wurm’s last ability triggers for that creature."
+      },
+      {
+        "date": "6/23/2020",
+        "text": "If your life total is brought to 0 or less at the same time that a creature an opponent controls is dealt lethal damage, you lose the game before Massacre Wurm’s last ability goes on the stack."
       }
     ]
   },
@@ -1954,7 +1962,7 @@
     "mana_cost": "3RR",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "At the beginning of your upkeep, you may look at the top card of your library. If it's an instant or sorcery card, you may cast it without paying its mana cost."
+      "At the beginning of your upkeep, you may look at the top card of your library. You may cast it without paying its mana cost if it's an instant or sorcery spell."
     ],
     "flavor_text": "It chews open Mirrodin's husk and feeds on the outpouring of energy.",
     "power": "3",
@@ -3334,7 +3342,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{4}, {T}: Target opponent loses 2 life, gets a poison counter, then puts the top six cards of their library into their graveyard."
+      "{4}, {T}: Target opponent loses 2 life, gets a poison counter, then mills six cards."
     ],
     "flavor_text": "Mycosynth grew unfettered beneath the black lacuna, metastasizing into a matrix of noxious energy.",
     "power": null,
@@ -3356,7 +3364,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "4",
@@ -3501,7 +3509,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Imprint — When Knowledge Pool enters the battlefield, each player exiles the top three cards of their library.",
-      "Whenever a player casts a spell from their hand, that player exiles it. If the player does, they may cast another nonland card exiled with Knowledge Pool without paying that card's mana cost."
+      "Whenever a player casts a spell from their hand, that player exiles it. If the player does, they may cast a spell from among other cards exiled with Knowledge Pool without paying its mana cost."
     ],
     "flavor_text": null,
     "power": null,
@@ -4150,7 +4158,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Shriekhorn enters the battlefield with three charge counters on it.",
-      "{T}, Remove a charge counter from Shriekhorn: Target player puts the top two cards of their library into their graveyard."
+      "{T}, Remove a charge counter from Shriekhorn: Target player mills two cards."
     ],
     "flavor_text": null,
     "power": null,

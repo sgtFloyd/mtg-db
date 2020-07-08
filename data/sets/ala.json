@@ -1256,7 +1256,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "{T}: Target player puts the top card of their library into their graveyard."
+      "{T}: Target player mills a card."
     ],
     "flavor_text": "\"Forget. Only then will there be space for hope between the pain and fear.\"",
     "power": "1",
@@ -1884,7 +1884,7 @@
     "mana_cost": "1UU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever an opponent casts a spell, that player puts the top two cards of their library into their graveyard."
+      "Whenever an opponent casts a spell, that player mills two cards."
     ],
     "flavor_text": "\"The Filigree Texts do not compel you to act in accordance with their precepts. They only specify the consequences should you fail.\"\n—Lodus of the Ethersworn",
     "power": null,
@@ -2552,16 +2552,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/14/2017",
+        "date": "7/12/2019",
         "text": "You must sacrifice exactly one creature to cast this spell; you can’t cast it without sacrificing a creature, and you can’t sacrifice additional creatures."
       },
       {
-        "date": "3/14/2017",
+        "date": "7/12/2019",
         "text": "Once you begin to cast Bone Splinters, no player may take actions until you’re done. Notably, opponents can’t try to remove the creature you wish to sacrifice."
-      },
-      {
-        "date": "3/14/2017",
-        "text": "You can cast Bone Splinters targeting the creature you intend to sacrifice for its cost. This is because targets are chosen before costs are paid. Bone Splinters won’t resolve as it tries to resolve in this case."
       }
     ]
   },
@@ -5829,7 +5825,7 @@
     "mana_cost": "WWUUUBB",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "Exile the top five cards of your library. An opponent separates those cards into two piles. You may play any number of cards from one of those piles without paying their mana costs."
+      "Exile the top five cards of your library. An opponent separates those cards into two piles. You may play lands and cast spells from one of those piles. If you cast a spell this way, you cast it without paying its mana cost."
     ],
     "flavor_text": "Revealing the truth only deepened Tezzeret's curiosity for the secrets still buried.",
     "power": null,

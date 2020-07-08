@@ -691,7 +691,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{U}, Sacrifice Enigma Eidolon: Target player puts the top three cards of their library into their graveyard.",
+      "{U}, Sacrifice Enigma Eidolon: Target player mills three cards.",
       "Whenever you cast a multicolored spell, you may return Enigma Eidolon from your graveyard to your hand."
     ],
     "flavor_text": null,
@@ -1752,7 +1752,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "Cackling Flames deals 3 damage to any target.",
-      "Hellbent — Cackling Flames deals 5 damage to that permanent or player instead if you have no cards in hand."
+      "Hellbent — Cackling Flames deals 5 damage instead if you have no cards in hand."
     ],
     "flavor_text": "\"I like a little entertainment with my dinner.\"\n—Rakdos",
     "power": null,
@@ -2229,7 +2229,7 @@
     "mana_cost": "2RR",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{2}{R}, Discard a card at random: Stormscale Anarch deals 2 damage to any target. If the discarded card was multicolored, Stormscale Anarch deals 4 damage to that permanent or player instead."
+      "{2}{R}, Discard a card at random: Stormscale Anarch deals 2 damage to any target. If the discarded card was multicolored, Stormscale Anarch deals 4 damage instead."
     ],
     "flavor_text": null,
     "power": "2",
@@ -2503,7 +2503,7 @@
     "rulings": [
       {
         "date": "5/1/2006",
-        "text": "If the enchanted permanent’s mana cost is {2}{W}{U}, this Aura’s controller adds {C}{C}{W}{U} to their mana pool. If its mana cost is {X}{G}, this Aura’s controller adds {G} to their mana pool. If its mana cost is (W/U)(W/U), this Aura’s controller chooses whether to add {W}{W}, {W}{U}, or {U}{U} to their mana pool. The choice may be different each time the ability resolves."
+        "text": "If the enchanted permanent’s mana cost is {2}{W}{U}, this Aura’s controller adds {C}{C}{W}{U} to their mana pool. If its mana cost is {X}{G}, this Aura’s controller adds {G} to their mana pool. If its mana cost is {W/U}{W/U}, this Aura’s controller chooses whether to add {W}{W}, {W}{U}, or {U}{U} to their mana pool. The choice may be different each time the ability resolves."
       },
       {
         "date": "5/1/2006",
@@ -2655,8 +2655,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "5/1/2006",
-        "text": "Loaming Shaman’s controller chooses all the targets when the ability is put on the stack."
+        "date": "7/12/2019",
+        "text": "If Loaming Shaman’s triggered ability targets a player but doesn’t target any cards in that player’s graveyard, that player just shuffles their library."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "If the target cards become illegal targets, the target player shuffles their library. If the target player becomes an illegal target, Loaming Shaman’s ability has no effect."
       }
     ]
   },

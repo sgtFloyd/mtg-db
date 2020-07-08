@@ -1387,7 +1387,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "Flying",
-      "Metalcraft — Whenever Screeching Silcaw deals combat damage to a player, if you control three or more artifacts, that player puts the top four cards of their library into their graveyard."
+      "Metalcraft — Whenever Screeching Silcaw deals combat damage to a player, if you control three or more artifacts, that player mills four cards."
     ],
     "flavor_text": "It's adaptively deaf to its own cries.",
     "power": "1",
@@ -2199,7 +2199,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)",
-      "{X}{B}: Put target artifact or creature card with converted mana cost X from an opponent's graveyard onto the battlefield under your control tapped. Then that player puts the top X cards of their library into their graveyard."
+      "{X}{B}: Put target artifact or creature card with converted mana cost X from an opponent's graveyard onto the battlefield under your control tapped. Then that player mills X cards."
     ],
     "flavor_text": null,
     "power": "5",
@@ -3183,7 +3183,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Galvanic Blast deals 2 damage to any target.",
-      "Metalcraft — Galvanic Blast deals 4 damage to that permanent or player instead if you control three or more artifacts."
+      "Metalcraft — Galvanic Blast deals 4 damage instead if you control three or more artifacts."
     ],
     "flavor_text": "Mirrodin has little weather, but it certainly has lightning.",
     "power": null,
@@ -3699,12 +3699,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "1/1/2011",
-        "text": "You may target any creature, not just one with Equipment attached to it. The targeted creature will still be dealt damage even if no Equipment is attached to it."
+        "date": "6/23/2020",
+        "text": "Turn to Slag can target a creature that has no Equipment attached to it."
       },
       {
-        "date": "1/1/2011",
-        "text": "If the targeted creature is an illegal target by the time Turn to Slag resolves, the spell doesn’t resolve. No Equipment is destroyed."
+        "date": "6/23/2020",
+        "text": "If the target creature is an illegal target by the time Turn to Slag tries to resolve, the spell won’t resolve. You won’t destroy any Equipment."
       }
     ]
   },
@@ -5239,7 +5239,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "4",
@@ -5843,7 +5843,7 @@
     "converted_mana_cost": 2,
     "oracle_text": [
       "{T}: Put a charge counter on Grindclock.",
-      "{T}: Target player puts the top X cards of their library into their graveyard, where X is the number of charge counters on Grindclock."
+      "{T}: Target player mills X cards, where X is the number of charge counters on Grindclock."
     ],
     "flavor_text": "Pray you never hear it chime.",
     "power": null,
@@ -7628,7 +7628,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "Equipped creature gets +2/+2 and has protection from green and from blue.",
-      "Whenever equipped creature deals combat damage to a player, you create a 2/2 green Wolf creature token and that player puts the top ten cards of their library into their graveyard.",
+      "Whenever equipped creature deals combat damage to a player, you create a 2/2 green Wolf creature token and that player mills ten cards.",
       "Equip {2}"
     ],
     "flavor_text": null,

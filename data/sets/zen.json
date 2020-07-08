@@ -68,7 +68,7 @@
       },
       {
         "date": "10/1/2009",
-        "text": "The number of targets must be at least 1 and at most 5. You divide the damage as you cast Arrow Volley Trap, not as it resolves. Each target must be assigned at least 1 damage."
+        "text": "You divide the damage as you cast Arrow Volley Trap, not as it resolves. Each target must be assigned at least 1 damage."
       }
     ]
   },
@@ -830,10 +830,6 @@
       {
         "date": "3/16/2018",
         "text": "You can activate Luminarch Ascension’s last ability during the end step in which it receives its fourth quest counter."
-      },
-      {
-        "date": "3/16/2018",
-        "text": "In a Two-Headed Giant game, Luminarch Ascension’s first ability will trigger twice at the beginning of the opposing team’s end step if you didn’t lose life that turn. It doesn’t matter whether your teammate lost life or not."
       }
     ]
   },
@@ -1331,7 +1327,7 @@
     "converted_mana_cost": 5,
     "oracle_text": [
       "If an opponent searched their library this turn, you may pay {0} rather than pay this spell's mana cost.",
-      "Target opponent puts the top thirteen cards of their library into their graveyard."
+      "Target opponent mills thirteen cards."
     ],
     "flavor_text": null,
     "power": null,
@@ -1565,7 +1561,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Landfall — Whenever a land enters the battlefield under your control, target player puts the top three cards of their library into their graveyard."
+      "Landfall — Whenever a land enters the battlefield under your control, target player mills three cards."
     ],
     "flavor_text": "Hedrons perplex minds both great and small.",
     "power": "0",
@@ -4059,7 +4055,7 @@
     "converted_mana_cost": 1,
     "oracle_text": [
       "Kicker {4} (You may pay an additional {4} as you cast this spell.)",
-      "Burst Lightning deals 2 damage to any target. If this spell was kicked, it deals 4 damage to that permanent or player instead."
+      "Burst Lightning deals 2 damage to any target. If this spell was kicked, it deals 4 damage instead."
     ],
     "flavor_text": null,
     "power": null,
@@ -4421,7 +4417,7 @@
     "supertypes": [],
     "subtypes": [
       "Elemental",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Uncommon",
     "mana_cost": "2R",
@@ -6027,7 +6023,7 @@
     "oracle_text": [
       "You may play an additional land on each of your turns.",
       "Play with the top card of your library revealed.",
-      "You may play the top card of your library if it's a land card."
+      "You may play lands from the top of your library."
     ],
     "flavor_text": null,
     "power": "2",

@@ -673,7 +673,7 @@
     "rulings": [
       {
         "date": "6/8/2016",
-        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans and “scryed” if applicable. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
       }
     ]
   },
@@ -1874,7 +1874,7 @@
     "oracle_text": [
       "+2: Each player draws a card.",
       "−1: Target player draws a card.",
-      "−10: Target player puts the top twenty cards of their library into their graveyard."
+      "−10: Target player mills twenty cards."
     ],
     "flavor_text": null,
     "power": null,
@@ -1904,7 +1904,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever you draw a card, you may have target player put the top card of their library into their graveyard."
+      "Whenever you draw a card, you may have target player mill a card."
     ],
     "flavor_text": "\"You should try to clear your mind of idle thoughts. And if you can't, I will.\"",
     "power": null,
@@ -1964,7 +1964,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "If Leyline of Anticipation is in your opening hand, you may begin the game with it on the battlefield.",
-      "You may cast spells as though they had flash. (You may cast them any time you could cast an instant.)"
+      "You may cast spells as though they had flash."
     ],
     "flavor_text": null,
     "power": null,
@@ -1976,7 +1976,7 @@
     "rulings": [
       {
         "date": "6/8/2016",
-        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans and “scryed” if applicable. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
       }
     ]
   },
@@ -2083,7 +2083,8 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Merfolk"
+      "Merfolk",
+      "Noble"
     ],
     "rarity": "Rare",
     "mana_cost": "1UU",
@@ -2467,7 +2468,7 @@
     "mana_cost": "U",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Target player puts the top five cards of their library into their graveyard."
+      "Target player mills five cards."
     ],
     "flavor_text": "Genius is overrated, especially when it's someone else's.",
     "power": null,
@@ -2497,7 +2498,7 @@
     "mana_cost": "3UU",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Target player puts the top half of their library, rounded down, into their graveyard."
+      "Target player mills half their library, rounded down."
     ],
     "flavor_text": "He was left with just enough memory to understand what he had lost.",
     "power": null,
@@ -3238,24 +3239,20 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "2/1/2006",
-        "text": "Leyline of the Void affects cards that would be put into opponents’ graveyards from anywhere, not just from the battlefield."
-      },
-      {
-        "date": "8/15/2010",
-        "text": "Leyline of the Void’s second ability prevents cards from ever reaching your opponents’ graveyards. Abilities that would trigger when those cards are put into an opponent’s graveyard (such as Hoarding Dragon’s last ability) won’t trigger."
-      },
-      {
-        "date": "8/15/2010",
-        "text": "Leyline of the Void’s second ability doesn’t affect token permanents that would be put into an opponent’s graveyard from the battlefield. They’ll be put into that graveyard as normal (causing any applicable triggered abilities to trigger), then they’ll cease to exist."
-      },
-      {
         "date": "8/15/2010",
         "text": "If your opponent discards a card while you control Leyline of the Void, abilities that function when that card is discarded (such as Liliana’s Caress’s ability, or a madness ability of the discarded card) still work, even though that card never reaches that player’s graveyard. In addition, spells or abilities that check the characteristics of the discarded card (such as Chandra Ablaze’s first ability) can find that card in exile."
       },
       {
         "date": "6/8/2016",
-        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans and “scryed” if applicable. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "While Leyline of the Void is on the battlefield, nontoken creatures your opponents control won’t die. They’ll be exiled instead. Abilities that would trigger when those creatures die won’t trigger."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "Tokens still die while Leyline of the Void is on the battlefield."
       }
     ]
   },
@@ -3897,7 +3894,7 @@
     "mana_cost": "2R",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn."
+      "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)"
     ],
     "flavor_text": "\"Rage courses in every heart, yearning to betray its rational prison.\"\n—Sarkhan Vol",
     "power": null,
@@ -3908,11 +3905,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "Act of Treason can target any creature, even one that’s untapped or one you already control."
       },
       {
-        "date": "1/25/2019",
+        "date": "7/12/2019",
         "text": "Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it."
       }
     ]
@@ -4148,8 +4145,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/16/2018",
-        "text": "If the target creature is an illegal target by the time Chandra’s Outrage resolves, the spell doesn’t resolve. No player is dealt damage."
+        "date": "7/12/2019",
+        "text": "If the target creature is an illegal target by the time Chandra’s Outrage tries to resolve, the spell doesn’t resolve. No player is dealt damage."
       }
     ]
   },
@@ -4181,16 +4178,16 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "8/15/2010",
-        "text": "Combat damage is the damage that’s dealt automatically by attacking and blocking creatures, even if it’s redirected (by Harm’s Way, perhaps). Noncombat damage is any other damage (generally, it’s damage dealt as the result of a spell or ability)."
+        "date": "7/12/2019",
+        "text": "Combat damage is the damage that’s dealt automatically by attacking and blocking creatures. Any other damage is noncombat damage, even if it’s dealt during a combat phase by an attacking or blocking creature."
       },
       {
-        "date": "8/15/2010",
-        "text": "The ability triggers just once for each event in which an opponent is dealt noncombat damage, regardless of how much damage that player is dealt. For example, if Lava Axe deals 5 damage to an opponent, Chandra’s Spitfire gets just +3/+0."
+        "date": "7/12/2019",
+        "text": "The last ability of Chandra’s Spitfire triggers just once for each event in which an opponent is dealt noncombat damage, regardless of how much damage that player is dealt."
       },
       {
-        "date": "8/15/2010",
-        "text": "In a multiplayer game, if a source such as Earthquake deals damage to multiple opponents at the same time, the ability will trigger that many times."
+        "date": "7/12/2019",
+        "text": "In a multiplayer game, if a source deals damage to multiple opponents at the same time, the last ability of Chandra’s Spitfire will trigger as many times as there are opponents who were dealt damage."
       }
     ]
   },
@@ -4411,7 +4408,7 @@
     "supertypes": [],
     "subtypes": [
       "Elemental",
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "1RR",
@@ -4545,20 +4542,16 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "8/15/2010",
+        "date": "10/4/2019",
         "text": "The sacrificed creature’s last known existence on the battlefield is checked to determine its power."
       },
       {
-        "date": "8/15/2010",
-        "text": "If you sacrifice an attacking or blocking creature during the declare blockers step, it won’t deal combat damage. If you wait until the combat damage step, but that creature is dealt lethal damage, it’ll be destroyed before you get a chance to sacrifice it."
+        "date": "10/4/2019",
+        "text": "You must sacrifice exactly one creature to cast this spell; you can’t cast it without sacrificing a creature, and you can’t sacrifice additional creatures."
       },
       {
-        "date": "4/15/2013",
-        "text": "You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures."
-      },
-      {
-        "date": "4/15/2013",
-        "text": "Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell."
+        "date": "10/4/2019",
+        "text": "Players can only respond once this spell has been cast and all its costs have been paid. No one can try to interfere with the creature you sacrificed to prevent you from casting this spell."
       }
     ]
   },
@@ -4892,7 +4885,7 @@
       },
       {
         "date": "6/8/2016",
-        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans and “scryed” if applicable. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
       }
     ]
   },
@@ -5365,7 +5358,7 @@
       },
       {
         "date": "8/15/2010",
-        "text": "If a creature you control is being targeted by a spell when Autumn’s Veil resolves, nothing happens right away. When that spell would resolve, its color is checked. If it’s blue or black, that creature will be an illegal target for that spell, and will be unable to be affected by it. If all that spell’s targets have become illegal by the time it would resolve, it’s countered."
+        "text": "If a creature you control is being targeted by a spell when Autumn’s Veil resolves, nothing happens right away. When that spell would resolve, its color is checked. If it’s blue or black, that creature will be an illegal target for that spell, and will be unable to be affected by it. If all that spell’s targets have become illegal by the time it would resolve, it won’t resolve."
       },
       {
         "date": "8/15/2010",
@@ -6059,7 +6052,7 @@
       },
       {
         "date": "6/8/2016",
-        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans and “scryed” if applicable. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
       }
     ]
   },
@@ -6358,16 +6351,12 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "10/1/2009",
-        "text": "Prized Unicorn doesn’t give a creature the ability to block it. It just forces those creatures that are already able to block it to do so. For example, it can’t force a creature that’s tapped or affected by a spell or ability that says it can’t block to block it. If there’s a cost associated with having a creature block, its controller isn’t forced to pay that cost, so the creature doesn’t have to block Prized Unicorn in that case either."
+        "date": "7/12/2019",
+        "text": "If a creature the defending player controls can’t block Prized Unicorn for any reason (such as being tapped), then it doesn’t block Prized Unicorn. If there’s a cost associated with having a creature block Prized Unicorn, the defending player isn’t forced to pay that cost, so it doesn’t have to block."
       },
       {
-        "date": "10/1/2009",
-        "text": "If a creature the defending player controls can’t block Prized Unicorn, it can block any attacking creature, or not block at all."
-      },
-      {
-        "date": "10/1/2009",
-        "text": "If two Prized Unicorns are attacking, each creature the defending player controls can block either one of them. (The defending player chooses.) A creature that can block multiple creatures, like Palace Guard, must block both of them."
+        "date": "7/12/2019",
+        "text": "If more than one Prized Unicorn is attacking, creatures that could block must block one Prized Unicorn, but they don’t all have to block the same Prized Unicorn."
       }
     ]
   },
@@ -7061,8 +7050,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "8/15/2010",
-        "text": "Steel Overseer is affected by its own ability (assuming that, by the time the ability resolves, you still control Steel Overseer and its types haven’t changed). You’ll put a +1/+1 counter on it, as well as on each other artifact creature you control."
+        "date": "7/12/2019",
+        "text": "Steel Overseer’s ability puts a +1/+1 counter on each artifact creature you control, including Steel Overseer."
       }
     ]
   },

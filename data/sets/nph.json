@@ -293,7 +293,7 @@
       },
       {
         "date": "6/8/2016",
-        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans and “scryed” if applicable. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
       }
     ]
   },
@@ -612,7 +612,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "When Master Splicer enters the battlefield, create a 3/3 colorless Golem artifact creature token.",
-      "Golem creatures you control get +1/+1."
+      "Golems you control get +1/+1."
     ],
     "flavor_text": "With Phyrexia's victory at hand, each sect began perfecting its vision.",
     "power": "1",
@@ -623,8 +623,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/14/2017",
-        "text": "If a creature has been dealt damage, that damage remains marked on it until the cleanup step. If Master Splicer leaves the battlefield and a Golem creature you control has been dealt damage, that creature will be destroyed if the damage is now lethal. Similarly, if that causes a Golem to have 0 toughness, it’s put into its owner’s graveyard."
+        "date": "7/12/2019",
+        "text": "Because damage remains marked on a creature until it’s removed as the turn ends, nonlethal damage dealt to Golems you control may become lethal if Master Splicer leaves the battlefield during that turn."
       }
     ]
   },
@@ -1155,7 +1155,7 @@
     "mana_cost": "4UUU",
     "converted_mana_cost": 7,
     "oracle_text": [
-      "You may reveal this card from your opening hand. If you do, at the beginning of the first upkeep, each opponent puts the top seven cards of their library into their graveyard.",
+      "You may reveal this card from your opening hand. If you do, at the beginning of the first upkeep, each opponent mills seven cards.",
       "Flying",
       "When Chancellor of the Spires enters the battlefield, you may cast target instant or sorcery card from an opponent's graveyard without paying its mana cost."
     ],
@@ -1189,7 +1189,7 @@
       },
       {
         "date": "6/8/2016",
-        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans and “scryed” if applicable. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
       }
     ]
   },
@@ -2049,7 +2049,7 @@
     "rulings": [
       {
         "date": "6/8/2016",
-        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans and “scryed” if applicable. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
       }
     ]
   },
@@ -2439,7 +2439,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "3B",
@@ -3077,7 +3077,7 @@
       },
       {
         "date": "6/8/2016",
-        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans and “scryed” if applicable. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
       }
     ]
   },
@@ -3948,7 +3948,7 @@
     "rulings": [
       {
         "date": "6/8/2016",
-        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans and “scryed” if applicable. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
       }
     ]
   },
@@ -5022,7 +5022,7 @@
     ],
     "supertypes": [],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Common",
     "mana_cost": "2",
@@ -5163,7 +5163,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Whenever an opponent loses life, that player puts that many cards from the top of their library into their graveyard. (Damage dealt by sources without infect causes loss of life.)"
+      "Whenever an opponent loses life, that player mills that many cards. (Damage dealt by sources without infect causes loss of life.)"
     ],
     "flavor_text": "\"Let go of your memories and be reborn.\"\n—Argent Etchings, plate 106, passage 27",
     "power": null,
@@ -5226,7 +5226,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Spend only mana produced by creatures to cast Myr Superion."
+      "Spend only mana produced by creatures to cast this spell."
     ],
     "flavor_text": "Two kinds of myr survive: the powerful and those that stay close by them.",
     "power": "5",

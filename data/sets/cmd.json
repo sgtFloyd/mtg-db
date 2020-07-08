@@ -1471,7 +1471,7 @@
     "mana_cost": "2UU",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "At the beginning of each player's upkeep, that player puts the top X cards of their library into their graveyard, where X is the number of cards in their hand."
+      "At the beginning of each player's upkeep, that player mills X cards, where X is the number of cards in their hand."
     ],
     "flavor_text": "\"Her voice is insight, piercing and true.\"\n—Ixidor, reality sculptor",
     "power": "2",
@@ -1507,11 +1507,11 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "6/8/2016",
+        "date": "6/14/2019",
         "text": "You choose which pile to put into your hand."
       },
       {
-        "date": "6/8/2016",
+        "date": "6/14/2019",
         "text": "Each pile may contain from zero to five cards; they don’t have to be split “evenly.”"
       }
     ]
@@ -1675,7 +1675,7 @@
     "mana_cost": "1UU",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever an opponent casts a spell, that player puts the top two cards of their library into their graveyard."
+      "Whenever an opponent casts a spell, that player mills two cards."
     ],
     "flavor_text": "\"The Filigree Texts do not compel you to act in accordance with their precepts. They only specify the consequences should you fail.\"\n—Lodus of the Ethersworn",
     "power": null,
@@ -1978,7 +1978,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Whenever a creature attacks you or a planeswalker you control, that creature's controller puts the top two cards of their library into their graveyard."
+      "Whenever a creature attacks you or a planeswalker you control, that creature's controller mills two cards."
     ],
     "flavor_text": "Fools surrender their sanity to his riddles. Even greater fools try to solve them.",
     "power": "1",
@@ -2661,7 +2661,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Flying",
-      "Whenever another creature leaves the battlefield, you may have target player put the top two cards of their library into their graveyard.",
+      "Whenever another creature leaves the battlefield, you may have target player mill two cards.",
       "Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"
     ],
     "flavor_text": null,
@@ -3294,7 +3294,7 @@
     "oracle_text": [
       "As Sewer Nemesis enters the battlefield, choose a player.",
       "Sewer Nemesis's power and toughness are each equal to the number of cards in the chosen player's graveyard.",
-      "Whenever the chosen player casts a spell, that player puts the top card of their library into their graveyard."
+      "Whenever the chosen player casts a spell, that player mills a card."
     ],
     "flavor_text": null,
     "power": "*",
@@ -3324,7 +3324,7 @@
     "mana_cost": "B",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Join forces — Starting with you, each player may pay any amount of mana. Each player puts the top X cards of their library into their graveyard, where X is the total amount of mana paid this way."
+      "Join forces — Starting with you, each player may pay any amount of mana. Each player mills X cards, where X is the total amount of mana paid this way."
     ],
     "flavor_text": null,
     "power": null,
@@ -5179,7 +5179,12 @@
     "multiverse_id": 247404,
     "other_part": null,
     "color_indicator": null,
-    "rulings": []
+    "rulings": [
+      {
+        "date": "6/23/2020",
+        "text": "If a card in a player’s library has {X} in its mana cost, X is considered to be 0."
+      }
+    ]
   },
   {
     "name": "Fists of Ironwood",
@@ -5674,7 +5679,7 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/14/2017",
+        "date": "6/23/2020",
         "text": "If the target card is an illegal target when the ability tries to resolve, it won’t resolve and none of its effects will happen. No +1/+1 counter will be put on Scavenging Ooze and you won’t gain life. Notably, this means that if you activate Scavenging Ooze’s ability multiple times targeting the same creature card, only the first instance of the ability to resolve will have any effect."
       }
     ]
@@ -6687,7 +6692,7 @@
     "mana_cost": "2{R/G}",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Firespout deals 3 damage to each creature without flying if {R} was spent to cast Firespout and 3 damage to each creature with flying if {G} was spent to cast it. (Do both if {R}{G} was spent.)"
+      "Firespout deals 3 damage to each creature without flying if {R} was spent to cast this spell and 3 damage to each creature with flying if {G} was spent to cast this spell. (Do both if {R}{G} was spent.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -6977,7 +6982,7 @@
     "converted_mana_cost": 8,
     "oracle_text": [
       "This spell costs {1} less to cast for each creature card in your graveyard.",
-      "During each of your turns, you may cast one creature card from your graveyard."
+      "During each of your turns, you may cast a creature spell from your graveyard."
     ],
     "flavor_text": "\"Death tried to uncrown me. But now I return, king of a greater realm.\"",
     "power": "3",
@@ -7787,7 +7792,7 @@
     "converted_mana_cost": 7,
     "oracle_text": [
       "Flying",
-      "If Szadek, Lord of Secrets would deal combat damage to a player, instead put that many +1/+1 counters on Szadek and that player puts that many cards from the top of their library into their graveyard."
+      "If Szadek, Lord of Secrets would deal combat damage to a player, instead put that many +1/+1 counters on Szadek and that player mills that many cards."
     ],
     "flavor_text": null,
     "power": "5",
@@ -8169,7 +8174,7 @@
     "converted_mana_cost": 6,
     "oracle_text": [
       "Islandwalk, swampwalk (This creature can't be blocked as long as defending player controls an Island or a Swamp.)",
-      "Whenever Wrexial, the Risen Deep deals combat damage to a player, you may cast target instant or sorcery card from that player's graveyard without paying its mana cost. If that card would be put into a graveyard this turn, exile it instead."
+      "Whenever Wrexial, the Risen Deep deals combat damage to a player, you may cast target instant or sorcery card from that player's graveyard without paying its mana cost. If that spell would be put into a graveyard this turn, exile it instead."
     ],
     "flavor_text": null,
     "power": "5",
@@ -8289,7 +8294,7 @@
     "mana_cost": "2",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "{2}, {T}, Sacrifice Armillary Sphere: Search your library for up to two basic land cards, reveal them, and put them into your hand. Then shuffle your library."
+      "{2}, {T}, Sacrifice Armillary Sphere: Search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle your library."
     ],
     "flavor_text": "The mysterious purpose of two of the rings had eluded Esper mages—until now.",
     "power": null,
@@ -9090,6 +9095,18 @@
       {
         "date": "9/22/2011",
         "text": "In formats other than Commander, Command Tower’s ability produces no mana."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "The color identity of your commander is set before the game begins and doesn’t change during the game, even if your commander is in a hidden zone (like the hand or library) or an effect changes your commander’s color."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "If your commander is a card that has no colors in its color identity, Command Tower’s ability produces no mana. It doesn’t produce {C}."
+      },
+      {
+        "date": "10/4/2019",
+        "text": "If you don’t have a commander, Command Tower’s ability produces no mana."
       }
     ]
   },

@@ -598,7 +598,7 @@
       "Legendary"
     ],
     "subtypes": [
-      "Hound"
+      "Dog"
     ],
     "rarity": "Rare",
     "mana_cost": "W",
@@ -1779,7 +1779,7 @@
     "mana_cost": "1U",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Target player puts the top four cards of their library into their graveyard.",
+      "Target player mills four cards.",
       "Splice onto Arcane {1}{U} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)"
     ],
     "flavor_text": null,
@@ -3085,7 +3085,7 @@
     "mana_cost": "4UU",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "End the turn. (Exile all spells and abilities on the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)"
+      "End the turn. (Exile all spells and abilities from the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -3916,7 +3916,7 @@
     "mana_cost": "3BB",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "Rat creatures have fear. (They can't be blocked except by artifact creatures and/or black creatures.)",
+      "All Rats have fear.",
       "{T}, Sacrifice a Rat: Create X 1/1 black Rat creature tokens, where X is the number of Rats you control."
     ],
     "flavor_text": "Marrow-Gnawer united three nezumi gangs when he slew their leaders in a single night. Now they call him their first lord.",
@@ -6464,8 +6464,8 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "3/16/2018",
-        "text": "Azusa’s ability is cumulative with other effects that allow you to play additional lands, such as that of Wayward Swordtooth (from the Rivals of Ixalan set)."
+        "date": "6/23/2020",
+        "text": "Azusa’s ability is cumulative with other effects that allow you to play additional lands, such as that of Song of Creation (from the Ikoria: Lair of Behemoths set)."
       }
     ]
   },
@@ -8052,7 +8052,7 @@
     "mana_cost": "6",
     "converted_mana_cost": 6,
     "oracle_text": [
-      "Tap an untapped creature you control: Target player puts the top card of their library into their graveyard."
+      "Tap an untapped creature you control: Target player mills a card."
     ],
     "flavor_text": "\"The Kami War drove many members of Konda's court insane. As their spiritual world turned against them, so too did their minds turn from reality.\"\n—The History of Kamigawa",
     "power": null,
@@ -8560,7 +8560,7 @@
     "converted_mana_cost": 3,
     "oracle_text": [
       "{3}, {T}: Exile target instant or sorcery spell that targets you. (The spell has no effect.)",
-      "{3}, {T}, Sacrifice Shell of the Last Kappa: You may cast a card exiled with Shell of the Last Kappa without paying its mana cost."
+      "{3}, {T}, Sacrifice Shell of the Last Kappa: You may cast a spell from among cards exiled with Shell of the Last Kappa without paying its mana cost."
     ],
     "flavor_text": null,
     "power": null,
@@ -8656,7 +8656,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "If a player would draw a card, that player exiles that card face up instead.",
-      "Each player may play cards they exiled with Uba Mask this turn."
+      "Each player may play lands and cast spells from among cards they exiled with Uba Mask this turn."
     ],
     "flavor_text": null,
     "power": null,

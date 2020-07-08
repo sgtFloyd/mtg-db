@@ -1746,7 +1746,7 @@
     "mana_cost": "XU",
     "converted_mana_cost": 1,
     "oracle_text": [
-      "Counter target spell unless its controller pays {X}. Clash with an opponent. If you win, that spell's controller puts the top four cards of their library into their graveyard. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)"
+      "Counter target spell unless its controller pays {X}. Clash with an opponent. If you win, that spell's controller mills four cards. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)"
     ],
     "flavor_text": null,
     "power": null,
@@ -1902,7 +1902,7 @@
     "mana_cost": "2U",
     "converted_mana_cost": 3,
     "oracle_text": [
-      "Tap an untapped Merfolk you control: Target player puts the top card of their library into their graveyard."
+      "Tap an untapped Merfolk you control: Target player mills a card."
     ],
     "flavor_text": "Merrows consider themselves the keepers of Lorwyn's past—and consider it their duty to edit when necessary.",
     "power": "1",
@@ -2352,7 +2352,7 @@
     "oracle_text": [
       "+2: Each player draws a card.",
       "−1: Target player draws a card.",
-      "−10: Target player puts the top twenty cards of their library into their graveyard."
+      "−10: Target player mills twenty cards."
     ],
     "flavor_text": null,
     "power": null,
@@ -3483,7 +3483,7 @@
     "converted_mana_cost": 4,
     "oracle_text": [
       "When Colfenor's Plans enters the battlefield, exile the top seven cards of your library face down.",
-      "You may look at and play cards exiled with Colfenor's Plans.",
+      "You may look at the cards exiled with Colfenor's Plans, and you may play lands and cast spells from among those cards.",
       "Skip your draw step.",
       "You can't cast more than one spell each turn."
     ],
@@ -7260,7 +7260,7 @@
     "mana_cost": "1G",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "Choose a card name, then target player puts the top card of their library into their graveyard. If that card has the chosen name, you gain life equal to its converted mana cost.",
+      "Choose a card name, then target player mills a card. If a card with the chosen name was milled this way, you gain life equal to its converted mana cost.",
       "Draw a card."
     ],
     "flavor_text": "\"A ribbon torn will ward away dark dreams.\"",
@@ -8496,7 +8496,7 @@
     "mana_cost": "4",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "{1}, {T}: You may cast a nonland card from your hand without paying its mana cost if it has the same name as a spell that was cast this turn."
+      "{1}, {T}: You may cast a spell from your hand without paying its mana cost if it has the same name as a spell that was cast this turn."
     ],
     "flavor_text": "It takes two to craft a mirror: a practiced metalsmith to silver one side and her own hazy reflection to polish the other.",
     "power": null,
@@ -8517,10 +8517,6 @@
       {
         "date": "10/1/2007",
         "text": "You can’t pay any alternative costs (such as those from evoke or morph) when casting the card. On the other hand, if the card has additional costs (such as those from kicker or buyback), you may pay those."
-      },
-      {
-        "date": "10/1/2007",
-        "text": "If one half of a split card has been cast this turn, you may use Twinning Glass’s ability to cast either half of a split card with that name. For example, if Dead from Dead/Gone has been cast, you may use Twinning Glass’s ability to cast either Dead or Gone."
       }
     ]
   },

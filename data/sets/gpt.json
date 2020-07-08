@@ -326,7 +326,7 @@
       },
       {
         "date": "6/8/2016",
-        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans and “scryed” if applicable. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
       }
     ]
   },
@@ -887,7 +887,7 @@
       },
       {
         "date": "6/8/2016",
-        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans and “scryed” if applicable. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
       }
     ]
   },
@@ -1070,7 +1070,7 @@
     "mana_cost": "3U",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Steamcore Weird enters the battlefield, if {R} was spent to cast Steamcore Weird, it deals 2 damage to any target."
+      "When Steamcore Weird enters the battlefield, if {R} was spent to cast it, it deals 2 damage to any target."
     ],
     "flavor_text": "Like many Izzet creations, weirds are based on wild contradictions yet somehow manage to work.",
     "power": "1",
@@ -1570,24 +1570,20 @@
     "color_indicator": null,
     "rulings": [
       {
-        "date": "2/1/2006",
-        "text": "Leyline of the Void affects cards that would be put into opponents’ graveyards from anywhere, not just from the battlefield."
-      },
-      {
-        "date": "8/15/2010",
-        "text": "Leyline of the Void’s second ability prevents cards from ever reaching your opponents’ graveyards. Abilities that would trigger when those cards are put into an opponent’s graveyard (such as Hoarding Dragon’s last ability) won’t trigger."
-      },
-      {
-        "date": "8/15/2010",
-        "text": "Leyline of the Void’s second ability doesn’t affect token permanents that would be put into an opponent’s graveyard from the battlefield. They’ll be put into that graveyard as normal (causing any applicable triggered abilities to trigger), then they’ll cease to exist."
-      },
-      {
         "date": "8/15/2010",
         "text": "If your opponent discards a card while you control Leyline of the Void, abilities that function when that card is discarded (such as Liliana’s Caress’s ability, or a madness ability of the discarded card) still work, even though that card never reaches that player’s graveyard. In addition, spells or abilities that check the characteristics of the discarded card (such as Chandra Ablaze’s first ability) can find that card in exile."
       },
       {
         "date": "6/8/2016",
-        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans and “scryed” if applicable. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "While Leyline of the Void is on the battlefield, nontoken creatures your opponents control won’t die. They’ll be exiled instead. Abilities that would trigger when those creatures die won’t trigger."
+      },
+      {
+        "date": "7/12/2019",
+        "text": "Tokens still die while Leyline of the Void is on the battlefield."
       }
     ]
   },
@@ -2097,7 +2093,7 @@
       },
       {
         "date": "6/8/2016",
-        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans and “scryed” if applicable. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
       }
     ]
   },
@@ -2154,7 +2150,7 @@
     "mana_cost": "4R",
     "converted_mana_cost": 5,
     "oracle_text": [
-      "When Ogre Savant enters the battlefield, if {U} was spent to cast Ogre Savant, return target creature to its owner's hand."
+      "When Ogre Savant enters the battlefield, if {U} was spent to cast it, return target creature to its owner's hand."
     ],
     "flavor_text": "He's an oxymoron.",
     "power": "3",
@@ -2393,7 +2389,7 @@
     "mana_cost": "1R",
     "converted_mana_cost": 2,
     "oracle_text": [
-      "When Tin Street Hooligan enters the battlefield, if {G} was spent to cast Tin Street Hooligan, destroy target artifact."
+      "When Tin Street Hooligan enters the battlefield, if {G} was spent to cast it, destroy target artifact."
     ],
     "flavor_text": "\"Rauck-Chauv's like a holiday! Only it isn't on the calendars, and instead of dancing you knock people flat, and instead of giving gifts you break stuff.\"",
     "power": "2",
@@ -2738,7 +2734,7 @@
     "mana_cost": "3G",
     "converted_mana_cost": 4,
     "oracle_text": [
-      "When Gruul Scrapper enters the battlefield, if {R} was spent to cast Gruul Scrapper, it gains haste until end of turn."
+      "When Gruul Scrapper enters the battlefield, if {R} was spent to cast it, it gains haste until end of turn."
     ],
     "flavor_text": "The Gruul aren't satisfied with just smashing things. They continue smashing other things with the things they just smashed.",
     "power": "3",
@@ -2776,7 +2772,7 @@
     "rulings": [
       {
         "date": "6/8/2016",
-        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans and “scryed” if applicable. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
+        "text": "A player’s “opening hand” is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player’s opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins."
       }
     ]
   },
@@ -4989,7 +4985,7 @@
     "converted_mana_cost": 0,
     "oracle_text": [
       "{T}: Add {C}.",
-      "{2}{U}{R}, {T}: Exile the top card of your library. Until your next turn, you may cast that card if it's an instant or sorcery card."
+      "{2}{U}{R}, {T}: Exile the top card of your library. Until your next turn, you may cast it if it's an instant or sorcery spell."
     ],
     "flavor_text": "Niv-Mizzet's genius and vanity reverberate throughout the mirrored halls of Nivix.",
     "power": null,
