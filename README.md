@@ -7,7 +7,7 @@ Ruby gem containing structured data for all _Magic: The Gathering_ cards.
 Include in your [Gemfile]
 ```ruby
 source 'https://rubygems.org'
-gem 'mtg-db', '>= 2.4.0'
+gem 'mtg-db', '>= 2.4.1'
 ```
 or install from [Rubygems]
 ```bash
