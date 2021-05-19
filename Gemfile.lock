@@ -19,9 +19,9 @@ GEM
     celluloid-supervision (0.20.6)
       timers (>= 4.1.1)
     hitimes (1.2.6)
-    mini_portile2 (2.5.0)
+    mini_portile2 (2.5.1)
     multi_json (1.13.1)
-    nokogiri (1.11.1)
+    nokogiri (1.11.4)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     racc (1.5.2)
@@ -34,7 +34,7 @@ PLATFORMS
 DEPENDENCIES
   celluloid (= 0.17.3)
   multi_json (= 1.13.1)
-  nokogiri (~> 1.11.1)
+  nokogiri (~> 1.11.4)
 
 RUBY VERSION
    ruby 2.6.5p114
